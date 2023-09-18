@@ -17,15 +17,17 @@ Using Copilot inside a Codespace shows how easy it is to get up and running with
 
    ![Picture1](../media/vscodeextension.png)
 
-2. In the "Search Extensions in Marketplace" search box, search for the **GitHub Copilot Chat** extension, then click Install.
+2. In the "Search Extensions in Marketplace" search box, search for the **GitHub Copilot** extension, then click Install.
 
    ![Picture1](../media/copilotinstall.png)
 
-3. Now, from the left navigation pane click on the user icon and select **Sign in with Github to use Github copilot** and authorize Visual Studio Code with your github account.
+3. Again in the "Search Extensions in Marketplace" search box, search for the **GitHub Copilot Chat** extension, then click Install.
+  
+4. Now, from the left navigation pane click on the user icon and select **Sign in with Github to use Github copilot** and authorize Visual Studio Code with your github account.
 
    ![Picture1](../media/gitauth.png)
 
-4. To confirm that GitHub Copilot Chat has been successfully installed, in the activity bar on the left side of the Visual Studio Code window, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat chat window.
+5. To confirm that GitHub Copilot Chat has been successfully installed, in the activity bar on the left side of the Visual Studio Code window, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat chat window.
 
    ![Picture1](../media/)
 
