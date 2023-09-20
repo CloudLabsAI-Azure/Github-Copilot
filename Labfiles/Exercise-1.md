@@ -31,7 +31,7 @@ Using Copilot inside a Codespace shows how easy it is to get up and running with
 
    ![Picture1](../media/allow.png)
 
-5. In the sign in to Github page enter the GitHub credentials from the environment details page and click on **Sign in**.
+5. In the sign in to Github page enter the GitHub credentials from the Environment details page and click on **Sign in**.
 
    ![Picture1](../media/vsgitsignin1.png)
 
@@ -102,7 +102,7 @@ Using Copilot inside a Codespace shows how easy it is to get up and running with
 
 ## Task 5: Copilot code generation for different scenarios
 
-1. Now in the Visula Studio window, in the left navigation pane, under CloudLabs folder, click on **New file** and create a file named **rainbow.js**.
+1. Now in the Visula Studio Code window, in the left navigation pane, under CloudLabs folder, click on **New file** and create a file named **rainbow.js**.
 
    ![Picture1](../media/newfilera.png)
    
