@@ -15,37 +15,37 @@ Using Copilot inside a Codespace shows how easy it is to get up and running with
 
    ![Picture1](../media/VScodedektop1.png)
 
-3. In Visual Studio Code, open the Extensions view by clicking the Extensions icon in the activity bar on the left side of the Visual Studio Code window.
+2. In Visual Studio Code, open the Extensions view by clicking the Extensions icon in the activity bar on the left side of the Visual Studio Code window.
 
    ![Picture1](../media/vscodeextension.png)
 
-2. In the "Search Extensions in Marketplace" search box, search for the **GitHub Copilot** extension, then click Install.
+3. In the "Search Extensions in Marketplace" search box, search for the **GitHub Copilot** extension, then click Install.
 
    ![Picture1](../media/copilotinstall.png)
   
-3. Once the installation is complete, at the bottom right corner you will get a prompt to Sign in to GitHub.
+4. Once the installation is complete, at the bottom right corner you will get a prompt to Sign in to GitHub.
 
    ![Picture1](../media/signingit.png)
 
-4. Next, once you get the popup click on **Allow**
+5. Next, once you get the popup click on **Allow**
 
    ![Picture1](../media/allow.png)
 
-5. In the sign in to Github page enter the GitHub credentials from the Environment details page and click on **Sign in**.
+6. In the sign in to Github page enter the GitHub credentials from the Environment details page and click on **Sign in**.
 
    ![Picture1](../media/vsgitsignin1.png)
 
-6. Next, to get the authentication code sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials provided in the Environment details page and enter the verification code and click on **Verify**.
+7. Next, to get the authentication code sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials provided in the Environment details page and enter the verification code and click on **Verify**.
 
    ![Picture1](../media/authgit.png)
 
-7. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Open** to continue.
+8. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Open** to continue.
 
    ![Picture1](../media/open.png)
 
    ![Picture1](../media/vsopen.png)
 
-8. Restart the Visual Studio code and you will be able to see in the bottom right corner that Github Copilot has been activated.
+9. Restart the Visual Studio code and you will be able to see in the bottom right corner that Github Copilot has been activated.
 
    ![Picture1](../media/gitcoacti.png)
 
