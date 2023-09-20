@@ -80,7 +80,7 @@ Using Copilot inside a Codespace shows how easy it is to get up and running with
 
     ![Picture1](../media/codecomp.png)
 
-6. Now let's call the function **add**. Below the function that is generated, type add and press **tab** key twice. It will autofill the values. 
+6. Now let's call the function **add**. Below the function that is generated, type add and press the **tab** key twice. It will autofill the values. 
 
 7. Next, to print the output of the function, type **console** and press the **tab** key twice to accept the auto-filled code. The complete code will now look like as shown below.  
  
@@ -102,17 +102,26 @@ Using Copilot inside a Codespace shows how easy it is to get up and running with
 
 ## Task 5: Copilot code generation for different scenarios
 
-1. Now in the Visula Studio Code window, in the left navigation pane, under CloudLabs folder, click on **New file** and create a file named **rainbow.js**.
+1. Now in the Visual Studio Code window, in the left navigation pane, under CloudLabs folder, click on **New file** and create a file named **rainbow.js**.
 
    ![Picture1](../media/newfilera.png)
    
 3. In the code window of the new file that you just created, paste the following comment and press enter and it will give you the suggestion.To accept the suggestion press the **Tab** key.
     ```
-    //Generate an array of all the colors from the rainbow
+    //Generate a program to output the rainbow colors as a string.
    ```
-4. The code will look like as shown below.
+4. Keep pressing enter for the suggestions github copilot gives you until you see a complete code which will look like as shown below.
 
-   ![Picture1](../media/rainout.png)
+   ![Picture1](../media/rainfullcode.png)
+
+5. Now, open a new terminal window and paste the code as shown below to run the file to obtain the output.
+    ```
+    node rainbow.js
+    ```
+6. The output will be as shown below.
+
+    ![Picture1](../media/vibgoyr.png)
+
 
 ## Task 6: Write a function and use GitHub Copilot to suggest code
 
