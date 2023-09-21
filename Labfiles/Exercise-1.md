@@ -63,7 +63,7 @@ Using Copilot inside a Codespace shows how easy it is to get up and running with
 
    ![Picture1](../media/clfolderview.png)
 
-## Task 3: GitHub Copilot Code Generation
+## Task 3: GitHub Copilot Code Generation and review the code
 
 1. Let's start with something simple. Let's create a function to add two numbers.
 
@@ -84,26 +84,38 @@ Using Copilot inside a Codespace shows how easy it is to get up and running with
 
 7. Next, to print the output of the function, type **console** and press the **tab** key twice to accept the auto-filled code. The complete code will now look like as shown below.  
  
-   ![Picture1](../media/fullcode.png)
+    ![Picture1](../media/fullcode.png)
 
-8. Let's take another example to get the number of prime numbers from 1 to 50.
+8. Now, from the upper navigation pane, click on **Terminal** and select **New Terminal**. A terminal window will appear at the bottom of the screen. 
 
-9. Create a new file named **prime.js** in the CloudLabs Folder.
+    ![Picture1](../media/term.png)
+ 
+9. Now in the terminal window, make sure the directory path is in the CloudLabs folder. Copy the below command to obtain an output for the function that we generated. 
+   ```
+    node copilot.js
+   ```
+10. The output will be generated as shown in the figure below.
 
-10.  In the newly created JavaScript file, simply write a comment like as shown below.
+    ![Picture1](../media/outputfunc.png)   
+
+11. Let's take another example to get the number of prime numbers from 1 to 50.
+
+12. Create a new file named **prime.js** in the CloudLabs Folder.
+
+13.  In the newly created JavaScript file, simply write a comment like as shown below.
 
       ```
       //Write a complete program to print the number of prime numbers from 1 to 50
       ```
-11. Keep pressing enter and tab subsequently to accept the suggestions GitHub copilot gives you until you see a complete code which will look like as shown below.
+14. Keep pressing enter and tab subsequently to accept the suggestions GitHub copilot gives you until you see a complete code which will look like as shown below.
 
     ![Picture1](../media/prime1.png)
 
-13. Now, open a new terminal window and paste the code as shown below to run the file to obtain the output.
+15. Now, open a new terminal window and paste the code as shown below to run the file to obtain the output.
     ```
     node prime.js
     ```
-6. The output will be as shown below.
+16. The output will be as shown below.
 
     ![Picture1](../media/aprimeres.png)
 
