@@ -119,21 +119,7 @@ Using Copilot inside a Codespace shows how easy it is to get up and running with
 
     ![Picture1](../media/aprimeres.png)
 
-## Task 4: Review the generated code and understand how it works.
-
-1. Now, from the upper navigation pane, click on **Terminal** and select **New Terminal**. A terminal window will appear at the bottom of the screen. 
-
-   ![Picture1](../media/term.png)
- 
-2. Now in the terminal window, make sure the directory path is in the CloudLabs folder. Copy the below command to obtain an output for the function that we generated. 
-   ```
-    node copilot.js
-   ```
-3. The output will be generated as shown in the figure below.
-
-   ![Picture1](../media/outputfunc.png)
-
-## Task 5: Copilot code generation for different scenarios
+## Task 4: Copilot code generation for different scenarios
 
 1. Now in the Visual Studio Code window, in the left navigation pane, under CloudLabs folder, click on **New file** and create a file named **rainbow.js**.
 
@@ -156,7 +142,7 @@ Using Copilot inside a Codespace shows how easy it is to get up and running with
     ![Picture1](../media/vibgoyr.png)
 
 
-## Task 6: Write a function and use GitHub Copilot to suggest code
+## Task 5: Write a function and use GitHub Copilot to suggest code
 
 1. In Visual Studio Code, create a new JavaScript  file under the CloudLabs folder named **function.js**.
 
@@ -169,4 +155,4 @@ Using Copilot inside a Codespace shows how easy it is to get up and running with
 
    ![Picture1](../media/varfunc.png)
 
- ## Task 7:Explain code with Copilot  
+ ## Task 6:Explain code with Copilot  
