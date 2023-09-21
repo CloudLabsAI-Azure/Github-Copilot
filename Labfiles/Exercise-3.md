@@ -26,7 +26,7 @@ GitHub Copilot Chat is a chat interface that lets you interact with GitHub Copil
 
 3. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
 
-    ![Picture1](../media/outputt.png)
+    ![Picture1](../media/apythonstar.png)
 
     >**Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot a question or type / for topics** text box, click the follow-up question to ask it.
 
