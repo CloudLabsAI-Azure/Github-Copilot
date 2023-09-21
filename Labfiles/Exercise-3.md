@@ -63,15 +63,21 @@ GitHub Copilot Chat is a chat interface that lets you interact with GitHub Copil
 1. You can use Github Copilot Chat for various other scenarios like for example if you want to create an algorithm to check if a given  word is palindromic or not. Copy the following prompt in the GitHub Copilot Chat chat window.
 
    ```
-   Write an algorithm to check if a given string is a palindrome
+   Create an algorithm to find the longest word in a sentence or paragraph.
    ```
 2. You will get the algorithm as per the prompt as shown in the figure given below.
 
-   ![Picture1](../media/algorithm.png)
+   ![Picture1](../media/along.png)
 
-3.  You can also use the Github Copilot Chat feature if you're unsure about the correct syntax for a particular task or feature in your code, you can ask Copilot for clarification. For example, you can comment, **What's the correct syntax for a JavaScript arrow function?**
+3.  You can also use the Github Copilot Chat feature if you're unsure about the correct syntax for a particular task or feature in your code, you can ask Copilot for clarification. For example, you can comment, **What is the syntax for opening a file in Python?**
 
 4. It will provide the output as shown below.
 
-   ![Picture1](../media/arrowsyntax.png)
-    
+   ![Picture1](../media/asynpython.png)
+
+5. Additionally you can  generate a pseudocode. Let's have a look at it with the help of an example. Paste the prompt **Generate a pseudocode for a task scheduling algorithm that allocates tasks to multiple workers while considering task dependencies and minimizing completion time** in the Github Copilot Chat chat window.
+  
+6. It will provide an output as shown in the figure given below.
+
+    ![Picture1](../media/apseudo.png)
+
