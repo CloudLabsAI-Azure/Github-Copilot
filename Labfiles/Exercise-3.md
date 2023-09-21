@@ -67,17 +67,17 @@ GitHub Copilot Chat is a chat interface that lets you interact with GitHub Copil
    ```
 2. You will get the algorithm as per the prompt as shown in the figure given below.
 
-   ![Picture1](../media/along.png)
+   ![Picture1](../media/along1.png)
 
 3.  You can also use the Github Copilot Chat feature if you're unsure about the correct syntax for a particular task or feature in your code, you can ask Copilot for clarification. For example, you can comment, **What is the syntax for opening a file in Python?**
 
 4. It will provide the output as shown below.
 
-   ![Picture1](../media/asynpython.png)
+   ![Picture1](../media/asynpython1.png)
 
 5. Additionally you can  generate a pseudocode. Let's have a look at it with the help of an example. Paste the prompt **Generate a pseudocode for a task scheduling algorithm that allocates tasks to multiple workers while considering task dependencies and minimizing completion time** in the Github Copilot Chat chat window.
   
 6. It will provide an output as shown in the figure given below.
 
-    ![Picture1](../media/apseudo.png)
+    ![Picture1](../media/apseudo1.png)
 
