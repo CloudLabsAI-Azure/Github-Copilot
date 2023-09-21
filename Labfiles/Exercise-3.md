@@ -36,7 +36,7 @@ GitHub Copilot Chat is a chat interface that lets you interact with GitHub Copil
 
 1. In the Visual Studio Code window, in the left navigation pane, under the CloudLabs folder, click on **New file** and create a file named **copilotchat.py**
 
-    ![Picture1](../media/newfilera.png)
+    ![Picture1](../media/anewfilereplace.png)
 
 2. Now, click on the GitHub Copilot Chat icon and create a simple project. For example, let's give a prompt to generate a code for playing the rock, paper, or scissors game with the computer. 
 
