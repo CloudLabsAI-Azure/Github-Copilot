@@ -22,7 +22,7 @@ GitHub Copilot Chat is a chat interface that lets you interact with GitHub Copil
 
 2. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write a Program to print the Full Pyramid Star Pattern."
 
-    ![Picture1](../media/patternque.png)
+    ![Picture1](../media/patternque1.png)
 
 3. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
 
