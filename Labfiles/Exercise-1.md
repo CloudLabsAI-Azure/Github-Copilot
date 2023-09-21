@@ -92,7 +92,7 @@ Using Copilot inside a Codespace shows how easy it is to get up and running with
 
    ![Picture1](../media/term.png)
  
-2. Now in the terminal window, make sure the directory path is in the CloudLabs folder. Copy the below code to obtain an output for the function that we generated. 
+2. Now in the terminal window, make sure the directory path is in the CloudLabs folder. Copy the below command to obtain an output for the function that we generated. 
    ```
     node copilot.js
    ```
