@@ -86,6 +86,27 @@ Using Copilot inside a Codespace shows how easy it is to get up and running with
  
    ![Picture1](../media/fullcode.png)
 
+8. Let's take another example to get the number of prime numbers from 1 to 50.
+
+9. Create a new file named **prime.js** in the CloudLabs Folder.
+
+10.  In the newly created JavaScript file, simply write a comment like as shown below.
+
+      ```
+      //Write a complete program to print the number of prime numbers from 1 to 50
+      ```
+11. Keep pressing enter and tab subsequently to accept the suggestions GitHub copilot gives you until you see a complete code which will look like as shown below.
+
+    ![Picture1](../media/prime1.png)
+
+13. Now, open a new terminal window and paste the code as shown below to run the file to obtain the output.
+    ```
+    node prime.js
+    ```
+6. The output will be as shown below.
+
+    ![Picture1](../media/aprimeres.png)
+
 ## Task 4: Review the generated code and understand how it works.
 
 1. Now, from the upper navigation pane, click on **Terminal** and select **New Terminal**. A terminal window will appear at the bottom of the screen. 
@@ -110,7 +131,7 @@ Using Copilot inside a Codespace shows how easy it is to get up and running with
     ```
     //Generate a program to output the rainbow colors as a string.
    ```
-4. Keep pressing enter for the suggestions github copilot gives you until you see a complete code which will look like as shown below.
+4. Keep pressing enter and tab subsequently to accept the suggestions GitHub copilot gives you until you see a complete code which will look like as shown below.
 
    ![Picture1](../media/rainfullcode.png)
 
