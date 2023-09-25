@@ -22,14 +22,14 @@
    https://github.com/login
    ```
 
-   ![](media/getstartpage03.png "Enter Email")
+   ![](media/getstartpage03.png)
    
 1. On the **Sign in to GitHub** tab you will see the login screen, in that enter the following **email/username** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
    * **Email/Username**: <inject key="AzureAdUserEmail"></inject>
    * **Password**: <inject key="AzureAdUserPassword"></inject>
    
-      ![](media/github-login.png)
+   ![](media/github-login.png)
           
 1. Right-click on **Start course** and click on **open the link in a new tab**.
 
