@@ -1,0 +1,158 @@
+
+# Exercise 1: Introduction to GitHub Copilot
+
+GitHub Copilot is an AI pair programmer that helps you write code faster and with less work. It draws context from comments and code to suggest individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a generative pretrained language model created by OpenAI.
+
+**Copilot works with many code editors including VS Code, Visual Studio, JetBrains IDE, and Neovim.**
+
+Additionally, GitHub Copilot is trained on all languages that appear in public repositories. For each language, the quality of suggestions you receive may depend on the volume and diversity of training data for that language.
+
+Using Copilot inside a Codespace shows how easy it is to get up and running with GitHub's suite of [Collaborative Coding](https://github.com/features#features-collaboration) tools.
+
+## Task 1: Install the GitHub Copilot extension in Visual Studio Code
+
+1. Open Visual Studio Code from the desktop screen. 
+
+   ![Picture1](../media/VScodedektop1.png)
+
+2. In Visual Studio Code, open the Extensions view by clicking the Extensions icon in the activity bar on the left side of the Visual Studio Code window.
+
+   ![Picture1](../media/vscodeextension.png)
+
+3. In the "Search Extensions in Marketplace" search box, search for the **GitHub Copilot** extension, then click Install.
+
+   ![Picture1](../media/copilotinstall.png)
+  
+4. Once the installation is complete, at the bottom right corner you will get a prompt to Sign in to GitHub.
+
+   ![Picture1](../media/signingit.png)
+
+5. Next, once you get the popup click on **Allow**
+
+   ![Picture1](../media/allow.png)
+
+6. In the sign in to Github page enter the GitHub credentials from the Environment details page and click on **Sign in**.
+
+   ![Picture1](../media/vsgitsignin1.png)
+
+7. Next, to get the authentication code sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials provided in the Environment details page and enter the verification code and click on **Verify**.
+
+   ![Picture1](../media/authgit.png)
+
+8. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Open** to continue.
+
+   ![Picture1](../media/open.png)
+
+   ![Picture1](../media/vsopen.png)
+
+9. Restart the Visual Studio code and you will be able to see in the bottom right corner that Github Copilot has been activated.
+
+   ![Picture1](../media/gitcoacti.png)
+
+## Task 2: Create a new file in Visual Studio Code
+
+1. In the Visual Studio Code click on **New File** name the file as **copilot.js** and save it in the default CloudLabs folder.
+
+   ![Picture1](../media/newfilecr.png) 
+  
+2. Now, from the File menu click on **Open Folder** and click on CloudLabs and select the folder.
+
+   ![Picture1](../media/folder.png) 
+
+4. Now the newly created javascript file will come under the CloudLabs folder as shown below
+
+   ![Picture1](../media/clfolderview.png)
+
+## Task 3: GitHub Copilot Code Generation and review the code
+
+1. Let's start with something simple. Let's create a function to add two numbers.
+
+2. In the JavaScript file, simply write a comment like "Generate a function to add two numbers."
+
+   ```
+    //Generate a function to add two numbers
+   ```
+3. Then press enter. It will give you the suggestions.
+   
+   ![Picture1](../media/func.png)
+   
+5.  Now, you can accept the suggestion by pressing the **tab** button. Then press enter for the next line, and when the next line of code comes up, press **tab** again. The code will look as shown below.
+
+    ![Picture1](../media/codecomp.png)
+
+6. Now let's call the function **add**. Below the function that is generated, type add and press the **tab** key twice. It will autofill the values. 
+
+7. Next, to print the output of the function, type **console** and press the **tab** key twice to accept the auto-filled code. The complete code will now look like as shown below.  
+ 
+    ![Picture1](../media/fullcode.png)
+
+8. Now, from the upper navigation pane, click on **Terminal** and select **New Terminal**. A terminal window will appear at the bottom of the screen. 
+
+    ![Picture1](../media/term.png)
+ 
+9. Now in the terminal window, make sure the directory path is in the CloudLabs folder. Copy the below command to obtain an output for the function that we generated. 
+   ```
+    node copilot.js
+   ```
+10. The output will be generated as shown in the figure below.
+
+    ![Picture1](../media/outputfunc.png)   
+
+11. Let's take another example to get the number of prime numbers from 1 to 50.
+
+12. Create a new file named **prime.js** in the CloudLabs Folder.
+
+13.  In the newly created JavaScript file, simply write a comment like as shown below.
+
+      ```
+      //Write a complete program to print the number of prime numbers from 1 to 50
+      ```
+14. Keep pressing enter and tab subsequently to accept the suggestions GitHub copilot gives you until you see a complete code which will look like as shown below.
+
+    ![Picture1](../media/prime1.png)
+
+15. Now, open a new terminal window and paste the code as shown below to run the file to obtain the output.
+    ```
+    node prime.js
+    ```
+16. The output will be as shown below.
+
+    ![Picture1](../media/aprimeres.png)
+
+## Task 4: Copilot code generation for different scenarios
+
+1. Now in the Visual Studio Code window, in the left navigation pane, under CloudLabs folder, click on **New file** and create a file named **rainbow.js**.
+
+   ![Picture1](../media/newfilera.png)
+   
+3. In the code window of the new file that you just created, paste the following comment and press enter and it will give you the suggestion.To accept the suggestion press the **Tab** key.
+    ```
+    //Generate a program to output the rainbow colors as a string.
+   ```
+4. Keep pressing enter and tab subsequently to accept the suggestions GitHub copilot gives you until you see a complete code which will look like as shown below.
+
+   ![Picture1](../media/rainfullcode.png)
+
+5. Now, open a new terminal window and paste the code as shown below to run the file to obtain the output.
+    ```
+    node rainbow.js
+    ```
+6. The output will be as shown below.
+
+    ![Picture1](../media/vibgoyr.png)
+
+
+## Task 5: Write a function and use GitHub Copilot to suggest code
+
+1. In Visual Studio Code, create a new JavaScript  file under the CloudLabs folder named **function.js**.
+
+2. In the JavaScript file, type the following function header.
+
+    ```
+      function calculateDaysBetweenDates(begin, end) {
+    ```
+3. GitHub Copilot will automatically suggest an entire function body in gray text. Press the **Tab** key to accept the suggestion. The code will look like as shown below.
+
+   ![Picture1](../media/varfunc.png)
+
+ ## Task 6:Explain code with Copilot  

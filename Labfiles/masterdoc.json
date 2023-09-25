@@ -1,0 +1,24 @@
+[
+  {
+    "Name": "Github Copilot",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/stage/Labfiles/Getting-Started.md",
+        "Order": 1
+      },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/stage/Labfiles/Exercise-1.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/stage/Labfiles/Exercise-3.md",
+        "Order": 4
+      }
+    ]
+  }
+]
