@@ -61,22 +61,31 @@ In this task, you will create a development container and define specific extens
 
 1. At the bottom right corner you will get a prompt to Sign in to GitHub.
 
-   ![Picture1](../media/signingit.png)
+   ![](../media/signingit.png)
 
 1. Next, once you get the popup click on **Allow**
 
-   ![Picture1](../media/allow.png)
+   ![](../media/allow.png)
 
-1. 
+   >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
+1. Verify your codespace is running. Make sure VS code looks as shown below:
 
+   ![](../media/loaded-repo.png)
+
+1. Click on **Extensions** **(1)** from left-menu, the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the copilot extension and vierfy it's installtion as shown below:
+
+   ![](../media/verify-copilot.png)
+
+   >**Note**: If in case GitHub Copilot extension is not installed, click on Install.
+ 
 
 
 ## Task 1: Install the GitHub Copilot extension in Visual Studio Code
 
 1. Open Visual Studio Code from the desktop screen. 
 
-   ![Picture1](../media/VScodedektop1.png)
+   ![](../media/VScodedektop1.png)
 
 2. In Visual Studio Code, open the Extensions view by clicking the Extensions icon in the activity bar on the left side of the Visual Studio Code window.
 
