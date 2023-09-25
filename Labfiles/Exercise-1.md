@@ -53,6 +53,24 @@ In this task, you will create a development container and define specific extens
 
    ![](../media/create-codespace.png)
 
+1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Open** to continue.
+
+   ![](../media/open.png)
+
+   ![](../media/allow-extension-open.png)
+
+1. At the bottom right corner you will get a prompt to Sign in to GitHub.
+
+   ![Picture1](../media/signingit.png)
+
+1. Next, once you get the popup click on **Allow**
+
+   ![Picture1](../media/allow.png)
+
+1. 
+
+
+
 
 ## Task 1: Install the GitHub Copilot extension in Visual Studio Code
 
