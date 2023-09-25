@@ -1,6 +1,50 @@
 
 # Exercise 1: Leverage Codespaces with VS Code for Copilot
 
+GitHub Copilot is an AI pair programmer that helps you write code faster and with less work. It draws context from comments and code to suggest individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a generative pretrained language model created by OpenAI.
+
+**Copilot works with many code editors including VS Code, Visual Studio, JetBrains IDE, and Neovim.**
+
+Additionally, GitHub Copilot is trained on all languages that appear in public repositories. For each language, the quality of suggestions you receive may depend on the volume and diversity of training data for that language.
+
+Using Copilot inside a Codespace shows just how easy it is to get up and running with GitHub's suite of [Collaborative Coding](https://github.com/features#features-collaboration) tools.
+
+## Task 1: Enable Copilot inside a Codespace
+
+In this task, you will create a development container and define specific extensions or configurations that will be used or installed in your codespace. Let's create this development container and add copilot to the list of extensions.
+
+1. From the **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then click `Create new file` **(3)**.
+
+    ![](../media/create-new-file.png)
+
+1. Type or paste the following in the empty text field prompt to name your file **(1)**.
+
+   ```
+   .devcontainer/devcontainer.json
+   ```
+
+1. In the body of the new **.devcontainer/devcontainer.json** file, add the following content **(2)** and click on **Commit changes** **(3)**:
+
+   ```
+   {
+       // Name this configuration
+       "name": "Codespace for Skills!",
+       "customizations": {
+           "vscode": {
+               "extensions": [
+                   "GitHub.copilot"
+               ]
+           }
+       }
+   }
+   ```
+
+   ![](../media/devcontainer-commit.png)
+   
+1. Select the option to **Commit directly to the `main` branch**, and then click the **Commit changes** button.
+
+   ![](../media/commit-file.png)
+
 ## Task 1: Install the GitHub Copilot extension in Visual Studio Code
 
 1. Open Visual Studio Code from the desktop screen. 
