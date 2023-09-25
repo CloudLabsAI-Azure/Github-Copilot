@@ -14,36 +14,42 @@
  
    > You will see the SUFFIX value on the **Environment Details** tab, use it wherever you see SUFFIX or DeploymentID in lab steps.
  
-## Login to Azure Portal
+## Login to GitHub
 
-1. In the JumpVM, click on the Azure portal shortcut of the Microsoft Edge browser which is created on the desktop.
+1. In the JumpVM, click on the Microsoft Edge browser and navigate to GitHub login page .
+
+   ```
+   https://github.com/login
+   ```
 
    ![](media/getstartpage03.png "Enter Email")
    
-1. On the **Sign in to Microsoft Azure** tab you will see the login screen, in that enter the following email/username, and click on **Next**. 
+1. On the **Sign in to GitHub** tab you will see the login screen, in that enter the following **email/username** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
    * **Email/Username**: <inject key="AzureAdUserEmail"></inject>
-   
-      ![](media/getstartpage04.png "Enter Email")
-     
-1. Now enter the following password and click on **Sign in**.
-   
    * **Password**: <inject key="AzureAdUserPassword"></inject>
    
-      ![](media/getstartpage05.png "Enter Password")
-     
-1. If you see the pop-up **Stay Signed in?**, select **No**.
+      ![](media/github-login.png)
+          
+1. Right-click on **Start course** and click on **open the link in a new tab**.
 
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
+   <!-- For start course, run in JavaScript:
+   'https://github.com/new?' + new URLSearchParams({
+     template_owner: 'skills',
+     template_name: 'copilot-codespaces-vscode',
+     owner: '@me',
+     name: 'skills-copilot-codespaces-vscode',
+     description: 'My clone repository',
+     visibility: 'public',
+   }).toString()
+   -->
 
-1. If a **Welcome to Microsoft Azure** popup window appears, select **Maybe Later** to skip the tour.
+   [![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
    
-1. Now you will see Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
+1. In the new tab, most of the prompts will automatically fill in for you. Leave defult for owner as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
 
-   ![](media/select-rg.png "Resource groups")
-   
-1. Confirm that you have all resource group is present as shown below.
+   ![](media/skills-new-repo.png)
 
-   ![](media/sql-arc-rgs.png "Resource groups")
-   
+1. After your new repository is created, wait about 20 seconds and then refresh the page.
+
 1. Now, click on **Next** from the lower right corner to move on to the next page.
