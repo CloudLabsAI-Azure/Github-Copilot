@@ -29,7 +29,7 @@
    * **Email/Username**: <inject key="AzureAdUserEmail"></inject>
    * **Password**: <inject key="AzureAdUserPassword"></inject>
    
-   ![](media/github-login.png)
+   ![](../media/github-login.png)
           
 1. Right-click on **Start course** and click on **open the link in a new tab**.
 
@@ -48,7 +48,7 @@
    
 1. In the new tab, most of the prompts will automatically fill in for you. Leave defult for owner as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
 
-   ![](media/skills-new-repo.png)
+   ![](../media/skills-new-repo.png)
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
