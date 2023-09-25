@@ -31,7 +31,11 @@
    
    ![](../media/github-login.png)
           
-1. Right-click on **Start course** and click on **open the link in a new tab**.
+1. Next, to get the authentication code sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials provided in the Environment details page and enter the verification code and click on **Verify**.
+
+   ![](../media/authgit.png)
+
+1. Right-click on **Start course**, click on **Copy link** and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
