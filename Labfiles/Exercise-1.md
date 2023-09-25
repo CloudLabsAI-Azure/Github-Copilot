@@ -45,6 +45,15 @@ In this task, you will create a development container and define specific extens
 
    ![](../media/commit-file.png)
 
+1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
+
+   ![](../media/code-code.png)
+
+1. Click the **Codespaces** tab on the box that pops up and then click the **Create codespace on main** button.
+
+   ![](../media/create-codespace.png)
+
+
 ## Task 1: Install the GitHub Copilot extension in Visual Studio Code
 
 1. Open Visual Studio Code from the desktop screen. 
