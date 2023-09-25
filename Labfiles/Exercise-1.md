@@ -1,13 +1,5 @@
 
-# Exercise 1: Introduction to GitHub Copilot
-
-GitHub Copilot is an AI pair programmer that helps you write code faster and with less work. It draws context from comments and code to suggest individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a generative pretrained language model created by OpenAI.
-
-**Copilot works with many code editors including VS Code, Visual Studio, JetBrains IDE, and Neovim.**
-
-Additionally, GitHub Copilot is trained on all languages that appear in public repositories. For each language, the quality of suggestions you receive may depend on the volume and diversity of training data for that language.
-
-Using Copilot inside a Codespace shows how easy it is to get up and running with GitHub's suite of [Collaborative Coding](https://github.com/features#features-collaboration) tools.
+# Exercise 1: Leverage Codespaces with VS Code for Copilot
 
 ## Task 1: Install the GitHub Copilot extension in Visual Studio Code
 
