@@ -79,4 +79,4 @@ In this task, you will create a development container and define specific extens
 
    >**Note**: If in case GitHub Copilot extension is not installed, click on Install.
  
-1. Click on Next from the bottom right and follow the instructions to perform the lab.
+1. Click on **Next** from the bottom right to continue with the next exercies.
