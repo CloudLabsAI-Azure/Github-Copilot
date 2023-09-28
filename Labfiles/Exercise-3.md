@@ -72,4 +72,12 @@ In this task, you will continue to use copilot, you may need some of the suggest
    git push
    ```
 
+   ![](../media/ex-3-push2.png)
+
    >**Note**: Wait about 60 seconds then refresh your repository landing page for the next step.
+
+1. You can verify the `app.py` and `prime.py` files available in your GitHub repository.
+
+   ![](../media/ex-3-github3.png)
+
+1. Click on Next from the bottom right to continue with the next exercies.
