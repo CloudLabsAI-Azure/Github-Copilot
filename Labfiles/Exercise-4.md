@@ -99,7 +99,7 @@ In this exercise, you will be installing GitHub Copilot Chat extension and you w
    git push
    ```
 
-   ![](../media/ex-4-push3.png)
+   ![](../media/ex-4-push4.png)
 
    >**Note**: Wait about 60 seconds then refresh your repository landing page for the next step.
 
