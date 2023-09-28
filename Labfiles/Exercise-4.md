@@ -29,5 +29,20 @@ In this exercise, you will be installing GitHub Copilot Chat extension and you w
 
    ![](../media/git-chat-icon.png)
 
-1.
+### Task 2: Generate Code by Chat that uses ARM to deploy resources to Azure
+
+1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat chat window.
+
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write a ARM code for deploying Storage Account to Azure."
+
+    ![](../media/create-arm.png)
+
+1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
+
+    ![](../media/arm-result.png)
+
+    >**Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot a question or type / for topics** text box, click the follow-up question to ask it.
+
+    >**Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
    
+1. You can view response from GitHub Copilot in the Chat and 
