@@ -103,7 +103,7 @@ In this exercise, you will be installing GitHub Copilot Chat extension and you w
 
    >**Note**: Wait about 60 seconds then refresh your repository landing page for the next step.
 
-1. You can verify the `app.py` and `prime.py` files available in your GitHub repository.
+1. You can verify the `arm.json` and `terraform.tf` files available in your GitHub repository.
 
    ![](../media/ex-4-github4.png)
 
