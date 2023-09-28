@@ -1,83 +1,75 @@
-# Exercise 3: Github Copilot Chat
+# Exercise 3: View the GitHub Copilot tab with multiple suggestions
 
-GitHub Copilot Chat is a chat interface that lets you interact with GitHub Copilot, to ask and receive answers to coding-related questions from directly within a supported IDE. The chat interface provides access to coding information and support without requiring you to navigate documentation or search online forums
+## Task 1: Pull the latest code to the Codespace repo.
 
-### Task 1: Install Github Copilot Chat Extension
+   >**Note**: Pull MUST be done prior to the next task.
 
-1. In Visual Studio Code, open the Extensions view by clicking the Extensions icon in the activity bar on the left side of the Visual Studio Code window.
-
-   ![Picture1](../media/vscodeextension.png)
-
-2. In the "Search Extensions in Marketplace" search box, search for the **GitHub Copilot Chat** extension, then click Install.
-
-   ![Picture1](../media/gitcochatext.png)
-  
-3. Once the installation is complete, in the left navigation pane you will able to see the icon for Github Copilot Chat as shown in the figure below.
-
-   ![Picture1](../media/gitchaticon.png)
-
-### Task 2: Generate Code by Chat
-
-1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat chat window.
-
-2. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write a Program to print the Full Pyramid Star Pattern."
-
-    ![Picture1](../media/patternque1.png)
-
-3. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
-
-    ![Picture1](../media/apythonstar.png)
-
-    >**Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot a question or type / for topics** text box, click the follow-up question to ask it.
-
-    >**Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
-
-### Task 3: Interact with GitHub Copilot Chat and create a new project structure
-
-1. In the Visual Studio Code window, in the left navigation pane, under the CloudLabs folder, click on **New file** and create a file named **copilotchat.py**
-
-    ![Picture1](../media/anewfilereplace.png)
-
-2. Now, click on the GitHub Copilot Chat icon and create a simple project. For example, let's give a prompt to generate a code for playing the rock, paper, or scissors game with the computer. 
-
-3. Copy the given prompt and paste it into the GitHub Copilot Chat chat window.**Implement the classic hand game where the player chooses rock, paper, or scissors, and the computer also makes a choice. Determine the winner based on the rules of the game. In Python outside the browser environment with a print statement**
-
-4. It will generate a code, now to show the options for a code suggestion, hover over the suggestion. To copy the code suggestion to your clipboard, click the Copy icon.
-
-   ![Picture1](../media/scissorcopy.png)
-
-5. Paste the code in the file named **copilotchat.py** file that you just created.
-
-6. Now, from the upper navigation pane, click on **Terminal** and select **New Terminal** option and copy the following command to run the code in the terminal.
-
-    ```
-    python copilotchat.py
-    ```
-  
- 7. Type either rock, paper or scissors to get an output like as shown in the figure below.
-    
-    ![Picture1](../media/rockoutp.png)
-
-### Task 4: Use GitHub Copilot Chat to generate code for different scenarios
-
-1. You can use Github Copilot Chat for various other scenarios like for example if you want to create an algorithm to check if a given  word is palindromic or not. Copy the following prompt in the GitHub Copilot Chat chat window.
+1. Navigate to VS code, Use the VS Code terminal to pull the latest code:
 
    ```
-   Create an algorithm to find the longest word in a sentence or paragraph.
+   git pull
    ```
-2. You will get the algorithm as per the prompt as shown in the figure given below.
 
-   ![Picture1](../media/along1.png)
+   ![](../media/ex-3-pull1.png)
 
-3.  You can also use the Github Copilot Chat feature if you're unsure about the correct syntax for a particular task or feature in your code, you can ask Copilot for clarification. For example, you can comment, **What is the syntax for opening a file in Python?**
+## Task 2: Add Python method code
 
-4. It will provide the output as shown below.
+1. From inside the codespace in the VS Code explorer window, create a new file.
 
-   ![Picture1](../media/asynpython1.png)
+   ![](../media/ex-3-create-py.png)
 
-5. Additionally you can  generate a pseudocode. Let's have a look at it with the help of an example. Paste the prompt **Generate a pseudocode for a task scheduling algorithm that allocates tasks to multiple workers while considering task dependencies and minimizing completion time** in the Github Copilot Chat chat window.
-  
-6. It will provide an output as shown in the figure given below.
+1. Name the file `app.py` **(1)** and you will see recommendation to install `Python` extension, click on **Install** **(2)**.
 
-    ![Picture1](../media/apseudo1.png)
+   ![](../media/ex-3-create-py.png)
 
+1. Once Python extension is inatlled. Open newly created `app.py` file, type the following code:
+
+   ```
+   def hello():
+   ```
+
+1. GitHub Copilot will automatically suggest an entire code in grayed text. Press Tab to accept the suggestion and then save the file.
+
+   ![](../media/ex-3-apppy.png)
+
+### Task 3: View the GitHub Copilot tab with multiple suggestions
+
+In this task, you will continue to use copilot, you may need some of the suggestions that GitHub Copilot offers. GitHub Copilot will show you multiple suggestions in a new tab.
+
+1. From inside the codespace in the VS Code explorer window, create a new file named `prime.py` **(1)** and type the following code **(2)**. Stop typing and view all the Copilot suggestion by using `< or >` **(3)**. 
+
+   ```
+   def prime(n):
+   ```
+
+   ![](../media/ex-3-suggestions.png)
+
+   >**Note**: GitHub Copilot will show you a suggestion. To open a new tab with multiple additional options, press Ctrl + Enter . To accept a suggestion, above the suggestion, click Accept Solution.
+
+1. Press **Tab** to accept the suggestion and save the file.
+
+   ![](../media/ex-3-suggestion-save.png)
+
+### Task 4: Push code to your repository from the VS code codespace
+
+1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
+
+1. Run the below command to add the `app.py` and `prime.py` files to the repository:
+
+   ```
+   git add app.py prime.py
+   ```
+
+1. Next from the VS Code terminal stage and commit the changes to the repository:
+
+   ```
+   git commit -m "Copilot second commit"
+   ```
+
+1. Finally from the VS Code terminal push to code to the repository:
+
+   ```
+   git push
+   ```
+
+   >**Note**: Wait about 60 seconds then refresh your repository landing page for the next step.
