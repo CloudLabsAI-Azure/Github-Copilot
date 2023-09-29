@@ -13,7 +13,7 @@ GitHub Copilot Chat can provide coding assistance in a variety of scenarios.
  - Proposing code fixes
  - Answering coding questions
 
-In this exercise, you will be installing GitHub Copilot Chat extension and you will be generating ARM and Terraform code with Copilot.
+In this exercise, you will perform two main tasks: first, you will install the GitHub Copilot Chat extension, and second, you will utilize Copilot to generate code in both ARM and Terraform.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
@@ -110,3 +110,7 @@ In this exercise, you will be installing GitHub Copilot Chat extension and you w
    ![](../media/ex-4-github4.png)
 
 1. Click on Next from the bottom right to continue with the next exercies.
+
+### Summary
+
+In this exercise, you have successfully installed the GitHub Copilot Chat extension, and you have employed Copilot to automatically generate code in both ARM and Terraform programming languages.
