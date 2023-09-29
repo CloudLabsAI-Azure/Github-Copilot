@@ -2,7 +2,7 @@
 
 GitHub Copilot provides suggestions for numerous languages and a wide variety of frameworks, but works especially well for Python, JavaScript, TypeScript, Ruby, Go, C# and C++. The following samples are in JavaScript, but other languages will work similarly.
 
-In this exercise, you will try out utilizing Javascript for Copilot.
+In this exercise, you will have the opportunity to experiment with and apply JavaScript with the assistance of Copilot.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
@@ -61,3 +61,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
    >**Note**: Wait about 60 seconds then refresh your GitHub repository landing page for the next step.
 
 1. Click on **Next** from the bottom right to continue with the next exercies.
+
+### Summary
+
+In this exercise, you have successfully generated JavaScript code with the help of Copilot.
