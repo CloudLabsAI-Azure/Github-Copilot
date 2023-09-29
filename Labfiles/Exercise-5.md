@@ -147,7 +147,7 @@ In this exercise, you will engage in a learning or practice activity where your 
 
 1. Notice that now the code is more modular, readable, and easier to understand.
 
-   >**Note**:It's essential to carefully review copilot suggestions before applying them.
+   >**Note**: It's essential to carefully review copilot suggestions before applying them.
 
 ## Task 4: Use GitHub Copilot Chat with code to refactor the code 
 
