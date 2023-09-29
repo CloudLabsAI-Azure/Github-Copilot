@@ -50,3 +50,5 @@ GitHub Copilot improves developer productivity and happiness, reduces disruption
 
 Using GitHub Copilot for Business for your enterprise: You must first establish a policy for using GitHub Copilot for Business in your enterprise. Once GitHub Copilot for Business is enabled at the enterprise level, you can configure GitHub Copilot settings for each organization in your enterprise.
 
+Click on Next from the bottom right to Start with the Lab.
+
