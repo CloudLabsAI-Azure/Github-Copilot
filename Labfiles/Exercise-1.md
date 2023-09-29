@@ -9,9 +9,9 @@ Additionally, GitHub Copilot is trained on all languages that appear in public r
 
 Using Copilot inside a Codespace shows just how easy it is to get up and running with GitHub's suite of [Collaborative Coding](https://github.com/features#features-collaboration) tools.
 
-## Task 1: Enable Copilot inside a Codespace
+In this exercise, you will create a development container and define specific extensions or configurations that will be used or installed in your codespace. You will create this development container and add copilot to the list of extensions.
 
-In this task, you will create a development container and define specific extensions or configurations that will be used or installed in your codespace. Let's create this development container and add copilot to the list of extensions.
+## Task 1: Enable Copilot inside a Codespace
 
 1. From the **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then click `Create new file` **(3)**.
 
@@ -80,3 +80,7 @@ In this task, you will create a development container and define specific extens
    >**Note**: If in case GitHub Copilot extension is not installed, click on Install.
  
 1. Click on **Next** from the bottom right to continue with the next exercies.
+
+### Summary
+
+In this exercise, you have created development container and added copilot to the list of extensions.
