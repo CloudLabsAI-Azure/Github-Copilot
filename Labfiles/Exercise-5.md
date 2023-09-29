@@ -2,74 +2,82 @@
 
 GitHub code refactoring refers to the process of restructuring and improving the quality of code in a GitHub repository without changing its external behavior. Code refactoring aims to enhance readability, maintainability, and performance while reducing technical debt and potential bugs. 
 
-In this exercise, you will engage in a learning or practice activity where your primary objective will be to utilize GitHub Copilot for the purpose of code refactoring.
+In this exercise, you will engage in a learning or practice activity where your primary objective will be to utilize GitHub Copilot for the purpose of code refactoring using C Sharp (C#) programming language.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this lab, but the exact suggestion may vary.
 
 ## Task 1: Understand the code already available for you
 
-1. To demonstrate the Github code refactor, let us take an example of a poorly written code and analyze it. The below code is written using C programming language.
+1. To demonstrate the Github code refactor, let us take an example of a poorly written code and analyze it. The below code is written using C# programming language.
     
    ```
-       #include <stdio.h>
-       #include <stdlib.h>
+   using System;
 
-       #define MAX 100
+   class Program
+   {
+       const int MAX = 100;
 
-       int sum(int arr[], int n) {
-           int result = 0;
-           for (int i = 0; i < n; i++) {
-               result += arr[i];
-           }
-           return result;
-       }
-      
-       int main() {
-           int n;
-           printf("Enter the number of elements (1-100): ");
-           scanf("%d", &n);
-      
-           if (n < 1 || n > MAX) {
-               printf("Invalid input. Please enter a number between 1 and 100.\n");
-               return 1;
-           }
-      
-           int* arr = (int*)malloc(n * sizeof(int));
-      
-           if (arr == NULL) {
-               printf("Memory allocation failed.\n");
-               return 1;
-           }
-      
-           printf("Enter %d integers:\n", n);
-           for (int i = 0; i < n; i++) {
-               scanf("%d", &arr[i]);
-           }
-       
-           int total = sum(arr, n);
-      
-           printf("Sum of the numbers: %d\n", total);
-      
-           free(arr);
-          
-           return 0;
-       }
-    ```
+        static int Sum(int[] arr, int n)
+        {
+            int result = 0;
+            for (int i = 0; i < n; i++)
+            {
+                result += arr[i];
+            }
+            return result;
+        }
+
+        static void Main()
+        {
+            int n;
+            Console.Write("Enter the number of elements (1-100): ");
+            if (!int.TryParse(Console.ReadLine(), out n) || n < 1 || n > MAX)
+            {
+                Console.WriteLine("Invalid input. Please enter a number between 1 and 100.");
+                Environment.Exit(1);
+            }
+
+            int[] arr = new int[n];
+
+            Console.WriteLine("Enter " + n + " integers:");
+            for (int i = 0; i < n; i++)
+            {
+                if (!int.TryParse(Console.ReadLine(), out arr[i]))
+                {
+                    Console.WriteLine("Invalid input. Please enter valid integers.");
+                    Environment.Exit(1);
+                }
+            }
+
+            int total = Sum(arr, n);
+
+            Console.WriteLine("Sum of the numbers: " + total);
+
+            // No need to free memory in C#, as it's managed by the runtime.
+        }
+    }      
+   ```
 
 1. This code is a poorly written example of a program that prompts the user for the number of elements to be summed and takes those integers as input. It employs dynamic memory allocation for the integer array and handles allocation failures with an error message. Here are some issues with the code:
-    - The sum function could be renamed to something more descriptive, such as calculate_sum.
-    - The scanf function calls could be wrapped in a separate function that handles the error checking and retries the input if it is invalid.
-    - The error messages could be moved to a separate function that takes a message string as an argument and prints it to the console.
-    - The malloc and free calls could be wrapped in a separate function that handles the error checking and frees the memory automatically when it goes out of scope.
-    - The if statement that checks if the memory allocation was successful could be replaced with a call to calloc, which initializes the memory to zero and returns NULL if the allocation fails.
+    - The code begins with the inclusion of the System namespace for essential input and output operations.
+    - It defines a constant MAX with a value of 100 to represent the maximum number of elements allowed.
+    - The Sum method calculates the sum of elements in an array.
+    - In the Main method:
+      - It prompts the user to enter the number of elements (between 1 and 100) and validates the input.
+      - Allocates an array arr to store the entered integers.
+      - Prompts the user to enter the specified number of integers and validates each input.
+      - Calculates the sum of the entered integers using the Sum method.
+      - Outputs the sum to the console.
+      - There's no need to manually free memory in C# because it manages memory automatically.
+    - Overall, this C# code is equivalent to the provided C code and performs the same task of summing a user-defined number of integers.
   
 ## Task 2: Use GitHub Copilot to refactor the code
 
-1. Now, let's use the **Github Copilot Chat** feature to refactor the code.
+1. Now, let's use the **Github Copilot Chat** feature to refactor the above code.
 
-1. Click on the **Chat** extension icon from the activity bar in the left navigation pane. This opens the GitHub Copilot Chat window into which the above code is to be pasted.
+1. Click on the **Chat** extension icon from the activity bar in the left navigation pane. This opens the GitHub Copilot Chat window into which the above code is to be **pasted**.
 
-1. Give the prompt "Refactor the code" and then press **enter**.
+1. Give the prompt `Refactor the code` and then press **enter**.
 
 1. The Github Copilot Chat will give the response as shown below.  
 
