@@ -38,9 +38,9 @@ In this exercise, you will try out utilizing Python for Copilot with multiple su
 
 ### Task 3: View the GitHub Copilot tab with multiple suggestions
 
-In this task, you will continue to use copilot, you may need some of the suggestions that GitHub Copilot offers. GitHub Copilot will show you multiple suggestions in a new tab.
+In this task, you will continue to use copilot, you may need some of the suggestions that GitHub Copilot offers. GitHub Copilot will synthesize around 10 different code suggestions in a new tab.
 
-1. From inside the codespace in the VS Code explorer window, create a new file named `prime.py` **(1)** and type the following code **(2)**. Stop typing and view all the Copilot suggestion by using `< or >` **(3)**. 
+1. From inside the codespace in the VS Code explorer window, create a new file named `prime.py` **(1)** and type the following code **(2)**.
 
    ```
    def prime(n):
@@ -48,9 +48,7 @@ In this task, you will continue to use copilot, you may need some of the suggest
 
    ![](../media/ex-3-suggestions.png)
 
-   >**Note**: GitHub Copilot will show you a suggestion. To open a new tab with multiple additional options, press Ctrl + Enter . To accept a suggestion, above the suggestion, click Accept Solution.
-
-1. Press **Tab** to accept the suggestion and save the file.
+1. To open a new tab with multiple synthesized solutions, press `Ctrl + Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions and to accept a suggestion, you need to click on **Accept Solution** above the suggestion and then save the file.
 
    ![](../media/ex-3-suggestion-save.png)
 
