@@ -15,6 +15,8 @@ GitHub Copilot Chat can provide coding assistance in a variety of scenarios.
 
 In this exercise, you will be installing GitHub Copilot Chat extension and you will be generating ARM and Terraform code with Copilot.
 
+>**Disclaimer**: GitHub Copilot will automatically suggest an entire function body in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
+
 #### Task 1: Installing GitHub Copilot Chat extension in VS Code
 
 1. To install the GitHub Copilot Chat extension, the following steps are to be performed within Visual Studio Code:
