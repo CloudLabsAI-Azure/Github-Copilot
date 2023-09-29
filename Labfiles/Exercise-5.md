@@ -69,7 +69,6 @@ In this exercise, you will engage in a learning or practice activity where your 
       - Calculates the sum of the entered integers using the Sum method.
       - Outputs the sum to the console.
       - There's no need to manually free memory in C# because it manages memory automatically.
-    - Overall, this C# code is equivalent to the provided C code and performs the same task of summing a user-defined number of integers.
   
 ## Task 2: Use GitHub Copilot to refactor the code
 
@@ -77,81 +76,79 @@ In this exercise, you will engage in a learning or practice activity where your 
 
 1. Click on the **Chat** extension icon from the activity bar in the left navigation pane. This opens the GitHub Copilot Chat window into which the above code is to be **pasted**.
 
-1. Give the prompt `Refactor the code` and then press **enter**.
+1. Type the prompt `Refactor the code` at the end of the code and then press **enter**.
 
 1. The Github Copilot Chat will give the response as shown below.  
 
-   ![Picture1](../media/refactorexamp.png)
+   ![](../media/refactored-code.png)
 
 ## Task 3: Review the refactored code and understand how it works 
 
 1. The newly generated code will look like as shown below:
 
      ```
-        #include <stdio.h>
-        #include <stdlib.h>
-        
-        #define MAX_ELEMENTS 100
-        
-        int calculate_sum(int arr[], int n) {
+     using System;
+
+     class Program
+     {
+        const int MAX = 100;
+
+        static int Sum(int[] arr)
+        {
             int result = 0;
-            for (int i = 0; i < n; i++) {
-                result += arr[i];
+            foreach (int num in arr)
+            {
+                result += num;
             }
             return result;
         }
-        
-        int read_int(const char* prompt) {
-            int value;
-            do {
-                printf("%s", prompt);
-            } while (scanf("%d", &value) != 1);
-            return value;
-        }
-        
-        void print_error(const char* message) {
-            printf("Error: %s\n", message);
-        }
-        
-        int* allocate_int_array(int n) {
-            int* arr = calloc(n, sizeof(int));
-            if (arr == NULL) {
-                print_error("Memory allocation failed");
-                exit(1);
+
+        static void Main()
+        {
+            int n;
+            Console.Write("Enter the number of elements (1-100): ");
+            if (!int.TryParse(Console.ReadLine(), out n) || n < 1 || n > MAX)
+            {
+                Console.WriteLine("Invalid input. Please enter a number between 1 and 100.");
+                Environment.Exit(1);
             }
-            return arr;
-        }
-        
-        int main() {
-            int n = read_int("Enter the number of elements (1-100): ");
-            if (n < 1 || n > MAX_ELEMENTS) {
-                print_error("Invalid input. Please enter a number between 1 and 100.");
-                exit(1);
+
+            int[] arr = new int[n];
+
+            Console.WriteLine("Enter " + n + " integers:");
+            for (int i = 0; i < n; i++)
+            {
+                if (!int.TryParse(Console.ReadLine(), out arr[i]))
+                {
+                    Console.WriteLine("Invalid input. Please enter valid integers.");
+                    Environment.Exit(1);
+                }
             }
-        
-            int* arr = allocate_int_array(n);
-        
-            for (int i = 0; i < n; i++) {
-                arr[i] = read_int("Enter an integer: ");
-            }
-        
-            int total = calculate_sum(arr, n);
-        
-            printf("Sum of the numbers: %d\n", total);
-        
-            free(arr);
-        
-            return 0;
+
+            int total = Sum(arr);
+
+            Console.WriteLine("Sum of the numbers: " + total);
         }
-     ```
+    }
+    ```
 
 1. Now, let's analyze the changes made by the GitHub Copilot chat. The changes made to the code by Github Copilot Chat are:
-   - The MAX constant was renamed to MAX_ELEMENTS to better reflect its purpose.
-   - The sum function was renamed to calculate_sum to better reflect its purpose.
-   - The scanf function calls were wrapped in a separate function called read_int that handles error checking and retries the input if it is invalid.
-   - The error messages were moved to a separate function called print_error that takes a message string as an argument and prints it to the console.
-   - The malloc and free calls were wrapped in a separate function called allocate_int_array that handles error checking and frees the memory automatically when it goes out of scope.
-   - The if statement that checks if the memory allocation was successful was replaced with a call to calloc, which initializes the memory to zero and returns NULL if the allocation fails.
+   - Here, GitHub Copilot removed the `n` parameter from the Sum method since it's not needed. Instead, copilot used a foreach loop to iterate over the array. This makes the code more concise and easier to read.
+   - This includes the System namespace for input and output operations.
+   - Defines a constant MAX with a value of 100 for the maximum number of elements allowed in an array.
+   - The Sum method calculates the sum of elements in an integer array using a foreach loop.
+   - In the Main method:
+     - Asks the user to input the number of elements and validates it.
+     - Creates an integer array to store user-entered values.
+     - Prompts the user to enter integers, validates the input, and stores them in the array.
+     - Calculates the sum of the integers using the Sum method.
+     - Displays the sum to the console.
+     - The code includes input validation and provides the sum of user-entered integers.
+
+
+
+
+
 
 1. Notice that now the code is more modular, readable, and easier to understand.
 
