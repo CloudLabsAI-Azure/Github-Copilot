@@ -46,11 +46,11 @@ In this task, you will continue to use copilot, you may need some of the suggest
    def prime(n):
    ```
 
-   ![](../media/ex-3-suggestions.png)
+   ![](../media/co-suggestion1.png)
 
 1. To open a new tab with multiple synthesized solutions, press `Ctrl + Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions and to accept a suggestion, you need to click on **Accept Solution** above the suggestion and then save the file.
 
-   ![](../media/ex-3-suggestion-save.png)
+   ![](../media/co-suggestion2.png)
 
 ### Task 4: Push code to your repository from the VS code codespace
 
