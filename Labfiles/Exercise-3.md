@@ -1,6 +1,8 @@
 # Exercise 3: View the GitHub Copilot tab with multiple suggestions
 
-In this exercise, you will try out utilizing Python for Copilot with multiple suggestions.
+GitHub Copilot provides suggestions for numerous languages and a wide variety of frameworks, but works especially well for Python, JavaScript, TypeScript, Ruby, Go, C# and C++. GitHub Copilot can also assist in query generation for databases.
+
+In this exercise, you will have the opportunity to explore and apply the use of Python in conjunction with Copilot, and you will do so with the benefit of receiving multiple suggestions.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
@@ -83,3 +85,7 @@ In this task, you will continue to use copilot, you may need some of the suggest
    ![](../media/ex-3-github3.png)
 
 1. Click on Next from the bottom right to continue with the next exercies.
+
+### Summary
+
+In this exercise, you have successfully finished the task of using Python in conjunction with Copilot, and you have done so with the benefit of receiving multiple suggestions.
