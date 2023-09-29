@@ -1,5 +1,9 @@
 # Exercise 3: View the GitHub Copilot tab with multiple suggestions
 
+In this exercise, you will try out utilizing Python for Copilot with multiple suggestions.
+
+>**Disclaimer**: GitHub Copilot will automatically suggest an entire function body in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
+
 ## Task 1: Pull the latest code to the Codespace repo.
 
    >**Note**: Pull MUST be done prior to the next task.
