@@ -4,7 +4,7 @@ GitHub Copilot provides suggestions for numerous languages and a wide variety of
 
 In this exercise, you will try out utilizing Javascript for Copilot.
 
->**Disclaimer**: GitHub Copilot will automatically suggest an entire function body in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
+>**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
 ## Task 1: Add a JavaScript file and start writing code
 
