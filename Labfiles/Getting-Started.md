@@ -56,4 +56,16 @@
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
+1. Once the repository is created, select your profile photo, then select **Your organizations**.
+
+   ![](../media/organization.png)
+
+1. In your organization, from the left navigation pane, select **Codespaces**.
+
+   ![](../media/codespace.png)
+
+1. Scroll down and make sure under the **Editor preference** , **Visual Studio Code** is selected.
+
+     ![](../media/vscode1.png)
+
 1. Now, click on **Next** from the lower right corner to move on to the next page.
