@@ -151,9 +151,7 @@ In this exercise, you will engage in a learning or practice activity where your 
 
 ## Task 4: Use GitHub Copilot Chat with code to refactor the code 
 
-1. Now let us demonstrate the chat with code feature of GitHub copilot.
-
-1. With this feature, developers can engage in real-time conversations with Copilot directly through code comments, making it feel like they are collaborating with a coding partner.
+In this task, you will demonstrate the chat with code feature of GitHub copilot. With this feature, developers can engage in real-time conversations with Copilot directly through code comments, making it feel like they are collaborating with a coding partner.
 
 1. From inside the codespace in the VS Code explorer window, create a new file.
 
@@ -226,15 +224,13 @@ In this exercise, you will engage in a learning or practice activity where your 
 
 1. Identify the section of code where the switch statement is present and select it.
 
-   ![Picture1](../media/selectswitch.png) 
-
-1. Right-click on the code window and click on the **Copilot (1)** option. From the following list of options in Copilot select **Start Code Chat (2)**.
+1. Right-click on the code window and click on the **Copilot** **(1)** option. From the following list of options in Copilot select **Start Code Chat** **(2)**.
  
-   ![Picture1](../media/refactorsv.png)  
+   ![](../media/start-code-chat.png)  
 
-1. Now type the prompt "Use if-else statements instead of the switch statement" to make the code more understandable. Copilot will give a response and you can review it and either **Accept** or **Discard** the suggestion as depicted in the image below.
+1. Now type the prompt "Use if-else statements instead of the switch statement" **(1)** to make the code more understandable and click `>` or press `Enter` **(2)**. Copilot will give a response and you can review it and click **Accept** **(3)**. Also, you can **Discard** the suggestion as depicted in the image below.
 
-    ![Picture1](../media/ifelse.png)
+    ![](../media/chat-code-accept.png)
 
      >**Note:** It's essential to carefully review copilot suggestions before applying them.
 
