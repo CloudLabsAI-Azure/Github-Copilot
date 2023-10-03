@@ -47,3 +47,37 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
    ![](../media/demo-yaml-1.png)
 
    >**Note**: You may not see the same suggestions as shown in the screenshot, exact suggestion may vary.
+
+### Task 3: Push code to your repository from the codespace
+
+1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
+
+1. Run the below command to add the `app.py` and `prime.py` files to the repository:
+
+   ```
+   git add --all
+   ```
+
+1. Next from the VS Code terminal stage and commit the changes to the repository:
+
+   ```
+   git commit -m "Copilot fouth commit"
+   ```
+
+1. Finally from the VS Code terminal push to code to the repository:
+
+   ```
+   git push
+   ```
+
+   ![](../media/ex-6-push.png)
+
+   >**Note**: Wait about 60 seconds then refresh your repository landing page for the next step.
+
+1. You can verify the new added files available in your GitHub repository.
+
+   ![](../media/ex-6-github.png)
+
+### Summary
+
+In this exercise, you have successfully generated code for SQL and YAML using comments with the help of GitHub Copilot.
