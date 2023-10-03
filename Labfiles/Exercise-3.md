@@ -26,7 +26,7 @@ In this exercise, you will have the opportunity to explore and apply the use of 
 
 1. Name the file `app.py` **(1)** and you will see recommendation to install `Python` extension, click on **Install** **(2)**.
 
-   ![](../media/ex-3-insatllpy.png)
+   ![](../media/ex-3-installpy.png)
 
 1. Once Python extension is inatlled. Open newly created `app.py` file, type the following code:
 
