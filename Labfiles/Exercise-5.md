@@ -155,65 +155,70 @@ In this exercise, you will engage in a learning or practice activity where your 
 
 1. With this feature, developers can engage in real-time conversations with Copilot directly through code comments, making it feel like they are collaborating with a coding partner.
 
-1. In the Visual Studio Code click on **Open Folder** and navigate to **C:\CloudLabs** and select the **Cloudlabs** folder.
+1. From inside the codespace in the VS Code explorer window, create a new file.
 
-    ![Picture1](../media/newfilecr1.png)
+    ![](../media/chat-code-new.png)
 
-1. Ensure to click on **Yes, I trust the authors** within the pop-up to successfully import Cloudlabs folder into VS Code.
+1. Name the file `codechat.cs` and you will see recommendation to install `C#` extension, click on Install.
 
-   ![Picture1](../media/trust-authors.png)
-  
-1. Now, from the File menu click on **New File** to create a new file named **chat.c**
+   ![](../media/chat-code-file.png)
 
-   ![Picture1](../media/anewfilereplace.png) 
-
-1. Paste the code given below in the newly created file.
+1. Copy and Paste the code given below in the newly created file i.e, `codechat.cs`.
 
     ```
-    #include <stdio.h>
-    #include <stdlib.h>
-    
-    int main() {
-        int health = 100;
-        int score = 0;
-    
-        printf("Welcome to the Adventure Game!\n");
-        printf("You are in a dark forest.\n");
-    
-        while (health > 0) {
-            printf("\nOptions:\n");
-            printf("1. Go deeper into the forest.\n");
-            printf("2. Rest by the campfire.\n");
-            printf("3. Quit the game.\n");
-    
-            int choice;
-            printf("Enter your choice: ");
-            scanf("%d", &choice);
-    
-            switch (choice) {
-                case 1:
-                    printf("You venture deeper into the forest and find a treasure chest!\n");
-                    score += 10;
-                    break;
-                case 2:
-                    printf("You rest by the campfire and regain 20 health.\n");
-                    health += 20;
-                    break;
-                case 3:
-                    printf("Thanks for playing! Your score: %d\n", score);
-                    exit(0);
-                default:
-                    printf("Invalid choice. Try again.\n");
-                    break;
-            }
-    
-            health -= 10;
-            if (health <= 0) {
-                printf("Game over. Your score: %d\n", score);
+    using System;
+
+    class Program
+    {
+        static void Main()
+        {
+            int health = 100;
+            int score = 0;
+
+            Console.WriteLine("Welcome to the Adventure Game!");
+            Console.WriteLine("You are in a dark forest.");
+
+            while (health > 0)
+            {
+                Console.WriteLine("\nOptions:");
+                Console.WriteLine("1. Go deeper into the forest.");
+                Console.WriteLine("2. Rest by the campfire.");
+                Console.WriteLine("3. Quit the game.");
+
+                int choice;
+                Console.Write("Enter your choice: ");
+                if (int.TryParse(Console.ReadLine(), out choice))
+                {
+                    switch (choice)
+                    {
+                        case 1:
+                            Console.WriteLine("You venture deeper into the forest and find a treasure chest!");
+                            score += 10;
+                            break;
+                        case 2:
+                            Console.WriteLine("You rest by the campfire and regain 20 health.");
+                            health += 20;
+                            break;
+                        case 3:
+                            Console.WriteLine($"Thanks for playing! Your score: {score}");
+                            return;
+                        default:
+                            Console.WriteLine("Invalid choice. Try again.");
+                            break;
+                    }
+
+                    health -= 10;
+                    if (health <= 0)
+                    {
+                        Console.WriteLine($"Game over. Your score: {score}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input. Please enter a valid number.");
+                }
             }
         }
-    
-        return 0;
     }
     ```
 
