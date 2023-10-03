@@ -81,7 +81,27 @@ In this exercise, you will perform two main tasks: first, you will install the G
 
 ### Task 4: Generate Code by Chat that uses PowerShell to deploy resources to Azure
 
+1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat chat window.
 
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write a PowerShell script for deploying Storage Account to Azure."
+
+   ![](../media/create-powershell.png)
+
+1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
+
+    ![](../media/ps-output.png)
+
+    >**Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot a question or type / for topics** text box, click the follow-up question to ask it.
+
+    >**Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
+   
+1. You can view the response from GitHub Copilot in the Chat. To insert code into new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
+
+   ![](../media/ps-newfile.png)
+
+1. Press `CTRL + S` to save the file and you will see recommendation to install `PowerShell` extension, click on Install. Name the file as `powershell.ps1` and click on **OK**.
+
+   ![](../media/ps-save.png)
 
 ### Task 5: Push code to your repository from the codespace
 
