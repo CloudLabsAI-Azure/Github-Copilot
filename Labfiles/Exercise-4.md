@@ -13,7 +13,7 @@ GitHub Copilot Chat can provide coding assistance in a variety of scenarios.
  - Proposing code fixes
  - Answering coding questions
 
-In this exercise, you will perform two main tasks: first, you will install the GitHub Copilot Chat extension, and second, you will utilize Copilot to generate code in both ARM and Terraform.
+In this exercise, you will perform two main tasks: first, you will install the GitHub Copilot Chat extension, and second, you will utilize Copilot to generate code in ARM, Terraform and PowerShell.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
@@ -79,7 +79,11 @@ In this exercise, you will perform two main tasks: first, you will install the G
 
    ![](../media/terraform-save.png)
 
-### Task 4: Push code to your repository from the codespace
+### Task 4: Generate Code by Chat that uses PowerShell to deploy resources to Azure
+
+
+
+### Task 5: Push code to your repository from the codespace
 
 1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
 
