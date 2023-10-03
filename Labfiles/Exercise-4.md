@@ -110,7 +110,7 @@ In this exercise, you will perform two main tasks: first, you will install the G
 1. Run the below command to add the `app.py` and `prime.py` files to the repository:
 
    ```
-   git add arm.json terraform.tf
+   git add arm.json terraform.tf powershell.ps1
    ```
 
 1. Next from the VS Code terminal stage and commit the changes to the repository:
@@ -125,16 +125,16 @@ In this exercise, you will perform two main tasks: first, you will install the G
    git push
    ```
 
-   ![](../media/ex-4-push4.png)
+   ![](../media/ex-4-push5.png)
 
    >**Note**: Wait about 60 seconds then refresh your repository landing page for the next step.
 
-1. You can verify the `arm.json` and `terraform.tf` files available in your GitHub repository.
+1. You can verify the `arm.json`, `powershell.ps1` and `terraform.tf` files available in your GitHub repository.
 
-   ![](../media/ex-4-github4.png)
+   ![](../media/ex-4-github5.png)
 
 1. Click on Next from the bottom right to continue with the next exercies.
 
 ### Summary
 
-In this exercise, you have successfully installed the GitHub Copilot Chat extension, and you have employed Copilot to automatically generate code in both ARM and Terraform programming languages.
+In this exercise, you have successfully installed the GitHub Copilot Chat extension, and you have employed Copilot to automatically generate code in both ARM, Terraform and PowerShell programming languages.
