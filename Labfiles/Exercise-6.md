@@ -13,8 +13,18 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
 1. Name the file `demo.sql` and type the below comment:
 
    ```
-   // define a select statement to select specific columns from table
+   -- create table for 5 products with product name and price
    ```
 
-1. Press enter to go to a new line. Copilot will suggest a code block.
+1. To open a new tab with multiple synthesized solutions, press `Ctrl + Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions and to accept a suggestion, you need to click on Accept Solution above the suggestion and then save the file.
+
+   ![](../media/demo-sql.png)
+
+1. After accepting the suggestion, review it carefully before applying them.
+
+   ![](../media/demo-sql1.png)
+
+   >**Note**: You may not see the same suggestions as shown in the screenshot, exact suggestion may vary
+
+### Task 2: 
    
