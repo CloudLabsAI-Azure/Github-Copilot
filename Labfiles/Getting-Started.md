@@ -18,8 +18,7 @@
    
 1. On the **Sign in to GitHub** tab you will see the login screen, in that enter the following **email/username** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
-   * **Username or email address**: <inject key="GitHub UserEmail"></inject>
-   * **Password**: <inject key="GitHub Password"></inject>
+   >**Note**: To get GitHub Credentials navigate to the **Environment Deatils** tab and click on **GitHub Credentials** option to view the key-value pairs of the **GitHub UserName**, **GitHub UserEmail** and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
    
    ![](../media/github-login.png)
           
