@@ -18,7 +18,7 @@
    
 1. On the **Sign in to GitHub** tab you will see the login screen, in that enter the following **email/username** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
-   * **Email/Username**: <inject key="GitHub UserEmail"></inject>
+   * **Username or email address**: <inject key="GitHub UserEmail"></inject>
    * **Password**: <inject key="GitHub Password"></inject>
    
    ![](../media/github-login.png)
