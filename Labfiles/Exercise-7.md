@@ -10,4 +10,18 @@ In this exercise, you will be generating documentation using GitHub Copilot.
 
     ![](../media/chat-code-new.png)
 
-1. Name the file `Document.md` and type the below comment:
+1. Name the file `Document.md` and press `CTRL + I` to ask GitHub Copilot to do something.
+
+   ![](../media/ex-7-docmd.png)
+
+1. Type the below statement **(2)** and click on `>` or press `Enter` **(2)**.
+
+   ![](../media/ex-7-mdsearch.png)
+
+1. Copilot will give a response and you can review it **(1)**, click **Accept** **(2)** and press `CTRL + S` to save the file. Also, you can Discard the suggestion as depicted in the image below.
+
+   ![](../media/ex-7-mdreview.png)
+
+## Summary
+
+In this exercise, you have successfully generated document using GitHub Copilot Chat.
