@@ -40,10 +40,34 @@ In this exercise, you will be cloning the git repository with required dataset i
 
 ### Task 2: Auto Completion of Code with different experiments
 
-1. From the VS Code explorer window, create a new file.
+1. From the VS Code explorer window, right-click on the folder named **ml-copilot-workshop** **(1)** and click on **New File**. Name the file as `Experiments.ipynb` **(2)** and verify your new file looks as shown below:
 
-   ![](../media/create-newfile.png)
+   ![](../media/ex-8-create-file.png)
 
-1. Name the file `Experiments.ipynb` and verify your new file looks as shown below:
+1. Type the below comments to import all the libraries the copilot automatically prompts all the libraries press tab and then press enter to get the output. 
+
+   ```
+   # import libraries with respect to loading data and creating random forest model
+   ```
+
+   ![](../media/ex-8-import-lib.png)
+
+1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click **Run** **(2)** button to execute the cell. CLick on `+ Code` **(3)** to add the new cell.
+
+   ![](../media/ex-8-add-cell.png)
+
+   >**Note**: While running the cell, you may need to install the required packages and select kernel.
+
+1. Type the below comments to load the data using copilot prompt. Press enter to get into next line and review the suggestion and press Tab to accept the suggestion.
+
+   ```
+   # load the data from csv file and the name of the file is diabetes.csv
+   ```
+
+    ![](../media/ex-8-load-data.png)
+
+1. 
+
+   
 
 
