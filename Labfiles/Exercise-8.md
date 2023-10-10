@@ -54,7 +54,7 @@ In this exercise, you will be cloning the git repository with required dataset i
 
 1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click **Run** **(2)** button to execute the cell. CLick on `+ Code` **(3)** to add the new cell.
 
-   ![](../media/ex-8-add-cell-new.png)
+   ![](../media/ex8-add-cell-new.png)
 
    >**Note**: While running the cell, you may need to install the required packages and select kernel.
 
@@ -64,10 +64,29 @@ In this exercise, you will be cloning the git repository with required dataset i
    # load the data from csv file and the name of the file is diabetes.csv
    ```
 
-    ![](../media/ex-8-load-data.png)
+    ![](../media/ex8-load-data-1.png)
 
-1. 
+1. Now cli k on **+Code** and move to next task.
 
    
+### Task 3: Mathematical and machine Learning with different Examples
 
+1. Type the below comments to Performe the data analysis and summary statistics on dataset, press tab and then press enter to get the output. 
 
+   ```
+   # Perform count, min, max, std, mean, 25%, 50%, 75% on the dataset
+   ```
+
+   ![](../media/ex9-machine-learning-dataset.png)
+
+1. Once the cell run is completed, you will be getting the output similar to the below image.
+
+   ![](../media/ex9-machine-learning-output.png)
+
+1. Before building the model the main frame is to split the data into train test and split and this would be done by copilot itself. Type the below comments, press tab
+
+     ```
+   # 
+   ```
+
+   ![](../media/ex9-machine-learning-dataset.png)
