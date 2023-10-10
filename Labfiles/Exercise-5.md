@@ -2,7 +2,7 @@
 
 GitHub code refactoring refers to the process of restructuring and improving the quality of code in a GitHub repository without changing its external behavior. Code refactoring aims to enhance readability, maintainability, and performance while reducing technical debt and potential bugs. 
 
-In this exercise, you will engage in a learning or practice activity where your primary objective will be to utilize GitHub Copilot for the purpose of code refactoring using C Sharp (C#) programming language.
+In this exercise, you will engage in a learning or practice activity where your primary objective will be to utilize GitHub Copilot for the purpose of code refactoring using C Sharp (C#) programming language and you will be Creating unit test functions using GitHub Copilot Chat.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this lab, but the exact suggestion may vary.
 
@@ -234,6 +234,35 @@ In this task, you will demonstrate the chat with code feature of GitHub copilot.
 
      >**Note:** It's essential to carefully review copilot suggestions before applying them.
 
+## Task 5: Create unit test functions
+
+1. From inside the codespace in the VS Code explorer window, create a new file.
+
+    ![](../media/chat-code-new.png)
+
+1. Name the file `Test.js` ass shown below:  
+
+   ![](../media/testjsfile.png)
+
+1. Now, navigate to the GitHub Copilot Chat and give the prompt **Compose a full JavaScript program for constructing a calculator**.
+
+   >**Note:** Test case generation currently only supports Javascript and Typescript programming languages
+
+1. The Github Copilot Chat will generate the code as shown below.
+
+   ![](../media/calci.png)
+
+1. Copy and paste the code in the file named **Test.js** file that you just created.
+
+1. Now, to generate test cases for each function, select the function for which the test case has to be generated, and back in the GitHub Copilot Chat window, type **/tests** and hit enter.
+
+   ![](../media/abctestsdemo.png)
+
+1. It will generate a test case for the add function.
+
+   ![](../media/addtestcase.png)
+
+
 ## Summary
 
-In this exercise, you have successfully employed GitHub Copilot to carry out code refactoring tasks. Code refactoring with Copilot's assistance will helps your coding projects more efficient and collaborative.
+In this exercise, you have successfully employed GitHub Copilot to carry out code refactoring tasks and created unit test functions. Code refactoring with Copilot's assistance will helps your coding projects more efficient and collaborative.
