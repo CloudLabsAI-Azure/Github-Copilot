@@ -106,7 +106,7 @@ In this exercise, you will be cloning the git repository with required dataset i
 
 1. Once the cell run is completed, you will be getting the graphical representation output similar to the below image.
 
-   ![](../media/ex9-basic-operation-graph-output.png)
+   ![](../media/ex9-basic-opration-graph-output.png)
 
 1. Now, type the below comments for specifying certain commonly used plots for visualizing, press tab and then press enter to get the output as below image.
 
