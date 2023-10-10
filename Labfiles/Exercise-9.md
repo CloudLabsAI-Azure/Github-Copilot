@@ -1,4 +1,4 @@
-# Exercise 8: Working with the Copilot for Machine Learning [Optional]
+# Exercise 9: Working with the Copilot for Machine Learning [Optional]
 
 Working with Copilot for machine learning involves leveraging GitHub Copilot, an AI-powered code completion tool developed by GitHub in collaboration with OpenAI. Here's a quick summary of the key steps and considerations:
 
