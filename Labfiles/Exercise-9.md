@@ -71,6 +71,44 @@ In this exercise, you will be cloning the git repository with required dataset i
    
 ### Task 3: Mathematical and machine Learning with different Examples
 
+### Task 3.1: Mathematical Operations
+
+1. Type the below comments to Performe the first mathematical experiment would be to generate the birth year from the age column present in the dataset, press tab and then press 
+   enter. 
+
+   ```
+   # Mathematical operations on the dataset like generating the birth year from age
+   ```
+
+   ![](../media/ex9-birthyear.png)
+
+1. Type the below comment, press tab and then press enter to get the output similar to the below image. 
+
+   ```
+   # Show the new column
+   ```
+
+   ![](../media/ex9-birthyear-output.png)
+
+1. Type the below comments to convert the BMI column upto two decimal values, press tab and then press enter. 
+
+   ```
+   # convert the BMI column to two decimal values
+   ```
+
+   ![](../media/ex9-bmi-decimal.png)
+
+1. In the same code cell type the below comment, press tab and then press enter to get the output similar to the below image. 
+
+   ```
+   # Show the new column only
+   ```
+
+   ![](../media/ex9-bmi-decimal-output.png)
+
+
+### Task 3.2: Machine Learning
+
 1. Type the below comments to Performe the data analysis and summary statistics on dataset, press tab and then press enter to get the output. 
 
    ```
@@ -95,6 +133,8 @@ In this exercise, you will be cloning the git repository with required dataset i
 
 
 ### Task 4: Data Visualization and data Transformation
+
+### Task 4.1: Data Visualization
 
 1. Click on **+Code** to open the new cell and type the below comments to Performe the basic operations on dataset, press tab and then press enter to get the output. 
 
@@ -135,3 +175,54 @@ In this exercise, you will be cloning the git repository with required dataset i
    ![](../media/ex9-heatmap.png)
 
    ![](../media/ex9-heatmap-output.png)
+
+
+### Task 4.2: Data Transformations
+
+
+1. Click **+Code** to add a new cell and type the below comments for Standardization, the process of scaling and centering numeric features to have a mean of 0 and a standard      
+   deviation of 1, making them comparable and suitable for certain algorithms, press tab and then press enter.
+
+   ```
+   # Perform Standardization on the data
+   ```
+
+   ![](../media/ex9-standardization.png)
+
+   ![](../media/ex9-standardization-new.png)
+
+1. You will get the output as below image once the code cell finished the running.
+
+   ![](../media/ex9-standardization-output.png)
+
+
+### Task 5: Training the sample model
+
+Training a sample model using Random Forest.
+
+>**Note**: The model training is a continuation of train test split step to train the model run the train test split step 	first  then continue with the model building.
+
+1. Click **+Code** to add a new cell and type the below comments for creating the random forest model, press tab and then press enter.
+
+   ```
+   # Create a random forest model with 100 trees and the criterion is entropy
+   ```
+
+   ![](../media/ex9-entropy.png)
+
+   ![](../media/ex9-entropy-1.png)
+
+   ![](../media/ex9-entropy-2.png)
+
+1. In a new cell type the below comments for calculating the accuracy of the model, press tab and then press enter to see the output.
+
+   ```
+   # Calculate the accuracy of the model
+   ```
+
+   ![](../media/ex9-accuracy.png)
+
+
+### Summary
+
+In this exercise, you have successfully leveraged the GitHub Copilot for machine learning.
