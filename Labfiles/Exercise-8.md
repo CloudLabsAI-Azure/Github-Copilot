@@ -54,7 +54,7 @@ In this exercise, you will be cloning the git repository with required dataset i
 
 1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click **Run** **(2)** button to execute the cell. CLick on `+ Code` **(3)** to add the new cell.
 
-   ![](../media/ex-8-add-cell.png)
+   ![](../media/ex-8-add-cell-new.png)
 
    >**Note**: While running the cell, you may need to install the required packages and select kernel.
 
