@@ -240,9 +240,9 @@ In this task, you will demonstrate the chat with code feature of GitHub copilot.
 
     ![](../media/chat-code-new.png)
 
-1. Name the file `Test.js` ass shown below:  
+1. Name the file `test.js` ass shown below:  
 
-   ![](../media/testjsfile.png)
+   ![](../media/create-test.png)
 
 1. Now, navigate to the GitHub Copilot Chat and give the prompt **Compose a full JavaScript program for constructing a calculator**.
 
@@ -252,7 +252,7 @@ In this task, you will demonstrate the chat with code feature of GitHub copilot.
 
    ![](../media/calci.png)
 
-1. Copy and paste the code in the file named **Test.js** file that you just created.
+1. Copy and paste the code in the file named **test.js** file that you just created.
 
 1. Now, to generate test cases for each function, select the function for which the test case has to be generated, and back in the GitHub Copilot Chat window, type **/tests** and hit enter.
 
