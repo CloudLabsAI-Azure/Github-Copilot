@@ -1,4 +1,4 @@
-# Exercise 10: Getting started with GitHub Copilot Labs
+# Exercise 10: Getting started with GitHub Copilot Labs [Optional]
 
 GitHub Copilot is a groundbreaking AI pair programmer, but we're only just beginning to explore its potential. Copilot's technical preview has improved the quality of suggestions and added 
 safety features, but it's easy to see how Copilot can go beyond code suggestions.
@@ -71,4 +71,9 @@ vary.
 1. After which the output is represented as shown below.
 
    ![](../media/ex10-debug4.png)
+
+
+### Summary
+
+In this exercise, you have worked on the GitHub Copilot Labs and it's related features.
    
