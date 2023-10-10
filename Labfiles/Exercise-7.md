@@ -1,4 +1,4 @@
-# Exercise 6: Using GitHub Copilot for T-SQL and YAML code
+# Exercise 7: Using GitHub Copilot for T-SQL and YAML code
 
 In this exercise, the primary objective is to leverage the capabilities of GitHub Copilot, a powerful AI-assisted coding tool, to assist you in generating code for two distinct programming languages: T-SQL and YAML. You can leverage comments to generate Copilot suggestions!
 
