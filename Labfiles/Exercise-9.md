@@ -66,7 +66,7 @@ In this exercise, you will be cloning the git repository with required dataset i
 
     ![](../media/ex8-load-data-1.png)
 
-1. Now cli k on **+Code** and move to next task.
+1. Now cli k on **+Code** and move on to next task.
 
    
 ### Task 3: Mathematical and machine Learning with different Examples
@@ -77,16 +77,61 @@ In this exercise, you will be cloning the git repository with required dataset i
    # Perform count, min, max, std, mean, 25%, 50%, 75% on the dataset
    ```
 
-   ![](../media/ex9-machine-learning-dataset.png)
+   ![](../media/ex8-machine-learning-dataset.png)
 
 1. Once the cell run is completed, you will be getting the output similar to the below image.
 
-   ![](../media/ex9-machine-learning-output.png)
+   ![](../media/ex8-machine-learning-output.png)
 
-1. Before building the model the main frame is to split the data into train test and split and this would be done by copilot itself. Type the below comments, press tab
+1. Before building the model the main frame is to split the data into train test and split and this would be done by copilot itself. Type the below comments, press tab and run the cell.
 
-     ```
-   # 
+   ```
+   # Split the data into training and testing data and the column name Diabetic is the target column
    ```
 
-   ![](../media/ex9-machine-learning-dataset.png)
+   ![](../media/ex9-train-data.png)
+
+   ![](../media/ex9-train-data-1.png)
+
+
+### Task 4: Data Visualization and data Transformation
+
+1. Click on **+Code** to open the new cell and type the below comments to Performe the basic operations on dataset, press tab and then press enter to get the output. 
+
+   ```
+   # Perform univariate analysis on the dataset and plot the graphs
+   ```
+
+   ![](../media/ex9-basic-operation.png)
+
+1. Once the cell run is completed, you will be getting the graphical representation output similar to the below image.
+
+   ![](../media/ex9-basic-operation-graph-output.png)
+
+1. Now, type the below comments for specifying certain commonly used plots for visualizing, press tab and then press enter to get the output as below image.
+
+   ```
+   # Perform scatter plot on the dataset and plot the graphs
+   ```
+
+   ![](../media/ex9-scatter-graph.png)
+
+1. Type the below comments for performing Joint Plot or Grid (rarely used plots) for visualization, press tab and then press enter to get the output as below image.
+
+   ```
+   # Perform JointGrid plot on the dataset and plot the graphs
+   ```
+
+   ![](../media/ex9-jointgrid-graph.png)
+
+   ![](../media/ex9-jointgrid-graph-output.png)
+
+1. Type the below comments for performing visualization on all features of dataset, press tab and then press enter to get the output as below image.
+
+   ```
+   # Perform comparision on all features of the dataset and plot the graphs in a single plot using heatmap
+   ```
+
+   ![](../media/ex9-heatmap.png)
+
+   ![](../media/ex9-heatmap-output.png)
