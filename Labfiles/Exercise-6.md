@@ -38,3 +38,6 @@ In this exercise, you will be using JetBrains IntelliJ Idea IDE for Java. You wi
 
    ![](../media/demo-copilot-project.png)
 
+
+## Task 2: Create basic java project
+
