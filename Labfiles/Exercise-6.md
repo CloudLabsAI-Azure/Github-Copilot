@@ -77,5 +77,54 @@ In this exercise, you will be using JetBrains IntelliJ Idea IDE for Java. You wi
 
 1. Press **Tab** to accept the suggestion.
 
+
+## Task 3: Getting more suggestions
+
+Sometimes, you may not want to use any of the initial suggestions. You can ask GitHub Copilot to return more.
+
+1. Remove the function you entered and type the following again.
+
+   ```
+   int calculateDaysBetweenDates(
+   ```
+
+1. Open GitHub Copilot.
+
+      -On macOS, press **Option+Enter**.
+   
+      -On Windows or Linux, press **Alt+Enter**.
+
+1. Select "Open Copilot". GitHub Copilot will open a new tab and suggest multiple options, as shown below.
+
+   ![](../media/ex6-copilot-suggestion.png)
+
+1. Pick a suggestion that you want to use, then click "Accept solution".
+
+1. If you don't like any of the returned suggestions, just close the suggestions tab.
+
+
+## Task 4: Getting code from a comment
+
+GitHub Copilot can understand significantly more context than most code assistants, and can generate entire functions from something as simple as a comment.
+
+1. Remove the function you entered and type the following comment.
+
+   ```
+   // find all images without alternate text
+   // and give them a red border
+   void process() {
+
+   ```
+
+1. GitHub Copilot will automatically suggest an implementation.
+
+   
+   ![](../media/ex6-image-suggestion.png)
+
+
 1. Click on **Next** from the bottom right to continue with the next exercies.
 
+
+### Summary
+
+In this exercise, you have successfully configured the JetBrains IntelliJ IDE for GitHub Copilot and explored the basic java code which produced the suggestions using Copilot.
