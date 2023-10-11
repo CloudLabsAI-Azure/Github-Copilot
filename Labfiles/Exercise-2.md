@@ -62,6 +62,108 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 1. Click on **Next** from the bottom right to continue with the next exercies.
 
+
+## Task 3: Best Practices to use GitHub Copilot
+
+## Task 3.1- Example: Set the stage with a high-level goal
+
+This is most helpful if you have a blank file or empty codebase. In other words, if GitHub Copilot has zero context of what you want to build or accomplish, setting the stage for the AI 
+pair programmer can be really useful. It helps to prime GitHub Copilot with a big picture description of what you want it to generate—before you jump in with the details.
+
+When prompting GitHub Copilot, think of the process as having a conversation with someone: How should I break down the problem so we can solve it together? How would I approach pair 
+programming with this person?
+
+1. From the VS Code explorer window, create a new file.
+
+   ![](../media/create-newfile.png)
+
+1. Name the file `index.js` and verify your new file looks as shown below:
+
+   ![](../media/ex2-index.png)
+
+1. Now press **Ctrl+I** to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on **Make request(Enter) (2)** button.
+
+   ```
+   /*
+   Create a basic markdown editor in Next.js with the following features:
+   - Use react hooks
+   - Create state for markdown with default text "type markdown here"
+   - A text area where users can write markdown 
+   - Show a live preview of the markdown text as I type
+   - Support for basic markdown syntax like headers, bold, italics 
+   - Use React markdown npm package 
+   - The markdown text and resulting HTML should be saved in the component's state and updated in real time 
+   */
+   ```
+
+   ![](../media/ex2-markdown.png)
+
+1. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled but functional markdown editor.
+
+   ![](../media/ex2-markdown-output.png)
+
+
+
+## Task 3.2- Example: Make your ask simple and specific. Aim to receive a short output from GitHub Copilot
+
+Once you communicate your main goal to the AI pair programmer, articulate the logic and steps it needs to follow for achieving that goal. GitHub Copilot better understands your goal 
+when you break things down. (Imagine you’re writing a recipe. You’d break the cooking process down into discrete steps–not write a paragraph describing the dish you want to make.)
+Let GitHub Copilot generate the code after each step, rather than asking it to generate a bunch of code all at once.
+
+1. In the same index.js file enter the below step-by-step instructions for reversing a sentence.
+
+    ```
+    // reverse a sentence
+    // the start of the new sentence must be capital
+    ```
+
+1. The generated outcome whould look similar to belwo image.
+
+   ![](../media/ex2-reverse-sentence-output.png)
+
+
+## Task 3.3- Example: Give GitHub Copilot an example or two
+
+Learning from examples is not only useful for humans, but also for your AI pair programmer. For instance, we wanted to extract the names from the array of data below and store it in a 
+new array:
+
+ ```
+       const data = [
+     [
+       { name: 'John', age: 25 },
+       { name: 'Jane', age: 30 }
+     ],
+     [
+       { name: 'Bob', age: 40 }
+     ]
+   ];
+    
+ ```
+
+1. Type the below comment in the chat to generate the output without showing example to GitHub Copilot.
+
+   ```
+    // Map through an array of arrays of objects to transform data
+    
+   ```
+
+1. It generated an incorrect usage of map.
+
+   ![](../media/ex2-array-output.png)
+
+1. By contrast, type the below comments to provide the example to generate the desired output.
+
+    ```
+      // Map through an array of arrays of objects
+      // Example: Extract names from the data array
+      // Desired outcome: ['John', 'Jane', 'Bob']
+    
+    ```
+
+1. Now, We received our desired outcome.
+
+   ![](../media/ex2-array-output-1.png)
+
 ### Summary
 
 In this exercise, you have successfully generated JavaScript code with the help of Copilot.
