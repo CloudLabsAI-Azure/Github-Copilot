@@ -60,8 +60,6 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
    >**Note**: Wait about 60 seconds then refresh your GitHub repository landing page for the next step.
 
-1. Click on **Next** from the bottom right to continue with the next exercies.
-
 
 ## Task 3: Best Practices to use GitHub Copilot
 
@@ -163,6 +161,31 @@ new array:
 1. Now, We received our desired outcome.
 
    ![](../media/ex2-array-output-1.png)
+
+1. Open the **New Terminal** **(3)** to push the code.
+
+1. Run the below command to add the `index.js` file to the GitHub repository.
+
+   ```
+   git add index.js
+   ```
+
+1. Next from the VS Code terminal stage and commit the changes to the repository:
+
+   ```
+   git commit -m "Copilot first commit"
+   ```
+
+1. Finally from the VS Code terminal push the code to the repository:
+
+   ```
+   git push
+   ```
+
+   >**Note**: Wait about 60 seconds then refresh your GitHub repository landing page for the next step.
+
+
+1. Click on **Next** from the bottom right to continue with the next exercies.
 
 ### Summary
 
