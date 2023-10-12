@@ -102,7 +102,7 @@ programming with this person?
 
 
 
-## Task 3.2- Example: Make your ask simple and specific. Aim to receive a short output from GitHub Copilot
+## Task 3.2- Example: Aim to receive a short output from GitHub Copilot for the simple and specific ask.
 
 Once you communicate your main goal to the AI pair programmer, articulate the logic and steps it needs to follow for achieving that goal. GitHub Copilot better understands your goal 
 when you break things down. (Imagine you’re writing a recipe. You’d break the cooking process down into discrete steps–not write a paragraph describing the dish you want to make.)
