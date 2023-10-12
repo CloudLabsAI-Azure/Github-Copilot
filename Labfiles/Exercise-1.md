@@ -1,15 +1,16 @@
 
 # Exercise 1: Leverage Codespaces with VS Code for Copilot
 
-GitHub Copilot is an AI pair programmer that helps you write code faster and with less work. It draws context from comments and code to suggest individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a generative pretrained language model created by OpenAI.
+GitHub Copilot is an AI pair programmer designed to make writing code easier and faster. It draws context from comments and code to suggest individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a generative pre-trained language model created by OpenAI.
 
-**Copilot works with many code editors including VS Code, Visual Studio, JetBrains IDE, and Neovim.**
 
-Additionally, GitHub Copilot is trained on all languages that appear in public repositories. For each language, the quality of suggestions you receive may depend on the volume and diversity of training data for that language.
+**Copilot is compatible with a wide range of code editors, such as Neovim, JetBrains IDE, Visual Studio, and VS Code.**
+
+Additionally, GitHub Copilot is trained in every language that can be found in public repositories. The amount and variety of training data for each language may have an impact on the quality of recommendations you obtain.
 
 Using Copilot inside a Codespace shows just how easy it is to get up and running with GitHub's suite of [Collaborative Coding](https://github.com/features#features-collaboration) tools.
 
-In this exercise, you will create a development container and define specific extensions or configurations that will be used or installed in your codespace. You will create this development container and add copilot to the list of extensions.
+In this exercise, you will create a development container and define specific extensions or configurations that will be used or installed in your codespace. You will create this development container and add Copilot to the list of extensions.
 
 ## Task 1: Enable Copilot inside a Codespace
 
@@ -49,7 +50,7 @@ In this exercise, you will create a development container and define specific ex
 
    ![](../media/code-code.png)
 
-1. Click the **Codespaces** tab on the box that pops up and then click the **Create codespace on main** button.
+1. Click the **Codespaces** tab on the box that pops up, and then click the **Create codespace on main** button.
 
    ![](../media/create-codespace.png)
 
@@ -59,28 +60,28 @@ In this exercise, you will create a development container and define specific ex
 
    ![](../media/allow-extension-open.png)
 
-1. At the bottom right corner you will get a prompt to Sign in to GitHub.
+1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
    ![](../media/signingit.png)
 
-1. Next, once you get the popup click on **Allow**
+1. Next, once you get the popup, click on **Allow**
 
    ![](../media/allow.png)
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
-1. Verify your codespace is running. Make sure VS code looks as shown below:
+1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
    ![](../media/loaded-repo.png)
 
-1. Click on **Extensions** **(1)** from left-menu, the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the copilot extension and vierfy it's installtion as shown below:
+1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
    ![](../media/verify-copilot.png)
 
-   >**Note**: If in case GitHub Copilot extension is not installed, click on Install.
+   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
  
-1. Click on **Next** from the bottom right to continue with the next exercies.
+1. Click on **Next** from the bottom right to continue with the next exercise.
 
 ### Summary
 
-In this exercise, you have created development container and added copilot to the list of extensions.
+In this exercise, you have created a development container and added Copilot to the list of extensions.
