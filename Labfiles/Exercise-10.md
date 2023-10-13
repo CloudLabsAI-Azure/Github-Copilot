@@ -9,7 +9,7 @@ GitHub Copilot is a groundbreaking AI pair programmer, and we're just at the beg
 
 ## Task 1: Download Copilot Labs from the VS Code Extensions Marketplace
 
-1. In the Vs-Code, open the **Extensions (1)** tab and search for **GitHub Copilot Labs (2)** and then clcik on **Install(3)**.
+1. In the VS-Code, open the **Extensions (1)** tab and search for **GitHub Copilot Labs (2)** and then click on **Install(3)**.
 
    ![](../media/ex10-github-copilot-labs.png)
 
