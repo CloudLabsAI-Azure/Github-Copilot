@@ -8,7 +8,7 @@ In this exercise, you will have the opportunity to experiment with and apply Jav
 
 ## Task 1: Add a JavaScript file and start writing code.
 
-1. From the VS Code Explorer window, create a new file.
+1. From the VS Code Explorer window, create a New File.
 
    ![](../media/create-newfile.png)
 
@@ -21,13 +21,12 @@ In this exercise, you will have the opportunity to experiment with and apply Jav
    ```
    function calculateNumbers(var1, var2)
    ```
-
    
    A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
    ![](../media/skills-function.png)
 
-4. Press `Tab` to accept the suggestion and then save the file.
+4. Press `Tab` to accept the suggestion and then press `Ctrl+S` to save the file.
 
    ![](../media/save-skills.png)
 
@@ -85,15 +84,15 @@ This is most helpful if you have a blank file or an empty codebase. In other wor
 When prompting GitHub Copilot, think of the process as having a conversation with someone: How should I break down the problem so we can solve it together? How would I approach a pair
 programming with this person?
 
-1. From the VS Code Explorer window, create a new file.
+1. From the VS Code Explorer window, create a New File.
 
-   ![](../media/create-newfile.png)
+   ![](../media/E2-T3.1-S1.png)
 
 2. Name the file `index.js` and verify your new file looks as shown below:
 
-   ![](../media/ex2-index.png)
+   ![](../media/E2-T3.1-S2.png)
 
-3. Now press **Ctrl+I** to open the GitHub Copilot Chat, paste the following **comments (1)** to create a basic markdown editor, and click on the **Make request(Enter) (2)** button.
+3. Now press **Ctrl+I** to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on **Make request (Enter) (2)** button.
 
    ```
    /*
@@ -113,7 +112,6 @@ programming with this person?
 4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor.
 
    ![](../media/ex2-markdown-output.png)
-
 
 
 ## Task 3.2- Example: Aim to receive a short output from GitHub Copilot for a simple and specific ask
@@ -138,24 +136,22 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 Not only can people benefit from learning from examples, but so can your AI pair programmer. For example, in order to take the names out of the data array below and put them in a
 new array:
 
- ```
-       const data = [
-     [
-       { name: 'John', age: 25 },
-       { name: 'Jane', age: 30 }
-     ],
-     [
-       { name: 'Bob', age: 40 }
-     ]
-   ];
-    
- ```
+   ```
+          const data = [
+        [
+          { name: 'John', age: 25 },
+          { name: 'Jane', age: 30 }
+        ],
+        [
+          { name: 'Bob', age: 40 }
+        ]
+      ];    
+   ```
 
 1. Type the below comment in the chat to generate the output without showing an example to GitHub Copilot.
 
    ```
-    // As an illustration, pull names out of the data array
-    
+    // As an illustration, pull names out of the data array  
    ```
 
 2. It generated an incorrect usage of the map.
@@ -167,8 +163,7 @@ new array:
     ```
       // Map through an array of arrays of objects
       // Example: Extract names from the data array
-      // Desired outcome: ['John', 'Jane', 'Bob']
-    
+      // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
 4. Now, we have received our desired outcome.
@@ -183,10 +178,10 @@ new array:
    git add index.js
    ```
 
-7. Next, from the VS Code terminal stage, commit the changes to the repository:
+7. Next from the VS Code terminal, commit the changes to the repository:
 
    ```
-   git commit -m "Copilot first commit"
+   git commit -m "Copilot commit"
    ```
 
 8. Finally, from the VS Code terminal, push the code to the repository:
@@ -196,7 +191,6 @@ new array:
    ```
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
-
 
 9. Click on **Next** from the bottom right to continue with the next exercise.
 
