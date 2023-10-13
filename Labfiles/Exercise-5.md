@@ -2,7 +2,7 @@
 
 Duration: 40 minutes
 
-GitHub code refactoring refers to the process of restructuring and improving the quality of code in a GitHub repository without changing its external behavior. Code refactoring aims to enhance readability, maintainability, and performance while reducing technical debt and potential bugs. 
+GitHub code refactoring refers to the process of restructuring and improving the quality of code in a GitHub repository without changing its external behaviour. Code refactoring aims to enhance readability, maintainability, and performance while reducing technical debt and potential bugs. 
 
 In this exercise, you will engage in a learning or practice activity where your primary objective will be to utilize GitHub Copilot for the purpose of code refactoring using C Sharp (C#) programming language and you will be Creating unit test functions using GitHub Copilot Chat.
 
@@ -10,7 +10,7 @@ In this exercise, you will engage in a learning or practice activity where your 
 
 ## Task 1: Understand the code already available for you
 
-1. To demonstrate the Github code refactor, let us take an example of a poorly written code and analyze it. The below code is written using C# programming language.
+1. To demonstrate the GitHub code refactor, let us take an example of a poorly written code and analyze it. The below code is written using C# programming language.
     
    ```
    using System;
@@ -74,13 +74,13 @@ In this exercise, you will engage in a learning or practice activity where your 
   
 ## Task 2: Use GitHub Copilot to refactor the code
 
-1. Now, let's use the **Github Copilot Chat** feature to refactor the above code.
+1. Now, let's use the **GitHub Copilot Chat** feature to refactor the above code.
 
 1. Click on the **Chat** extension icon from the activity bar in the left navigation pane. This opens the GitHub Copilot Chat window into which the above code is to be **pasted**.
 
 1. Type the prompt `Refactor the code` at the end of the code and then press **enter**.
 
-1. The Github Copilot Chat will give the response as shown below.  
+1. The GitHub Copilot Chat will give the response as shown below.  
 
    ![](../media/refactored-code.png)
 
@@ -134,7 +134,7 @@ In this exercise, you will engage in a learning or practice activity where your 
     }
     ```
 
-1. Now, let's analyze the changes made by the GitHub Copilot chat. The changes made to the code by Github Copilot Chat are:
+1. Now, let's analyze the changes made by the GitHub Copilot chat. The changes made to the code by GitHub Copilot Chat are:
    - Here, GitHub Copilot removed the `n` parameter from the Sum method since it's not needed. Instead, copilot used a foreach loop to iterate over the array. This makes the code more concise and easier to read.
    - This includes the System namespace for input and output operations.
    - Defines a constant MAX with a value of 100 for the maximum number of elements allowed in an array.
@@ -248,9 +248,9 @@ In this task, you will demonstrate the chat with code feature of GitHub copilot.
 
 1. Now, navigate to the GitHub Copilot Chat and give the prompt **Compose a full JavaScript program for constructing a calculator**.
 
-   >**Note:** Test case generation currently only supports Javascript and Typescript programming languages
+   >**Note:** Test case generation currently only supports JavaScript and Typescript programming languages
 
-1. The Github Copilot Chat will generate the code as shown below.
+1. The GitHub Copilot Chat will generate the code as shown below.
 
    ![](../media/calci.png)
 
