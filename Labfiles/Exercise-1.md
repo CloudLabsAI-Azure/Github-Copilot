@@ -14,7 +14,7 @@ In this exercise, you will create a development container and define specific ex
 
 ## Task 1: Enable Copilot inside a Codespace
 
-1. From the **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then click `Create new file` **(3)**.
+1. Navigate back to the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `Create new file` **(3)**.
 
     ![](../media/create-new-file.png)
 
@@ -50,9 +50,11 @@ In this exercise, you will create a development container and define specific ex
 
    ![](../media/code-code.png)
 
-1. Click the **Codespaces** tab on the box that pops up, and then click the **Create codespace on main** button.
+1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
 
    ![](../media/create-codespace.png)
+
+   >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
 1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Open** to continue.
 
@@ -69,6 +71,8 @@ In this exercise, you will create a development container and define specific ex
    ![](../media/allow.png)
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
+
+1. Click **Authorize Visual-Studio-Code** once the Authorize Github for VS code tab appears in the browser.
 
 1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
