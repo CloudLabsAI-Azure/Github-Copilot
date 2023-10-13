@@ -8,11 +8,23 @@ In this exercise, you will be using JetBrains IntelliJ Idea IDE for Java. You wi
 
 ## Task 1: Install GitHub Copilot Plugin and Create New Project in IntelliJ Idea IDE
 
-1. Navigate to Desktop and open **IntelliJ Idea Community** IDE.
+1. Navigate to Desktop and open **IntelliJ IDEA Community** IDE.
+
+   ![](../media/E6-T1-S1.png)
+
+1. In the IntelliJ IDEA Agreement, check **I confirm that I have read and accept the terms of this User Agreement (1)** and  click on **Continue (2)**.
+
+   ![](../media/E6-T1-S2.png)
+
+   >**Note:** When Data Sharing box appears, click on **Don't Send**.
+
+   ![](../media/E6-T1-S2.1.png)
 
 1. From the left menu, click on **Plugins** **(1)** and select **Marketplace** **(2)**. Search **GitHub Copilot** **(3)** and once you find **GitHub Copilot** Plugin click on **Install** **(4)**.
 
    ![](../media/install-plugin.png)
+
+   >**Note** : In the Third-Party Plugins Notice, click **Accept**.
 
 1. Verify GitHub Copilot Plugin is installed, you need to Restart IDE by clicking on **Restart IDE**. Click on **Restart** in the pop-up once again to restart the IDE.
 
