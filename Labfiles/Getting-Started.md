@@ -2,7 +2,7 @@
 
 1. You can see a virtual machine desktop 💻 (**LABVM**) loaded on the left side of your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment Details** tab.
    
-   ![](../media/env-page.png)
+   ![](../media/GetStart-S1.png)
 
 1. Once you are in the **Environment Details** tab, the credentials will also be emailed to your registered email address. Click on the **GitHub Credentials** option to get GitHub user credetials. You can also open the Lab Guide in a separate, and full window by selecting **Split Window** from the lower right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
  
@@ -10,8 +10,11 @@
  
 ## Login to GitHub
 
-1. On the LABVM desktop, click on the Microsoft Edge browser and navigate to the GitHub login page using the provided URL below:
+1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
+   ![](../media/Edge.png)
+
+1. Navigate to GitHub login page using the provided URL below:
    ```
    https://github.com/login
    ```
@@ -22,11 +25,11 @@
    
    ![](../media/github-login.png)
           
-1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials provided in the Environment Details page, enter the verification code, and click on **Verify**.
+1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials provided in the Environment Details page. Enter the verification code, and click on **Verify**.
 
    ![](../media/authgit.png)
 
-1. Right-click on the **Start course**, click on the **Copy link**, and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
+1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -47,7 +50,7 @@
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
-1. Once the repository is created, select your profile photo, then select **Your organizations**.
+1. Once the repository is created, click on your profile picture and then select **Your organizations**.
 
    ![](../media/organization.png)
 
