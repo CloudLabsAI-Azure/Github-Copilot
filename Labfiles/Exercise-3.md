@@ -26,7 +26,7 @@ In this exercise, you will have the opportunity to explore and apply the use of 
 
 1. To install the Python extension, the following steps are to be performed within Visual Studio Code:
     - Click on the **Extensions** **(1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
-    - In the "Search Extensions in Marketplace" search box, type and search for the **Python **(2)** extension.
+    - In the "Search Extensions in Marketplace" search box, type and search for the **Python** **(2)** extension.
     - Select **Python** **(3)** from the list of results that show up.
     - Click on the **Install** **(4)** button.
 
