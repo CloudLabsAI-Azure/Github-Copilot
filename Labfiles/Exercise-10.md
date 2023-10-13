@@ -2,10 +2,11 @@
 
 Duration: 20 minutes
 
-GitHub Copilot is a groundbreaking AI pair programmer, and we're just at the beginning of exploring its potential. Copilot's technical preview has improved the quality of suggestions and added safety features. However, it's clear that Copilot has the potential to offer more than just code suggestions.
+GitHub Copilot Labs is a companion extension to GitHub Copilot that houses experimental and up-and-coming features in a sidebar.
+
+Copilot Labs is a place for GitHub to experiment with new ideas before we take them into production. These experiments may never become part of the official product, or may change significantly before they become part of the supported product. Because they are experimental, features may break, not work as expected, or otherwise fail to meet our quality standards for production-ready code. All Copilot Labs features are provided "as-is" with no guarantees of support.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Following are some examples of what you'll likely encounter in this lab, though the specific suggestions may differ:
-
 
 ## Task 1: Download Copilot Labs from the VS Code Extensions Marketplace
 
@@ -48,14 +49,13 @@ GitHub Copilot is a groundbreaking AI pair programmer, and we're just at the beg
 
    ![](../media/ex10-fixbug.png)
 
-1. Here’s an example of how this works: In the first image,, the wrong library was imported, and after using the "Fix bug" feature, we can see that the issue was resolved.
+1. Here’s an example of how this works: In the first image, the wrong library was imported and after using the "Fix bug" feature, you can see that the issue is resolved.
    
    ![](../media/ex10-debug1.png)
 
    ![](../media/ex10-debug2.png)
 
-1. In the next step, we have the debugging tool. This tool is primarily used if there are any issues in the code or if you want to add some breakpoints. Using break points, you can
-   understand the output and flow of the code by looking at the print statements after each function For e.g.
+1. In the next step, you have the debugging tool. This tool is primarily used if there are any issues in the code or if you want to add some breakpoints. Using break points, you can understand the output and flow of the code by looking at the print statements after each function.
 
    ![](../media/ex10-debug.png)
 
