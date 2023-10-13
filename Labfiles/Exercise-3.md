@@ -86,7 +86,7 @@ In this task, you will continue to use copilot, you may need some of the suggest
 
    ![](../media/ex-3-github3.png)
 
-1. Click on Next from the bottom right to continue with the next exercies.
+1. Click on Next from the bottom right to continue with the next exercise.
 
 ### Summary
 
