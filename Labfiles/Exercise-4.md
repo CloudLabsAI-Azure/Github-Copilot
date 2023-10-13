@@ -21,7 +21,7 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform an
 
 ### Task 1: Generate Code by Chat that uses ARM to deploy resources to Azure
 
-1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat chat window.
+1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the **GitHub Copilot Chat** chat window.
 
 1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write a ARM code for deploying Storage Account to Azure."
 
@@ -45,7 +45,7 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform an
 
 ### Task 2: Generate Code by Chat that uses Terraform to deploy resources to Azure
 
-1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat chat window.
+1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the **GitHub Copilot Chat** chat window.
 
 1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write a Terraform code for deploying Storage Account to Azure."
 
@@ -121,7 +121,7 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform an
 
    ![](../media/ex-4-github5.png)
 
-1. Click on Next from the bottom right to continue with the next exercies.
+1. Click on Next from the bottom right to continue with the next exercise.
 
 ### Summary
 
