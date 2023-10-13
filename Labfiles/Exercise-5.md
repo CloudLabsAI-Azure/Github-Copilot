@@ -10,6 +10,16 @@ In this exercise, you will engage in a learning or practice activity where your 
 
 ## Task 1: Understand the code already available for you
 
+### Installing C Sharp (C#) extension in VS Code
+
+1. To install the C Sharp (C#) extension, the following steps are to be performed within Visual Studio Code:
+    - Click on the **Extensions** **(1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
+    - In the "Search Extensions in Marketplace" search box, type and search for the **C#** **(2)** extension.
+    - Select **C#** **(3)** from the list of results that show up.
+    - Click on the **Install** **(4)** button.
+
+   ![](../media/csharp-install.png)
+
 1. To demonstrate the GitHub code refactor, let us take an example of a poorly written code and analyze it. The below code is written using C# programming language.
     
    ```
