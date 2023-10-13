@@ -28,7 +28,7 @@ In this exercise, you will have the opportunity to experiment with and apply Jav
 
    ![](../media/skills-function.png)
 
-4. Press `Tab` to accept the suggestion and then press `Ctrl+S` to save the file.
+4. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
 
    ![](../media/save-skills.png)
 
@@ -83,8 +83,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 This is most helpful if you have a blank file or an empty codebase. In other words, it can be quite helpful to set the stage for the AI pair programmer if GitHub Copilot has no idea what you want to build or achieve. It helps to prime GitHub Copilot with a big-picture description of what you want it to generate—before you jump in with the details.
 
-When prompting GitHub Copilot, think of the process as having a conversation with someone: How should I break down the problem so we can solve it together? How would I approach a pair
-programming with this person?
+When prompting GitHub Copilot, think of the process as having a conversation with someone: How should I break down the problem so we can solve it together? How would I approach a pair programming with this person?
 
 1. From the VS Code Explorer window, create a New File.
 
@@ -94,7 +93,7 @@ programming with this person?
 
    ![](../media/E2-T3.1-S2.png)
 
-3. Now press **Ctrl+I** to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on **Make request (Enter) (2)** button.
+3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on **Make request (Enter) (2)** button.
 
    ```
    /*
