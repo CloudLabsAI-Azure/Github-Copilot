@@ -104,9 +104,9 @@ Sometimes, you may not want to use any of the initial suggestions. You can ask G
 
 1. Open GitHub Copilot.
 
-      -On macOS, press **Option+Enter**.
-   
-      -On Windows or Linux, press **Alt+Enter**.
+   -On macOS, press `Option + Enter`.
+
+   -On Windows or Linux, press `Alt + Enter`.
 
 1. Select "Open Copilot". GitHub Copilot will open a new tab and suggest multiple options, as shown below.
 
@@ -122,7 +122,7 @@ Sometimes, you may not want to use any of the initial suggestions. You can ask G
 GitHub Copilot can understand significantly more context than most code assistants, and can generate entire functions from something as simple as a comment.
 
 1. Remove the function you entered and type the following comment.
-
+   
    ```
    // find all images without alternate text
    // and give them a red border
@@ -131,13 +131,10 @@ GitHub Copilot can understand significantly more context than most code assistan
    ```
 
 1. GitHub Copilot will automatically suggest an implementation.
-
-   
+  
    ![](../media/ex6-image-suggestion.png)
 
-
-1. Click on **Next** from the bottom right to continue with the next exercies.
-
+1. Click on **Next** from the bottom right to continue with the next exercise.
 
 ### Summary
 
