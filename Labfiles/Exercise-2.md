@@ -1,5 +1,7 @@
 # Exercise 2: Seeing AI code suggestions in a JavaScript file
 
+Duration: 30 minutes
+
 While GitHub Copilot offers recommendations for many languages and frameworks, it excels in particular when it comes to Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. The samples below are in JavaScript, but they should also work in other languages.
 
 In this exercise, you will have the opportunity to experiment with and apply JavaScript with the assistance of GitHub Copilot and GitHub Copilot Chat.
