@@ -1,5 +1,7 @@
 # Introduction to GitHub Copilot
 
+Duration: 20 minutes
+
 GitHub Copilot is the world's first at-scale AI developer tool that can help you write code faster with less work. GitHub Copilot uses comments and code context to instantly suggest specific lines of code and the entire functions.
 
 Research has found GitHub Copilot helps developers code faster, focus on solving bigger problems, stay in the flow longer, and feel more fulfilled with their work.
