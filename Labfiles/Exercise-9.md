@@ -54,7 +54,7 @@ In this exercise, you will be cloning the git repository with required dataset i
 
    ![](../media/ex-8-import-lib.png)
 
-1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click **Run** **(2)** button to execute the cell. CLick on `+ Code` **(3)** to add the new cell.
+1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click **Run** **(2)** button to execute the cell. Click on `+ Code` **(3)** to add the new cell.
 
    ![](../media/ex8-add-cell-new.png)
 
@@ -75,7 +75,7 @@ In this exercise, you will be cloning the git repository with required dataset i
 
 ### Task 3.1: Mathematical Operations
 
-1. Type the below comments to Performe the first mathematical experiment would be to generate the birth year from the age column present in the dataset, press tab and then press 
+1. Type the below comments to Perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset, press tab and then press 
    enter. 
 
    ```
@@ -111,7 +111,7 @@ In this exercise, you will be cloning the git repository with required dataset i
 
 ### Task 3.2: Machine Learning
 
-1. Type the below comments to Performe the data analysis and summary statistics on dataset, press tab and then press enter to get the output. 
+1. Type the below comments to Perform the data analysis and summary statistics on dataset, press tab and then press enter to get the output. 
 
    ```
    # Perform count, min, max, std, mean, 25%, 50%, 75% on the dataset
@@ -138,7 +138,7 @@ In this exercise, you will be cloning the git repository with required dataset i
 
 ### Task 4.1: Data Visualization
 
-1. Click on **+Code** to open the new cell and type the below comments to Performe the basic operations on dataset, press tab and then press enter to get the output. 
+1. Click on **+Code** to open the new cell and type the below comments to Perform the basic operations on dataset, press tab and then press enter to get the output. 
 
    ```
    # Perform univariate analysis on the dataset and plot the graphs
@@ -171,7 +171,7 @@ In this exercise, you will be cloning the git repository with required dataset i
 1. Type the below comments for performing visualization on all features of dataset, press tab and then press enter to get the output as below image.
 
    ```
-   # Perform comparision on all features of the dataset and plot the graphs in a single plot using heatmap
+   # Perform comparison on all features of the dataset and plot the graphs in a single plot using heatmap
    ```
 
    ![](../media/ex9-heatmap.png)
@@ -181,9 +181,7 @@ In this exercise, you will be cloning the git repository with required dataset i
 
 ### Task 4.2: Data Transformations
 
-
-1. Click **+Code** to add a new cell and type the below comments for Standardization, the process of scaling and centering numeric features to have a mean of 0 and a standard      
-   deviation of 1, making them comparable and suitable for certain algorithms, press tab and then press enter.
+1. Click **+Code** to add a new cell and type the below comments for Standardization, the process of scaling and centring numeric features to have a mean of 0 and a standard deviation of 1, making them comparable and suitable for certain algorithms, press tab and then press enter.
 
    ```
    # Perform Standardization on the data
@@ -202,7 +200,7 @@ In this exercise, you will be cloning the git repository with required dataset i
 
 Training a sample model using Random Forest.
 
->**Note**: The model training is a continuation of train test split step to train the model run the train test split step 	first  then continue with the model building.
+>**Note**: The model training is a continuation of train test split step to train the model run the train test split step first then continue with the model building.
 
 1. Click **+Code** to add a new cell and type the below comments for creating the random forest model, press tab and then press enter.
 
@@ -223,7 +221,6 @@ Training a sample model using Random Forest.
    ```
 
    ![](../media/ex9-accuracy.png)
-
 
 ### Summary
 
