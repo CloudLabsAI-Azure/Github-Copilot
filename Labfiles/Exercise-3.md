@@ -10,7 +10,7 @@ In this exercise, you will have the opportunity to explore and apply the use of 
 
    >**Note**: Pull MUST be done prior to the next task.
 
-1. Navigate to VS code, Use the VS Code terminal to pull the latest code:
+1. Navigate to VS code, using the VS Code terminal to pull the latest code:
 
    ```
    git pull
@@ -28,7 +28,7 @@ In this exercise, you will have the opportunity to explore and apply the use of 
 
    ![](../media/ex-3-installpy1.png)
 
-1. Once Python extension is inatlled. Open newly created `app.py` file, type the following code:
+1. Once Python extension is installed. Open newly created `app.py` file, type the following code:
 
    ```
    def hello():
@@ -56,7 +56,7 @@ In this task, you will continue to use copilot, you may need some of the suggest
 
 ### Task 4: Push code to your repository from the VS code codespace
 
-1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
+1. Navigate back to VS Code terminal and add files to the repository.
 
 1. Run the below command to add the `app.py` and `prime.py` files to the repository:
 
