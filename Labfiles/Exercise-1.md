@@ -72,7 +72,7 @@ In this exercise, you will create a development container and define specific ex
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
-1. Click **Authorize Visual-Studio-Code** once the Authorize Github for VS code tab appears in the browser.
+1. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
 
 1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
