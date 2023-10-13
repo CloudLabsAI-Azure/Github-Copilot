@@ -6,7 +6,7 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
 
 ### Task 1: Generate SQL Query with GitHub Copilot using comments
 
-1. From inside the codespace in the VS Code explorer window, create a new file.
+1. Navigate back to Visual Studio Code and from inside the codespace in the VS Code explorer window, create a New File.
 
     ![](../media/chat-code-new.png)
 
@@ -52,8 +52,8 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
 
 1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
 
-1. Run the below command to add the `app.py` and `prime.py` files to the repository:
-
+1. Run the below command to add all the files to the repository:
+   
    ```
    git add --all
    ```
