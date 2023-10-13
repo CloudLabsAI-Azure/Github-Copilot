@@ -10,11 +10,17 @@ Copilot Labs is a place for GitHub to experiment with new ideas before we take t
 
 ## Task 1: Download Copilot Labs from the VS Code Extensions Marketplace
 
-1. In the VS-Code, open the **Extensions (1)** tab and search for **GitHub Copilot Labs (2)** and then click on **Install(3)**.
+### Installing GitHub Copilot Labs extension in VS Code
 
-   ![](../media/ex10-github-copilot-labs.png)
+1. To install the GitHub Copilot Labs extension, the following steps are to be performed within Visual Studio Code:
+    - Click on the **Extensions** **(1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
+    - In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Labs** **(2)** extension.
+    - Select **GitHub Copilot Labs** **(3)** from the list of results that show up.
+    - Click on the **Install** **(4)** button.
 
-1. As soon as you download the extension, you will see a prompt to sign in.
+   ![](../media/copilot-labs-install.png)
+
+1. As soon as you install the extension, you will see a prompt to sign in.
 
    ![](../media/ex10-github-signin.png)
 
