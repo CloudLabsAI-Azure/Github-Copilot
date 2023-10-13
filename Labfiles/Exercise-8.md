@@ -1,4 +1,4 @@
-# Exercise 8: Generating Documentation using GitHub Copilot [Optional]
+# Exercise 8: Generating Documentation Using GitHub Copilot [Optional]
 
 Duration: 15 minutes
 
@@ -8,7 +8,7 @@ In this exercise, you will be generating documentation using GitHub Copilot.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
-1. From inside the codespace in the VS Code explorer window, create a new file.
+1. From inside the codespace in the VS Code Explorer window, create a new file.
 
     ![](../media/chat-code-new.png)
 
@@ -16,14 +16,14 @@ In this exercise, you will be generating documentation using GitHub Copilot.
 
    ![](../media/ex-7-docmd.png)
 
-1. Type the statement `Create a markdown document to create Virtual Network in Azure Portal` **(1)** and click on `>` or press `Enter` **(2)**.
+1. Type the statement `Create a markdown document to create a virtual network in Azure Portal` **(1)** and click on `>` or press `Enter` **(2)**.
 
    ![](../media/ex-7-mdsearch.png)
 
-1. Copilot will give a response and you can review it **(1)**, click **Accept** **(2)** and press `CTRL + S` to save the file. Also, you can Discard the suggestion as depicted in the image below.
+1. Copilot will give a response, and you can review it **(1)**, click **Accept** **(2)**, and press `CTRL + S` to save the file. Also, you can discard the suggestion as depicted in the image below.
 
    ![](../media/ex-7-mdreview.png)
 
 ## Summary
 
-In this exercise, you have successfully generated document using GitHub Copilot Chat.
+In this exercise, you have successfully generated a document using GitHub Copilot Chat.
