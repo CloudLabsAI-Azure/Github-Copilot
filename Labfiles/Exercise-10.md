@@ -33,7 +33,7 @@ GitHub Copilot is a groundbreaking AI pair programmer, and we're just at the beg
 
 ## Task 2: Working with Copilot Tools
 
-1. Code Explanation- This tool explains the code. To use this feature, select the code for which you want an explanation and navigate to the tools section, then click **Ask Copilot**.
+1. Code Explanation- This tool explains the code. To use this feature, **select the code** for which you want an explanation and navigate to the tools section, then click **Ask Copilot**.
 
    ![](../media/ex10-ask-copilot.png)
 
@@ -61,15 +61,13 @@ GitHub Copilot is a groundbreaking AI pair programmer, and we're just at the beg
 
    ![](../media/ex10-debug-output.png)
 
-1. A tool like this is important if you are trying to work on different matrixes or if you want to visualize the code. This code generally provides a visual output for better
-   understanding.  To start with this, you need to select the code and use the tool.
+1. A tool like this is important if you are trying to work on different matrixes or if you want to visualize the code. This code generally provides a visual output for better understanding. To start with this, you need to select the code and use the tool.
 
    ![](../media/ex10-debug3.png)
 
 1. The resulting output is represented as shown below.
 
    ![](../media/ex10-debug4.png)
-
 
 ### Summary
 
