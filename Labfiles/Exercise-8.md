@@ -14,7 +14,7 @@ In this exercise, you will be generating documentation using GitHub Copilot.
 
    ![](../media/ex-7-docmd.png)
 
-1. Type the below statement **(2)** and click on `>` or press `Enter` **(2)**.
+1. Type the statement `Create a markdown document to create Virtual Network in Azure Portal` **(1)** and click on `>` or press `Enter` **(2)**.
 
    ![](../media/ex-7-mdsearch.png)
 
