@@ -1,5 +1,7 @@
 # Exercise 3: View the GitHub Copilot tab with multiple suggestions
 
+Duration: 20 minutes
+
 GitHub Copilot provides suggestions for numerous languages and a wide variety of frameworks, but works especially well for Python, JavaScript, TypeScript, Ruby, Go, C# and C++. GitHub Copilot can also assist in query generation for databases.
 
 In this exercise, you will have the opportunity to explore and apply the use of Python in conjunction with Copilot, and you will do so with the benefit of receiving multiple suggestions.
