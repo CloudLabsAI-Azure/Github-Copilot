@@ -2,13 +2,13 @@
 
 Duration: 40 minutes
 
-GitHub code refactoring refers to the process of restructuring and improving the quality of code in a GitHub repository without changing its external behaviour. Code refactoring aims to enhance readability, maintainability, and performance while reducing technical debt and potential bugs. 
+GitHub code refactoring refers to the process of restructuring and improving the quality of code in a GitHub repository without changing its external behavior. Code refactoring aims to enhance readability, maintainability, and performance while reducing technical debt and potential bugs. 
 
-In this exercise, you will engage in a learning or practice activity where your primary objective will be to utilize GitHub Copilot for the purpose of code refactoring using C Sharp (C#) programming language and you will be Creating unit test functions using GitHub Copilot Chat.
+In this exercise, you will participate in a learning or practice activity where your main goal will be to use GitHub Copilot for code refactoring using the C# programming language. You will also be generating unit test functions using GitHub Copilot Chat.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this lab, but the exact suggestion may vary.
 
-## Task 1: Understand the code already available for you
+## Task 1: Understand the code already available for you.
 
 ### Installing C Sharp (C#) extension in VS Code
 
@@ -20,7 +20,7 @@ In this exercise, you will engage in a learning or practice activity where your 
 
    ![](../media/csharp-install.png)
 
-1. To demonstrate the GitHub code refactor, let us take an example of a poorly written code and analyze it. The below code is written using C# programming language.
+1. To demonstrate the GitHub code refactor, let us take an example of a poorly written code and analyze it. The below code is written using the C# programming language.
     
    ```
    using System;
@@ -45,7 +45,7 @@ In this exercise, you will engage in a learning or practice activity where your 
             Console.Write("Enter the number of elements (1-100): ");
             if (!int.TryParse(Console.ReadLine(), out n) || n < 1 || n > MAX)
             {
-                Console.WriteLine("Invalid input. Please enter a number between 1 and 100.");
+                Console.WriteLine("Invalid input. Please provide a digit ranging from 1 to 100.");
                 Environment.Exit(1);
             }
 
@@ -70,13 +70,13 @@ In this exercise, you will engage in a learning or practice activity where your 
     }      
    ```
 
-1. This code is a poorly written example of a program that prompts the user for the number of elements to be summed and takes those integers as input. It employs dynamic memory allocation for the integer array and handles allocation failures with an error message. Here are some issues with the code:
+1. This code is a poorly written example of a program that prompts the user for the number of elements to sum and takes those integers as input. It employs dynamic memory allocation for the integer array and handles allocation failures with an error message. Here are a few code-related issues:
     - The code begins with the inclusion of the System namespace for essential input and output operations.
     - It defines a constant MAX with a value of 100 to represent the maximum number of elements allowed.
     - The Sum method calculates the sum of elements in an array.
     - In the Main method:
       - It prompts the user to enter the number of elements (between 1 and 100) and validates the input.
-      - Allocates an array arr to store the entered integers.
+      - Allocates an array 'arr' to store the entered integers.
       - Prompts the user to enter the specified number of integers and validates each input.
       - Calculates the sum of the entered integers using the Sum method.
       - Outputs the sum to the console.
@@ -90,13 +90,13 @@ In this exercise, you will engage in a learning or practice activity where your 
 
 1. Type the prompt `Refactor the code` at the end of the code and then press **enter**.
 
-1. The GitHub Copilot Chat will give the response as shown below.  
+1. The GitHub Copilot Chat will give the response as shown below.
 
    ![](../media/refactored-code.png)
 
-## Task 3: Review the refactored code and understand how it works 
+## Task 3: Review the refactored code and understand how it works.
 
-1. The newly generated code will look like as shown below:
+1. The newly generated code will look as shown below:
 
      ```
      using System;
@@ -144,17 +144,17 @@ In this exercise, you will engage in a learning or practice activity where your 
     }
     ```
 
-1. Now, let's analyze the changes made by the GitHub Copilot chat. The changes made to the code by GitHub Copilot Chat are:
-   - Here, GitHub Copilot removed the `n` parameter from the Sum method since it's not needed. Instead, copilot used a foreach loop to iterate over the array. This makes the code more concise and easier to read.
-   - This includes the System namespace for input and output operations.
+1. Now, let's analyze the changes made to the code by GitHub Copilot Chat
+   - Here, GitHub Copilot removed the `n` parameter from the Sum method since it's not needed. Instead, the Copilot used a for-each loop to iterate over the array. As a result, the code is easier to comprehend and more concise.
+   - This includes the system namespace for input and output operations.
    - Defines a constant MAX with a value of 100 for the maximum number of elements allowed in an array.
-   - The Sum method calculates the sum of elements in an integer array using a foreach loop.
+   - The Sum method calculates the sum of elements in an integer array using a for-each loop.
    - In the Main method:
-     - Asks the user to input the number of elements and validates it.
+     - Asks the user to input the number of elements and validate it.
      - Creates an integer array to store user-entered values.
      - Prompts the user to enter integers, validates the input, and stores them in the array.
      - Calculates the sum of the integers using the Sum method.
-     - Displays the sum to the console.
+     - Shows the sum on the console.
      - The code includes input validation and provides the sum of user-entered integers.
 
 1. Notice that now the code is more modular, readable, and easier to understand.
@@ -163,17 +163,17 @@ In this exercise, you will engage in a learning or practice activity where your 
 
 ## Task 4: Use GitHub Copilot Chat with code to refactor the code 
 
-In this task, you will demonstrate the chat with code feature of GitHub copilot. With this feature, developers can engage in real-time conversations with Copilot directly through code comments, making it feel like they are collaborating with a coding partner.
+In this task, you will demonstrate the chat with code feature of GitHub Copilot. With this feature, developers can engage in real-time conversations with Copilot directly through code comments, making it feel like they are collaborating with a coding partner.
 
-1. From inside the codespace in the VS Code explorer window, create a new file.
+1. From the codespace in the VS Code Explorer window, create a new file.
 
     ![](../media/chat-code-new.png)
 
-1. Name the file `codechat.cs` and you will see recommendation to install `C#` extension, click on Install.
+1. Name the file `codechat.cs` and you will see a recommendation to install the `C#` extension. Click on Install.
 
    ![](../media/chat-code-file.png)
 
-1. Copy and Paste the code given below in the newly created file i.e, `codechat.cs`.
+1. Copy and paste the code given below in the newly created file, i.e., `codechat.cs`.
 
     ```
     using System;
@@ -202,7 +202,7 @@ In this task, you will demonstrate the chat with code feature of GitHub copilot.
                     switch (choice)
                     {
                         case 1:
-                            Console.WriteLine("You venture deeper into the forest and find a treasure chest!");
+                            Console.WriteLine("You go farther into the forest and discover a treasure chest!");
                             score += 10;
                             break;
                         case 2:
@@ -236,11 +236,11 @@ In this task, you will demonstrate the chat with code feature of GitHub copilot.
 
 1. Identify the section of code where the switch statement is present and select it.
 
-1. Right-click on the code window and click on the **Copilot** **(1)** option. From the following list of options in Copilot select **Start Code Chat** **(2)**.
+1. Right-click on the code window and click on the **Copilot** **(1)** option. From the following list of options in Copilot, select **Start Code Chat** **(2)**.
  
    ![](../media/start-code-chat.png)  
 
-1. Now type the prompt "Use if-else statements instead of the switch statement" **(1)** to make the code more understandable and click `>` or press `Enter` **(2)**. Copilot will give a response and you can review it and click **Accept** **(3)**. Also, you can **Discard** the suggestion as depicted in the image below.
+1. Now type the prompt "Use if-else statements instead of the switch statement" **(1)** to make the code more understandable and click `>` or press `Enter` **(2)**. Copilot will give a response, and you can review it and click **Accept** **(3)**. Also, you can **Discard** the suggestion as depicted in the image below.
 
     ![](../media/chat-code-accept.png)
 
@@ -248,23 +248,23 @@ In this task, you will demonstrate the chat with code feature of GitHub copilot.
 
 ## Task 5: Create unit test functions
 
-1. From inside the codespace in the VS Code explorer window, create a new file.
+1. From the codespace in the VS Code Explorer window, create a new file.
 
     ![](../media/chat-code-new.png)
 
-1. Name the file `test.js` ass shown below:  
+1. Name the file `test.js` as shown below:  
 
    ![](../media/create-test.png)
 
 1. Now, navigate to the GitHub Copilot Chat and give the prompt **Compose a full JavaScript program for constructing a calculator**.
 
-   >**Note:** Test case generation currently only supports JavaScript and Typescript programming languages
+   >**Note:** Test case generation currently only supports JavaScript and Typescript programming languages.
 
 1. The GitHub Copilot Chat will generate the code as shown below.
 
    ![](../media/calci.png)
 
-1. Copy and paste the code in the file named **test.js** file that you just created.
+1. Copy and paste the code in the file named **test.js** that you just created.
 
 1. Now, to generate test cases for each function, select the function for which the test case has to be generated, and back in the GitHub Copilot Chat window, type **/tests** and hit enter.
 
@@ -276,4 +276,4 @@ In this task, you will demonstrate the chat with code feature of GitHub copilot.
 
 ## Summary
 
-In this exercise, you have successfully employed GitHub Copilot to carry out code refactoring tasks and created unit test functions. Code refactoring with Copilot's assistance will helps your coding projects more efficient and collaborative.
+In this exercise, you have successfully employed GitHub Copilot to carry out code refactoring tasks and created unit test functions. Code refactoring with Copilot's assistance will make your coding projects more efficient and collaborative.
