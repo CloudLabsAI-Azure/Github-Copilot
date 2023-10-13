@@ -1,5 +1,7 @@
 # Exercise 5: Using GitHub Copilot for Code Refactoring
 
+Duration: 40 minutes
+
 GitHub code refactoring refers to the process of restructuring and improving the quality of code in a GitHub repository without changing its external behavior. Code refactoring aims to enhance readability, maintainability, and performance while reducing technical debt and potential bugs. 
 
 In this exercise, you will engage in a learning or practice activity where your primary objective will be to utilize GitHub Copilot for the purpose of code refactoring using C Sharp (C#) programming language and you will be Creating unit test functions using GitHub Copilot Chat.
