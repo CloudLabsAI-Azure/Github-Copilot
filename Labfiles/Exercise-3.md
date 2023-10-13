@@ -22,15 +22,21 @@ In this exercise, you will have the opportunity to explore and apply the use of 
 
 ## Task 2: Add Python method code
 
-1. From inside the codespace in the VS Code explorer window, create a new file.
+### Installing Python extension in VS Code
+
+1. To install the Python extension, the following steps are to be performed within Visual Studio Code:
+    - Click on the **Extensions** **(1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
+    - In the "Search Extensions in Marketplace" search box, type and search for the **Python **(2)** extension.
+    - Select **Python** **(3)** from the list of results that show up.
+    - Click on the **Install** **(4)** button.
+
+   ![](../media/python-install.png)
+
+1. From inside the codespace in the VS Code explorer window, create a New File.
 
    ![](../media/ex-3-create-py.png)
 
-1. Name the file `app.py` **(1)** and you will see recommendation to install `Python` extension, click on **Install** **(2)**.
-
-   ![](../media/ex-3-installpy1.png)
-
-1. Once Python extension is installed. Open newly created `app.py` file, type the following code:
+1. Name the file `app.py` **(1)** and type the following code:
 
    ```
    def hello():
