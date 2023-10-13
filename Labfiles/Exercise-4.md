@@ -13,25 +13,11 @@ GitHub Copilot Chat can provide coding assistance in a variety of scenarios.
  - Proposing code fixes
  - Answering coding questions
 
-In this exercise, you will perform two main tasks: first, you will install the GitHub Copilot Chat extension, and second, you will utilize Copilot to generate code in ARM, Terraform and PowerShell.
+In this exercise, you will utilize Copilot to generate code in ARM, Terraform and PowerShell.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
-### Task 1: Installing GitHub Copilot Chat extension in VS Code
-
-1. To install the GitHub Copilot Chat extension, the following steps are to be performed within Visual Studio Code:
-    - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
-    - In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat (2)** extension.
-    - Select **GitHub Copilot Chat (3)** from the list of results that show up.
-    - Click on the **Install (4)** button.
-
-   ![](../media/ghc-chat-extension.png)
-
-1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown in the below.
-
-   ![](../media/git-chat-icon.png)
-
-### Task 2: Generate Code by Chat that uses ARM to deploy resources to Azure
+### Task 1: Generate Code by Chat that uses ARM to deploy resources to Azure
 
 1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat chat window.
 
@@ -51,11 +37,11 @@ In this exercise, you will perform two main tasks: first, you will install the G
 
    ![](../media/arm-new-file.png)
 
-1. Press `CTRL + S` to save the file. Name the file as `arm.json` and click on **OK**
+1. Press `CTRL + S` to save the file. Name the file as `arm.json` and click on **OK**.
 
    ![](../media/arm-save.png)
 
-### Task 3: Generate Code by Chat that uses Terraform to deploy resources to Azure
+### Task 2: Generate Code by Chat that uses Terraform to deploy resources to Azure
 
 1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat chat window.
 
@@ -75,11 +61,11 @@ In this exercise, you will perform two main tasks: first, you will install the G
 
    ![](../media/terraform-new-file.png)
 
-1. Press `CTRL + S` to save the file. Name the file as `terraform.tf` and click on **OK**
+1. Press `CTRL + S` to save the file. Name the file as `terraform.tf` and click on **OK**.
 
    ![](../media/terraform-save.png)
 
-### Task 4: Generate Code by Chat that uses PowerShell to deploy resources to Azure
+### Task 3: Generate Code by Chat that uses PowerShell to deploy resources to Azure
 
 1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat chat window.
 
@@ -103,7 +89,7 @@ In this exercise, you will perform two main tasks: first, you will install the G
 
    ![](../media/ps-save.png)
 
-### Task 5: Push code to your repository from the codespace
+### Task 4: Push code to your repository from the codespace
 
 1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
 
@@ -137,4 +123,4 @@ In this exercise, you will perform two main tasks: first, you will install the G
 
 ### Summary
 
-In this exercise, you have successfully installed the GitHub Copilot Chat extension, and you have employed Copilot to automatically generate code in both ARM, Terraform and PowerShell programming languages.
+In this exercise, you have employed Copilot to automatically generate code in both ARM, Terraform and PowerShell programming languages.
