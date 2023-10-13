@@ -1,5 +1,7 @@
 # Exercise 10: Getting Started with GitHub Copilot Labs [Optional]
 
+Duration: 20 minutes
+
 GitHub Copilot is a groundbreaking AI pair programmer, and we're just at the beginning of exploring its potential. Copilot's technical preview has improved the quality of suggestions and added safety features. However, it's clear that Copilot has the potential to offer more than just code suggestions.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Following are some examples of what you'll likely encounter in this lab, though the specific suggestions may differ:
