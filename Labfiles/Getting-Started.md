@@ -1,5 +1,7 @@
 ## Getting Started with the Lab
 
+Duration: 10 minutes
+
 1. You can see a virtual machine desktop 💻 (**LABVM**) loaded on the left side of your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment Details** tab.
    
    ![](../media/GetStart-S1.png)
