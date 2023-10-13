@@ -63,7 +63,7 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
 1. Next from the VS Code terminal stage and commit the changes to the repository:
 
    ```
-   git commit -m "Copilot fouth commit"
+   git commit -m "Copilot fourth commit"
    ```
 
 1. Finally from the VS Code terminal push to code to the repository:
