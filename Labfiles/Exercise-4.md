@@ -93,7 +93,7 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
 1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
 
-1. Run the below command to add the `app.py` and `prime.py` files to the repository:
+1. Run the below command to add the `arm.json` , `terraform.tf` and `powershell.ps1` files to the repository:
 
    ```
    git add arm.json terraform.tf powershell.ps1
