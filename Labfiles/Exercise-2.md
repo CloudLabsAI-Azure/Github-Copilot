@@ -173,19 +173,25 @@ new array:
 
 5. Open the **New Terminal** **(3)** to push the code.
 
-6. Run the below command to add the `index.js` file to the GitHub repository.
+6. Run the below command to pull the latest changes.
 
+   ```
+   git pull
+   ```
+
+1. Run the below command to add the `index.js` file to the GitHub repository.
+   
    ```
    git add index.js
    ```
 
-7. Next from the VS Code terminal, commit the changes to the repository:
+8. Next from the VS Code terminal, commit the changes to the repository:
 
    ```
    git commit -m "Copilot commit"
    ```
 
-8. Finally, from the VS Code terminal, push the code to the repository:
+9. Finally, from the VS Code terminal, push the code to the repository:
 
    ```
    git push
@@ -193,7 +199,7 @@ new array:
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
-9. Click on **Next** from the bottom right to continue with the next exercise.
+10. Click on **Next** from the bottom right to continue with the next exercise.
 
 ### Summary
 
