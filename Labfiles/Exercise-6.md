@@ -1,50 +1,50 @@
-# Exercise 6: Using other IDEs like JetBrains IntelliJ for Java
+# Exercise 6: Using IDEs such as JetBrains IntelliJ for Java
 
 Duration: 40 minutes
 
-GitHub Copilot, the innovative code generation tool, can be integrated into JetBrains IntelliJ, a widely-used IDE for Java development. This combination enhances Java coding by providing intelligent code suggestions and autocompletion within IntelliJ, boosting productivity and code quality.
+GitHub Copilot, an innovative code generation tool, can be integrated with JetBrains IntelliJ, a widely used IDE for Java development. This integration enhances the Java coding experience by providing intelligent code suggestions and auto-completion within IntelliJ, boosting productivity and code quality.
 
-In this exercise, you will be using JetBrains IntelliJ Idea IDE for Java. You will be installing GitHub Copilot Plugin and create new project.
+In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You will install the GitHub Copilot plugin and create a new project.
 
->**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
+>**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
-## Task 1: Install GitHub Copilot Plugin and Create New Project in IntelliJ Idea IDE
+## Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
 
-1. Navigate to Desktop and open **IntelliJ IDEA Community** IDE.
+1. Navigate to the desktop and open the **IntelliJ IDEA Community** IDE.
 
    ![](../media/E6-T1-S1.png)
 
-1. In the IntelliJ IDEA Agreement, check **I confirm that I have read and accept the terms of this User Agreement (1)** and  click on **Continue (2)**.
+1. In the IntelliJ IDEA Agreement, check **I confirm that I have read and accept the terms of this User Agreement (1)** and click on **Continue (2)**.
 
    ![](../media/E6-T1-S2.png)
 
-   >**Note:** When Data Sharing box appears, click on **Don't Send**.
+   >**Note:** When the data sharing box appears, click on **Don't Send**.
 
    ![](../media/E6-T1-S2.1.png)
 
-1. From the left menu, click on **Plugins** **(1)** and select **Marketplace** **(2)**. Search **GitHub Copilot** **(3)** and once you find **GitHub Copilot** Plugin click on **Install** **(4)**.
+1. From the left menu, click on **Plugins** **(1)** and select **Marketplace** **(2)**. Search **GitHub Copilot** **(3)**, and once you find **GitHub Copilot** plugin, click on **Install** **(4)**.
 
    ![](../media/install-plugin.png)
 
-   >**Note** : In the Third-Party Plugins Notice, click **Accept**.
+   >**Note** : In the Third-Party Plugins notice, click **Accept**.
 
-1. Verify GitHub Copilot Plugin is installed, you need to Restart IDE by clicking on **Restart IDE**. Click on **Restart** in the pop-up once again to restart the IDE.
+1. Verify the GitHub Copilot plugin is installed. Next, you need to restart the IDE by clicking on **Restart IDE**. Click on **Restart** in the pop-up once again to restart the IDE.
 
    ![](../media/restart-ide.png)
 
-1. Once the **IntelliJ Idea Community** IDE is restarted. Select **Projects** **(1)** from left-menu and click on **New Project** **(2)**.
+1. Once the **IntelliJ Idea Community** IDE is restarted, select **Projects** **(1)** from the left menu and click on **New Project** **(2)**.
 
    ![](../media/create-project.png)
 
-1. In the New Project pane, enter project name as **demo-copilot** **(1)**. Select Language as **Java** **(2)** and Build system as **IntelliJ** **(3)**. For JDK, click on drop-down **(4)** and click on **+ Add SDK** **(5)** then click on **Download JDK** **(6)**.
+1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, click on the drop-down **(4)** and click on **+ Add SDK** **(5)** then click on **Download JDK** **(6)**.
 
    ![](../media/project-details.png)
 
-1. You will see a pop-up to download JDK, verify the location and click on **Download**.
+1. You will see a pop-up to download JDK, verify the location, and click on **Download**.
 
    ![](../media/download-jdk.png)
 
-1. Once JDK is downloaded, verify the downloaded JDK version **(1)** and click on **Create** **(2)**.
+1. Once JDK is downloaded, verify the JDK version **(1)** and click on **Create** **(2)**.
 
    ![](../media/click-create.png)
 
@@ -53,9 +53,9 @@ In this exercise, you will be using JetBrains IntelliJ Idea IDE for Java. You wi
    ![](../media/demo-copilot-project.png)
 
 
-## Task 2: Create basic java project
+## Task 2: Create a basic Java project
 
-1. click the **Tools (1)** menu. Click GitHub Copilot, then click **Login to GitHub (2)**.
+1. Click the **Tools (1)** menu. Click GitHub Copilot, then click **Login to GitHub (2)**.
 
    ![](../media/ex6-git-login.png)
 
@@ -71,21 +71,21 @@ In this exercise, you will be using JetBrains IntelliJ Idea IDE for Java. You wi
 
 1. After the permissions have been approved, your JetBrains IDE will show a confirmation. To begin using GitHub Copilot, click **OK**.
 
-1. In your JetBrains IDE, right click on the **src (1)**, select **New (2)** nd click on **File (3)** to create a new Java (*.java) file named **Test.java**.
+1. In your JetBrains IDE, right-click on the **src (1)**, select **New (2)** and click on **File (3)** to create a new Java (*.java) file named **Test.java**.
 
    ![](../media/ex6-test-java.png)
 
-1. Create a class by typing **class Test**, Copilot will suggest a class body and press **tab** to accept the suggestion.
+1. Create a class by typing **class Test**. Copilot will suggest a class body, and you can press **tab** to accept the suggestion.
 
    ![](../media/ex6-class-test.png)
 
-1. Below the bracket of the main function, type the following function header.
+1. Below the bracket of the main function, type the following function header:
 
    ```
    int calculateDaysBetweenDates(
    ```
 
-1. GitHub Copilot will automatically suggest an entire function body in grayed text, as shown below. The exact suggestion may vary.
+1. GitHub Copilot will automatically suggest an entire function body in gray text, as shown below. The exact suggestion may vary.
 
    ![](../media/ex6-days.png)
 
@@ -96,7 +96,7 @@ In this exercise, you will be using JetBrains IntelliJ Idea IDE for Java. You wi
 
 Sometimes, you may not want to use any of the initial suggestions. You can ask GitHub Copilot to return more.
 
-1. Remove the function you entered and type the following again.
+1. Remove the function you entered and type the following again:
 
    ```
    int calculateDaysBetweenDates(
@@ -119,13 +119,13 @@ Sometimes, you may not want to use any of the initial suggestions. You can ask G
 
 ## Task 4: Getting code from a comment
 
-GitHub Copilot can understand significantly more context than most code assistants, and can generate entire functions from something as simple as a comment.
+GitHub Copilot can understand significantly more context than most code assistants and can generate entire functions from something as simple as a comment.
 
-1. Remove the function you entered and type the following comment.
+1. Remove the function you entered and type the following comment:
    
    ```
-   // find all images without alternate text
-   // and give them a red border
+   // Identify all the images without alternate text
+   // and add a red border to them
    void process() {
 
    ```
@@ -138,5 +138,5 @@ GitHub Copilot can understand significantly more context than most code assistan
 
 ### Summary
 
-In this exercise, you have successfully configured the JetBrains IntelliJ Idea IDE for Java, installed the GitHub Copilot plugin and explore the basic java code which produced the 
+In this exercise, you have successfully configured the JetBrains IntelliJ Idea IDE for Java, installed the GitHub Copilot plugin, and explored the basic Java code that produced the
 suggestions using Copilot.
