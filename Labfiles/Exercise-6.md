@@ -63,7 +63,7 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
    ![](../media/ex6-copy-code.png)
 
-1. A device activation window will open in your browser. Paste the device **code**, then click **Continue**.
+1. A device activation window will open in your browser. Paste the device **code (1)**, then click **Continue (2)**.
 
    ![](../media/ex6-device-activation.png)
 
