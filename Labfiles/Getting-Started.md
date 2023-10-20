@@ -27,7 +27,9 @@ Duration: 10 minutes
    
    ![](../media/github-login.png)
           
-1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials provided in the Environment Details page. Enter the verification code, and click on **Verify**.
+1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+
+   >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
 
    ![](../media/authgit.png)
 
