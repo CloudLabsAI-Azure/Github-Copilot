@@ -24,7 +24,7 @@ In this exercise, you will have the opportunity to experiment with and apply Jav
    function calculateNumbers(var1, var2)
    ```
    
-   A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
+   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
    ![](../media/skills-function.png)
 
@@ -64,20 +64,6 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 
 ## Task 3: Best practices to use GitHub Copilot
-
-### Installing GitHub Copilot Chat extension in VS Code
-
-1. To install the GitHub Copilot Chat extension, the following steps are to be performed within Visual Studio Code:
-    - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
-    - In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat (2)** extension.
-    - Select **GitHub Copilot Chat (3)** from the list of results that show up.
-    - Click on the **Install (4)** button.
-
-   ![](../media/ghc-chat-extension.png)
-
-1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown in the below.
-
-   ![](../media/git-chat-icon.png)
 
 ## Task 3.1- Example: Set the stage with a high-level goal
 
