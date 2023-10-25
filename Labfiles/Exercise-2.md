@@ -70,8 +70,8 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 1. To Verify the GitHub Copilot Chat extension, the following steps are to be performed within Visual Studio Code:
     - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
     - In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat (2)** extension.
-    - Select **GitHub Copilot Chat (3)** from the list of results that show up, Verify **GitHub Copilot Chat** has been installed.
-    - If not click on the **Install (4)** button.
+    - Select **GitHub Copilot Chat (3)** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
+    - If not, click on the **Install (4)** button.
 
    ![](../media/ghc-chat-extension.png)
 
