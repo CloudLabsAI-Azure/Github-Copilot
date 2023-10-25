@@ -75,7 +75,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
    ![](../media/ghc-chat-extension.png)
 
-1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown in the below.
+1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
 
    ![](../media/git-chat-icon.png)
 
@@ -83,7 +83,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 This is most helpful if you have a blank file or an empty codebase. In other words, it can be quite helpful to set the stage for the AI pair programmer if GitHub Copilot has no idea what you want to build or achieve. It helps to prime GitHub Copilot with a big-picture description of what you want it to generate—before you jump in with the details.
 
-When prompting GitHub Copilot, think of the process as having a conversation with someone: How should I break down the problem so we can solve it together? How would I approach a pair programming with this person?
+When prompting GitHub Copilot, think of the process as having a conversation with someone: How should I break down the problem so we can solve it together? How would I approach pair programming with this person?
 
 1. From the VS Code Explorer window, create a New File.
 
