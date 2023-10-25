@@ -46,6 +46,8 @@ In this exercise, you will have the opportunity to explore and apply the use of 
 
    ![](../media/ex-3-apppy.png)
 
+   > **Note**: Here's an example of what you are likely to see; however, the precise recommendation could vary.
+
 ### Task 3: View the GitHub Copilot tab with multiple suggestions
 
 In this task, you will continue to use Copilot and may need some of the suggestions that GitHub Copilot offers. GitHub Copilot will synthesize around 10 different code suggestions in a new tab.
@@ -57,6 +59,8 @@ In this task, you will continue to use Copilot and may need some of the suggesti
    ```
 
    ![](../media/co-suggestion1.png)
+
+   > **Note**: Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
 1. To open a new tab with multiple synthesized solutions, press `Ctrl + Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept Solution** above the suggestion and then save the file.
 
