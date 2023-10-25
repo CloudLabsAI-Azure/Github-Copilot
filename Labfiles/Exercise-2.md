@@ -65,6 +65,20 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 ## Task 3: Best practices to use GitHub Copilot
 
+### Verify GitHub Copilot Chat extension in VS Code
+
+1. To install the GitHub Copilot Chat extension, the following steps are to be performed within Visual Studio Code:
+    - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
+    - In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat (2)** extension.
+    - Select **GitHub Copilot Chat (3)** from the list of results that show up, Verify **GitHub Copilot Chat** has been installed.
+    - If not click on the **Install (4)** button.
+
+   ![](../media/ghc-chat-extension.png)
+
+1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown in the below.
+
+   ![](../media/git-chat-icon.png)
+
 ## Task 3.1- Example: Set the stage with a high-level goal
 
 This is most helpful if you have a blank file or an empty codebase. In other words, it can be quite helpful to set the stage for the AI pair programmer if GitHub Copilot has no idea what you want to build or achieve. It helps to prime GitHub Copilot with a big-picture description of what you want it to generate—before you jump in with the details.
