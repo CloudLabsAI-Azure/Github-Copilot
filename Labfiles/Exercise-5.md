@@ -258,8 +258,6 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. Now, navigate to the GitHub Copilot Chat and give the prompt **Compose a full JavaScript program for constructing a calculator**.
 
-   >**Note:** Test case generation currently only supports JavaScript and Typescript programming languages.
-
 1. The GitHub Copilot Chat will generate the code as shown below.
 
    ![](../media/calci.png)
