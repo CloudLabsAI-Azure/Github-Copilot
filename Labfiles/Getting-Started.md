@@ -12,7 +12,7 @@ Duration: 10 minutes
 
 1. You can also open the Lab Guide in a separate and full window by selecting the **Split Window** from the top right corner.
 
-    ![](../media/cosmos(3).png)
+    ![](../media/GI(1).png)
  
 ## Login to GitHub
 
