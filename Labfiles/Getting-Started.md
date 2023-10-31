@@ -4,15 +4,11 @@ Duration: 10 minutes
 
 1. You can see a virtual machine desktop 💻 (**LABVM**) loaded on the left side of your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment Details** tab.
    
-   ![](../media/gi(2).png)
+   ![](../media/GetStart-S1.png)
 
-1. Once you are in the **Environment Details** tab, the credentials will also be emailed to your registered email address. Click on the **GitHub Credentials** option to get GitHub user credentials. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
+1. Once you are in the **Environment Details** tab, the credentials will also be emailed to your registered email address. Click on the **GitHub Credentials** option to get GitHub user credentials. You can also open the Lab Guide in a separate, and full window by selecting **Split Window** from the lower right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
  
-   ![](../media/gi(3).png)
-
-1. You can also open the Lab Guide in a separate and full window by selecting the **Split Window** from the top right corner.
-
-    ![](../media/GI(1).png)
+   ![](../media/env-details-1.png)
  
 ## Login to GitHub
 
