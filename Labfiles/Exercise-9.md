@@ -75,7 +75,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 3.1: Mathematical Operations
 
-1. Type the below comments to performe the first mathematical experiment would be to generate the birth year from the age column present in the dataset, press "tab", and then press "enter". 
+1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset, press "tab", and then press "enter". 
 
    ```
    # Mathematical operations on the dataset, like generating the birth year from age
@@ -110,7 +110,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 3.2: Machine Learning
 
-1. Type the below comments to performe the data analysis and summary statistics on dataset, press "tab", and then press "enter" to get the output. 
+1. Type the below comments to perform the data analysis and summary statistics on dataset, press "tab", and then press "enter" to get the output. 
 
    ```
    # Perform count, min, max, std, mean, 25%, 50%, and 75% on the dataset
@@ -137,7 +137,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 4.1: Data Visualization
 
-1. Click on **+Code** to open the new cell, and type the below comments to performe the basic operations on dataset, press "tab", and then press "enter" to get the output. 
+1. Click on **+Code** to open the new cell, and type the below comments to perform the basic operations on dataset, press "tab", and then press "enter" to get the output. 
 
    ```
    # Perform univariate analysis on the dataset and plot the graphs
