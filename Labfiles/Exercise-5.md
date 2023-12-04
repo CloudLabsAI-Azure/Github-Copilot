@@ -236,7 +236,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. Identify the section of code where the switch statement is present and select it.
 
-1. Right-click on the code window and click on the **Copilot** **(1)** option. From the following list of options in Copilot, select **Start Code Chat** **(2)**.
+1. Right-click on the code window and click on the **Copilot** **(1)** option. From the following list of options in Copilot, select **Start Incline Chat** **(2)**.
  
    ![](../media/start-code-chat.png)  
 
@@ -261,6 +261,8 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 1. The GitHub Copilot Chat will generate the code as shown below.
 
    ![](../media/calci.png)
+
+>**Note**: The response generated may vary.
 
 1. Copy and paste the code in the file named **test.js** that you just created.
 
