@@ -83,7 +83,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex9-birthyear.png)
 
->**Note**: Continue clciking on **+Code** till the last task of this exercise.
+>**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
 
 1. Type the below comment, press "tab", and then press "enter" to get the output similar to the below image. 
 
