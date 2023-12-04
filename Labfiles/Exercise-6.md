@@ -55,11 +55,13 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
 ## Task 2: Create a basic Java project
 
-1. Click the **icon** as shown in the below screenshot. 
+1. Click the **icon** as shown in the below image. 
 
-   ![](../media/ex6-git-login.png)
+   ![](../media/icon.png)
 
 1. Click on **Tools (1)**. Click GitHub Copilot, then click **Login to GitHub (2)**.
+
+   ![](../media/login.png)
 
 1. In the "Sign in to GitHub" dialog box, to copy the device code and open the device activation window, click **Copy and Open**.
 
@@ -109,8 +111,6 @@ Sometimes, you may not want to use any of the initial suggestions. You can ask G
    -On macOS, press `Option + Enter`.
 
    -On Windows or Linux, press `Alt + Enter`.
-
- >**Note** : if the 'Alt + Enter' isn't working, please select Github Co-pilot from the right pane as shown in the below image.
 
 1. Select "Open Copilot". GitHub Copilot will open a new tab and suggest multiple options, as shown below.
 
