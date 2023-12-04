@@ -30,7 +30,7 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
 1. Verify the GitHub Copilot plugin is installed. Next, you need to restart the IDE by clicking on **Restart IDE**. Click on **Restart** in the pop-up once again to restart the IDE.
 
-   ![](../media/restart-ide.png)
+   ![](../media/restart-ide(1).png)
 
 1. Once the **IntelliJ Idea Community** IDE is restarted, select **Projects** **(1)** from the left menu and click on **New Project** **(2)**.
 
