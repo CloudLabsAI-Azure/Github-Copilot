@@ -46,7 +46,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex-8-create-file.png)
 
-1. Type the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press "tab" and then press enter to get output. 
+1. Type the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press "enter" to get into the next line and review the suggestion, press "tab" and then press enter to get output. 
 
    ```
    # Import libraries with respect to loading data and creating a random forest model
@@ -82,6 +82,8 @@ In this exercise, you will be cloning the Git repository with the required datas
    ```
 
    ![](../media/ex9-birthyear.png)
+
+>**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
 
 1. Type the below comment, press "tab", and then press "enter" to get the output similar to the below image. 
 
