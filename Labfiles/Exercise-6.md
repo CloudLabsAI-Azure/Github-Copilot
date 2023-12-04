@@ -111,7 +111,11 @@ Sometimes, you may not want to use any of the initial suggestions. You can ask G
    -On macOS, press `Option + Enter`.
 
    -On Windows or Linux, press `Alt + Enter`.
+   
+>**Note** : if the 'Alt + Enter' isn't working, please select Github Co-pilot from the right pane as shown in the below image.
 
+   ![](../media/github.png)
+   
 1. Select "Open Copilot". GitHub Copilot will open a new tab and suggest multiple options, as shown below.
 
    ![](../media/ex6-copilot-suggestion.png)
