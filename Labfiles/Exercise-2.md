@@ -123,8 +123,10 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 1. In the same index.js file, enter the below step-by-step instructions for reversing a sentence.
 
     ```
-    // reverse a sentence
-    // the start of the new sentence must be capital
+      // take a sentence as input
+      // reverse the input sentence
+      // the start of the sentence must start with a capital
+      // for javascript
     ```
 
 2. The generated outcome would look similar to the below image.
