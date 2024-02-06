@@ -1,4 +1,4 @@
-# Exercise 4: Using GitHub Copilot Chat to generate ARM and Terraform code with Copilot
+# Lab 4: Using GItHub Copilot to generate ARM & Terraform Templates
 
 ### About GitHub Copilot Chat and Visual Studio Code
 
@@ -13,7 +13,7 @@ There are several situations in which GitHub Copilot Chat can help with coding.
  - Proposing code fixes
  - Answering coding questions
 
-In this exercise, you will utilize Copilot to generate code in ARM, Terraform, and PowerShell.
+In this lab, you will utilize Copilot to generate code in ARM, Terraform, and PowerShell.
 
 > **Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
@@ -131,4 +131,4 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
 ### Summary
 
-In this exercise, you have employed Copilot to automatically generate code in both ARM, Terraform, and PowerShell programming languages.
+In this lab, you have employed Copilot to automatically generate code in both ARM, Terraform, and PowerShell programming languages.
