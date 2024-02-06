@@ -1,1 +1,17 @@
 
+[
+  {
+    "Name": "Github Copilot Innovation Workshop",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/main/Labfiles/Introduction-to-GitHub-Copilot.md",
+        "Order": 1
+      },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/main/Labfiles/Getting-Started.md",
+        "Order": 2
+      }
+    ]
+  }
+]
