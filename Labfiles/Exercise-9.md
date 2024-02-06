@@ -1,5 +1,4 @@
-# Exercise 9: Working with the Copilot for Machine Learning [Optional]
-
+# Lab 7: Machine Learning & Data Transformation using Copilot
 Duration: 90 minutes
 
 Working with Copilot for machine learning involves leveraging GitHub Copilot, an AI-powered code completion tool developed by GitHub in collaboration with OpenAI. Here's a quick summary of the key steps and considerations:
