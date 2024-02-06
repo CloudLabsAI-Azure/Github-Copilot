@@ -226,4 +226,4 @@ Training a sample model using Random Forest.
 
 ### Summary
 
-In this exercise, you have successfully leveraged the GitHub Copilot for Machine Learning.
+In this lab, you have successfully leveraged the GitHub Copilot for Machine Learning.
