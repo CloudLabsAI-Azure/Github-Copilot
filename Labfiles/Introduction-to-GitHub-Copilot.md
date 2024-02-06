@@ -1,6 +1,8 @@
-# Introduction to GitHub Copilot
+# Lab 1: Getting Started with GitHub Copilot
 
-Duration: 20 minutes
+## Introduction to GitHub Copilot
+
+Duration: 30 minutes
 
 GitHub Copilot is the world's first at-scale AI developer tool that can help you write code faster with less work. GitHub Copilot uses comments and code context to instantly suggest specific lines of code and the entire functions.
 
@@ -51,6 +53,4 @@ GitHub Copilot improves developer productivity and happiness, reduces disruption
 ### How to get started with GitHub Copilot for Business?
 
 Using GitHub Copilot for Business in your enterprise: You must first establish a policy for using GitHub Copilot for Business in your enterprise. Once GitHub Copilot for Business is enabled at the enterprise level, you can configure GitHub Copilot settings for each organization in your enterprise.
-
-Click on "Next" from the bottom right to start with the lab.
 
