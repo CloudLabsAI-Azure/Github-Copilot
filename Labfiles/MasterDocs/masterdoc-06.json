@@ -4,12 +4,8 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/blob/SandBox/Labfiles/Getting-Started.md",
-        "Order": 1
-      },
-      {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/blob/SandBox/Labfiles/Exercise-6.md",
-        "Order": 8
+        "Order": 1
       }
     ]
   }
