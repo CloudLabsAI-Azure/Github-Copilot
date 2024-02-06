@@ -1,6 +1,5 @@
-# Exercise 1: Leverage Codespaces with VS Code for Copilot
-
-Duration: 20 minutes
+# Lab 2: Using GitHub Codespaces
+Duration: 30 minutes
 
 GitHub Copilot is an AI pair programmer designed to make writing code easier and faster. It draws context from comments and code to suggest individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a generative pre-trained language model created by OpenAI.
 
@@ -12,7 +11,7 @@ Additionally, GitHub Copilot is trained in every language that can be found in 
 
 Using Copilot inside a Codespace shows just how easy it is to get up and running with GitHub's suite of [Collaborative Coding](https://github.com/features#features-collaboration) tools.
 
-In this exercise, you will create a development container and define specific extensions or configurations that will be used or installed in your codespace. You will create this development container and add Copilot to the list of extensions.
+In this lab, you will create a development container and define specific extensions or configurations that will be used or installed in your codespace. You will create this development container and add Copilot to the list of extensions.
 
 ## Task 1: Enable Copilot inside a Codespace
 
@@ -90,4 +89,4 @@ In this exercise, you will create a development container and define specific ex
 
 ### Summary
 
-In this exercise, you have created a development container and added Copilot to the list of extensions.
+In this lab, you have created a development container and added Copilot to the list of extensions.
