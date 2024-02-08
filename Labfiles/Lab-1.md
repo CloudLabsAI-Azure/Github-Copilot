@@ -1,4 +1,4 @@
-# Exercise 1: Using GitHub Codespaces
+#  1: Using GitHub Codespaces
 Duration: 30 minutes
 
 GitHub Copilot is an AI pair programmer designed to make writing code easier and faster. It draws context from comments and code to suggest individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a generative pre-trained language model created by OpenAI.
