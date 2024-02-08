@@ -134,7 +134,7 @@ GitHub Copilot can understand significantly more context than most code assistan
    ```
    // Identify all the images without alternate text
    // and add a red border to them
-   void process() {
+   void process(java.util.List<Image> images) {  
 
    ```
 
