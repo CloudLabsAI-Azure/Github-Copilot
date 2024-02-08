@@ -52,7 +52,7 @@ Duration: 10 minutes
 
    ![](../media/skills-new-repo.png)
 
-   >**Note**: If the repository is already exists, please delete the existing one and perform the above step again.
+   >**Note**: If the repository already exists, please delete the existing one and perform the above step again.
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
