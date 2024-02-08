@@ -1,4 +1,4 @@
-# Lab 3.1: Code Suggestions with GitHub Copilot in VS Code
+# Exercise 2: Code Suggestions with GitHub Copilot in VS Code
 
 Duration: 30 minutes
 
