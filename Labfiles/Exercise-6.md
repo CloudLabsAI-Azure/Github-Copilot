@@ -1,4 +1,4 @@
-# Lab 6: GitHub Copilot with JetBrains
+# Exercise 5: GitHub Copilot with JetBrains
 Duration: 30 minutes
 
 GitHub Copilot, an innovative code generation tool, can be integrated with JetBrains IntelliJ, a widely used IDE for Java development. This integration enhances the Java coding experience by providing intelligent code suggestions and auto-completion within IntelliJ, boosting productivity and code quality.
