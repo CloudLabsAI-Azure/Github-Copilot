@@ -32,12 +32,11 @@ In this lab, you will create a development container and define specific extensi
           
 1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
 
-   >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
+   >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
 
    ![](../media/authgit.png)
 
-
-1. Now,right click on your profile icon in the top right and click on **Your Repositories**.
+1. Now, right-click on your profile icon in the top right and click on **Your Repositories**.
     
    ![](../media/l2.2.png)
 
