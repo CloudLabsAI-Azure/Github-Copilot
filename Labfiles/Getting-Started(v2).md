@@ -87,7 +87,5 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
 
      ![](../media/vscode1.png)
-
-1. Now, click on **Next** from the lower right corner to move on to the next page.
  
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
