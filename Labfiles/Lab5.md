@@ -76,7 +76,6 @@ In this exercise, you will participate in a learning or practice activity where 
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
-
 1. To install the C Sharp (C#) extension, the following steps are to be performed within Visual Studio Code:
     - Click on the **Extensions** **(1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
     - In the "Search Extensions in Marketplace" search box, type and search for the **C#** **(2)** extension.
