@@ -1,4 +1,4 @@
-## Introduction to GitHub Copilot
+# Introduction to GitHub Copilot
 
 Duration: 20 minutes
 
