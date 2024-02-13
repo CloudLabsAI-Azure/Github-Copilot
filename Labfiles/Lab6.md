@@ -35,9 +35,9 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
    ![](../media/create-project.png)
 
-1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, click on the drop-down **(4)** and click on **+ Add SDK** **(5)** then click on **Download JDK** **(6)**.
+1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, click on the drop-down **(4)** and click on  **Download JDK** **(5)**.
 
-   ![](../media/project-details.png)
+   ![](../media/intellij.png)
 
 1. You will see a pop-up to download JDK, verify the location, and click on **Download**.
 
@@ -62,11 +62,23 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
    ![](../media/login.png)
 
-1. In the "Sign in to GitHub" dialog box, to copy the device code and open the device activation window, click **Copy and Open**.
+1. In the "Sign in to GitHub" dialog box, to copy the device code in a notepad file and open the device activation window, click **Copy and Open**.
 
    ![](../media/ex6-copy-code.png)
 
-1. A device activation window will open in your browser. Paste the device **code (1)** which you have copied in the previous step, then click **Continue (2)**.
+1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
+
+   >**Note**: To get GitHub credentials navigate to the **Environment Details** tab and click on the **GitHub Credentials** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
+   
+   ![](../media/github-login.png)
+          
+1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+
+   >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
+
+   ![](../media/authgit.png)
+
+1. A device activation window will open in your browser. Paste the device **code (1)** which you have copied in the step number **3** in **Task 2**, then click **Continue (2)**.
 
    ![](../media/ex6-device-activation.png)
 
@@ -74,7 +86,7 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
 1. After the permissions have been approved, your JetBrains IDE will show a confirmation. To begin using GitHub Copilot, click **OK**.
 
-1. In your JetBrains IDE, right-click on the **src (1)**, select **New (2)** and click on **File (3)** to create a new Java (*.java) file named **Test.java**.
+1. In your JetBrains IDE, right-click on the **src (1)**, select **New (2)** and click on **File (3)** to create a new Java (*.java) file named **Test.java** and hit enter.
 
    ![](../media/ex6-test-java.png)
 
@@ -140,8 +152,6 @@ GitHub Copilot can understand significantly more context than most code assistan
 1. GitHub Copilot will automatically suggest an implementation.
   
    ![](../media/ex6-image-suggestion.png)
-
-1. Click on **Next** from the bottom right to continue with the next exercise.
 
 ### Summary
 
