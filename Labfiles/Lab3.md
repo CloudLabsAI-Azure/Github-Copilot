@@ -268,8 +268,6 @@ new array:
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
-10. Click on **Next** from the bottom right to continue with the next exercise.
-
 ### Summary
 
 In this lab, you have successfully generated JavaScript code and other best practices using GitHub Copilot and GitHub Copilot Chat.
