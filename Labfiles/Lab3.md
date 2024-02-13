@@ -27,7 +27,7 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
           
 1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
 
-   >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
+   >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
 
    ![](../media/authgit.png)
 
