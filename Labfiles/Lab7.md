@@ -120,7 +120,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex-8-import-lib.png)
 
-1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell.
+1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Hover your mouse over the cell and click on `+Code` **(3)** to add the new cell.
 
    ![](../media/ex8-add-cell-new.png)
 
@@ -144,12 +144,12 @@ In this exercise, you will be cloning the Git repository with the required datas
 1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset, press "tab", then press "enter" and click on **Run** button to execute the cell.
 
    ```
-   # Mathematical operations on the dataset, like generating the birth year from age
+   # Mathematical operations on the dataset, like generating the birth year from Age
    ```
 
    ![](../media/ex9-birthyear.png)
 
->**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
+   >**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
 
 1. Type the below comment, press "tab", then press "enter" to get the output similar to the below image and click on **Run** button to execute the cell. 
 
@@ -158,6 +158,8 @@ In this exercise, you will be cloning the Git repository with the required datas
    ```
 
    ![](../media/ex9-birthyear-output.png)
+
+   >**Note:** The representation may vary from the image.
 
 1. Type the below comments to convert the BMI column up to two decimal values, press "tab", then press "enter" and click on **Run** button to execute the cell. 
 
