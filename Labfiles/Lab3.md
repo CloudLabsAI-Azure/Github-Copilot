@@ -43,9 +43,9 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
    ![](../media/code-code.png)
 
-1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
+1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
 
-   ![](../media/create-codespace.png)
+   ![](../media/labgit.png)
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
