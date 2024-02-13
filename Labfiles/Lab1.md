@@ -1,5 +1,3 @@
-# Lab 1: Getting Started with GitHub Copilot
-
 ## Introduction to GitHub Copilot
 
 Duration: 20 minutes
