@@ -50,8 +50,6 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 1. Click on the repository named **skills-copilot-codespaces-vscode-<inject key="DeploymentID" enableCopy="false" />**.
 
-   ![](../media/l2.1.png)
-
 1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
    ![](../media/code-code.png)
