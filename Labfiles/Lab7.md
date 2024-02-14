@@ -66,7 +66,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/signingit.png)
 
-   >**Note:** If you do not get the sign in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
+   >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
 
 1. Next, once you get the popup, click on **Allow**
 
