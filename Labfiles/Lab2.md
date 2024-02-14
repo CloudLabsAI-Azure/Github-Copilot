@@ -48,8 +48,6 @@ In this lab, you will create a development container and define specific extensi
 
 1. Click on the repository named **skills-copilot-codespaces-vscode-<inject key="DeploymentID" enableCopy="false" />**
 
-   ![](../media/l2.1.png)
-
 1. In the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `Create new file` **(3)**.
 
     ![](../media/create-new-file.png)
