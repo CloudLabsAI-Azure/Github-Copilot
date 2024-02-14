@@ -68,6 +68,8 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
    ![](../media/signingit.png)
 
+   >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
+
 1. Next, once you get the popup, click on **Allow**
 
    ![](../media/allow.png)
