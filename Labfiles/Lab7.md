@@ -11,11 +11,78 @@ Machine Learning Frameworks: Copilot supports various Machine Learning libraries
 
 In this exercise, you will be cloning the Git repository with the required dataset into your environment. Here, you will be working with Copilot for Machine Learning, which involves leveraging GitHub Copilot.
 
->**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
+>**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
 >**Note**: Before proceeding with the exercise, make sure you have installed Python and pip packages.
 
 ### Task 1: Prerequisites and Injecting the Required Dataset into Your Environment
+
+1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
+
+   ![](../media/Edge.png)
+
+1. Navigate to GitHub login page using the provided URL below:
+   ```
+   https://github.com/login
+   ```
+   
+1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
+
+   >**Note**: To get GitHub credentials navigate to the **Environment Details** tab and click on the **GitHub Credentials** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
+   
+   ![](../media/github-login.png)
+          
+1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+
+   >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
+
+   ![](../media/authgit.png)
+
+1. Now,right click on your profile icon in the top right and click on **Your Repositories**.
+    
+   ![](../media/l2.2.png)
+
+1. Click on the repository named **skills-copilot-codespaces-vscode-<inject key="DeploymentID" enableCopy="false" />**.
+
+   ![](../media/l2.1.png)
+
+1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
+
+   ![](../media/code-code.png)
+
+1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
+
+   ![](../media/labgit.png)
+
+   >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
+
+1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install and Open** to continue.
+
+   ![](../media/open.png)
+
+   ![](../media/codespaces.png)
+
+1. At the bottom right corner, you will get a prompt to sign in to GitHub.
+
+   ![](../media/signingit.png)
+
+   >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
+
+1. Next, once you get the popup, click on **Allow**
+
+   ![](../media/allow.png)
+
+   >**Note**: Wait about 2 minutes for the codespace to spin itself up.
+
+1. Verify your codespace is running. Make sure the VS code looks as shown below:
+
+   ![](../media/loaded-repo.png)
+
+1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
+
+   ![](../media/verify-copilot.png)
+
+   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
 1. Open VS Code Terminal by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
 
@@ -53,7 +120,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex-8-import-lib.png)
 
-1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell.
+1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Hover your mouse over the cell and click on `+Code` **(3)** to add the new cell.
 
    ![](../media/ex8-add-cell-new.png)
 
@@ -77,12 +144,12 @@ In this exercise, you will be cloning the Git repository with the required datas
 1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset, press "tab", then press "enter" and click on **Run** button to execute the cell.
 
    ```
-   # Mathematical operations on the dataset, like generating the birth year from age
+   # Mathematical operations on the dataset, like generating the birth year from Age
    ```
 
    ![](../media/ex9-birthyear.png)
 
->**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
+   >**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
 
 1. Type the below comment, press "tab", then press "enter" to get the output similar to the below image and click on **Run** button to execute the cell. 
 
@@ -91,6 +158,8 @@ In this exercise, you will be cloning the Git repository with the required datas
    ```
 
    ![](../media/ex9-birthyear-output.png)
+
+   >**Note:** The representation may vary from the image.
 
 1. Type the below comments to convert the BMI column up to two decimal values, press "tab", then press "enter" and click on **Run** button to execute the cell. 
 

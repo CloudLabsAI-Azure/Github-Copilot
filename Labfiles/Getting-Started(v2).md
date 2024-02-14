@@ -1,4 +1,4 @@
-# **Getting Started with Your Github-Copilot**
+# **Lab 1: Getting Started with Github-Copilot**
  
 Welcome to your Github-Copilot workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
@@ -16,7 +16,7 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
  
-   ![](../media/2nd.png)
+   ![](../media/licensetab.png)
  
 ## **Utilizing the Split Window Feature**
  
@@ -41,7 +41,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
    https://github.com/login
    ```
    
-1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
+1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
    >**Note**: To get GitHub credentials navigate to the **Environment Details** tab and click on the **GitHub Credentials** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
    
@@ -68,7 +68,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    [![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
    
-1. In the new tab, most of the prompts will automatically fill in for you. Leave default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
+1. In the new tab, most of the prompts will automatically fill in for you. Enter the  repository name as  **skills-copilot-codespaces-vscode-<inject key="DeploymentID	" enableCopy="false" />**, and leave the default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
 
    ![](../media/skills-new-repo.png)
 
@@ -87,7 +87,5 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
 
      ![](../media/vscode1.png)
-
-1. Now, click on **Next** from the lower right corner to move on to the next page.
  
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!

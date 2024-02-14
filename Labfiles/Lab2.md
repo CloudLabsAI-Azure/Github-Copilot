@@ -15,7 +15,36 @@ In this lab, you will create a development container and define specific extensi
 
 ## Task 1: Enable Copilot inside a Codespace
 
-1. Navigate back to the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `Create new file` **(3)**.
+1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
+
+   ![](../media/Edge.png)
+
+1. Navigate to GitHub login page using the provided URL below:
+   ```
+   https://github.com/login
+   ```
+   
+1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
+
+   >**Note**: To get GitHub credentials navigate to the **Environment Details** tab and click on the **GitHub Credentials** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
+   
+   ![](../media/github-login.png)
+          
+1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+
+   >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
+
+   ![](../media/authgit.png)
+
+1. Now, right-click on your profile icon in the top right and click on **Your Repositories**.
+    
+   ![](../media/l2.2.png)
+
+1. Click on the repository named **skills-copilot-codespaces-vscode-<inject key="DeploymentID" enableCopy="false" />**
+
+   ![](../media/l2.1.png)
+
+1. In the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `Create new file` **(3)**.
 
     ![](../media/create-new-file.png)
 
@@ -46,6 +75,7 @@ In this lab, you will create a development container and define specific extensi
 1. Select the option to **Commit directly to the `main` branch**, and then click the **Commit changes** button.
 
    ![](../media/commit-file.png)
+
 
 1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
@@ -85,8 +115,6 @@ In this lab, you will create a development container and define specific extensi
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
  
-1. Click on **Next** from the bottom right to continue with the next exercise.
-
 ### Summary
 
 In this lab, you have created a development container and added Copilot to the list of extensions.
