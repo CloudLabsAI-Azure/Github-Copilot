@@ -44,7 +44,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
     
    ![](../media/l2.2.png)
 
-1. Click on the repository named **skills-copilot-codespaces-vscode**.
+1. Click on the repository named **skills-copilot-codespaces-vscode-<inject key="DeploymentID" enableCopy="false" />**.
 
    ![](../media/l2.1.png)
 
