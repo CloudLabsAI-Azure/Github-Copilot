@@ -6,7 +6,7 @@ Welcome to your Github-Copilot workshop! We've prepared a seamless environment f
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
  
-   ![](../media/1st.png)
+   ![](../media/getstart324.png)
 
 ### **Virtual Machine & Lab Guide**
  
@@ -22,7 +22,7 @@ To get a better understanding of your lab resources and credentials, navigate to
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-   ![](../media/3rd.png)
+   ![](../media/higher.png)
   
 ## Login to GitHub
 
