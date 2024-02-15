@@ -88,10 +88,19 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
      ![](../media/vscode1.png)
 
-    >**Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - On GitHub, locate your profile photo at the top right corner of the screen.
+    > - Copy your GitHub username.
+
+     ![Picture1](../media/gihubuser15.png)
+
+    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    > - Hit the Validate button for the corresponding task. Paste your GitHub username into the required field and click on submit.
+
+      ![Picture1](../media/gihubuser115.png)
+
+    > - If you receive a success message, you can proceed to the next task. 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
- 
+
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
