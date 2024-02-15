@@ -23,13 +23,7 @@ To get a better understanding of your lab resources and credentials, navigate to
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
    ![](../media/3rd.png)
- 
-## **Managing Your Virtual Machine**
- 
-Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
- 
-   ![](../media/res.png)
- 
+  
 ## Login to GitHub
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
