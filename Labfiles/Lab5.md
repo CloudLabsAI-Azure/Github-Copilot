@@ -42,7 +42,7 @@ In this exercise, you will participate in a learning or practice activity where 
     
    ![](../media/l2.2.png)
 
-1. Click on the repository named **skills-copilot-codespaces-vscode-<inject key="DeploymentID" enableCopy="false" />**.
+1. Click on the repository named **skills-copilot-codespaces-vscode**.
 
 1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 

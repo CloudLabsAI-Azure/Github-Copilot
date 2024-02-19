@@ -46,11 +46,11 @@ In this lab, you will create a development container and define specific extensi
     
    ![](../media/l2.2.png)
 
-1. Click on the repository named **skills-copilot-codespaces-vscode-<inject key="DeploymentID" enableCopy="false" />**
+1. Click on the repository named **skills-copilot-codespaces-vscode**
 
 1. In the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `Create new file` **(3)**.
 
-    ![](../media/create-new-file.png)
+    ![](../media/dp1.png)
 
 1. Type or paste the following in the empty text field prompt to name your file **(1)**.
 
@@ -74,7 +74,7 @@ In this lab, you will create a development container and define specific extensi
    }
    ```
 
-   ![](../media/devcontainer-commit.png)
+   ![](../media/dp2.png)
    
 1. Select the option to **Commit directly to the `main` branch**, and then click the **Commit changes** button.
 
@@ -83,11 +83,11 @@ In this lab, you will create a development container and define specific extensi
 
 1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
-   ![](../media/code-code.png)
+   ![](../media/dp3.png)
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
 
-   ![](../media/create-codespace.png)
+   ![](../media/dp4.png)
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 

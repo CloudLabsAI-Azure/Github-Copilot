@@ -6,7 +6,7 @@ Welcome to your Github-Copilot workshop! We've prepared a seamless environment f
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
  
-   ![](../media/1st.png)
+   ![](../media/getstart324.png)
 
 ### **Virtual Machine & Lab Guide**
  
@@ -22,7 +22,7 @@ To get a better understanding of your lab resources and credentials, navigate to
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-   ![](../media/3rd.png)
+   ![](../media/higher.png)
   
 ## Login to GitHub
 
@@ -68,7 +68,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
    [![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
    
-1. In the new tab, most of the prompts will automatically fill in for you. Enter the  repository name as  **skills-copilot-codespaces-vscode-<inject key="DeploymentID	" enableCopy="false" />**, and leave the default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
+1. In the new tab, most of the prompts will automatically fill in for you. Make sure the  repository name is  **skills-copilot-codespaces-vscode**, and leave the default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
 
    ![](../media/skills-new-repo.png)
 
@@ -88,10 +88,19 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
      ![](../media/vscode1.png)
 
-    >**Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation page from the upper right corner of the lab guide section.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
+    > - On GitHub, locate your profile photo at the top right corner of the screen.
+    > - Copy your GitHub username.
+
+     ![Picture1](../media/gihubuser15.png)
+
+    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    > - Hit the Validate button for the corresponding task. Paste your GitHub username into the required field and click on submit.
+
+     ![Picture1](../media/gihubuser115.png)
+
+    > - If you receive a success message, you can proceed to the next task. 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
- 
+
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
