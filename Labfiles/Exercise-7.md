@@ -40,9 +40,9 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
    # Create a GitHub action to email a report from a file at 6 a.m. daily
    ```
 
-1. To open a new tab with multiple synthesized solutions, press `Ctrl+Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on Accept Solution above the suggestion and then save the file.
+1. To open a new tab with multiple synthesized solutions, press `Ctrl+Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept suggestion** below the solution and then save the file.
 
-   ![](../media/demo-yaml.png)
+   ![](../media/ex7-t2-s3.png)
 
 1. After accepting the suggestion, review it carefully before applying it.
 
