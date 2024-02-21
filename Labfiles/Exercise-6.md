@@ -36,9 +36,9 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
    ![](../media/create-project.png)
 
-1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, click on the drop-down **(4)** and click on **+ Add SDK** **(5)** then click on **Download JDK** **(6)**.
+1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, click on the drop-down **(4)** and click on **Download JDK** **(5)**.
 
-   ![](../media/project-details.png)
+   ![](../media/ex6-t1-s6.png)
 
 1. You will see a pop-up to download JDK, verify the location, and click on **Download**.
 
