@@ -169,7 +169,7 @@ new array:
       // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
-4. Now, we have received our desired outcome.
+4. Now, we have received our desired outcome. Save the newly created `index.js` file by using the `CTRL + S` shortcut keys.
 
    ![](../media/ex2-array-output-1.png)
 
