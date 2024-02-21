@@ -62,7 +62,7 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
    > **Note**: Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
-1. To open a new tab with multiple synthesized solutions, press `Ctrl + Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept Solution** above the suggestion and then save the file.
+1. To open a new tab with multiple synthesized solutions, press `Ctrl + Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept Suggestion** below the desired suggestion and then save the file.
 
    ![](../media/co-suggestion2.png)
 
