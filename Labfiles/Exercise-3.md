@@ -36,7 +36,7 @@ In this exercise, you will have the opportunity to explore and apply the use of 
 
    ![](../media/ex-3-create-py.png)
 
-1. Name the file `app.py` **(1)**. Type the following code within the file and then click on enter to go to the next line.
+1. Name the file `app.py` **(1)**. Type the following code within this newly created file and then use the enter key to go to the next line.
 
    ```
    def hello():
