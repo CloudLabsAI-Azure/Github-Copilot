@@ -1,5 +1,7 @@
 # Exercise 4: Using GitHub Copilot Chat to generate ARM and Terraform code with Copilot
 
+Duration: 30 minutes
+
 ### About GitHub Copilot Chat and Visual Studio Code
 
 GitHub Copilot Chat allows you to ask coding questions and receive answers directly within the supported IDE. Copilot Chat can help you with a variety of coding-related tasks, like offering you code suggestions, providing natural language descriptions of a piece of code's functionality and purpose, generating unit tests for your code, and proposing fixes for bugs in your code. For more information, see "[About GitHub Copilot Chat](https://docs.github.com/en/copilot/github-copilot-chat/about-github-copilot-chat)."
