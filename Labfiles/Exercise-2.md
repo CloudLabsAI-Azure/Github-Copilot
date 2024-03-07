@@ -26,11 +26,11 @@ In this exercise, you will have the opportunity to experiment with and apply Jav
    
    > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
-   ![](../media/skills-function.png)
+   ![](../media/skills(1).png)
 
 4. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
 
-   ![](../media/save-skills.png)
+   ![](../media/skills(2).png)
 
 ## Task 2: Push code to your repository from the codespace
 
@@ -58,7 +58,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
    git push
    ```
 
-   ![](../media/skills-push.png)
+   ![](../media/githubcopilot.png)
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
@@ -173,7 +173,7 @@ new array:
 
    ![](../media/ex2-array-output-1.png)
 
-5. Open the **New Terminal** **(3)** to push the code.
+5. Open the **New Terminal** to push the code.
 
 6. Run the below command to pull the latest changes.
 
