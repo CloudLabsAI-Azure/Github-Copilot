@@ -260,17 +260,17 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. The GitHub Copilot Chat will generate the code as shown below.
 
-   ![](../media/calci.png)
+   ![](../media/refactor-code.png)
 
 1. Copy and paste the code in the file named **test.js** that you just created.
 
 1. Now, to generate test cases for each function, select the function for which the test case has to be generated, and back in the GitHub Copilot Chat window, type **/tests** and hit enter.
 
-   ![](../media/abctestsdemo.png)
+   ![](../media/tests.png)
 
 1. It will generate a test case for the add function.
 
-   ![](../media/addtestcase.png)
+   ![](../media/addtested.png)
 
 ## Summary
 
