@@ -14,7 +14,7 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
    ![](../media/vs3.png)
 
-1. Once the repository is forked, select the **Code** button and, in the **Codespaces** tab, select **Create codespace on main**.
+1. Once the repository is forked, select the **Code (1)** button and, in the **Codespaces** tab, select **Create codespace on main (2)**.
 
    ![](../media/vs6.png)
 
