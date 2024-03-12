@@ -15,3 +15,9 @@ Duration :   minutes
 1. When prompted to open the link via Visual Studio Code, click on **Open**.
 
 1. Click on Install and Open.
+
+
+
+### Task 2: Testing your GitHub Codespace
+
+1. Create a new file and name it **app.py**.
