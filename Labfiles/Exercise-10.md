@@ -20,4 +20,6 @@ Duration :   minutes
 
 ### Task 2: Testing your GitHub Codespace
 
-1. Create a new file and name it **app.py**.
+1. Open the file named **app.py**.
+
+1. 
