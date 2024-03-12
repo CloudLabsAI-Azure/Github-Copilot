@@ -16,7 +16,7 @@ Duration : 30 minutes
 
 1. Click on **Install and Open**.
 
-     **>Note:** In cases where **Github Codespaces** has not loaded, please click on **Reload Window and Open**.
+     **Note:** In cases where **Github Codespaces** has not loaded, please click on **Reload Window and Open**.
 
 1. Click on Allow when **Github Codespaces** wants to sign in using Github.
 
