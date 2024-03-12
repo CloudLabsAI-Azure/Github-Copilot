@@ -58,7 +58,7 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
 1. Click on **Save**.
    
-1. Click on **Terminal** and select **New Terminal**.
+1. Click on **Terminal (1)** and select **New Terminal (2)**.
 
    ![](../media/vs15.png)
 
