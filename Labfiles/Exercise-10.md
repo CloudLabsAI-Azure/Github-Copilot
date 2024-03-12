@@ -84,3 +84,7 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 1. Run the application with the **python app.py** command in the terminal.
 
    ![](../media/vs17.png)
+
+### Summary
+
+In this exercise, you have successfully created a minigame using Python and Github Copilot.
