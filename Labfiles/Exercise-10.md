@@ -6,7 +6,7 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
 ### Task 1: Setting up your environment
 
-1. Navigate to [Mini-game-with-copilot](https://github.com/MicrosoftDocs/mslearn-challenge-project-create-mini-game-with-copilot). and click on **Fork**.
+1. Navigate to [Mini-game-with-copilot](https://github.com/MicrosoftDocs/mslearn-challenge-project-create-mini-game-with-copilot) and click on **Fork**.
 
    ![](../media/vs2.png)
 
