@@ -26,7 +26,7 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
    ![](../media/vs8.png)
 
-     **Note:** In cases where **Github Codespaces** has not loaded, please click on **Reload Window and Open**.
+      >**Note:** In cases where **Github Codespaces** has not loaded, please click on **Reload Window and Open**.
 
    ![](../media/vs9.png)
 
