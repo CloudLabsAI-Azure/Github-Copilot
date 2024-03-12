@@ -39,6 +39,8 @@ Duration :   minutes
 
    **Note:** However, it is to be noted that the suggestions provided by GitHub Copilot may vary and at times may be irrelevant and require a clear understanding of the python code and its usage.
 
+1. Click on **Save**.
+
 1. Run the application with the **python app.py** command in the terminal.
 
 1. 
