@@ -12,7 +12,7 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
 1. Click on **Create Fork**.
 
-   ![](../media/vs3.png)
+   ![](../media/vs20.png)
 
 1. Once the repository is forked, select the **Code (1)** button and, in the **Codespaces** tab, select **Create codespace on main (2)**.
 
