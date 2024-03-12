@@ -1,6 +1,6 @@
 # Exercise 10: Creating a Mini Game with GitHub Copilot
 
-Duration :   minutes
+Duration : 30 minutes
 
 
 
@@ -16,7 +16,11 @@ Duration :   minutes
 
 1. Click on **Install and Open**.
 
+     **>Note:** In cases where **Github Codespaces** has not loaded, please click on **Reload Window and Open**.
 
+1. Click on Allow when **Github Codespaces** wants to sign in using Github.
+
+1. View the repository.
 
 ### Task 2: Testing your GitHub Codespace
 
