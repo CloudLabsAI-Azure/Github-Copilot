@@ -108,7 +108,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
    */
    ```
 
-   ![](../media/ex2-markdown.png)
+   ![](../media/1-vs-1.png)
 
 4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor.
 
@@ -130,7 +130,9 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
       // for javascript
     ```
 
-2. The generated outcome would look similar to the below image.
+   ![](../media/1-vs-2.png)
+   
+1. The generated outcome would look similar to the below image.
 
    ![](../media/ex2-reverse-sentence-output.png)
 
@@ -170,6 +172,8 @@ new array:
       // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
+   ![](../media/1-vs-3.png)
+   
 4. Now, we have received our desired outcome. Save the newly created `index.js` file by using the `CTRL + S` shortcut keys.
 
    ![](../media/ex2-array-output-1.png)
