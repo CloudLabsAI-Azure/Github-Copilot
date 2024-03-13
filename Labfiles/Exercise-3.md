@@ -90,6 +90,8 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
    ![](../media/ex-3-push2.png)
 
+   >**Note**: Please run **git stash** command in case of an error and run all the commands again.
+   
    >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
 
 1. You can verify the `app.py` and `prime.py` files available in your GitHub repository.
