@@ -10,6 +10,8 @@ Additionally, GitHub Copilot is trained in every language that can be found in 
 
 **GitHub Codespace** is a development environment that's hosted in the cloud. You can customize your project for GitHub Codespaces by committing configuration files to your repository (often known as Configuration-as-Code), which creates a repeatable codespace configuration for all users of your project.
 
+Imagine a fully configured development environment at your fingertips, accessible from any computer with an internet connection. GitHub Codespaces opens the door to a new era of collaborative and flexible coding. Let's dive in and unlock the full potential of cloud-based development with GitHub Codespaces!
+
 Using Copilot inside a Codespace shows just how easy it is to get up and running with GitHub's suite of [Collaborative Coding](https://github.com/features#features-collaboration) tools.
 
 In this exercise, you will create a development container and define specific extensions or configurations that will be used or installed in your codespace. You will create this development container and add Copilot to the list of extensions.
