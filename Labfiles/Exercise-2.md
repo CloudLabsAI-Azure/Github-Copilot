@@ -114,11 +114,12 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](../media/ex2-markdown-output.png)
 
-
 ## Task 3.2- Example: Aim to receive a short output from GitHub Copilot for a simple and specific ask
 
 After you've explained your primary objective to the AI pair programmer, explain the reasoning and procedures it must take to reach that objective. This will help GitHub Copilot gain a clearer understanding of your intended outcome when you break things down. For example, imagine you’re writing a recipe. Rather than writing a paragraph outlining the food you intend to make, you would break down the cooking procedure into distinct parts.
 So, instead of asking GitHub Copilot to generate a large amount of code at once, let it generate the code after each step.
+
+**>Note:** Add the following comments and accept the suggestion after the previous suggestion.
 
 1. In the same index.js file, enter the below step-by-step instructions for reversing a sentence.
 
