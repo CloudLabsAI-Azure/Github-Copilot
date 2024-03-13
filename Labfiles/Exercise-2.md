@@ -129,8 +129,6 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
       // the start of the sentence must start with a capital
       // for javascript
     ```
-
-   ![](../media/1-vs-2.png)
    
 1. The generated outcome would look similar to the below image.
 
