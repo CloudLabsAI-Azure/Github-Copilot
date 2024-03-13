@@ -1,4 +1,4 @@
-# Exercise 8: Generating Documentation Using GitHub Copilot [Optional]
+# Exercise 8: Generating Documentation Using GitHub Copilot
 
 Duration: 15 minutes
 
