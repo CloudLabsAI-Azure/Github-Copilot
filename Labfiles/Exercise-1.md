@@ -76,6 +76,8 @@ In this exercise, you will create a development container and define specific ex
 
 1. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
 
+   >**Note**: Click **Open** to proceed in case you receive the pop-up again.
+
 1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
    ![](../media/loaded-repo.png)
