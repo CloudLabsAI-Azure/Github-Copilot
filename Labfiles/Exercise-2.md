@@ -199,6 +199,8 @@ new array:
    git push
    ```
 
+   >**Note**: Please run **git stash** command in case of an error and run all the commands again.
+   
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
 10. Click on **Next** from the bottom right to continue with the next exercise.
