@@ -20,6 +20,8 @@ Let’s break down each one of the core pillars of the GitHub Enterprise platfor
 - **Security**: GitHub focuses on integrating security directly into the development process from the start. GitHub Enterprise platform includes native, first-party security features that minimize security risk with a built-in security solution. Plus, your code remains private within your organization, and at the same time you are able to take advantage of security overview and Dependabot.
 - **Scale**: In essence the GitHub Enterprise Platform focuses on the developer experience–it has the scale to provide industry-changing insights, collaboration capabilities for transformative efficiency, the tools for increased productivity, security at every step, and AI to power it all to new heights in a single, integrated platform.
 
+Feel free to go through the documentation to get more insights on [GitHub](https://learn.microsoft.com/en-us/training/modules/introduction-to-github) and its components. 
+
 Click on "Next" from the bottom right to start with the lab.
 
 
