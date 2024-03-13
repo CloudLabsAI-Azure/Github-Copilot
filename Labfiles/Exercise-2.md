@@ -93,7 +93,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](../media/E2-T3.1-S2.png)
 
-3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on **Make request (Enter) (2)** button.
+3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comment (1)** to fetch the code and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. If you want to regenerate the code, click on **Regenerate (4)** option.
 
    ```
    /*
@@ -108,28 +108,29 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
    */
    ```
 
-   ![](../media/ex2-markdown.png)
+   ![](../media/1-vs-1.png)
 
 4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor.
 
    ![](../media/ex2-markdown-output.png)
-
 
 ## Task 3.2- Example: Aim to receive a short output from GitHub Copilot for a simple and specific ask
 
 After you've explained your primary objective to the AI pair programmer, explain the reasoning and procedures it must take to reach that objective. This will help GitHub Copilot gain a clearer understanding of your intended outcome when you break things down. For example, imagine you’re writing a recipe. Rather than writing a paragraph outlining the food you intend to make, you would break down the cooking procedure into distinct parts.
 So, instead of asking GitHub Copilot to generate a large amount of code at once, let it generate the code after each step.
 
-1. In the same index.js file, enter the below step-by-step instructions for reversing a sentence.
+>**Note:** Add the following comments and accept the suggestion after the previous suggestion.
 
+1. In the same index.js file, paste the following comment.
+   
     ```
       // take a sentence as input
       // reverse the input sentence
       // the start of the sentence must start with a capital
       // for javascript
     ```
-
-2. The generated outcome would look similar to the below image.
+   
+1. The generated outcome would look similar to the below image.
 
    ![](../media/ex2-reverse-sentence-output.png)
 
@@ -161,7 +162,7 @@ new array:
 
    ![](../media/ex2-array-output.png)
 
-3. By contrast, type the below comments to provide an example of how to generate the desired output.
+3. By contrast, aste the following **comment (1)**  to provide an example of how to generate the desired output and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. If you want to regenerate the code, click on **Regenerate (4)** option.
 
     ```
       // Map through an array of arrays of objects
@@ -169,6 +170,8 @@ new array:
       // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
+   ![](../media/1-vs-3.png)
+   
 4. Now, we have received our desired outcome. Save the newly created `index.js` file by using the `CTRL + S` shortcut keys.
 
    ![](../media/ex2-array-output-1.png)
@@ -199,6 +202,8 @@ new array:
    git push
    ```
 
+   >**Note**: Please run **git stash** command in case of an error and run all the commands again.
+   
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
 10. Click on **Next** from the bottom right to continue with the next exercise.

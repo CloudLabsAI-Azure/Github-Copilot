@@ -74,6 +74,8 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
 
    ![](../media/ex-6-push.png)
 
+   >**Note**: Please run **git stash** command in case of an error and run all the commands again.
+
    >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
 
 1. You can verify the newly added files available in your GitHub repository.

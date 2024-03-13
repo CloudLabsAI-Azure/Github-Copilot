@@ -78,12 +78,12 @@ In this exercise, you will be cloning the Git repository with the required datas
 1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset, press "tab", then press "enter" and click on **Run** button to execute the cell.
 
    ```
-   # Mathematical operations on the dataset, like generating the birth year from age
+   # Mathematical operations on the dataset, like generating the birth year from Age
    ```
 
    ![](../media/ex9-birthyear.png)
 
->**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
+      >**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
 
 1. Type the below comment, press "tab", then press "enter" to get the output similar to the below image and click on **Run** button to execute the cell. 
 
