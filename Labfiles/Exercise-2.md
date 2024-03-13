@@ -121,8 +121,8 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 
 >**Note:** Add the following comments and accept the suggestion after the previous suggestion.
 
-1. In the same index.js file, aste the following **comment (1)** to fetch the code and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. If you want to regenerate the code, click on **Regenerate (4)** option.
-
+1. In the same index.js file, paste the following comment.
+   
     ```
       // take a sentence as input
       // reverse the input sentence
