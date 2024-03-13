@@ -18,22 +18,14 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
    ![](../media/vs6.png)
 
-1. You will encounter a pop-up prompt. Click **Open** to proceed.
+      >**Note**: In case you encounter a pop-up prompt. Click **Open** to proceed.
 
-   ![](../media/vs7.png)
+      ![](../media/vs7.png)
 
-1. Click on **Install and Open**.
+1. Click on **Open** when prompted to allow Github Codespaces Extension.
 
-   ![](../media/vs8.png)
-
-      >**Note:** In cases where **Github Codespaces** has not loaded, please click on **Reload Window and Open**.
-
-   ![](../media/vs9.png)
-
-1. Click on Allow when **Github Codespaces** wants to sign in using Github.
-
-   ![](../media/vs10.png)
-
+   ![](../media/vs25.png)
+   
 1. View the repository.
 
    ![](../media/vs11.png)
