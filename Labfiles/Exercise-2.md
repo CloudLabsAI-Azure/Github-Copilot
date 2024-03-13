@@ -119,7 +119,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 After you've explained your primary objective to the AI pair programmer, explain the reasoning and procedures it must take to reach that objective. This will help GitHub Copilot gain a clearer understanding of your intended outcome when you break things down. For example, imagine you’re writing a recipe. Rather than writing a paragraph outlining the food you intend to make, you would break down the cooking procedure into distinct parts.
 So, instead of asking GitHub Copilot to generate a large amount of code at once, let it generate the code after each step.
 
-**>Note:** Add the following comments and accept the suggestion after the previous suggestion.
+>**Note:** Add the following comments and accept the suggestion after the previous suggestion.
 
 1. In the same index.js file, aste the following **comment (1)** to fetch the code and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. If you want to regenerate the code, click on **Regenerate (4)** option.
 
