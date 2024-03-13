@@ -123,6 +123,8 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
    ![](../media/ex-4-push5.png)
 
+   >**Note**: Please run **git stash** command in case of an error and run all the commands again.
+
    >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
 
 1. You can verify the `arm.json`, `powershell.ps1`, and `terraform.tf` files available in your GitHub repository.
