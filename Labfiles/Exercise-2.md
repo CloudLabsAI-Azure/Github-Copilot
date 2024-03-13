@@ -121,7 +121,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 
 **>Note:** Add the following comments and accept the suggestion after the previous suggestion.
 
-1. In the same index.js file, enter the below step-by-step instructions for reversing a sentence.
+1. In the same index.js file, aste the following **comment (1)** to fetch the code and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. If you want to regenerate the code, click on **Regenerate (4)** option.
 
     ```
       // take a sentence as input
@@ -162,7 +162,7 @@ new array:
 
    ![](../media/ex2-array-output.png)
 
-3. By contrast, type the below comments to provide an example of how to generate the desired output.
+3. By contrast, aste the following **comment (1)**  to provide an example of how to generate the desired output and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. If you want to regenerate the code, click on **Regenerate (4)** option.
 
     ```
       // Map through an array of arrays of objects
