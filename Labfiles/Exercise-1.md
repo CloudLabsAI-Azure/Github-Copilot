@@ -97,7 +97,7 @@ In this exercise, you will create a development container and define specific ex
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-1. Click on **Next** from the bottom right to continue with the next exercise.
+13. Click on **Next** from the bottom right to continue with the next exercise.
 
 ### Summary
 
