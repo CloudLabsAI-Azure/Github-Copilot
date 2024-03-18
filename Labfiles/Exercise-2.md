@@ -18,19 +18,13 @@ In this exercise, you will have the opportunity to experiment with and apply Jav
 
    ![](../media/name-skills.png)
 
-3. In the `skills.js` file, type the following function header:
+3. In the `skills.js` file, type the following function header. To open a new tab with multiple synthesized solutions, press `Ctrl+Enter`. GitHub Copilot will synthesize code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept suggestion** below the solution and then press `Ctrl + S` to save the file
 
    ```
    function calculateNumbers(var1, var2)
    ```
-   
-   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
-   ![](../media/skills(1).png)
-
-4. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
-
-   ![](../media/skills(2).png)
+   ![](../media/lab1-8.png)
 
 ## Task 2: Push code to your repository from the codespace
 
@@ -162,7 +156,7 @@ new array:
 
    ![](../media/ex2-array-output.png)
 
-3. By contrast, aste the following **comment (1)**  to provide an example of how to generate the desired output and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. If you want to regenerate the code, click on **Regenerate (4)** option.
+3. By contrast, paste the following **comment (1)**  to provide an example of how to generate the desired output and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. If you want to regenerate the code, click on **Regenerate (4)** option.
 
     ```
       // Map through an array of arrays of objects
