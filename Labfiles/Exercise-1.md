@@ -66,7 +66,7 @@ In this exercise, you will create a development container and define specific ex
 
    ![](../media/codespaces.png)
 
-1. At the bottom right corner, you will get a prompt to sign in to GitHub.
+1. At the bottom right corner, you will get a prompt to sign into GitHub.
 
    ![](../media/signingit.png)
 
