@@ -224,6 +224,7 @@ Training a sample model using Random Forest.
 
    ![](../media/ex9-accuracy.png)
 
+1. Click on **Next** from the bottom right to continue with the next exercise.
 
 ### Summary
 
