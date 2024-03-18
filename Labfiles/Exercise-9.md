@@ -139,7 +139,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 4.1: Data Visualization
 
-1. Click on **+Code** to open the new cell, and type the below comments to perform the basic operations on dataset, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion, continue to repeat this process until a suggestion is provided and click on **Run** button to execute the cell. 
+1. Click on **+Code** to open the new cell and type the below comments to perform the basic operations on dataset, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion, continue to repeat this process until a suggestion is provided and click on **Run** button to execute the cell. 
 
    ```
    # Perform univariate analysis on the dataset and plot the graphs
@@ -204,7 +204,7 @@ Training a sample model using Random Forest.
 
 >**Note**: The model training is a continuation of the train test split step to train the model; run the train test split step first and then continue with the model building.
 
-1. Click **+ Code** to add a new cell, and type the below comments for creating the random forest model, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion, continue to repeat this process until a suggestion is provided. and click on **Run** button to execute the cell.
+1. Click **+ Code** to add a new cell and type the below comments for creating the random forest model, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion, continue to repeat this process until a suggestion is provided. and click on **Run** button to execute the cell.
 
    ```
    # Create a random forest model with 100 trees, and the criterion is entropy
