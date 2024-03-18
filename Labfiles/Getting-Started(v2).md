@@ -47,9 +47,9 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
    
    ![](../media/github-login.png)
           
-1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and it will verify automatically.
 
-   >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
+   >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
 
    ![](../media/authgit.png)
 
@@ -72,7 +72,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![](../media/skills-new-repo.png)
 
-   >**Note**: If the repository is already exists, please delete the existing one and perform the above step again.
+   >**Note**: If the repository is already existing, please delete the existing one and perform the above step again.
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
