@@ -18,7 +18,7 @@ In this exercise, you will have the opportunity to experiment with and apply Jav
 
    ![](../media/name-skills.png)
 
-3. In the `skills.js` file, type the following function header. To open a new tab with multiple synthesized solutions, press `Ctrl+Enter`. GitHub Copilot will synthesize code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept suggestion** below the solution and then press `Ctrl + S` to save the file
+3. In the `skills.js` file, type the following function header. To open a new tab with multiple synthesized solutions, press `Ctrl+Enter`. GitHub Copilot will synthesize code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept suggestion** below the solution and then press `Ctrl + S` to save the file.
 
    ```
    function calculateNumbers(var1, var2)
@@ -69,7 +69,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
    ![](../media/ghc-chat-extension.png)
 
-1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
+1. Once the installation is complete, in the left navigation pane you will be able to see the icon for GitHub Copilot Chat as shown below.
 
    ![](../media/git-chat-icon.png)
 
