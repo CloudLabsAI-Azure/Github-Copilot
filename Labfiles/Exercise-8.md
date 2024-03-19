@@ -24,6 +24,8 @@ In this exercise, you will be generating documentation using GitHub Copilot.
 
    ![](../media/ex-7-mdreview.png)
 
+1. Click on **Next** from the bottom right to continue with the next exercise.
+
 ## Summary
 
 In this exercise, you have successfully generated a document using GitHub Copilot Chat.

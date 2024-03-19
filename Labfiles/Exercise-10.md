@@ -30,6 +30,20 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
    ![](../media/vs11.png)
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+
+   >**Note**: Upon clicking the validate button for this exercise, you'll receive a prompt to input your GitHub username. To find your GitHub username, simply click on your profile image within your GitHub account. After entering your username, proceed by selecting **Submit**.
+
+   ![](../media/lab1-19.png)
+
+   ![](../media/lab1-17.png)
+
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 ### Task 2: Testing your GitHub Codespace
 
 1. Open the **app.py** file.
@@ -61,7 +75,7 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
 ### Task 3: Creating the game logic
 
-1. Paste the following **comment (1)** to fetch the code and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. If you want to regenerate the code, click on **Regenerate (4)** option.
+1. Delete the code generated in the previous step and then use the shortcut CTRL + I to prompt GitHub Copilot to perform an action. Paste the following **comment (1)** to fetch the code and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. If you want to regenerate the code, click on **Regenerate (4)** option.
 
    ```
     The player can choose rock, paper, or scissors, and invalid inputs are handled gracefully. After each round, display whether the player won, lost, or tied. Allow the player to play again after each round and display their score at the end of the game. Inputs are converted to lowercase for consistency.

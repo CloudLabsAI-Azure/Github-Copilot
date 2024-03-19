@@ -23,7 +23,7 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
 1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
 
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write an ARM code for deploying a storage account to Azure with the code explanation."
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot or type / for commands** text box, type a coding-related question, then press Enter. For example, type "Write an ARM code for deploying a storage account to Azure with the code explanation."
 
     ![](../media/create-arm.png)
 
@@ -35,13 +35,13 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
     > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
-    > **Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot a question or type / for topics** text box, click the follow-up question to ask it.
+    > **Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot or type / for commands** text box, click the follow-up question to ask it.
 
     > **Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
    
-1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
+1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert into New File** **(2)**.
 
-   ![](../media/arm-new-file.png)
+   ![](../media/lab1-9.png)
 
 1. Press `CTRL + S` to save the file. Name the file `arm.json` and click on **OK**
 
@@ -51,7 +51,7 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
 1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
 
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For instance, type "Write a Terraform code for deploying a storage account to Azure with the code explanation".
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot or type / for commands** text box, type a coding-related question, then press Enter. For instance, type "Write a Terraform code for deploying a storage account to Azure with the code explanation".
 
    ![](../media/create-terraform.png)
 
@@ -61,13 +61,13 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
     > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
     
-    > **Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot a question or type / for topics** text box, click the follow-up question to ask it.
+    > **Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot or type / for commands** text box, click the follow-up question to ask it.
 
     > **Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
    
-1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
+1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert into New File** **(2)**.
 
-   ![](../media/terraform-new-file.png)
+   ![](../media/lab1-10.png)
 
 1. Press `CTRL + S` to save the file. Name the file `terraform.tf` and click on **OK**
 
@@ -77,7 +77,7 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
 1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
 
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write a PowerShell script for deploying a storage account to Azure."
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot or type / for commands** text box, type a coding-related question, then press Enter. For example, type "Write a PowerShell script for deploying a storage account to Azure."
 
    ![](../media/create-powershell.png)
 
@@ -87,15 +87,15 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
     > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
-    > **Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot a question or type / for topics** text box, click the follow-up question to ask it.
+    > **Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot or type / for commands** text box, click the follow-up question to ask it.
 
     > **Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
    
-1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
+1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert into New File** **(2)**.
 
-   ![](../media/ps-newfile.png)
+   ![](../media/lab1-11.png)
 
-1. Press `CTRL + S` to save the file, and you will see a recommendation to install the `PowerShell` extension. Click on Install. Name the file `powershell.ps1` and click on **OK**.
+1. Press `CTRL + S` to save the file, and you will see a recommendation to install the `PowerShell` extension at the bottom right corner. Click on Install. Name the file `powershell.ps1` and click on **OK**.
 
    ![](../media/ps-save.png)
 
@@ -131,7 +131,7 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
    ![](../media/ex-4-github5.png)
 
-1. Click on Next from the bottom right to continue with the next exercise.
+1. Click on **Next** from the bottom right to continue with the next exercise.
 
 ### Summary
 

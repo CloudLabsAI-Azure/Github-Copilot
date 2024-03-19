@@ -82,6 +82,23 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
 
    ![](../media/ex-6-github.png)
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+
+   >**Note**: Upon clicking the validate button for this exercise, you'll receive a prompt to input your GitHub username. To find your GitHub username, simply click on your profile image within your GitHub account. After entering your username, proceed by selecting **Submit**.
+
+   ![](../media/lab1-19.png)
+
+   ![](../media/lab1-17.png)
+
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+
+6. Click on **Next** from the bottom right to continue with the next exercise.
+
 ### Summary
 
 In this exercise, you have successfully generated code for SQL and YAML using comments with the help of GitHub Copilot.
