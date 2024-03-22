@@ -30,12 +30,6 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
    ![](../media/vs11.png)
 
-   >**Note**: Upon clicking the validate button for this exercise, you'll receive a prompt to input your GitHub username. To find your GitHub username, simply click on your profile image within your GitHub account. After entering your username, proceed by selecting **Submit**.
-
-   ![](../media/lab1-19.png)
-
-   ![](../media/lab1-17.png)
-
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
