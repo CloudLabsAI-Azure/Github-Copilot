@@ -1,4 +1,4 @@
-# Exercise 10: Getting Started with GitHub Copilot Labs [Optional]
+# Exercise 11: Getting Started with GitHub Copilot Labs [Optional]
 
 Duration: 20 minutes
 
