@@ -30,9 +30,6 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
    ![](../media/vs11.png)
 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
 ### Task 2: Testing your GitHub Codespace
 
 1. Open the **app.py** file.
