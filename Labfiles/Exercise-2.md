@@ -203,6 +203,11 @@ new array:
 
 10. Click on **Next** from the bottom right to continue with the next exercise.
 
+      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+       
+      - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+      - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+
 ### Summary
 
 In this exercise, you have successfully generated JavaScript code and other best practices using GitHub Copilot and GitHub Copilot Chat.
