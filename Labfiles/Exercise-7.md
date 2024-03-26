@@ -22,7 +22,9 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
 
    ![](../media/ex7-t1-s3.png)
 
-1. After accepting the suggestion, review it carefully before applying it.
+   > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
+
+1. After accepting the suggestion, review it carefully before applying it, and save the file.
 
    ![](../media/demo-sql-1.png)
 
@@ -44,7 +46,9 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
 
    ![](../media/ex7-t2-s3.png)
 
-1. After accepting the suggestion, review it carefully before applying it.
+   > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
+
+1. After accepting the suggestion, review it carefully before applying it, and save the file.
 
    ![](../media/demo-yaml-1.png)
 

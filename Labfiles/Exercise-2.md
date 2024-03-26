@@ -24,7 +24,7 @@ In this exercise, you will have the opportunity to experiment with and apply Jav
    function calculateNumbers(var1, var2)
    ```
 
-   ![](../media/lab1-8.png)
+   ![](../media/accept-suggestion.png)
 
 ## Task 2: Push code to your repository from the codespace
 
@@ -52,7 +52,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
    git push
    ```
 
-   ![](../media/githubcopilot.png)
+   ![](../media/gitpush.png)
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
@@ -154,7 +154,7 @@ new array:
 
 2. It generated an incorrect usage of the map.
 
-   ![](../media/ex2-array-output.png)
+   ![](../media/indexjscode.png)
 
 3. By contrast, paste the following **comment (1)**  to provide an example of how to generate the desired output and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. If you want to regenerate the code, click on **Regenerate (4)** option.
 
@@ -168,7 +168,7 @@ new array:
    
 4. Now, we have received our desired outcome. Save the newly created `index.js` file by using the `CTRL + S` shortcut keys.
 
-   ![](../media/ex2-array-output-1.png)
+   ![](../media/skillssave.png)
 
 5. Open the **New Terminal** to push the code.
 

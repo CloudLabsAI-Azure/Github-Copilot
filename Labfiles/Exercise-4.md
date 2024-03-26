@@ -51,7 +51,7 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
 1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
 
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot or type / for commands** text box, type a coding-related question, then press Enter. For instance, type "Write a Terraform code for deploying a storage account to Azure with the code explanation".
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot or type / for commands** text box, type a coding-related question, then press Enter. For instance, type "Write a Terraform code for deploying a storage account to Azure with the code explanation."
 
    ![](../media/create-terraform.png)
 
@@ -83,7 +83,7 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
 1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
 
-    ![](../media/ps-output.png)
+    ![](../media/githubcopilotlab.png)
 
     > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
@@ -93,7 +93,7 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
    
 1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert into New File** **(2)**.
 
-   ![](../media/lab1-11.png)
+   ![](../media/insert.png)
 
 1. Press `CTRL + S` to save the file, and you will see a recommendation to install the `PowerShell` extension at the bottom right corner. Click on Install. Name the file `powershell.ps1` and click on **OK**.
 

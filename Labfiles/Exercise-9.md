@@ -54,7 +54,9 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex-8-import-lib.png)
 
-1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell.
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+
+1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+ Code` **(3)** to add the new cell.
 
    ![](../media/ex8-add-cell-new.png)
 
@@ -68,14 +70,16 @@ In this exercise, you will be cloning the Git repository with the required datas
 
     ![](../media/ex8-load-data-1.png)
 
-1. Now click on **+Code** and move on to the next task.
+    >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+
+1. Now click on **+ Code** and move on to the next task.
 
    
 ### Task 3: Mathematical and Machine Learning with Different Examples
 
 ### Task 3.1: Mathematical Operations
 
-1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion, continue to repeat this process until a suggestion is provided and click on **Run** button to execute the cell.
+1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion. View the suggestions, and move on to the next step.
 
    ```
    # Mathematical operations on the dataset, like generating the birth year from Age
@@ -83,7 +87,9 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex9-birthyear.png)
 
-      >**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
+      >**Note**: Continue clicking on **+ Code** after each comment till the last task of this exercise.
+
+      >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
 
 1. Type the below comment, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion to get the output similar to the below image, continue to repeat this process until a suggestion is provided and click on **Run** button to execute the cell. 
 
@@ -93,6 +99,8 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex9-birthyear-output.png)
 
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+
 1. Type the below comments to convert the BMI column up to two decimal values, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion, continue to repeat this process until a suggestion is provided and click on **Run** button to execute the cell. 
 
    ```
@@ -101,6 +109,8 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex9-bmi-decimal.png)
 
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+
 1. In the same code cell, type the below comment, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion, continue to repeat this process until a suggestion is provided and click on **Run** button to execute the cell to get the output similar to the below image.
 
    ```
@@ -108,6 +118,8 @@ In this exercise, you will be cloning the Git repository with the required datas
    ```
 
    ![](../media/ex9-bmi-decimal-output.png)
+
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
 
 
 ### Task 3.2: Machine Learning
@@ -120,9 +132,13 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex8-machine-learning-dataset.png)
 
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+
 1. Once the cell run is completed, you will get an output similar to the below image.
 
    ![](../media/ex8-machine-learning-output.png)
+
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
 
 1. Before building the model, the main frame is to split the data into train tests and splits and this would be done by Copilot itself. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion, continue to repeat this process until a suggestion is provided and click on **Run** button to execute the cell.
 
@@ -133,6 +149,8 @@ In this exercise, you will be cloning the Git repository with the required datas
    ![](../media/ex9-train-data.png)
 
    ![](../media/ex9-train-data-1.png)
+
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
 
 
 ### Task 4: Data Visualization and Data Transformation
@@ -147,6 +165,8 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex9-basic-operation.png)
 
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+
 1. Once the cell run is completed, you will be getting a graphical representation output similar to the below image.
 
    ![](../media/ex9-basic-opration-graph-output.png)
@@ -159,6 +179,8 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex9-scatter-graph.png)
 
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+
 1. Type the below comments for performing Joint Plot or Grid (rarely used plots) for visualization, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion, continue to repeat this process until a suggestion is provided and click on **Run** button to execute the cell to get the output as shown in the below-given image.
 
    ```
@@ -169,6 +191,8 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex9-jointgrid-graph-output.png)
 
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+
 1. Type the below comments for performing visualization on all features of the dataset, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion, continue to repeat this process until a suggestion is provided and click on **Run** button to execute the cell to get the output as shown in the below-given image.
 
    ```
@@ -178,6 +202,8 @@ In this exercise, you will be cloning the Git repository with the required datas
    ![](../media/ex9-heatmap.png)
 
    ![](../media/ex9-heatmap-output.png)
+
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
 
 
 ### Task 4.2: Data Transformations
@@ -193,9 +219,13 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex9-standardization-new.png)
 
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+
 1. You will get the output as shown in the below-given image once the code cell finishes running.
 
    ![](../media/ex9-standardization-output.png)
+
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
 
 
 ### Task 5: Training the sample model
@@ -216,6 +246,8 @@ Training a sample model using Random Forest.
 
    ![](../media/ex9-entropy-2.png)
 
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+
 1. In a new cell, type the below comments for calculating the accuracy of the model, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
@@ -223,6 +255,8 @@ Training a sample model using Random Forest.
    ```
 
    ![](../media/ex9-accuracy.png)
+
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
 
 1. Click on **Next** from the bottom right to continue with the next exercise.
 

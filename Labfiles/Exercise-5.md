@@ -92,7 +92,9 @@ In this exercise, you will participate in a learning or practice activity where 
 
 1. The GitHub Copilot Chat will give the response as shown below.
 
-   ![](../media/refactored-code.png)
+   ![](../media/refactorcode.png)
+
+   >**Note:** However, it should be noted that the suggestions from GitHub Copilot may vary and occasionally be irrelevant, necessitating a clear understanding of the C++ code and its usage.
 
 ## Task 3: Review the refactored code and understand how it works.
 
@@ -244,7 +246,9 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
     ![](../media/chat-code-accept.png)
 
-     >**Note:** It's essential to carefully review copilot suggestions before applying them.
+    >**Note:** It's essential to carefully review copilot suggestions before applying them.
+
+    >**Note:** However, it should be noted that the suggestions from GitHub Copilot may vary and occasionally be irrelevant, necessitating a clear understanding of the C++ code and its usage.
 
 ## Task 5: Create unit test functions
 
@@ -262,15 +266,21 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
    ![](../media/refactor-code.png)
 
+   >**Note:** However, it should be noted that the suggestions from GitHub Copilot may vary and occasionally be irrelevant, necessitating a clear understanding of the C++ code and its usage.
+
 1. Copy and paste the code in the file named **test.js** that you just created.
 
-1. Now, to generate test cases for each function, select the function for which the test case has to be generated, and back in the GitHub Copilot Chat window, type **/tests** and hit enter.
+1. Now, to generate test cases for each function, select the function for which the test case has to be generated, and back in the GitHub Copilot Chat window, type **/tests** and hit enter twice.
 
    ![](../media/tests.png)
 
+   >**Note:** However, it should be noted that the suggestions from GitHub Copilot may vary and occasionally be irrelevant, necessitating a clear understanding of the C++ code and its usage.
+
 1. It will generate a test case for the add function.
 
-   ![](../media/addtested.png)
+   ![](../media/githubsuggestion.png)
+
+   >**Note:** However, it should be noted that the suggestions from GitHub Copilot may vary and occasionally be irrelevant, necessitating a clear understanding of the C++ code and its usage.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
