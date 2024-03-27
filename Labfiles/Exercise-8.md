@@ -22,7 +22,9 @@ In this exercise, you will be generating documentation using GitHub Copilot.
 
 1. Copilot will give a response, and you can review it **(1)**, click **Accept** **(2)**, and press `CTRL + S` to save the file. Also, you can discard the suggestion as depicted in the image below.
 
-   ![](../media/ex-7-mdreview.png)
+   ![](../media/accept.png)
+
+   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
 
 1. Click on **Next** from the bottom right to continue with the next exercise.
 

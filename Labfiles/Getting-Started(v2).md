@@ -32,9 +32,9 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
 ## Login to GitHub
 
-1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
+1. In the LABVM desktop double-click on the **Microsoft Edge** shortcut.
 
-   ![](../media/Edge.png)
+   ![](../media/microsoftedge.png)
 
 1. Navigate to GitHub login page using the provided URL below:
    ```

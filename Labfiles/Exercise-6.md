@@ -83,6 +83,8 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
    ![](../media/ex6-class-test.png)
 
+   > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
+
 1. Below the bracket of the main function, type the following function header:
 
    ```
@@ -91,7 +93,9 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
 1. GitHub Copilot will automatically suggest an entire function body in gray text, as shown below. The exact suggestion may vary.
 
-   ![](../media/ex6-days.png)
+   ![](../media/output.png)
+
+   > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
 1. Press **Tab** to accept the suggestion.
 
@@ -122,6 +126,8 @@ Sometimes, you may not want to use any of the initial suggestions. You can ask G
 
    >**Note**: If the 'Open Copilot' isn't showing, please select refresh icon from the GitHub Copilot pane.
 
+   > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
+
 1. Pick a suggestion that you want to use, then click "Accept solution".
 
 1. If you don't like any of the returned suggestions, just close the suggestions tab.
@@ -143,6 +149,8 @@ GitHub Copilot can understand significantly more context than most code assistan
 1. GitHub Copilot will automatically suggest an implementation.
   
    ![](../media/ex6-image-suggestion.png)
+
+   > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  

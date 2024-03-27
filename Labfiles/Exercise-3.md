@@ -68,6 +68,8 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
    ![](../media/accpet-suggestion.png)
 
+   >**Note:** However, it should be noted that the suggestions from GitHub Copilot may vary and occasionally be irrelevant, necessitating a clear understanding of the C++ code and its usage.
+
 ### Task 4: Push code to your repository from the VS code codespace
 
 1. Navigate back to the VS Code terminal and add files to the repository.
