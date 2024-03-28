@@ -242,7 +242,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
  
    ![](../media/ex5-t4-s6.png)  
 
-1. Now type the prompt "Use if-else statements instead of the switch statement" **(1)** to make the code more understandable and click `>` or press `Enter` **(2)**. Copilot will give a response, and you can review it and click **Accept** **(3)**. Also, you can **Discard** the suggestion as depicted in the image below.
+1. Now type the prompt "Use if-else statements instead of the switch statement" **(1)** to make the code more understandable and click `>` or press `Enter` **(2)**. Copilot will give a response, and you can review it and click **Accept** **(3)**. Also, you can **Discard** the suggestion as depicted in the image below. Press `CTRL + S` to save the file.
 
     ![](../media/chat-code-accept.png)
 
@@ -268,7 +268,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
    >**Note:** However, it should be noted that the suggestions from GitHub Copilot may vary and occasionally be irrelevant, necessitating a clear understanding of the C++ code and its usage.
 
-1. Copy and paste the code in the file named **test.js** that you just created.
+1. Copy and paste the code in the file named **test.js** that you just created. Press `CTRL + S` to save the file.
 
 1. Now, to generate test cases for each function, select the function for which the test case has to be generated, and back in the GitHub Copilot Chat window, type **/tests** and hit enter twice.
 
@@ -281,6 +281,38 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
    ![](../media/githubsuggestion.png)
 
    >**Note:** However, it should be noted that the suggestions from GitHub Copilot may vary and occasionally be irrelevant, necessitating a clear understanding of the C++ code and its usage.
+
+### Task 6: Push code to your repository from the codespace
+
+1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
+
+1. Run the below command to add the `codechat.cs` and `test.js` files to the repository:
+
+   ```
+   git add codechat.cs test.js
+   ```
+
+1. Next, from the VS Code terminal stage, commit the changes to the repository:
+
+   ```
+   git commit -m "Copilot commit"
+   ```
+
+1. Finally, from the VS Code terminal, push to code to the repository:
+
+   ```
+   git push
+   ```
+
+   ![](../media/exercise5-1.png)
+
+   >**Note**: Please run **git stash** command in case of an error and run all the commands again.
+
+   >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
+
+1. You can verify the `codechat.cs` and `test.js` files available in your GitHub repository.
+
+   ![](../media/exercise5-2.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
