@@ -20,6 +20,12 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
 
 1. To open a new tab with multiple synthesized solutions, press `Ctrl+Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept suggestion** below the solution and then save the file.
 
+>**Note**:  Incase of this error **CTRL + ENTER**: command '**github.copilot.generate**' not found , Please follow the below steps
+- In the file Explorer Go to the path **%USERPROFILE%/AppData/Roaming/Code/CachedExtensionVSIXs**
+- Delete all copilot files present in this path and reopen vsCode.
+- Then in Vscode reload the github copilot extenstion
+- Then try **CTRL + ENTER**
+
    ![](../media/ex7-t1-s3.png)
 
 1. After accepting the suggestion, review it carefully before applying it.
