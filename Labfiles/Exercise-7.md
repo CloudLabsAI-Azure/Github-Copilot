@@ -54,7 +54,7 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
   
 - **Delete all copilot files (2)** present in this path.
   
-   ![](../media/github.png)
+   ![](../media/github1.png)
   
 - reopen vsCode **reload the github copilot extenstion (3)** in vscode
 
