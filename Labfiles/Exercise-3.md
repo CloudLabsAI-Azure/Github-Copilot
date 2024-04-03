@@ -73,7 +73,7 @@ In this task, you will continue to use Copilot and may need some of the suggesti
   
 - **Delete all copilot files (2)** present in this path.
   
-   ![](../media/github.png)
+   ![](../media/github1.png)
   
 - reopen vsCode **reload the github copilot extenstion (3)** in vscode
 
