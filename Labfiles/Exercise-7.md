@@ -46,6 +46,22 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
 
    ![](../media/ex7-t2-s3.png)
 
+   >**Note**:  Incase of this error **CTRL + ENTER**: command '**github.copilot.generate**' not found , Please follow the below steps
+   
+- In the file Explorer Go to the path **%USERPROFILE%/AppData/Roaming/Code/CachedExtensionVSIXs (1)**
+
+   ![](../media/exe1.png)
+  
+- **Delete all copilot files (2)** present in this path.
+  
+   ![](../media/github1.png)
+  
+- reopen vsCode **reload the github copilot extenstion (3)** in vscode
+
+   ![](../media/reloadreq.png)
+  
+   Then try **CTRL + ENTER**
+
    > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
 1. After accepting the suggestion, review it carefully before applying it, and save the file.

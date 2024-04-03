@@ -66,6 +66,21 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
 1. To open a new tab with multiple synthesized solutions, press `Ctrl + Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept Suggestion** below the desired suggestion and then save the file.
 
+   >**Note**:  Incase of this error **CTRL + ENTER**: command '**github.copilot.generate**' not found , Please follow the below steps
+- In the file Explorer Go to the path **%USERPROFILE%/AppData/Roaming/Code/CachedExtensionVSIXs (1)**
+
+   ![](../media/exe1.png)
+  
+- **Delete all copilot files (2)** present in this path.
+  
+   ![](../media/github1.png)
+  
+- reopen vsCode **reload the github copilot extenstion (3)** in vscode
+
+   ![](../media/reloadreq.png)
+  
+   Then try **CTRL + ENTER**
+
    ![](../media/accpet-suggestion.png)
 
    >**Note:** However, it should be noted that the suggestions from GitHub Copilot may vary and occasionally be irrelevant, necessitating a clear understanding of the C++ code and its usage.
