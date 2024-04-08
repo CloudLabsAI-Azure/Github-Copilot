@@ -42,11 +42,11 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
 1. You will see a pop-up to download JDK, verify the location, and click on **Download**.
 
-   ![](../media/download-jdk.png)
+   ![](../media/opensdk.png)
 
 1. Once JDK is downloaded, verify the JDK version **(1)** and click on **Create** **(2)**.
 
-   ![](../media/click-create.png)
+   ![](../media/openjdk2.png)
 
 1. Review the created **demo-copilot** project as shown below:
 
