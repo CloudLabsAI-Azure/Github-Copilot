@@ -70,6 +70,10 @@ In this exercise, you will create a development container and define specific ex
 
    ![](../media/signingit.png)
 
+   > **Note**: If you enconter with error **No access to GitHub Copilot found**, please reach out to `cloudlabs-support@spektrasystems.com` for further assistance.
+ 
+      ![](../media/3.png)
+
 1. Next, once you get the popup, click on **Allow**
 
    ![](../media/allow.png)
