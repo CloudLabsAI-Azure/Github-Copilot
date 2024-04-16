@@ -75,13 +75,13 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
 ### Task 3: Creating the game logic
 
-1. Delete the code generated in the previous step and then use the shortcut CTRL + I to prompt GitHub Copilot to perform an action. Paste the following **comment (1)** to fetch the code and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. If you want to regenerate the code, click on **Regenerate (4)** option.
+1. Delete the code generated in the previous step and then use the shortcut CTRL + I to prompt GitHub Copilot to perform an action. Paste the following **comment (1)** to fetch the code and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. 
 
    ```
     The player can choose rock, paper, or scissors, and invalid inputs are handled gracefully. After each round, display whether the player won, lost, or tied. Allow the player to play again after each round and display their score at the end of the game. Inputs are converted to lowercase for consistency.
    ```
 
-   ![](../media/vs18.png)
+   ![](../media/10-1.png)
 
       >**Note:** However, it is to be noted that the suggestions provided by GitHub Copilot may vary and at times may be irrelevant and require a clear understanding of the python code and its usage.
 
