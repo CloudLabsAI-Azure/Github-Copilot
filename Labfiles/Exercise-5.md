@@ -236,13 +236,13 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. Identify the section of code where the switch statement is present and select it.
 
-1. Right-click on the code window and click on the **Copilot** **(1)** option. From the following list of options in Copilot, select **Start Inline Chat** **(2)**.
+1. Right-click on the code window and click on the **Copilot** **(1)** option. From the following list of options in Copilot, select **Start in Editor** **(2)**.
  
-   ![](../media/ex5-t4-s6.png)  
+   ![](../media/5-2.png)  
 
 1. Now type the prompt "Use if-else statements instead of the switch statement" **(1)** to make the code more understandable and click `>` or press `Enter` **(2)**. Copilot will give a response, and you can review it and click **Accept** **(3)**. Also, you can **Discard** the suggestion as depicted in the image below.
 
-    ![](../media/chat-code-accept.png)
+    ![](../media/5--1.png)
 
      >**Note:** It's essential to carefully review copilot suggestions before applying them.
 
@@ -272,12 +272,43 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
    ![](../media/addtested.png)
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     
-    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+### Task 6: Push code to your repository from the codespace
+
+1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
+
+1. Run the below command to add the `codechat.cs` and `test.js` files to the repository:
+
+   ```
+   git add codechat.cs test.js
+   ```
+
+1. Next, from the VS Code terminal stage, commit the changes to the repository:
+
+   ```
+   git commit -m "Copilot commit"
+   ```
+
+1. Finally, from the VS Code terminal, push to code to the repository:
+
+   ```
+   git push
+   ```
+
+   ![](../media/exercise5-1.png)
+
+   >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
+
+1. You can verify the `codechat.cs` and `test.js` files available in your GitHub repository.
+
+   ![](../media/exercise5-2.png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 ## Summary
 
 In this exercise, you have successfully employed GitHub Copilot to carry out code refactoring tasks and created unit test functions. Code refactoring with Copilot's assistance will make your coding projects more efficient and collaborative.
