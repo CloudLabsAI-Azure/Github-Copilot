@@ -166,7 +166,7 @@ new array:
 
 4. Now, we have received our desired outcome. Save the newly created `index.js` file by using the `CTRL + S` shortcut keys.
 
-   ![](../media/eex-2-4.png)
+   ![](../media/ex-2-4.png)
 
 5. Open the **New Terminal** to push the code.
 
