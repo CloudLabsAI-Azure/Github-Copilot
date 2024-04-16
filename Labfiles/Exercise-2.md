@@ -6,7 +6,7 @@ While GitHub Copilot offers recommendations for many languages and frameworks, i
 
 In this exercise, you will have the opportunity to experiment with and apply JavaScript with the assistance of GitHub Copilot and GitHub Copilot Chat.
 
->**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
+>**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. However, the precise recommendation could vary.
 
 ## Task 1: Add a JavaScript file and start writing code.
 
