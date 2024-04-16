@@ -64,6 +64,10 @@ In this exercise, you will create a development container and define specific ex
 
    ![](../media/innovation-1.png)
 
+    >**Note**: Click on **Allow** if the extension **Github Codepsaces** wants to sign in using Github.
+
+   ![](../media/inn-2.png)
+
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
    ![](../media/signingit.png)
