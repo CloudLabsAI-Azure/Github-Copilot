@@ -272,12 +272,43 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
    ![](../media/addtested.png)
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     
-    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+### Task 6: Push code to your repository from the codespace
+
+1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
+
+1. Run the below command to add the `codechat.cs` and `test.js` files to the repository:
+
+   ```
+   git add codechat.cs test.js
+   ```
+
+1. Next, from the VS Code terminal stage, commit the changes to the repository:
+
+   ```
+   git commit -m "Copilot commit"
+   ```
+
+1. Finally, from the VS Code terminal, push to code to the repository:
+
+   ```
+   git push
+   ```
+
+   ![](../media/exercise5-1.png)
+
+   >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
+
+1. You can verify the `codechat.cs` and `test.js` files available in your GitHub repository.
+
+   ![](../media/exercise5-2.png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ 
+- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 ## Summary
 
 In this exercise, you have successfully employed GitHub Copilot to carry out code refactoring tasks and created unit test functions. Code refactoring with Copilot's assistance will make your coding projects more efficient and collaborative.
