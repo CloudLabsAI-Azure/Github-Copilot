@@ -6,7 +6,7 @@ While GitHub Copilot offers recommendations for many languages and frameworks, i
 
 In this exercise, you will have the opportunity to experiment with and apply JavaScript with the assistance of GitHub Copilot and GitHub Copilot Chat.
 
->**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
+>**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. However, the precise recommendation could vary.
 
 ## Task 1: Add a JavaScript file and start writing code.
 
@@ -87,7 +87,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](../media/E2-T3.1-S2.png)
 
-3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comment (1)** to fetch the code and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. If you want to regenerate the code, click on **Regenerate (4)** option.
+3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comment (1)** to fetch the code and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. 
 
    ```
    /*
@@ -102,11 +102,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
    */
    ```
 
-   ![](../media/1-vs-1.png)
-
-4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor.
-
-   ![](../media/ex2-markdown-output.png)
+   ![](../media/ex-2-1.png)
 
 ## Task 3.2- Example: Aim to receive a short output from GitHub Copilot for a simple and specific ask
 
@@ -126,7 +122,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
    
 1. The generated outcome would look similar to the below image.
 
-   ![](../media/ex2-reverse-sentence-output.png)
+   ![](../media/ex-2-2.png)
 
 
 ## Task 3.3- Example: Give GitHub Copilot an example or two
@@ -154,9 +150,9 @@ new array:
 
 2. It generated an incorrect usage of the map.
 
-   ![](../media/indexjscode.png)
+   ![](../media/ex-2-3.png)
 
-3. By contrast, paste the following **comment (1)**  to provide an example of how to generate the desired output and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. If you want to regenerate the code, click on **Regenerate (4)** option.
+3. By contrast, paste the following **comment (1)**  to provide an example of how to generate the desired output and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. 
 
     ```
       // Map through an array of arrays of objects
@@ -164,11 +160,9 @@ new array:
       // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
-   ![](../media/1-vs-3.png)
+   ![](../media/ex-2-4.png)
    
 4. Now, we have received our desired outcome. Save the newly created `index.js` file by using the `CTRL + S` shortcut keys.
-
-   ![](../media/skillssave.png)
 
 5. Open the **New Terminal** to push the code.
 
