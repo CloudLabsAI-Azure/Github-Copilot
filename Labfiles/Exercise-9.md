@@ -16,6 +16,8 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 >**Note**: Before proceeding with the exercise, make sure you have installed Python and pip packages.
 
+>**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+
 ### Task 1: Prerequisites and Injecting the Required Dataset into Your Environment
 
 1. Open VS Code Terminal by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
