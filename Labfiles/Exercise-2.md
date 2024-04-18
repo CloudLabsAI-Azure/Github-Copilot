@@ -196,7 +196,7 @@ new array:
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
-10. Click on **Next** from the bottom right to continue with the next exercise.
+10. Click on **Next** below to move on to the next page.
 
       > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
        
