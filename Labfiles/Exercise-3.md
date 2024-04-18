@@ -96,7 +96,7 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
    ![](../media/ex-3-github3.png)
 
-1. Click on Next from the bottom right to continue with the next exercise.
+1. Click on **Next** below to move on to the next page.
 
       > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
        
