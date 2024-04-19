@@ -20,13 +20,13 @@ In this exercise, you will create a development container and define specific ex
 
     ![](../media/create-new-file.png)
 
-1. Type or paste the following in the empty text field prompt to name your file **(1)**.
+2. Type or paste the following in the empty text field prompt to name your file **(1)**.
 
    ```
    .devcontainer/devcontainer.json
    ```
 
-1. In the body of the new **.devcontainer/devcontainer.json** file, add the following content **(2)** and click on **Commit changes** **(3)**:
+3. In the body of the new **.devcontainer/devcontainer.json** file, add the following content **(2)** and click on **Commit changes** **(3)**:
 
    ```
    {
@@ -44,21 +44,21 @@ In this exercise, you will create a development container and define specific ex
 
    ![](../media/devcontainer-commit.png)
    
-1. Select the option to **Commit directly to the `main` branch**, and then click the **Commit changes** button.
+4. Select the option to **Commit directly to the `main` branch**, and then click the **Commit changes** button.
 
    ![](../media/commit-file.png)
 
-1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
+5. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
    ![](../media/code-code.png)
 
-1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
+6. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
 
    ![](../media/create-codespace.png)
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
-1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should select **Install Extension and Open URI** to continue.
+7. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should select **Install Extension and Open URI** to continue.
 
    ![](../media/open.png)
 
@@ -68,7 +68,7 @@ In this exercise, you will create a development container and define specific ex
 
    ![](../media/inn-2.png)
 
-1. At the bottom right corner, you will get a prompt to sign in to GitHub.
+8. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
    ![](../media/signingit.png)
 
@@ -76,19 +76,19 @@ In this exercise, you will create a development container and define specific ex
 
       ![](../media/3.png)
 
-1. Next, once you get the popup, click on **Allow**
+9. Next, once you get the popup, click on **Allow**
 
    ![](../media/allow.png)
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
-1. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
+10. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
 
-1. Verify your codespace is running. Make sure the VS code looks as shown below:
+11. Verify your codespace is running. Make sure the VS code looks as shown below:
 
    ![](../media/loaded-repo.png)
 
-1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
+12. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
    ![](../media/verify-copilot.png)
 
@@ -96,14 +96,14 @@ In this exercise, you will create a development container and define specific ex
 
  <validation step="2f1521a8-516d-4357-b09c-941c5d7112ad" />
  
-1. Click on **Next** below to move on to the next page.
+13. Click on **Next** below to move on to the next page.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     
-    - If you receive a success message, you can proceed to the next task.
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
+      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+       
+      - If you receive a success message, you can proceed to the next task.
+      - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+      - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+        
 ### Summary
 
 In this exercise, you have created a development container and added Copilot to the list of extensions.

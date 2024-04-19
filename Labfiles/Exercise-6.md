@@ -131,19 +131,20 @@ GitHub Copilot can understand significantly more context than most code assistan
 
    ```
 
-1. GitHub Copilot will automatically suggest an implementation.
+2. GitHub Copilot will automatically suggest an implementation.
   
    ![](../media/ex6-image-suggestion.png)
 
    <validation step="364115e7-deff-4c32-96e9-fa5d2122a86f" />
 
-1. Click on **Next** below to move on to the next page.
+3. Click on **Next** below to move on to the next page.
 
       > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
        
       - If you receive a success message, you can proceed to the next task.
       - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
       - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+        
 ### Summary
 
 In this exercise, you have successfully configured the JetBrains IntelliJ Idea IDE for Java, installed the GitHub Copilot plugin, and explored the basic Java code that produced the
