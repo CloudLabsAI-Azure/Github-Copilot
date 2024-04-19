@@ -98,6 +98,8 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
    ![](../media/ex-3-github3.png)
 
+   <validation step="95754ad8-7b5c-486d-8e7c-d034df03ff1b" />
+
 1. Click on **Next** below to move on to the next page.
 
       > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
