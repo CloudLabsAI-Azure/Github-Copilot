@@ -56,6 +56,8 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
    ![](../media/accpet-suggestion.png)
 
+    > **Note**: In cases where the Github Copilot suggestions doesn't come up, close and re-open the Visual Studio Code.
+
 ### Task 3: Push code to your repository from the VS code codespace
 
 1. Navigate back to the VS Code terminal and add files to the repository.
