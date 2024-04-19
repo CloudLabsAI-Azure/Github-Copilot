@@ -52,25 +52,28 @@ Duration: 10 minutes
 
    ![](../media/skills-new-repo.png)
 
-   >**Note**: If the repository already exists, please delete the existing one and perform the above step again. To delete the repository, follow the below steps:
-    - Navigate to the existing repository that has to be deleted
+1. If the repository already exists, please delete the existing one and perform the above step again. To delete the repository, 
+follow from step 08 to step 12. In the absence of an existing repository, skip to step 13.
 
-         ![](../media/gs-6.png)
-         ![](../media/gs-5.png)
+1. Navigate to the existing repository that has to be deleted
+
+   ![](../media/gs-6.png)
+   
+   ![](../media/gs-5.png)
       
-   - Click on **Settings**.
+1. Click on **Settings**.
 
      ![](../media/gs-1.png)
 
-   - Scroll down to the **Danger Zone** pane and click on **Delete this repository**.
+1. Scroll down to the **Danger Zone** pane and click on **Delete this repository**.
 
      ![](../media/gs-2.png)
 
-   - Click on **I want to delete this repository** and accept that you have read and understood the effects.
+1. Click on **I want to delete this repository** and accept that you have read and understood the effects.
 
      ![](../media/gs-3.png)
 
-   - Give the name of the repository and click on **Delete this repository**.
+1. Give the name of the repository and click on **Delete this repository**.
 
      ![](../media/gs-4.png)
 
