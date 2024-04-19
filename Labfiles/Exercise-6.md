@@ -135,7 +135,7 @@ GitHub Copilot can understand significantly more context than most code assistan
   
    ![](../media/ex6-image-suggestion.png)
 
-1. Click on **Next** from the bottom right to continue with the next exercise.
+1. Click on **Next** below to move on to the next page.
 
       > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
        

@@ -131,7 +131,7 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
    ![](../media/ex-4-github5.png)
 
-1. Click on Next from the bottom right to continue with the next exercise.
+1. Click on **Next** below to move on to the next page.
 
 ### Summary
 

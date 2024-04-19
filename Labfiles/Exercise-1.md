@@ -94,7 +94,7 @@ In this exercise, you will create a development container and define specific ex
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
  
-1. Click on **Next** from the bottom right to continue with the next exercise.
+1. Click on **Next** below to move on to the next page.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
      
