@@ -304,6 +304,8 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
    ![](../media/exercise5-2.png)
 
+    <validation step="8357b601-4d37-4a08-b8c5-c03df620fdc4" />
+
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
 - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
