@@ -8,6 +8,8 @@ In this exercise, you will have the opportunity to explore and apply the use of 
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Following are the examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
+>**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+
 ## Task 1: Pull the latest code to the Codespace repo.
 
    >**Note**: The "Pull" must be done prior to the next task.

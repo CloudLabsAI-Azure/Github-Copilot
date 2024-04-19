@@ -19,6 +19,8 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
 > **Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
+>**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+
 ### Task 1: Generate code by chat that uses ARM to deploy resources to Azure
 
 1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.

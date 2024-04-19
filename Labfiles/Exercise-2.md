@@ -8,6 +8,8 @@ In this exercise, you will have the opportunity to experiment with and apply Jav
 
 >**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. However, the precise recommendation could vary.
 
+>**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+
 ## Task 1: Add a JavaScript file and start writing code.
 
 1. From the VS Code Explorer window, create a New File.

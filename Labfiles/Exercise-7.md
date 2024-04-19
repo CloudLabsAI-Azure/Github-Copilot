@@ -6,6 +6,8 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
+>**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+
 ### Task 1: Generate a SQL query with GitHub Copilot using comments
 
 1. Navigate back to Visual Studio Code, and from inside the codespace in the VS Code explorer window, create a new file.

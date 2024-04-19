@@ -8,6 +8,8 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
+>**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again.
+
 ## Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
 
 1. Navigate to the desktop and open the **IntelliJ IDEA Community** IDE.

@@ -8,6 +8,8 @@ In this exercise, you will be generating documentation using GitHub Copilot.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
+>**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+
 1. From inside the codespace in the VS Code Explorer window, create a new file.
 
     ![](../media/chat-code-new.png)

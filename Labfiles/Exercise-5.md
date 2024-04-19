@@ -8,6 +8,8 @@ In this exercise, you will participate in a learning or practice activity where 
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this lab, but the exact suggestion may vary.
 
+>**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+
 ## Task 1: Understand the code already available for you.
 
 ### Installing C Sharp (C#) extension in VS Code
