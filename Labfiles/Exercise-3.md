@@ -72,19 +72,19 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
 1. Navigate back to the VS Code terminal and add files to the repository.
 
-1. Run the below command to add the `app.py` and `prime.py` files to the repository:
+2. Run the below command to add the `app.py` and `prime.py` files to the repository:
 
    ```
    git add app.py prime.py
    ```
 
-1. Next, from the VS Code terminal stage and commit the changes to the repository:
+3. Next, from the VS Code terminal stage and commit the changes to the repository:
 
    ```
    git commit -m "Copilot second commit"
    ```
 
-1. Finally, from the VS Code terminal push to code to the repository:
+4. Finally, from the VS Code terminal push to code to the repository:
 
    ```
    git push
@@ -94,13 +94,13 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
    >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
 
-1. You can verify the `app.py` and `prime.py` files available in your GitHub repository.
+5. You can verify the `app.py` and `prime.py` files available in your GitHub repository.
 
    ![](../media/ex-3-github3.png)
 
    <validation step="95754ad8-7b5c-486d-8e7c-d034df03ff1b" />
 
-1. Click on **Next** below to move on to the next page.
+6. Click on **Next** below to move on to the next page.
 
       > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
        
