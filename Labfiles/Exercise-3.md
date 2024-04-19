@@ -10,19 +10,7 @@ In this exercise, you will have the opportunity to explore and apply the use of 
 
 >**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
 
-## Task 1: Pull the latest code to the Codespace repo.
-
-   >**Note**: The "Pull" must be done prior to the next task.
-
-1. Navigate to VS Code, using the VS Code terminal to pull the latest code:
-
-   ```
-   git pull
-   ```
-
-   ![](../media/ex-3-pull1.png)
-
-## Task 2: Add Python method code
+## Task 1: Add Python method code
 
 ### Installing Python extension in VS Code
 
@@ -50,7 +38,7 @@ In this exercise, you will have the opportunity to explore and apply the use of 
 
    > **Note**: Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
-### Task 3: View the GitHub Copilot tab with multiple suggestions
+### Task 2: View the GitHub Copilot tab with multiple suggestions
 
 In this task, you will continue to use Copilot and may need some of the suggestions that GitHub Copilot offers. GitHub Copilot will synthesize around 10 different code suggestions in a new tab.
 
@@ -68,7 +56,7 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
    ![](../media/accpet-suggestion.png)
 
-### Task 4: Push code to your repository from the VS code codespace
+### Task 3: Push code to your repository from the VS code codespace
 
 1. Navigate back to the VS Code terminal and add files to the repository.
 
