@@ -72,6 +72,10 @@ In this exercise, you will participate in a learning or practice activity where 
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
+1. If a page **Github for VS Code is requesting additional permissions** opens then click on **Authorize Visual-Studio-Code**.
+
+    ![](../media/1.png)
+
 1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
    ![](../media/loaded-repo.png)
