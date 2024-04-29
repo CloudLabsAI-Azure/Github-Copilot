@@ -20,7 +20,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 1. Open VS Code Terminal by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
 
-   ![](../media/ex-8-openterminal.png)
+   ![](../media/openterminal.png)
 
 1. Clone the below git repository in your environment.
 
