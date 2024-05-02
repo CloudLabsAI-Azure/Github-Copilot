@@ -404,6 +404,30 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
    ![](../media/addtestcase.png)
 
+### Task 5: Push code to your repository from the codespace
+
+1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
+
+1. Run the below command to add the `codechat.cs`, `test.js`  files to the repository:
+
+   ```
+   git add codechat.cs test.js
+   ```
+
+1. Next, from the VS Code terminal stage, commit the changes to the repository:
+
+   ```
+   git commit -m "Copilot third commit"
+   ```
+
+1. Finally, from the VS Code terminal, push to code to the repository:
+
+   ```
+   git push
+   ```
+
+   ![](../media/ex-4-push5.png)
+
     > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
     > - On GitHub, locate your profile photo at the top right corner of the screen.
     > - Copy your GitHub username.
