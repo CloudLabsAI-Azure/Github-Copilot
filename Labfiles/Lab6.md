@@ -153,6 +153,15 @@ GitHub Copilot can understand significantly more context than most code assistan
   
    ![](../media/ex6-image-suggestion.png)
 
+   
+   **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   - Navigate to the Lab Validation page, from the upper right corner in the lab guide section.
+   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+   
+   <validation step="554ef91e-3530-4e62-ae6d-e1cfec7b4bf7" />
+
 ### Summary
 
 In this lab, you have successfully configured the JetBrains IntelliJ Idea IDE for Java, installed the GitHub Copilot plugin, and explored the basic Java code that produced the
