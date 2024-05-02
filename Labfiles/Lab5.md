@@ -38,64 +38,6 @@ In this exercise, you will participate in a learning or practice activity where 
 
    ![](../media/authgit.png)
 
-1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
-
-   <!-- For start course, run in JavaScript:
-   'https://github.com/new?' + new URLSearchParams({
-     template_owner: 'skills',
-     template_name: 'copilot-codespaces-vscode',
-     owner: '@me',
-     name: 'skills-copilot-codespaces-vscode',
-     description: 'My clone repository',
-     visibility: 'public',
-   }).toString()
-   -->
-
-   [![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
-   
-1. In the new tab, most of the prompts will automatically fill in for you. Make sure the  repository name is  **skills-copilot-codespaces-vscode**, and leave the default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
-
-   ![](../media/skills-new-repo.png)
-
-   >**Note**: If the repository is already exists, please delete the existing one by performing below steps and perform the above step again.
-
-    - On GitHub.com, navigate to the main page of the repository.
-    - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
-    
-      ![](../media/2.png)
-
-   - On the **General** settings page (which is selected by default), scroll down to the "Danger Zone" section and click **Delete this repository**.
-     
-     ![](../media/4.png)
-
-   - Click **I want to delete this repository**.
-
-     ![](../media/5.png)
-
-   - Read the warnings and click **I have read and understand these effects**.
-
-     ![](../media/6.png)
-
-   - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want to delete.
-
-   - Click **Delete this repository**.
-
-     ![](../media/7.png)
-
-1. After your new repository is created, wait about 20 seconds and then refresh the page.
-
-1. Once the repository is created, click on your profile picture and then select **Your organizations**.
-
-   ![](../media/organization.png)
-
-1. In "Your organization", from the left navigation pane, select **Codespaces**.
-
-   ![](../media/codespace.png)
-
-1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
-
-     ![](../media/vscode1.png)
-
 1. Now,right click on your profile icon in the top right and click on **Your Repositories**.
     
    ![](../media/l2.2.png)
