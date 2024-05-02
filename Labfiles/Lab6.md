@@ -39,7 +39,7 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
    ![](../media/intellij.png)
 
-1. You will see a pop-up to download JDK, verify the location, and click on **Download**.
+1. If you see a pop-up to download JDK, verify the location, and click on **Download**.
 
    ![](../media/download-jdk.png)
 
