@@ -126,4 +126,6 @@ For convenience, you can open the lab guide in a separate window by selecting th
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+    <validation step="948d3cfc-c5ed-4c19-9f70-58c55cfdfc0e" />
+
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
