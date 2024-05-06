@@ -72,7 +72,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
    ![](../media/skills-new-repo.png)
 
-   >**Note**: If the repository is already exists, please delete the existing one by performing below steps and perform the above step again.
+   >**Note**: If the repository already exists, please delete the existing one by performing below steps and perform the above step again.
 
     - On GitHub.com, navigate to the main page of the repository.
     - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
