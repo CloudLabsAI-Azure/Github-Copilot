@@ -198,15 +198,15 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
    ![](../media/ex-4-github5.png)
 
+    
+   <validation step="41cb7abc-f8a9-4af0-a8c9-3df487cfda04" />
+
    **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    - Navigate to the Lab Validation page, from the upper right corner in the lab guide section.
    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-   
-   <validation step="41cb7abc-f8a9-4af0-a8c9-3df487cfda04" />
-
-
+  
 ### Summary
 
 In this lab, you have employed Copilot to automatically generate code in both ARM, Terraform, and PowerShell programming languages.
