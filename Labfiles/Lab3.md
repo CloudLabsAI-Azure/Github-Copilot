@@ -273,16 +273,15 @@ new array:
    ```
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
+
+   <validation step="d9bc779b-fe43-400c-aadf-959853cf7263" />
    
    **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    - Navigate to the Lab Validation page, from the upper right corner in the lab guide section.
    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-   
-   <validation step="d9bc779b-fe43-400c-aadf-959853cf7263" />
  
-
 ### Summary
 
 In this lab, you have successfully generated JavaScript code and other best practices using GitHub Copilot and GitHub Copilot Chat.
