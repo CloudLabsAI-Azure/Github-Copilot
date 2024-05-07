@@ -18,8 +18,7 @@ In this exercise, you will participate in a learning or practice activity where 
 1. Navigate to GitHub login page using the provided URL below:
    ```
    https://github.com/login
-   ```
-   
+   ``` 
 1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
    ![](../media/github-login.png)
@@ -34,7 +33,11 @@ In this exercise, you will participate in a learning or practice activity where 
 
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
           
-1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+1. Navigate to Outlook login page using the provided URL below:
+   ```
+   https://outlook.office365.com/mail/
+   ```
+1. Next, to get the authentication code, sign in to Outlook with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
 
    >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
 
