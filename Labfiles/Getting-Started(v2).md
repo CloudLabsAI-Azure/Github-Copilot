@@ -48,14 +48,18 @@ For convenience, you can open the lab guide in a separate window by selecting th
      ![](../media/envt12.png)
    
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
-
-1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+   
+1. Navigate to Outlook login page using the provided URL below:
+   ```
+   https://outlook.office365.com/mail/
+   ```
+1. Next, to get the authentication code, sign in to Outlook with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
 
    >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
 
    ![](../media/authgit.png)
 
-1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
+1. Copy the below link and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -67,9 +71,10 @@ For convenience, you can open the lab guide in a separate window by selecting th
      visibility: 'public',
    }).toString()
    -->
-
-   [![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
    
+   ```
+   https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
+   ```   
 1. In the new tab, most of the prompts will automatically fill in for you. Make sure the  repository name is  **skills-copilot-codespaces-vscode**, and leave the default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
 
    ![](../media/skills-new-repo.png)
