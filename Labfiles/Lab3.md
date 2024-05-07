@@ -33,7 +33,11 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
    
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
           
-1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+1. Navigate to Outlook login page using the provided URL below:
+   ```
+   https://outlook.office365.com/mail/
+   ```
+1. Next, to get the authentication code, sign in to Outlook with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
 
    >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
 
