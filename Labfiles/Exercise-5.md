@@ -4,7 +4,7 @@ Duration: 40 minutes
 
 GitHub code refactoring refers to the process of restructuring and improving the quality of code in a GitHub repository without changing its external behaviour. Code refactoring aims to enhance readability, maintainability, and performance while reducing technical debt and potential bugs. 
 
-In this exercise, you will participate in a learning or practice activity where your main goal will be to use GitHub Copilot for code refactoring using the C# programming language. You will also be generating unit test functions using GitHub Copilot Chat.
+In this exercise, you will engage in a learning or practice activity with the primary objective of employing GitHub Copilot for code refactoring in C#. Additionally, you will be creating unit test functions through GitHub Copilot Chat.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this lab, but the exact suggestion may vary.
 
@@ -308,8 +308,11 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
-- If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- Go to the **Lab Validation** tab.
+- Ensure your **GitHub Username** is at hand before proceeding with validation
+- Click on the **Validate** button under the **Actions** section for *Exercise 5: Using GitHub Copilot for Code Refactoring*
+- A success message indicates you’re ready for the next task. Proceed accordingly.
+- If not, review the message, revisit the lab guide, and attempt the step again.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Summary

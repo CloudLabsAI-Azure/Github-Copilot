@@ -52,6 +52,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ```
    # Import libraries with respect to loading data and creating a random forest model
+   import pandas as pd
    ```
 
    ![](../media/ex-8-import-lib.png)

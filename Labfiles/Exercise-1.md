@@ -10,9 +10,9 @@ Additionally, GitHub Copilot is trained in every language that can be found in 
 
 **GitHub Codespace** is a development environment that's hosted in the cloud. You can customize your project for GitHub Codespaces by committing configuration files to your repository (often known as Configuration-as-Code), which creates a repeatable codespace configuration for all users of your project.
 
-Using Copilot inside a Codespace shows just how easy it is to get up and running with GitHub's suite of [Collaborative Coding](https://github.com/features#features-collaboration) tools.
+Utilizing Copilot within a Codespace effortlessly demonstrates the simplicity of starting with GitHub’s comprehensive [Collaborative Coding](https://github.com/features#features-collaboration) tools.
 
-In this exercise, you will create a development container and define specific extensions or configurations that will be used or installed in your codespace. You will create this development container and add Copilot to the list of extensions.
+In this exercise, you are tasked with creating a development container. You will specify certain extensions or configurations to be utilized or installed in your Codespace. As part of this process, ensure to include Copilot in your list of extensions.
 
 ## Task 1: Enable Copilot inside a Codespace
 
@@ -99,9 +99,11 @@ In this exercise, you will create a development container and define specific ex
 13. Click on **Next** below to move on to the next page.
 
       > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-       
-      - If you receive a success message, you can proceed to the next task.
-      - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+
+      - Go to the **Lab Validation** tab.
+      - Click on the **Validate** button under the **Actions** section for *Exercise 1: Leverage Codespaces with VS Code for Copilot*
+      - A success message indicates you’re ready for the next task. Proceed accordingly.
+      - If not, review the message, revisit the lab guide, and attempt the step again.
       - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
         
 ### Summary
