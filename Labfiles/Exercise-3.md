@@ -2,9 +2,9 @@
 
 Duration: 20 minutes
 
-While GitHub Copilot offers suggestions for numerous languages and a variety of frameworks, it excels when it comes to Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. The Copilot can also assist in query generation for databases.
+GitHub Copilot provides suggestions for a multitude of languages and frameworks, excelling particularly with Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. Moreover, Copilot offers valuable assistance in generating queries for databases.
 
-In this exercise, you will have the opportunity to explore and apply the use of Python in conjunction with Copilot, and you will do so with the benefit of receiving multiple suggestions.
+In this exercise, you will have the chance to delve into Python and leverage Copilot’s capabilities, benefiting from a variety of suggestions.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Following are the examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
@@ -94,8 +94,10 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
       > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
        
-      - If you receive a success message, you can proceed to the next task.
-      - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+      - Go to the **Lab Validation** tab.
+      - Click on the **Validate** button under the **Actions** section for *Exercise 3: View the GitHub Copilot tab with multiple suggestions*
+      - A success message indicates you’re ready for the next task. Proceed accordingly.
+      - If not, review the message, revisit the lab guide, and attempt the step again.
       - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Summary

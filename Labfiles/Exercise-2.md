@@ -2,9 +2,9 @@
 
 Duration: 30 minutes
 
-While GitHub Copilot offers recommendations for many languages and frameworks, it excels in particular when it comes to Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. The samples below are in JavaScript, but they should also work in other languages.
+While GitHub Copilot provides recommendations across various languages and frameworks, it particularly excels with Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. Although the following samples are in JavaScript, they should be compatible with other languages as well.
 
-In this exercise, you will have the opportunity to experiment with and apply JavaScript with the assistance of GitHub Copilot and GitHub Copilot Chat.
+In this exercise, you will get the chance to explore and utilize JavaScript, guided by the support of GitHub Copilot and GitHub Copilot Chat.
 
 >**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. However, the precise recommendation could vary.
 
@@ -204,8 +204,10 @@ new array:
 
       > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
        
-      - If you receive a success message, you can proceed to the next task.
-      - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+      - Go to the **Lab Validation** tab.
+      - Click on the **Validate** button under the **Actions** section for *Exercise 2: Seeing AI code suggestions in a JavaScript file!*
+      - A success message indicates you’re ready for the next task. Proceed accordingly.
+      - If not, review the message, revisit the lab guide, and attempt the step again.
       - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Summary
