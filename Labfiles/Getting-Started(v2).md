@@ -83,25 +83,25 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
    <validation step="948d3cfc-c5ed-4c19-9f70-58c55cfdfc0e" />
 
-    > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
-    > - On GitHub, locate your profile photo at the top right corner of the screen.
-    > - Copy your GitHub username.
+   > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
+   > - On GitHub, locate your profile photo at the top right corner of the screen.
+   > - Copy your GitHub username.
 
-     ![Picture1](../media/gihubuser15.png)
+   ![Picture1](../media/gihubuser15.png)
 
-    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    > - Hit the Validate button for the corresponding task. Paste your GitHub username into the required field and click on submit.
+   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   > - Hit the Validate button for the corresponding task. Paste your GitHub username into the required field and click on submit.
 
-     ![Picture1](../media/gihubuser115.png)
+   ![Picture1](../media/gihubuser115.png)
 
-    > - If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > - If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-    - On GitHub.com, navigate to the main page of the repository.
-    - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
+   - On GitHub.com, navigate to the main page of the repository.
+   - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
     
-      ![](../media/2.png)
+     ![](../media/2.png)
 
    - On the **General** settings page (which is selected by default), scroll down to the "Danger Zone" section and click **Delete this repository**.
      
