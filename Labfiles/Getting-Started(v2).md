@@ -83,43 +83,43 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
    <validation step="948d3cfc-c5ed-4c19-9f70-58c55cfdfc0e" />
 
-   > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
-   > - On GitHub, locate your profile photo at the top right corner of the screen.
-   > - Copy your GitHub username.
+    > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
+    > - On GitHub, locate your profile photo at the top right corner of the screen.
+    > - Copy your GitHub username.
 
-   ![Picture1](../media/gihubuser15.png)
+    ![Picture1](../media/gihubuser15.png)
 
-   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-   > - Hit the Validate button for the corresponding task. Paste your GitHub username into the required field and click on submit.
+    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    > - Hit the Validate button for the corresponding task. Paste your GitHub username into the required field and click on submit.
 
-   ![Picture1](../media/gihubuser115.png)
+    ![Picture1](../media/gihubuser115.png)
 
-   > - If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-   - On GitHub.com, navigate to the main page of the repository.
-   - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
+    - On GitHub.com, navigate to the main page of the repository.
+    - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
     
-     ![](../media/2.png)
+      ![](../media/2.png)
 
-   - On the **General** settings page (which is selected by default), scroll down to the "Danger Zone" section and click **Delete this repository**.
+    - On the **General** settings page (which is selected by default), scroll down to the "Danger Zone" section and click **Delete this repository**.
      
-     ![](../media/4.png)
+      ![](../media/4.png)
 
-   - Click **I want to delete this repository**.
+    - Click **I want to delete this repository**.
+ 
+      ![](../media/5.png)
 
-     ![](../media/5.png)
+    - Read the warnings and click **I have read and understand these effects**.
 
-   - Read the warnings and click **I have read and understand these effects**.
+      ![](../media/6.png)
 
-     ![](../media/6.png)
+    - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want to delete.
 
-   - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want to delete.
+    - Click **Delete this repository**.
 
-   - Click **Delete this repository**.
-
-     ![](../media/7.png)
+      ![](../media/7.png)
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
@@ -133,7 +133,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
 1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
 
-     ![](../media/vscode1.png)
+   ![](../media/vscode1.png)
 
     
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
