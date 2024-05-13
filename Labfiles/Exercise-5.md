@@ -309,7 +309,8 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
  
 - Go to the **Lab Validation** tab.
-- Ensure your **GitHub Username** is at hand before proceeding with validation
+- Ensure your **GitHub Username** is at hand before proceeding with validation, 
+  > **Note**: You can find your Git username by locating the one displayed in the top right corner of GitHub. This username is used for logging into GitHub and making commits over HTTPS, as well as appearing in the URLs of your GitHub repositories.
 - Click on the **Validate** button under the **Actions** section for *Exercise 5: Using GitHub Copilot for Code Refactoring*
 - A success message indicates you’re ready for the next task. Proceed accordingly.
 - If not, review the message, revisit the lab guide, and attempt the step again.
