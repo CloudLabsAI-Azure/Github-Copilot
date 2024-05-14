@@ -157,7 +157,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 4.1: Data Visualization
 
-1. Click on **+Code** to open the new cell and type the below comments to perform the basic operations on dataset, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion, continue to repeat this process until a suggestion is provided and click on **Run** button to execute the cell. 
+1. Click on **+ Code** to open the new cell and type the below comments to perform the basic operations on dataset, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion, continue to repeat this process until a suggestion is provided and click on **Run** button to execute the cell. 
 
    ```
    # Perform univariate analysis on the dataset and plot the graphs
@@ -209,7 +209,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 ### Task 4.2: Data Transformations
 
 
-1. Click **+Code** to add a new cell, and type the below comments for Standardization which is the process of scaling and centering numeric features to have a mean of 0 and a standard deviation of 1, making them comparable and suitable for certain algorithms, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion, continue to repeat this process until a suggestion is provided and click on **Run** button to execute the cell.
+1. Click **+ Code** to add a new cell, and type the below comments for Standardization which is the process of scaling and centering numeric features to have a mean of 0 and a standard deviation of 1, making them comparable and suitable for certain algorithms, Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion, continue to repeat this process until a suggestion is provided and click on **Run** button to execute the cell.
 
    ```
    # Perform standardization on the data
