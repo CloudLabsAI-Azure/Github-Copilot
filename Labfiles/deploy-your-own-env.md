@@ -13,6 +13,8 @@ This document will help you deploy the Build your own GitHub Copilot Innovation 
 
 1. Click on the below Deploy to Azure Button.
 
+   - You may need to enter few of the parameters like your GitHub PAT, Username etc. 
+
    [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fexperienceazure.blob.core.windows.net%2Ftemplates%2Fgithub-copilot-innovation-workshop%2Fdeploy-01.json)
 
    - Select the available subscription and resource group. Provide the unique alpha numeric value for `Deployment` parameter. You can review the ARM template by clicking on Edit Template. Review and create the OpenAI Like A Pro Lab.
