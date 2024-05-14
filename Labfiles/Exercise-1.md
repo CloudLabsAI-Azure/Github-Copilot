@@ -70,6 +70,8 @@ In this exercise, you will create a development container and define specific ex
 
    ![](../media/inn-2.png)
 
+1. Navigate back to edge browser and close the GitHub browser tab and return to VS code.
+   
 1. At the bottom right corner, you will get a prompt to sign into GitHub.
 
    ![](../media/signingit.png)
