@@ -97,7 +97,6 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
      ![](../media/7.png)
 
-
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
 1. Once the repository is created, click on your profile picture and then select **Your organizations**.
