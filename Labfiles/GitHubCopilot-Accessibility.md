@@ -70,15 +70,15 @@ Use the AU site to:
 
 1. Go to **Account** icon from bottom and click on **Sign in with GitHub**.
 
-    ![Picture1](./media/clonerepo3.png)
+    ![Picture1](../media/clonerepo3.png)
 
 1. Sign in with GitHub Credentials and on the **Authorize GitHub for VS Code** page click on the **Authorize Visual-Studio-Code.**
 
-    ![Picture1](./media/clonerepo4.png)
+    ![Picture1](../media/clonerepo4.png)
 
 1. If you get the pop-up, The site is trying to open the Visual Studio Code then click on **Open**. It will navigate back to the Visual Studio.
 
-    ![Picture1](./media/clonerepo5.png)
+    ![Picture1](../media/clonerepo5.png)
 
 1. In the Visual Studio Code terminal, click on **(...)** (1) and select the **Terminal** (2) menu, select **New Terminal** (3). The terminal window usually opens in the lower half of your screen.
 
