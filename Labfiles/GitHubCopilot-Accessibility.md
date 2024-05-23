@@ -296,6 +296,6 @@ Use the AU site to:
 
    ![](../media/allresolve.png)
 
+### Summary
 
-
-
+In this exercise, you have worked on GitHub Copilot + Accessibility Insights for Web extension and its related features.
