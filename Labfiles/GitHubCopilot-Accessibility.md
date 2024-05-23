@@ -108,7 +108,7 @@ Use the AU site to:
 
    ![](../media/before1.png)
 
-1. Now click on the extension and select **Accessibility Insights for Web**, then click on the **FastPass** it will onen in new windows.
+1. Now click on the extension and select **Accessibility Insights for Web**, then click on the **FastPass** it will one in new windows.
 
    ![](../media/fastpass1.png)
 
@@ -138,7 +138,18 @@ Use the AU site to:
 
    >**Note:** If the suggestions do not appear, consider restarting Visual Studio Code and redoing the process.
 
+1. Now open the **before-menu.css** file and replace the **Color** with the suggested code given by the Github copilot over the line number 30. **Save** the file by **Ctrl + s**.
+
+   ```
+   color: #5e6572;
+   ```
+
+   ![](../media/beforemenu.png)
+
+1. Now refresh your **Accessible  University** page and **Accessibility Insights for Web**. you will find your get reducued now.
+
+   ![](../media/auissuedetailreduce.png)
+
+   >**Note:** If its did not reload the data, then perform the step 13.
+
 1. 
-
-
-
