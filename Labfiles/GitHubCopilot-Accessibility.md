@@ -92,7 +92,53 @@ Use the AU site to:
 
     ![Picture1](../media/clone.png)
 
-1. 
-   ![](../media/aut17.png)
+1. Go to the **Explorer** in the upper left corner, select **Open Folder**, select the folder you cloned.
+   
+   ![](../media/clonerepo1.png)
+
+1. Select **Yes, I trust the authors**.
+
+   ![](../media/clonerepo2.png)
+
+1. Once the folder is open, select **before.html** file to open.
+
+1. Now go to the file explorer and open the folder you have cloned, from ther double click on the before.html file it will open in your web browser where you already add Accessibility Insights for Web.
+
+   ![](../media/before.png)
+
+   ![](../media/before1.png)
+
+1. Now click on the extension and select **Accessibility Insights for Web**, then click on the **FastPass** it will onen in new windows.
+
+   ![](../media/fastpass1.png)
+
+   ![](../media/fastpass2.png)
+
+1. Now expand the colour contrast issue to check their details.
+
+   ![](../media/auissuedetail.png)
+
+1. Copy the **How to fix** part and navigate back to your vs code.
+
+   ![](../media/htfix.png)
+
+1. Click on the Chat window and paste your issues by giving the prompt, click on enter.
+
+   ```
+   Fix the color contrast issue for the nth-child by considering html and css files
+   ```
+
+   ![](../media/copilotchat.png)
+
+1. Review the suggestion from GitHub Copilot which were generated based on the context and ensure it meets your requirements.
+
+   ![](../media/suggestion.png)
+
+   >**Note:** It should be noted that the code suggestions offered by GitHub Copilot might not exactly match the screenshots shown within the labguide. GitHub Copilot is an AI-powered tool that generates code based on context and patterns, and its suggestions can be influenced by various factors.
+
+   >**Note:** If the suggestions do not appear, consider restarting Visual Studio Code and redoing the process.
 
 1. 
+
+
+
