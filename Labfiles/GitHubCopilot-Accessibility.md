@@ -122,7 +122,7 @@ Use the AU site to:
 
    ![](../media/htfix.png)
 
-1. Click on the Chat window and paste your issues by giving the prompt, click on enter.
+1. Click on the Chat window and paste your issues by adding a giving the prompt, click on enter.
 
    ```
    Fix the color contrast issue for the nth-child by considering html and css files
@@ -146,10 +146,125 @@ Use the AU site to:
 
    ![](../media/beforemenu.png)
 
-1. Now refresh your **Accessible  University** page and **Accessibility Insights for Web**. you will find your get reducued now.
+1. Now refresh your **Accessible  University** page and click on **Start over** for  **Accessibility Insights for Web**. you will find your get reducued now.
+
+   ![](../media/startover.png)
 
    ![](../media/auissuedetailreduce.png)
 
    >**Note:** If its did not reload the data, then perform the step 13.
 
+1. Click on the **html-has-lang** to view the error.
+
+   ![](../media/langerror.png)
+
+1. Copy the **How to fix** part and navigate back to your vs code.
+
+1. Click on the Chat window and paste your issue, click on enter. 
+
+1. Review the suggestion from GitHub Copilot which were generated based on the context and ensure it meets your requirements.
+
+   ![](../media/htmlangerrorsuggestion.png)
+
+1. Change your **before.html** file according to the provided suggestion by GitHub Copilot. **Save** the file by **Ctrl + s**.
+
+   ![](../media/htmllangerror.png)
+
+1. Now refresh your **Accessible  University** page and click on **Start over** for  **Accessibility Insights for Web**. you will find your get reducued now.
+
+1. Now expand the **image-alt** to view the error message.
+
+1. Copy the **How to fix** part, with the given **Snippet** for both error and navigate back to your vs code.
+
+1. Click on the Chat window and paste your **How to fix** part by adding a giving the prompt, click on enter.
+
+   ```
+   fix the image-alt issue for
+
+   <img src="images/carousel/slide1.jpg">
+
+   <img src="images/captcha.png">
+  
+   ```
+
+   ![](../media/imgalterror1.png)
+
+1. Review the suggestion from GitHub Copilot which were generated based on the context and ensure it meets your requirements.
+
+   ![](../media/imgaltresolve1.png)
+
+1. Update your **before.html** file according to the provided suggestion by GitHub Copilot.
+
+1. Code updation for **carousel**. Refer the provided screenshots for **before** and **after** updation of code. 
+
+   ![](../media/beforeimgalt1.png)
+
+   ![](../media/afterimgalt1.png)
+
+1. Code updation for **captcha**. Refer the provided screenshots for **before** and **after** updation of code. 
+
+   ![](../media/beforeimgalt2.png)
+
+   ![](../media/beforeimgalt2.png)
+
+1. **Save** the file by **Ctrl + s**.
+
+1. Now refresh your **Accessible  University** page and click on **Start over** for **Accessibility Insights for Web**. you will notice error gets reducued now.
+
+1. Now expand the **image-alt** to view the error message.
+
+1. Navigate back to your vs code.
+
+1. Click on the Chat window and provide the given prompt, click on enter.
+
+   ```
+   fix the label issue for all the labels in before.html file
+   ```
+
+1. It will generate a bunch of code that helps to resolve all the **label** issue in before.html file. 
+
+   ```
+           <!-- container for displaying form errors -->
+           <div id="error"></div>
+   
+           <div class="required">
+             <label for="name">Name:</label>
+             <input type="text" id="name" name="name"/>
+           </div>
+           
+           <div class="required">
+             <label for="email">Email:</label>
+             <input type="text" id="email" name="email"/>
+           </div>
+           
+           <div>
+             <label for="country">Country:</label>
+             <input type="text" id="country" name="country"/>
+           </div>
+           
+           <div><b>Desired major(s):</b></div>
+           
+           <div id="majors">
+             <div class="major"><label for="major_cs">Computer Science</label> <input type="checkbox" id="major_cs" name="major_cs"/></div>
+             <div class="major"><label for="major_eng">Engineering</label> <input type="checkbox" id="major_eng" name="major_eng"/></div>
+             <div class="major"><label for="major_econ">Economics</label> <input type="checkbox" id="major_econ" name="major_econ"/></div>
+             <div class="major"><label for="major_phy">Physics</label> <input type="checkbox" id="major_phy" name="major_phy"/></div>
+             <div class="major"><label for="major_psy">Psychology</label> <input type="checkbox" id="major_psy" name="major_psy"/></div>
+             <div class="major"><label for="major_sp">Spanish</label> <input type="checkbox" id="major_sp" name="major_sp"/></div>
+           </div>
+   
+           <div id="captcha-container">
+             <b>Security Test</b>
+             <p>Please enter the two words you see below, separated by a space</p>
+             <label for="captcha-input">Security Test:</label>
+             <input type="text" id="captcha-input" name="captcha"/>
+             <img src="images/captcha.png" alt="Captcha image">
+           </div>
+   
+   ```
+
+   **Note:** It is possible that it will not include all of the labels found in **before.html**. In that scenario, you can give the prompt for that specific label again.
+
 1. 
+
+
