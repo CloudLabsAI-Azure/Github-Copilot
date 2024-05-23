@@ -48,6 +48,38 @@ Use the AU site to:
 
    ![](../media/aut16.png)
 
+## Task 2: 
+
+### Verify GitHub Copilot Chat extension in VS Code
+
+1. Start **Visual Studio Code** from the desktop.
+
+    ![Picture1](../media/vscode1.jpg)
+
+1. To Verify the GitHub Copilot Chat extension, the following steps are to be performed within Visual Studio Code:
+    - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
+    - In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat (2)** extension.
+    - Select **GitHub Copilot Chat (3)** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
+    - If not, click on the **Install (4)** button.
+
+   ![](../media/ghc-chat-extension.png)
+
+1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
+
+   ![](../media/git-chat-icon.png)
+
+1. In the Visual Studio Code terminal, click on **(...)** (1) and select the **Terminal** (2) menu, select **New Terminal** (3). The terminal window usually opens in the lower half of your screen.
+
+    ![Picture1](../media/terminal.png)
+    
+1. Clone the repository by running the following command:
+
+    ```
+   git clone https://github.com/CloudLabsAI-Azure/AU.git
+    ```
+
+    ![Picture1](../media/clone.png)
+
 1. 
    ![](../media/aut17.png)
 
