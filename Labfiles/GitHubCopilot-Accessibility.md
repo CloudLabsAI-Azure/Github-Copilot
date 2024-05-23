@@ -156,7 +156,7 @@ Use the AU site to:
 
 1. Click on the **html-has-lang** to view the error.
 
-   ![](../media/langerror.png)
+    ![](../media/lanerror.png)
 
 1. Copy the **How to fix** part and navigate back to your vs code.
 
@@ -168,7 +168,7 @@ Use the AU site to:
 
 1. Change your **before.html** file according to the provided suggestion by GitHub Copilot. **Save** the file by **Ctrl + s**.
 
-   ![](../media/htmllangerror.png)
+   ![](../media/htmlangerror.png)
 
 1. Now refresh your **Accessible  University** page and click on **Start over** for  **Accessibility Insights for Web**. you will find your get reducued now.
 
@@ -202,7 +202,7 @@ Use the AU site to:
 
    ![](../media/beforeimgalt2.png)
 
-   ![](../media/beforeimgalt2.png)
+   ![](../media/afterimgalt2.png)
 
 1. **Save** the file by **Ctrl + s**.
 
@@ -288,13 +288,13 @@ Use the AU site to:
 
 1. Change your **before.html** file according to the provided suggestion by GitHub Copilot.
 
-  ![](../media/linktxt2.png)
+   ![](../media/linktxt2.png)
 
 1. **Save** the file by **Ctrl + s**.
 
 1. Now refresh your **Accessible  University** page and click on **Start over** for **Accessibility Insights for Web**. you will notice tha their is no issue left.
 
-  ![](../media/allresolve.png)
+   ![](../media/allresolve.png)
 
 
 
