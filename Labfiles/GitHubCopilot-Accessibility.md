@@ -1,8 +1,6 @@
 # GitHub Copilot + Accessibility Insights for Web
 
-Duration: minutes
-
-**Accessibility Insights for Web** is a tool to help web developers and testers ensure their websites and web applications are accessible to people with disabilities. The primary goal of Accessibility Insights for Web is to assist in identifying and fixing accessibility issues based on established web standards and best practices.
+Duration: 90 minutes
 
 **Accessibility Insights for Web** is a powerful, user-friendly tool that helps in making web content accessible to all users, including those with disabilities. By integrating this tool into the development and testing process, web developers can ensure their websites meet accessibility standards, enhancing usability and inclusivity.
 
@@ -13,6 +11,8 @@ Use the AU site to:
 1. demonstrate common web accessibility principles at trainings, presentations, and workshops on accessible web design.
    
 1. learn common web accessibility problems and solutions in an easy-to-understand way.
+
+Refer to the link for more information [Accessible University](https://www.washington.edu/accesscomputing/AU/).
 
 ## Task 1: Setting up Accessibility Insights for web
 
@@ -110,11 +110,19 @@ Use the AU site to:
 
 1. Now click on the extension and select **Accessibility Insights for Web**, then click on the **FastPass** it will one in new windows.
 
+- **FastPass:** [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) is a lightweight, two-step process that helps developers identify common, high-impact accessibility issues in less than five minutes.
+
    ![](../media/fastpass1.png)
 
    ![](../media/fastpass2.png)
 
 1. Now expand the colour contrast issue to check their details.
+
+- **Automated checks:** The tool automatically checks for compliance with dozens of accessibility requirements 
+
+- **Tab stops:** The tool provides clear instructions, partial automation, and a visual helper that makes it easy to identify critical accessibility issues related to keyboard access, such as missing tab stops, keyboard traps, and incorrect tab order.
+
+- **Needs review:** The tool provides instances that need to be reviewed by a human to determine whether they pass or fail.
 
    ![](../media/auissuedetail.png)
 
