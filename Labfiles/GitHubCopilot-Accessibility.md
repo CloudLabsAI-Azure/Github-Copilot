@@ -176,18 +176,15 @@ Use the AU site to:
 
 1. Copy the **How to fix** part, with the given **Snippet** for both error and navigate back to your vs code.
 
-1. Click on the Chat window and paste your **How to fix** part by adding a giving the prompt, click on enter.
+1. Click on the Chat window and paste your **How to fix** and **Snippet** part by adding a giving the prompt, click on enter.
 
    ```
    fix the image-alt issue for
-
-   <img src="images/carousel/slide1.jpg">
-
-   <img src="images/captcha.png">
-  
    ```
 
    ![](../media/imgalterror1.png)
+
+   >**Note:** Here you added the **Snippet** for both error with the given prompt.
 
 1. Review the suggestion from GitHub Copilot which were generated based on the context and ensure it meets your requirements.
 
@@ -265,6 +262,40 @@ Use the AU site to:
 
    **Note:** It is possible that it will not include all of the labels found in **before.html**. In that scenario, you can give the prompt for that specific label again.
 
-1. 
+1. **Save** the file by **Ctrl + s**.
+
+1. Now refresh your **Accessible  University** page and click on **Start over** for **Accessibility Insights for Web**. you will notice error gets reducued now.
+
+1. Now expand the **link-in-text-block** to view the error message.
+
+   ![](../media/linktxt.png)
+
+1. Copy the **How to fix** part, with the given **Snippet** and navigate back to your vs code.
+
+1. Click on the Chat window and paste your **How to fix** and **Snippet** part by adding a giving the prompt, click on enter.
+
+   ```
+   fix the link-in-text-block issue for 
+   ```
+
+   ![](../media/linktxt1.png)
+   
+   >**Note:** Here you added the **Snippet** for all three error with the given prompt.
+
+1. Review the suggestion from GitHub Copilot which were generated based on the context and ensure it meets your requirements.
+
+   ![](../media/linktxt3.png)
+
+1. Change your **before.html** file according to the provided suggestion by GitHub Copilot.
+
+  ![](../media/linktxt2.png)
+
+1. **Save** the file by **Ctrl + s**.
+
+1. Now refresh your **Accessible  University** page and click on **Start over** for **Accessibility Insights for Web**. you will notice tha their is no issue left.
+
+  ![](../media/allresolve.png)
+
+
 
 
