@@ -14,11 +14,9 @@ Use the AU site to:
 
 Refer to the link for more information [Accessible University](https://www.washington.edu/accesscomputing/AU/).
 
-## Task 1: Setting up Accessibility Insights for web
+## Task 1: Set Up Accessibility Insights for Web extension in Microsoft Edge
 
-1. Navigate to the [Accessibility Insights for web](https://accessibilityinsights.io/docs/web/overview/)
-
-1. Navigate to **Accessibility Insights for web** page using the provided URL below:
+1. Navigate to **Accessibility Insights for Web** page using the provided URL below:
    
      ```
     https://accessibilityinsights.io/docs/web/overview/
@@ -28,7 +26,7 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/aut11.png)
 
-1. Click the **+ Add to Microsoft Edge** link from the Download Accessibility Insights page.
+1. Click the **+ Add to Microsoft Edge** button from the Download Accessibility Insights page.
 
    ![](../media/aut12.png)
 
@@ -40,17 +38,15 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/aut14.png)
 
-1.  Click on the **extension (1)** symbol from the browser, from Accessibility Insights for Web, select **(...)** **(2)** option and  click on the **Manage extension** option.
+1.  Click on the **Extensions** **(1)** icon from the browser toolbar. From Accessibility Insights for Web, select **(...)** **(2)** option and click on **Manage extension** **(3)**.
    
     ![](../media/aut15.png)
 
-1. On the Mangae extension page, scroll down and click on **Allow access to file URLs** checkbox.
+1. In the Manage extension page, scroll down and click on **Allow access to file URLs** checkbox.
 
    ![](../media/aut16.png)
 
-## Task 2: 
-
-### Verify GitHub Copilot Chat extension in VS Code
+## Task 2: Verify GitHub Copilot Chat extension and Clone Accessible University GitHub Repo in VS Code
 
 1. Start **Visual Studio Code** from the desktop.
 
@@ -68,7 +64,9 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/git-chat-icon.png)
 
-1. Go to **Account** icon from bottom and click on **Sign in with GitHub**.
+1. Skip to step 8, If you have already signed in to GitHub Account in VS Code. If not, follow the steps 5 to 7.
+
+1. Select **Account** icon from bottom and click on **Sign in with GitHub**.
 
     ![Picture1](../media/clonerepo3.png)
 
@@ -80,11 +78,11 @@ Refer to the link for more information [Accessible University](https://www.washi
 
     ![Picture1](../media/clonerepo5.png)
 
-1. In the Visual Studio Code terminal, click on **(...)** (1) and select the **Terminal** (2) menu, select **New Terminal** (3). The terminal window usually opens in the lower half of your screen.
+1. In the Visual Studio Code terminal, click on **(...)** **(1)** to select the **Terminal** **(2)** menu and followed by  select **New Terminal** **(3)**. The terminal window usually opens in the lower half of your screen.
 
     ![Picture1](../media/terminal.png)
     
-1. Clone the repository by running the following command:
+1. Run the following command given below to clone the Accessible University GiHub Repo.
 
     ```
    git clone https://github.com/CloudLabsAI-Azure/AU.git
@@ -92,7 +90,7 @@ Refer to the link for more information [Accessible University](https://www.washi
 
     ![Picture1](../media/clone.png)
 
-1. Go to the **Explorer** in the upper left corner, select **Open Folder**, select the folder you cloned.
+1. Switch to the **Explorer** in the upper left corner, select **Open Folder** and select the folder you have cloned.
    
    ![](../media/clonerepo1.png)
 
@@ -100,15 +98,15 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/clonerepo2.png)
 
-1. Once the folder is open, select **before.html** file to open.
+1. Once the folder is opened, select **before.html** file.
 
-1. Now go to the file explorer and open the folder you have cloned, from ther double click on the before.html file it will open in your web browser where you already add Accessibility Insights for Web.
+1. Navigate to File Explorer and open the folder you have cloned. From there double click on the `before.html` file it will open in your web browser where you already added Accessibility Insights for Web extension.
 
    ![](../media/before.png)
 
    ![](../media/before1.png)
 
-1. Now click on the extension and select **Accessibility Insights for Web**, then click on the **FastPass** it will one in new windows.
+1. Now click on the Extensions button from browser toolbar, select **Accessibility Insights for Web** and then click on the **FastPass** it will one in new window pop-up.
 
 - **FastPass:** [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) is a lightweight, two-step process that helps developers identify common, high-impact accessibility issues in less than five minutes.
 
@@ -116,21 +114,23 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/fastpass2.png)
 
-1. Now expand the colour contrast issue to check their details.
+1. In the new window for **Accessibility Insights for Web**, you will see the following three steps checklist to FastPass.
 
-- **Automated checks:** The tool automatically checks for compliance with dozens of accessibility requirements 
+   - **Automated checks:** The tool automatically checks for compliance with dozens of accessibility requirements 
 
-- **Tab stops:** The tool provides clear instructions, partial automation, and a visual helper that makes it easy to identify critical accessibility issues related to keyboard access, such as missing tab stops, keyboard traps, and incorrect tab order.
+   - **Tab stops:** The tool provides clear instructions, partial automation, and a visual helper that makes it easy to identify critical accessibility issues related to keyboard access, such as missing tab stops, keyboard traps, and incorrect tab order.
 
-- **Needs review:** The tool provides instances that need to be reviewed by a human to determine whether they pass or fail.
+   - **Needs review:** The tool provides instances that need to be reviewed by a human to determine whether they pass or fail.
+
+1. Expand the colour contrast issue to check failure details.
 
    ![](../media/auissuedetail.png)
 
-1. Copy the **How to fix** part and navigate back to your vs code.
+1. Copy the **How to fix** part and navigate back to your VS Code.
 
    ![](../media/htfix.png)
 
-1. Click on the Chat window and paste your issues by adding a giving the prompt, click on enter.
+1. Click on the GitHub Copilot Chat window, paste your issues by adding a below given prompt and click on enter.
 
    ```
    Fix the color contrast issue for the nth-child by considering html and css files
