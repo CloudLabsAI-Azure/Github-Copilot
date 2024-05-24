@@ -2,15 +2,19 @@
 
 Duration: 90 minutes
 
+**GitHub Copilot Chat** is an AI-powered code completion tool that helps developers by suggesting code snippets and solutions based on context. This tool can significantly speed up the development process by providing relevant code suggestions and automating repetitive tasks.
+
 **Accessibility Insights for Web** is a powerful, user-friendly tool that helps in making web content accessible to all users, including those with disabilities. By integrating this tool into the development and testing process, web developers can ensure their websites meet accessibility standards, enhancing usability and inclusivity.
 
 Accessible University (AU) is a fictional university home page designed to demonstrate a variety of common web design problems that result in visitors with disabilities being unable to access content or features
 
 Use the AU site to:
 
-1. demonstrate common web accessibility principles at trainings, presentations, and workshops on accessible web design.
+1. Demonstrate common web accessibility principles at trainings, presentations, and workshops on accessible web design.
    
-1. learn common web accessibility problems and solutions in an easy-to-understand way.
+1. Learn common web accessibility problems and solutions in an easy-to-understand way.
+
+In this exercise, you will use Accessibility Insights for Web to identify accessibility issues on a sample website and then employ GitHub Copilot Chat to generate and implement code fixes for these issues. The target website, Accessible University (AU), is a fictional homepage designed to showcase common web design problems that hinder accessibility. By the end of this exercise, you will have enhanced the accessibility of the AU site, making it more user-friendly for individuals with disabilities.
 
 Refer to the link for more information [Accessible University](https://www.washington.edu/accesscomputing/AU/).
 
@@ -98,7 +102,7 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/clonerepo2.png)
 
-1. Once the folder is opened, select **before.html** file.
+1. Once the folder is opened, select `before.html` file.
 
 1. Navigate to File Explorer and open the folder you have cloned. From there double click on the `before.html` file it will open in your web browser where you already added Accessibility Insights for Web extension.
 
@@ -108,7 +112,7 @@ Refer to the link for more information [Accessible University](https://www.washi
 
 1. Now click on the Extensions button from browser toolbar, select **Accessibility Insights for Web** and then click on the **FastPass** it will one in new window pop-up.
 
-- **FastPass:** [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) is a lightweight, two-step process that helps developers identify common, high-impact accessibility issues in less than five minutes.
+   - **FastPass:** [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) is a lightweight, two-step process that helps developers identify common, high-impact accessibility issues in less than five minutes.
 
    ![](../media/fastpass1.png)
 
@@ -138,7 +142,7 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/copilotchat.png)
 
-1. Review the suggestion from GitHub Copilot which were generated based on the context and ensure it meets your requirements.
+1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, and ensure that it meets your requirements.
 
    ![](../media/suggestion.png)
 
@@ -146,7 +150,7 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    >**Note:** If the suggestions do not appear, consider restarting Visual Studio Code and redoing the process.
 
-1. Now open the **before-menu.css** file and replace the **Color** with the suggested code given by the Github copilot over the line number 30. **Save** the file by **Ctrl + s**.
+1. Now open the **before-menu.css** file, replace the **Color** with the suggested code given by the Github copilot over the line number 30 and **Save** the file by **Ctrl + S**.
 
    ```
    color: #5e6572;
@@ -154,37 +158,37 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/beforemenu.png)
 
-1. Now refresh your **Accessible  University** page and click on **Start over** for  **Accessibility Insights for Web**. you will find your get reducued now.
+1. Now refresh your **Accessible  University** page, click on **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
    ![](../media/startover.png)
 
    ![](../media/auissuedetailreduce.png)
 
-   >**Note:** If its did not reload the data, then perform the step 13.
+   >**Note:** Perform step 14 if the data wasn't reloaded.
 
 1. Click on the **html-has-lang** to view the error.
 
     ![](../media/lanerror.png)
 
-1. Copy the **How to fix** part and navigate back to your vs code.
+1. Copy the **How to fix** part and navigate back to your VS Code.
 
-1. Click on the Chat window and paste your issue, click on enter. 
+1. Click on the GitHub Copilot Chat window, paste your issues and click on enter. 
 
-1. Review the suggestion from GitHub Copilot which were generated based on the context and ensure it meets your requirements.
+1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, and ensure it meets your requirements.
 
    ![](../media/htmlangerrorsuggestion.png)
 
-1. Change your **before.html** file according to the provided suggestion by GitHub Copilot. **Save** the file by **Ctrl + s**.
+1. Change your `before.html` file according to the provided suggestion by GitHub Copilot. **Save** the file by **Ctrl + S**.
 
    ![](../media/htmlangerror.png)
 
-1. Now refresh your **Accessible  University** page and click on **Start over** for  **Accessibility Insights for Web**. you will find your get reducued now.
+1. Now refresh your **Accessible  University** page, click on **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
 1. Now expand the **image-alt** to view the error message.
 
-1. Copy the **How to fix** part, with the given **Snippet** for both error and navigate back to your vs code.
+1. Copy **How to fix** part, with the given **Snippet** for both error and navigate back to your VS Code.
 
-1. Click on the Chat window and paste your **How to fix** and **Snippet** part by adding a giving the prompt, click on enter.
+1. Click on the GitHub Copilot Chat window, paste your **How to fix** and **Snippet** part by adding a given prompt below and click on enter.
 
    ```
    fix the image-alt issue for
@@ -194,39 +198,37 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    >**Note:** Here you added the **Snippet** for both error with the given prompt.
 
-1. Review the suggestion from GitHub Copilot which were generated based on the context and ensure it meets your requirements.
+1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, and ensure it meets your requirements.
 
    ![](../media/imgaltresolve1.png)
 
-1. Update your **before.html** file according to the provided suggestion by GitHub Copilot.
+1. Update your `before.html` file according to the provided suggestion by GitHub Copilot.
 
-1. Code updation for **carousel**. Refer the provided screenshots for **before** and **after** updation of code. 
+1. Code updation for **carousel**, Refer to provided screenshots for **before** and **after** updation of code. 
 
    ![](../media/beforeimgalt1.png)
 
    ![](../media/afterimgalt1.png)
 
-1. Code updation for **captcha**. Refer the provided screenshots for **before** and **after** updation of code. 
+1. Code updation for **captcha**, Refer to provided screenshots for **before** and **after** updation of code. 
 
    ![](../media/beforeimgalt2.png)
 
    ![](../media/afterimgalt2.png)
 
-1. **Save** the file by **Ctrl + s**.
+1. **Save** the file by **Ctrl + S**.
 
-1. Now refresh your **Accessible  University** page and click on **Start over** for **Accessibility Insights for Web**. you will notice error gets reducued now.
+1. Refresh your **Accessible  University** page, click on **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
-1. Now expand the **image-alt** to view the error message.
+1. Expand the image-alt issue to check failure details
 
-1. Navigate back to your vs code.
-
-1. Click on the Chat window and provide the given prompt, click on enter.
+1. Click on the GitHub Copilot Chat window, provide the given prompt and click on enter.
 
    ```
    fix the label issue for all the labels in before.html file
    ```
 
-1. It will generate a bunch of code that helps to resolve all the **label** issue in before.html file. 
+1. It will generate a bunch of code that helps to resolve all **label** issue at once in `before.html` file. 
 
    ```
            <!-- container for displaying form errors -->
@@ -268,19 +270,19 @@ Refer to the link for more information [Accessible University](https://www.washi
    
    ```
 
-   **Note:** It is possible that it will not include all of the labels found in **before.html**. In that scenario, you can give the prompt for that specific label again.
+   **Note:** It's possible that not every label from `before.html` file will be included. In that case, you can give the prompt for that specific label again.
 
-1. **Save** the file by **Ctrl + s**.
+1. **Save** the file by **Ctrl + S**.
 
-1. Now refresh your **Accessible  University** page and click on **Start over** for **Accessibility Insights for Web**. you will notice error gets reducued now.
+1. Refresh your **Accessible  University** page, click on **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
-1. Now expand the **link-in-text-block** to view the error message.
+1. Expand the link-in-text-block to view the error details.
 
    ![](../media/linktxt.png)
 
 1. Copy the **How to fix** part, with the given **Snippet** and navigate back to your vs code.
 
-1. Click on the Chat window and paste your **How to fix** and **Snippet** part by adding a giving the prompt, click on enter.
+1. Click on the GitHub Copilot Chat window, paste your **How to fix** and **Snippet** part by adding a given prompt below and click on enter.
 
    ```
    fix the link-in-text-block issue for 
@@ -290,20 +292,20 @@ Refer to the link for more information [Accessible University](https://www.washi
    
    >**Note:** Here you added the **Snippet** for all three error with the given prompt.
 
-1. Review the suggestion from GitHub Copilot which were generated based on the context and ensure it meets your requirements.
+1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, and ensure that it meets your requirements.
 
    ![](../media/linktxt3.png)
 
-1. Change your **before.html** file according to the provided suggestion by GitHub Copilot.
+1. Change your `before.html` file according to the provided suggestion by GitHub Copilot.
 
    ![](../media/linktxt2.png)
 
 1. **Save** the file by **Ctrl + s**.
 
-1. Now refresh your **Accessible  University** page and click on **Start over** for **Accessibility Insights for Web**. you will notice tha their is no issue left.
+1. Refresh your **Accessible  University** page, click on **Start over** button from  **Accessibility Insights for Web** page. you will notice that their is no issue left.
 
    ![](../media/allresolve.png)
 
 ### Summary
 
-In this exercise, you have worked on GitHub Copilot + Accessibility Insights for Web extension and its related features.
+In this exercise, you successfully integrated Accessibility Insights for Web into Microsoft Edge and used it to identify accessibility issues on the AU homepage. By leveraging GitHub Copilot Chat in Visual Studio Code, you generated and implemented code solutions to fix these issues. This process ensured the website meets accessibility standards, enhancing usability and inclusivity for all users, including those with disabilities.
