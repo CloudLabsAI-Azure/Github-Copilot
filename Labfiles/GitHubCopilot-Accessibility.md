@@ -300,7 +300,7 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/linktxt2.png)
 
-1. **Save** the file by **Ctrl + s**.
+1. **Save** the file by **Ctrl + S**.
 
 1. Refresh your **Accessible  University** page, click on **Start over** button from  **Accessibility Insights for Web** page. you will notice that their is no issue left.
 
