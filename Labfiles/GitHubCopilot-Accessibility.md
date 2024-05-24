@@ -6,17 +6,15 @@ Duration: 90 minutes
 
 **Accessibility Insights for Web** is a powerful, user-friendly tool that helps in making web content accessible to all users, including those with disabilities. By integrating this tool into the development and testing process, web developers can ensure their websites meet accessibility standards, enhancing usability and inclusivity.
 
-Accessible University (AU) is a fictional university home page designed to demonstrate a variety of common web design problems that result in visitors with disabilities being unable to access content or features
+Accessible University (AU) is a fictional university home page designed to demonstrate a variety of common web design problems that result in visitors with disabilities being unable to access content or features.
 
 Use the AU site to:
 
-1. Demonstrate common web accessibility principles at trainings, presentations, and workshops on accessible web design.
+1. Demonstrate common web accessibility principles at training, presentations, and workshops on accessible web design.
    
 1. Learn common web accessibility problems and solutions in an easy-to-understand way.
 
 In this exercise, you will use Accessibility Insights for Web to identify accessibility issues on a sample website and then employ GitHub Copilot Chat to generate and implement code fixes for these issues. The target website, Accessible University (AU), is a fictional homepage designed to showcase common web design problems that hinder accessibility. By the end of this exercise, you will have enhanced the accessibility of the AU site, making it more user-friendly for individuals with disabilities.
-
-Refer to the link for more information [Accessible University](https://www.washington.edu/accesscomputing/AU/).
 
 ## Task 1: Set Up Accessibility Insights for Web extension in Microsoft Edge
 
@@ -26,7 +24,7 @@ Refer to the link for more information [Accessible University](https://www.washi
     https://accessibilityinsights.io/docs/web/overview/
      ```
      
-1. From Accessibility Insights for Web page, click on the **Download for Web** option.
+1. From the Accessibility Insights for Web page, click on the **Download for Web** option.
 
    ![](../media/aut11.png)
 
@@ -86,7 +84,7 @@ Refer to the link for more information [Accessible University](https://www.washi
 
     ![Picture1](../media/terminal.png)
     
-1. Run the following command given below to clone the Accessible University GiHub Repo.
+1. Run the following command given below to clone the Accessible University GitHub Repo.
 
     ```
    git clone https://github.com/CloudLabsAI-Azure/AU.git
@@ -110,21 +108,21 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/before1.png)
 
-1. Now click on the Extensions button from browser toolbar, select **Accessibility Insights for Web** and then click on the **FastPass** it will one in new window pop-up.
+1. Now click on the Extensions button from the browser toolbar, select **Accessibility Insights for Web**, and then click on the **FastPass** it will open in a new window pop-up.
 
-   - **FastPass:** [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) is a lightweight, two-step process that helps developers identify common, high-impact accessibility issues in less than five minutes.
+   - **FastPass**: [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) is a lightweight, two-step process that helps developers identify common, high-impact accessibility issues in less than five minutes.
 
    ![](../media/fastpass1.png)
 
    ![](../media/fastpass2.png)
 
-1. In the new window for **Accessibility Insights for Web**, you will see the following three steps checklist to FastPass.
+1. In the new window for **Accessibility Insights for Web**, you will see the following three-step checklist to FastPass.
 
-   - **Automated checks:** The tool automatically checks for compliance with dozens of accessibility requirements 
+   - **Automated checks**: The tool automatically checks for compliance with dozens of accessibility requirements 
 
-   - **Tab stops:** The tool provides clear instructions, partial automation, and a visual helper that makes it easy to identify critical accessibility issues related to keyboard access, such as missing tab stops, keyboard traps, and incorrect tab order.
+   - **Tab stops**: The tool provides clear instructions, partial automation, and a visual helper that makes it easy to identify critical accessibility issues related to keyboard access, such as missing tab stops, keyboard traps, and incorrect tab order.
 
-   - **Needs review:** The tool provides instances that need to be reviewed by a human to determine whether they pass or fail.
+   - **Needs review**: The tool provides instances that need to be reviewed by a human to determine whether they pass or fail.
 
 1. Expand the colour contrast issue to check failure details.
 
@@ -146,11 +144,11 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/suggestion.png)
 
-   >**Note:** It should be noted that the code suggestions offered by GitHub Copilot might not exactly match the screenshots shown within the labguide. GitHub Copilot is an AI-powered tool that generates code based on context and patterns, and its suggestions can be influenced by various factors.
+   >**Note**: It should be noted that the code suggestions offered by GitHub Copilot might not exactly match the screenshots shown within the labguide. GitHub Copilot is an AI-powered tool that generates code based on context and patterns, and its suggestions can be influenced by various factors.
 
    >**Note:** If the suggestions do not appear, consider restarting Visual Studio Code and redoing the process.
 
-1. Now open the **before-menu.css** file, replace the **Color** with the suggested code given by the Github copilot over the line number 30 and **Save** the file by **Ctrl + S**.
+1. Now open the **before-menu.css** file, replace the **Color** with the suggested code given by the GitHub copilot over the line number 30, and **Save** the file by **Ctrl + S**.
 
    ```
    color: #5e6572;
@@ -158,13 +156,13 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/beforemenu.png)
 
-1. Now refresh your **Accessible  University** page, click on **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
+1. Now refresh your **Accessible University** page, click on **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
    ![](../media/startover.png)
 
    ![](../media/auissuedetailreduce.png)
 
-   >**Note:** Perform step 14 if the data wasn't reloaded.
+   >**Note**: Perform step 14 if the data wasn't reloaded.
 
 1. Click on the **html-has-lang** to view the error.
 
@@ -182,13 +180,13 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/htmlangerror.png)
 
-1. Now refresh your **Accessible  University** page, click on **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
+1. Now refresh your **Accessible University** page, click on **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
 1. Now expand the **image-alt** to view the error message.
 
 1. Copy **How to fix** part, with the given **Snippet** for both error and navigate back to your VS Code.
 
-1. Click on the GitHub Copilot Chat window, paste your **How to fix** and **Snippet** part by adding a given prompt below and click on enter.
+1. Click on the GitHub Copilot Chat window, paste your **How to fix** and **Snippet** part by adding a given prompt below, and click on enter.
 
    ```
    fix the image-alt issue for
@@ -196,7 +194,7 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/imgalterror1.png)
 
-   >**Note:** Here you added the **Snippet** for both error with the given prompt.
+   >**Note**: Here you added the **Snippet** for both error with the given prompt.
 
 1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, and ensure it meets your requirements.
 
@@ -204,13 +202,13 @@ Refer to the link for more information [Accessible University](https://www.washi
 
 1. Update your `before.html` file according to the provided suggestion by GitHub Copilot.
 
-1. Code updation for **carousel**, Refer to provided screenshots for **before** and **after** updation of code. 
+1. Code updating for **carousel**, Refer to provided screenshots for **before** and **after** updating of code. 
 
    ![](../media/beforeimgalt1.png)
 
    ![](../media/afterimgalt1.png)
 
-1. Code updation for **captcha**, Refer to provided screenshots for **before** and **after** updation of code. 
+1. Code updating for **captcha**, Refer to provided screenshots for **before** and **after** updating of code. 
 
    ![](../media/beforeimgalt2.png)
 
@@ -218,17 +216,17 @@ Refer to the link for more information [Accessible University](https://www.washi
 
 1. **Save** the file by **Ctrl + S**.
 
-1. Refresh your **Accessible  University** page, click on **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
+1. Refresh your **Accessible University** page, click on **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
 1. Expand the image-alt issue to check failure details
 
-1. Click on the GitHub Copilot Chat window, provide the given prompt and click on enter.
+1. Click on the GitHub Copilot Chat window, provide the given prompt, and click on enter.
 
    ```
-   fix the label issue for all the labels in before.html file
+   fix the label issue for all the labels in the `before.html` file
    ```
 
-1. It will generate a bunch of code that helps to resolve all **label** issue at once in `before.html` file. 
+1. It will generate a bunch of code that helps to resolve all **label** issues at once in the `before.html` file. 
 
    ```
            <!-- container for displaying form errors -->
@@ -270,11 +268,11 @@ Refer to the link for more information [Accessible University](https://www.washi
    
    ```
 
-   **Note:** It's possible that not every label from `before.html` file will be included. In that case, you can give the prompt for that specific label again.
+   **Note**: It's possible that not every label from the `before.html` file will be included. In that case, you can give the prompt for that specific label again.
 
 1. **Save** the file by **Ctrl + S**.
 
-1. Refresh your **Accessible  University** page, click on **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
+1. Refresh your **Accessible University** page, click on **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
 1. Expand the link-in-text-block to view the error details.
 
@@ -282,7 +280,7 @@ Refer to the link for more information [Accessible University](https://www.washi
 
 1. Copy the **How to fix** part, with the given **Snippet** and navigate back to your vs code.
 
-1. Click on the GitHub Copilot Chat window, paste your **How to fix** and **Snippet** part by adding a given prompt below and click on enter.
+1. Click on the GitHub Copilot Chat window, paste your **How to fix** and **Snippet** part by adding a given prompt below, and click on enter.
 
    ```
    fix the link-in-text-block issue for 
@@ -290,7 +288,7 @@ Refer to the link for more information [Accessible University](https://www.washi
 
    ![](../media/linktxt1.png)
    
-   >**Note:** Here you added the **Snippet** for all three error with the given prompt.
+   >**Note**: Here you added the **Snippet** for all three error with the given prompt.
 
 1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, and ensure that it meets your requirements.
 
@@ -302,10 +300,10 @@ Refer to the link for more information [Accessible University](https://www.washi
 
 1. **Save** the file by **Ctrl + S**.
 
-1. Refresh your **Accessible  University** page, click on **Start over** button from  **Accessibility Insights for Web** page. you will notice that their is no issue left.
+1. Refresh your **Accessible University** page, click on **Start over** button from **Accessibility Insights for Web** page. you will notice that there is no issue left.
 
    ![](../media/allresolve.png)
 
 ### Summary
 
-In this exercise, you successfully integrated Accessibility Insights for Web into Microsoft Edge and used it to identify accessibility issues on the AU homepage. By leveraging GitHub Copilot Chat in Visual Studio Code, you generated and implemented code solutions to fix these issues. This process ensured the website meets accessibility standards, enhancing usability and inclusivity for all users, including those with disabilities.
+In this exercise, you successfully integrated Accessibility Insights for Web into Microsoft Edge and used it to identify accessibility issues on the AU homepage. By leveraging GitHub Copilot Chat in Visual Studio Code, you generated and implemented code solutions to fix these issues. This process ensured the website met accessibility standards, enhancing usability and inclusivity for all users, including those with disabilities. Refer to the link for more information [Accessible University](https://www.washington.edu/accesscomputing/AU/).
