@@ -1,4 +1,4 @@
-# GitHub Copilot + Accessibility Insights for Web
+# Exercise 11: GitHub Copilot + Accessibility Insights for Web
 
 Duration: 90 minutes
 
