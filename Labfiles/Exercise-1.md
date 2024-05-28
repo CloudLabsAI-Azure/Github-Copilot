@@ -16,9 +16,9 @@ In this exercise, you are tasked with creating a development container. You will
 
 ## Task 1: Enable Copilot inside a Codespace
 
-1. Navigate back to the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `Create new file` **(3)**.
+1. Navigate back to the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `+ Create new file` **(3)**.
 
-    ![](../media/create-new-file.png)
+    ![](../media/Exercise-01-v2-01.png)
 
 2. Type or paste the following in the empty text field prompt to name your file **(1)**.
 
@@ -72,7 +72,7 @@ In this exercise, you are tasked with creating a development container. You will
 
    ![](../media/signingit.png)
 
-   > **Note**: If you enconter with error **No access to GitHub Copilot found**, please reach out to `cloudlabs-support@spektrasystems.com` for further assistance.
+   > **Note**: If you encounter with error **No access to GitHub Copilot found**, please reach out to `cloudlabs-support@spektrasystems.com` for further assistance.
 
       ![](../media/3.png)
 
@@ -84,19 +84,23 @@ In this exercise, you are tasked with creating a development container. You will
 
 10. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
 
-11. Verify your codespace is running. Make sure the VS code looks as shown below:
+    ![](../media/Exercise-01-v2-02.png)
 
-   ![](../media/loaded-repo.png)
+11. Next, once you get the popup, click on **Allow**
 
-12. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
+12. Verify your codespace is running. Make sure the VS code looks as shown below:
 
-   ![](../media/verify-copilot.png)
+    ![](../media/loaded-repo.png)
+
+13. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
+
+    ![](../media/verify-copilot.png)
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
  <validation step="2f1521a8-516d-4357-b09c-941c5d7112ad" />
  
-13. Click on **Next** below to move on to the next page.
+14. Click on **Next** below to move on to the next page.
 
       > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 

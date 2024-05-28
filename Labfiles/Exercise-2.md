@@ -20,7 +20,7 @@ In this exercise, you will get the chance to explore and utilize JavaScript, gui
 
    ![](../media/name-skills.png)
 
-3. In the `skills.js` file, type the following function header:
+3. In the `skills.js` file, type the following function header and press enter:
 
    ```
    function calculateNumbers(var1, var2)

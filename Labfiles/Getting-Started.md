@@ -2,13 +2,13 @@
 
 Duration: 10 minutes
 
-1. You can see a virtual machine desktop 💻 (**LABVM**) loaded on the left side of your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment Details** tab.
+1. You can see a virtual machine desktop 💻 (**LABVM**) loaded on the left side of your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment** tab.
    
-   ![](../media/GetStart-S1.png)
+   ![](../media/gettingstarted-v2-first.png)
 
-1. Once you are in the **Environment Details** tab, the credentials will also be emailed to your registered email address. Click on the **GitHub Credentials** option to get GitHub user credentials. You can also open the Lab Guide in a separate, and full window by selecting **Split Window** from the lower right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
+1. Once you are in the **Environment** tab click on the **GitHub Credentials** option to get GitHub user credentials. The credentials will also be emailed to your registered email address. You can also open the Lab Guide in a separate, and full window by selecting **Split Window** from the upper right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
  
-   ![](../media/env-details-1.png)
+   ![](../media/gettingstarted-v2-01.png)
  
 ## Login to GitHub
 
@@ -23,13 +23,13 @@ Duration: 10 minutes
    
 1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
-   >**Note**: To get GitHub credentials navigate to the **Environment Details** tab and click on the **GitHub Credentials** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
+   >**Note**: To get GitHub credentials navigate to the **Environment** tab and click on the **GitHub Credentials** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
    
    ![](../media/github-login.png)
           
-1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code and click on **Verify**.
 
-   >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
+   >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
 
    ![](../media/authgit.png)
 
@@ -55,7 +55,7 @@ Duration: 10 minutes
 1. If the repository already exists, please delete the existing one and perform the above step again. To delete the repository, 
 follow from step 08 to step 12. In the absence of an existing repository, skip to step 13.
 
-1. Navigate to the existing repository that has to be deleted
+1. Navigate to the existing repository that must be deleted
 
    ![](../media/gs-6.png)
    
@@ -83,7 +83,7 @@ follow from step 08 to step 12. In the absence of an existing repository, skip t
 
    ![](../media/organization.png)
 
-1. In "Your organization", from the left navigation pane, select **Codespaces**.
+1. In Your organization, select **Codespaces** from the left navigation pane.
 
    ![](../media/codespace.png)
 

@@ -171,7 +171,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
     ![](../media/chat-code-new.png)
 
-1. Name the file `codechat.cs` and you will see a recommendation to install the `C#` extension. Click on Install.
+1. Name the file `codechat.cs` and if you see a recommendation to install the `C#` extension. Click on Install.
 
    ![](../media/chat-code-file.png)
 
