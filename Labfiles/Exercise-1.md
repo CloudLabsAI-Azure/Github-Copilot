@@ -16,7 +16,7 @@ In this exercise, you are tasked with creating a development container. You will
 
 ## Task 1: Enable Copilot inside a Codespace
 
-1. Navigate back to the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `Create new file` **(3)**.
+1. Navigate back to the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `+ Create new file` **(3)**.
 
     ![](../media/create-new-file.png)
 
@@ -84,11 +84,13 @@ In this exercise, you are tasked with creating a development container. You will
 
 10. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
 
-11. Verify your codespace is running. Make sure the VS code looks as shown below:
+11. Next, once you get the popup, click on **Allow**
+
+12. Verify your codespace is running. Make sure the VS code looks as shown below:
 
    ![](../media/loaded-repo.png)
 
-12. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
+13. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
    ![](../media/verify-copilot.png)
 
@@ -96,7 +98,7 @@ In this exercise, you are tasked with creating a development container. You will
 
  <validation step="2f1521a8-516d-4357-b09c-941c5d7112ad" />
  
-13. Click on **Next** below to move on to the next page.
+14. Click on **Next** below to move on to the next page.
 
       > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 
