@@ -99,7 +99,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 1. Type the below comments to convert the BMI column up to two decimal values, press "tab", then press "enter" and click on **Run** button to execute the cell. 
 
    ```
-   # convert the BMI column to two decimal values
+   # Convert the BMI column to two decimal values
    ```
 
    ![](../media/ex9-bmi-decimal.png)
@@ -142,7 +142,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 4.1: Data Visualization
 
-1. Click on **+Code** to open the new cell, and type the below comments to perform the basic operations on dataset, press "tab", then press "enter" and click on **Run** button to execute the cell. 
+1. Click on **+Code** to open the new cell and type the below comments to perform the basic operations on dataset, press "tab", then press "enter" and click on **Run** button to execute the cell. 
 
    ```
    # Perform univariate analysis on the dataset and plot the graphs
@@ -186,7 +186,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 ### Task 4.2: Data Transformations
 
 
-1. Click **+Code** to add a new cell, and type the below comments for Standardization which is the process of scaling and centering numeric features to have a mean of 0 and a standard deviation of 1, making them comparable and suitable for certain algorithms, press "tab", then press "enter" and click on **Run** button to execute the cell.
+1. Click **+Code** to add a new cell and type the below comments for Standardization which is the process of scaling and centering numeric features to have a mean of 0 and a standard deviation of 1, making them comparable and suitable for certain algorithms, press "tab", then press "enter" and click on **Run** button to execute the cell.
 
    ```
    # Perform standardization on the data
@@ -207,7 +207,7 @@ Training a sample model using Random Forest.
 
 >**Note**: The model training is a continuation of the train test split step to train the model; run the train test split step first and then continue with the model building.
 
-1. Click **+ Code** to add a new cell, and type the below comments for creating the random forest model, press "tab", then press "enter" and click on **Run** button to execute the cell.
+1. Click **+ Code** to add a new cell and type the below comments for creating the random forest model, press "tab", then press "enter" and click on **Run** button to execute the cell.
 
    ```
    # Create a random forest model with 100 trees, and the criterion is entropy
