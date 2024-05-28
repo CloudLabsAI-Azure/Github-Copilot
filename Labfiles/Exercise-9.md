@@ -78,7 +78,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 3.1: Mathematical Operations
 
-1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset, press "tab", then press "enter" and click on **Run** button to execute the cell.
+1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Mathematical operations on the dataset, like generating the birth year from age
@@ -88,7 +88,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    >**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
 
-1. Type the below comment, press "tab", then press "enter" to get the output similar to the below image and click on **Run** button to execute the cell. 
+1. Type the below comment, Press "enter" to get into the next line and review the suggestion, and press "tab" to get the output similar to the below image and click on **Run** button to execute the cell. 
 
    ```
    # Show the new column
@@ -96,15 +96,15 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex9-birthyear-output.png)
 
-1. Type the below comments to convert the BMI column up to two decimal values, press "tab", then press "enter" and click on **Run** button to execute the cell. 
+1. Type the below comments to convert the BMI column up to two decimal values, press "tab". Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
-   # Convert the BMI column to two decimal values
+   # convert the BMI column to two decimal values
    ```
 
    ![](../media/ex9-bmi-decimal.png)
 
-1. In the same code cell, type the below comment, press "tab", then press "enter" and click on **Run** button to execute the cell to get the output similar to the below image.
+1. In the same code cell, type the below comment. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Show the new column only
@@ -115,7 +115,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 3.2: Machine Learning
 
-1. Type the below comments to perform the data analysis and summary statistics on dataset, press "tab", then press "enter" and click on **Run** button to execute the cell to get the output.
+1. Type the below comments to perform the data analysis and summary statistics on dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Perform count, min, max, std, mean, 25%, 50%, and 75% on the dataset
@@ -127,7 +127,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex8-machine-learning-output.png)
 
-1. Before building the model, the main frame is to split the data into train tests and splits and this would be done by Copilot itself. Type the below comments, press "tab" and click on **Run** button to execute the cell.
+1. Before building the model, the main frame is to split the data into train tests and splits and this would be done by Copilot itself. Type the below comments. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Split the data into training and testing data and the column name Diabetic is the target column
@@ -142,7 +142,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 4.1: Data Visualization
 
-1. Click on **+Code** to open the new cell and type the below comments to perform the basic operations on dataset, press "tab", then press "enter" and click on **Run** button to execute the cell. 
+1. Click on **+Code** to open the new cell, and type the below comments to perform the basic operations on dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Perform univariate analysis on the dataset and plot the graphs
@@ -154,7 +154,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex9-basic-opration-graph-output.png)
 
-1. Now, type the below comments for specifying certain commonly used plots for visualization, press the "tab", then press "enter" and click on **Run** button to execute the cell to get the output as shown in the below-given image.
+1. Now, type the below comments for specifying certain commonly used plots for visualization. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
 
    ```
    # Perform scatter plot on the dataset and plot the graphs
@@ -162,7 +162,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex9-scatter-graph.png)
 
-1. Type the below comments for performing Joint Plot or Grid (rarely used plots) for visualization, press "tab", then press "enter" and click on **Run** button to execute the cell to get the output as shown in the below-given image.
+1. Type the below comments for performing Joint Plot or Grid (rarely used plots) for visualization. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
 
    ```
    # Perform Joint Grid plot on the dataset and plot the graphs
@@ -172,7 +172,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex9-jointgrid-graph-output.png)
 
-1. Type the below comments for performing visualization on all features of the dataset, press "tab", then press "enter" and click on **Run** button to execute the cell to get the output as shown in the below-given image.
+1. Type the below comments for performing visualization on all features of the dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
 
    ```
    # Perform comparison on all features of the dataset and plot the graphs in a single plot using heatmap
@@ -186,7 +186,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 ### Task 4.2: Data Transformations
 
 
-1. Click **+Code** to add a new cell and type the below comments for Standardization which is the process of scaling and centering numeric features to have a mean of 0 and a standard deviation of 1, making them comparable and suitable for certain algorithms, press "tab", then press "enter" and click on **Run** button to execute the cell.
+1. Click **+Code** to add a new cell, and type the below comments for Standardization which is the process of scaling and centering numeric features to have a mean of 0 and a standard deviation of 1, making them comparable and suitable for certain algorithms. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button
 
    ```
    # Perform standardization on the data
@@ -207,7 +207,7 @@ Training a sample model using Random Forest.
 
 >**Note**: The model training is a continuation of the train test split step to train the model; run the train test split step first and then continue with the model building.
 
-1. Click **+ Code** to add a new cell and type the below comments for creating the random forest model, press "tab", then press "enter" and click on **Run** button to execute the cell.
+1. Click **+ Code** to add a new cell, and type the below comments for creating the random forest model. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button
 
    ```
    # Create a random forest model with 100 trees, and the criterion is entropy
@@ -219,7 +219,7 @@ Training a sample model using Random Forest.
 
    ![](../media/ex9-entropy-2.png)
 
-1. In a new cell, type the below comments for calculating the accuracy of the model, press "tab", then press "enter" and click on **Run** button to execute the cell.
+1. In a new cell, type the below comments for calculating the accuracy of the model. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button
 
    ```
    # Calculate the accuracy of the model
