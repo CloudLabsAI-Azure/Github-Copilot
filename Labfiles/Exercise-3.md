@@ -42,7 +42,7 @@ In this exercise, you will have the chance to delve into Python and leverage Cop
 
 In this task, you will continue to use Copilot and may need some of the suggestions that GitHub Copilot offers. GitHub Copilot will synthesize around 10 different code suggestions in a new tab.
 
-1. From inside the codespace in the VS Code Explorer window, create a new file named `prime.py` **(1)** and type the following code **(2)**.
+1. From inside the codespace in the VS Code Explorer window, create a new file named `prime.py` **(1)** and type the following code **(2)** and then use the enter key to go to the next line.
 
    ```
    def prime(n):
