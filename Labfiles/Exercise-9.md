@@ -99,7 +99,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 1. Type the below comments to convert the BMI column up to two decimal values, press "tab". Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
-   # convert the BMI column to two decimal values
+   # Convert the BMI column to two decimal values
    ```
 
    ![](../media/ex9-bmi-decimal.png)
