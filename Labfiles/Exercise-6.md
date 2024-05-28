@@ -66,7 +66,9 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
 1. GitHub will request the necessary permissions for GitHub Copilot. To approve these permissions, click **Authorize GitHub Copilot Plugin**.
 
-1. After the permissions have been approved, your JetBrains IDE will show a confirmation. To begin using GitHub Copilot, click **OK**.
+1. After the permissions have been approved, your JetBrains IDE will show a confirmation.
+
+   ![](../media/Exercise-06-v2-04.png)
 
 1. In your JetBrains IDE, right-click on the **src (1)**, select **New (2)** and click on **File (3)** to create a new Java (*.java) file named **Test.java**.
 
