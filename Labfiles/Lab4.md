@@ -94,6 +94,20 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
    ![](../media/verify-copilot.png)
 
+1. In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat (2)** extension.
+
+1. Select **GitHub Copilot Chat (3)** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
+   
+1. If not, click on the **Install (4)** button.
+
+    ![](../media/ghc-chat-extension.png)
+
+1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
+
+   ![](../media/git-chat-icon.png)
+
+## Task 3.1- Example: Set the stage with a high-level goal
+
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
 1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
