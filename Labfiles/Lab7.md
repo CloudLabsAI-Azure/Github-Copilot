@@ -94,6 +94,18 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
+1. In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat** extension.
+   
+1. Select **GitHub Copilot Chat** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
+
+1. If not, click on the **Install** button.
+
+    ![](../media/ghc-chat-extension.png)
+
+1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
+
+    ![](../media/git-chat-icon.png)
+
 1. Open VS Code Terminal by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
 
    ![](../media/ex-8-openterminal.png)
