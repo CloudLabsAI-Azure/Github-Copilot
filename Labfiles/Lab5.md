@@ -95,11 +95,11 @@ In this exercise, you will participate in a learning or practice activity where 
 
    ![](../media/verify-copilot.png)
 
-1.  In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat (2)** extension.
+1.  In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat** extension.
 
-1. Select **GitHub Copilot Chat (3)** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
+1. Select **GitHub Copilot Chat** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
    
-1.  If not, click on the **Install (4)** button.
+1.  If not, click on the **Install** button.
 
     ![](../media/ghc-chat-extension.png)
 
