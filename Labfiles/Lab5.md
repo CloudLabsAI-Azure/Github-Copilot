@@ -101,7 +101,7 @@ In this exercise, you will participate in a learning or practice activity where 
    
 1.  If not, click on the **Install (4)** button.
 
-   ![](../media/ghc-chat-extension.png)
+    ![](../media/ghc-chat-extension.png)
 
 1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
 
