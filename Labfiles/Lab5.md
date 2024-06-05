@@ -39,11 +39,11 @@ In this exercise, you will participate in a learning or practice activity where 
    ```
 1. Next, to get the authentication code, sign in to Outlook with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
 
-   >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
+   >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
 
    ![](../media/authgit.png)
 
-1. Now,right click on your profile icon in the top right and click on **Your Repositories**.
+1. Now, right-click on your profile icon in the top right and click on **Your Repositories**.
     
    ![](../media/l2.2.png)
 
@@ -57,7 +57,7 @@ In this exercise, you will participate in a learning or practice activity where 
 
    ![](../media/labgit.png)
 
-   >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
+   >**Note**: If case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
 1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install and Open** to continue.
 
@@ -114,6 +114,12 @@ In this exercise, you will participate in a learning or practice activity where 
     - Click on the **Install** **(4)** button.
 
    ![](../media/csharp-install.png)
+
+   >**Note**: If you get a pop-up for Update Visual Studio, go to the **Settings (1)** icon from the left navigation pane and choose **Install update (2)** and wait until updates complete then when **Restart Visual Studio Code to apply the latest update** prompted select **Update Now (3)** and close and open Visual studio then proceed with above step.
+
+     ![Picture1](../media/image1.png)
+   
+     ![Picture1](../media/image2.png)
 
 1. To demonstrate the GitHub code refactor, let us take an example of a poorly written code and analyze it. The below code is written using the C# programming language.
     
