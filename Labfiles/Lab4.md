@@ -52,7 +52,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
    ![](../media/authgit.png)
 
-1. Now,right click on your profile icon in the top right and click on **Your Repositories**.
+1. Now, right-click on your profile icon in the top right and click on **Your Repositories**.
     
    ![](../media/l2.2.png)
 
@@ -94,11 +94,11 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
    ![](../media/verify-copilot.png)
 
-1. In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat (2)** extension.
+1. In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat** extension.
 
-1. Select **GitHub Copilot Chat (3)** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
+1. Select **GitHub Copilot Chat** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
    
-1. If not, click on the **Install (4)** button.
+1. If not, click on the **Install** button.
 
     ![](../media/ghc-chat-extension.png)
 
