@@ -8,6 +8,10 @@
         "Order": 1
       },
       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Github-Copilot/prod/Labfiles/Git-Credentials-License.md",
+        "Order": 1
+      },
+      {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/SandBox/Labfiles/Getting-Started(v2).md",
         "Order": 2
       }
