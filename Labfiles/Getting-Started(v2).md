@@ -1,4 +1,4 @@
-# **Lab 1: Getting Started with Github-Copilot**
+# Lab 1: Getting Started with the Lab
  
 Welcome to your Github-Copilot workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
@@ -79,9 +79,45 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
    ![](../media/skills-new-repo.png)
 
-   >**Note**: If the repository is already exists, please delete the existing one by performing the below steps and perform the above step again.
+1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
-   <validation step="948d3cfc-c5ed-4c19-9f70-58c55cfdfc0e" />
+    >**Note**: If you get a note  prompting that a repository with the name **skills-copilot-codespaces-vscode** already exists, please delete the existing one by performing the below steps and perform the above step again.
+    > - On GitHub.com, navigate to the main page of the repository.
+    > - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
+    
+      ![](../media/2.png)
+
+    > - On the **General** settings page (which is selected by default), scroll down to the "Danger Zone" section and click **Delete this repository**.
+     
+      ![](../media/4.png)
+
+    > - Click **I want to delete this repository**.
+ 
+      ![](../media/5.png)
+
+    > - Read the warnings and click **I have read and understand these effects**.
+
+      ![](../media/6.png)
+
+    >  - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want to delete.
+
+    >  - Click **Delete this repository**.
+
+      ![](../media/7.png)
+
+1. Once the repository is created, click on your profile picture and then select **Your organizations**.
+
+   ![](../media/organization.png)
+
+1. In "Your organization", from the left navigation pane, select **Codespaces**.
+
+   ![](../media/codespace.png)
+
+1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
+
+   ![](../media/vscode1.png)
+
+     <validation step="948d3cfc-c5ed-4c19-9f70-58c55cfdfc0e" />
 
     > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
     > - On GitHub, locate your profile photo at the top right corner of the screen.
@@ -96,44 +132,5 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
     > - If you receive a success message, you can proceed to the next task. 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-    - On GitHub.com, navigate to the main page of the repository.
-    - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
-    
-      ![](../media/2.png)
-
-    - On the **General** settings page (which is selected by default), scroll down to the "Danger Zone" section and click **Delete this repository**.
-     
-      ![](../media/4.png)
-
-    - Click **I want to delete this repository**.
- 
-      ![](../media/5.png)
-
-    - Read the warnings and click **I have read and understand these effects**.
-
-      ![](../media/6.png)
-
-    - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want to delete.
-
-    - Click **Delete this repository**.
-
-      ![](../media/7.png)
-
-1. After your new repository is created, wait about 20 seconds and then refresh the page.
-
-1. Once the repository is created, click on your profile picture and then select **Your organizations**.
-
-   ![](../media/organization.png)
-
-1. In "Your organization", from the left navigation pane, select **Codespaces**.
-
-   ![](../media/codespace.png)
-
-1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
-
-   ![](../media/vscode1.png)
-
-    
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.    
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
