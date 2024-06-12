@@ -241,11 +241,13 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 1. Refer to the provided screenshots for **before** updating the code.
 
    ![](../media/beforelabel.png)
+   
    ![](../media/beforelabel1.png)
 
 1. Refer to the provided screenshots for **after** updating the code.
 
    ![](../media/afterlabel.png)
+   
    ![](../media/afterlabel1.png)
 
 1. **Save** the file by **Ctrl + S**.
