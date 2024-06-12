@@ -236,21 +236,6 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
 1. It will generate a bunch of code that helps to resolve all **label** issues. 
 
-   ```
-   <label for="name">Name:</label>
-   <input type="text" id="name" name="name">
-   
-   <label for="email">Email:</label>
-   <input type="text" id="email" name="email">
-   
-   <label for="country">Country:</label>
-   <input type="text" id="country" name="country">
-   
-   <label for="captcha">Captcha:</label>
-   <input type="text" id="captcha" name="captcha">
-   
-   ```
-
    ![](../media/label3.png)
 
 1. Code updating for **label**. Refer to the provided screenshots for **before** and **after** updating the code.
