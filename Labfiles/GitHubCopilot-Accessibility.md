@@ -218,57 +218,35 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
 1. Refresh your **Accessible University** page. Click on the **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
-1. Expand the **image-alt** issue to check failure details.
+1. Expand the **label** issue to check failure details.
+
+   ![](../media/label1.png)
+
+1. Copy the **how to fix** part, with the given **snippet** for all error and navigate back to your VS Code.
 
 1. Click on the **GitHub Copilot Chat** window, provide the given prompt, and click on **Enter**.
 
    ```
-   fix the label issue for all the labels in the `before.html` file
+   fix the label issue for
    ```
 
-1. It will generate a bunch of code that helps to resolve all **label** issues at once in the `before.html` file. 
+   ![](../media/label2.png)
 
-   ```
-           <!-- container for displaying form errors -->
-           <div id="error"></div>
-   
-           <div class="required">
-             <label for="name">Name:</label>
-             <input type="text" id="name" name="name"/>
-           </div>
-           
-           <div class="required">
-             <label for="email">Email:</label>
-             <input type="text" id="email" name="email"/>
-           </div>
-           
-           <div>
-             <label for="country">Country:</label>
-             <input type="text" id="country" name="country"/>
-           </div>
-           
-           <div><b>Desired major(s):</b></div>
-           
-           <div id="majors">
-             <div class="major"><label for="major_cs">Computer Science</label> <input type="checkbox" id="major_cs" name="major_cs"/></div>
-             <div class="major"><label for="major_eng">Engineering</label> <input type="checkbox" id="major_eng" name="major_eng"/></div>
-             <div class="major"><label for="major_econ">Economics</label> <input type="checkbox" id="major_econ" name="major_econ"/></div>
-             <div class="major"><label for="major_phy">Physics</label> <input type="checkbox" id="major_phy" name="major_phy"/></div>
-             <div class="major"><label for="major_psy">Psychology</label> <input type="checkbox" id="major_psy" name="major_psy"/></div>
-             <div class="major"><label for="major_sp">Spanish</label> <input type="checkbox" id="major_sp" name="major_sp"/></div>
-           </div>
-   
-           <div id="captcha-container">
-             <b>Security Test</b>
-             <p>Please enter the two words you see below, separated by a space</p>
-             <label for="captcha-input">Security Test:</label>
-             <input type="text" id="captcha-input" name="captcha"/>
-             <img src="images/captcha.png" alt="Captcha image">
-           </div>
-   
-   ```
+   >**Note**: Here you added the **snippet** for all error with the given prompt.
 
-   **Note**: It's possible that not every label from the `before.html` file will be included. In that case, you can give the prompt for that specific label again.
+1. It will generate a bunch of code that helps to resolve all **label** issues. 
+
+   ![](../media/label3.png)
+
+1. Refer to the provided screenshots for **before** updating the code.
+
+   ![](../media/beforelabel.png)
+   ![](../media/beforelabel1.png)
+
+1. Refer to the provided screenshots for **after** updating the code.
+
+   ![](../media/afterlabel.png)
+   ![](../media/afterlabel1.png)
 
 1. **Save** the file by **Ctrl + S**.
 
