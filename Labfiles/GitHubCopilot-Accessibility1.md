@@ -248,15 +248,21 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
 1. Navigate back to your VS Code.
 
-1. In the **before-menu.css** file, Select the given code and press **Ctrl + i** to access the GitHub Copilot chat. Provide the given prompt and press enter.
+1. In the **before-menu.css** file, Select the given code and press **Ctrl + I** to access the GitHub Copilot chat. Provide the given prompt and press enter.
+
+   ```
+   Fix for all: one of the following issues: improve link color contrast to at least 3:1 or add styling (e.g., underline) to distinguish it from surrounding text.
+   ```
+
+   ![](../media/linkaccept0.png)
 
 1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, and ensure that it meets your requirements. click on **Enter**.
 
-   ![](../media/linktxt3.png)
+   ![](../media/linkaccept.png)
 
-1. Change your **`before.html`** file according to the suggestions provided by GitHub Copilot.
+1. Accepting this will modify the code.
 
-   ![](../media/linktxt2.png)
+   ![](../media/labelaccept2.png) 
 
 1. **Save** the file by pressing **Ctrl + S**.
 
