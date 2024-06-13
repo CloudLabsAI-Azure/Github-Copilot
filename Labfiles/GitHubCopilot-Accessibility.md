@@ -262,7 +262,7 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
 1. Accepting this will modify the code.
 
-   ![](../media/labelaccept2.png) 
+   ![](../media/linkaccept2.png) 
 
 1. **Save** the file by pressing **Ctrl + S**.
 
