@@ -1,4 +1,3 @@
-
 # Exercise 11: GitHub Copilot + Accessibility Insights for Web
 
 Duration: 90 minutes
@@ -129,33 +128,27 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
    ![](../media/auissuedetail.png)
 
-1. Copy the **how to fix** part and navigate back to your VS Code.
+1. Navigate back to Visual Studio Code, Open the **before-menu.css (2)** file which is located in the **styles (1)** folder.
 
-   ![](../media/htfix.png)
+   ![](../media/styles1.png)
 
-1. Click on the **GitHub Copilot Chat** window, paste your issues by adding the below prompt, and click on **Enter**.
+1. In the **before-menu.css** file, navigate to the CSS code for color contrast. Select the given code, press **Ctrl + i** to access the GitHub Copilot chat. Provide the given prompt and press enter.
 
    ```
-   Fix the color contrast issue for the nth-child by considering html and css files
+   Fix the colour contrast issue.
    ```
 
-   ![](../media/copilotchat.png)
+   ![](../media/styles1.png)
 
-1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, and ensure that it meets your requirements.
+1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, ensure that it meets your requirements and Click on the **Accept** option.
 
-   ![](../media/suggestion.png)
+   ![](../media/styles1.png)
 
    >**Note**: It should be noted that the code suggestions offered by GitHub Copilot might not exactly match the screenshots shown within the lab guide. GitHub Copilot is an AI-powered tool that generates code based on context and patterns, and its suggestions can be influenced by various factors.
 
    >**Note:** If the suggestions do not appear, consider restarting Visual Studio Code and redoing the process.
 
-1. Now open the **before-menu.css** file, replace the **color** with the suggested code given by the GitHub Copilot over line number 30, and **save** the file by pressing **Ctrl + S**.
-
-   ```
-   color: #5e6572;
-   ```
-
-   ![](../media/beforemenu.png)
+1. **Save** the file by pressing **Ctrl + S**.
 
 1. Now refresh your **Accessible University** page. Click on the **Start over** button from the **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
@@ -165,19 +158,25 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
    >**Note**: Perform step 14 if the data wasn't reloaded.
 
-1. Click on **html-has-lang** to view the error.
+1. Click on **html-has-lang** to review the error message.
 
     ![](../media/lanerror.png)
 
-1. Copy the **how to fix** part and navigate back to your VS Code.
+1. Navigate back to your VS Code, Open `before.html` file.
 
-1. Click on the **GitHub Copilot Chat** window, paste your issues, and click on **Enter**. 
+1. Select the `html` code, press **Ctrl + i** to access the GitHub Copilot chat and provide the given prompt. Click on **Enter**. 
 
-1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, and ensure it meets your requirements.
+   ```
+   Add the html lang attribute.
+   ```
+
+    ![](../media/lanerror.png)
+
+1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, and ensure it meets your requirements. Click on the **Accept** option.
 
    ![](../media/htmlangerrorsuggestion.png)
 
-1. Change your `before.html` file according to the suggestions provided by GitHub Copilot. **Save** the file by pressing **Ctrl + S**.
+1. After accepting the given suggestion, **save** the file by pressing **Ctrl + S**.
 
    ![](../media/htmlangerror.png)
 
@@ -185,7 +184,9 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
 1. Now, expand the **image-alt** to view the error message.
 
-1. Copy the **how to fix** part, with the given **snippet** for both error and navigate back to your VS Code.
+1. Navigate back to your VS Code.
+
+1. 
 
 1. Click on the GitHub Copilot Chat window, paste your **how to fix** and **snippet** part by adding a given prompt below, and click on enter.
 
