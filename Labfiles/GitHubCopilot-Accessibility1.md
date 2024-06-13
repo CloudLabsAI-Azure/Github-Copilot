@@ -126,75 +126,89 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
 1. Expand the color contrast issue to check failure details.
 
-   ![](../media/auissuedetail.png)
+   ![](../media/allissue.png)
 
 1. Navigate back to Visual Studio Code, Open the **before-menu.css (2)** file which is located in the **styles (1)** folder.
 
    ![](../media/styles1.png)
 
-1. In the **before-menu.css** file, navigate to the CSS code for color contrast. Select the given code, press **Ctrl + i** to access the GitHub Copilot chat. Provide the given prompt and press enter.
+1. In the **before-menu.css** file, find the CSS section addressing color contrast. Select the given code snippet, press **Ctrl + I** to bring up GitHub Copilot chat, input the prompt, and hit enter.
 
    ```
    Fix the colour contrast issue.
    ```
 
-   ![](../media/styles1.png)
+   ![](../media/colourcontrast0.png)
 
 1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, ensure that it meets your requirements and Click on the **Accept** option.
 
-   ![](../media/styles1.png)
+   ![](../media/colourcontrast1.png)
 
    >**Note**: It should be noted that the code suggestions offered by GitHub Copilot might not exactly match the screenshots shown within the lab guide. GitHub Copilot is an AI-powered tool that generates code based on context and patterns, and its suggestions can be influenced by various factors.
 
    >**Note:** If the suggestions do not appear, consider restarting Visual Studio Code and redoing the process.
 
+1. Accepting this will modify the code.
+
+   ![](../media/colourcontrast2.png)
+
 1. **Save** the file by pressing **Ctrl + S**.
 
 1. Now refresh your **Accessible University** page. Click on the **Start over** button from the **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
    ![](../media/startover.png)
 
-   ![](../media/auissuedetailreduce.png)
+   ![](../media/reduction.png)
 
    >**Note**: Perform step 14 if the data wasn't reloaded.
 
-1. Click on **html-has-lang** to review the error message.
+1. Click on **html-has-lang** to review the error message in detail.
 
-    ![](../media/lanerror.png)
+    ![](../media/langaccept2.png)
 
 1. Navigate back to your VS Code, Open `before.html` file.
 
-1. Select the `html` code, press **Ctrl + i** to access the GitHub Copilot chat and provide the given prompt. Click on **Enter**. 
+1. Select the `html` code, press **Ctrl + I** to access the GitHub Copilot chat, enter the given prompt, and click **Enter**.
 
    ```
    Add the html lang attribute.
    ```
 
-    ![](../media/lanerror.png)
+    ![](../media/langaccept0.png)
 
 1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, and ensure it meets your requirements. Click on the **Accept** option.
 
-   ![](../media/htmlangerrorsuggestion.png)
+   ![](../media/langaccept.png)
 
-1. After accepting the given suggestion, **save** the file by pressing **Ctrl + S**.
+1. Accepting this will modify the code.
 
-   ![](../media/htmlangerror.png)
+   ![](../media/langaccept1.png)
+
+1. **Save** the file by pressing **Ctrl + S**.
 
 1. Now refresh your **Accessible University** page. Click on the **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
+   ![](../media/imgaltcoursela.png)
+
 1. Now, expand the **image-alt** to view the error message.
 
-1. Navigate back to your VS Code.
+1. Navigate back to your VS Code, Open `before.html` file.
 
-1. In the **before-menu.css** file, Select the given code and press **Ctrl + i** to access the GitHub Copilot chat. Provide the given prompt and press enter.
+1. In the **before-menu.css** file, select the given code, press **Ctrl + I** to open the GitHub Copilot chat, enter the given prompt, and press Enter.
 
    ```
    Fix the accessibility issue
    ```
 
+   ![](../media/accessibility1.png)
+
 1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, ensure that it meets your requirements and Click on the **Accept** option.
 
-   ![](../media/imgalterror1.png)
+   ![](../media/accessibilityaccept.png)
+
+1. Accepting this will modify the code.
+
+   ![](../media/accessibilityfinal.png) 
 
 1. **Save** the file by pressing **Ctrl + S**.
 
@@ -202,11 +216,11 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
    ![](../media/startover.png)
 
-   ![](../media/auissuedetailreduce.png)
+   ![](../media/reduction1.png)
 
-1. Now, expand the **label** to check the error message.
+1. Now, expand the **label** to check the error message in details.
 
-1. Navigate back to your VS Code.
+1. Navigate back to your VS Code, Open `before.html` file.
 
 1. In the **before-menu.css** file, Select the given code and press **Ctrl + i** to access the GitHub Copilot chat. Provide the given prompt and press enter.
 
@@ -214,33 +228,19 @@ In this exercise, you will use Accessibility Insights for Web to identify access
    Add a label to the selected code.
    ```
 
-   ![](../media/auissuedetailreduce.png)
+   ![](../media/labelaccept.png)
 
 1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, ensure that it meets your requirements and Click on the **Accept** option.
 
-   ![](../media/auissuedetailreduce.png) 
+   ![](../media/labelaccept1.png) 
+
+1. Accepting this will modify the code.
+
+   ![](../media/labelaccept2.png) 
 
 1. **Save** the file by **Ctrl + S**.
 
 1. Refresh your **Accessible University** page. Click on the **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
-
-1. Expand the **label** issue to check failure details.
-
-   ![](../media/label1.png)
-
-1. Copy the **how to fix** part, with the given **snippet** for all error and navigate back to your VS Code.
-
-1. Click on the **GitHub Copilot Chat** window, provide the given prompt, and click on **Enter**.
-
-   ```
-   fix the label issue for
-   ```
-
-   ![](../media/label2.png)
-
-1. **Save** the file by **Ctrl + S**.
-
-1. Refresh your **Accessible University** page. Click on the **Start over** button from the **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
 1. Expand the **link-in-text-block** to view the error details.
 
