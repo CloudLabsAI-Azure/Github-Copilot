@@ -186,35 +186,39 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
 1. Navigate back to your VS Code.
 
-1. 
-
-1. Click on the GitHub Copilot Chat window, paste your **how to fix** and **snippet** part by adding a given prompt below, and click on enter.
+1. In the **before-menu.css** file, Select the given code and press **Ctrl + i** to access the GitHub Copilot chat. Provide the given prompt and press enter.
 
    ```
-   fix the image-alt issue for
+   Fix the accessibility issue
    ```
+
+1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, ensure that it meets your requirements and Click on the **Accept** option.
 
    ![](../media/imgalterror1.png)
 
-   >**Note**: Here you added the **snippet** for both error with the given prompt.
+1. **Save** the file by pressing **Ctrl + S**.
 
-1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, and ensure it meets your requirements.
+1. Now refresh your **Accessible University** page. Click on the **Start over** button from the **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
-   ![](../media/imgaltresolve1.png)
+   ![](../media/startover.png)
 
-1. Update your `before.html` file according to the provided suggestion by GitHub Copilot.
+   ![](../media/auissuedetailreduce.png)
 
-1. Code updating for **carousel**. Refer to the provided screenshots for **before** and **after** updating the code. 
+1. Now, expand the **label** to check the error message.
 
-   ![](../media/beforeimgalt1.png)
+1. Navigate back to your VS Code.
 
-   ![](../media/afterimgalt1.png)
+1. In the **before-menu.css** file, Select the given code and press **Ctrl + i** to access the GitHub Copilot chat. Provide the given prompt and press enter.
 
-1. Code updating for **captcha**. Refer to the provided screenshots for **before** and **after** updating the code. 
+   ```
+   Add a label to the selected code.
+   ```
 
-   ![](../media/beforeimgalt2.png)
+   ![](../media/auissuedetailreduce.png)
 
-   ![](../media/afterimgalt2.png)
+1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, ensure that it meets your requirements and Click on the **Accept** option.
+
+   ![](../media/auissuedetailreduce.png) 
 
 1. **Save** the file by **Ctrl + S**.
 
@@ -234,24 +238,6 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
    ![](../media/label2.png)
 
-   >**Note**: Here you added the **snippet** for all error with the given prompt.
-
-1. It will generate a bunch of code that helps to resolve all **label** issues. 
-
-   ![](../media/label3.png)
-
-1. Refer to the provided screenshots for **before** updating the code.
-
-   ![](../media/beforelabel.png)
-   
-   ![](../media/beforelabel1.png)
-
-1. Refer to the provided screenshots for **after** updating the code.
-
-   ![](../media/afterlabel.png)
-   
-   ![](../media/afterlabel1.png)
-
 1. **Save** the file by **Ctrl + S**.
 
 1. Refresh your **Accessible University** page. Click on the **Start over** button from the **Accessibility Insights for Web** page. You will now see a reduction in the error message.
@@ -260,19 +246,11 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
    ![](../media/linktxt.png)
 
-1. Copy the **how to fix** part, with the given **snippet**, and navigate back to your vs code.
+1. Navigate back to your VS Code.
 
-1. Click on the **GitHub Copilot Chat** window, paste your **how to fix** and **snippet** parts by adding the given prompt below, and click on **Enter**.
+1. In the **before-menu.css** file, Select the given code and press **Ctrl + i** to access the GitHub Copilot chat. Provide the given prompt and press enter.
 
-   ```
-   fix the link-in-text-block issue for 
-   ```
-
-   ![](../media/linktxt1.png)
-   
-   >**Note**: Here, you have added the **snippet** for all three errors with the given prompt.
-
-1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, and ensure that it meets your requirements.
+1. Review the suggestion from GitHub Copilot, which was generated based on the context provided, and ensure that it meets your requirements. click on **Enter**.
 
    ![](../media/linktxt3.png)
 
