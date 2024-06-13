@@ -70,9 +70,9 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
 1. Paste the following to prompt GitHub Copilot to suggest code.
 
-  ```
-  # define main function that handles all the logic
-  ```
+     ```
+     # define main function that handles all the logic
+     ```
 
 1. Press `Enter` after typing the previous comment, GitHub Copilot will suggest some code for you.
 
@@ -80,9 +80,40 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
 1. To open a new tab with multiple synthesized solutions, press `Ctrl + Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept Suggestion** below the desired suggestion and then **save** the file.
 
-1. Click on **Save**.
+>**Note**:  Incase of this error **CTRL + ENTER**: command '**github.copilot.generate**' not found , Please follow the below steps
+- In the file Explorer Go to the path **%USERPROFILE%/AppData/Roaming/Code/CachedExtensionVSIXs (1)**
+
+   ![](../media/exe1.png)
+  
+- **Delete all copilot files (2)** present in this path.
+  
+   ![](../media/github1.png)
+  
+- Reopen vsCode **reload the github copilot extenstion (3)** in vscode
+
+   ![](../media/reloadreq.png)
+  
+   Then try **CTRL + ENTER**
+
+   ![](../media/accpet-suggestion.png)
+
+   >**Note:** However, it should be noted that the suggestions from GitHub Copilot may vary and occasionally be irrelevant, necessitating a clear understanding of the Python code and its usage.
+
+1. Paste the following to prompt GitHub Copilot to call the function.
+
+   ```
+   # call main function
+   ```
+
+1. 1. Click on **Save**.
 
 1. Run the application with the **python app.py** command in the terminal.
+
+   ![](../media/vs17.png)
+   
+### Task 4: Push code to your repository from the VS code codespace
+
+
 
    ![](../media/vs17.png)
 
