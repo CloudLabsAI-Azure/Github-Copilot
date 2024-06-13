@@ -105,18 +105,12 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
    # call main function
    ```
 
-1. 1. Click on **Save**.
+1. Click on **Save**.
 
 1. Run the application with the **python app.py** command in the terminal.
 
    ![](../media/vs17.png)
    
-### Task 4: Push code to your repository from the VS code codespace
-
-
-
-   ![](../media/vs17.png)
-
 ### Summary
 
 In this exercise, you have successfully created a minigame using Python and Github Copilot.
