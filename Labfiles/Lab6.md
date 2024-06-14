@@ -120,9 +120,9 @@ Sometimes, you may not want to use any of the initial suggestions. You can ask G
 
    -On Windows or Linux, press `Alt + Enter`.
    
->**Note**: If the 'Alt + Enter' isn't working, please select Github Co-pilot from the right pane as shown in the below image.
+      >**Note**: If the 'Alt + Enter' isn't working, please select Github Co-pilot from the right pane as shown in the below image.
 
-   ![](../media/github.png)
+      ![](../media/github.png)
    
 1. Select "Open Copilot". GitHub Copilot will open a new tab and suggest multiple options, as shown below.
 
