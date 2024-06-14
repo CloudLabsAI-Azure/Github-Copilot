@@ -171,7 +171,7 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 1. Select the `html` code, press **Ctrl + I** to access the GitHub Copilot chat, enter the given prompt, and click **Enter**.
 
    ```
-   Add the html lang attribute.
+   Add the html lang attribute
    ```
 
     ![](../media/langaccept0.png)
@@ -225,7 +225,7 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 1. In the **before.html** file, Select the given code and press **Ctrl + I** to access the GitHub Copilot chat. Provide the given prompt and press enter.
 
    ```
-   Add a label to the selected code.
+   Add a label to the selected code
    ```
 
    ![](../media/labelaccept.png)
