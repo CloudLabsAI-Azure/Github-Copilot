@@ -3,9 +3,21 @@
     "Name": "Github Copilot + Accessibility",
     "Language": "English",
     "Files": [
-       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/main/Labfiles/GitHubCopilot-Accessibility.md",
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/main/Labfiles/Introduction-to-GitHub-Copilot.md",
         "Order": 1
+      },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/main/Labfiles/Getting-Started(v2).md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/main/Labfiles/Exercise-1.md",
+        "Order": 3
+      }, 
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/main/Labfiles/GitHubCopilot-Accessibility.md",
+        "Order": 4
       }
     ]
   }
