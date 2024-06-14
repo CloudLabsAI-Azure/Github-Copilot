@@ -1,0 +1,28 @@
+[
+  {
+    "Name": "Introduction to Github Copilot",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/SandBox-v2/Labfiles/Lab1.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Github-Copilot/prod/Labfiles/Git-Credentials-License.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/SandBox-v2/Labfiles/Getting-Started(v2).md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/SandBox-v2/Labfiles/Lab2.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/SandBox-v2/Labfiles/Lab3.md",
+        "Order": 5
+      }
+    ]
+  }
+]
