@@ -35,22 +35,13 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
    ![](../media/create-project.png)
 
-1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, click on the drop-down **(4)** and click on  **Download JDK** **(5)**.
-
-   ![](../media/intellij.png)
-
-1. If you see a pop-up to download JDK, verify the location, and click on **Download**.
-
-   ![](../media/download-jdk.png)
-
-1. Once JDK is downloaded, verify the JDK version **(1)** and click on **Create** **(2)**.
-
-   ![](../media/click-create.png)
+1. In the new project pane, enter the project name as demo-copilot (1). Select language as Java (2) and build system as IntelliJ (3). For JDK, select the default Download Oracle OpenJDK 22 (4) and click on Create.
+   
+   ![](../media/jet1.png)
 
 1. Review the created **demo-copilot** project as shown below:
 
    ![](../media/demo-copilot-project.png)
-
 
 ## Task 2: Create a basic Java project
 
