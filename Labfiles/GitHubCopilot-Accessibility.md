@@ -194,7 +194,7 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
 1. Navigate back to your VS Code, Open `before.html` file.
 
-1. In the **before-menu.css** file, select the given code, press **Ctrl + I** to open the GitHub Copilot chat, enter the given prompt, and press Enter.
+1. In the **before.html** file, select the given code, press **Ctrl + I** to open the GitHub Copilot chat, enter the given prompt, and press Enter.
 
    ```
    Fix the accessibility issue
@@ -222,7 +222,7 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
 1. Navigate back to your VS Code, Open `before.html` file.
 
-1. In the **before-menu.css** file, Select the given code and press **Ctrl + i** to access the GitHub Copilot chat. Provide the given prompt and press enter.
+1. In the **before.html** file, Select the given code and press **Ctrl + I** to access the GitHub Copilot chat. Provide the given prompt and press enter.
 
    ```
    Add a label to the selected code.
@@ -248,7 +248,7 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
 1. Navigate back to your VS Code.
 
-1. In the **before-menu.css** file, Select the given code and press **Ctrl + I** to access the GitHub Copilot chat. Provide the given prompt and press enter.
+1. In the **before.html** file, Select the given code and press **Ctrl + I** to access the GitHub Copilot chat. Provide the given prompt and press enter.
 
    ```
    Fix for all: one of the following issues: improve link color contrast to at least 3:1 or add styling (e.g., underline) to distinguish it from surrounding text.
