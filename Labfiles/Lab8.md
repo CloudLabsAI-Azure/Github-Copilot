@@ -107,6 +107,10 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
 1. Click on **Save**.
 
+1. Click on **Terminal (1)** and select **New Terminal (2)**.
+
+   ![](../media/openterminal.png)
+
 1. Run the application with the **python app.py** command in the terminal.
 
    ![](../media/vs17.png)
