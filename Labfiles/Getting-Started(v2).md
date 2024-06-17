@@ -128,7 +128,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
     > - Hit the Validate button for the corresponding task. Paste your Organization name into the required field and click on submit.
 
-    ![Picture1](../media/gihubuser115.png)
+    ![Picture1](../media/github-copilot-new-2.png)
 
     > - If you receive a success message, you can proceed to the next task. 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
