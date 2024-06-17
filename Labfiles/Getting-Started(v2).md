@@ -121,14 +121,14 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
     > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
     > - On GitHub, locate your profile photo at the top right corner of the screen.
-    > - Copy your GitHub username.
+    > - Select **Your organizations > Organizations** and Copy your Organization name.
 
-    ![Picture1](../media/gihubuser15.png)
+    ![Picture1](../media/github-copilot-new-1.png)
 
     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    > - Hit the Validate button for the corresponding task. Paste your GitHub username into the required field and click on submit.
+    > - Hit the Validate button for the corresponding task. Paste your Organization name into the required field and click on submit.
 
-    ![Picture1](../media/gihubuser115.png)
+    ![Picture1](../media/github-copilot-new-2.png)
 
     > - If you receive a success message, you can proceed to the next task. 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
