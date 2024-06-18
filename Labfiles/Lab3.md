@@ -11,9 +11,7 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 ## Task 1: Add a JavaScript file and start writing code.
 
 1. In the LABVM desktop, select Visual Studio Code.
-
-   
-   
+ 
 1. From the VS Code Explorer window, create a New File.
 
    ![](../media/create-newfile.png)
