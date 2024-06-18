@@ -95,13 +95,12 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
    # Write a rock, paper, scissors game
    ```
 
-   ![](../media/10-1.png)
-
 1. On the next line we're going to prompt GitHub Copilot to suggest code. Paste the following:
 
    ```
    # import random module
    ```
+   ![](../media/game1.png)
 
 1. Press `Enter` after typing the previous comment, GitHub Copilot will suggest some code for you.
 
@@ -121,11 +120,14 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
     >**Note:** However, it should be noted that the suggestions from GitHub Copilot may vary and occasionally be irrelevant, necessitating a clear understanding of the Python code and its usage.
 
+   ![](../media/game3.png)
+   
 1. Paste the following to prompt GitHub Copilot to call the function.
 
    ```
    # call main function
    ```
+   ![](../media/game2.png)
 
 1. Click on **Save**.
 
@@ -135,7 +137,7 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
 1. Run the application with the **python app.py** command in the terminal.
 
-   ![](../media/vs17.png)
+   ![](../media/game4.png)
    
 ### Summary
 
