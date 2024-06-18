@@ -28,11 +28,11 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
    
    > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
-   ![](../media/skills-function.png)
+   ![](../media/cel9.png)
 
 1. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
 
-   ![](../media/save-skills.png)
+   ![](../media/cel2.png)
 
 ## Task 2: Push code to your repository from the codespace
 
@@ -60,7 +60,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
    git push
    ```
 
-   ![](../media/skills-push.png)
+   ![](../media/skills-push-01.png)
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
