@@ -140,15 +140,15 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 1. Search for **deploy(1)** and select **Deploy a custom template(2)**.
 
- ![](../media/github2.png)
+     ![](../media/github2.png)
 
 1. Click on **Select a template(1)** and click on **Build your own template in the editor(2)**.
 
- ![](../media/github3.png)
+  ![](../media/github3.png)
 
 1. **Paste(1)** the code you had earlier saved in VS code in the **Edit template** section and click on **Save(2)**.
 
- ![](../media/github5.png)
+  ![](../media/github5.png)
 
 1. In the project details section, add the following details:
 
@@ -160,15 +160,15 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
    - Sku - **Select the default sku (6)**
    - Click on **Review + Create (7)**
 
- ![](../media/github6.png)
+     ![](../media/github6.png)
 
 1. Click on **Go to Resource**.
 
- ![](../media/github7.png)
+  ![](../media/github7.png)
 
 1. Verify the **storage account** is created.
 
- ![](../media/github8.png)
+  ![](../media/github8.png)
 
 ### Task 3: Generate code by chat that uses Terraform to deploy resources to Azure
 
