@@ -131,7 +131,7 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
 1. Click on **Save**.
 
-1. Click on the **ellipsis(1)** on the top, click on **Terminal (2)** and select **New Terminal (3)**.
+1. Click on the **ellipsis** **(1)** on the top, click on **Terminal (2)** and select **New Terminal (3)**.
 
    ![](../media/openterminal.png)
 
