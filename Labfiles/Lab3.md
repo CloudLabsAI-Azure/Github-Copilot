@@ -23,7 +23,7 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 1. In the `skills.js` file, type the following function header:
 
    ```
-   function calculateNumbers(var1, var2)
+   function toCelsius(fahrenheit)
    ```
    
    > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
