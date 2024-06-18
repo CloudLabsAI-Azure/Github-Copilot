@@ -192,10 +192,17 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
    ![](../media/terraform-new-file.png)
 
+1. Fill the below details for the appropriate field:
+
+   - Resource Group Name - **JumpVM-RG-<inject key="Deployment ID" enableCopy="false"/>** **(1)**
+   - Region - **East US** **(2)**
+   - Storage Account Name - **storage<inject key="Deployment ID" enableCopy="false"/>** **(3)**
+     
 1. Press `CTRL + S` to save the file. Name the file `terraform.tf` and click on **OK**
 
    ![](../media/terraform-save.png)
 
+1. Navigate to 
 ### Task 4: Generate code by chat that uses PowerShell to deploy resources to Azure
 
 1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
