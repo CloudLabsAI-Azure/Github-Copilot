@@ -32,7 +32,7 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
 1. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
 
-   ![](../media/cel2.png)
+   ![](../media/cel1.png)
 
 ## Task 2: Push code to your repository from the codespace
 
