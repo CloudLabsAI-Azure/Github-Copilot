@@ -266,6 +266,17 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
    git add arm.json terraform.tf powershell.ps1
    ```
 
+1. Run the below command to sign in with GitHub
+
+- Email
+   ```
+   git config --global user.email "github user email"
+   ```
+-  Username
+   ```
+   git config --global user.name "github username"
+   ```
+
 1. Next, from the VS Code terminal stage, commit the changes to the repository:
 
    ```
