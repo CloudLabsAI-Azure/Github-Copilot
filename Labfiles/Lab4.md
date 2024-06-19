@@ -60,10 +60,11 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 1. Copy the path of the repository and store it in a notepad.
 
-   ![](../media/clone1.png)
+   ![](../media/clone4.png)
 
 1. Search for Windows Powershell ISE in the Windows Start button and run it as an Administrator.
 
+     ![](../media/clone5.png)
 
 1. Run the following command to clone it to your local system and paste the path of the repository which we copied earlier in the notepad.
 
@@ -73,6 +74,8 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 1. Open Visual Studio Code from the desktop.
 
 1. Click on File (1) and select Open Folder (2).
+
+   ![](../media/clone6.png)
 
 1. Click on 
 
