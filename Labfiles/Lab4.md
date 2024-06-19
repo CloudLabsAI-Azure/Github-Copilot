@@ -199,18 +199,40 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
    - Storage Account Name - **storage<inject key="Deployment ID" enableCopy="false"/>** **(3)**
 
        ![](../media/clone2.png)
-     
 1. Press `CTRL + S` to save the file. Name the file `terraform.tf` and click on **OK**
-
+   
    ![](../media/terraform-save.png)
 
-1. Navigate to `portal,azure.com`.
+1. Click on the **Ellipsis (...) (1)** on the top , select **Terminal (2)** and click on **New Terminal (3).**
+
+
+1. Run the below command to initialize a working directory and download the necessary provider plugins and modules.
+
+    ```
+    terraform init
+    ```   
+
+1. Run the below command to create an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.
+
+    ```
+    terraform plan
+    ```   
+1.  Run the below command to execute planned actions, creating ot updating infrastructure resources.
+
+    ```
+    terraform apply
+    ```   
+
+1. Once the **terraform apply** command has run successfully, navigate to `portal,azure.com`.
 
 1. Search for **storage (1)** and select **Storage Accounts (2)**.
 
-  ![](../media/clone3.png)
+    ![](../media/clone3.png)
   
 1. Verify **storage<inject key="Deployment ID" enableCopy="false"/>** is created.
+
+    ![](../media/sto1.png)
+   
 ### Task 4: Generate code by chat that uses PowerShell to deploy resources to Azure
 
 1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
