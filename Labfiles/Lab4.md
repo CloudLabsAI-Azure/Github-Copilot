@@ -77,7 +77,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
    ![](../media/clone5.png)
 
-1. Click on 
+1. Navigate to `C:\Users\azureuser` and select skills-copilot-codespaces-vscode.
 
 ## Task 2: Example: Set the stage with a high-level goal
 
@@ -172,9 +172,10 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
    - Storage Account Name - **storage<inject key="Deployment ID" enableCopy="false"/>** **(3)**
 
        ![](../media/clone2.png)
+     
 1. Press `CTRL + S` to save the file. Name the file `terraform.tf` and click on **OK**
    
-   ![](../media/terraform-save.png)
+      ![](../media/terraform-save.png)
 
 1. Click on the **Ellipsis (...) (1)** on the top , select **Terminal (2)** and click on **New Terminal (3).**
 
