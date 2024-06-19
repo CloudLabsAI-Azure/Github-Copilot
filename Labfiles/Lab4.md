@@ -135,6 +135,8 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
      ![](../media/github6.png)
 
+        > **Note:** In case, the storage account name is already fetched, use the default.
+      
 1. Click on **Go to Resource**.
 
      ![](../media/github7.png)
