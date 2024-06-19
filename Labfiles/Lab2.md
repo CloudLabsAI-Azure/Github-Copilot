@@ -15,43 +15,6 @@ In this lab, you will create a development container and define specific extensi
 
 ## Task 1: Enable Copilot inside a Codespace
 
-1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
-
-   ![](../media/Edge.png)
-
-1. Navigate to GitHub login page using the provided URL below:
-   ```
-   https://github.com/login
-   ```
-   
-1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
-
-   ![](../media/github-login.png)
-
-    >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
-
-      ![](../media/credsfile.png)
-
-   >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
-
-     ![](../media/envt12.png)
-
-   >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
-          
-1. Navigate to Outlook login page using the provided URL below:
-   ```
-   https://outlook.office365.com/mail/
-   ```
-1. Next, to get the authentication code, sign in to Outlook with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
-   
-   >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
-
-   ![](../media/authgit.png)
-
-1. Now, right-click on your profile icon in the top right and click on **Your Repositories**.
-    
-   ![](../media/l2.2.png)
-
 1. Click on the repository named **skills-copilot-codespaces-vscode**
 
 1. In the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `Create new file` **(3)**.
