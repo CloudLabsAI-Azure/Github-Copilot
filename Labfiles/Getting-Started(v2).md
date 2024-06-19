@@ -61,7 +61,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
    ![](../media/l2.2.png)
 
-1. 1. If a repository with the name **skills-copilot-codespaces-vscode** already exists, please delete the existing one by performing the below steps and perform the above step again.
+1. If a repository with the name **skills-copilot-codespaces-vscode** already exists, please delete the existing one by performing the below steps and perform the above step again.
 
     > - On GitHub.com, navigate to the main page of the repository.
     > - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
