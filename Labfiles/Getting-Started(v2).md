@@ -57,29 +57,12 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
    ![](../media/authgit.png)
 
-1. Copy the below link and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
+1. Right-click on your profile icon in the top right and click on **Your Repositories**.
 
-   <!-- For start course, run in JavaScript:
-   'https://github.com/new?' + new URLSearchParams({
-     template_owner: 'skills',
-     template_name: 'copilot-codespaces-vscode',
-     owner: '@me',
-     name: 'skills-copilot-codespaces-vscode',
-     description: 'My clone repository',
-     visibility: 'public',
-   }).toString()
-   -->
-   
-   ```
-    https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
-   ```   
-1. In the new tab, most of the prompts will automatically fill in for you. Make sure the  repository name is  **skills-copilot-codespaces-vscode**, and leave the default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
+   ![](../media/l2.2.png)
 
-   ![](../media/skills-new-repo.png)
+1. 1. If a repository with the name **skills-copilot-codespaces-vscode** already exists, please delete the existing one by performing the below steps and perform the above step again.
 
-1. After your new repository is created, wait about 20 seconds and then refresh the page.
-
-    >**Note**: If you get a note  prompting that a repository with the name **skills-copilot-codespaces-vscode** already exists, please delete the existing one by performing the below steps and perform the above step again.
     > - On GitHub.com, navigate to the main page of the repository.
     > - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
     
@@ -102,6 +85,27 @@ For convenience, you can open the lab guide in a separate window by selecting th
     >  - Click **Delete this repository**.
 
       ![](../media/7.png)
+
+1. Copy the below link and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
+
+   <!-- For start course, run in JavaScript:
+   'https://github.com/new?' + new URLSearchParams({
+     template_owner: 'skills',
+     template_name: 'copilot-codespaces-vscode',
+     owner: '@me',
+     name: 'skills-copilot-codespaces-vscode',
+     description: 'My clone repository',
+     visibility: 'public',
+   }).toString()
+   -->
+   
+   ```
+    https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
+   ```   
+
+1. In the new tab, most of the prompts will automatically fill in for you. Make sure the  repository name is  **skills-copilot-codespaces-vscode**, and leave the default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
+
+   ![](../media/skills-new-repo.png)
 
 1. Once the repository is created, click on your profile picture and then select **Your organizations**.
 
