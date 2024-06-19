@@ -203,8 +203,12 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 1. Run the below command to import the existing resource group
 
     ```
-    terraform import azurerm_resource_group.example /subscriptions/<subscription_id>/resourceGroups/JumpVM-RG-<inject key="Deployment ID" enableCopy="false"/>
+    terraform import azurerm_resource_group.example /subscriptions/<subscription_id>/resourceGroups/JumpVM-RG-<Deployment ID">
     ```   
+
+     > **Note:** To fetch subscription id - Navigate to `portal.azure.com` , search for subscriptions and copy the id.
+
+     > **Note:** To fetch the deployment id, navigate to the **Environmental Details** tab in the vm and copy the DID.
 
 1.  Run the below command to execute planned actions, creating ot updating infrastructure resources.
 
