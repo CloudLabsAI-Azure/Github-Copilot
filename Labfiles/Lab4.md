@@ -58,55 +58,28 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**.
 
-1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
+1. Copy the path of the repository and store it in a notepad.
 
-   ![](../media/code-code.png)
+   ![](../media/clone4.png)
 
-1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
+1. Search for Windows Powershell ISE in the Windows Start button and run it as an Administrator.
 
-   ![](../media/labgit.png)
+     ![](../media/clone6.png)
 
-   >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
+1. Run the following command to clone it to your local system and paste the path of the repository which we copied earlier in the notepad.
 
-1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install and Open** to continue.
+    ```
+    git clone https://github.com/<your github user name>/skills-copilot-codespaces-vscode
+    ```   
+1. Open Visual Studio Code from the desktop.
 
-   ![](../media/open.png)
+1. Click on File (1) and select Open Folder (2).
 
-   ![](../media/codespaces.png)
+   ![](../media/clone5.png)
 
-1. At the bottom right corner, you will get a prompt to sign in to GitHub.
+1. Click on 
 
-   ![](../media/signingit.png)
-
-   >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
-
-1. Next, once you get the popup, click on **Allow**
-
-   ![](../media/allow.png)
-
-   >**Note**: Wait about 2 minutes for the codespace to spin itself up.
-
-1. Verify your codespace is running. Make sure the VS code looks as shown below:
-
-   ![](../media/loaded-repo.png)
-
-1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
-
-   ![](../media/verify-copilot.png)
-
-1. In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat** extension.
-
-1. Select **GitHub Copilot Chat** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
-   
-1. If not, click on the **Install** button.
-
-    ![](../media/ghc-chat-extension.png)
-
-1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
-
-   ![](../media/git-chat-icon.png)
-
-## Task 3.1- Example: Set the stage with a high-level goal
+## Task 2: Example: Set the stage with a high-level goal
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
@@ -136,7 +109,41 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
    ![](../media/arm-save.png)
 
-### Task 2: Generate code by chat that uses Terraform to deploy resources to Azure
+1.  After saving the file, navigate to `portal.azure.com`.
+
+1. Search for **deploy(1)** and select **Deploy a custom template(2)**.
+
+     ![](../media/github2.png)
+
+1. Click on **Select a template(1)** and click on **Build your own template in the editor(2)**.
+
+      ![](../media/github3.png)
+
+1. **Paste(1)** the code you had earlier saved in VS code in the **Edit template** section and click on **Save(2)**.
+
+      ![](../media/github5.png)
+
+1. In the project details section, add the following details:
+
+   - Subscription - **Select the default subscription (1)**
+   - Resource Group - **Select JumpVM-RG-<inject key="Deployment ID" enableCopy="false"/> (2)**
+   - Region - **Select the default region. (3)**
+   - Storage Account Name - **Select storage<inject key="Deployment ID" enableCopy="false"/> (4)**
+   - Location - **Select the same as the region (5)**
+   - Sku - **Select the default sku (6)**
+   - Click on **Review + Create (7)**
+
+     ![](../media/github6.png)
+
+1. Click on **Go to Resource**.
+
+     ![](../media/github7.png)
+
+1. Verify the **storage account** is created.
+
+     ![](../media/github8.png)
+
+### Task 3: Generate code by chat that uses Terraform to deploy resources to Azure
 
 1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
 
@@ -158,11 +165,48 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
    ![](../media/terraform-new-file.png)
 
-1. Press `CTRL + S` to save the file. Name the file `terraform.tf` and click on **OK**
+1. Fill the below details for the appropriate field:
 
+   - Resource Group Name - **JumpVM-RG-<inject key="Deployment ID" enableCopy="false"/>** **(1)**
+   - Region - **East US** **(2)**
+   - Storage Account Name - **storage<inject key="Deployment ID" enableCopy="false"/>** **(3)**
+
+       ![](../media/clone2.png)
+1. Press `CTRL + S` to save the file. Name the file `terraform.tf` and click on **OK**
+   
    ![](../media/terraform-save.png)
 
-### Task 3: Generate code by chat that uses PowerShell to deploy resources to Azure
+1. Click on the **Ellipsis (...) (1)** on the top , select **Terminal (2)** and click on **New Terminal (3).**
+
+
+1. Run the below command to initialize a working directory and download the necessary provider plugins and modules.
+
+    ```
+    terraform init
+    ```   
+
+1. Run the below command to create an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.
+
+    ```
+    terraform plan
+    ```   
+1.  Run the below command to execute planned actions, creating ot updating infrastructure resources.
+
+    ```
+    terraform apply
+    ```   
+
+1. Once the **terraform apply** command has run successfully, navigate to `portal,azure.com`.
+
+1. Search for **storage (1)** and select **Storage Accounts (2)**.
+
+    ![](../media/clone3.png)
+  
+1. Verify **storage<inject key="Deployment ID" enableCopy="false"/>** is created.
+
+    ![](../media/sto1.png)
+   
+### Task 4: Generate code by chat that uses PowerShell to deploy resources to Azure
 
 1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
 
@@ -188,7 +232,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
    ![](../media/ps-save.png)
 
-### Task 4: Push code to your repository from the codespace
+### Task 5: Push code to your repository from the codespace
 
 1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
 

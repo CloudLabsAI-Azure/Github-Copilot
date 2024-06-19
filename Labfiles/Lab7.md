@@ -130,6 +130,10 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 2: Auto_Completion of Code with Different Experiments
 
+>**Disclaimer**: As you run the notebooks below, you might come across errors as the exact suggestion may vary. If so, utilize the **GitHub Copilot** chat as indicated below. Paste the comment and it will offer a solution to resolve or address the issue. Use the solution provided in the notebook to proceed.
+
+   ![](../media/copilot1.png)
+
 1. From the VS Code explorer window, right-click on the folder named **ml-copilot-workshop** **(1)** and click on **New File**. Name the file `Experiments.ipynb` **(2)** and verify that your new file looks as shown below:
 
    ![](../media/ex-8-create-file.png)

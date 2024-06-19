@@ -1,4 +1,4 @@
-# Introduction to GitHub Copilot
+# Introduction to GitHub Copilot 
 
 Duration: 20 minutes
 
@@ -30,16 +30,18 @@ Here are some features you can expect from Copilot for Business:
  - VPN proxy support: GitHub Copilot works with VPNs, including with self-signed certificates, so developers can use it in any working environment.
  - Simple sign-up: Regardless of whether a business does not use the GitHub service for its source code, it can easily buy Copilot for Business licenses online and assign seats.
 
-### GitHub Copilot for Business vs. GitHub Copilot for Individuals
+### Understanding the differences between Copilot for Business, Copilot for Individuals, and Copilot Enterprise
 
-|                                                            | GitHub Copilot for Business | GitHub Copilot for Individuals  |
-| ---------------------------------------------------------- | --------------------------- | ------------------------------- |
-| Zero data retention for code snippets and usage telemetry	 |             ✓	             |               ✕                 |
-| Blocks suggestions matching public code                 	 |             ✓	             |               ✓                 |
-| Plugs right into your editor                            	 |             ✓	             |               ✓                 |
-| Offers multiline function suggestions                   	 |             ✓	             |               ✓                 |
-| Organization-wide policy management                     	 |             ✓	             |               ✕                 |
-| VPN proxy support via self-signed certificates           	 |             ✓	             |               ✕                 |
+
+|                                                            | GitHub Copilot for Business |GitHub Copilot for Individuals  | GitHub Copilot Enterprise |
+| ---------------------------------------------------------- | --------------------------- | ------------------------------- | ------------- |
+| Zero data retention for code snippets and usage telemetry	|             ✓              |              ✕                  |   ✕  |
+| Block suggestions matching the public code                 	 |             ✓	             |               ✓              |   ✓   |
+| Plugs right into your editor                            	 |             ✓	             |               ✓                 |    ✓  |
+| Offers multiline function suggestions                   	 |             ✓	             |               ✓                 |   ✓   |
+| Organization-wide policy management                     	 |             ✓	             |               ✕                 |   ✓   |
+| VPN proxy support via self-signed certificates           	|             ✓	             |               ✕                 |  ✕    |
+
 
 ### GitHub Copilot for Business Use Cases and Customer Stories
 
