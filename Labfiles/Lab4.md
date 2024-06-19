@@ -179,23 +179,40 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 1. Click on the **Ellipsis (...) (1)** on the top , select **Terminal (2)** and click on **New Terminal (3).**
 
-
 1. Run the below command to initialize a working directory and download the necessary provider plugins and modules.
 
     ```
     terraform init
     ```   
 
+1. Run the below command to login to Azure
+
+    ```
+    az login
+    ```
+   * Username: <inject key="AzureAdUserEmail"></inject>
+
+   * Password: <inject key="AzureAdUserPassword"></inject>
+       
 1. Run the below command to create an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.
 
     ```
     terraform plan
     ```   
+
+1. Run the below command to import the existing resource group
+
+    ```
+    terraform import azurerm_resource_group.example /subscriptions/<subscription_id>/resourceGroups/JumpVM-RG-<inject key="Deployment ID" enableCopy="false"/>
+    ```   
+
 1.  Run the below command to execute planned actions, creating ot updating infrastructure resources.
 
     ```
     terraform apply
     ```   
+
+     > **Note:** Provide **yes** when prompted.
 
 1. Once the **terraform apply** command has run successfully, navigate to `portal,azure.com`.
 
