@@ -58,53 +58,23 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**.
 
-1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
+1. Copy the path of the repository and store it in a notepad.
 
-   ![](../media/code-code.png)
+   ![](../media/clone1.png)
 
-1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
+1. Search for Windows Powershell ISE in the Windows Start button and run it as an Administrator.
 
-   ![](../media/labgit.png)
 
-   >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
+1. Run the following command to clone it to your local system and paste the path of the repository which we copied earlier in the notepad.
 
-1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install and Open** to continue.
+    ```
+    git clone https://github.com/<your github user name>/skills-copilot-codespaces-vscode
+    ```   
+1. Open Visual Studio Code from the desktop.
 
-   ![](../media/open.png)
+1. Click on File (1) and select Open Folder (2).
 
-   ![](../media/codespaces.png)
-
-1. At the bottom right corner, you will get a prompt to sign in to GitHub.
-
-   ![](../media/signingit.png)
-
-   >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
-
-1. Next, once you get the popup, click on **Allow**
-
-   ![](../media/allow.png)
-
-   >**Note**: Wait about 2 minutes for the codespace to spin itself up.
-
-1. Verify your codespace is running. Make sure the VS code looks as shown below:
-
-   ![](../media/loaded-repo.png)
-
-1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
-
-   ![](../media/verify-copilot.png)
-
-1. In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat** extension.
-
-1. Select **GitHub Copilot Chat** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
-   
-1. If not, click on the **Install** button.
-
-    ![](../media/ghc-chat-extension.png)
-
-1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
-
-   ![](../media/git-chat-icon.png)
+1. Click on 
 
 ## Task 2: Example: Set the stage with a high-level goal
 
