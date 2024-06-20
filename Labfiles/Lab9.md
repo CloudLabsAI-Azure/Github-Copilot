@@ -8,6 +8,32 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
 1. In the LABVM desktop, select Visual Studio Code.
 
+1. Click on the **Profile** icon in the bottom left and select **Sign in with Github to use Github Copilot**.
+
+1. 1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
+
+   ![](../media/github-login.png)
+
+    >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
+
+      ![](../media/credsfile.png)
+
+   >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
+
+     ![](../media/envt12.png)   
+
+    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
+     
+1. Navigate to Outlook login page using the provided URL below:
+   ```
+   https://outlook.office365.com/mail/
+   ```
+1. Next, to get the authentication code, sign in to Outlook with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+
+   >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
+
+   ![](../media/authgit.png)
+
 1. Click on **File (1)** and click on **Open Folder (2)**.
 
    ![](../media/clone5.png)
