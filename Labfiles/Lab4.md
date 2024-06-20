@@ -173,7 +173,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
    - Region - **East US** **(2)**
    - Storage Account Name - **storage<inject key="Deployment ID" enableCopy="false"/>** **(3)**
 
-       ![](../media/clone2.png)
+       ![](../media/clone90.png)
      
 1. Press `CTRL + S` to save the file. Name the file `terraform.tf` and click on **OK**
    
