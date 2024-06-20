@@ -46,6 +46,10 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
       ![](../media/clone80.png)
 
+1. Click on **Yes, i trust the authors** when the following pop-up comes.
+
+      ![](../media/clone100.png)
+   
 1. From the left pane, select the **Chat** icon. You will be provided with the **Github Copilot** welcome chat window.
 
     ![](../media/file9.png)
@@ -53,6 +57,8 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 1. Provide the prompt, `Create a workspace for the Expense Tracker application with all the necessary files and code.` and hit **Send**. 
 
       ![](../media/ref10.png)
+
+      ![](../media/clone101.png)
 
 1. Now, create the workspace for your **Expense Tracker** application by creating the required files and folders. To do so, select **Explorer** from the left pane, and choose the appropriate file or folder icons to create a new file or folder as per the workspace structure of your application.
 
