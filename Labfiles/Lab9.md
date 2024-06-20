@@ -138,15 +138,11 @@ In this task, you will be utilizing the **GitHub Copilot File Referencing** capa
     @workspace How can I change the CSS for my application?
     ```
     
-#### **Adding a new feature in the application using File Reference:**
+# Task 3: Adding a new feature in the application using File Reference
 
 In this task, you will be utilizing the file reference capability to integrate a new feature in your **Expense Tracker** application. You will include a **Date** field in the **ExpenseForm** document and display it in **ExpenseItem**, and then you, will be able to sort the expenses by date in the **ExpenseList** component.
 
 To do so, follow the below steps:
-
-1. Open your project in VS Code, where you are signed in using the CloudLabs provided Github account details.
-
-    ![](../media/vscode-launch.png)
 
 1. From the left pane, select the **Chat** icon. You will be provided with the **GitHub Copilot** welcome chat window.
 
