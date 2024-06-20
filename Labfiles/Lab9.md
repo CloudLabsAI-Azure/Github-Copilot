@@ -80,7 +80,7 @@ In this task, you will be utilizing the **GitHub Copilot File Referencing** capa
 
     ![](../media/file20.png)
 
-1. In the textbox, enter **@** and select **Workspace** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
+1. In the textbox, enter **@** **(1)** and select **Workspace** **(2)** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
 
     ![](../media/file21.png)
 
@@ -118,7 +118,7 @@ To do so, follow the below steps:
 
     ![](../media/file23.png)
 
-1. In the textbox, enter **@** and select **Workspace** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
+1. In the textbox, enter **@ (1)** and select **Workspace (2)** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
 
     ![](../media/file24.png)
 
