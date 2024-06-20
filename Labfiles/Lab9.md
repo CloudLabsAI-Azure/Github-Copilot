@@ -110,10 +110,6 @@ When you're working on a specific file in your codebase, **GitHub Copilot** can 
 
 In this task, you will be utilizing the **GitHub Copilot File Referencing** capability to enhance coding efficiency by providing contextually relevant code suggestions. To use the File Referencing feature, follow the below steps:
 
-1. Open your Expense Tracker project in **VS Code**, where you are signed in using the CloudLabs provided Github account details.
-
-    ![](../media/vscode-launch.png)
-
 1. From the left pane, select the **Chat** icon. You will be provided with the **GitHub Copilot** welcome chat window.
 
     ![](../media/file20.png)
