@@ -10,7 +10,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
 1. Click on the **Profile** icon in the bottom left and select **Sign in with Github to use Github Copilot**.
 
-1. 1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
+1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
    ![](../media/github-login.png)
 
