@@ -268,16 +268,16 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 1. Run the below command to sign in with GitHub
 
-- Email
+   - Email
     ```
     git config --global user.email "github user email"
     ```
--  Username
+    -  Username
     ```
     git config --global user.name "github username"
     ```
 
-1. Click on Sign in with your browser when the following pop-up arises.
+1. Click on **Sign in with your browser** when the following pop-up arises.
 
     ![](../media/clone30.png)
 
