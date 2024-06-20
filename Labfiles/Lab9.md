@@ -38,7 +38,9 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
    ![](../media/clone5.png)
    
-1. Navigate to `C:\LabFiles` and select the **DemoApp** folder
+1. Navigate to `C:\LabFiles` and select the **DemoApp** folder.
+
+      ![](../media/clone80.png)
 
 1. From the left pane, select the **Chat** icon. You will be provided with the **Github Copilot** welcome chat window.
 
