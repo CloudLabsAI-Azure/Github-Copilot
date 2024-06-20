@@ -8,7 +8,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
 1. In the LABVM desktop, select Visual Studio Code.
 
-1. Click on File (1) and click on Open Folder (2).
+1. Click on **File (1)** and click on **Open Folder (2)**.
 
    ![](../media/clone5.png)
    
@@ -21,6 +21,8 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
     ![](../media/file9.png)
 
 1. Provide the prompt, `Create a workspace for the Expense Tracker application with all the necessary files and code.` and hit **Send**. 
+
+      ![](../media/ref10.png)
 
 1. Now, create the workspace for your **Expense Tracker** application by creating the required files and folders. To do so, select **Explorer** from the left pane, and choose the appropriate file or folder icons to create a new file or folder as per the workspace structure of your application.
 
