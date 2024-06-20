@@ -269,13 +269,21 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 1. Run the below command to sign in with GitHub
 
 - Email
-   ```
-   git config --global user.email "github user email"
-   ```
+    ```
+    git config --global user.email "github user email"
+    ```
 -  Username
-   ```
-   git config --global user.name "github username"
-   ```
+    ```
+    git config --global user.name "github username"
+    ```
+
+1. Click on Sign in with your browser when the following pop-up arises.
+
+    ![](../media/clone30.png)
+
+1. Verify if the authentication has succeeded.
+
+    ![](../media/clone67.png)
 
 1. Next, from the VS Code terminal stage, commit the changes to the repository:
 
@@ -289,13 +297,11 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
    git push
    ```
 
-   ![](../media/ex-4-push5.png)
-
    >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
 
 1. You can verify the `arm.json`, `powershell.ps1`, and `terraform.tf` files available in your GitHub repository.
 
-   ![](../media/ex-4-github5.png)
+   ![](../media/ex-4-github5-1.png)
 
     
    <validation step="41cb7abc-f8a9-4af0-a8c9-3df487cfda04" />
