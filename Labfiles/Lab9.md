@@ -36,6 +36,8 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
    ![](../media/authgit.png)
 
+1. Click on **Open** when prompted to sign in with Github.
+   
 1. Navigate back to VS Code, click on **File (1)** and click on **Open Folder (2)**.
 
    ![](../media/clone5.png)
