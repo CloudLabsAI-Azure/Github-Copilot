@@ -1,4 +1,4 @@
-# Lab 1: Getting Started with the Lab
+# Getting Started with the Lab
  
 Welcome to your Github-Copilot workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
@@ -22,7 +22,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
    ![](../media/higher.png)
   
-## Login to GitHub
+# Lab 1: Login to GitHub and create a GitHub repository
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
