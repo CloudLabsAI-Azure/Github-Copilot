@@ -220,7 +220,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
      > **Note:** Provide **yes** when prompted.
 
-1. Once the **terraform apply** command has run successfully, navigate to `portal,azure.com`.
+1. Once the **terraform apply** command has run successfully, navigate to `portal.azure.com`.
 
 1. Search for **storage (1)** and select **Storage Accounts (2)**.
 
