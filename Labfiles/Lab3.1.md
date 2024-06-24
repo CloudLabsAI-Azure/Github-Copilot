@@ -96,3 +96,5 @@ By leveraging the previously generated code, you will explore specific tools pro
 1. Click on **Apply**.
 
 1. It will open a new file named **test_code.py**, displaying the test cases.
+
+      ![](../media/py20.png)
