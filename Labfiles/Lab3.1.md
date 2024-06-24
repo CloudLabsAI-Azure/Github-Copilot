@@ -6,11 +6,11 @@
 
 1. From the VS Code Explorer window, create a New File.
 
-   ![](../media/.png)
+   ![](../media/py10.png)
 
 1. Name the file `code.py` and verify your new file looks as shown below:
 
-   ![](../media/.png)
+   ![](../media/py1.png)
 
 1. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** and click > or press **Enter (2)**. Copilot will give a response, and you can review it and click **Accept (3)**. Also, you can **Discard** the suggestion as depicted in the image below. 
    ```
@@ -19,13 +19,17 @@
    */
    ```
 
-   ![](../media/ex2-markdown.png)
+   ![](../media/py2.png)
 
 1. Press `CTRL + S` to save the file.
 
-1. Click on the ellipsis (1) on the top, click on Terminal (2) and select New Terminal (3).
+1. Click on the **ellipsis (1)** on the top, click on **Terminal (2)** and select **New Terminal (3)**.
+
+   ![](../media/openterminal.png)
 
 1. Run the application with the **python code.py** command in the terminal and verify the output has been generated.
+
+   ![](../media/py3.png)   
 
 ## Explore GitHub Copilot Tools
 
@@ -35,6 +39,8 @@ By leveraging the previously generated code, you will explore specific tools pro
 
 1. Right click on the selected code, select **Copilot (1)** and select **Start in Editor (2)**.
 
+      ![](../media/py11.png)
+
 1. The following window prompts you to suggest any improvements or enhancements you would like to make to the code. Paste the following **comments (1)** and click > or press **Enter (2)**. Copilot will give a response, and you can review it and click **Accept (3)**. Also, you can **Discard** the suggestion as depicted in the image below.
 
    ```
@@ -43,27 +49,49 @@ By leveraging the previously generated code, you will explore specific tools pro
    */
    ```
 
+   ![](../media/py4.png)
+
 1. Press `CTRL + S` to save the file.
 
-1. Click on the ellipsis (1) on the top, click on Terminal (2) and select New Terminal (3).
+1. Click on the **ellipsis (1)** on the top, click on **Terminal (2)** and select **New Terminal (3)**.
+
+      ![](../media/openterminal.png)
    
 1. Run the application with the **python code.py** command in the terminal and verify the output has been generated.
 
+      ![](../media/py5.png)
+
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Explan This (2)**.
+
+   ![](../media/py12.png)
 
 1. It opens the GitHub Copilot Chat on the left, offering a comprehensive explanation of the code as show below.
 
+      ![](../media/py6.png)
+
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Fix This (2)**.
+
+   ![](../media/py13.png)
 
 1. GitHub Copilot will automatically utilize the `/fix` comment to propose potential improvements to specific parts of code for enhancement. Click on **Accept** to utilize the fixes in your code.
 
+      ![](../media/py7.png)
+
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Generate Docs (2)**.
 
-1. GitHub Copilot will automatically use the /doc comment to provide a breakdown of a specific line of code. Click on Accept to gain a deeper understanding while reviewing the code.
+      ![](../media/py14.png)
+
+1. GitHub Copilot will automatically use the `/doc` comment to provide a breakdown of a specific line of code. Click on Accept to gain a deeper understanding while reviewing the code.
+
+      ![](../media/py8.png)
 
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Generate Tests(2)**.
 
-1. GitHub Copilot will automatically open a new tab named **REFACTOR REVIEW** and will suggest the tests that can be run to verify the output.
+      ![](../media/py15.png)
+
+1. GitHub Copilot will automatically use the `/tests` comment and open a new tab named **REFACTOR REVIEW** and will suggest the tests that can be run to verify the output.
+
+      ![](../media/py9.png)
 
 1. Click on **Apply**.
 
