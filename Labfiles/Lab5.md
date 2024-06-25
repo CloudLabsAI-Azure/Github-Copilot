@@ -2,6 +2,15 @@
 
 >**Note:** The results produced by **GitHub Copilot** for this particular task may not precisely align with your outcomes. This discrepancy occurs because **Github Copilot** is an AI-driven tool that can yield variable outputs from time to time.
 
+
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
+- Using the GitHub Copilot workspace to establish a new application Workspace.
+- Leverage file referencing capabilities.
+- Implementing a new feature in the application through file referencing.
+  
 ### Task 1: Utilizing the GitHub Copilot Workspace to Create a New Application Workspace
 
 The Github Copilot Workspace can not only provide the instructions, answers, or detailed code snippets regarding the queries you submit to it, but it can also create the complete workspace of an application from scratch. Here, you will be creating a new simple React app named **Expense Tracker** to track the expenses of the users and also modify (edit) or delete them, all with the help of the **GitHub Copilot Workspace**. You will be debugging the app using this feature itself and verifying that the app runs successfully in your local environment. To create the `Expense Tracker` app using the **GitHub Copilot workspace**, follow the below steps:
@@ -163,3 +172,9 @@ To do so, follow the below steps:
 1. Run the app and verify the **Date** component is added and working properly.
 
     ![](../media/file26.png)
+
+## Review
+
+In this lab, you have used GitHub Copilot to create and enhance an application workspace with file referencing.
+
+## You have successfully completed the lab
