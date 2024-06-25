@@ -53,11 +53,9 @@ By leveraging the previously generated code, you will explore specific tools pro
 1. The following window prompts you to suggest any improvements or enhancements you would like to make to the code. Paste the following **comments (1)** and click > or press **Enter (2)**. Copilot will give a response, and you can review it and click **Accept (3)**. Also, you can **Discard** the suggestion as depicted in the image below.
 
    ```
-   /*
    Include calculation of percentages
-   */
    ```
-
+   
    ![](../media/py4.png)
 
 1. Press `CTRL + S` to save the file.
