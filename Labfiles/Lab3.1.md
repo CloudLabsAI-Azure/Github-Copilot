@@ -38,7 +38,7 @@ In this lab, you will complete the following tasks:
 
    ![](../media/py3.png)   
 
-## Task 3: Explore GitHub Copilot Tools
+## Task 2: Explore GitHub Copilot Tools
 
 By leveraging the previously generated code, you will explore specific tools provided by Copilot that simplifies major tasks.
 
