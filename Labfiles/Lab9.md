@@ -15,6 +15,16 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 >**Note**: Before proceeding with the exercise, make sure you have installed Python and pip packages.
 
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
+- Preparing prerequisites and integrating the necessary dataset into your environment
+- Auto Completion of Code with Different Experiments
+- Mathematical and Machine Learning with Different Examples
+- Data Visualization and Data Transformation
+- Training the sample model
+
 ### Task 1: Prerequisites and Injecting the Required Dataset into Your Environment
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
@@ -327,6 +337,8 @@ Training a sample model using Random Forest.
    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
    
   
-### Summary
+### Review
 
 In this lab, you have successfully leveraged the GitHub Copilot for Machine Learning.
+
+## You have successfully completed the lab
