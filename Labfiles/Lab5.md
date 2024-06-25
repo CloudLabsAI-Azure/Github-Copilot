@@ -7,9 +7,9 @@
 
 In this lab, you will complete the following tasks:
 
-- Using the GitHub Copilot workspace to establish a new application Workspace.
-- Leverage file referencing capabilities.
-- Implementing a new feature in the application through file referencing.
+* [Task 1: Utilizing the GitHub Copilot Workspace to Create a New Application Workspace](#Task-1-Utilizing-the-GitHub-Copilot-Workspace-to-Create-a-New-Application-Workspace)
+* [Task 2: Utilize the Capabilities of File Referencing](#Task-2-Utilize-the-Capabilities-of-File-Referencing)
+* [Task 3: Adding a new feature in the application using File Reference](#Task-3-Adding-a-new-feature-in-the-application-using-File-Reference)
   
 ### Task 1: Utilizing the GitHub Copilot Workspace to Create a New Application Workspace
 
