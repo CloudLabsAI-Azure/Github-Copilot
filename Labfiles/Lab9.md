@@ -19,11 +19,11 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 In this lab, you will complete the following tasks:
 
-- Preparing prerequisites and integrating the necessary dataset into your environment
-- Auto Completion of Code with Different Experiments
-- Mathematical and Machine Learning with Different Examples
-- Data Visualization and Data Transformation
-- Training the sample model
+* [Task 1: Prerequisites and Injecting the Required Dataset into Your Environment](#Task-1-Prerequisites-and-Injecting-the-Required-Dataset-into-Your-Environment)
+* [Task 2: Auto_Completion of Code with Different Experiments](#Task-2-Auto_Completion-of-Code-with-Different-Experiments)
+* [Task 3: Mathematical and Machine Learning with Different Examples](#Task-3-Mathematical-and-Machine-Learning-with-Different-Examples)
+* [Task 4: Data Visualization and Data Transformation](#Task-4-Data-Visualization-and-Data-Transformation)
+* [Task 5: Training the sample model](#Task-5-Training-the-sample-model)
 
 ### Task 1: Prerequisites and Injecting the Required Dataset into Your Environment
 
