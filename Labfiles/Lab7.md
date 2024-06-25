@@ -11,9 +11,13 @@ In this exercise, you will participate in a learning or practice activity where 
 
 In this lab, you will complete the following tasks:
 
-- Gain comprehension of the existing code and use GitHub Copilot to refactor the code
-- Review the refactored code
-
+* [Task 1: Understand the code already available for you](#Task-1-Understand-the-code-already-available-for-you)
+* [Task 2: Use GitHub Copilot to refactor the code](#Task-2-Use-GitHub-Copilot-to-refactor-the-code)
+* [Task 3: Review the refactored code and understand how it works](#Task-3-Review-the-refactored-code-and-understand-how-it-works)
+* [Task 4: Use GitHub Copilot Chat with code to refactor the code ](#Task-4-Use-GitHub-Copilot-Chat-with-code-to-refactor-the-code 
+)
+* [Task 5: Create unit test functions](#Task-5-Create-unit-test-functions)
+  
 ## Task 1: Understand the code already available for you.
 
 ### Installing C Sharp (C#) extension in VS Code
