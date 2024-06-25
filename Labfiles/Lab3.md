@@ -40,7 +40,7 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
    ```
    // Driver code
    ```
- ![](../media/py62.png)
+   ![](../media/py62.png)
 
 1. Press `Tab` to accept the suggestion  and then press `Ctrl + S` to save the file.
 
