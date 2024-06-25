@@ -8,7 +8,7 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
 In this lab, you will complete the following tasks:
 
-- Develop a mini game using GitHub Copilot and executing it.
+* [Task : Creating a Mini Game with GitHub Copilot.](#Task-Creating-a-Mini-Game-with-GitHub-Copilot)
 
 ### Task 1: Setting up your environment
 
