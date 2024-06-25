@@ -4,6 +4,12 @@ Duration : 30 minutes
 
 In this exercise, you will utilize the capabilities of GitHub Copilot to construct a classic rock, paper, scissors minigame. Through this practical engagement, you'll not only refine your programming expertise but also bolster your proficiency in crafting console applications using Python.
 
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
+- Develop a mini game using GitHub Copilot and executing it.
+
 ### Task 1: Setting up your environment
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
@@ -42,8 +48,6 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 1. Now,right click on your profile icon in the top right and click on **Your Repositories**.
     
    ![](../media/l2.2.png)
-
-
 
 1. Navigate to [Mini-game-with-copilot](https://github.com/MicrosoftDocs/mslearn-challenge-project-create-mini-game-with-copilot) and click on **Fork**.
 
@@ -139,6 +143,8 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
    ![](../media/game4.png)
    
-### Summary
+## Review
 
-In this exercise, you have successfully created a minigame using Python and Github Copilot.
+In this lab, you have successfully created a minigame using Python and Github Copilot.
+
+## You have successfully completed the lab
