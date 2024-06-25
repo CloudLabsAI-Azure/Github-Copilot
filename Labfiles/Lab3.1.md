@@ -2,6 +2,13 @@
 
 >**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
+- Create a Python script that performs mathematical calculations, functioning like a calculator.
+- Discover the capabilities of GitHub Copilot's tools
+
 ## Task 1:  Develop a Python Script for Implementing a Calculator
 
 1. From the VS Code Explorer window, create a New File.
@@ -31,7 +38,10 @@
 
    ![](../media/py3.png)   
 
-## Explore GitHub Copilot Tools
+## Task 2: Push the code to the GitHub repository
+
+
+## Task 3: Explore GitHub Copilot Tools
 
 By leveraging the previously generated code, you will explore specific tools provided by Copilot that simplifies major tasks.
 
@@ -98,3 +108,8 @@ By leveraging the previously generated code, you will explore specific tools pro
 1. It will open a new file named **test_code.py**, displaying the test cases.
 
       ![](../media/py20.png)
+
+## Review
+In this lab, you learned to create a Python script for a calculator and explored GitHub Copilot tools, which streamline tasks effectively.
+  
+## You have successfully completed the lab
