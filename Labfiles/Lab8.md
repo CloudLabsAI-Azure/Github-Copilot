@@ -11,10 +11,10 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
 In this lab, you will complete the following tasks:
 
-- Install the GitHub Copilot plugin and initiate a new project in the IntelliJ IDEA IDE.
-- Set up a simple Java project and explore copilot suggestions.
-- Retrieving code from comments
-  
+[Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE](#Task-1-Install-the-GitHub-Copilot-plugin-and-create-a-new-project-in-the-IntelliJ-Idea-IDE)
+[Task 2:Create a basic Java project](#Task-2-Create-a-basic-Java-project)
+[Task 3: Getting more suggestions](#Task-3-Getting-more-suggestions)
+ 
 ## Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
 
 1. Navigate to the desktop and open the **IntelliJ IDEA Community** IDE.
