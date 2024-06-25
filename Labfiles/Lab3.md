@@ -64,19 +64,19 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 1. Click on the **Pull Request (1)** symbol as shown below and click on **Create New Pull Request (2)**.
 
-  ![](../media/py50.png)
+    ![](../media/py50.png)
 
 1. Click on New Pull Request.
 
 1. Click on **Create**.
 
- ![](../media/py51.png)
+   ![](../media/py51.png)
 
 1. Click on **Merge Pull Request** and select **Create Merge Commit**.
 
-  ![](../media/py52.png)
+    ![](../media/py52.png)
 
-  ![](../media/py53.png)
+    ![](../media/py53.png)
 
 ### Summary
 
