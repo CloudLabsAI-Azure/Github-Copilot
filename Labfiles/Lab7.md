@@ -361,33 +361,29 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 1. Run the following command to create a new .cs Project.
 
    ```
-   /*
    dotnet new console -n MyNewProject
-   */
+   
    ```
 
 1. Run the following command to add the directory of the new Project that has been created.
 
    ```
-   /*
    cd MyNewProject
-   */
+   
    ```
 
 1. Run the following command to build the project.
 
    ```
-   /*
    dotnet build
-   */
+  
    ```
 
 1. Run the following command to run it and verify the output has been generated.
 
    ```
-   /*
    dotnet run
-   */
+   
    ```
 
 ## Task 5: Create unit test functions
