@@ -7,6 +7,13 @@ In this exercise, you will participate in a learning or practice activity where 
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this lab, but the exact suggestion may vary.
 
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
+- Gain comprehension of the existing code and use GitHub Copilot to refactor the code
+- Review the refactored code
+
 ## Task 1: Understand the code already available for you.
 
 ### Installing C Sharp (C#) extension in VS Code
@@ -414,6 +421,8 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-## Summary
+## Review
 
 In this lab, you have successfully employed GitHub Copilot to carry out code refactoring tasks and created unit test functions. Code refactoring with Copilot's assistance will make your coding projects more efficient and collaborative.
+
+## You have successfully completed the lab
