@@ -31,10 +31,22 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
    ![](../media/.png)
 
-1. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
+1. Press `Tab` to accept the suggestion.
 
    ![](../media/cel1.png)
 
+1. In the next line, type the following:
+
+   ```
+   // Driver code
+   ```
+
+1. Press `Tab` to accept the suggestion  and then press `Ctrl + S` to save the file.
+
+  ![](../media/py23.png)
+
+   > **Note**: However, it should be noted that the suggestions from GitHub Copilot may vary, necessitating a clear understanding of the Javascript code and its usage.
+   
 1. Run the application with the **node skills.js** command in the terminal and verify the output has been generated.
 
    ![](../media/py28.png)
