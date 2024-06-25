@@ -7,6 +7,14 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
+- Install the GitHub Copilot plugin and initiate a new project in the IntelliJ IDEA IDE.
+- Set up a simple Java project and explore copilot suggestions.
+- Retrieving code from comments
+  
 ## Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
 
 1. Navigate to the desktop and open the **IntelliJ IDEA Community** IDE.
@@ -158,9 +166,9 @@ GitHub Copilot can understand significantly more context than most code assistan
    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
-   
-  
-### Summary
+     
+## Review
 
-In this lab, you have successfully configured the JetBrains IntelliJ Idea IDE for Java, installed the GitHub Copilot plugin, and explored the basic Java code that produced the
-suggestions using Copilot.
+In this lab, you have successfully configured the JetBrains IntelliJ Idea IDE for Java, installed the GitHub Copilot plugin, and explored the basic Java code that produced the suggestions using Copilot.
+
+## You have successfully completed the lab
