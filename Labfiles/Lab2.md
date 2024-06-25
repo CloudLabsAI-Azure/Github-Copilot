@@ -23,6 +23,24 @@ In this lab, you will complete the following tasks:
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**
 
+1. Select the `main` branch and click on **View all branches**.
+
+   ![](../media/py31.png)
+
+1. Click on **New Branch**.
+
+    ![](../media/py32.png)
+
+1. Provide the new branch name as **prod  (1)** and click on **Create New Branch (2)**.
+
+    ![](../media/py33.png)
+
+1. Click on the main branch and verify **prod** is created.
+
+    ![](../media/py35.png)
+
+1. Navigate to prod branch.
+   
 1. In the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `Create new file` **(3)**.
 
     ![](../media/dp1.png)
@@ -51,18 +69,17 @@ In this lab, you will complete the following tasks:
 
    ![](../media/dp2.png)
    
-1. Select the option to **Commit directly to the `main` branch**, and then click the **Commit changes** button.
+1. Select the option to **Commit directly to the `prod` branch**, and then click the **Commit changes** button.
 
-   ![](../media/commit-file.png)
-
+   ![](../media/py36.png)
 
 1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
-   ![](../media/dp3.png)
+   ![](../media/py37.png)
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
 
-   ![](../media/dp4.png)
+   ![](../media/py39.png)
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
