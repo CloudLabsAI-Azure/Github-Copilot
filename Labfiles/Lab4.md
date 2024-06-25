@@ -8,7 +8,8 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
 In this lab, you will complete the following tasks:
 
-* [Task : Creating a Mini Game with GitHub Copilot.](#Task-Creating-a-Mini-Game-with-GitHub-Copilot)
+* [Task 1: Setting up your environment](#Task-1-Setting-up-your-environment)
+* [Task 2: Testing your GitHub Codespace](#Task2-Testing-your-GitHub-Codespace)
 
 ### Task 1: Setting up your environment
 
@@ -139,7 +140,7 @@ In this lab, you will complete the following tasks:
 
    ![](../media/openterminal.png)
 
-1. Run the application with the **python app.py** command in the terminal.
+1. Run the application with the `python app.py` command in the terminal.
 
    ![](../media/game4.png)
    
