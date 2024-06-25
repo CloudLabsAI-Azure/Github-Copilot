@@ -354,6 +354,42 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
      >**Note:** It's essential to carefully review copilot suggestions before applying them.
 
+1. Click on the **ellipsis (1)** on the top, click on **Terminal (2)** and select **New Terminal (3)**.
+
+      ![](../media/openterminal.png)
+
+1. Run the following command to create a new .cs Project.
+
+   ```
+   /*
+   dotnet new console -n MyNewProject
+   */
+   ```
+
+1. Run the following command to add the directory of the new Project that has been created.
+
+   ```
+   /*
+   cd MyNewProject
+   */
+   ```
+
+1. Run the following command to build the project.
+
+   ```
+   /*
+   dotnet build
+   */
+   ```
+
+1. Run the following command to run it and verify the output has been generated.
+
+   ```
+   /*
+   dotnet run
+   */
+   ```
+
 ## Task 5: Create unit test functions
 
 1. From the codespace in the VS Code Explorer window, create a new file.
