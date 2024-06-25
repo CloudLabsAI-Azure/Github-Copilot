@@ -29,23 +29,24 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
    
    > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
-   ![](../media/.png)
+   ![](../media/py70.png)
 
 1. Press `Tab` to accept the suggestion.
 
-   ![](../media/cel1.png)
+   ![](../media/61.png)
 
 1. In the next line, type the following:
 
    ```
    // Driver code
    ```
+ ![](../media/62.png)
 
 1. Press `Tab` to accept the suggestion  and then press `Ctrl + S` to save the file.
 
-  ![](../media/py23.png)
+      ![](../media/py63.png)
 
-   > **Note**: However, it should be noted that the suggestions from GitHub Copilot may vary, necessitating a clear understanding of the Javascript code and its usage.
+     > **Note**: However, it should be noted that the suggestions from GitHub Copilot may vary, necessitating a clear understanding of the Javascript code and its usage.
    
 1. Run the application with the **node skills.js** command in the terminal and verify the output has been generated.
 
@@ -53,9 +54,9 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
   > **Note**: You can also try the same commands to convert from Fahrenheit to Celsius as shown below:
 
-   ![](../media/py26.png)
-
    ![](../media/py24.png)
+
+   ![](../media/py26.png)
 
 ## Task 2: Create a Pull Request
 
