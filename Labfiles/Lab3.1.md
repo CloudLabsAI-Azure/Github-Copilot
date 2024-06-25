@@ -38,9 +38,6 @@ In this lab, you will complete the following tasks:
 
    ![](../media/py3.png)   
 
-## Task 2: Push the code to the GitHub repository
-
-
 ## Task 3: Explore GitHub Copilot Tools
 
 By leveraging the previously generated code, you will explore specific tools provided by Copilot that simplifies major tasks.
