@@ -380,47 +380,6 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
    ![](../media/addtestcase.png)
 
-### Task 5: Push code to your repository from the codespace
-
-1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
-
-1. Run the below command to add the `codechat.cs`, `test.js`  files to the repository:
-
-   ```
-   git add codechat.cs test.js
-   ```
-
-1. Next, from the VS Code terminal stage, commit the changes to the repository:
-
-   ```
-   git commit -m "Copilot third commit"
-   ```
-
-1. Finally, from the VS Code terminal, push to code to the repository:
-
-   ```
-   git push
-   ```
-
-   ![](../media/ex-4-push5.png)
-
-   <validation step="ad1afa57-ac1b-412e-9dde-78969033099e" />
-
-    > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
-    > - On GitHub, locate your profile photo at the top right corner of the screen.
-    > - Copy your GitHub username.
-
-     ![Picture1](../media/gihubuser15.png)
-
-    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    > - Hit the Validate button for the corresponding task. Paste your GitHub username into the required field and click on submit.
-
-     ![Picture1](../media/gihubuser115.png)
-
-    > - If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
 ## Review
 
 In this lab, you have successfully employed GitHub Copilot to carry out code refactoring tasks and created unit test functions. Code refactoring with Copilot's assistance will make your coding projects more efficient and collaborative.
