@@ -16,7 +16,7 @@ In this lab, you will create a development container and define specific extensi
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
- * [Task 1: Enable Copilot inside a Codespace](## Task 1: Enable Copilot inside a Codespace)
+ * ![Task 1: Enable Copilot inside a Codespace](## Task 1: Enable Copilot inside a Codespace)
 
 - Activate GitHub Copilot within a Codespace environment.
 
