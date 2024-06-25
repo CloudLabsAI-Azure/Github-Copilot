@@ -1,4 +1,4 @@
-# Lab 4: Using GitHub Copilot to generate ARM Templates & Terraform Manifests
+# Lab 6: Using GitHub Copilot to generate ARM Templates & Terraform Manifests
 
 ### About GitHub Copilot Chat and Visual Studio Code
 
