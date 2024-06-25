@@ -17,6 +17,15 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 > **Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
+- Generate Azure resource deployment code using ARM templates through a chat interface.
+- Establish the context with a broad objective
+- Generate Terraform code via chat for deploying Azure resources.
+- Generate PowerShell code via chat.
+
 ### Task 1: Generate code by chat that uses ARM to deploy resources to Azure
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
