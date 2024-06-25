@@ -6,8 +6,9 @@
 
 In this lab, you will complete the following tasks:
 
-- Create a Python script that performs mathematical calculations, functioning like a calculator.
-- Discover the capabilities of GitHub Copilot's tools
+* [Task 1: Develop a Python Script for Implementing a Calculator](#Task-1-Develop-a-Python-Script-for-Implementing-a-Calculator
+)
+* [Task 2: Explore GitHub Copilot Tools](#Task-2-Explore-GitHub-Copilot-Tools)
 
 ## Task 1:  Develop a Python Script for Implementing a Calculator
 
