@@ -43,7 +43,7 @@ In this lab, you will complete the following tasks:
    
 1. In the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `Create new file` **(3)**.
 
-    ![](../media/dp1.png)
+    ![](../media/py60.png)
 
 1. Type or paste the following in the empty text field prompt to name your file **(1)**.
 
