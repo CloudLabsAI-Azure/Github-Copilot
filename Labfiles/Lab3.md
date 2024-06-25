@@ -8,6 +8,13 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
 >**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
+- Generate a JavaScript file
+- Initiate a pull request
+
 ## Task 1: Add a JavaScript file and start writing code.
 
 1. In the LABVM desktop, select Visual Studio Code.
@@ -78,6 +85,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
     ![](../media/py53.png)
 
-### Summary
+## Review
+In this lab, you have effectively created JavaScript code and pushed it from the production branch to the main branch.
 
-In this lab, you have successfully generated JavaScript code and other best practices using GitHub Copilot and GitHub Copilot Chat.
+## You have successfully completed the lab
