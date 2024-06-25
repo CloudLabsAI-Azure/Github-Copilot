@@ -12,10 +12,10 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
 In this lab, you will complete the following tasks:
 
-- Generate a JavaScript file
-- Initiate a pull request
+- * [Task 1: Add a JavaScript file and start writing code](#Task-1-Add-a-JavaScript-file-and-start-writing-code)
+- * [Task 1: Add a JavaScript file and start writing code](#Task-1-Add-a-JavaScript-file-and-start-writing-code)
 
-## Task 1: Add a JavaScript file and start writing code.
+## Task 1: Add a JavaScript file and start writing code
 
 1. In the LABVM desktop, select Visual Studio Code.
  
