@@ -23,22 +23,47 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 1. In the `skills.js` file, type the following function header:
 
    ```
-   function toCelsius(fahrenheit)
+   // function to covert Celsius
+   // to Fahrenheit
    ```
    
    > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
-   ![](../media/cel9.png)
+   ![](../media/.png)
 
 1. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
 
    ![](../media/cel1.png)
 
-## Task 2: Push code to your repository from the codespace
+1. Run the application with the **node skills.js** command in the terminal and verify the output has been generated.
 
-In this task, you will use the VS Code terminal to add the `skills.js` file to the GitHub repository.
+   ![](../media/py28.png)
 
+  > **Note**: You can also try the same commands to convert from Fahrenheit to Celsius as shown below:
 
+   ![](../media/py26.png)
+
+   ![](../media/py24.png)
+
+## Task 2: Create a Pull Request
+
+In this task, you will use the VS Code terminal to add the `skills.js` file to the GitHub repository from `prod` to `main`.
+
+1. Click on the **Pull Request (1)** symbol as shown below and click on **Create New Pull Request (2)**.
+
+  ![](../media/py50.png)
+
+1. Click on New Pull Request.
+
+1. Click on **Create**.
+
+ ![](../media/py51.png)
+
+1. Click on **Merge Pull Request** and select **Create Merge Commit**.
+
+  ![](../media/py52.png)
+
+  ![](../media/py53.png)
 
 ### Summary
 
