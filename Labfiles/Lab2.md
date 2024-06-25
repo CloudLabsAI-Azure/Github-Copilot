@@ -13,6 +13,12 @@ Using Copilot inside a Codespace shows just how easy it is to get up and running
 
 In this lab, you will create a development container and define specific extensions or configurations that will be used or installed in your codespace. You will create this development container and add Copilot to the list of extensions.
 
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
+- Activate GitHub Copilot within a Codespace environment.
+
 ## Task 1: Enable Copilot inside a Codespace
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**
@@ -107,3 +113,8 @@ In this lab, you will create a development container and define specific extensi
 ### Summary
 
 In this lab, you have created a development container and added Copilot to the list of extensions.
+
+## Review
+In this lab, you enabled GitHub Copilot within a Codespace environment to enhance coding capabilities.
+
+## You have successfully completed the lab
