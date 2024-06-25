@@ -11,7 +11,7 @@ In this lab, you will complete the following tasks:
 * [Task 2: Utilize the Capabilities of File Referencing](#Task-2-Utilize-the-Capabilities-of-File-Referencing)
 * [Task 3: Adding a new feature in the application using File Reference](#Task-3-Adding-a-new-feature-in-the-application-using-File-Reference)
   
-### Task 1: Utilizing the GitHub Copilot Workspace to Create a New Application Workspace
+## Task 1: Utilizing the GitHub Copilot Workspace to Create a New Application Workspace
 
 The Github Copilot Workspace can not only provide the instructions, answers, or detailed code snippets regarding the queries you submit to it, but it can also create the complete workspace of an application from scratch. Here, you will be creating a new simple React app named **Expense Tracker** to track the expenses of the users and also modify (edit) or delete them, all with the help of the **GitHub Copilot Workspace**. You will be debugging the app using this feature itself and verifying that the app runs successfully in your local environment. To create the `Expense Tracker` app using the **GitHub Copilot workspace**, follow the below steps:
 
@@ -111,7 +111,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
     ![](../media/file19.png)
 
-### Task 2: Utilize the Capabilities of File Referencing
+## Task 2: Utilize the Capabilities of File Referencing
 
 **File Referencing in GitHub Copilot** refers to the AI's ability to understand and interpret the context of your project by considering the information in other files within your workspace.
 
@@ -147,7 +147,7 @@ In this task, you will be utilizing the **GitHub Copilot File Referencing** capa
     @workspace How can I change the CSS for my application?
     ```
     
-# Task 3: Adding a new feature in the application using File Reference
+## Task 3: Adding a new feature in the application using File Reference
 
 In this task, you will be utilizing the file reference capability to integrate a new feature in your **Expense Tracker** application. You will include a **Date** field in the **ExpenseForm** document and display it in **ExpenseItem**, and then you, will be able to sort the expenses by date in the **ExpenseList** component.
 
