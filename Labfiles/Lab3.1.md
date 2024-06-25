@@ -22,11 +22,10 @@ In this lab, you will complete the following tasks:
 
    ![](../media/py1.png)
 
-1. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** and click > or press **Enter (2)**. Copilot will give a response, and you can review it and click **Accept (3)**. Also, you can **Discard** the suggestion as depicted in the image below. 
+1. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** and click > or press **Enter (2)**. Copilot will give a response, and you can review it and click **Accept (3)**. Also, you can **Discard** the suggestion as depicted in the image below.
+   
    ```
-   /*
    Create a simple calculator that can add, subtract, multiply or divide depending upon the input from the user.
-   */
    ```
 
    ![](../media/py2.png)
