@@ -264,62 +264,6 @@ In this lab, you will complete the following tasks:
 1. Press `CTRL + S` to save the file. Name the file `powershell.ps1` and click on **OK**.
 
    ![](../media/ps-save.png)
-
-### Task 5: Push code to your repository from the codespace
-
-1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
-
-1. Run the below command to add the `arm.json` , `terraform.tf` and `powershell.ps1` files to the repository:
-
-   ```
-   git add arm.json terraform.tf powershell.ps1
-   ```
-
-1. Run the below command to sign in with GitHub
-
-   - Email
-    ```
-    git config --global user.email "github user email"
-    ```
-    -  Username
-    ```
-    git config --global user.name "github username"
-    ```
-
-1. Click on **Sign in with your browser** when the following pop-up arises.
-
-    ![](../media/clone30.png)
-
-1. Verify if the authentication has succeeded.
-
-    ![](../media/clone67.png)
-
-1. Next, from the VS Code terminal stage, commit the changes to the repository:
-
-   ```
-   git commit -m "Copilot third commit"
-   ```
-
-1. Finally, from the VS Code terminal, push to code to the repository:
-
-   ```
-   git push
-   ```
-
-   >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
-
-1. You can verify the `arm.json`, `powershell.ps1`, and `terraform.tf` files available in your GitHub repository.
-
-   ![](../media/ex-4-github5-1.png)
-
-    
-   <validation step="41cb7abc-f8a9-4af0-a8c9-3df487cfda04" />
-
-   **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - Navigate to the Lab Validation page, from the upper right corner in the lab guide section.
-   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
   
 ### Summary
 
