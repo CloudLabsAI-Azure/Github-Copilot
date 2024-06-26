@@ -1,4 +1,4 @@
-# Exercise 6: Using GitHub Copilot Workspace and File Reference
+# Lab 6: Using GitHub Copilot Workspace and File Reference
 
 Duration: 60 minutes
 
