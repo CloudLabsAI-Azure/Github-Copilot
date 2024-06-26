@@ -22,7 +22,9 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
    ![](../media/higher.png)
   
-# Lab 1: Login to GitHub and create a GitHub repository
+## Lab 1: Login to GitHub and create a GitHub repository
+
+In this lab, we will be creating a GitHub repository that involves establishing a digital space on GitHub where developers can store and manage code and files collaboratively. This process begins with defining the repository's name, description, and optionally, its visibility (public or private). After creation, the repository serves as a centralized location for version-controlled content, enabling contributors to make changes, propose improvements through pull requests, and manage project milestones using issues and project boards. GitHub repositories support integration with various development tools and services, facilitating efficient collaboration and version control across teams working on software projects of any scale.
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
