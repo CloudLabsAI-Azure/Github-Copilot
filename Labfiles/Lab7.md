@@ -1,4 +1,6 @@
-# Lab 6: Using GitHub Copilot to generate ARM Templates & Terraform Manifests
+# Lab 7: Using GitHub Copilot to generate ARM Templates & Terraform Manifests
+
+Duration: 60 minutes
 
 ### About GitHub Copilot Chat and Visual Studio Code
 
