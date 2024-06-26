@@ -1,4 +1,4 @@
-# Exercise 5: Creating a Mini Game using GitHub Copilot
+# Lab 5: Creating a Mini Game using GitHub Copilot
 
 Duration : 30 minutes
 
