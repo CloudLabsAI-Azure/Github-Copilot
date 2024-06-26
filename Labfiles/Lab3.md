@@ -1,4 +1,6 @@
-# Lab 3.1: Best practices to use GitHub Copilot
+# Lab 3: Best practices to use GitHub Copilot
+
+Duration: 30 minutes
 
 GitHub Copilot accelerates the creation of programming language scripts through AI-driven code generation and intelligent tools. By analyzing context and comments, Copilot swiftly generates foundational code and offers dynamic suggestions for enhancements and optimizations.Beyond code generation, Copilot offers advanced features like autocompletion, code expansion, and suggestions for enhancing existing code or introducing new functionalities. 
 
