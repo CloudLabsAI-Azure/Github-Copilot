@@ -13,6 +13,16 @@ Powered by OpenAI Codex and GitHub Copilot's generative, pre-trained language mo
  - Basic understanding of GitHub fundamentals
  - A GitHub Enterprise Cloud administrator account
 
+## Github Copilot for Individuals
+
+GitHub Copilot is an AI-powered coding assistant developed by GitHub, designed to help individual developers by providing intelligent code suggestions, automating repetitive tasks, and enhancing productivity during software development. It leverages machine learning models trained on vast repositories of code to generate code snippets, complete functions, and offer contextual suggestions based on the developer's input and coding patterns. Copilot supports various programming languages and adapts to individual coding styles, making it a valuable tool for accelerating coding tasks, exploring new techniques, and improving code quality.
+
+Ways in which the data in GitHub Copilot Individual can be used and shared :
+
+- **Enhancing GitHub Copilot**: The data collected is utilized to improve GitHub Copilot by evaluating different strategies for processing and predicting suggestions that users may find valuable.
+- **Developing related developer products and services**: The insights gained from the data help in the development and improvement of other developer tools and services offered by GitHub and Microsoft.
+- **Detecting abuse and policy violations**: The data is examined to investigate and identify any potential misuse or violation of the Acceptable Use Policies associated with GitHub Copilot.
+
 ## GitHub Copilot for Business
 
 GitHub Copilot is available through GitHub personal accounts with GitHub Copilot for Individuals or through organization or enterprise accounts with GitHub Copilot for Business.
@@ -44,16 +54,17 @@ Enterprise owners can allow some or all organizations in the enterprise to acces
 - **GitHub Copilot Chat in GitHub.com**: GitHub Copilot Chat in GitHub.com is a chat interface that lets you ask and receive answers to coding-related questions within GitHub.com.
 - **Copilot pull request summaries**: Copilot pull request summaries is an AI-powered feature that allows you to create a summary of the changes that were made in a pull request, which files they impact, and what a reviewer should focus on when they conduct their review.
 
-### Understanding the differences between Copilot Business, Copilot Individual, and Copilot Enterprise
+### Understanding the differences between Copilot for Individuals, Business and Enterprise
 
-|                                                            | GitHub Copilot for Business |GitHub Copilot for Individuals  | GitHub Copilot Enterprise |
+
+|                                                            | GitHub Copilot for Individuals |GitHub Copilot for Business | GitHub Copilot Enterprise |
 | ---------------------------------------------------------- | --------------------------- | ------------------------------- | ------------- |
-| Zero data retention for code snippets and usage telemetry	|             ✓              |              ✕                  |   ✕  |
+| Zero data retention for code snippets and usage telemetry	|             ✕              |              ✓                  |   ✕  |
 | Block suggestions matching the public code                 	 |             ✓	             |               ✓              |   ✓   |
 | Plugs right into your editor                            	 |             ✓	             |               ✓                 |    ✓  |
 | Offers multiline function suggestions                   	 |             ✓	             |               ✓                 |   ✓   |
-| Organization-wide policy management                     	 |             ✓	             |               ✕                 |   ✓   |
-| VPN proxy support via self-signed certificates           	|             ✓	             |               ✕                 |  ✕    |
+| Organization-wide policy management                     	 |             ✕	             |               ✓                 |   ✓   |
+| VPN proxy support via self-signed certificates           	|             ✕	             |               ✓                 |  ✕    |
 
 ### GitHub Copilot for Business Use Cases and Customer Stories
 
