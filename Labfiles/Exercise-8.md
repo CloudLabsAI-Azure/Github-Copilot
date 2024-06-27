@@ -1,4 +1,4 @@
-# Exercise 7: Using GitHub Copilot for T-SQL and YAML Code [Optional]
+# Exercise 8: Using GitHub Copilot for T-SQL and YAML Code [Optional]
 
 Duration: 20 minutes
 
