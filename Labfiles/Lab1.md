@@ -13,6 +13,16 @@ Powered by OpenAI Codex and GitHub Copilot's generative, pretrained language mod
  - Basic understanding of GitHub fundamentals
  - A GitHub Enterprise Cloud administrator account
 
+## Github Copilot for Individuals
+
+GitHub Copilot is an AI-powered coding assistant developed by GitHub, designed to help individual developers by providing intelligent code suggestions, automating repetitive tasks, and enhancing productivity during software development. It leverages machine learning models trained on vast repositories of code to generate code snippets, complete functions, and offer contextual suggestions based on the developer's input and coding patterns. Copilot supports various programming languages and adapts to individual coding styles, making it a valuable tool for accelerating coding tasks, exploring new techniques, and improving code quality.
+
+Ways in which the data in GitHub Copilot Individual can be used and shared :
+
+- **Enhancing GitHub Copilot**: The data collected is utilized to improve GitHub Copilot by evaluating different strategies for processing and predicting suggestions that users may find valuable.
+- **Developing related developer products and services**: The insights gained from the data help in the development and improvement of other developer tools and services offered by GitHub and Microsoft.
+- **Detecting abuse and policy violations**: The data is examined to investigate and identify any potential misuse or violation of the Acceptable Use Policies associated with GitHub Copilot.
+
 ## GitHub Copilot for Business
 
 GitHub Copilot is available through GitHub personal accounts with GitHub Copilot for Individuals or through organization or enterprise accounts with GitHub Copilot for Business.
@@ -29,6 +39,14 @@ Here are some features you can expect from Copilot for Business:
  - AI-based security vulnerability filtering: GitHub Copilot automatically blocks common insecure code suggestions by targeting issues such as hardcoded credentials, SQL injections, and path injections.
  - VPN proxy support: GitHub Copilot works with VPNs, including with self-signed certificates, so developers can use it in any working environment.
  - Simple sign-up: Regardless of whether a business does not use the GitHub service for its source code, it can easily buy Copilot for Business licenses online and assign seats.
+
+## GitHub Copilot for Enterprise
+
+GitHub Copilot is an AI-powered coding assistant that helps developers write code faster.
+
+GitHub Copilot Enterprise is a Copilot plan available for enterprises that use GitHub Enterprise Cloud. It provides AI features to enhance your experience on GitHub.com, such as the ability to chat with Copilot in the browser and reference context for Copilot from across your project repositories. For more information, see "GitHub Copilot Enterprise feature set." For details of the differences between GitHub Copilot Enterprise and the other Copilot plans, see the comparison table below.
+
+Enterprise owners can allow some or all organizations in the enterprise to access GitHub Copilot. If an organization has access to Copilot, owners of the organization can assign Copilot Enterprise seats to some or all members of the organization.
 
 ### GitHub Copilot for Business vs. GitHub Copilot for Individuals
 
