@@ -48,6 +48,14 @@ GitHub Copilot Enterprise is a Copilot plan available for enterprises that use G
 
 Enterprise owners can allow some or all organizations in the enterprise to access GitHub Copilot. If an organization has access to Copilot, owners of the organization can assign Copilot Enterprise seats to some or all members of the organization.
 
+### GitHub Copilot Enterprise includes the following features, available to all users who are assigned a GitHub Copilot Enterprise seat:
+
+- **GitHub Copilot in your IDE**: GitHub Copilot is an AI tool that offers autocomplete-style suggestions in your IDE.
+- **GitHub Copilot Chat in your IDE**: GitHub Copilot Chat in your IDE is a chat interface that lets you ask and receive answers to coding-related questions within supported IDEs.
+- **GitHub Copilot in the CLI**: GitHub Copilot in the CLI provides a chat-like interface in the terminal that allows you to ask questions about the command line. You can ask GitHub Copilot to provide either command suggestions or explanations of given commands.
+- **GitHub Copilot Chat in GitHub.com**: GitHub Copilot Chat in GitHub.com is a chat interface that lets you ask and receive answers to coding-related questions within GitHub.com.
+- **Copilot pull request summaries**: Copilot pull request summaries is an AI-powered feature that allows you to create a summary of the changes that were made in a pull request, which files they impact, and what a reviewer should focus on when they conduct their review.
+
 ### Understanding the differences between Copilot for Individuals, Business and Enterprise
 
 
