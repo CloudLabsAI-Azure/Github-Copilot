@@ -46,14 +46,32 @@ Enterprise owners can allow some or all organizations in the enterprise to acces
 
 ### Understanding the differences between Copilot Business, Copilot Individual, and Copilot Enterprise
 
-|                                                            | GitHub Copilot for Business |GitHub Copilot for Individuals  | GitHub Copilot Enterprise |
+|                                                            | GitHub Copilot for Individuals |GitHub Copilot for Business | GitHub Copilot Enterprise |
 | ---------------------------------------------------------- | --------------------------- | ------------------------------- | ------------- |
-| Zero data retention for code snippets and usage telemetry	|             ✓              |              ✕                  |   ✕  |
-| Block suggestions matching the public code                 	 |             ✓	             |               ✓              |   ✓   |
-| Plugs right into your editor                            	 |             ✓	             |               ✓                 |    ✓  |
-| Offers multiline function suggestions                   	 |             ✓	             |               ✓                 |   ✓   |
-| Organization-wide policy management                     	 |             ✓	             |               ✕                 |   ✓   |
-| VPN proxy support via self-signed certificates           	|             ✓	             |               ✕                 |  ✕    |
+| Unlimited messages and interactions            |             ✓	             |      ✓                 |    ✓  |
+| Context-aware coding support and explanations   |             ✓	             |      ✓                 |    ✓  |
+| Debugging and security remediation assistance |             ✓	             |         ✓                 |    ✓  |
+| Conversations tailored to your organization’s repositories  |     ✕	             |   ✕	 |    ✓  |
+| Answers based on your organization’s knowledge base |             ✕	             |   ✕	 |    ✓  |
+| Access to knowledge from top open source repositories |             ✕	             |    ✕	 |    ✓  |
+| Pull request diff analysis         |             ✕	             |   ✕	 |    ✓  |
+| Web search powered by Bing (beta)  |             ✕	             |   ✕	 |    ✓  |
+| Real time code suggestions |             ✓	             |               ✓                 |    ✓  |
+| Comments to code |             ✓	             |               ✓                 |    ✓  |
+| Fine-tuned models (coming soon as add-on) |             ✕	             |   ✕	 |    ✓  |
+| Inline chat and prompt suggestions |             ✓	             |               ✓                 |    ✓  |
+| Slash commands and context variables |             ✓	             |               ✓                 |    ✓  |
+| Commit message generation |             ✓	             |               ✓                 |    ✓  |
+| Pull request description and summarization |             ✕	             |   ✕	 |    ✓  |
+| IDE, CLI and GitHub Mobile |             ✓	             |               ✓                 |    ✓  |
+| GitHub.com |             ✕	             |   ✕	 |    ✓  |
+| Public code filter |             ✓	             |               ✓                 |    ✓  |
+| User management |             ✕	             |  ✓                 |    ✓  |
+| Data excluded from training by default |             ✕	             |  ✓                 |    ✓  |
+| IP indemnity |             ✕	             |  ✓                 |    ✓  |
+| Content exclusions |             ✕	             |  ✓                 |    ✓  |
+| SAML SSO authentication¹ |             ✕	             |  ✓                 |    ✓  |
+| Requires GitHub Enterprise Cloud |             ✕	             |   ✕	 |    ✓  |
 
 ### GitHub Copilot for Business Use Cases and Customer Stories
 
