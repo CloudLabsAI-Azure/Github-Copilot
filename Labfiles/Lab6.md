@@ -132,14 +132,14 @@ Sometimes, you may not want to use any of the initial suggestions. You can ask G
 >**Note**: If the 'Alt + Enter' isn't working, please select Github Co-pilot from the right pane as shown in the below image.
 
    ![](../media/github.png)
-   
-1. Select "Open Copilot". GitHub Copilot will open a new tab and suggest multiple options, as shown below.
+
+1.Select "Open Copilot". GitHub Copilot will open a new tab and suggest multiple options, as shown below.
 
    ![](../media/ex6-copilot-suggestion.png)
 
-1. Pick a suggestion that you want to use, then click "Accept solution".
+2.Pick a suggestion that you want to use, then click "Accept solution".
 
-1. If you don't like any of the returned suggestions, just close the suggestions tab.
+3.If you don't like any of the returned suggestions, just close the suggestions tab.
 
 
 ## Task 4: Getting code from a comment
@@ -162,7 +162,7 @@ GitHub Copilot can understand significantly more context than most code assistan
   
   <validation step="554ef91e-3530-4e62-ae6d-e1cfec7b4bf7" />
  
-   **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+ **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    - Navigate to the Lab Validation page, from the upper right corner in the lab guide section.
    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
