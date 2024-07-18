@@ -1,4 +1,4 @@
-# Exercise 3: View the GitHub Copilot tab with multiple suggestions
+# Exercise 3: Exploring Python with GitHub Copilot: Intelligent Code Suggestions
 
 Duration: 20 minutes
 
