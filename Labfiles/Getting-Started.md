@@ -2,7 +2,7 @@
 
 ## Exercises Overview
 
-Duration: 10 minutes
+### Duration: 10 minutes
 
 **Exercise 1: Leverage Codespaces with VS Code for Copilot**: GitHub Copilot, powered by OpenAI Codex, speeds up coding with contextual suggestions across various editors, while GitHub Codespaces provides consistent, cloud-hosted development setups.
 
