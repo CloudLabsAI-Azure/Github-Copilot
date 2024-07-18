@@ -10,11 +10,11 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
 
 ## Lab objectives
 
-You will be able to complete the following exercises:
+You will be able to complete the following tasks:
 
-- Generate a SQL query with GitHub Copilot using comments
-- Generate YAML with GitHub Copilot using comments
-- Push code to your repository from the codespace
+- Task 1: Generate a SQL query with GitHub Copilot using comments
+- Task 2: Generate YAML with GitHub Copilot using comments
+- Task 3: Push code to your repository from the codespace
 
 
 ### Task 1: Generate a SQL query with GitHub Copilot using comments
