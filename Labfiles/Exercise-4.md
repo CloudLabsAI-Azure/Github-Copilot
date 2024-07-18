@@ -23,12 +23,12 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 
 ## Lab objectives
 
-You will be able to complete the following exercises:
+You will be able to complete the following tasks:
 
-- Generate code by chat that uses ARM to deploy resources to Azure
-- Generate code by chat that uses Terraform to deploy resources to Azure
-- Generate code by chat that uses PowerShell to deploy resources to Azure
-- Push code to your repository from the codespace
+- Task 1: Generate code by chat that uses ARM to deploy resources to Azure
+- Task 2: Generate code by chat that uses Terraform to deploy resources to Azure
+- Task 3: Generate code by chat that uses PowerShell to deploy resources to Azure
+- Task 4: Push code to your repository from the codespace
 
 ### Task 1: Generate code by chat that uses ARM to deploy resources to Azure
 
