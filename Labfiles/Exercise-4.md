@@ -136,3 +136,5 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 ### Summary
 
 In this exercise, Copilot has been utilized to automatically generate code in ARM, Terraform, and PowerShell.
+
+### You have successfully completed the lab
