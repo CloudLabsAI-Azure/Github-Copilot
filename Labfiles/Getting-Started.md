@@ -1,6 +1,6 @@
-## Getting Started with the Lab
+# Getting Started with the Lab
 
-#### Estimated Duration: 10 minutes
+### Estimated Duration: 10 minutes
 
 ## Exercises Overview
 
