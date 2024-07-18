@@ -12,14 +12,14 @@ In this exercise, you will engage in a learning or practice activity with the pr
 
 ## Lab objectives
 
-You will be able to complete the following exercises:
+You will be able to complete the following tasks:
 
-- Understand the code already available for you
-- Use GitHub Copilot to refactor the code
-- Review the refactored code and understand how it works
-- Use GitHub Copilot Chat with code to refactor the code
-- Create unit test functions
-- Push code to your repository from the codespace
+- Task 1: Understand the code already available for you
+- Task 2: Use GitHub Copilot to refactor the code
+- Task 3: Review the refactored code and understand how it works
+- Task 4: Use GitHub Copilot Chat with code to refactor the code
+- Task 5: Create unit test functions
+- Task 6: Push code to your repository from the codespace
 
 ## Task 1: Understand the code already available for you
 
