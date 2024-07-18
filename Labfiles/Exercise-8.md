@@ -85,3 +85,5 @@ In this exercise, the primary objective is to leverage the capabilities of GitHu
 ### Summary
 
 In this exercise, you have successfully generated code for SQL and YAML using comments with the help of GitHub Copilot.
+
+### You have successfully completed the lab
