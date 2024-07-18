@@ -1,6 +1,6 @@
 # Exercise 7: Enhancing Web Accessibility with GitHub Copilot Chat and Accessibility Insights
 
-### Duration: 90 minutes
+### Estimated Duration: 90 minutes
 
 **GitHub Copilot Chat** is an AI-powered code completion tool that helps developers by suggesting code snippets and solutions based on context. This tool can significantly speed up the development process by providing relevant code suggestions and automating repetitive tasks.
 
