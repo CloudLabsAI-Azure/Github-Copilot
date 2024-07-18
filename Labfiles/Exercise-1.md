@@ -113,3 +113,5 @@ In this exercise, you are tasked with creating a development container. You will
 ### Summary
 
 In this exercise, you have created a development container and added Copilot to the list of extensions.
+
+### You have successfully completed the lab
