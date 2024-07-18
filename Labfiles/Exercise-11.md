@@ -80,3 +80,5 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 ### Summary
 
 In this exercise, you have successfully created a minigame using Python and Github Copilot.
+
+### You have successfully completed the lab
