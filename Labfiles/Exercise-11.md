@@ -6,11 +6,11 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
 ## Lab objectives
 
-You will be able to complete the following exercises:
+You will be able to complete the following tasks:
 
-- Setting up your environment
-- Testing your GitHub Codespace
-- Creating the game logic
+- Task 1: Setting up your environment
+- Task 2: Testing your GitHub Codespace
+- Task 3: Creating the game logic
 
 ### Task 1: Setting up your environment
 
