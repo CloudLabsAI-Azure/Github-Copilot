@@ -1,6 +1,6 @@
 # Exercise 4: Using GitHub Copilot Chat to generate ARM and Terraform code with Copilot
 
-Duration: 40 minutes
+### Duration: 40 minutes
 
 ### About GitHub Copilot Chat and Visual Studio Code
 
@@ -20,6 +20,15 @@ In this exercise, you will utilize Copilot to generate code in ARM, Terraform, a
 > **Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
 >**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+
+## Lab objectives
+
+You will be able to complete the following exercises:
+
+- Generate code by chat that uses ARM to deploy resources to Azure
+- Generate code by chat that uses Terraform to deploy resources to Azure
+- Generate code by chat that uses PowerShell to deploy resources to Azure
+- Push code to your repository from the codespace
 
 ### Task 1: Generate code by chat that uses ARM to deploy resources to Azure
 
