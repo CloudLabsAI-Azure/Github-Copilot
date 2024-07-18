@@ -1,6 +1,6 @@
 # Exercise 2: Exploring AI-Driven Code Suggestions in JavaScript
 
-### Duration: 30 minutes
+### Estimated Duration: 30 minutes
 
 While GitHub Copilot provides recommendations across various languages and frameworks, it particularly excels with Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. Although the following samples are in JavaScript, they should be compatible with other languages as well.
 
