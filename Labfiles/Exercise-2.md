@@ -213,3 +213,5 @@ new array:
 ### Summary
 
 In this exercise, you have successfully generated JavaScript code and other best practices using GitHub Copilot and GitHub Copilot Chat.
+
+### You have successfully completed the lab
