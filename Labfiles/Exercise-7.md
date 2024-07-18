@@ -1,4 +1,4 @@
-# Exercise 7: GitHub Copilot + Accessibility Insights for Web
+# Exercise 7: Enhancing Web Accessibility with GitHub Copilot Chat and Accessibility Insights
 
 Duration: 90 minutes
 
