@@ -1,8 +1,16 @@
 # Exercise 11: Creating a Mini Game with GitHub Copilot [Optional]
 
-Duration : 30 minutes
+### Duration : 30 minutes
 
 In this exercise, you will utilize the capabilities of GitHub Copilot to construct a classic rock, paper, scissors minigame. Through this practical engagement, you'll not only refine your programming expertise but also bolster your proficiency in crafting console applications using Python.
+
+## Lab objectives
+
+You will be able to complete the following exercises:
+
+- Setting up your environment
+- Testing your GitHub Codespace
+- Creating the game logic
 
 ### Task 1: Setting up your environment
 
