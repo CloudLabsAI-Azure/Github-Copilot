@@ -1,6 +1,6 @@
 # Exercise 4: Using GitHub Copilot Chat to generate ARM and Terraform code with Copilot
 
-### Estimated Duration: 40 minutes
+### Estimated Duration: 25 minutes
 
 ## About GitHub Copilot Chat and Visual Studio Code
 
