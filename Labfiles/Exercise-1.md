@@ -16,9 +16,9 @@ In this exercise, you are tasked with creating a development container. You will
 
 ## Lab objectives
 
-You will be able to complete the following exercises:
+You will be able to complete the following tasks:
 
-- Enable Copilot inside a Codespace
+- Task 1: Enable Copilot inside a Codespace
 
 ## Task 1: Enable Copilot inside a Codespace
 
