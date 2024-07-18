@@ -1,4 +1,4 @@
-# Exercise 2: Seeing AI code suggestions in a JavaScript file
+# Exercise 2: Exploring AI-Driven Code Suggestions in JavaScript
 
 Duration: 30 minutes
 
