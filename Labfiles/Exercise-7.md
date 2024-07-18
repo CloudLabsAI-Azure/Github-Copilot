@@ -1,6 +1,6 @@
 # Exercise 7: Enhancing Web Accessibility with GitHub Copilot Chat and Accessibility Insights
 
-Duration: 90 minutes
+### Duration: 90 minutes
 
 **GitHub Copilot Chat** is an AI-powered code completion tool that helps developers by suggesting code snippets and solutions based on context. This tool can significantly speed up the development process by providing relevant code suggestions and automating repetitive tasks.
 
@@ -15,6 +15,14 @@ Use the AU site to:
 1. Learn common web accessibility problems and solutions in an easy-to-understand way.
 
 In this exercise, you will use Accessibility Insights for Web to identify accessibility issues on a sample website and then employ GitHub Copilot Chat to generate and implement code fixes for these issues. The target website, Accessible University (AU), is a fictional homepage designed to showcase common web design problems that hinder accessibility. By the end of this exercise, you will have enhanced the accessibility of the AU site, making it more user-friendly for individuals with disabilities.
+
+## Lab objectives
+
+You will be able to complete the following exercises:
+
+- Set Up Accessibility Insights for Web extension in Microsoft Edge
+- Verify the GitHub Copilot Chat extension and Clone Accessible University GitHub Repo in VS Code
+
 
 ## Task 1: Set Up Accessibility Insights for Web extension in Microsoft Edge
 
