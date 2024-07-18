@@ -1,6 +1,6 @@
 # Exercise 3: Exploring Python with GitHub Copilot: Intelligent Code Suggestions
 
-### Duration: 20 minutes
+### Estimated Duration: 20 minutes
 
 GitHub Copilot provides suggestions for a multitude of languages and frameworks, excelling particularly with Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. Moreover, Copilot offers valuable assistance in generating queries for databases.
 
