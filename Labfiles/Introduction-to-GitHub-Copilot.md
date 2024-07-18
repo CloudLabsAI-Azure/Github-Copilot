@@ -84,7 +84,7 @@ Enterprise owners can allow some or all organizations in the enterprise to acces
 | SAML SSO authentication¹ |             ✕	             |  ✓                 |    ✓  |
 | Requires GitHub Enterprise Cloud |             ✕	             |   ✕	 |    ✓  |
 
-### GitHub Copilot for Business Use Cases and Customer Stories
+### GitHub Copilot for Business Use Cases
 
 GitHub Copilot improves developer productivity and happiness, reduces disruptions, improves flow, and increases the amount of time a developer spends doing satisfying work.
 
