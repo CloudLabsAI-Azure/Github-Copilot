@@ -14,12 +14,12 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
 ## Lab objectives
 
-You will be able to complete the following exercises:
+You will be able to complete the following tasks:
 
-- Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
-- Create a basic Java project
-- Getting more suggestions
-- Getting code from a comment
+- Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
+- Task 2: Create a basic Java project
+- Task 3: Getting more suggestions
+- Task 4: Getting code from a comment
 
 ## Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
 
