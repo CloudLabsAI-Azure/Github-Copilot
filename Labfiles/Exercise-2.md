@@ -12,11 +12,11 @@ In this exercise, you will get the chance to explore and utilize JavaScript, gui
 
 ## Lab objectives
 
-You will be able to complete the following exercises:
+You will be able to complete the following tasks:
 
-- Add a JavaScript file and start writing code
-- Push code to your repository from the codespace
-- Best practices to use GitHub Copilot
+- Task 1: Add a JavaScript file and start writing code
+- Task 2: Push code to your repository from the codespace
+- Task 3: Best practices to use GitHub Copilot
 
 ## Task 1: Add a JavaScript file and start writing code
 
