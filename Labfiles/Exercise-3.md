@@ -12,11 +12,11 @@ In this exercise, you will have the chance to delve into Python and leverage Cop
 
 ## Lab objectives
 
-You will be able to complete the following exercises:
+You will be able to complete the following tasks:
 
-- Add Python method code
-- View the GitHub Copilot tab with multiple suggestions
-- Push code to your repository from the VS code codespace
+- Task 1: Add Python method code
+- Task 2: View the GitHub Copilot tab with multiple suggestions
+- Task 3: Push code to your repository from the VS code codespace
 
 ## Task 1: Add Python method code
 
