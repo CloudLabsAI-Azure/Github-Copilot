@@ -17,7 +17,6 @@ You will be able to complete the following exercises:
 - Add a JavaScript file and start writing code
 - Push code to your repository from the codespace
 - Best practices to use GitHub Copilot
-- 
 
 ## Task 1: Add a JavaScript file and start writing code
 
