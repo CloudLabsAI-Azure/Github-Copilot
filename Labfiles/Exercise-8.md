@@ -1,12 +1,21 @@
 # Exercise 8: Using GitHub Copilot for T-SQL and YAML Code [Optional]
 
-Duration: 20 minutes
+### Duration: 20 minutes
 
 In this exercise, the primary objective is to leverage the capabilities of GitHub Copilot, a powerful AI-assisted coding tool, to assist you in generating code for two distinct programming languages: T-SQL and YAML. You can leverage comments to generate Copilot suggestions!
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
 >**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+
+## Lab objectives
+
+You will be able to complete the following exercises:
+
+- Generate a SQL query with GitHub Copilot using comments
+- Generate YAML with GitHub Copilot using comments
+- Push code to your repository from the codespace
+
 
 ### Task 1: Generate a SQL query with GitHub Copilot using comments
 
