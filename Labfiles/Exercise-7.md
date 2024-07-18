@@ -18,11 +18,10 @@ In this exercise, you will use Accessibility Insights for Web to identify access
 
 ## Lab objectives
 
-You will be able to complete the following exercises:
+You will be able to complete the following tasks:
 
-- Set Up Accessibility Insights for Web extension in Microsoft Edge
-- Verify the GitHub Copilot Chat extension and Clone Accessible University GitHub Repo in VS Code
-
+- Task 1: Set Up Accessibility Insights for Web extension in Microsoft Edge
+- Task 2: Verify the GitHub Copilot Chat extension and Clone Accessible University GitHub Repo in VS Code
 
 ## Task 1: Set Up Accessibility Insights for Web extension in Microsoft Edge
 
