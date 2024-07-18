@@ -1,6 +1,6 @@
 # Exercise 3: Exploring Python with GitHub Copilot: Intelligent Code Suggestions
 
-Duration: 20 minutes
+### Duration: 20 minutes
 
 GitHub Copilot provides suggestions for a multitude of languages and frameworks, excelling particularly with Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. Moreover, Copilot offers valuable assistance in generating queries for databases.
 
@@ -9,6 +9,14 @@ In this exercise, you will have the chance to delve into Python and leverage Cop
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Following are the examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
 >**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+
+## Lab objectives
+
+You will be able to complete the following exercises:
+
+- Add Python method code
+- View the GitHub Copilot tab with multiple suggestions
+- Push code to your repository from the VS code codespace
 
 ## Task 1: Add Python method code
 
