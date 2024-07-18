@@ -1,6 +1,6 @@
 # Exercise 10: Working with the Copilot for Machine Learning [Optional]
 
-Duration: 90 minutes
+### Duration: 90 minutes
 
 Working with Copilot for machine learning involves leveraging GitHub Copilot, an AI-powered code completion tool developed by GitHub in collaboration with OpenAI. Here's a quick summary of the key steps and considerations:
 
@@ -17,6 +17,16 @@ In this exercise, you will be cloning the Git repository with the required datas
 >**Note**: Before proceeding with the exercise, make sure you have installed Python and pip packages.
 
 >**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+
+## Lab objectives
+
+You will be able to complete the following exercises:
+
+- Prerequisites and Injecting the Required Dataset into Your Environment
+- Auto_Completion of Code with Different Experiments
+- Mathematical and Machine Learning with Different Examples
+- Data Visualization and Data Transformation
+- Training the sample model
 
 ### Task 1: Prerequisites and Injecting the Required Dataset into Your Environment
 
