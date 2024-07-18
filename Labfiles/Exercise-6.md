@@ -1,6 +1,6 @@
 # Exercise 6: Using IDEs such as JetBrains IntelliJ for Java
 
-Duration: 40 minutes
+### Duration: 40 minutes
 
 IntelliJ IDEA is an Integrated Development Environment (IDE) for Java and Kotlin designed to maximize developer productivity. It does the routine and repetitive tasks for you by providing clever code completion, static code analysis, and refactorings, and lets you focus on the bright side of software development, making it not only productive but also an enjoyable experience.
 
@@ -11,6 +11,15 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
 >**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again.
+
+## Lab objectives
+
+You will be able to complete the following exercises:
+
+- Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
+- Create a basic Java project
+- Getting more suggestions
+- Getting code from a comment
 
 ## Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
 
