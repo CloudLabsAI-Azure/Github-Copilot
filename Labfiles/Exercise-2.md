@@ -1,6 +1,6 @@
 # Exercise 2: Exploring AI-Driven Code Suggestions in JavaScript
 
-Duration: 30 minutes
+### Duration: 30 minutes
 
 While GitHub Copilot provides recommendations across various languages and frameworks, it particularly excels with Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. Although the following samples are in JavaScript, they should be compatible with other languages as well.
 
@@ -10,7 +10,16 @@ In this exercise, you will get the chance to explore and utilize JavaScript, gui
 
 >**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
 
-## Task 1: Add a JavaScript file and start writing code.
+## Lab objectives
+
+You will be able to complete the following exercises:
+
+- Add a JavaScript file and start writing code
+- Push code to your repository from the codespace
+- Best practices to use GitHub Copilot
+- 
+
+## Task 1: Add a JavaScript file and start writing code
 
 1. From the VS Code Explorer window, create a New File.
 
