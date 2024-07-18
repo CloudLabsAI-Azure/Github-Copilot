@@ -14,6 +14,12 @@ Utilizing Copilot within a Codespace effortlessly demonstrates the simplicity of
 
 In this exercise, you are tasked with creating a development container. You will specify certain extensions or configurations to be utilized or installed in your Codespace. As part of this process, ensure to include Copilot in your list of extensions.
 
+## Lab objectives
+
+You will be able to complete the following exercises:
+
+- Enable Copilot inside a Codespace
+
 ## Task 1: Enable Copilot inside a Codespace
 
 1. Navigate back to the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `+ Create new file` **(3)**.
