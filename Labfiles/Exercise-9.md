@@ -29,3 +29,5 @@ In this exercise, you will be generating documentation using GitHub Copilot.
 ## Summary
 
 In this exercise, you have successfully generated a document using GitHub Copilot Chat.
+
+### You have successfully completed the lab
