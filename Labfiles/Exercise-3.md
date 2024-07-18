@@ -103,3 +103,5 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 ### Summary
 
 In this exercise, you have successfully finished the task of using Python in conjunction with Copilot, and you have done so with the benefit of receiving multiple suggestions.
+
+### You have successfully completed the lab
