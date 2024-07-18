@@ -1,6 +1,6 @@
 # Exercise 5: Using GitHub Copilot for Code Refactoring
 
-Duration: 40 minutes
+### Duration: 40 minutes
 
 GitHub code refactoring refers to the process of restructuring and improving the quality of code in a GitHub repository without changing its external behaviour. Code refactoring aims to enhance readability, maintainability, and performance while reducing technical debt and potential bugs. 
 
@@ -10,7 +10,18 @@ In this exercise, you will engage in a learning or practice activity with the pr
 
 >**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
 
-## Task 1: Understand the code already available for you.
+## Lab objectives
+
+You will be able to complete the following exercises:
+
+- Understand the code already available for you
+- Use GitHub Copilot to refactor the code
+- Review the refactored code and understand how it works
+- Use GitHub Copilot Chat with code to refactor the code
+- Create unit test functions
+- Push code to your repository from the codespace
+
+## Task 1: Understand the code already available for you
 
 ### Installing C Sharp (C#) extension in VS Code
 
@@ -96,7 +107,7 @@ In this exercise, you will engage in a learning or practice activity with the pr
 
    ![](../media/refactored-code.png)
 
-## Task 3: Review the refactored code and understand how it works.
+## Task 3: Review the refactored code and understand how it works
 
 1. The newly generated code will look as shown below:
 
