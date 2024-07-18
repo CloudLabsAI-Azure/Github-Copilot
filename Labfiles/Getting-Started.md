@@ -1,6 +1,32 @@
 ## Getting Started with the Lab
 
+## Exercises Overview
+
 Duration: 10 minutes
+
+**Exercise 1: Leverage Codespaces with VS Code for Copilot**: GitHub Copilot, powered by OpenAI Codex, speeds up coding with contextual suggestions across various editors, while GitHub Codespaces provides consistent, cloud-hosted development setups.
+
+**Exercise 2: Exploring AI-Driven Code Suggestions in JavaScript** examines how AI enhances JavaScript coding with real-time completions, bug detection, optimizations, and efficiency improvements.
+
+**Exercise 3: Exploring Python with GitHub Copilot: Intelligent Code Suggestionst**: GitHub Copilot offers excellent suggestions for languages like Python, JavaScript, Ruby, and more, and assists with database queries.
+
+**Exercise 4: Using GitHub Copilot Chat to generate ARM and Terraform code with Copilot**: GitHub Copilot Chat provides coding assistance directly within supported IDEs, offering code suggestions, explanations, unit tests, and bug fixes.
+
+**Exercise 5: Using GitHub Copilot for Code Refactoring**: GitHub code refactoring enhances code quality by restructuring for readability, maintainability, and performance without altering external behavior, reducing technical debt and bugs.
+
+**Exercise 6: Using IDEs such as JetBrains IntelliJ for Java**: GitHub Copilot enhances Java coding in IntelliJ by offering intelligent suggestions and auto-completion, elevating productivity and code quality.
+
+**Exercise 7: Enhancing Web Accessibility with GitHub Copilot Chat and Accessibility Insights**: GitHub Copilot Chat accelerates coding with AI-powered suggestions, while Accessibility Insights for Web ensures inclusive, accessible web content.
+
+**Exercise 8: Using GitHub Copilot for T-SQL and YAML Code [Optional]**: Leverage GitHub Copilot to generate code in T-SQL and YAML, using comments to guide its suggestions.
+
+**Exercise 9: Generating Documentation Using GitHub Copilot [Optional]**: GitHub Copilot streamlines documentation by auto-generating comments, Markdown, and ensuring consistency, enhancing project accessibility.
+
+**Exercise 10: Working with the Copilot for Machine Learning [Optional]**: Using GitHub Copilot for machine learning involves installing it, linking to GitHub for repository access, and utilizing it with ML frameworks for tasks such as data preprocessing, model building, and evaluation.
+
+**Exercise 11: Creating a Mini Game with GitHub Copilot [Optional]**: You'll use GitHub Copilot to build a classic rock, paper, scissors game, refining Python skills in console app development.
+
+### Getting Started with the Lab
 
 1. You can see a virtual machine desktop 💻 (**LABVM**) loaded on the left side of your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment** tab.
    
