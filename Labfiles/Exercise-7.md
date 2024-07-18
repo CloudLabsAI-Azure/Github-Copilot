@@ -4,7 +4,7 @@ Duration: 90 minutes
 
 **GitHub Copilot Chat** is an AI-powered code completion tool that helps developers by suggesting code snippets and solutions based on context. This tool can significantly speed up the development process by providing relevant code suggestions and automating repetitive tasks.
 
-**Accessibility Insights for Web** is a powerful, user-friendly tool that helps make web content accessible to all users, including those with disabilities. By integrating this tool into the development and testing process, web developers can ensure their websites meet accessibility standards, enhancing usability and inclusivity.
+**Accessibility Insights for Web** is a powerful, user-friendly tool to ensure web content is accessible to everyone, including those with diverse abilities. By integrating this tool into the development and testing process, web developers can ensure their websites meet accessibility standards, enhancing usability and inclusivity.
 
 Accessible University (AU) is a fictional university home page designed to demonstrate a variety of common web design problems that result in visitors with disabilities being unable to access content or features.
 
