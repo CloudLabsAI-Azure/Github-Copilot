@@ -4,6 +4,8 @@
 
 ## Exercises Overview
 
+GitHub Copilot, powered by OpenAI Codex, speeds up coding by providing contextual suggestions in various editors, while GitHub Codespaces offers consistent, cloud-hosted development environments. This lab examines how AI enhances JavaScript coding with real-time completions, bug detection, and optimizations. GitHub Copilot supports languages like Python, JavaScript, and Ruby, assisting with database queries and auto-generating comments and documentation. GitHub Copilot Chat integrates coding assistance directly within IDEs, offering code suggestions, explanations, and bug fixes. It enhances Java coding in IntelliJ with intelligent suggestions and auto-completion, boosting productivity and code quality. Accessibility Insights for Web ensures web content is inclusive and accessible. For machine learning, GitHub Copilot aids in tasks like data preprocessing and model building. You'll also use GitHub Copilot to build a rock, paper, scissors game, refining your Python skills in console app development.
+
 - Exercise 1: Leverage Codespaces with VS Code for Copilot
 - Exercise 2: Exploring AI-Driven Code Suggestions in JavaScript
 - Exercise 3: Exploring Python with GitHub Copilot
