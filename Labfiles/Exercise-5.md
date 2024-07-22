@@ -158,17 +158,19 @@ You will be able to complete the following tasks:
     ```
 
 1. Now, let's analyze the changes made to the code by GitHub Copilot Chat
-   - Here, GitHub Copilot removed the `n` parameter from the Sum method since it's not needed. Instead, the Copilot used a for-each loop to iterate over the array. As a result, the code is easier to comprehend and more concise.
-   - This includes the system namespace for input and output operations.
-   - Defines a constant MAX with a value of 100 for the maximum number of elements allowed in an array.
-   - The Sum method calculates the sum of elements in an integer array using a for-each loop.
+   - This includes the system namespace for input and output operations **(1)**.
+   - Defines a constant MAX with a value of 100 for the maximum number of elements allowed in an array **(2)**.
+   - Here, GitHub Copilot removed the `n` parameter from the Sum method since it's not needed. Instead, the Copilot used a for-each loop to iterate over the array. As a result, the code is easier to comprehend and more concise **(3)**.
+   - The Sum method calculates the sum of elements in an integer array using a for-each loop **(4)**.
    - In the Main method:
-     - Asks the user to input the number of elements and validate it.
-     - Creates an integer array to store user-entered values.
-     - Prompts the user to enter integers, validates the input, and stores them in the array.
-     - Calculates the sum of the integers using the Sum method.
-     - Shows the sum on the console.
-     - The code includes input validation and provides the sum of user-entered integers.
+     - Creates an integer array to store user-entered values **(5)**.
+     - Asks the user to input the number of elements and validate it **(6)**.
+     - Prompts the user to enter integers, validates the input, and stores them in the array **(7)**.
+     - It reads a line of input, tries to convert it to an integer, and stores the result **(8)**. 
+     - Calculates the sum of the integers using the Sum method **(9)**.
+     - The code includes input validation and provides the sum of user-entered integers **(10)**.
+
+        ![](../media/refactor.png)
 
 1. Notice that now the code is more modular, readable, and easier to understand.
 
