@@ -1,4 +1,6 @@
-# Getting Started with the Lab
+# GitHub Copilot Innovation Workshop
+
+## Getting Started with the Lab
 
 ### Estimated Duration: 10 minutes
 
