@@ -38,6 +38,10 @@ By the end of this lab, you will improve your coding workflow by leveraging AI-p
 - **Apply AI in Machine Learning**: Leverage GitHub Copilot for data preprocessing and model building.
 - **Develop a Mini Game**: Build a mini game to refine Python skills in console app development.
 
+## Pre-requisites
+
+Fundamental knowledge of **Visual Studio Code** and popular **programming languages** such as Python, Javascript, C# etc.
+
 ## Architecture Diagram
 
    ![](../media/arch01.PNG)
