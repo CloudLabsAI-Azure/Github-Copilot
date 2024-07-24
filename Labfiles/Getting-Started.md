@@ -44,7 +44,7 @@ Fundamental knowledge of **Visual Studio Code** and popular **programming langua
 
 ## Architecture Diagram
 
-   ![](../media/arch01.PNG)
+   ![](../media/arch02.PNG)
 
 ## Getting Started with the Lab
 
