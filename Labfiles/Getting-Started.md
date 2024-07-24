@@ -10,7 +10,7 @@ The purpose of this lab is to explore how AI tools like GitHub Copilot and GitHu
 The utilized technical specifications are as follows:
 
    1. **Tools Used**: GitHub Copilot, GitHub Codespaces, GitHub Copilot Chat, Accessibility Insights for Web
-   1. **Supported Programming Languages**: Python, JavaScript, Ruby, Java
+   1. **Supported Programming Languages**: Python, JavaScript, C#
    1. **Compatible Editors/IDEs**: Visual Studio Code, IntelliJ
 
 Here are the exercises you will be performing in this lab:
