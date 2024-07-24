@@ -4,11 +4,11 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/main/Labfiles/Introduction-to-GitHub-Copilot.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/main/Labfiles/Getting-Started.md",
         "Order": 1
       },
        {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/main/Labfiles/Getting-Started.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/main/Labfiles/Introduction-to-GitHub-Copilot.md",
         "Order": 2
       },
       {
