@@ -29,7 +29,7 @@ Here are the exercises you will be performing in this lab:
 
 ## Objective
 
-By the end of this lab, participants will enhance their coding workflow using AI-powered tools. They will:
+By the end of this lab, you will improve your coding workflow by leveraging AI-powered tools. You will:
 
 - **Master GitHub Copilot**: Speed up coding with real-time suggestions, bug detection, and optimizations in Python, JavaScript, and Ruby.
 - **Use GitHub Codespaces**: Set up consistent, cloud-hosted development environments.
@@ -40,7 +40,7 @@ By the end of this lab, participants will enhance their coding workflow using AI
 
 ## Architecture Diagram
 
- ![](../media/arch01.PNG)
+   ![](../media/arch01.PNG)
 
 ## Getting Started with the Lab
 
