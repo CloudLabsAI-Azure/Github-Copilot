@@ -44,6 +44,16 @@ Fundamental knowledge of **Visual Studio Code** and popular **programming langua
 
 ## Architecture Diagram
 
+1. **GitHub Copilot**: An AI-powered code completion tool that helps developers by suggesting code snippets and completing code based on the context provided. 
+
+1. **GitHub Copilot Chat**: An interactive chat interface that allows developers to ask questions and receive code suggestions and debugging assistance from GitHub Copilot. 
+
+1. **Codespaces**: Visual Studio Code Codespaces provides cloud-hosted development environments that are accessible from anywhere, ensuring consistency and reliability.
+
+1. **Accessibility Insights for Web**: A browser extension that helps developers find and fix accessibility issues in web applications. 
+
+1. **Programming languages**: They are tools used to write instructions for computers to execute such as Python, Javascript, C# etc.
+   
    ![](../media/arch02.PNG)
 
 ## Getting Started with the Lab
