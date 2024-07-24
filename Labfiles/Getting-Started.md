@@ -1,6 +1,6 @@
 # GitHub Copilot Innovation Workshop
 
-### Estimated Duration: 240 minutes
+### Overall Estimated Duration: 240 minutes
 
 ## Overview
 
