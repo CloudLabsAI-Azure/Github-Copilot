@@ -135,6 +135,6 @@ follow from step 08 to step 12. In the absence of an existing repository, skip t
 
 1. Now, click on **Next** from the lower right corner to move on to the next page.
 
-This hands-on lab demonstrates how GitHub Copilot and GitHub Codespaces enhance efficiency through real-time code suggestions and consistent cloud environments.
+This hands-on lab demonstrates how GitHub Copilot and GitHub Codespaces enhance development through real-time code suggestions and consistent cloud environments.
 
 ## Happy Learning!!
