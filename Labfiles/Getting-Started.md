@@ -38,6 +38,10 @@ By the end of this lab, participants will enhance their coding workflow using AI
 - **Apply AI in Machine Learning**: Leverage GitHub Copilot for data preprocessing and model building.
 - **Develop a Mini Game**: Build a mini game to refine Python skills in console app development.
 
+## Architecture Diagram
+
+ ![](../media/arch01.PNG)
+
 ## Getting Started with the Lab
 
 1. You can see a virtual machine desktop 💻 (**LABVM**) loaded on the left side of your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment** tab.
