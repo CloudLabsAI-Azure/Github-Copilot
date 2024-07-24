@@ -1,5 +1,4 @@
-# GitHub Copilot Innovation Workshop
-## Introduction to GitHub Copilot
+# Introduction to GitHub Copilot
 
 ### Estimated Duration: 10 minutes
 
