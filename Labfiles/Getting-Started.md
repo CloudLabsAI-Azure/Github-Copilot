@@ -1,6 +1,6 @@
 # GitHub Copilot Innovation Workshop
 
-### Overall Estimated Duration: 240 minutes
+### Overall Estimated Duration: 4 Hours
 
 ## Overview
 
@@ -16,17 +16,17 @@ The utilized technical specifications are as follows:
 
 By the end of this lab, you will improve your coding workflow by leveraging AI-powered tools. You will:
 
-- **Leverage Codespaces with VS Code for Copilot**
-- **Exploring AI-Driven Code Suggestions in JavaScript**
-- **Exploring Python with GitHub Copilot**
-- **Using GitHub Copilot Chat to generate ARM and Terraform code with Copilot**
-- **Using GitHub Copilot for Code Refactoring**
-- **Using IDEs such as JetBrains IntelliJ for Java**
-- **Enhancing Web Accessibility with GitHub Copilot Chat and Accessibility Insights**
-- **Using GitHub Copilot for T-SQL and YAML Code [Optional]**
-- **Generating Documentation Using GitHub Copilot [Optional]**
-- **Working with the Copilot for Machine Learning [Optional]**
-- **Creating a Mini Game with GitHub Copilot [Optional]**
+- **Leverage Codespaces with VS Code for Copilot**: GitHub Copilot, powered by OpenAI Codex, suggests code from comments and context, supports multiple editors and languages, and integrates with GitHub Codespaces for collaborative coding.
+- **Exploring AI-Driven Code Suggestions in JavaScript** : Examines how AI enhances JavaScript coding with real-time completions, bug detection, optimizations, and efficiency improvements.
+- **Exploring Python with GitHub Copilot** : GitHub Copilot offers excellent suggestions for languages like Python, JavaScript, Ruby, and more, and assists with database queries.
+- **Using GitHub Copilot Chat to generate ARM and Terraform code with Copilot** : Provides coding assistance directly within supported IDEs, offering code suggestions, explanations, unit tests, and bug fixes.
+- **Using GitHub Copilot for Code Refactoring** : Enhances code quality by restructuring for readability, maintainability, and performance without altering external behavior, reducing technical debt and bugs.
+- **Using IDEs such as JetBrains IntelliJ for Java** : GitHub Copilot enhances Java coding in IntelliJ by offering intelligent suggestions and auto-completion, elevating productivity and code quality.
+- **Enhancing Web Accessibility with GitHub Copilot Chat and Accessibility Insights** : GitHub Copilot Chat accelerates coding with AI-powered suggestions, while Accessibility Insights for Web ensures inclusive, accessible web content.
+- **Using GitHub Copilot for T-SQL and YAML Code [Optional]** : Leverage GitHub Copilot to generate code in T-SQL and YAML, using comments to guide its suggestions.
+- **Generating Documentation Using GitHub Copilot [Optional]** : Streamlines documentation by auto-generating comments, Markdown, and ensuring consistency, enhancing project accessibility.
+- **Working with the Copilot for Machine Learning [Optional]** : Using GitHub Copilot with ML frameworks for tasks such as data preprocessing, model building, and evaluation.
+- **Creating a Mini Game with GitHub Copilot [Optional]** : Build a mini game, refining Python skills in console app development.
 
 ## Pre-requisites
 
@@ -34,6 +34,7 @@ Fundamental knowledge of **Visual Studio Code** and popular **programming langua
 
 ## Architecture
 
+GitHub Copilot is an AI-powered code completion tool that assists developers by suggesting code snippets and completing code based on the context provided. GitHub Copilot Chat complements this by offering an interactive chat interface where developers can ask questions and receive code suggestions and debugging assistance. Integrated with Visual Studio Code Codespaces, GitHub Copilot benefits from cloud-hosted development environments, ensuring consistency and reliability from anywhere. To enhance web development, Accessibility Insights for Web helps identify and resolve accessibility issues, ensuring inclusive web applications. GitHub Copilot supports various programming languages like Python, JavaScript, and C#, making it a versatile tool for a wide range of coding tasks.
 
 ## Architecture Diagram
 
