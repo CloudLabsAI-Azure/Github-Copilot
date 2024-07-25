@@ -42,7 +42,7 @@ By the end of this lab, you will improve your coding workflow by leveraging AI-p
 
 Fundamental knowledge of **Visual Studio Code** and popular **programming languages** such as Python, Javascript, C# etc.
 
-## Architecture Key Components
+## Architecture
 
 1. **GitHub Copilot**: An AI-powered code completion tool that helps developers by suggesting code snippets and completing code based on the context provided. 
 
