@@ -6,43 +6,40 @@
 
 The purpose of this lab is to explore how AI tools like GitHub Copilot and GitHub Codespaces enhance the development process. By providing contextual suggestions and creating consistent, cloud-hosted development environments, these tools streamline coding and improve efficiency. The lab focuses on various features and applications of GitHub Copilot, demonstrating how it can assist with real-time code completions, bug detection, and optimizations across different programming languages and development tasks.
 
-
 The utilized technical specifications are as follows:
 
    1. **Tools Used**: GitHub Copilot, GitHub Codespaces, GitHub Copilot Chat, Accessibility Insights for Web
    1. **Supported Programming Languages**: Python, JavaScript, C#
    1. **Compatible Editors/IDEs**: Visual Studio Code, IntelliJ
 
-Here are the exercises you will be performing in this lab:
-
-- Exercise 1: Leverage Codespaces with VS Code for Copilot
-- Exercise 2: Exploring AI-Driven Code Suggestions in JavaScript
-- Exercise 3: Exploring Python with GitHub Copilot
-- Exercise 4: Using GitHub Copilot Chat to generate ARM and Terraform code with Copilot
-- Exercise 5: Using GitHub Copilot for Code Refactoring
-- Exercise 6: Using IDEs such as JetBrains IntelliJ for Java
-- Exercise 7: Enhancing Web Accessibility with GitHub Copilot Chat and Accessibility Insights
-- Exercise 8: Using GitHub Copilot for T-SQL and YAML Code [Optional]
-- Exercise 9: Generating Documentation Using GitHub Copilot [Optional]
-- Exercise 10: Working with the Copilot for Machine Learning [Optional]
-- Exercise 11: Creating a Mini Game with GitHub Copilot [Optional]
-
 ## Objective
 
 By the end of this lab, you will improve your coding workflow by leveraging AI-powered tools. You will:
 
-- **Master GitHub Copilot**: Speed up coding with real-time suggestions, bug detection, and optimizations in Python, JavaScript, and Ruby.
-- **Use GitHub Codespaces**: Set up consistent, cloud-hosted development environments.
-- **Integrate GitHub Copilot Chat**: Get code suggestions, explanations, and bug fixes within IDEs, boosting Java coding in IntelliJ.
-- **Ensure Web Accessibility**: Use Accessibility Insights for Web to make content inclusive and accessible.
-- **Apply AI in Machine Learning**: Leverage GitHub Copilot for data preprocessing and model building.
-- **Develop a Mini Game**: Build a mini game to refine Python skills in console app development.
+- **Leverage Codespaces with VS Code for Copilot**
+- **Exploring AI-Driven Code Suggestions in JavaScript**
+- **Exploring Python with GitHub Copilot**
+- **Using GitHub Copilot Chat to generate ARM and Terraform code with Copilot**
+- **Using GitHub Copilot for Code Refactoring**
+- **Using IDEs such as JetBrains IntelliJ for Java**
+- **Enhancing Web Accessibility with GitHub Copilot Chat and Accessibility Insights**
+- **Using GitHub Copilot for T-SQL and YAML Code [Optional]**
+- **Generating Documentation Using GitHub Copilot [Optional]**
+- **Working with the Copilot for Machine Learning [Optional]**
+- **Creating a Mini Game with GitHub Copilot [Optional]**
 
 ## Pre-requisites
 
 Fundamental knowledge of **Visual Studio Code** and popular **programming languages** such as Python, Javascript, C# etc.
 
 ## Architecture
+
+
+## Architecture Diagram
+
+   ![](../media/arch02.PNG)
+
+## Explanation of Components
 
 1. **GitHub Copilot**: An AI-powered code completion tool that helps developers by suggesting code snippets and completing code based on the context provided. 
 
@@ -53,10 +50,6 @@ Fundamental knowledge of **Visual Studio Code** and popular **programming langua
 1. **Accessibility Insights for Web**: A browser extension that helps developers find and fix accessibility issues in web applications. 
 
 1. **Programming languages**: They are tools used to write instructions for computers to execute such as Python, Javascript, C# etc.
-
-## Architecture Diagram
-
-   ![](../media/arch02.PNG)
 
 ## Getting Started with the Lab
 
