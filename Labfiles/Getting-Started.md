@@ -42,7 +42,7 @@ By the end of this lab, you will improve your coding workflow by leveraging AI-p
 
 Fundamental knowledge of **Visual Studio Code** and popular **programming languages** such as Python, Javascript, C# etc.
 
-## Architecture Diagram
+## Architecture Key Components
 
 1. **GitHub Copilot**: An AI-powered code completion tool that helps developers by suggesting code snippets and completing code based on the context provided. 
 
@@ -53,7 +53,9 @@ Fundamental knowledge of **Visual Studio Code** and popular **programming langua
 1. **Accessibility Insights for Web**: A browser extension that helps developers find and fix accessibility issues in web applications. 
 
 1. **Programming languages**: They are tools used to write instructions for computers to execute such as Python, Javascript, C# etc.
-   
+
+## Architecture Diagram
+
    ![](../media/arch02.PNG)
 
 ## Getting Started with the Lab
