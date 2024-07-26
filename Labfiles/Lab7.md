@@ -134,6 +134,10 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex-8-create-file.png)
 
+   >**Note:** If you get a prompt to install the Python packages click on **Install**.
+   
+     ![](../media/c23.png)
+
 1. Type the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press "enter" to get into the next line and review the suggestion, press "tab" and click on **Run** button to execute the cell.
 
    ```
@@ -142,11 +146,17 @@ In this exercise, you will be cloning the Git repository with the required datas
 
    ![](../media/ex-8-import-lib.png)
 
+   >**Note:** If you do not get any suggestion after hitting enter, kindly press **Tab** to get the suggestion in gray text, and then hit **tab** again to accept the suggestion. Proceed to repeat the same process until you get the required output. You can follow the same alternative for the rest of the lab.
+
 1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Hover your mouse over the cell and click on `+Code` **(3)** to add the new cell.
 
    ![](../media/ex8-add-cell-new.png)
 
-   >**Note**: While running the cell, you may need to install the required packages and select the kernel.
+   >**Note**: While running the cell, you may need to install the required packages and select the kernel as Python.
+
+     ![](../media/c24.png)
+
+     ![](../media/c25.png)
 
 1. Type the below comments to load the data using the Copilot prompt. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
