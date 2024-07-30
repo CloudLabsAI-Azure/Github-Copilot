@@ -6,12 +6,6 @@
 
 The purpose of this lab is to explore how AI tools like GitHub Copilot and GitHub Codespaces enhance the development process. By providing contextual suggestions and creating consistent, cloud-hosted development environments, these tools streamline coding and improve efficiency. The lab focuses on various features and applications of GitHub Copilot, demonstrating how it can assist with real-time code completions, bug detection, and optimizations across different programming languages and development tasks.
 
-The utilized technical specifications are as follows:
-
-   1. **Tools Used**: GitHub Copilot, GitHub Codespaces, GitHub Copilot Chat, Accessibility Insights for Web
-   1. **Supported Programming Languages**: Python, JavaScript, C#
-   1. **Compatible Editors/IDEs**: Visual Studio Code, IntelliJ
-
 ## Objective
 
 By the end of this lab, you will improve your coding workflow by leveraging AI-powered tools. You will:
