@@ -100,13 +100,9 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
 6. Click on **Next** below to move on to the next page.
 
-      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-       
-      - Go to the **Lab Validation** tab.
-      - Click on the **Validate** button under the **Actions** section for *Exercise 3: View the GitHub Copilot tab with multiple suggestions*
-      - A success message indicates you’re ready for the next task. Proceed accordingly.
-      - If not, review the message, revisit the lab guide, and attempt the step again.
-      - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+      > **Congratulations** on completing the task!
+
+      <validation step="95754ad8-7b5c-486d-8e7c-d034df03ff1b" />
 
 ### Summary
 
