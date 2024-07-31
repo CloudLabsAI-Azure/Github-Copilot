@@ -209,11 +209,7 @@ new array:
    <validation step="73a63481-3140-4473-9b94-36d265cdc8cb" />
 
 10. Click on **Next** below to move on to the next page.
-
-      > **Congratulations** on completing the task!
-
-       <validation step="73a63481-3140-4473-9b94-36d265cdc8cb" />
-
+    
 ### Summary
 
 In this exercise, you have successfully generated JavaScript code and other best practices using GitHub Copilot and GitHub Copilot Chat.
