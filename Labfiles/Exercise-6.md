@@ -152,13 +152,9 @@ GitHub Copilot can understand significantly more context than most code assistan
 
 3. Click on **Next** below to move on to the next page.
 
-      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-       
-      - Go to the **Lab Validation** tab.
-      - Click on the **Validate** button under the **Actions** section for *Exercise 6: Using other IDEs like JetBrains IntelliJ for Java*
-      - A success message indicates you’re ready for the next task. Proceed accordingly.
-      - If not, review the message, revisit the lab guide, and attempt the step again.
-      - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+      > **Congratulations** on completing the task!
+
+      <validation step="364115e7-deff-4c32-96e9-fa5d2122a86f" />
         
 ### Summary
 
