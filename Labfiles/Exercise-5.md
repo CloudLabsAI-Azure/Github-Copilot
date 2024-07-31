@@ -319,10 +319,6 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
     <validation step="8357b601-4d37-4a08-b8c5-c03df620fdc4" />
 
-   > **Congratulations** on completing the task!
-
-   <validation step="8357b601-4d37-4a08-b8c5-c03df620fdc4" />
-
 ## Summary
 
 In this exercise, you have successfully employed GitHub Copilot to carry out code refactoring tasks and created unit test functions. Code refactoring with Copilot's assistance will make your coding projects more efficient and collaborative.
