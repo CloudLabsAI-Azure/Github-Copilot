@@ -108,10 +108,6 @@ You will be able to complete the following tasks:
  
 14. Click on **Next** below to move on to the next page.
 
-      > **Congratulations** on completing the task! Now, it's time to validate it.
-
-    <validation step="2f1521a8-516d-4357-b09c-941c5d7112ad" />
-        
 ### Summary
 
 In this exercise, you have created a development container and added Copilot to the list of extensions.
