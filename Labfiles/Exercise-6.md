@@ -151,10 +151,6 @@ GitHub Copilot can understand significantly more context than most code assistan
    <validation step="364115e7-deff-4c32-96e9-fa5d2122a86f" />
 
 3. Click on **Next** below to move on to the next page.
-
-      > **Congratulations** on completing the task!
-
-      <validation step="364115e7-deff-4c32-96e9-fa5d2122a86f" />
         
 ### Summary
 
