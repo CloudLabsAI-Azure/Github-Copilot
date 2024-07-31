@@ -108,13 +108,9 @@ You will be able to complete the following tasks:
  
 14. Click on **Next** below to move on to the next page.
 
-      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+      > **Congratulations** on completing the task! Now, it's time to validate it.
 
-      - Go to the **Lab Validation** tab.
-      - Click on the **Validate** button under the **Actions** section for *Exercise 1: Leverage Codespaces with VS Code for Copilot*
-      - A success message indicates you’re ready for the next task. Proceed accordingly.
-      - If not, review the message, revisit the lab guide, and attempt the step again.
-      - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    <validation step="2f1521a8-516d-4357-b09c-941c5d7112ad" />
         
 ### Summary
 
