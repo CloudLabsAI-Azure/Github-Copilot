@@ -100,10 +100,6 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
 6. Click on **Next** below to move on to the next page.
 
-      > **Congratulations** on completing the task!
-
-      <validation step="95754ad8-7b5c-486d-8e7c-d034df03ff1b" />
-
 ### Summary
 
 In this exercise, you have successfully finished the task of using Python in conjunction with Copilot, and you have done so with the benefit of receiving multiple suggestions.
