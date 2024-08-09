@@ -1,141 +1,141 @@
-# Exercise 6: Using IDEs such as JetBrains IntelliJ for Java
+# Ejercicio 6: Usar IDEs como JetBrains IntelliJ para Java
 
-### Estimated Duration: 20 minutes
+### Duración Estimada: 20 minutos
 
-IntelliJ IDEA is an Integrated Development Environment (IDE) for Java and Kotlin designed to maximize developer productivity. It does the routine and repetitive tasks for you by providing clever code completion, static code analysis, and refactorings, and lets you focus on the bright side of software development, making it not only productive but also an enjoyable experience.
+IntelliJ IDEA es un entorno de desarrollo integrado (IDE) para Java y Kotlin diseñado para maximizar la productividad de los desarrolladores. Realiza las tareas rutinarias y repetitivas por usted al proporcionar completado de código inteligente, análisis de código estático y refactorizaciones, y le permite concentrarse en el lado positivo del desarrollo de software, lo que lo convierte no solo en una experiencia productiva sino también agradable.
 
-GitHub Copilot, an innovative code generation tool, can be integrated with JetBrains IntelliJ, a widely used IDE for Java development. This integration enhances the Java coding experience by providing intelligent code suggestions and auto-completion within IntelliJ, boosting productivity and code quality.
+GitHub Copilot, una innovadora herramienta de generación de código, se puede integrar con JetBrains IntelliJ, un IDE ampliamente utilizado para el desarrollo en Java. Esta integración mejora la experiencia de programación en Java proporcionando sugerencias de código inteligentes y autocompletado dentro de IntelliJ, aumentando la productividad y la calidad del código.
 
-In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You will install the GitHub Copilot plugin and create a new project.
+En este ejercicio, utilizará el IDE JetBrains IntelliJ Idea para Java. Instalará el complemento GitHub Copilot y creará un nuevo proyecto.
 
->**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
+>**Descargo de responsabilidad**: GitHub Copilot sugerirá automáticamente todo el cuerpo de una función o código en texto gris. A continuación, se muestran ejemplos de lo que probablemente verá en este ejercicio, pero la sugerencia exacta puede variar.
 
->**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again.
+>**Nota**: Si no puede ver ninguna sugerencia de GitHub Copilot en VS Code, reinicie VS Code una vez e intente nuevamente.
 
-## Lab objectives
+## Objetivos del laboratorio
 
-You will be able to complete the following tasks:
+Será capaz de completar las siguientes tareas:
 
-- Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
-- Task 2: Create a basic Java project
-- Task 3: Getting more suggestions
-- Task 4: Getting code from a comment
+- Tarea 1: Instalar el complemento GitHub Copilot y crear un nuevo proyecto en el IDE IntelliJ Idea
+- Tarea 2: Crear un proyecto básico de Java
+- Tarea 3: Obtener más sugerencias
+- Tarea 4: Obtener código a partir de un comentario
 
-## Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
+## Tarea 1: Instalar el complemento GitHub Copilot y crear un nuevo proyecto en el IDE IntelliJ Idea
 
-1. Navigate to the desktop and open the **IntelliJ IDEA Community** IDE.
+1. Vaya al escritorio y abra el IDE **IntelliJ IDEA Community**.
 
    ![](../media/E6-T1-S1.png)
 
-1. In the IntelliJ IDEA Agreement, check **I confirm that I have read and accept the terms of this User Agreement (1)** and click on **Continue (2)**.
+1. En el Acuerdo de IntelliJ IDEA, marque **I confirm that I have read and accept the terms of this User Agreement (1)** y haga clic en **Continue (2)**.
 
    ![](../media/E6-T1-S2.png)
 
-   >**Note:** When the data sharing box appears, click on **Don't Send**.
+   >**Nota:** Cuando aparezca el cuadro para compartir datos, haga clic en **Don't Send**.
 
    ![](../media/E6-T1-S2.1.png)
 
-1. From the left menu, click on **Plugins** **(1)** and select **Marketplace** **(2)**. Search **GitHub Copilot** **(3)**, and once you find **GitHub Copilot** plugin, click on **Install** **(4)**.
+1. En el menú de la izquierda, haga clic en **Plugins** **(1)** y seleccione **Marketplace** **(2)**. Busque **GitHub Copilot** **(3)** y, una vez que encuentre el complemento **GitHub Copilot**, haga clic en **Install** **(4)**.
 
    ![](../media/install-plugin.png)
 
-   >**Note** : In the Third-Party Plugins notice, click **Accept**.
+   >**Nota**: En el aviso de Plugins de Terceros, haga clic en **Aceptar**.
 
-1. Verify the GitHub Copilot plugin is installed. Next, you need to restart the IDE by clicking on **Restart IDE**. Click on **Restart** in the pop-up once again to restart the IDE.
+1. Verifique que el complemento GitHub Copilot esté instalado. A continuación, debe reiniciar el IDE haciendo clic en **Restart IDE**. Haga clic en **Restart** en la ventana emergente una vez más para reiniciar el IDE.
 
    ![](../media/restart-ide(1).png)
 
-1. Once the **IntelliJ Idea Community** IDE is restarted, select **Projects** **(1)** from the left menu and click on **New Project** **(2)**.
+1. Una vez que se reinicie el IDE **IntelliJ Idea Community**, seleccione **Projects** **(1)** en el menú de la izquierda y haga clic en **New Project** **(2)**.
 
    ![](../media/create-project.png)
 
-1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, select the default **Download Oracle OpenJDK 22** **(4)** and click on **Create** **(5)**.
+1. En el panel de nuevo proyecto, ingrese el nombre del proyecto como **demo-copilot** **(1)**. Coloque el lenguaje como **Java** **(2)** y el sistema de compilación (Build system) como **IntelliJ** **(3)**. Para el JDK, seleccione el valor predeterminado **Download Oracle OpenJDK 22** **(4)** y haga clic en **Create** **(5)**.
 
    ![](../media/Exercise-06-v2-02.png)
 
-1. Review the created **demo-copilot** project as shown below:
+1. Revise el proyecto **demo-copilot** creado como se muestra a continuación:
 
    ![](../media/demo-copilot-project.png)
 
-## Task 2: Create a basic Java project
+## Tarea 2: Crear un proyecto básico de Java
 
-1. Click the **icon** as shown in the below image. 
+1. Haga clic en el **ícono** como se muestra en la siguiente imagen.
 
    ![](../media/icon.png)
 
-1. Click on **Tools (1)**. Click GitHub Copilot, then click **Login to GitHub (2)**.
+1. Haga clic en **Tools (1)**. Haga clic en GitHub Copilot y, luego, en **Login to GitHub (2)**.
 
    ![](../media/login.png)
 
-1. In the "Sign in to GitHub" dialog box, to copy the device code and open the device activation window, click **Copy and Open**.
+1. En el cuadro de diálogo "Sign in to GitHub", para copiar el código del dispositivo y abrir la ventana de activación del dispositivo, haga clic en **Copy and Open**.
 
    ![](../media/ex6-copy-code.png)
 
-1. A device activation window will open in your browser. Paste the device **code (1)** which you have copied in the previous step, then click **Continue (2)**.
+1. Se abrirá una ventana de activación del dispositivo en su navegador. Pegue el **código (1)** del dispositivo que copió en el paso anterior y luego haga clic en **Continue (2)**.
 
    ![](../media/ex6-device-activation.png)
 
-1. GitHub will request the necessary permissions for GitHub Copilot. To approve these permissions, click **Authorize GitHub Copilot Plugin**.
+1. GitHub solicitará los permisos necesarios para GitHub Copilot. Para aprobar estos permisos, haga clic en **Authorize GitHub Copilot Plugin**.
 
-1. After the permissions have been approved, your JetBrains IDE will show a confirmation.
+1. Una vez que se hayan aprobado los permisos, su IDE de JetBrains mostrará una confirmación.
 
    ![](../media/Exercise-06-v2-04.png)
 
-1. In your JetBrains IDE, right-click on the **src (1)**, select **New (2)** and click on **File (3)** to create a new Java (*.java) file named **Test.java**.
+1. En su IDE de JetBrains, haga clic derecho en **src (1)**, seleccione **New (2)** y haga clic en **File (3)** para crear un nuevo archivo Java (*.java) denominado **Test.java**.
 
    ![](../media/ex6-test-java.png)
 
-1. Create a class by typing **class Test**. Copilot will suggest a class body, and you can press **tab** to accept the suggestion.
+1. Cree una clase escribiendo **class Test**. Copilot sugerirá un cuerpo de clase y puede presionar la tecla **Tab** para aceptar la sugerencia.
 
    ![](../media/ex6-class-test.png)
 
-1. Below the bracket of the main function, type the following function header:
+1. Debajo de la llave de la función main, escriba el siguiente encabezado de función:
 
    ```
    int calculateDaysBetweenDates(
    ```
 
-1. GitHub Copilot will automatically suggest an entire function body in gray text, as shown below. The exact suggestion may vary.
+1. GitHub Copilot sugerirá automáticamente todo el cuerpo de la función en texto gris, como se muestra a continuación. La sugerencia exacta puede variar.
 
    ![](../media/ex6-days.png)
 
-1. Press **Tab** to accept the suggestion.
+1. Presione **Tab** para aceptar la sugerencia.
 
 
-## Task 3: Getting more suggestions
+## Tarea 3: Obtener más sugerencias
 
-Sometimes, you may not want to use any of the initial suggestions. You can ask GitHub Copilot to return more.
+En ocasiones, es posible que no quiera usar ninguna de las sugerencias iniciales. Puede solicitarle a GitHub Copilot que devuelva más.
 
-1. Remove the function you entered and type the following again:
+1. Elimine la función que ingresó y escriba lo siguiente nuevamente:
 
    ```
    int calculateDaysBetweenDates(
    ```
 
-1. Open GitHub Copilot.
+1. Abra GitHub Copilot.
 
-   -On macOS, press `Option + Enter`.
+   - En macOS, presione `Option + Enter`.
 
-   -On Windows or Linux, press `Alt + Enter`.
+   - En Windows o Linux, presione `Alt + Enter`.
    
-   >**Note**: If the 'Alt + Enter' isn't working, please select Github Co-pilot from the right pane as shown in the below image.
+   >**Nota**: Si `Alt + Enter` no funciona, seleccione Github Copilot en el panel derecho como se muestra en la siguiente imagen.
 
    ![](../media/github.png)
    
-1. Select "Open Copilot". GitHub Copilot will open a new tab and suggest multiple options, as shown below.
+1. Seleccione "GitHub Copilot". GitHub Copilot abrirá una nueva pestaña y sugerirá múltiples opciones, como se muestra a continuación.
 
    ![](../media/ex6-copilot-suggestion.png)
 
-1. Pick a suggestion that you want to use, then click "Accept solution".
+1. Elija una sugerencia que desee utilizar y luego haga clic en "Accept solución".
 
-1. If you don't like any of the returned suggestions, just close the suggestions tab.
+1. Si no le gusta ninguna de las sugerencias devueltas, simplemente cierre la pestaña de sugerencias.
 
 
-## Task 4: Getting code from a comment
+## Tarea 4: Obtener código a partir de un comentario
 
-GitHub Copilot can understand significantly more context than most code assistants and can generate entire functions from something as simple as a comment.
+GitHub Copilot puede entender mucho más contexto que la mayoría de los asistentes de código y puede generar funciones completas a partir de algo tan simple como un comentario.
 
-1. Remove the function you entered and type the following comment:
+1. Elimine la función que ingresó y escriba el siguiente comentario:
    
    ```
    // Identify all the images without alternate text
@@ -144,16 +144,16 @@ GitHub Copilot can understand significantly more context than most code assistan
 
    ```
 
-2. GitHub Copilot will automatically suggest an implementation.
+2. GitHub Copilot sugerirá automáticamente una implementación.
   
    ![](../media/ex6-image-suggestion.png)
 
    <validation step="364115e7-deff-4c32-96e9-fa5d2122a86f" />
 
-3. Click on **Next** below to move on to the next page.
+6. Haga clic en **Siguiente** a continuación para pasar a la página siguiente.
         
-### Summary
+### Resumen
 
-In this exercise, you have successfully configured the JetBrains IntelliJ Idea IDE for Java, installed the GitHub Copilot plugin, and explored the basic Java code that produced the suggestions using Copilot.
+En este ejercicio, ha configurado con éxito JetBrains IntelliJ Idea IDE para Java, ha instalado el complemento GitHub Copilot y ha explorado código básico de Java que generó las sugerencias usando Copilot.
 
-### You have successfully completed the lab
+### Ha completado el laboratorio con éxito

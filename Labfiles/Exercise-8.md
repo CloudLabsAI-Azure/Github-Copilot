@@ -1,83 +1,83 @@
-# Exercise 8: Using GitHub Copilot for T-SQL and YAML Code [Optional]
+# Ejercicio 8: Usar GitHub Copilot para Código T-SQL y YAML [Opcional]
 
-### Estimated Duration: 15 minutes
+### Duración Estimada: 15 minutos
 
-In this exercise, the primary objective is to leverage the capabilities of GitHub Copilot, a powerful AI-assisted coding tool, to assist you in generating code for two distinct programming languages: T-SQL and YAML. You can leverage comments to generate Copilot suggestions!
+En este ejercicio, el objetivo principal es aprovechar las capacidades de GitHub Copilot, una poderosa herramienta de codificación asistida por IA, para ayudarlo a generar código para dos lenguajes de programación distintos: T-SQL y YAML. ¡Puede aprovechar los comentarios para generar sugerencias de Copilot!
 
->**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
+>**Descargo de responsabilidad**: GitHub Copilot sugerirá automáticamente todo el cuerpo de una función o código en texto gris. A continuación, se muestran ejemplos de lo que probablemente verá en este ejercicio, pero la sugerencia exacta puede variar.
 
->**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+>**Nota**: Si no puede ver ninguna sugerencia de GitHub Copilot en VS Code, reinicie VS Code una vez e intente nuevamente.
 
-## Lab objectives
+## Objetivos del laboratorio
 
-You will be able to complete the following tasks:
+Será capaz de completar las siguientes tareas:
 
-- Task 1: Generate a SQL query with GitHub Copilot using comments
-- Task 2: Generate YAML with GitHub Copilot using comments
-- Task 3: Push code to your repository from the codespace
+- Tarea 1: Generar una consulta SQL con GitHub Copilot usando comentarios
+- Tarea 2: Generar YAML con GitHub Copilot usando comentarios
+- Tarea 3: Enviar código a tu repositorio desde el espacio de código
 
 
-### Task 1: Generate a SQL query with GitHub Copilot using comments
+### Tarea 1: Generar una consulta SQL con GitHub Copilot usando comentarios
 
-1. Navigate back to Visual Studio Code, and from inside the codespace in the VS Code explorer window, create a new file.
+1. Vuelva a Visual Studio Code y, desde el codespace en la ventana Explorador de VS Code, cree un nuevo archivo.
 
     ![](../media/chat-code-new.png)
 
-1. Name the file `demo.sql` and type the below comment:
+1. Nombre el archivo `demo.sql` y escriba el siguiente comentario:
 
    ```
    -- Create a table for 5 products with product names and prices
    ```
 
-1. To open a new tab with multiple synthesized solutions, press `Ctrl+Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept suggestion** below the solution and then save the file.
+1. Para abrir una nueva pestaña con múltiples soluciones sintetizadas, presione `Ctrl+Enter`. GitHub Copilot sintetizará alrededor de 10 sugerencias de código diferentes en una nueva pestaña. Puede ver las soluciones y, para aceptar una sugerencia, debe hacer clic en **Accept suggestion** debajo de la solución y luego guardar el archivo.
 
    ![](../media/ex7-t1-s3.png)
 
-1. After accepting the suggestion, review it carefully before applying it.
+1. Después de aceptar la sugerencia, revísela cuidadosamente antes de aplicarla.
 
    ![](../media/demo-sql-1.png)
 
-   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+   >**Nota**: Es posible que no vea las mismas sugerencias que se muestran en la captura de pantalla; las sugerencias exactas pueden variar.
 
-### Task 2: Generate YAML with GitHub Copilot using comments
+### Tarea 2: Generar YAML con GitHub Copilot usando comentarios
    
-1. From inside the codespace in the VS Code Explorer window, create a new file.
+1. Desde el codespace en la ventana Explorador de VS Code, cree un nuevo archivo.
 
     ![](../media/chat-code-new.png)
 
-1. Name the file `deploy-app.yml` and type the below comment:
+1. Nombre el archivo `deploy-app.yml` y escriba el siguiente comentario:
 
    ```
    # Create a GitHub action to email a report from a file at 6 a.m. daily
    ```
 
-1. To open a new tab with multiple synthesized solutions, press `Ctrl+Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept suggestion** below the solution and then save the file.
+1. Para abrir una nueva pestaña con múltiples soluciones sintetizadas, presione `Ctrl+Enter`. GitHub Copilot sintetizará alrededor de 10 sugerencias de código diferentes en una nueva pestaña. Puede ver las soluciones y, para aceptar una sugerencia, debe hacer clic en **Accept suggestion** debajo de la solución y luego guardar el archivo.
 
    ![](../media/ex7-t2-s3.png)
 
-1. After accepting the suggestion, review it carefully before applying it.
+1. Después de aceptar la sugerencia, revísela cuidadosamente antes de aplicarla.
 
    ![](../media/demo-yaml-1.png)
 
-   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+   >**Nota**: Es posible que no vea las mismas sugerencias que se muestran en la captura de pantalla; las sugerencias exactas pueden variar.
 
-### Task 3: Push code to your repository from the codespace
+### Tarea 3: Enviar código a tu repositorio desde el espacio de código
 
-1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
+1. Use la terminal de VS Code para agregar archivos al repositorio. Abra la Terminal de VS Code si aún no está abierta.
 
-1. Run the below command to add all the files to the repository:
+1. Ejecute el siguiente comando para agregar todos los archivos al repositorio:
    
    ```
    git add --all
    ```
 
-1. Next, from the VS Code terminal stage, commit the changes to the repository:
+1. A continuación, desde la terminal de VS Code, confirme los cambios en el repositorio:
 
    ```
    git commit -m "Copilot fourth commit"
    ```
 
-1. Finally, from the VS Code terminal, push code to the repository:
+1. Por último, desde la Terminal de VS Code, envíe el código al repositorio:
 
    ```
    git push
@@ -85,14 +85,14 @@ You will be able to complete the following tasks:
 
    ![](../media/ex-6-push.png)
 
-   >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
+   >**Nota**: Espere unos 60 segundos y luego actualice la página de inicio de su repositorio para el siguiente paso.
 
-1. You can verify the newly added files available in your GitHub repository.
+1. Puede verificar los nuevos archivos disponibles en su repositorio de GitHub.
 
    ![](../media/ex-6-github.png)
 
-### Summary
+### Resumen
 
-In this exercise, you have successfully generated code for SQL and YAML using comments with the help of GitHub Copilot.
+En este ejercicio, ha generado código para SQL y YAML con éxito usando comentarios con la ayuda de GitHub Copilot.
 
-### You have successfully completed the lab
+### Ha completado el laboratorio con éxito

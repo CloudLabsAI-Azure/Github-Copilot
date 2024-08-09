@@ -1,56 +1,56 @@
-# Exercise 3: Exploring Python with GitHub Copilot: Intelligent Code Suggestions
+# Ejercicio 3: Explorar Python con GitHub Copilot: Sugerencias de Código Inteligentes
 
-### Estimated Duration: 10 minutes
+### Duración Estimada: 10 minutos
 
-GitHub Copilot provides suggestions for a multitude of languages and frameworks, excelling particularly with Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. Moreover, Copilot offers valuable assistance in generating queries for databases.
+GitHub Copilot ofrece sugerencias para una gran variedad de lenguajes y frameworks, y destaca particularmente con Python, JavaScript, TypeScript, Ruby, Go, C# y C++. Además, Copilot ofrece una valiosa asistencia para generar consultas para bases de datos.
 
-In this exercise, you will have the chance to delve into Python and leverage Copilot’s capabilities, benefiting from a variety of suggestions.
+En este ejercicio, tendrá la oportunidad de profundizar en Python y aprovechar las capacidades de Copilot, beneficiándose de una variedad de sugerencias.
 
->**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Following are the examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
+>**Descargo de responsabilidad**: GitHub Copilot sugerirá automáticamente todo el cuerpo de una función o código en texto gris. A continuación, se muestran ejemplos de lo que probablemente verá en este ejercicio, pero la sugerencia exacta puede variar.
 
->**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+>**Nota**: Si no puede ver ninguna sugerencia de GitHub Copilot en VS Code, reinicie VS Code una vez e intente nuevamente.
 
-## Lab objectives
+## Objetivos del laboratorio
 
-You will be able to complete the following tasks:
+Será capaz de completar las siguientes tareas:
 
-- Task 1: Add Python method code
-- Task 2: View the GitHub Copilot tab with multiple suggestions
-- Task 3: Push code to your repository from the VS code codespace
+- Tarea 1: Agregar código de un método en Python
+- Tarea 2: Ver la pestaña GitHub Copilot con múltiples sugerencias
+- Tarea 3: Enviar código a su repositorio desde VS Code codespace
 
-## Task 1: Add Python method code
+## Tarea 1: Agregar código de un método en Python
 
-### Installing Python extension in VS Code
+### Instalando la extensión Python en VS Code
 
-1. To install the Python extension, the following steps are to be performed within Visual Studio Code:
-    - Click on the **Extensions** **(1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
-    - In the "Search Extensions in Marketplace" search box, type and search for the **Python** **(2)** extension.
-    - Select **Python** **(3)** from the list of results that show up.
-    - Click on the **Install** **(4)** button.
+1. Para instalar la extensión Python, se deben realizar los siguientes pasos dentro de Visual Studio Code:
+    - Haga clic en el ícono **Extensiones** **(1)** en la barra de actividades presente en el lado izquierdo de la ventana de Visual Studio Code.
+    - En el cuadro de búsqueda "Buscar Extensiones en Marketplace", escriba y busque la extensión **Python** **(2)**.
+    - Seleccione **Python** **(3)** de la lista de resultados que aparecen.
+    - Haga clic en el botón **Instalar** **(4)**.
 
    ![](../media/python-install.png)
 
-1. From inside the codespace in the VS Code Explorer window, create a New File.
+1. Dentro del codespace en la ventana Explorador de VS Code, cree un Nuevo Archivo.
 
    ![](../media/ex-3-create-py.png)
 
-1. Name the file `app.py`. Type the following code within this newly created file and then use the enter key to go to the next line.
+1. Nombre el archivo `app.py`. Escriba el siguiente código dentro de este archivo recién creado y luego use la tecla Enter para ir a la siguiente línea.
 
    ```
    def hello():
    ```
 
-1. GitHub Copilot will automatically suggest an entire code in gray text. Press the Tab to accept the suggestion, and then save the file.
+1. GitHub Copilot sugerirá automáticamente un código completo en texto gris. Presione la tecla Tab para aceptar la sugerencia y luego guarde el archivo.
 
    ![](../media/ex-3-apppy.png)
 
-   > **Note**: Here's an example of what you are likely to see; however, the precise recommendation could vary.
+   > **Nota**: Este es un ejemplo de lo que probablemente verá; sin embargo, la recomendación precisa podría variar.
 
-### Task 2: View the GitHub Copilot tab with multiple suggestions
+### Tarea 2: Ver la pestaña GitHub Copilot con múltiples sugerencias
 
-In this task, you will continue to use Copilot and may need some of the suggestions that GitHub Copilot offers. GitHub Copilot will synthesize around 10 different code suggestions in a new tab.
+En esta tarea, continuará usando Copilot y es posible que necesite algunas de las sugerencias que ofrece GitHub Copilot. GitHub Copilot sintetizará alrededor de 10 sugerencias de código diferentes en una nueva pestaña.
 
-1. From inside the codespace in the VS Code Explorer window, create a new file named `prime.py` **(1)** and type the following code **(2)**.
+1. Dentro del codespace en la ventana Explorador de VS Code, cree un nuevo archivo llamado `prime.py` **(1)** y escriba el siguiente código **(2)**.
 
    ```
    def prime(n):
@@ -58,31 +58,31 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
    ![](../media/co-suggestion1.png)
 
-   > **Note**: Here's an example of what you are likely to see; however, the precise recommendation could vary.
+   > **Nota**: Este es un ejemplo de lo que probablemente verá; sin embargo, la recomendación precisa podría variar.
 
-1. To open a new tab with multiple synthesized solutions, press `Ctrl + Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept Suggestion** below the desired suggestion and then save the file.
+1. Para abrir una nueva pestaña con múltiples soluciones sintetizadas, presione `Ctrl + Enter`. GitHub Copilot sintetizará alrededor de 10 sugerencias de código diferentes en una nueva pestaña. Puede ver las soluciones y, para aceptar una sugerencia, debe hacer clic en **Accept suggestion** debajo de la sugerencia deseada y luego guardar el archivo.
 
    ![](../media/accpet-suggestion.png)
 
-    > **Note**: In cases where the Github Copilot suggestions doesn't come up, close and re-open the Visual Studio Code.
+    > **Nota**: En caso de que no aparezcan las sugerencias de Github Copilot, cierre y vuelva a abrir Visual Studio Code.
 
-### Task 3: Push code to your repository from the VS code codespace
+### Tarea 3: Enviar código a su repositorio desde VS Code codespace
 
-1. Navigate back to the VS Code terminal and add files to the repository.
+1. Vuelva a la Terminal de VS Code y agregue archivos al repositorio.
 
-2. Run the below command to add the `app.py` and `prime.py` files to the repository:
+2. Ejecute el siguiente comando para agregar los archivos `app.py` y `prime.py` al repositorio:
 
    ```
    git add app.py prime.py
    ```
 
-3. Next, from the VS Code terminal stage and commit the changes to the repository:
+3. A continuación, desde la Terminal de VS Code, envíe los cambios al repositorio:
 
    ```
    git commit -m "Copilot second commit"
    ```
 
-4. Finally, from the VS Code terminal push to code to the repository:
+4. Por último, desde la Terminal de VS Code, envíe el código al repositorio:
 
    ```
    git push
@@ -90,18 +90,18 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
    ![](../media/ex-3-push2.png)
 
-   >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
+   >**Nota**: Espere unos 60 segundos y luego actualice la página de inicio de su repositorio para el siguiente paso.
 
-5. You can verify the `app.py` and `prime.py` files available in your GitHub repository.
+5. Puede verificar los archivos `app.py` y `prime.py` disponibles en su repositorio de GitHub.
 
    ![](../media/ex-3-github3.png)
 
    <validation step="95754ad8-7b5c-486d-8e7c-d034df03ff1b" />
 
-6. Click on **Next** below to move on to the next page.
+6. Haga clic en **Siguiente** a continuación para pasar a la página siguiente.
 
-### Summary
+### Resumen
 
-In this exercise, you have successfully finished the task of using Python in conjunction with Copilot, and you have done so with the benefit of receiving multiple suggestions.
+En este ejercicio, ha finalizado con éxito la tarea de usar Python en conjunto con Copilot y lo ha hecho con el beneficio de recibir múltiples sugerencias.
 
-### You have successfully completed the lab
+### Ha completado el laboratorio con éxito

@@ -1,33 +1,33 @@
-# Exercise 9: Generating Documentation Using GitHub Copilot [Optional]
+# Exercise 9: Generar Documentación con GitHub Copilot [Opcional]
 
-### Estimated Duration: 10 minutes
+### Duración Estimada: 10 minutos
 
-GitHub Copilot can help streamline the process of generating documentation for your software projects. It assists by auto-generating code comments, creating Markdown documentation, providing templates for common sections, ensuring grammar and style consistency, and cross-referencing code and documentation. This tool can save time and improve the quality of your project's documentation, making it more accessible and user-friendly.
+GitHub Copilot puede ayudarle a agilizar el proceso de generación de documentación para sus proyectos de software. Ayuda generando automáticamente comentarios de código, creando documentación en Markdown, proporcionando plantillas para secciones comunes, garantizando la coherencia gramatical y de estilo, y haciendo referencias cruzadas entre el código y la documentación. Esta herramienta puede ahorrarle tiempo y mejorar la calidad de la documentación de su proyecto, haciéndola más accesible y fácil de usar.
 
-In this exercise, you will be generating documentation using GitHub Copilot.
+En este ejercicio, generará documentación utilizando GitHub Copilot.
 
->**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
+>**Descargo de responsabilidad**: GitHub Copilot sugerirá automáticamente todo el cuerpo de una función o código en texto gris. A continuación, se muestran ejemplos de lo que probablemente verá en este ejercicio, pero la sugerencia exacta puede variar.
 
->**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+>**Nota**: Si no puede ver ninguna sugerencia de GitHub Copilot en VS Code, reinicie VS Code una vez e intente nuevamente.
 
-1. From inside the codespace in the VS Code Explorer window, create a new file.
+1. Desde el codespace en la ventana Explorador de VS Code, cree un nuevo archivo.
 
     ![](../media/chat-code-new.png)
 
-1. Name the file `Document.md` and press `CTRL + I` to ask GitHub Copilot to do something.
+1. Nombre el archivo `Document.md` y presione `CTRL + I` para pedirle a GitHub Copilot que haga algo.
 
    ![](../media/ex-7-docmd.png)
 
-1. Type the statement `Create a markdown document to create a virtual network in Azure Portal` **(1)** and click on `>` or press `Enter` **(2)**.
+1. Escriba la instrucción `Create a markdown document to create a virtual network in Azure Portal` **(1)** y haga clic en `>` o presione `Enter` **(2)**.
 
    ![](../media/ex-7-mdsearch.png)
 
-1. Copilot will give a response, and you can review it **(1)**, click **Accept** **(2)**, and press `CTRL + S` to save the file. Also, you can discard the suggestion as depicted in the image below.
+1. Copilot le dará una respuesta y usted puede revisarla **(1)**, hacer clic en **Aceptar** **(2)** y presionar `CTRL + S` para guardar el archivo. También puede descartar la sugerencia como se muestra en la imagen a continuación.
 
    ![](../media/8thex.png)
 
-## Summary
+## Resumen
 
-In this exercise, you have successfully generated a document using GitHub Copilot Chat.
+En este ejercicio, ha generado con éxito un documento mediante GitHub Copilot Chat.
 
-### You have successfully completed the lab
+### Ha completado el laboratorio con éxito

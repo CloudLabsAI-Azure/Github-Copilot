@@ -1,132 +1,132 @@
-# Exercise 4: Using GitHub Copilot Chat to generate ARM and Terraform code with Copilot
+# Ejercicio 4: Usar GitHub Copilot Chat para generar código ARM y Terraform con Copilot
 
-### Estimated Duration: 25 minutes
+### Duración Estimada: 25 minutos
 
-## About GitHub Copilot Chat and Visual Studio Code
+## Acerca de GitHub Copilot Chat y Visual Studio Code
 
-GitHub Copilot Chat allows you to ask coding questions and receive answers directly within the supported IDE. Copilot Chat can help you with a variety of coding-related tasks, like offering you code suggestions, providing natural language descriptions of a piece of code's functionality and purpose, generating unit tests for your code, and proposing fixes for bugs in your code. For more information, see "[About GitHub Copilot Chat](https://docs.github.com/en/copilot/github-copilot-chat/about-github-copilot-chat)."
+GitHub Copilot Chat le permite hacer preguntas sobre codificación y recibir respuestas directamente en el IDE compatible. Copilot Chat puede ayudarle con una variedad de tareas relacionadas con la programación, como ofrecerle sugerencias de código, proporcionar descripciones en lenguaje natural de la funcionalidad y el propósito de un fragmento de código, generar pruebas unitarias para su código y proponer correcciones para errores en su código. Para obtener más información, consulte "[Acerca de GitHub Copilot Chat](https://docs.github.com/en/copilot/github-copilot-chat/about-github-copilot-chat)".
 
-## Use cases for GitHub Copilot Chat
+## Casos de uso de GitHub Copilot Chat
 
-There are several situations in which GitHub Copilot Chat can help with coding.
+Hay varias situaciones en las que GitHub Copilot Chat puede ayudarle con la programación.
 
- - Generating unit test cases
- - Explaining code
- - Proposing code fixes
- - Answering coding questions
+- Generar casos de pruebas unitarias
+- Explicar el código
+- Proponer correcciones de código
+- Responder preguntas sobre codificación
 
-In this exercise, you will utilize Copilot to generate code in ARM, Terraform, and PowerShell.
+En este ejercicio, utilizará Copilot para generar código en ARM, Terraform y PowerShell.
 
-> **Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
+>**Descargo de responsabilidad**: GitHub Copilot sugerirá automáticamente todo el cuerpo de una función o código en texto gris. A continuación, se muestran ejemplos de lo que probablemente verá en este ejercicio, pero la sugerencia exacta puede variar.
 
->**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+>**Nota**: Si no puede ver ninguna sugerencia de GitHub Copilot en VS Code, reinicie VS Code una vez e intente nuevamente.
 
-## Lab objectives
+## Objetivos del laboratorio
 
-You will be able to complete the following tasks:
+Será capaz de completar las siguientes tareas:
 
-- Task 1: Generate code by chat that uses ARM to deploy resources to Azure
-- Task 2: Generate code by chat that uses Terraform to deploy resources to Azure
-- Task 3: Generate code by chat that uses PowerShell to deploy resources to Azure
-- Task 4: Push code to your repository from the codespace
+- Tarea 1: Generar código mediante chat que use ARM para implementar recursos en Azure
+- Tarea 2: Generar código mediante chat que use Terraform para implementar recursos en Azure
+- Tarea 3: Generar código mediante chat que use PowerShell para implementar recursos en Azure
+- Tarea 4: Enviar código a su repositorio desde el codespace
 
-### Task 1: Generate code by chat that uses ARM to deploy resources to Azure
+### Tarea 1: Generar código mediante chat que use ARM para implementar recursos en Azure
 
-1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
+1. En la barra de actividades de Visual Studio Code, haga clic en el ícono de GitHub Copilot Chat para abrir la ventana de GitHub Copilot Chat.
 
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot or type / for commands** text box, type a coding-related question, then press Enter. For example, type "Write an ARM code for deploying a storage account to Azure with the code explanation."
+1. En la parte inferior de la ventana de GitHub Copilot Chat, en el cuadro de texto **Preguntar a Copilot o escribir / para los comandos**, escriba una pregunta relacionada con la codificación y, luego, presione Entrar. Por ejemplo, escriba "Write an ARM code for deploying a storage account to Azure with the code explanation".
 
     ![](../media/create-arm.png)
 
-1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
+1. GitHub Copilot Chat procesará su pregunta y proporcionará una respuesta, con sugerencias de código cuando corresponda, en la ventana de chat.
 
     ![](../media/arm-output1.png)
 
     ![](../media/arm-output2.png)   
 
-    > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
+    > **Nota:** Este es un ejemplo de lo que probablemente verá; sin embargo, la recomendación precisa podría variar.
 
-    > **Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot or type / for commands** text box, click the follow-up question to ask it.
+    > **Nota**: Opcionalmente, si GitHub Copilot Chat sugiere una pregunta de seguimiento sobre el cuadro de texto **Preguntar a Copilot o escribir / para los comandos**, haga clic en la pregunta de seguimiento para hacerla.
 
-    > **Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
+    > **Nota**: Si su pregunta está fuera del alcance de GitHub Copilot Chat, se le indicará y es posible que le sugiera una pregunta alternativa para realizar.
    
-1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
+1. Puede ver la respuesta de GitHub Copilot en el chat. Para insertar código en un archivo nuevo, haga clic en los **Puntos suspensivos (...)** **(1)** y seleccione **Insertar en Nuevo Archivo** **(2)**.
 
    ![](../media/arm-new-file.png)
 
-1. Press `CTRL + S` to save the file. Name the file `arm.json` and click on **OK**
+1. Presione `CTRL + S` para guardar el archivo. Asigne el nombre `arm.json` al archivo y haga clic en **Aceptar**
 
    ![](../media/arm-save.png)
 
-### Task 2: Generate code by chat that uses Terraform to deploy resources to Azure
+### Tarea 2: Generar código mediante chat que use Terraform para implementar recursos en Azure
 
-1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
+1. En la barra de actividades de Visual Studio Code, haga clic en el ícono de GitHub Copilot Chat para abrir la ventana de GitHub Copilot Chat.
 
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot or type / for commands** text box, type a coding-related question, then press Enter. For instance, type "Write a Terraform code for deploying a storage account to Azure with the code explanation".
+1. En la parte inferior de la ventana de GitHub Copilot Chat, en el cuadro de texto **Preguntar a Copilot o escribir / para comandos**, escriba una pregunta relacionada con la codificación y, luego, presione Entrar. Por ejemplo, escriba "Write a Terraform code for deploying a storage account to Azure with the code explanation".
 
    ![](../media/create-terraform.png)
 
-1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window.
+1. GitHub Copilot Chat procesará su pregunta y proporcionará una respuesta, con sugerencias de código cuando corresponda, en la ventana de chat.
 
     ![](../media/terraform.png)
 
-    > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
+    > **Nota:** Este es un ejemplo de lo que probablemente verá; sin embargo, la recomendación precisa podría variar.
     
-    > **Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot a question or type / for topics** text box, click the follow-up question to ask it.
+    > **Nota**: Opcionalmente, si GitHub Copilot Chat sugiere una pregunta de seguimiento sobre el cuadro de texto **Preguntar a Copilot o escribir / para los comandos**, haga clic en la pregunta de seguimiento para hacerla.
 
-    > **Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
+    > **Nota**: Si su pregunta está fuera del alcance de GitHub Copilot Chat, se le indicará y es posible que le sugiera una pregunta alternativa para realizar.
    
-1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
+1. Puede ver la respuesta de GitHub Copilot en el chat. Para insertar código en un archivo nuevo, haga clic en los **Puntos suspensivos (...)** **(1)** y seleccione **Insertar en Nuevo Archivo** **(2)**.
 
    ![](../media/terraform-new-file.png)
 
-1. Press `CTRL + S` to save the file. Name the file `terraform.tf` and click on **OK**
+1. Presione `CTRL + S` para guardar el archivo. Asigne el nombre `terraform.tf` al archivo y haga clic en **Aceptar**
 
    ![](../media/terraform-save.png)
 
-### Task 3: Generate code by chat that uses PowerShell to deploy resources to Azure
+### Tarea 3: Generar código mediante chat que use PowerShell para implementar recursos en Azure
 
-1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
+1. En la barra de actividades de Visual Studio Code, haga clic en el ícono de GitHub Copilot Chat para abrir la ventana de GitHub Copilot Chat.
 
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write a PowerShell script for deploying a storage account to Azure."
+1. En la parte inferior de la ventana de GitHub Copilot Chat, en el cuadro de texto **Preguntar a Copilot o escribir / para comandos**, escriba una pregunta relacionada con la codificación y, luego, presione Entrar. Por ejemplo, escriba "Write a PowerShell script for deploying a storage account to Azure".
 
    ![](../media/create-powershell.png)
 
-1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
+1. GitHub Copilot Chat procesará su pregunta y proporcionará una respuesta, con sugerencias de código cuando corresponda, en la ventana de chat.
 
     ![](../media/ps-output.png)
 
-    > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
+    > **Nota:** Este es un ejemplo de lo que probablemente verá; sin embargo, la recomendación precisa podría variar.
 
-    > **Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot a question or type / for topics** text box, click the follow-up question to ask it.
+    > **Nota**: Opcionalmente, si GitHub Copilot Chat sugiere una pregunta de seguimiento sobre el cuadro de texto **Preguntar a Copilot o escribir / para los comandos**, haga clic en la pregunta de seguimiento para hacerla.
 
-    > **Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
+    > **Nota**: Si su pregunta está fuera del alcance de GitHub Copilot Chat, se le indicará y es posible que le sugiera una pregunta alternativa para realizar.
    
-1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
+1. Puede ver la respuesta de GitHub Copilot en el chat. Para insertar código en un archivo nuevo, haga clic en los **Puntos suspensivos (...)** **(1)** y seleccione **Insertar en Nuevo Archivo** **(2)**.
 
    ![](../media/ps-newfile.png)
 
-1. Press `CTRL + S` to save the file, and you will see a recommendation to install the `PowerShell` extension. Click on Install. Name the file `powershell.ps1` and click on **OK**.
+1. Presione `CTRL + S` para guardar el archivo y verá una recomendación para instalar la extensión `PowerShell`. Haga clic en Instalar. Nombre el archivo `powershell.ps1` y haga clic en **Aceptar**.
 
    ![](../media/ps-save.png)
 
-### Task 4: Push code to your repository from the codespace
+### Tarea 4: Enviar código a su repositorio desde el codespace
 
-1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
+1. Use la Terminal de VS Code para agregar archivos al repositorio. Abra la Terminal de VS Code si aún no está abierta.
 
-1. Run the below command to add the `arm.json` , `terraform.tf` and `powershell.ps1` files to the repository:
+1. Ejecute el siguiente comando para agregar los archivos `arm.json`, `terraform.tf` y `powershell.ps1` al repositorio:
 
    ```
    git add arm.json terraform.tf powershell.ps1
    ```
 
-1. Next, from the VS Code terminal stage, commit the changes to the repository:
+1. A continuación, desde la Terminal de VS Code, confirme los cambios en el repositorio:
 
    ```
    git commit -m "Copilot third commit"
    ```
 
-1. Finally, from the VS Code terminal, push to code to the repository:
+1. Por último, desde la Terminal de VS Code, envíe el código al repositorio:
 
    ```
    git push
@@ -134,16 +134,16 @@ You will be able to complete the following tasks:
 
    ![](../media/ex-4-push5.png)
 
-   >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
+   >**Nota**: Espere unos 60 segundos y luego actualice la página de inicio de su repositorio para el siguiente paso.
 
-1. You can verify the `arm.json`, `powershell.ps1`, and `terraform.tf` files available in your GitHub repository.
+1. Puede verificar los archivos `arm.json`, `powershell.ps1` y `terraform.tf` disponibles en su repositorio de GitHub.
 
    ![](../media/ex-4-github5.png)
 
-1. Click on **Next** below to move on to the next page.
+1. Haga clic en **Siguiente** a continuación para pasar a la página siguiente.
 
-### Summary
+### Resumen
 
-In this exercise, Copilot has been utilized to automatically generate code in ARM, Terraform, and PowerShell.
+En este ejercicio, se ha utilizado Copilot para automáticamente generar código en ARM, Terraform y PowerShell.
 
-### You have successfully completed the lab
+### Ha completado el laboratorio con éxito

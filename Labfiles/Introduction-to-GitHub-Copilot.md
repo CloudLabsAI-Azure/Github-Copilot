@@ -1,113 +1,113 @@
-# Introduction to GitHub Copilot
+# Introducción a GitHub Copilot
 
-### Estimated Duration: 10 minutes
+### Duración Estimada: 10 minutos
 
-GitHub Copilot is the world's first at-scale AI developer tool that can help you write code faster with less work. GitHub Copilot uses comments and code context to instantly suggest specific lines of code and the entire functions.
+GitHub Copilot es la primera herramienta de desarrollo de IA a escala mundial que puede ayudarle a escribir código más rápido con menos trabajo. GitHub Copilot usa comentarios y el contexto de código para sugerir instantáneamente líneas de código específicas y funciones completas.
 
-Research has found GitHub Copilot helps developers code faster, focus on solving bigger problems, stay in the flow longer, and feel more fulfilled with their work.
+La investigación ha demostrado que GitHub Copilot ayuda a los desarrolladores a programar más rápido, a concentrarse en la solución de problemas más grandes, a permanecer en el flujo por más tiempo y a sentirse más satisfecho con su trabajo.
 
-Powered by OpenAI Codex and GitHub Copilot's generative, pre-trained language model was created by OpenAI. An extension is available for Visual Studio Code, Visual Studio, Neovim, and the JetBrains suite of integrated development environments (IDEs).
+Impulsado por OpenAI Codex, el modelo de lenguaje generativo y preentrenado de GitHub Copilot fue creado por OpenAI. Hay una extensión disponible para Visual Studio Code, Visual Studio, Neovim y el conjunto de ambientes de desarrollo integrados (IDEs) de JetBrains.
 
-## Prerequisites
+## Requisitos previos
 
- - Basic understanding of GitHub fundamentals
- - A GitHub Enterprise Cloud administrator account
+ - Conocimientos básicos de los aspectos fundamentales de GitHub
+ - Una cuenta de administrador de GitHub Enterprise Cloud
 
 ## Github Copilot for Individuals
 
-GitHub Copilot is an AI-powered coding assistant developed by GitHub, designed to help individual developers by providing intelligent code suggestions, automating repetitive tasks, and enhancing productivity during software development. It leverages machine learning models trained on vast repositories of code to generate code snippets, complete functions, and offer contextual suggestions based on the developer's input and coding patterns. Copilot supports various programming languages and adapts to individual coding styles, making it a valuable tool for accelerating coding tasks, exploring new techniques, and improving code quality.
+GitHub Copilot es un asistente de programación impulsado por IA desarrollado por GitHub, diseñado para ayudar a los desarrolladores individuales proporcionándoles sugerencias de código inteligentes, automatizando tareas repetitivas y mejorando la productividad durante el desarrollo de software. Aprovecha los modelos de machine learning entrenados en vastos repositorios de código para generar fragmentos de código, completar funciones y ofrecer sugerencias contextuales basadas en los patrones de codificación y las entradas del desarrollador. Copilot admite varios lenguajes de programación y se adapta a los estilos de codificación individuales, lo que lo convierte en una herramienta valiosa para acelerar las tareas de codificación, explorar nuevas técnicas y mejorar la calidad del código.
 
-Ways in which the data in GitHub Copilot Individual can be used and shared :
+Formas en las que se pueden usar y compartir los datos de GitHub Copilot Individual:
 
-- **Enhancing GitHub Copilot**: The data collected is utilized to improve GitHub Copilot by evaluating different strategies for processing and predicting suggestions that users may find valuable.
-- **Developing related developer products and services**: The insights gained from the data help in the development and improvement of other developer tools and services offered by GitHub and Microsoft.
-- **Detecting abuse and policy violations**: The data is examined to investigate and identify any potential misuse or violation of the Acceptable Use Policies associated with GitHub Copilot.
+- **Mejora de GitHub Copilot**: Los datos recopilados se utilizan para mejorar GitHub Copilot mediante la evaluación de diferentes estrategias para procesar y predecir sugerencias que los usuarios pueden considerar valiosas.
+- **Desarrollo de productos y servicios relacionados para desarrolladores**:  Los conocimientos obtenidos a partir de los datos ayudan en el desarrollo y la mejora de otras herramientas y servicios para desarrolladores ofrecidos por GitHub y Microsoft.
+- **Detección de abusos e infracciones de políticas**: Los datos se examinan para investigar e identificar cualquier posible uso indebido o infracción de las Políticas de Uso Aceptable asociadas con GitHub Copilot.
 
 ## GitHub Copilot for Business
 
-GitHub Copilot is available through GitHub personal accounts with GitHub Copilot for Individuals or through organization or enterprise accounts with GitHub Copilot for Business.
+GitHub Copilot está disponible a través de cuentas personales de GitHub con GitHub Copilot for Individuals o a través de cuentas de organizaciones o empresas con GitHub Copilot for Business.
 
-With Copilot for Business, you can manage access to GitHub Copilot for organizations within your enterprise. Once you grant an organization access to GitHub Copilot, the organization's administrators can grant access to individuals and teams.
+Con Copilot for Business, puede administrar el acceso a GitHub Copilot para las organizaciones dentro de su empresa. Una vez que otorga acceso a GitHub Copilot a una organización, los administradores de la organización pueden conceder acceso a individuos y equipos.
 
-With GitHub Copilot for Business, GitHub Copilot is open to every developer, team, organization, and enterprise.
+Con GitHub Copilot for Business, GitHub Copilot está abierto a todos los desarrolladores, equipos, organizaciones y empresas.
 
-Focused on making organizations more productive, secure, and fulfilled, GitHub Copilot for Business allows developers to code faster and allows them to focus on more satisfying work.
+Con el objetivo de hacer que las organizaciones sean más productivas, seguras y satisfactorias, GitHub Copilot for Business permite a los desarrolladores programar más rápido y les permite centrarse en un trabajo más satisfactorio.
 
-Here are some features you can expect from Copilot for Business:
+Estas son algunas de las características que puede esperar de Copilot for Business:
 
- - A robust AI model: New modeling algorithms improve the quality of code suggestions.
- - AI-based security vulnerability filtering: GitHub Copilot automatically blocks common insecure code suggestions by targeting issues such as hardcoded credentials, SQL injections, and path injections.
- - VPN proxy support: GitHub Copilot works with VPNs, including with self-signed certificates, so developers can use it in any working environment.
- - Simple sign-up: Regardless of whether a business does not use the GitHub service for its source code, it can easily buy Copilot for Business licenses online and assign seats.
+ - Un modelo de IA robusto: Los nuevos algoritmos de modelado mejoran la calidad de las sugerencias de código.
+ - Filtrado de vulnerabilidades de seguridad basado en IA: GitHub Copilot bloquea automáticamente las sugerencias de código inseguro más comunes al centrarse en problemas como las credenciales incluídas en el código, las inyecciones SQL y las inyecciones de rutas.
+ - Compatibilidad con proxy VPN: GitHub Copilot funciona con VPN, incluyendo los certificados autofirmados, a fin de que los desarrolladores puedan usarlo en cualquier entorno de trabajo.
+ - Registro sencillo: Independientemente de que una empresa no utilice el servicio de GitHub para su código fuente, puede comprar fácilmente licencias de Copilot for Business en línea y asignar puestos.
 
 ## GitHub Copilot for Enterprise
 
-GitHub Copilot Enterprise is a Copilot plan available for enterprises that use GitHub Enterprise Cloud. It provides AI features to enhance your experience on GitHub.com, such as the ability to chat with Copilot in the browser and reference context for Copilot from across your project repositories.
+GitHub Copilot Enterprise es un plan Copilot disponible para empresas que usan GitHub Enterprise Cloud. Ofrece funciones de IA para mejorar su experiencia en GitHub.com, tales como la capacidad de chatear con Copilot en el navegador y el contexto de referencia para Copilot desde todos los repositorios de su proyecto.
 
-Enterprise owners can allow some or all organizations in the enterprise to access GitHub Copilot. If an organization has access to Copilot, owners of the organization can assign Copilot Enterprise seats to some or all members of the organization.
+Los propietarios de empresas pueden permitir que algunas o todas las organizaciones de la empresa accedan a GitHub Copilot. Si una organización tiene acceso a Copilot, los propietarios de la organización pueden asignar puestos de Copilot Enterprise a algunos o todos los miembros de la organización.
 
-### GitHub Copilot Enterprise includes the following features, available to all users who are assigned a GitHub Copilot Enterprise seat:
+### GitHub Copilot Enterprise incluye las siguientes características, disponibles para todos los usuarios a los que se les asigna un puesto de GitHub Copilot Enterprise:
 
-- **GitHub Copilot in your IDE**: GitHub Copilot is an AI tool that offers autocomplete-style suggestions in your IDE.
-- **GitHub Copilot Chat in your IDE**: GitHub Copilot Chat in your IDE is a chat interface that lets you ask and receive answers to coding-related questions within supported IDEs.
-- **GitHub Copilot in the CLI**: GitHub Copilot in the CLI provides a chat-like interface in the terminal that allows you to ask questions about the command line. You can ask GitHub Copilot to provide either command suggestions or explanations of given commands.
-- **GitHub Copilot Chat in GitHub.com**: GitHub Copilot Chat in GitHub.com is a chat interface that lets you ask and receive answers to coding-related questions within GitHub.com.
-- **Copilot pull request summaries**: Copilot pull request summaries is an AI-powered feature that allows you to create a summary of the changes that were made in a pull request, which files they impact, and what a reviewer should focus on when they conduct their review.
+- **GitHub Copilot en su IDE**: GitHub Copilot es una herramienta de IA que ofrece sugerencias de estilo de autocompletar en su IDE.
+- **GitHub Copilot Chat en su IDE**: GitHub Copilot Chat en su IDE es una interfaz de chat que le permite hacer y recibir respuestas a preguntas relacionadas con la programación dentro de los IDE compatibles.
+- **GitHub Copilot en la CLI**: GitHub Copilot en la CLI proporciona una interfaz tipo chat en la terminal que le permite hacer preguntas sobre la línea de comandos. Puede pedirle a GitHub Copilot que le brinde sugerencias de comandos o explicaciones de los comandos dados.
+- **GitHub Copilot Chat en GitHub.com**: GitHub Copilot Chat en GitHub.com es una interfaz de chat que le permite hacer preguntas relacionadas con la codificación y recibir respuestas a ellas dentro de GitHub.com.
+- **Resúmenes de solicitudes de incorporación de cambios de Copilot**: Los resúmenes de solicitudes de incorporación de cambios (pull request) de Copilot son una función impulsada por IA que le permite crear un resumen de los cambios que se realizaron en una solicitud de incorporación de cambios, los archivos que afectan y en qué debe centrarse un revisor cuando realiza su revisión.
 
-### Understanding the differences between Copilot for Individuals, Business and Enterprise
+### Entendiendo las diferencias entre Copilot for Individuals, Business y Enterprise
 
 
 |                                                            | GitHub Copilot for Individuals |GitHub Copilot for Business | GitHub Copilot Enterprise |
 | ---------------------------------------------------------- | --------------------------- | ------------------------------- | ------------- |
-| Unlimited messages and interactions            |             ✓	             |      ✓                 |    ✓  |
-| Context-aware coding support and explanations   |             ✓	             |      ✓                 |    ✓  |
-| Debugging and security remediation assistance |             ✓	             |         ✓                 |    ✓  |
-| Conversations tailored to your organization’s repositories  |     ✕	             |   ✕	 |    ✓  |
-| Answers based on your organization’s knowledge base |             ✕	             |   ✕	 |    ✓  |
-| Access to knowledge from top open source repositories |             ✕	             |    ✕	 |    ✓  |
-| Pull request diff analysis         |             ✕	             |   ✕	 |    ✓  |
-| Web search powered by Bing (beta)  |             ✕	             |   ✕	 |    ✓  |
-| Real time code suggestions |             ✓	             |               ✓                 |    ✓  |
-| Comments to code |             ✓	             |               ✓                 |    ✓  |
-| Fine-tuned models (coming soon as add-on) |             ✕	             |   ✕	 |    ✓  |
-| Inline chat and prompt suggestions |             ✓	             |               ✓                 |    ✓  |
-| Slash commands and context variables |             ✓	             |               ✓                 |    ✓  |
-| Commit message generation |             ✓	             |               ✓                 |    ✓  |
-| Pull request description and summarization |             ✕	             |   ✕	 |    ✓  |
-| IDE, CLI and GitHub Mobile |             ✓	             |               ✓                 |    ✓  |
+| Mensajes e interacciones ilimitados            |             ✓	             |      ✓                 |    ✓  |
+| Soporte y explicaciones de codificación en función del contexto   |             ✓	             |      ✓                 |    ✓  |
+| Asistencia en depuración y corrección de seguridad |             ✓	             |         ✓                 |    ✓  |
+| Conversaciones adaptadas a los repositorios de su organización  |     ✕	             |   ✕	 |    ✓  |
+| Respuestas basadas en la base de conocimientos de su organización |             ✕	             |   ✕	 |    ✓  |
+| Acceso al conocimiento de los principales repositorios de código abierto |             ✕	             |    ✕	 |    ✓  |
+| Análisis de diferencias en las solicitudes de incorporación de cambios         |             ✕	             |   ✕	 |    ✓  |
+| Búsqueda web con tecnología de Bing (beta)  |             ✕	             |   ✕	 |    ✓  |
+| Sugerencias de código en tiempo real |             ✓	             |               ✓                 |    ✓  |
+| Comentarios a código |             ✓	             |               ✓                 |    ✓  |
+| Modelos ajustados (próximamente como complemento) |             ✕	             |   ✕	 |    ✓  |
+| Chat en línea y sugerencias de prompt |             ✓	             |               ✓                 |    ✓  |
+| Comandos de barra y variables contextuales |             ✓	             |               ✓                 |    ✓  |
+| Generación de mensajes de confirmación |             ✓	             |               ✓                 |    ✓  |
+| Descripción y resumen de la solicitud de incorporación de cambios |             ✕	             |   ✕	 |    ✓  |
+| IDE, CLI y GitHub Mobile |             ✓	             |               ✓                 |    ✓  |
 | GitHub.com |             ✕	             |   ✕	 |    ✓  |
-| Public code filter |             ✓	             |               ✓                 |    ✓  |
-| User management |             ✕	             |  ✓                 |    ✓  |
-| Data excluded from training by default |             ✕	             |  ✓                 |    ✓  |
-| IP indemnity |             ✕	             |  ✓                 |    ✓  |
-| Content exclusions |             ✕	             |  ✓                 |    ✓  |
-| SAML SSO authentication¹ |             ✕	             |  ✓                 |    ✓  |
-| Requires GitHub Enterprise Cloud |             ✕	             |   ✕	 |    ✓  |
+| Filtro de código público |             ✓	             |               ✓                 |    ✓  |
+| Administración de usuarios |             ✕	             |  ✓                 |    ✓  |
+| Datos excluidos del entrenamiento de forma predeterminada |             ✕	             |  ✓                 |    ✓  |
+| Indemnización de IP |             ✕	             |  ✓                 |    ✓  |
+| Exclusiones de contenido |             ✕	             |  ✓                 |    ✓  |
+| Autenticación SAML SSO¹ |             ✕	             |  ✓                 |    ✓  |
+| Requiere GitHub Enterprise Cloud |             ✕	             |   ✕	 |    ✓  |
 
-### GitHub Copilot for Business Use Cases
+### Casos de Uso de GitHub Copilot
 
-GitHub Copilot improves developer productivity and happiness, reduces disruptions, improves flow, and increases the amount of time a developer spends doing satisfying work.
+GitHub Copilot mejora la productividad y la felicidad de los desarrolladores, reduce las interrupciones, mejora el flujo y aumenta la cantidad de tiempo que un desarrollador dedica a realizar un trabajo satisfactorio.
 
- - Developers code faster.
- - Developers stay in the flow longer.
+ - Los desarrolladores programan más rápido.
+ - Los desarrolladores permanecen en el flujo por más tiempo.
 
-### How to get started with GitHub Copilot for Business?
+### ¿Cómo comenzar a utilizar GitHub Copilot for Business?
 
-Using GitHub Copilot for Business in your enterprise: You must first establish a policy for using GitHub Copilot for Business in your enterprise. Once GitHub Copilot for Business is enabled at the enterprise level, you can configure GitHub Copilot settings for each organization in your enterprise.
+Usando GitHub Copilot for Business en su empresa: Primero debe establecer una política para usar GitHub Copilot for Business en su empresa. Una vez que GitHub Copilot for Business esté habilitado en el nivel de la empresa, puede configurar los ajustes de GitHub Copilot para cada organización de su empresa.
 
-### Enabling GitHub Copilot Enterprise
+### Habilitando GitHub Copilot Enterprise
 
-To enable users to use Copilot Enterprise features, your GitHub Enterprise Cloud enterprise must have a subscription to Copilot Enterprise.
+Para permitir que los usuarios puedan utilizar las funciones de Copilot Enterprise, su empresa de GitHub Enterprise Cloud debe tener una suscripción a Copilot Enterprise.
 
-Access to Copilot is determined at the enterprise and organization levels:
+El acceso a Copilot se determina a nivel de empresa y organización:
 
-- Enterprise owners can allow some or all of the organizations in the enterprise to access Copilot.
-- Owners of organizations that have been granted access to Copilot can assign GitHub Copilot Enterprise seats to some or all members of their organization. 
+- Los propietarios de la empresa pueden permitir que algunas o todas las organizaciones de la empresa accedan a Copilot.
+- Los propietarios de organizaciones a las que se les ha otorgado acceso a Copilot pueden asignar puestos de GitHub Copilot Enterprise a algunos o todos los miembros de su organización.
 
-When access to Copilot has been enabled, features such as the ability to use Copilot on GitHub.com, can be configured. Features are enabled or disabled at the enterprise or organization level:
+Cuando se ha habilitado el acceso a Copilot, se pueden configurar funciones como la capacidad de usar Copilot en GitHub.com. Las funciones se habilitan o deshabilitan a nivel de empresa u organización:
 
-- Enterprise owners can set Copilot features to be enabled or disabled for all organizations in the enterprise that have access to Copilot. Alternatively, they can allow each organization to set its own policy for each feature.
-- If the enterprise owner has permitted it, organization owners can enable or disable Copilot features for their organization.
+- Los propietarios de la empresa pueden establecer que las funciones de Copilot estén activadas o desactivadas para todas las organizaciones de la empresa que tengan acceso a Copilot. Alternativamente, pueden permitir que cada organización establezca su propia política para cada función.
+- Si el propietario de la empresa lo ha permitido, los propietarios de la organización pueden habilitar o deshabilitar las funciones de Copilot para su organización.
 
-Click on "Next" from the bottom right to start with the lab.
+Haga clic en “Siguiente” en la parte inferior derecha para comenzar con el laboratorio.
 

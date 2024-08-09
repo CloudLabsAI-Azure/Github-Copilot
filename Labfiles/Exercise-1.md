@@ -1,38 +1,38 @@
-# Exercise 1: Leverage Codespaces with VS Code for Copilot
+# Ejercicio 1: Aprovechar Codespaces con VS Code para Copilot
 
-### Estimated Duration: 15 minutes
+### Duración Estimada: 15 minutos
 
-GitHub Copilot is an AI pair programmer designed to make writing code easier and faster. It draws context from comments and code to suggest individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a generative pre-trained language model created by OpenAI.
+GitHub Copilot es un programador de pares de IA diseñado para que escribir código sea más fácil y rápido. Extrae el contexto de los comentarios y el código para sugerir líneas individuales y funciones completas al instante. GitHub Copilot está impulsado por OpenAI Codex, un modelo de lenguaje generativo preentrenado creado por OpenAI.
 
-**Copilot is compatible with a wide range of code editors, such as Neovim, JetBrains IDE, Visual Studio, and VS Code.**
+**GitHub Copilot es compatible con una amplia gama de editores de código, como Neovim, JetBrains IDE, Visual Studio y VS Code.**
 
-Additionally, GitHub Copilot is trained in every language that can be found in public repositories. The amount and variety of training data for each language may have an impact on the quality of recommendations you obtain.
+Además, GitHub Copilot está entrenado en todos los lenguajes que se pueden encontrar en repositorios públicos. La cantidad y variedad de datos de entrenamiento para cada lenguaje puede tener un impacto en la calidad de las recomendaciones que obtenga.
 
-**GitHub Codespace** is a development environment that's hosted in the cloud. You can customize your project for GitHub Codespaces by committing configuration files to your repository (often known as Configuration-as-Code), which creates a repeatable codespace configuration for all users of your project.
+**GitHub Codespace** es un entorno de desarrollo alojado en la nube. Puede personalizar su proyecto para GitHub Codespaces enviando archivos de configuración a su repositorio (a menudo conocido como Configuración-como-Código), lo que crea una configuración de codespace repetible para todos los usuarios de su proyecto.
 
-Utilizing Copilot within a Codespace effortlessly demonstrates the simplicity of starting with GitHub’s comprehensive [Collaborative Coding](https://github.com/features#features-collaboration) tools.
+El uso de Copilot dentro de un Codespace demuestra sin esfuerzo la simplicidad de comenzar con las herramientas integrales de [Programación Colaborativa](https://github.com/features#features-collaboration) de GitHub.
 
-In this exercise, you are tasked with creating a development container. You will specify certain extensions or configurations to be utilized or installed in your Codespace. As part of this process, ensure to include Copilot in your list of extensions.
+En este ejercicio, se le asigna la tarea de crear un contenedor de desarrollo. Deberá especificar ciertas extensiones o configuraciones a utilizar o instalar en su Codespace. Como parte de este proceso, asegúrese de incluir Copilot en su lista de extensiones.
 
-## Lab objectives
+## Objetivos del laboratorio
 
-You will be able to complete the following tasks:
+Será capaz de completar las siguientes tareas:
 
-- Task 1: Enable Copilot inside a Codespace
+- Tarea 1: Habilitar Copilot dentro de un Codespace
 
-## Task 1: Enable Copilot inside a Codespace
+## Tarea 1: Habilitar Copilot dentro de un Codespace
 
-1. Navigate back to the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `+ Create new file` **(3)**.
+1. Navegue de regreso a la página de inicio de su repositorio, haga clic en la pestaña **Code** **(1)** de su repositorio, haga clic en el botón desplegable **Add file** **(2)** y luego seleccione `+ Create new file` **(3)**.
 
     ![](../media/Exercise-01-v2-01.png)
 
-2. Type or paste the following in the empty text field prompt to name your file **(1)**.
+2. Escriba o pegue lo siguiente en el campo de texto vacío para nombrar su archivo **(1)**.
 
    ```
    .devcontainer/devcontainer.json
    ```
 
-3. In the body of the new **.devcontainer/devcontainer.json** file, add the following content **(2)** and click on **Commit changes** **(3)**:
+3. En el cuerpo del nuevo archivo **.devcontainer/devcontainer.json**, agregue el siguiente contenido **(2)** y haga clic en **Commit changes** **(3)**:
 
    ```
    {
@@ -50,66 +50,66 @@ You will be able to complete the following tasks:
 
    ![](../media/devcontainer-commit.png)
    
-4. Select the option to **Commit directly to the `main` branch**, and then click the **Commit changes** button.
+4. Seleccione la opción **Commit directly to the `main` branch** y luego haga clic en el botón **Commit changes**.
 
    ![](../media/commit-file.png)
 
-5. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
+5. Vuelva a la página de inicio de su repositorio haciendo clic en la pestaña **Code** **(1)** ubicada en la parte superior izquierda de la pantalla. Haga clic en el botón **Code** **(2)** ubicado al centro de la página.
 
    ![](../media/code-code.png)
 
-6. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
+6. Haga clic en la pestaña **Codespaces (1)** en el cuadro emergente y luego haga clic en el botón **Create codespace on main (2)**.
 
    ![](../media/create-codespace.png)
 
-   >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
+   >**Nota**: Si no aparece el mensaje emergente en el navegador para abrir Visual Studio Code, inicie Visual Studio Code manualmente desde el escritorio y ciérrelo. A continuación, vuelva al navegador, actualice la página e inicie el codespace que se creó anteriormente.
 
-7. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should select **Install Extension and Open URI** to continue.
+7. Aparecerá un mensaje emergente. Haga clic en **Abrir** para continuar. Posteriormente, aparecerá otra ventana emergente dentro de Visual Studio Code (VS Code), donde debe seleccionar **Instalar Extensión y Abrir URI** para continuar.
 
    ![](../media/open.png)
 
    ![](../media/innovation-1.png)
 
-    >**Note**: Click on **Allow** if the extension **Github Codepsaces** wants to sign in using Github.
+    >**Nota**: Haga clic en **Permitir** si la extensión **Github Codespaces** desea iniciar sesión con Github.
 
    ![](../media/inn-2.png)
 
-8. At the bottom right corner, you will get a prompt to sign in to GitHub.
+8. En la esquina inferior derecha, aparecerá un mensaje emergente para iniciar sesión en GitHub.
 
    ![](../media/signingit.png)
 
-   > **Note**: If you encounter with error **No access to GitHub Copilot found**, please reach out to `cloudlabs-support@spektrasystems.com` for further assistance.
+   > **Nota**: Si aparece el error **No access to GitHub Copilot found**, comuníquese con `cloudlabs-support@spektrasystems.com` para obtener más ayuda.
 
       ![](../media/3.png)
 
-9. Next, once you get the popup, click on **Allow**
+9. A continuación, cuando aparezca la ventana emergente, haga clic en **Permitir**
 
    ![](../media/allow.png)
 
-   >**Note**: Wait about 2 minutes for the codespace to spin itself up.
+   >**Nota**: espere unos 2 minutos para que el codespace se active por sí solo.
 
-10. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
+10. Haga clic en **Authorize Visual-Studio-Code** una vez que aparezca la pestaña Authorize GitHub for VS code en el navegador.
 
     ![](../media/Exercise-01-v2-02.png)
 
-11. Next, once you get the popup, click on **Allow**
+11. A continuación, cuando aparezca la ventana emergente, haga clic en **Permitir**
 
-12. Verify your codespace is running. Make sure the VS code looks as shown below:
+12. Verifique que su codespace se esté ejecutando. Asegúrese de que VS Code se vea como se muestra a continuación:
 
     ![](../media/loaded-repo.png)
 
-13. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
+13. Haga clic en **Extensiones** **(1)** en el menú de la izquierda y la extensión **GitHub Copilot** **(2)** debería aparecer en la lista de extensiones de VS Code. Haga clic en la extensión Copilot y verifique su instalación como se muestra a continuación:
 
     ![](../media/verify-copilot.png)
 
-   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
+   >**Nota**: Si la extensión GitHub Copilot no está instalada, haga clic en Instalar.
 
  <validation step="2f1521a8-516d-4357-b09c-941c5d7112ad" />
  
-14. Click on **Next** below to move on to the next page.
+14. Haga clic en **Siguiente** a continuación para pasar a la página siguiente.
 
-### Summary
+### Resumen
 
-In this exercise, you have created a development container and added Copilot to the list of extensions.
+En este ejercicio, ha creado un contenedor de desarrollo y ha agregado Copilot a la lista de extensiones.
 
-### You have successfully completed the lab
+### Ha completado el laboratorio con éxito

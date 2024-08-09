@@ -1,68 +1,69 @@
-# Exercise 2: Exploring AI-Driven Code Suggestions in JavaScript
+# Ejercicio 2: Explorar Sugerencias de Código Impulsadas por IA en JavaScript
 
-### Estimated Duration: 20 minutes
+### Duración Estimada: 20 minutos
 
-While GitHub Copilot provides recommendations across various languages and frameworks, it particularly excels with Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. Although the following samples are in JavaScript, they should be compatible with other languages as well.
+Si bien GitHub Copilot ofrece recomendaciones en varios lenguajes y frameworks, destaca particularmente con Python, JavaScript, TypeScript, Ruby, Go, C# y C++. Aunque los siguientes ejemplos están en JavaScript, también deberían ser compatibles con otros lenguajes.
 
-In this exercise, you will get the chance to explore and utilize JavaScript, guided by the support of GitHub Copilot and GitHub Copilot Chat.
+En este ejercicio, tendrá la oportunidad de explorar y utilizar JavaScript, guiado por el apoyo de GitHub Copilot y GitHub Copilot Chat.
 
->**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. However, the precise recommendation could vary.
+>**Descargo de responsabilidad**: GitHub Copilot sugerirá automáticamente todo el cuerpo de una función en texto gris. Sin embargo, la recomendación precisa podría variar.
 
->**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+>**Nota**: Si no puede ver ninguna sugerencia de GitHub Copilot en VS Code, reinicie VS Code una vez e intente nuevamente.
 
-## Lab objectives
+## Objetivos del laboratorio
 
-You will be able to complete the following tasks:
+Será capaz de completar las siguientes tareas:
 
-- Task 1: Add a JavaScript file and start writing code
-- Task 2: Push code to your repository from the codespace
-- Task 3: Best practices to use GitHub Copilot
+- Tarea 1: Agregar un archivo JavaScript y comenzar a escribir código
+- Tarea 2: Enviar código a su repositorio desde el codespace
+- Tarea 3: Mejores prácticas para usar GitHub Copilot
 
-## Task 1: Add a JavaScript file and start writing code
+## Tarea 1: Agregar un archivo JavaScript y comenzar a escribir código
 
-1. From the VS Code Explorer window, create a New File.
+1. Desde la ventana Explorador de VS Code, cree un Nuevo Archivo.
 
    ![](../media/create-newfile.png)
 
-2. Name the file `skills.js` and verify your new file looks as shown below:
+2. Nombre el archivo como `skills.js` y compruebe que su nuevo archivo se vea como se muestra a continuación:
 
    ![](../media/name-skills.png)
 
-3. In the `skills.js` file, type the following function header and press enter:
+3. En el archivo `skills.js`, escriba el siguiente encabezado de función y presione Enter:
 
    ```
    function calculateNumbers(var1, var2)
    ```
    
-   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
+   > **Nota**: GitHub Copilot sugerirá automáticamente un cuerpo de función completo en texto gris. Este es un ejemplo de lo que probablemente verá; sin embargo, la recomendación precisa podría variar.
 
    ![](../media/skills(1).png)
 
-4. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
+4. Presione `Tab` para aceptar la sugerencia y luego presione `Ctrl + S` para guardar el archivo.
 
    ![](../media/skills(2).png)
 
-## Task 2: Push code to your repository from the codespace
+## Tarea 2: Enviar código a su repositorio desde el codespace
 
-In this task, you will use the VS Code terminal to add the `skills.js` file to the GitHub repository.
+En esta tarea, usará la Terminal de VS Code para agregar el archivo `skills.js` al repositorio de GitHub.
 
-1. Open VS Code Terminal by clicking on **Ellipsis (...)** **(1)**, select **Terminal** **(2)** and click on **New Terminal** **(3)**.
+1. Abra la Terminal de VS Code haciendo clic en los **Puntos suspensivos (...)** **(1)**, seleccione **Terminal** **(2)** y haga clic en **Nuevo terminal** **(3)**.
 
    ![](../media/open-terminal.png)
 
-2. Run the below command to add the `skills.js` file to the GitHub repository.
+2. Ejecute el siguiente comando para agregar el archivo `skills.js` al repositorio de GitHub.
 
    ```
    git add skills.js
    ```
 
-3. Next, from the VS Code terminal stage, commit the changes to the repository:
+3. A continuación, desde la Terminal de VS Code, confirme los cambios en el repositorio:
+
 
    ```
    git commit -m "Copilot first commit"
    ```
 
-4. Finally, from the VS Code terminal, push the code to the repository:
+4. Por último, desde la Terminal de VS Code, envíe el código al repositorio:
 
    ```
    git push
@@ -70,40 +71,40 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
    ![](../media/githubcopilot.png)
 
-   >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
+   >**Nota**: Espere unos 60 segundos y luego actualice la página de inicio del repositorio de GitHub para el siguiente paso.
 
 
-## Task 3: Best practices to use GitHub Copilot
+## Tarea 3: Mejores prácticas para usar GitHub Copilot
 
-### Verify GitHub Copilot Chat extension in VS Code
+### Verificar la extensión GitHub Copilot Chat en VS Code
 
-1. To Verify the GitHub Copilot Chat extension, the following steps are to be performed within Visual Studio Code:
-    - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
-    - In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat (2)** extension.
-    - Select **GitHub Copilot Chat (3)** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
-    - If not, click on the **Install (4)** button.
+1. Para verificar la extensión GitHub Copilot Chat, se deben realizar los siguientes pasos dentro de Visual Studio Code:
+    - Haga clic en el ícono **Extensiones (1)** en la barra de actividades presente en el lado izquierdo de la ventana de Visual Studio Code.
+    - En el cuadro de búsqueda "Buscar Extensiones en Marketplace", escriba y busque la extensión **GitHub Copilot Chat (2)**.
+    - Seleccione **GitHub Copilot Chat (3)** de la lista de resultados que aparecen y verifique que **GitHub Copilot Chat** se encuentre instalado.
+    - De lo contrario, haga clic en el botón **Instalar (4)**.
 
    ![](../media/ghc-chat-extension.png)
 
-1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
+1. Una vez que se complete la instalación, en el panel de navegación izquierdo podrá ver el ícono de GitHub Copilot Chat como se muestra a continuación.
 
    ![](../media/git-chat-icon.png)
 
-## Task 3.1- Example: Set the stage with a high-level goal
+## Tarea 3.1: Ejemplo: Prepare el escenario con un objetivo de alto nivel
 
-This is most helpful if you have a blank file or an empty codebase. In other words, it can be quite helpful to set the stage for the AI pair programmer if GitHub Copilot has no idea what you want to build or achieve. It helps to prime GitHub Copilot with a big-picture description of what you want it to generate—before you jump in with the details.
+Esto es más útil si tiene un archivo en blanco o una base de código vacía. En otras palabras, puede ser bastante útil para preparar el terreno para el programador en pares de IA si GitHub Copilot no tiene idea de lo que usted desea construir o lograr. Es útil preparar a GitHub Copilot con una descripción general de lo que quiere que genere, antes de entrar en detalles.
 
-When prompting GitHub Copilot, think of the process as having a conversation with someone: How should I break down the problem so we can solve it together? How would I approach pair programming with this person?
+Al preparar un prompt para GitHub Copilot, piense en el proceso como si estuviera teniendo una conversación con alguien: ¿Cómo debería desglosar el problema para que podamos resolverlo juntos? ¿Cómo abordaría la programación en pareja con esta persona?
 
-1. From the VS Code Explorer window, create a New File.
+1. Desde la ventana Explorador de VS Code, cree un Nuevo Archivo.
 
    ![](../media/E2-T3.1-S1.png)
 
-2. Name the file `index.js` and verify your new file looks as shown below:
+2. Nombre el archivo `index.js` y compruebe que su nuevo archivo se vea como se muestra a continuación:
 
    ![](../media/E2-T3.1-S2.png)
 
-3. Now press Ctrl + I to open the GitHub Copilot Chat and paste the following **comment (1)** to fetch the code and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. 
+3. Ahora, presione Ctrl + I para abrir GitHub Copilot Chat y pegue el siguiente **comentario (1)** para obtener el código y haga clic en el botón Realizar solicitud **(Entrar) (2)** y haga clic en **Aceptar (3)** para usar el código.
 
    ```
    /*
@@ -120,12 +121,12 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](../media/ex-2-1.png)
 
-## Task 3.2- Example: Aim to receive a short output from GitHub Copilot for a simple and specific ask
+# Tarea 3.2- Ejemplo: Intentar recibir un resultado breve de GitHub Copilot para una petición simple y específica
 
-After you've explained your primary objective to the AI pair programmer, explain the reasoning and procedures it must take to reach that objective. This will help GitHub Copilot gain a clearer understanding of your intended outcome when you break things down. For example, imagine you’re writing a recipe. Rather than writing a paragraph outlining the food you intend to make, you would break down the cooking procedure into distinct parts.
-So, instead of asking GitHub Copilot to generate a large amount of code at once, let it generate the code after each step.
+Una vez que haya explicado su objetivo principal al programador de pares de IA, explique el razonamiento y los procedimientos que debe seguir para alcanzar ese objetivo. Esto ayudará a GitHub Copilot a entender mejor el resultado que se pretende obtener cuando desglose las cosas. Por ejemplo, imagine que está escribiendo una receta. En lugar de escribir un párrafo en el que describa la comida que pretende preparar, dividiría el procedimiento de cocción en distintas partes.
+Entonces, en lugar de pedirle a GitHub Copilot que genere una gran cantidad de código a la vez, deje que genere el código después de cada paso.
 
-1. In the same index.js file, enter the below step-by-step instructions for reversing a sentence.
+1. En el mismo archivo index.js, ingrese las siguientes instrucciones paso a paso para invertir una oración.
 
     ```
       // take a sentence as input
@@ -134,15 +135,15 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
       // for javascript
     ```
 
-2. The generated outcome would look similar to the below image.
+2. El resultado generado se vería similar a la imagen de abajo.
 
    ![](../media/ex-2-2.png)
 
 
-## Task 3.3- Example: Give GitHub Copilot an example or two
+## Tarea 3.3: Ejemplo: Dar a GitHub Copilot uno o dos ejemplos
 
-Not only can people benefit from learning from examples, but so can your AI pair programmer. For example, in order to take the names out of the data array below and put them in a
-new array:
+No solo las personas pueden beneficiarse del aprendizaje a partir de ejemplos, sino que también puede hacerlo su programador de pares de IA. Por ejemplo, para sacar los nombres de la matriz de datos de abajo y ponerlos en una
+nueva matriz:
 
    ```
           const data = [
@@ -156,17 +157,17 @@ new array:
       ];    
    ```
 
-1. Type the below comment in the chat to generate the output without showing an example to GitHub Copilot.
+1. Escriba el siguiente comentario en el chat para generar el resultado sin mostrar un ejemplo a GitHub Copilot.
 
    ```
     // As an illustration, pull names out of the data array  
    ```
 
-2. It generated an incorrect usage of the map.
+2. Se generó un uso incorrecto de la función map.
 
    ![](../media/ex-2-3.png)
 
-3. By contrast, type the below comments to provide an example of how to generate the desired output.
+3. En contraste, ahora escriba los siguientes comentarios para proporcionar un ejemplo de cómo generar el resultado deseado.
 
     ```
       // Map through an array of arrays of objects
@@ -174,44 +175,44 @@ new array:
       // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
-4. Now, we have received our desired outcome. Save the newly created `index.js` file by using the `CTRL + S` shortcut keys.
+4. Ahora, hemos recibido el resultado deseado. Guarde el archivo `index.js` recién creado usando las teclas de acceso directo `CTRL + S`.
 
    ![](../media/ex-2-4.png)
 
-5. Open the **New Terminal** to push the code.
+5. Abra una **Nueva terminal** para enviar el código.
 
-6. Run the below command to pull the latest changes.
+6. Ejecute el siguiente comando para obtener los últimos cambios.
 
    ```
    git pull
    ```
 
-1. Run the below command to add the `index.js` file to the GitHub repository.
+1. Ejecute el siguiente comando para agregar el archivo `index.js` al repositorio de GitHub.
    
    ```
    git add index.js
    ```
 
-8. Next from the VS Code terminal, commit the changes to the repository:
+8. A continuación, desde la Terminal de VS Code, confirme los cambios en el repositorio:
 
    ```
    git commit -m "Copilot commit"
    ```
 
-9. Finally, from the VS Code terminal, push the code to the repository:
+9. Por último, desde la Terminal de VS Code, envíe el código al repositorio:
 
    ```
    git push
    ```
 
-   >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
+   >**Nota**: Espere unos 60 segundos y luego actualice la página de inicio de su repositorio de GitHub para el siguiente paso.
 
    <validation step="73a63481-3140-4473-9b94-36d265cdc8cb" />
 
-10. Click on **Next** below to move on to the next page.
+10. Haga clic en **Siguiente** a continuación para pasar a la página siguiente.
     
-### Summary
+### Resumen
 
-In this exercise, you have successfully generated JavaScript code and other best practices using GitHub Copilot and GitHub Copilot Chat.
+En este ejercicio, ha generado con éxito código JavaScript y otras prácticas recomendadas con GitHub Copilot y GitHub Copilot Chat.
 
-### You have successfully completed the lab
+### Ha completado el laboratorio con éxito
