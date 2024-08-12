@@ -136,6 +136,11 @@ You will be able to complete the following tasks:
 
    >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
 
+    >**Note**: If you are facing any error which says `Rejected`, then run the below given command and re-run `git push` command again. This will fetch changes in remote branch and merge them into current branch without rebasing.
+      ```
+      git pull --no-rebase
+      ```
+
 1. You can verify the `arm.json`, `powershell.ps1`, and `terraform.tf` files available in your GitHub repository.
 
    ![](../media/ex-4-github5.png)

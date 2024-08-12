@@ -313,6 +313,11 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
    >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
 
+    >**Note**: If you are facing any error which says `Rejected`, then run the below given command and re-run `git push` command again. This will fetch changes in remote branch and merge them into current branch without rebasing.
+      ```
+      git pull --no-rebase
+      ``` 
+
 1. You can verify the `codechat.cs` and `test.js` files available in your GitHub repository.
 
    ![](../media/exercise5-2.png)

@@ -70,9 +70,11 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
    ![](../media/githubcopilot.png)
 
-   >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
-
-
+   >**Note**: If you are facing any error which says `Rejected`, then run the below given command and re-run `git push` command again. This will fetch changes in remote branch and merge them into current branch without rebasing.
+      ```
+      git pull --no-rebase
+      ```
+      
 ## Task 3: Best practices to use GitHub Copilot
 
 ### Verify GitHub Copilot Chat extension in VS Code
