@@ -92,6 +92,11 @@ In this task, you will continue to use Copilot and may need some of the suggesti
 
    >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
 
+   >**Note**: If you are facing any error which says `Rejected`, then run the below given command and re-run `git push` command again. This will fetch changes in remote branch and merge them into current branch without rebasing.
+      ```
+      git pull --no-rebase
+      ```
+
 5. You can verify the `app.py` and `prime.py` files available in your GitHub repository.
 
    ![](../media/ex-3-github3.png)

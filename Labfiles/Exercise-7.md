@@ -61,6 +61,8 @@ You will be able to complete the following tasks:
 
     ![Picture1](../media/vscode1.jpg)
 
+     >**Note**: Make sure you are not opening the visual studio code which is already open. Open a new one from desktop.
+
 1. To verify the **GitHub Copilot Chat extension**, the following steps are to be performed within Visual Studio Code:
     - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
     - In the **"Search Extensions in Marketplace"** search box, type and search for the **GitHub Copilot Chat (2)** extension.
