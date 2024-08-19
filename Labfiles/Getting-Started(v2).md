@@ -133,4 +133,9 @@ For convenience, you can open the lab guide in a separate window by selecting th
     > - If you receive a success message, you can proceed to the next task. 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.    
-Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
+
+## Summary
+
+In this lab, you'll learn how to log into GitHub and create a new repository. By the end, you'll have a new repository ready for your projects.
+
+## You have successfully completed this lab.
