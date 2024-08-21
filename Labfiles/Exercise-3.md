@@ -96,7 +96,7 @@ En esta tarea, continuará usando Copilot y es posible que necesite algunas de l
 
    ![](../media/ex-3-github3.png)
 
-   <validation step="95754ad8-7b5c-486d-8e7c-d034df03ff1b" />
+   <validation step="ccb9feef-7e4b-413f-86ec-7d1dcaacaa33" />
 
 6. Haga clic en **Siguiente** a continuación para pasar a la página siguiente.
 
