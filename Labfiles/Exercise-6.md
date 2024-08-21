@@ -148,7 +148,7 @@ GitHub Copilot puede entender mucho más contexto que la mayoría de los asisten
   
    ![](../media/ex6-image-suggestion.png)
 
-   <validation step="364115e7-deff-4c32-96e9-fa5d2122a86f" />
+   <validation step="0ad0a930-79b9-4b15-bb7a-0806f50ca3b0" />
 
 6. Haga clic en **Siguiente** a continuación para pasar a la página siguiente.
         
