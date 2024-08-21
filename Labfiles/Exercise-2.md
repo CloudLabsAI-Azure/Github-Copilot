@@ -207,7 +207,7 @@ nueva matriz:
 
    >**Nota**: Espere unos 60 segundos y luego actualice la página de inicio de su repositorio de GitHub para el siguiente paso.
 
-   <validation step="73a63481-3140-4473-9b94-36d265cdc8cb" />
+   <validation step="2a3fed6c-67bd-4fdb-93d9-acd9b65c9d19" />
 
 10. Haga clic en **Siguiente** a continuación para pasar a la página siguiente.
     
