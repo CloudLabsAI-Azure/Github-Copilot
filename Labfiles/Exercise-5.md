@@ -317,7 +317,7 @@ En esta tarea, demostrará la función de chat con código de GitHub Copilot. Co
 
    ![](../media/exercise5-2.png)
 
-    <validation step="8357b601-4d37-4a08-b8c5-c03df620fdc4" />
+    <validation step="47cc69ce-53a3-4b94-98d6-ea29d747834b" />
 
 ## Resumen
 
