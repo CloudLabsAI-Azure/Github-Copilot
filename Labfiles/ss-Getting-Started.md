@@ -8,7 +8,7 @@ Duration: 10 minutes
 
 1. Once you are in the **Environment Details** tab, the credentials will also be emailed to your registered email address. Click on the **GitHub Credentials** option to get GitHub user credentials. You can also open the Lab Guide in a separate, and full window by selecting **Split Window** from the lower right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
  
-   ![](../media/env-details-1.png)
+   ![](../media/env-details-12.png)
  
 ## Login to GitHub
 
