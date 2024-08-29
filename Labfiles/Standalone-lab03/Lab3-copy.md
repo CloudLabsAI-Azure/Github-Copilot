@@ -292,13 +292,12 @@ const data = [
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
-   <validation step="4beb3a8b-c0f8-4ba4-8115-89d05107f2e5" />
+<validation step="4beb3a8b-c0f8-4ba4-8115-89d05107f2e5" />
    
-   **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - Navigate to the Lab Validation page, from the upper right corner in the lab guide section.
-   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
  
 ### Summary
 
