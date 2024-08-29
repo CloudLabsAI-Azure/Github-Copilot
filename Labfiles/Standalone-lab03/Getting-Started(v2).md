@@ -8,21 +8,7 @@ This lab introduces you to using GitHub Copilot within Codespaces in Visual Stud
 
 ## Objective
 
-Understand how to use GitHub Copilot within VS Code in GitHub Codespaces to receive AI-powered code suggestions that enhance productivity and maintain code quality. By the end of this lab, you will be able to:
-
-1. **Enable GitHub Copilot in Codespaces**: Learn how to activate and configure GitHub Copilot in Visual Studio Code within GitHub Codespaces to start receiving AI-powered code suggestions.
-
-2. **Understand Copilot Code Suggestions**: Explore how Copilot provides real-time code suggestions based on the context of your code, and learn to integrate these suggestions effectively into your workflow.
-
-3. **Evaluate and Implement Code Suggestions**: Practice evaluating the quality and relevance of Copilot's suggestions, and learn how to accept, modify, or reject them to ensure your code meets best practices for readability, efficiency, and security.
-
-4. **Increase Productivity with Copilot**: Utilize Copilot to speed up repetitive coding tasks, generate boilerplate code, and suggest potential solutions for complex coding problems, thereby increasing overall coding efficiency and productivity.
-
-5. **Maintain Code Quality and Security**: Understand the importance of reviewing Copilot’s suggestions to maintain high standards of code quality, avoid introducing vulnerabilities, and adhere to coding standards and security best practices.
-
-6. **Explore Use Cases and Limitations**: Identify suitable use cases for GitHub Copilot, such as writing functions, generating documentation, or creating unit tests, and recognize its limitations to avoid over-reliance on AI-generated code.
-
-7. **Collaborative Coding and Copilot**: Learn how to use Copilot collaboratively in a team environment, share AI-generated suggestions with team members, and integrate feedback for more refined and optimized code.
+**Code Suggestions with GitHub Copilot in Codespaces using VS Code**: Understand how to use GitHub Copilot within Visual Studio Code in GitHub Codespaces to receive AI-powered code suggestions that enhance coding efficiency and productivity, generate and complete code snippets, and learn to critically evaluate these suggestions to ensure they meet best practices for quality, readability, and security while effectively managing code changes with Git and collaborating through GitHub repositories.
 
 ## Pre-Requisites
 
