@@ -10,27 +10,11 @@ This lab introduces you to using GitHub Copilot within Codespaces in Visual Stud
 
 By the end of this lab, you will be able to:
 
-- **Set Up GitHub Codespaces**: Create a new GitHub repository or use an existing one.
+1. **Add JavaScript File**: Create a JavaScript file, link it to an HTML document, write basic JavaScript, manipulate the DOM, and use console logging and debugging tools to test code.
 
-- Launch GitHub Codespaces from the repository.
+2. **Push Code from Codespace**: Use Git commands (`add`, `commit`, `push`), manage branches, resolve merge conflicts, and push changes securely using SSH or HTTPS.
 
-- Ensure Codespaces is configured with VS Code or the browser-based version of VS Code.
-
-- **Install and Enable GitHub Copilot**: Verify if GitHub Copilot is installed and enabled in your Codespace environment.
-
-- If not, follow the steps to install the GitHub Copilot extension from the VS Code marketplace.
-
-- **Understand GitHub Copilot Basics**: Learn about GitHub Copilot's AI-based code suggestion capabilities.
-
-- Understand how Copilot suggests code based on comments, function names, or partially typed code.
-
-- **Practice Writing Code with Copilot**:
-
-- Write simple functions or scripts in a language of choice (e.g., JavaScript, Python, etc.).
-
-- Observe and accept code suggestions made by GitHub Copilot.
-
-- Modify the suggestions if needed and understand how to prompt Copilot for better suggestions.
+3. **Best Practices for GitHub Copilot**: Enable Copilot, use it for code suggestions, manage AI-generated code carefully to maintain quality and security, and consider ethical implications.
 
 ## Pre-Requisites
 
@@ -39,16 +23,21 @@ Participants should have: Basic knowledge and understanding of the following
 - **GitHub Account**: A valid GitHub account. Ensure that you are logged into your GitHub account to access GitHub Codespaces and Copilot.
 - **Basic Knowledge of Git and GitHub**: Familiarity with Git version control system and basic GitHub concepts like repositories, branches, commits, and pull requests.
 
+## Architecture
+
+In this hands-on lab, the architecture flow includes several essential components. You’ll begin by setting up a development environment using GitHub Codespaces, which provides a cloud-based, customizable workspace with integrated development tools. Next, you'll create a new JavaScript file within the Codespace, link it to an HTML file, and write JavaScript code that interacts with the web page's DOM. The code is managed using Git, allowing for version control and collaboration. You will perform Git operations (`add`, `commit`, `push`) to save your changes and push them to a remote GitHub repository. Throughout the development process, GitHub Copilot will provide AI-powered code suggestions to enhance productivity and maintain high code quality. The architecture integrates development, version control, collaboration, and AI assistance, ensuring a streamlined and efficient workflow.
+
+## Architecture Diagram
+
+![](media/architecture.png)
+
 ## Explanation of Components
 
-**GitHub Account**: A GitHub Account is required to access GitHub's suite of tools, including GitHub Codespaces and Copilot. With a GitHub account, you can create and manage repositories, collaborate with other developers, and leverage GitHub's cloud-based development environments.
+1. **Add a JavaScript File and Begin Coding**: Start by creating a new JavaScript file in your project and linking it to an HTML page. Write JavaScript code to interact with the web page's DOM, and use tools like the browser console for testing and debugging.
 
-**GitHub Codespaces**: GitHub Codespaces provides a cloud-based development environment that allows developers to code directly in their browsers or in Visual Studio Code. Codespaces leverages Docker-based containers to create fully-featured, isolated development environments with all necessary dependencies pre-installed. This eliminates the "works on my machine" problem by ensuring consistency across different environments. It is highly configurable and can be customized using `devcontainer.json` files.
+2. **Push Your Code to the Repository from Codespace**: Within GitHub Codespaces, use Git commands such as `git add`, `git commit`, and `git push` to track your changes, manage version control, and push your updates to the remote repository for collaboration.
 
-**Programming Knowledge**: A foundational understanding of programming languages is crucial for utilizing GitHub Copilot effectively. Copilot provides code suggestions based on patterns it has learned from large-scale datasets. Familiarity with programming concepts, such as data structures, control flow, algorithms, and language-specific syntax (e.g., Python, JavaScript, Java, etc.), will help users comprehend and evaluate the suggestions made by Copilot.
-
-**Understanding of Visual Studio Code (VS Code)**:
-Visual Studio Code (VS Code) is a source-code editor that supports multiple programming languages and provides powerful features like IntelliSense, debugging, and extensions. Understanding VS Code basics, such as how to open and save files, navigate the integrated terminal, manage extensions, and use shortcuts, enhances the development experience and allows users to maximize the utility of tools like GitHub Copilot within the editor.
+3. **Using GitHub Copilot Effectively**: Activate GitHub Copilot in your development environment to leverage AI-assisted code suggestions, carefully review and refine these suggestions to ensure code quality, security, and alignment with best practices.
 
 ## Getting Started with the Lab
 
@@ -81,18 +70,6 @@ For convenience, you can open the lab guide in a separate window by selecting th
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
 ![Manage Your Virtual Machine](media/res.png)
-
-<!-- ## Lab Validation
-
-1. After completing the task, hit the **Validate** button under the Validation tab integrated within your lab guide. If you receive a success message, you can proceed to the next task, if not, carefully read the error message and retry the step, following the instructions in the lab guide.
-
-   ![Inline Validation](media/inline-validation.png)
-
-1. You can also validate the task by navigating to the **Lab Validation** tab, from the upper right corner in the lab guide section.
-
-   ![Lab Validation](media/lab-validation.png)
-
-1. If you need any assistance, please contact us at labs-support@spektrasystems.com. -->
 
 ## Let's Get Started with Azure Portal
  
