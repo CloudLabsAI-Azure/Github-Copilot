@@ -8,7 +8,15 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
 >**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.If you do not see code recommendation, try adding a space after the code. 
 
-## Task 1: Add a JavaScript file and start writing code.
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
+- Task 1: Add a JavaScript file and start writing code
+- Task 2: Push code to your repository from the codespace
+- Task 3: Best practices to use GitHub Copilot
+
+### Task 1: Add a JavaScript file and start writing code
 
 1. In the LABVM desktop double-click on **Microsoft Edge**.
 
@@ -113,7 +121,7 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
    ![](media/skills(1).png)
 
-## Task 2: Push code to your repository from the codespace
+### Task 2: Push code to your repository from the codespace
 
 In this task, you will use the VS Code terminal to add the `skills.js` file to the GitHub repository.
 
@@ -144,7 +152,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
 
-## Task 3: Best practices to use GitHub Copilot
+### Task 3: Best practices to use GitHub Copilot
 
 ### Verify GitHub Copilot Chat extension in VS Code
 
@@ -284,13 +292,12 @@ const data = [
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
-   <validation step="4beb3a8b-c0f8-4ba4-8115-89d05107f2e5" />
+<validation step="4beb3a8b-c0f8-4ba4-8115-89d05107f2e5" />
    
-   **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - Navigate to the Lab Validation page, from the upper right corner in the lab guide section.
-   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
  
 ### Summary
 
