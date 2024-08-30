@@ -1,6 +1,6 @@
-# Lab 1: Code Suggestions with GitHub Copilot in Codespaces using VS Code
+# Hands-On Lab: Code Suggestions with GitHub Copilot in Codespaces using VS Code
 
-## Estimated Duration: 30 minutes
+## Estimated Duration: 60 minutes
 
 While GitHub Copilot offers recommendations for many languages and frameworks, it excels in particular when it comes to Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. The samples below are in JavaScript, but they should also work in other languages.
 
