@@ -317,8 +317,8 @@ En esta tarea, demostrará la función de chat con código de GitHub Copilot. Co
 
    ![](../media/exercise5-2.png)
 
-    <validation step="47cc69ce-53a3-4b94-98d6-ea29d747834b" />
-
+    <validation step="8357b601-4d37-4a08-b8c5-c03df620fdc4" />
+    
 ## Resumen
 
 En este ejercicio, ha utilizado GitHub Copilot con éxito para llevar a cabo tareas de refactorización de código y ha creado funciones de pruebas unitarias. La refactorización de código con la ayuda de Copilot hará que sus proyectos de codificación sean más eficientes y colaborativos.
