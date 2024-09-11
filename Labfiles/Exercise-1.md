@@ -104,7 +104,7 @@ Será capaz de completar las siguientes tareas:
 
    >**Nota**: Si la extensión GitHub Copilot no está instalada, haga clic en Instalar.
 
-   <validation step="ccef791a-3558-4efe-be78-c5a218e874a3" />
+ <validation step="2f1521a8-516d-4357-b09c-941c5d7112ad" />
  
 14. Haga clic en **Siguiente** a continuación para pasar a la página siguiente.
 
