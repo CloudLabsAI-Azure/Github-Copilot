@@ -129,16 +129,15 @@ Assim, em vez de pedir ao GitHub Copilot para gerar uma grande quantidade de có
 1. No mesmo ficheiro index.js, introduza as instruções passo a passo abaixo para reverter uma frase.
 
     ```
-      // take a sentence as input
-      // reverse the input sentence
-      // the start of the sentence must start with a capital
-      // for javascript
+    // take a sentence as input
+    // reverse the input sentence
+    // the start of the sentence must start with a capital
+    // for javascript
     ```
 
 2. O resultado gerado seria semelhante à imagem abaixo.
 
    ![](../../media/ex-2-2.png)
-
 
 ## Tarefa 3.3- Exemplo: dar um ou dois exemplos ao GitHub Copilot
 
