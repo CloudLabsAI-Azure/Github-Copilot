@@ -60,7 +60,7 @@ Poderá completar as seguintes tarefas:
 
 ### Tarefa 2: gerar código por chat que utiliza o Terraform para implementar recursos no Azure
 
-1.Na barra de atividades do Visual Studio Code, clique no ícone GitHub Copilot Chat para abrir a janela GitHub Copilot Chat.
+1. Na barra de atividades do Visual Studio Code, clique no ícone GitHub Copilot Chat para abrir a janela GitHub Copilot Chat.
 
 1. Na parte inferior da janela GitHub Copilot Chat, na caixa de texto **Pergunte ao Copilot ou digite / para comandos**, digite uma pergunta relacionada com a codificação e prima Enter. Por exemplo, digite "Escreva um código Terraform para implementar uma conta de armazenamento no Azure com a explicação do código".
 
@@ -86,7 +86,7 @@ Poderá completar as seguintes tarefas:
 
 ### Tarefa 3: Gerar código por chat que utiliza o PowerShell para implementar recursos no Azure
 
-1.Na barra de atividades do Visual Studio Code, clique no ícone GitHub Copilot Chat para abrir a janela GitHub Copilot Chat.
+1. Na barra de atividades do Visual Studio Code, clique no ícone GitHub Copilot Chat para abrir a janela GitHub Copilot Chat.
 
 1. Na parte inferior da janela GitHub Copilot Chat, na caixa de texto **Faça uma pergunta ao Copilot ou digite / para tópicos**, digite uma codificação pergunta relacionada e prima Enter. Por exemplo, escreva "Escrever um script PowerShell para implementar uma conta de armazenamento no Azure".
 
