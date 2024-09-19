@@ -4,7 +4,7 @@
 
 Embora o GitHub Copilot forneça recomendações em várias linguagens e frameworks, destaca-se particularmente com Python, JavaScript, TypeScript, Ruby, Go, C# e C++. Embora os exemplos seguintes estejam em JavaScript, também devem ser compatíveis com outras linguagens.
 
-Neste exercício, terá a oportunidade de explorar e utilizar JavaScript, guiado pelo suporte do GitHub Copilot e do GitHub Copilot Chat.
+Neste exercício, terá a oportunidade de explorar e utilizar JavaScript, guiado pelo GitHub Copilot e do GitHub Copilot Chat.
 
 >**Isenção de responsabilidade**: todo o corpo da função será sugerido automaticamente pelo GitHub Copilot em texto cinzento. No entanto, a recomendação precisa pode variar.
 
@@ -14,17 +14,17 @@ Neste exercício, terá a oportunidade de explorar e utilizar JavaScript, guiado
 
 Poderá completar as seguintes tarefas:
 
-- Tarefa 1: adicionar um ficheiro JavaScript e começar a escrever código
-- Tarefa 2: enviar código para o seu repositório a partir do codespace
-- Tarefa 3: boas práticas para utilizar o GitHub Copilot
+- Tarefa 1: Adicionar um ficheiro JavaScript e começar a escrever código
+- Tarefa 2: Enviar código para o seu repositório a partir do codespace
+- Tarefa 3: Boas práticas para utilizar o GitHub Copilot
 
-## Tarefa 1: adicionar um ficheiro JavaScript e começar a escrever código
+## Tarefa 1: Adicionar um ficheiro JavaScript e começar a escrever código
 
 1. Na janela do VS Code Explorer, crie um novo ficheiro.
 
    ![](../../media/create-newfile.png)
 
-2. Nomeie o ficheiro como `skills. js` e verifique se o novo ficheiro está como mostrado abaixo:
+2. Nomeie o ficheiro como `skills.js` e verifique se o novo ficheiro está como mostrado abaixo:
 
    ![](../../media/name-skills.png)
 
@@ -34,7 +34,7 @@ Poderá completar as seguintes tarefas:
     function calculateNumbers(var1, var2)
     ```
 
-   > **Nota**: todo o corpo da função será sugerido automaticamente pelo GitHub Copilot em texto cinzento. Aqui está um exemplo do que provavelmente verá; no entanto, a recomendação precisa pode variar.
+   > **Nota**: O corpo da função será sugerido automaticamente pelo GitHub Copilot em texto cinzento. Aqui está um exemplo do que provavelmente verá; no entanto, a recomendação precisa pode variar.
 
    ![](../../media/skills(1).png)
 
@@ -42,11 +42,11 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/skills(2).png)
 
-## Tarefa 2: enviar código para o seu repositório a partir do codespace
+## Tarefa 2: Enviar código para o seu repositório a partir do codespace
 
 Nesta tarefa, irá utilizar o terminal VS Code para adicionar o ficheiro `skills.js` ao repositório GitHub.
 
-1. Abra o Terminal do VS Code clicando em **Reticências (...)** **(1)**, seleccione **Terminal** **(2)** e clique em **Novo Terminal** **(3)**.
+1. Abra o Terminal do VS Code clicando em **Reticências (...)** **(1)**, seleccione **Terminal** **(2)** e clique em **New Terminal** **(3)**.
 
    ![](../../media/open-terminal.png)
 
@@ -73,16 +73,16 @@ Nesta tarefa, irá utilizar o terminal VS Code para adicionar o ficheiro `skills
  >**Nota**: Aguarde cerca de 60 segundos e atualize a página inicial do repositório GitHub para o passo seguinte.
 
 
-## Tarefa 3: boas práticas para utilizar o GitHub Copilot
+## Tarefa 3: Boas práticas para utilizar o GitHub Copilot
 
 ### Verificar a extensão GitHub Copilot Chat no VS Code
 
 1. Para verificar a extensão GitHub Copilot Chat, devem ser executados os seguintes passos no Visual Studio Code:
 
-    - Clique no ícone **Extensões (1)** na barra de atividades presente no lado esquerdo da janela do Visual Studio Code.
+    - Clique no ícone **Extensions (1)** na barra de atividades presente no lado esquerdo da janela do Visual Studio Code.
     - Na caixa de pesquisa "Pesquisar extensões no Marketplace", digite e pesquise a extensão **GitHub Copilot Chat (2)**.
     - Selecione **GitHub Copilot Chat (3)** na lista de resultados apresentados e verifique se o **GitHub Copilot Chat** foi instalado.
-    - Caso contrário, clique no botão **Instalar (4)**.
+    - Caso contrário, clique no botão **Install (4)**.
 
       ![](../../media/ghc-chat-extension.png)
 
@@ -92,9 +92,9 @@ Nesta tarefa, irá utilizar o terminal VS Code para adicionar o ficheiro `skills
 
 ## Tarefa 3.1- Exemplo: Definir o cenário com um objetivo de alto nível
 
-Isto é mais útil se tiver um ficheiro em branco ou uma base de código vazia. Por outras palavras, pode ser muito útil preparar o terreno para o programador de pares de IA se o GitHub Copilot não tiver ideia do que pretende construir ou alcançar. Ajuda preparar o GitHub Copilot com uma descrição geral do que pretende gerar - antes de entrar nos detalhes.
+Isto é mais útil se tiver um ficheiro em branco ou uma base de código vazia. Por outras palavras, pode ser útil preparar o terreno para o GitHub Copilot ter ideia do que pretende construir ou alcançar. Ter uma descrição geral do que se pretende gerar (antes de entrar nos detalhes), ajuda o GitHub Copilot.
 
-Ao encomendar o GitHub Copilot, pense no processo como uma conversa com alguém: como devo analisar o problema para que possamos resolvê-lo em conjunto? Como abordaria a programação em pares com essa pessoa?
+Quando fizer pedidos ao GitHub Copilot, pense no processo como uma conversa com alguém: como devo analisar o problema para que possamos resolvê-lo em conjunto? Como abordaria a programação a pares com essa pessoa?
 
 1. Na janela do VS Code Explorer, crie um novo ficheiro.
 
@@ -104,7 +104,7 @@ Ao encomendar o GitHub Copilot, pense no processo como uma conversa com alguém:
 
    ![](../../media/E2-T3.1-S2.png)
 
-3. Agora pressione Ctrl + I para abrir o GitHub Copilot Chat e cole o seguinte **comentário (1)** para pesquisar o código e clique no botão Fazer pedido **(Enter) (2)** e clique em **Aceite (3)** para utilizar o código.
+3. Agora pressione Ctrl + I para abrir o GitHub Copilot Chat e cole o seguinte **comment (1)** para pesquisar o código e clique no botão Fazer pedido **(Enter) (2)** e clique em **Accept (3)** para utilizar o código.
 
    ```
    /*
@@ -123,7 +123,7 @@ Ao encomendar o GitHub Copilot, pense no processo como uma conversa com alguém:
 
 ## Tarefa 3.2- Exemplo: tentar receber um breve resultado do GitHub Copilot para uma questão simples e específica
 
-Depois de explicar o seu objetivo principal ao programador do par de IA, explique o raciocínio e os procedimentos necessários para atingir esse objetivo. Isto ajudará o GitHub Copilot a obter uma compreensão mais clara do resultado pretendido ao analisar as coisas. Por exemplo, imagine que está a escrever uma receita. Em vez de escrever um parágrafo a descrever os alimentos que pretende preparar, dividiria o procedimento de confeção em partes distintas.
+Depois de explicar o seu objetivo principal ao GitHub Copilot, explique o raciocínio e os procedimentos necessários para atingir esse objetivo. Isto ajudará o GitHub Copilot a obter uma compreensão mais clara do resultado pretendido. Por exemplo, imagine que está a escrever uma receita. Em vez de escrever um parágrafo a descrever os alimentos que pretende preparar, dividiria o procedimento de confeção em partes distintas.
 Assim, em vez de pedir ao GitHub Copilot para gerar uma grande quantidade de código de uma só vez, deixe-o gerar o código após cada passo.
 
 1. No mesmo ficheiro index.js, introduza as instruções passo a passo abaixo para reverter uma frase.
@@ -141,8 +141,7 @@ Assim, em vez de pedir ao GitHub Copilot para gerar uma grande quantidade de có
 
 ## Tarefa 3.3- Exemplo: dar um ou dois exemplos ao GitHub Copilot
 
-Não só as pessoas podem beneficiar da aprendizagem com exemplos, mas também o seu programador de pares de IA. Por exemplo, para retirar os nomes da matriz de dados abaixo e colocá-los num
-nova matriz:
+Não só as pessoas podem beneficiar da aprendizagem com exemplos, mas também o GitHub Copilot. Por exemplo, para retirar os nomes da matriz de dados abaixo e colocá-los numa nova matriz:
 
    ```
           const data = [

@@ -4,9 +4,9 @@
 
 O GitHub Copilot fornece sugestões para uma infinidade de linguagens e frameworks, destacando-se particularmente com Python, JavaScript, TypeScript, Ruby, Go, C# e C++. Além disso, o Copilot oferece uma assistência valiosa na geração de consultas para bases de dados.
 
-Neste exercício, terá a oportunidade de aprofundar o Python e tirar partido das funcionalidades do Copilot, beneficiando de diversas sugestões.
+Neste exercício, terá a oportunidade de aprofundar os conhecimentos de Python e tirar partido das funcionalidades do Copilot, beneficiando de diversas sugestões.
 
->**Isenção de responsabilidade**: O GitHub Copilot irá sugerir automaticamente um corpo de função inteiro ou código em texto cinzento. A seguir, apresentamos alguns exemplos do que provavelmente verá neste exercício, mas a sugestão exata pode variar.
+>**Nota**: O GitHub Copilot irá sugerir automaticamente um corpo de função completa ou código em texto cinzento. A seguir, apresentamos alguns exemplos do que provavelmente verá neste exercício, mas a sugestão exata pode variar.
 
 >**Nota**: Se não conseguir ver nenhuma sugestão do GitHub Copilot no VS Code, reinicie o VS Code uma vez e tente novamente.
 
@@ -14,20 +14,20 @@ Neste exercício, terá a oportunidade de aprofundar o Python e tirar partido da
 
 Poderá completar as seguintes tarefas:
 
-- Tarefa 1: Adicionar código do método Python
-- Tarefa 2: visualize o separador GitHub Copilot com várias sugestões
-- Tarefa 3: enviar código push para o seu repositório a partir do codespace de código do VS
+- Tarefa 1: Adicionar código a um método de Python
+- Tarefa 2: Visualize o separador GitHub Copilot com várias sugestões
+- Tarefa 3: Enviar código através de comandos push para o repositório usando GitHub Codespaces
 
-## Tarefa 1: Adicionar código do método Python
+## Tarefa 1: Adicionar código a um método de Python
 
 ### Instalação da extensão Python no VS Code
 
 1. Para instalar a extensão Python, devem ser executados os seguintes passos no Visual Studio Code:
 
-    - Clique no ícone **Extensões** **(1)** na barra de atividades presente no lado esquerdo da janela de código do Visual Studio.
+    - Clique no ícone **Extensions** **(1)** na barra de atividades presente no lado esquerdo da janela de código do Visual Studio.
     - Na caixa de pesquisa "Pesquisar extensões no Marketplace", digite e pesquise a extensão **Python** **(2)**.
     - Selecione **Python** **(3)** na lista de resultados que aparecem.
-    - Clique no botão **Instalar** **(4)**.
+    - Clique no botão **Install** **(4)**.
 
       ![](../../media/python-install.png)
 
@@ -47,9 +47,9 @@ Poderá completar as seguintes tarefas:
 
  > **Nota**: Eis um exemplo do que provavelmente verá; no entanto, a recomendação precisa pode variar.
 
-### Tarefa 2: visualize o separador GitHub Copilot com várias sugestões
+### Tarefa 2: Visualize o separador GitHub Copilot com várias sugestões
 
-Nesta tarefa, continuará a utilizar o Copilot e poderá precisar de algumas das sugestões que o GitHub Copilot oferece. O GitHub Copilot irá sintetizar cerca de 10 sugestões de código diferentes num novo separador.
+Nesta tarefa, continuará a utilizar o GitHub Copilot e poderá precisar de algumas das sugestões que oferece. O GitHub Copilot irá gerar cerca de 10 sugestões de código diferentes num novo separador.
 
 1. A partir do codespace na janela do VS Code Explorer, crie um novo ficheiro chamado `prime.py` **(1)** e digite o seguinte código **(2)**.
 
@@ -61,13 +61,13 @@ Nesta tarefa, continuará a utilizar o Copilot e poderá precisar de algumas das
 
    > **Nota**: Eis um exemplo do que provavelmente verá; no entanto, a recomendação precisa pode variar.
 
-1. Para abrir um novo separador com múltiplas soluções sintetizadas, prima `Ctrl + Enter`. O GitHub Copilot irá sintetizar cerca de 10 sugestões de código diferentes num novo separador. Pode visualizar as soluções e, para aceitar uma sugestão, é necessário clicar em **Aceitar sugestão** abaixo da sugestão pretendida e guardar o ficheiro.
+1. Para abrir um novo separador com múltiplas soluções sintetizadas, prima `Ctrl + Enter`. O GitHub Copilot irá gerar cerca de 10 sugestões de código diferentes num novo separador. Pode visualizar as soluções e, para aceitar uma sugestão, é necessário clicar em **Accept Suggestion** abaixo da sugestão pretendida e guardar o ficheiro.
 
    ![](../../media/accpet-suggestion.png)
 
  > **Nota**: Nos casos em que as sugestões do Github Copilot não apareçam, feche e volte a abrir o Visual Studio Code.
 
-### Tarefa 3: enviar código push para o seu repositório a partir do codespace de código do VS
+### Tarefa 3: Enviar código através de comandos push para o repositório usando GitHub Codespaces
 
 1. Navegue de volta para o terminal do VS Code e adicione ficheiros ao repositório.
 
@@ -99,10 +99,10 @@ Nesta tarefa, continuará a utilizar o Copilot e poderá precisar de algumas das
 
  <validation step="95754ad8-7b5c-486d-8e7c-d034df03ff1b" />
 
-6. Clique em **Seguinte** abaixo para passar para a página seguinte.
+6. Clique em **Next** abaixo para passar para a página seguinte.
 
 ### Resumo
 
-Neste exercício, concluiu com sucesso a tarefa de utilizar o Python em conjunto com o Copilot e fê-lo com o benefício de receber várias sugestões.
+Neste exercício, concluiu com sucesso a tarefa de utilizar Python em conjunto com o GitHub Copilot e fê-lo com o benefício de receber várias sugestões.
 
 ### Concluiu o laboratório com sucesso

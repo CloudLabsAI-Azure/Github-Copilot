@@ -2,11 +2,11 @@
 
 ### Duração estimada: 20 minutos
 
-A refatoração de código GitHub refere-se ao processo de reestruturação e melhoria da qualidade do código num repositório GitHub sem alterar o seu comportamento externo. A refatoração de código visa melhorar a legibilidade, a capacidade de manutenção e o desempenho, ao mesmo tempo que reduz o débito técnico e possíveis bugs.
+A refatoração de código refere-se ao processo de reestruturação e melhoria da qualidade do código sem alterar o seu comportamento externo. A refatoração de código visa melhorar a legibilidade, a capacidade de manutenção e o desempenho, ao mesmo tempo que reduz o dívida técnica e possíveis bugs.
 
-Neste exercício, irá participar numa aprendizagem ou atividade prática com o objetivo principal de empregar o GitHub Copilot para a refatoração de código em C#. Além disso, irá criar funções de teste de unidade através do GitHub Copilot Chat.
+Neste exercício, irá participar numa aprendizagem ou atividade prática com o objetivo principal de usar o GitHub Copilot para a refatoração de código C#. Além disso, irá criar funções de testes unitáros através do GitHub Copilot Chat.
 
->**Isenção de responsabilidade**: O GitHub Copilot irá sugerir automaticamente um corpo de função inteiro ou código em texto cinzento. Exemplos do que provavelmente verá neste laboratório, mas a sugestão exata pode variar.
+> **Nota**: O GitHub Copilot irá sugerir automaticamente um corpo de função completa ou código em texto cinzento. A seguir, apresentamos alguns exemplos do que provavelmente verá neste exercício, mas a sugestão exata pode variar.
 
 >**Nota**: Se não conseguir ver nenhuma sugestão do GitHub Copilot no VS Code, reinicie o VS Code uma vez e tente novamente.
 
@@ -15,26 +15,26 @@ Neste exercício, irá participar numa aprendizagem ou atividade prática com o 
 Poderá completar as seguintes tarefas:
 
 - Tarefa 1: Compreender o código já disponível para si
-- Tarefa 2: utilizar o GitHub Copilot para refatorar o código
-- Tarefa 3: Reveja o código refatorado e compreenda como funciona
-- Tarefa 4: utilizar o GitHub Copilot Chat com código para refatorar o código
+- Tarefa 2: Utilizar o GitHub Copilot para refatorar o código
+- Tarefa 3: Rever o código refatorado e Compreender como funciona
+- Tarefa 4: Utilizar o GitHub Copilot Chat com código para refatorar o código
 - Tarefa 5: Criar funções de teste unitário
-- Tarefa 6: enviar código para o seu repositório a partir do codespace
+- Tarefa 6: Enviar código para o seu repositório a partir do codespace
 
 ## Tarefa 1: Compreender o código já disponível para si
 
-### Instalação da extensão C Sharp (C#) no VS Code
+### Instalação da extensão CSharp (C#) no VS Code
 
 1. Para instalar a extensão C Sharp (C#), devem ser executados os seguintes passos no Visual Studio Code:
 
-    - Clique no ícone **Extensões** **(1)** na barra de atividades presente no lado esquerdo da janela de código do Visual Studio.
-    - Na caixa de pesquisa "Pesquisar extensões no Marketplace", digite e pesquise a extensão **C#** **(2)**.
+    - Clique no ícone **Extensions** **(1)** na barra de atividades presente no lado esquerdo da janela de código do Visual Studio.
+    - Na caixa de pesquisa "Search Extensions in Marketplace", digite e pesquise a extensão **C#** **(2)**.
     - Selecione **C#** **(3)** na lista de resultados que aparecem.
-    - Clique no botão **Instalar** **(4)**.
+    - Clique no botão **Install** **(4)**.
 
       ![](../../media/csharp-install.png)
 
-1. Para demonstrar o refatorador de código do GitHub, vamos pegar num exemplo de código mal escrito e analisá-lo. O código abaixo foi escrito utilizando a linguagem de programação C#.
+1. Para demonstrar o refatorador de código do GitHub, vamos usar um exemplo de código mal escrito e analisá-lo. O código abaixo foi escrito utilizando a linguagem de programação C#.
 
    ```
    using System;
@@ -90,12 +90,12 @@ Poderá completar as seguintes tarefas:
     - Define uma constante MAX com o valor 100 para representar o número máximo de elementos permitidos.
     - O método Sum calcula a soma dos elementos de um array.
     - No método Principal:
-    - Solicita ao utilizador que introduza o número de elementos (entre 1 e 100) e valida a introdução.
-    - Aloca um array 'arr' para guardar os inteiros inseridos.
-    - Solicita ao utilizador que introduza o número especificado de números inteiros e valida cada entrada.
-    - Calcula a soma dos números inteiros introduzidos através do método Sum.
-    - Envia a soma para a consola.
-    - Não há necessidade de libertar memória manualmente em C# porque gere a memória automaticamente.
+        - Solicita ao utilizador que introduza o número de elementos (entre 1 e 100) e valida a introdução.
+        - Aloca um array 'arr' para guardar os inteiros inseridos.
+        - Solicita ao utilizador que introduza o número especificado de números inteiros e valida cada entrada.
+        - Calcula a soma dos números inteiros introduzidos através do método Sum.
+        - Envia a soma para a consola.
+        - Não há necessidade de libertar memória manualmente em C# porque gere a memória automaticamente.
 
 ## Tarefa 2: Utilizar o GitHub Copilot para refatorar o código
 
@@ -165,12 +165,12 @@ Poderá completar as seguintes tarefas:
     - Aqui, o GitHub Copilot removeu o parâmetro `n` do método Sum, uma vez que não é necessário. Em vez disso, o Copilot utilizou um ciclo for-each para iterar no array. Como resultado, o código é mais fácil de compreender e mais conciso **(3)**.
     - O método Sum calcula a soma dos elementos de uma matriz de inteiros utilizando um ciclo for-each **(4)**.
     - No método Principal:
-    - Cria uma matriz inteira para armazenar valores introduzidos pelo utilizador **(5)**.
-    - Solicita ao utilizador que introduza o número de elementos e valide **(6)**.
-    - Solicita ao utilizador que introduza números inteiros, valida a entrada e armazena-os no array **(7)**.
-    - Lê uma linha de entrada, tenta convertê-la num número inteiro e armazena o resultado **(8)**.
-    - Calcula a soma dos números inteiros através do método Sum **(9)**.
-    - O código inclui a validação de entrada e fornece a soma dos números inteiros introduzidos pelo utilizador **(10)**.
+        - Cria uma matriz inteira para armazenar valores introduzidos pelo utilizador **(5)**.
+        - Solicita ao utilizador que introduza o número de elementos e valide **(6)**.
+        - Solicita ao utilizador que introduza números inteiros, valida a entrada e armazena-os no array **(7)**.
+        - Lê uma linha de entrada, tenta convertê-la num número inteiro e armazena o resultado **(8)**.
+        - Calcula a soma dos números inteiros através do método Sum **(9)**.
+        - O código inclui a validação de entrada e fornece a soma dos números inteiros introduzidos pelo utilizador **(10)**.
 
       ![](../../media/refactor.png)
 
@@ -180,9 +180,9 @@ Poderá completar as seguintes tarefas:
 
 ## Tarefa 4: utilizar o GitHub Copilot Chat com código para refatorar o código
 
-Nesta tarefa, demonstrará a funcionalidade de chat com código do GitHub Copilot. Com esta funcionalidade, os programadores podem participar em conversas em tempo real com o Copilot diretamente através de comentários de código, fazendo com que pareça que estão a colaborar com um parceiro de codificação.
+Nesta tarefa, demonstrará a funcionalidade de chat com código do GitHub Copilot. Com esta funcionalidade, os programadores podem participar em conversas em tempo real com o Copilot diretamente através de comentários de código, fazendo com que pareça que estão a colaborar com outro programador.
 
-1. No codespace na janela do VS Code Explorer, crie um novo ficheiro.
+1. No codespace, na janela do VS Code Explorer, crie um novo ficheiro.
 
    ![](../../media/chat-code-new.png)
 
@@ -253,11 +253,11 @@ Nesta tarefa, demonstrará a funcionalidade de chat com código do GitHub Copilo
 
 1. Identifique a secção do código onde a instrução switch está presente e selecione-a.
 
-1. Clique com o botão direito do rato na janela de código e clique na opção **Copilot** **(1)**. Na lista de opções seguinte no Copilot, seleccione **Iniciar no Editor** **(2)**.
+1. Clique com o botão direito do rato na janela de código e clique na opção **Copilot** **(1)**. Na lista de opções seguinte no Copilot, seleccione **Start in Editor** **(2)**.
 
    ![](../../media/5-2.png)
 
-1. Agora digite o aviso "Utilizar instruções if-else em vez da instrução switch" **(1)** para tornar o código mais compreensível e clique em `>` ou prima `Enter` **(2)**. O Copilot dará uma resposta e poderá revê-la e clicar em **Aceitar** **(3)**. Além disso, pode **Descartar** a sugestão como mostra a imagem abaixo.
+1. Agora digite o aviso "Use if-else statements instead of the switch statement" **(1)** para tornar o código mais compreensível e clique em `>` ou prima `Enter` **(2)**. O Copilot dará uma resposta e poderá revê-la e clicar em **Accept** **(3)**. Além disso, pode **Discard** a sugestão como mostra a imagem abaixo.
 
    ![](../../media/5--1.png)
 
