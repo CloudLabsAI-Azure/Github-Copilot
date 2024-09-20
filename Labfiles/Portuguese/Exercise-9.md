@@ -6,7 +6,7 @@ O GitHub Copilot pode ajudar a agilizar o processo de geração de documentaçã
 
 Neste exercício, irá gerar documentação utilizando o GitHub Copilot.
 
->**Isenção de responsabilidade**: O GitHub Copilot irá sugerir automaticamente um corpo de função inteiro ou código em texto cinzento. Exemplos do que provavelmente verá neste exercício, mas a sugestão exata pode variar.
+>**Nota**: O GitHub Copilot irá sugerir automaticamente um corpo de função completa ou código em texto cinzento. Exemplos do que provavelmente verá neste exercício, mas a sugestão exata pode variar.
 
 >**Nota**: Se não conseguir ver nenhuma sugestão do GitHub Copilot no VS Code, reinicie o VS Code uma vez e tente novamente.
 
@@ -22,7 +22,7 @@ Neste exercício, irá gerar documentação utilizando o GitHub Copilot.
 
    ![](../../media/ex-7-mdsearch.png)
 
-1. O Copilot dará uma resposta e poderá revê-la **(1)**, clicar em **Aceitar** **(2)** e premir `CTRL + S` para guardar o ficheiro. Além disso, pode descartar a sugestão como mostra a imagem abaixo.
+1. O Copilot dará uma resposta e poderá revê-la **(1)**, clicar em **Accept** **(2)** e premir `CTRL + S` para guardar o ficheiro. Além disso, pode descartar a sugestão como mostra a imagem abaixo.
 
    ![](../../media/8thex.png)
 
