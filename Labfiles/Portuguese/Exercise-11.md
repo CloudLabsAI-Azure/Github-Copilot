@@ -18,19 +18,19 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/vs2.png)
 
-1. Clique em **Criar bifurcação**.
+1. Clique em **Create Fork**.
 
    ![](../../media/vs20.png)
 
-1. Depois de o repositório ser bifurcado, selecione o botão **Código (1)** e, no separador **Codespaces**, selecione **Criar codespace no principal (2)**.
+1. Depois de o repositório ser bifurcado, selecione o botão **Code (1)** e, no separador **Codespaces**, selecione **Create codespace on main (2)**.
 
    ![](../../media/vs6.png)
 
-   >**Nota**: Caso encontre um prompt pop-up. Clique em **Abrir** para continuar.
+   >**Nota**: Caso encontre um prompt pop-up. Clique em **Open** para continuar.
 
    ![](../../media/vs7.png)
 
-1. Clique em **Abrir** quando lhe for pedido para permitir a extensão Github Codespaces.
+1. Clique em **Open** quando lhe for pedido para permitir a extensão Github Codespaces.
 
    ![](../../media/vs25.png)
 
@@ -52,13 +52,13 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/vs14.png)
 
-   >**Nota:** Nos casos em que o código não é gerado pelo **Github Copilot**, clique em **Extensões**, pesquise por Github Copilot, seleccione-o e clique em **Instalar em Codespaces: opulent espaço eureca**.
+   >**Nota:** Nos casos em que o código não é gerado pelo **Github Copilot**, clique em **Extensions**, pesquise por Github Copilot, seleccione-o e clique em **Install in Codespaces: opulent space eureka**.
 
    ![](../../media/vs13.png)
 
-1. Clique em **Guardar**.
+1. Clique em **Save**.
 
-1. Clique em **Terminal (1)** e seleccione **Novo Terminal (2)**.
+1. Clique em **Terminal (1)** e seleccione **New Terminal (2)**.
 
    ![](../../media/vs15.png)
 
@@ -69,7 +69,7 @@ Poderá completar as seguintes tarefas:
 
 ### Tarefa 3: Criação da lógica do jogo
 
-1. Apague o código gerado no passo anterior e utilize o atalho CTRL+I para solicitar ao GitHub Copilot que execute uma ação. Cole o seguinte **comentário (1)** para pesquisar o código e clique no botão Fazer pedido **(Enter) (2)** e clique em **Aceitar (3)** para utilizar o código.
+1. Apague o código gerado no passo anterior e utilize o atalho CTRL+I para solicitar ao GitHub Copilot que execute uma ação. Cole o seguinte **comentário (1)** para pesquisar o código e clique no botão Fazer pedido **(Enter) (2)** e clique em **Accept (3)** para utilizar o código.
 
     ```
     The player can choose rock, paper, or scissors, and invalid inputs are handled gracefully. After each round, display whether the player won, lost, or tied. Allow the player to play again after each round and display their score at the end of the game. Inputs are converted to lowercase for consistency.
@@ -79,7 +79,7 @@ Poderá completar as seguintes tarefas:
 
    >**Nota:** No entanto, é de notar que as sugestões fornecidas pelo GitHub Copilot podem variar e, por vezes, podem ser irrelevantes e exigir uma compreensão clara do código python e da sua utilização.
 
-1. Clique em **Guardar**.
+1. Clique em **Save**.
 
 1. Execute a aplicação com o comando **python app.py** no terminal.
 
