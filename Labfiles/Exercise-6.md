@@ -150,7 +150,7 @@ GitHub Copilot puede entender mucho más contexto que la mayoría de los asisten
 
    <validation step="364115e7-deff-4c32-96e9-fa5d2122a86f" />
    
-6. Haga clic en **Siguiente** a continuación para pasar a la página siguiente.
+3. Haga clic en **Siguiente** a continuación para pasar a la página siguiente.
         
 ### Resumen
 
