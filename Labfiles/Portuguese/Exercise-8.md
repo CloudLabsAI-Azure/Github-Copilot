@@ -23,7 +23,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/chat-code-new.png)
 
-1. Nomeie o ficheiro `demo. sql` e digite o comentário abaixo:
+1. Nomeie o ficheiro `demo.sql` e digite o comentário abaixo:
 
     ```
     -- Create a table for 5 products with product names and prices
