@@ -58,7 +58,6 @@ En esta tarea, usará la Terminal de VS Code para agregar el archivo `skills.js`
 
 3. A continuación, desde la Terminal de VS Code, confirme los cambios en el repositorio:
 
-
    ```
    git commit -m "Copilot first commit"
    ```
