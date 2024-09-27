@@ -35,9 +35,9 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
    ![](../media/create-project.png)
 
-1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, click on the drop-down **(4)** and click on  **Download JDK** **(5)**.
+1. In the new project pane, enter the project name as **demo-copilot** **(2)**. Select language as **Java** **(1)** and build system as **IntelliJ** **(3)**. For JDK, click on the drop-down **(4)** and click on  **Download JDK** **(5)**.
 
-   ![](../media/intellij.png)
+   ![](../media/demo-copliot.png)
 
 1. If you see a pop-up to download JDK, verify the location, and click on **Download**.
 
@@ -45,7 +45,7 @@ In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You wil
 
 1. Once JDK is downloaded, verify the JDK version **(1)** and click on **Create** **(2)**.
 
-   ![](../media/click-create.png)
+   ![](../media/download-create.png)
 
 1. Review the created **demo-copilot** project as shown below:
 
@@ -129,9 +129,9 @@ Sometimes, you may not want to use any of the initial suggestions. You can ask G
 
    -On Windows or Linux, press `Alt + Enter`.
    
->**Note**: If the 'Alt + Enter' isn't working, please select Github Co-pilot from the right pane as shown in the below image.
+   >**Note**: If the 'Alt + Enter' isn't working, please select Github Co-pilot from the right pane as shown in the below image.
 
-   ![](../media/github.png)
+      ![](../media/github.png)
    
 1. Select "Open Copilot". GitHub Copilot will open a new tab and suggest multiple options, as shown below.
 
@@ -160,13 +160,12 @@ GitHub Copilot can understand significantly more context than most code assistan
    ![](../media/ex6-image-suggestion.png)
 
   
-  <validation step="554ef91e-3530-4e62-ae6d-e1cfec7b4bf7" />
+<validation step="554ef91e-3530-4e62-ae6d-e1cfec7b4bf7" />
  
-   **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - Navigate to the Lab Validation page, from the upper right corner in the lab guide section.
-   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
    
   
 ### Summary

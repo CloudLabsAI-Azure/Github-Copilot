@@ -27,9 +27,6 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
       ![](../media/credsfile.png)
 
-   >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
-
-     ![](../media/envt12.png)
    
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
           
@@ -280,13 +277,12 @@ new array:
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
-   <validation step="d9bc779b-fe43-400c-aadf-959853cf7263" />
-   
-   **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - Navigate to the Lab Validation page, from the upper right corner in the lab guide section.
-   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help
+<validation step="d9bc779b-fe43-400c-aadf-959853cf7263" />
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
  
 ### Summary
 
