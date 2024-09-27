@@ -337,9 +337,9 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. Identify the section of code where the switch statement is present and select it.
 
-1. Right-click on the code window and click on the **Copilot** **(1)** option. From the following list of options in Copilot, select **Start Inline Chat** **(2)**.
+1. Right-click on the code window and click on the **Copilot** **(1)** option. From the following list of options in Copilot, select **Start in Editor** **(2)**.
  
-   ![](../media/copililotinline.png)  
+   ![](../media/copililotinlineu.png)  
 
 1. Now type the prompt "Use if-else statements instead of the switch statement" **(1)** to make the code more understandable and click `>` or press `Enter` **(2)**. Copilot will give a response, and you can review it and click **Accept** **(3)**. Also, you can **Discard** the suggestion as depicted in the image below.
 
@@ -359,9 +359,11 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. Now, navigate to the GitHub Copilot Chat and give the prompt **Compose a full JavaScript program for constructing a calculator**.
 
-1. The GitHub Copilot Chat will generate the code as shown below.
+1. GitHub Copilot Chat will generate code based on the prompt you provide, as shown below.
 
    ![](../media/calci.png)
+
+   >**Note**: The code shown in the screenshot may be different for you.
 
 1. Copy and paste the code in the file named **test.js** that you just created.
 
@@ -404,15 +406,14 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
     > - Copy your GitHub username.
 
      ![Picture1](../media/gihubuser15.png)
-
-    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   
     > - Hit the Validate button for the corresponding task. Paste your GitHub username into the required field and click on submit.
 
      ![Picture1](../media/gihubuser115.png)
 
-    > - If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > - If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+   > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Summary
 
