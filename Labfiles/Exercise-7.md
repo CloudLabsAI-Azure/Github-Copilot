@@ -117,7 +117,7 @@ You will be able to complete the following tasks:
 
    ![](../media/before1.png)
 
-1. Now click on the **Extensions** button from the browser toolbar, select **Accessibility Insights for Web**, and then click on **FastPass**. It will open in a new window pop-up.
+1. Now click on the **Extensions (1)** button from the browser toolbar, select **Accessibility Insights for Web (2)**, and then click on **FastPass (3)**. It will open in a new window pop-up.
 
    - **FastPass**: [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) is a lightweight, two-step process that helps developers identify common, high-impact accessibility issues in less than five minutes.
 

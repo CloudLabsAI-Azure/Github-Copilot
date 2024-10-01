@@ -122,6 +122,20 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](../media/ex-2-1.png)
 
+   >**Note:** If the code is throwing errors, try to run the below command:
+
+    ```
+   Create a basic markdown editor in Next.js with the following features:
+   - Use react hooks
+   - Create a state for markdown with the default text "type markdown here"
+   - A text area where users can write markdown 
+   - Show a live preview of the markdown text as I type
+   - Support for basic markdown syntax like headers, bold, and italics 
+   - Use React markdown npm package 
+   - The markdown text and resulting HTML should be saved in the component's state and updated in real-time 
+   
+   ```
+
 ## Task 3.2- Example: Aim to receive a short output from GitHub Copilot for a simple and specific ask
 
 After you've explained your primary objective to the AI pair programmer, explain the reasoning and procedures it must take to reach that objective. This will help GitHub Copilot gain a clearer understanding of your intended outcome when you break things down. For example, imagine you’re writing a recipe. Rather than writing a paragraph outlining the food you intend to make, you would break down the cooking procedure into distinct parts.
@@ -129,12 +143,21 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 
 1. In the same index.js file, enter the below step-by-step instructions for reversing a sentence.
 
-    ```
-      // take a sentence as input
-      // reverse the input sentence
-      // the start of the sentence must start with a capital
-      // for javascript
-    ```
+   ```
+   // take a sentence as input
+   // reverse the input sentence
+   // the start of the sentence must start with a capital
+   // for javascript
+   ```
+
+    >**Note:** If the code is throwing errors, try to run the below command:
+
+      ```
+      take a sentence as input
+      reverse the input sentence
+      the start of the sentence must start with a capital
+      for javascript
+      ```
 
 2. The generated outcome would look similar to the below image.
 
@@ -208,7 +231,12 @@ new array:
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
-   <validation step="73a63481-3140-4473-9b94-36d265cdc8cb" />
+<validation step="73a63481-3140-4473-9b94-36d265cdc8cb" />
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 10. Click on **Next** below to move on to the next page.
     

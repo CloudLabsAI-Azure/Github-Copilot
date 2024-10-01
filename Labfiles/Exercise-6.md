@@ -49,7 +49,7 @@ You will be able to complete the following tasks:
 
    ![](../media/create-project.png)
 
-1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, select the default **Download Oracle OpenJDK 22** **(4)** and click on **Create** **(5)**.
+1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, select the default **Download Oracle OpenJDK 23** **(4)** and click on **Create** **(5)**.
 
    ![](../media/Exercise-06-v2-02.png)
 
@@ -148,7 +148,12 @@ GitHub Copilot can understand significantly more context than most code assistan
   
    ![](../media/ex6-image-suggestion.png)
 
-   <validation step="364115e7-deff-4c32-96e9-fa5d2122a86f" />
+<validation step="364115e7-deff-4c32-96e9-fa5d2122a86f" />
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 3. Click on **Next** below to move on to the next page.
         
