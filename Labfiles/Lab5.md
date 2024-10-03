@@ -399,7 +399,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
    ![](../media/ex-4-push5.png)
 
-   <validation step="ad1afa57-ac1b-412e-9dde-78969033099e" />
+   <validation step="d30ee72a-72c4-4c44-a120-080c4ef5b834" />
 
     > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
     > - On GitHub, locate your profile photo at the top right corner of the screen.
