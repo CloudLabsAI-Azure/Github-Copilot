@@ -139,7 +139,7 @@ In this lab, you will create a development container and define specific extensi
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
-<validation step="b0ab17d5-7156-4131-b95c-c70529613eab" />
+<validation step="f627a3c6-3d8f-48d4-ae32-306c3ff40e00" />
    
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
