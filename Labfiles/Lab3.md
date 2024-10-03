@@ -277,7 +277,7 @@ new array:
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
-<validation step="d9bc779b-fe43-400c-aadf-959853cf7263" />
+<validation step="6a64656c-2ae5-406c-9cf3-9f0ff161aa46" />
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.

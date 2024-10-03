@@ -215,7 +215,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
    ![](../media/ex-4-github5.png)
 
     
-<validation step="41cb7abc-f8a9-4af0-a8c9-3df487cfda04" />
+<validation step="24e51569-e264-40ac-b8f3-a565cdd84341" />
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
