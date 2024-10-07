@@ -30,15 +30,17 @@ You will be able to complete the following tasks:
 
 ### Task 1: Prerequisites and Injecting the Required Dataset into Your Environment
 
-1. Open VS Code Terminal by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
+1. Navigate to VS Code Terminal where skills-copilot-codespaces-vscode workspace is open by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
 
-   ![](../media/ex-8-openterminal.png)
+   ![](../media/Step1.png)
 
 1. Clone the below git repository in your environment.
 
    ```
    git clone https://github.com/CloudLabsAI-Azure/ml-copilot-workshop.git
    ```
+
+   >**Note:** Make sure you are inside the **skills-copilot-codespaces-vscode** folder.
 
 1. Change the directory in the terminal by running the below command:
 
@@ -58,6 +60,8 @@ You will be able to complete the following tasks:
 
    ![](../media/ex-8-create-file.png)
 
+   >**Note:** If you are not able to get the **suggestions** from Copilot, please use different options such as **github chat** option from the left panel or do **CTRL + Enter** after pasting the comments to get the **suggestions** on comments. please follow the same practice for upcomming steps if the copilot suggestion option does not work.
+
 1. Type the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press "enter" to get into the next line and review the suggestion, press "tab" and click on **Run** button to execute the cell.
 
    ```
@@ -66,6 +70,8 @@ You will be able to complete the following tasks:
    ```
 
    ![](../media/ex-8-import-lib.png)
+
+
 
 1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell.
 
