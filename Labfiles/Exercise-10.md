@@ -30,7 +30,7 @@ You will be able to complete the following tasks:
 
 ### Task 1: Prerequisites and Injecting the Required Dataset into Your Environment
 
-1. Navigate to VS Code Terminal where skills-copilot-codespaces-vscode workspace is open by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
+1. Navigate to VS Code Terminal where skills-copilot-codespaces-vscode workspace is open. if terminal is not open, do so by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
 
    ![](../media/ex-8-openterminal.png)
 
