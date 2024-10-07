@@ -40,7 +40,7 @@ You will be able to complete the following tasks:
    git clone https://github.com/CloudLabsAI-Azure/ml-copilot-workshop.git
    ```
 
-   >**Note:** Make sure you are inside the **skills-copilot-codespaces-vscode** folder.
+   >**Note:** To clone the repo, make sure you are inside the **skills-copilot-codespaces-vscode** folder.
 
    ![](../media/Step1.png)
    
