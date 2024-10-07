@@ -62,7 +62,7 @@ You will be able to complete the following tasks:
 
    ![](../media/ex-8-create-file.png)
 
-   >**Note:** If you are not able to get the **suggestions** from Copilot, please use different options such as **github chat** option from the left panel or do **CTRL + Enter** after pasting the comments to get the **suggestions** on comments. please follow the same practice for upcomming steps if the copilot suggestion option does not work.
+   >**Note:** If you are not able to get the **suggestions** from Copilot, please use different options such as **github chat** option from the left panel or do **CTRL + Enter** after pasting the comments to get the **suggestions.** please follow the same practice for upcomming steps if the copilot suggestion option does not work automatically.
 
 1. Type the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press "enter" to get into the next line and review the suggestion, press "tab" and click on **Run** button to execute the cell.
 
