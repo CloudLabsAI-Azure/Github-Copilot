@@ -65,7 +65,7 @@ You will be able to complete the following tasks:
    import pandas as pd
    ```
 
-   ![](../media/ex-8-import-lib.png)
+   ![](../media/ex-8-import-lib-1.png)
 
    >**Note**: Ensure to select the Kernel and click on Python 3.12.
 
@@ -75,7 +75,7 @@ You will be able to complete the following tasks:
 
 1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell.
 
-   ![](../media/ex8-add-cell-new.png)
+   ![](../media/ex8-add-cell-new-1.png)
 
    >**Note**: While running the cell, you may need to install the required packages and select the kernel.
 
@@ -85,7 +85,7 @@ You will be able to complete the following tasks:
    # Load the data from a csv file, and the name of the file is diabetes.csv
    ```
 
-    ![](../media/ex8-load-data-1.png)
+    ![](../media/ex8-load-data-1-2.png)
 
 1. Now click on **+Code** and move on to the next task.
 
