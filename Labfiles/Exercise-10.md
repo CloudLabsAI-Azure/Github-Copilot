@@ -32,7 +32,7 @@ You will be able to complete the following tasks:
 
 1. Navigate to VS Code Terminal where skills-copilot-codespaces-vscode workspace is open by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
 
-   ![](../media/Step1.png)
+   ![](../media/ex-8-openterminal.png)
 
 1. Clone the below git repository in your environment.
 
@@ -42,6 +42,8 @@ You will be able to complete the following tasks:
 
    >**Note:** Make sure you are inside the **skills-copilot-codespaces-vscode** folder.
 
+   ![](../media/Step1.png)
+   
 1. Change the directory in the terminal by running the below command:
 
    ```
