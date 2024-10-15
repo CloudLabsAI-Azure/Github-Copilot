@@ -146,7 +146,7 @@ Este laboratorio práctico demuestra cómo GitHub Copilot y GitHub Codespaces me
 
    Contactos de Soporte para Estudiantes:
 
-   - Soporte por Correo Electrónico: labs-support@spektrasystems.com
+   - Soporte por Correo Electrónico: cloudlabs-support@spektrasystems.com
    - Soporte por Chat En Vivo: https://cloudlabs.ai/labs-support
 
 1. Ahora, haga clic en Siguiente en la esquina inferior derecha para pasar a la página siguiente.
