@@ -28,7 +28,7 @@ Será capaz de completar las siguientes tareas:
     - Seleccione **Python** **(3)** de la lista de resultados que aparecen.
     - Haga clic en el botón **Instalar** **(4)**.
 
-   ![](../media/python-install.png)
+      ![](../media/python-install.png)
 
 1. Dentro del codespace en la ventana Explorador de VS Code, cree un Nuevo Archivo.
 

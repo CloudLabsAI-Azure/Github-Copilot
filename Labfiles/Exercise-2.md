@@ -83,7 +83,7 @@ En esta tarea, usará la Terminal de VS Code para agregar el archivo `skills.js`
     - Seleccione **GitHub Copilot Chat (3)** de la lista de resultados que aparecen y verifique que **GitHub Copilot Chat** se encuentre instalado.
     - De lo contrario, haga clic en el botón **Instalar (4)**.
 
-   ![](../media/ghc-chat-extension.png)
+      ![](../media/ghc-chat-extension.png)
 
 1. Una vez que se complete la instalación, en el panel de navegación izquierdo podrá ver el ícono de GitHub Copilot Chat como se muestra a continuación.
 
@@ -128,10 +128,10 @@ Entonces, en lugar de pedirle a GitHub Copilot que genere una gran cantidad de c
 1. En el mismo archivo index.js, ingrese las siguientes instrucciones paso a paso para invertir una oración.
 
     ```
-      // take a sentence as input
-      // reverse the input sentence
-      // the start of the sentence must start with a capital
-      // for javascript
+    // take a sentence as input
+    // reverse the input sentence
+    // the start of the sentence must start with a capital
+    // for javascript
     ```
 
 2. El resultado generado se vería similar a la imagen de abajo.
@@ -159,7 +159,7 @@ nueva matriz:
 1. Escriba el siguiente comentario en el chat para generar el resultado sin mostrar un ejemplo a GitHub Copilot.
 
    ```
-    // As an illustration, pull names out of the data array  
+   // As an illustration, pull names out of the data array  
    ```
 
 2. Se generó un uso incorrecto de la función map.
@@ -169,9 +169,9 @@ nueva matriz:
 3. En contraste, ahora escriba los siguientes comentarios para proporcionar un ejemplo de cómo generar el resultado deseado.
 
     ```
-      // Map through an array of arrays of objects
-      // Example: Extract names from the data array
-      // Desired outcome: ['John', 'Jane', 'Bob']    
+    // Map through an array of arrays of objects
+    // Example: Extract names from the data array
+    // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
 4. Ahora, hemos recibido el resultado deseado. Guarde el archivo `index.js` recién creado usando las teclas de acceso directo `CTRL + S`.

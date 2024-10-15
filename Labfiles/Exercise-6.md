@@ -101,7 +101,6 @@ Será capaz de completar las siguientes tareas:
 
 1. Presione **Tab** para aceptar la sugerencia.
 
-
 ## Tarea 3: Obtener más sugerencias
 
 En ocasiones, es posible que no quiera usar ninguna de las sugerencias iniciales. Puede solicitarle a GitHub Copilot que devuelva más.
@@ -130,7 +129,6 @@ En ocasiones, es posible que no quiera usar ninguna de las sugerencias iniciales
 
 1. Si no le gusta ninguna de las sugerencias devueltas, simplemente cierre la pestaña de sugerencias.
 
-
 ## Tarea 4: Obtener código a partir de un comentario
 
 GitHub Copilot puede entender mucho más contexto que la mayoría de los asistentes de código y puede generar funciones completas a partir de algo tan simple como un comentario.
@@ -140,8 +138,7 @@ GitHub Copilot puede entender mucho más contexto que la mayoría de los asisten
    ```
    // Identify all the images without alternate text
    // and add a red border to them
-   void process(java.util.List<Image> images) {  
-
+   void process(java.util.List<Image> images) {
    ```
 
 2. GitHub Copilot sugerirá automáticamente una implementación.

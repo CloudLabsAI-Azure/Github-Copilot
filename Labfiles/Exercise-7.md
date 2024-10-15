@@ -27,9 +27,9 @@ Será capaz de completar las siguientes tareas:
 
 1. Vaya a la página **Accessibility Insights para la Web** usando la URL proporcionada a continuación:
    
-     ```
+    ```
     https://accessibilityinsights.io/docs/web/overview/
-     ```
+    ```
      
 1. Desde la página Accessibility Insights para la Web, haga clic en la opción **Download for Web**.
 
@@ -67,7 +67,7 @@ Será capaz de completar las siguientes tareas:
     - Seleccione **GitHub Copilot Chat (3)** de la lista de resultados que aparecen y verifique que **GitHub Copilot Chat** se encuentre instalado.
     - De lo contrario, haga clic en el botón **Instalar (4)**.
 
-   ![](../media/ghc-chat-extension.png)
+      ![](../media/ghc-chat-extension.png)
 
 1. Una vez que se complete la instalación, en el panel de navegación izquierdo, podrá ver el ícono de GitHub Copilot Chat, como se muestra a continuación.
 
@@ -119,9 +119,9 @@ Será capaz de completar las siguientes tareas:
 
    - **FastPass**: [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) es un proceso ligero de dos pasos que ayuda a los desarrolladores a identificar problemas de accesibilidad comunes y de alto impacto en menos de cinco minutos.
 
-   ![](../media/fastpass1.png)
+     ![](../media/fastpass1.png)
 
-   ![](../media/fastpass2.png)
+     ![](../media/fastpass2.png)
 
 1. En la nueva ventana de **Accessibility Insights for Web**, verá la siguiente lista de verificación de tres pasos para FastPass.
 

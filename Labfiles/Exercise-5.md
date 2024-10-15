@@ -31,7 +31,7 @@ Será capaz de completar las siguientes tareas:
     - Seleccione **C#** **(3)** de la lista de resultados que aparecen.
     - Haga clic en el botón **Instalar** **(4)**.
 
-   ![](../media/csharp-install.png)
+      ![](../media/csharp-install.png)
 
 1. Para demostrar la refactorización del código de GitHub, tomemos un ejemplo de un código mal escrito y analicémoslo. El código a continuación está escrito con el lenguaje de programación C#.
     

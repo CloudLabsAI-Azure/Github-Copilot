@@ -102,7 +102,7 @@ Será capaz de completar las siguientes tareas:
 
     ![](../media/verify-copilot.png)
 
-   >**Nota**: Si la extensión GitHub Copilot no está instalada, haga clic en Instalar.
+    >**Nota**: Si la extensión GitHub Copilot no está instalada, haga clic en Instalar.
 
  <validation step="2f1521a8-516d-4357-b09c-941c5d7112ad" />
  

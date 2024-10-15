@@ -67,7 +67,7 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/ex-8-import-lib.png)
 
-1. Acepte todas las sugerencias para importar las bibliotecas como se muestra en la siguiente captura de pantalla **(1)** y haga clic en el botón **Ejecutar** **(2)** para ejecutar la celda. Haga clic en `+Código` **(3)** para agregar la nueva celda.
+1. Acepte todas las sugerencias para importar las bibliotecas como se muestra en la siguiente captura de pantalla **(1)** y haga clic en el botón **Ejecutar** **(2)** para ejecutar la celda. Haga clic en `+ Código` **(3)** para agregar la nueva celda.
 
    ![](../media/ex8-add-cell-new.png)
 
@@ -81,7 +81,7 @@ Será capaz de completar las siguientes tareas:
 
     ![](../media/ex8-load-data-1.png)
 
-1. Ahora haga clic en **+Código** y pase a la siguiente tarea.
+1. Ahora haga clic en **+ Código** y pase a la siguiente tarea.
 
    
 ### Tarea 3: Machine Learning y Aprendizaje Matemático con Diferentes Ejemplos
@@ -152,7 +152,7 @@ Será capaz de completar las siguientes tareas:
 
 ### Tarea 4.1: Visualización de Datos
 
-1. Haga clic en **+Código** para abrir la nueva celda y escriba los siguientes comentarios para realizar las operaciones básicas en el conjunto de datos. Presione "Enter" para pasar a la siguiente línea y revisar la sugerencia, y presione "Tab" para aceptar la sugerencia y haga clic en el botón **Ejecutar** para ejecutar la celda.
+1. Haga clic en **+ Código** para abrir la nueva celda y escriba los siguientes comentarios para realizar las operaciones básicas en el conjunto de datos. Presione "Enter" para pasar a la siguiente línea y revisar la sugerencia, y presione "Tab" para aceptar la sugerencia y haga clic en el botón **Ejecutar** para ejecutar la celda.
 
    ```
    # Perform univariate analysis on the dataset and plot the graphs
@@ -196,7 +196,7 @@ Será capaz de completar las siguientes tareas:
 ### Tarea 4.2: Transformaciones de Datos
 
 
-1. Haga clic en **+Código** para agregar una nueva celda y escriba los comentarios siguientes para la Estandarización, que es el proceso de escalar y centrar las características numéricas para que tengan una media de 0 y una desviación estándar de 1, haciéndolas comparables y adecuadas para ciertos algoritmos. Presione "Enter" para pasar a la siguiente línea y revisar la sugerencia, y presione "Tab" para aceptar la sugerencia y haga clic en el botón **Ejecutar**
+1. Haga clic en **+ Código** para agregar una nueva celda y escriba los comentarios siguientes para la Estandarización, que es el proceso de escalar y centrar las características numéricas para que tengan una media de 0 y una desviación estándar de 1, haciéndolas comparables y adecuadas para ciertos algoritmos. Presione "Enter" para pasar a la siguiente línea y revisar la sugerencia, y presione "Tab" para aceptar la sugerencia y haga clic en el botón **Ejecutar**
 
    ```
    # Perform standardization on the data
@@ -236,7 +236,6 @@ Entrenamiento de un modelo de ejemplo utilizando Random Forest.
    ```
 
    ![](../media/ex9-accuracy.png)
-
 
 ### Resumen
 
