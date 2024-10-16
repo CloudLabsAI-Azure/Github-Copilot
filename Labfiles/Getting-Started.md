@@ -77,6 +77,8 @@ GitHub Copilot is an AI-powered code completion tool that assists developers by 
 
    >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
 
+   >**Note:** Login through **InPrivate window** to log in if you're unable to access Outlook through a regular browser window.
+
    ![](../media/authgit.png)
 
 1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
