@@ -113,7 +113,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
    ![](../media/vscode1.png)
 
-     <validation step="948d3cfc-c5ed-4c19-9f70-58c55cfdfc0e" />
+     <validation step="74f9ec11-59d4-4a33-928f-4ab2220edbd9" />
 
     > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
     > - On GitHub, locate your profile photo at the top right corner of the screen.
