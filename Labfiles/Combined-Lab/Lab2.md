@@ -30,7 +30,7 @@ In this lab, you will create a development container and define specific extensi
 
     >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
 
-      ![](../../media/credsfile.png)
+      ![](../../media/envt12.png)
 
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
           
