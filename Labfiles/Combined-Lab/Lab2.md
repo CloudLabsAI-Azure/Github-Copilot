@@ -131,14 +131,13 @@ In this lab, you will create a development container and define specific extensi
    ![](/media/verify-copilot.png)
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
-
-<validation step="f627a3c6-3d8f-48d4-ae32-306c3ff40e00" />
-   
+ 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+<validation step="849cb95a-fd22-4cd0-a173-83ab070325d4" />
  
 ### Summary
 
