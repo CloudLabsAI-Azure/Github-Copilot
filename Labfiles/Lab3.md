@@ -149,7 +149,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
     - Select **GitHub Copilot Chat (3)** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
     - If not, click on the **Install (4)** button.
 
-   ![](../media/ghc-chat-extension.png)
+      ![](../media/ghc-chat-extension.png)
 
 1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
 
