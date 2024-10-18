@@ -6,7 +6,7 @@ Welcome to your Github-Copilot workshop! We've prepared a seamless environment f
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
  
-   ![](../media/getstart324.png)
+  ![](/media/getstart324.png)
 
 ### **Virtual Machine & Lab Guide**
  
@@ -16,19 +16,19 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** Details tab.
  
-   ![](../media/enviornment.png)
+   ![](/media/enviornment.png)
  
 ## **Utilizing the Split Window Feature**
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-   ![](../media/higher.png)
+   ![](/media/higher.png)
   
 ## Login to GitHub
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
-   ![](../media/Edge.png)
+   ![](/media/Edge.png)
 
 1. Navigate to GitHub login page using the provided URL below:
    ```
@@ -37,11 +37,11 @@ For convenience, you can open the lab guide in a separate window by selecting th
    
 1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
-   ![](../media/github-login.png)
+   ![](/media/github-login.png)
           
    >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
 
-      ![](../media/credsfile.png)
+      ![](/media/credsfile.png)
    
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
    
@@ -53,7 +53,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
    >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
 
-   ![](../media/authgit.png)
+   ![](/media/authgit.png)
 
 1. Copy the below link and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
 
@@ -73,7 +73,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
    ```   
 1. In the new tab, most of the prompts will automatically fill in for you. Make sure the  repository name is  **skills-copilot-codespaces-vscode**, and leave the default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
 
-   ![](../media/skills-new-repo.png)
+   ![](/media/skills-new-repo.png)
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
@@ -81,37 +81,37 @@ For convenience, you can open the lab guide in a separate window by selecting th
     > - On GitHub.com, navigate to the main page of the repository.
     > - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
     
-      ![](../media/2.png)
+      ![](/media/2.png)
 
     > - On the **General** settings page (which is selected by default), scroll down to the "Danger Zone" section and click **Delete this repository**.
      
-      ![](../media/4.png)
+      ![](/media/4.png)
 
     > - Click **I want to delete this repository**.
  
-      ![](../media/5.png)
+      ![](/media/5.png)
 
     > - Read the warnings and click **I have read and understand these effects**.
 
-      ![](../media/6.png)
+      ![](/media/6.png)
 
     >  - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want to delete.
 
     >  - Click **Delete this repository**.
 
-      ![](../media/7.png)
+      ![](/media/7.png)
 
 1. Once the repository is created, click on your profile picture and then select **Your organizations**.
 
-   ![](../media/organization.png)
+   ![](/media/organization.png)
 
 1. In "Your organization", from the left navigation pane, select **Codespaces**.
 
-   ![](../media/codespace.png)
+   ![](/media/codespace.png)
 
 1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
 
-   ![](../media/vscode1.png)
+   ![](/media/vscode1.png)
 
     > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
     > - On GitHub, locate your profile photo at the top right corner of the screen
