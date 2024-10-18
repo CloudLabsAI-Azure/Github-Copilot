@@ -39,7 +39,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
    ![](/media/github-login.png)
           
-    >**Note:** Navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly.
+    >**Note:** To view the GitHub credentials, Navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly.
 
      ![](/media/envt12.png)
    
