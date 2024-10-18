@@ -28,11 +28,7 @@ In this lab, you will create a development container and define specific extensi
 
    ![](/media/github-login.png)
 
-    >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
-
-      ![](/media/credsfile.png)
-
-   >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
+    >**Note:** To view the GitHub credentials, Navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly.
 
      ![](/media/envt12.png)
 
