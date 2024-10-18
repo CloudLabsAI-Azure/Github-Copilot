@@ -4,45 +4,34 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/SandBox/Labfiles/Getting-Started(v2).md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/refs/heads/SandBox/Labfiles/Combined-Lab/Lab1.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/SandBox/Labfiles/Lab2.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/refs/heads/SandBox/Labfiles/Combined-Lab/Lab2.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/SandBox/Labfiles/Lab3.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/refs/heads/SandBox/Labfiles/Combined-Lab/Lab3.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/SandBox/Labfiles/Lab3.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/refs/heads/SandBox/Labfiles/Combined-Lab/Lab4.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/SandBox/Labfiles/Lab4.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/refs/heads/SandBox/Labfiles/Combined-Lab/Lab5.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/SandBox/Labfiles/Lab4.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/refs/heads/SandBox/Labfiles/Combined-Lab/Lab6.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/SandBox/Labfiles/Lab5.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/refs/heads/SandBox/Labfiles/Combined-Lab/Lab7.md",
         "Order": 6
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/SandBox/Labfiles/Lab5.md",
-        "Order": 7
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/refs/heads/main/Labfiles/Exercise-6.md",
-        "Order": 8
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/refs/heads/main/Labfiles/Exercise-10.md",
-        "Order": 9
-      }      
+      }
+      
     ]
   }
 ]
