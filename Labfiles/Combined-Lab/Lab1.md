@@ -31,6 +31,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
    ![](../../media/Edge.png)
 
 1. Navigate to GitHub login page using the provided URL below:
+   
    ```
    https://github.com/login
    ```
@@ -69,7 +70,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
    -->
    
    ```
-    https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
+   https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
    ```   
 1. In the new tab, most of the prompts will automatically fill in for you. Make sure the  repository name is  **skills-copilot-codespaces-vscode**, and leave the default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
 
