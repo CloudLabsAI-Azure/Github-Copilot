@@ -32,7 +32,7 @@ You will be able to complete the following tasks:
 
 1. Open VS Code Terminal by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
 
-   ![](/media/ex-8-openterminal.png)
+   ![](../../media/ex-8-openterminal.png)
 
 1. Clone the below git repository in your environment.
 
@@ -56,7 +56,7 @@ You will be able to complete the following tasks:
 
 1. From the VS Code explorer window, right-click on the folder named **ml-copilot-workshop** **(1)** and click on **New File**. Name the file `Experiments.ipynb` **(2)** and verify that your new file looks as shown below:
 
-   ![](/media/ex-8-create-file.png)
+   ![](../../media/ex-8-create-file.png)
 
 1. Type the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press "enter" to get into the next line and review the suggestion, press "tab" and click on **Run** button to execute the cell.
 
@@ -65,17 +65,17 @@ You will be able to complete the following tasks:
    import pandas as pd
    ```
 
-   ![](/media/ex-8-import-lib-1.png)
+   ![](../../media/ex-8-import-lib-1.png)
 
    >**Note**: Ensure to select the Kernel and click on Python 3.12.
 
-      ![](/media/hub1.png)
+      ![](../../media/hub1.png)
 
-      ![](/media/hub2.png)
+      ![](../../media/hub2.png)
 
 1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell.
 
-   ![](/media/ex8-add-cell-new-1.png)
+   ![](../../media/ex8-add-cell-new-1.png)
 
    >**Note**: While running the cell, you may need to install the required packages and select the kernel.
 
@@ -85,7 +85,7 @@ You will be able to complete the following tasks:
    # Load the data from a csv file, and the name of the file is diabetes.csv
    ```
 
-    ![](/media/ex8-load-data-1-2.png)
+    ![](../../media/ex8-load-data-1-2.png)
 
 1. Now click on **+Code** and move on to the next task.
 
@@ -100,7 +100,7 @@ You will be able to complete the following tasks:
    # Mathematical operations on the dataset, like generating the birth year from age
    ```
 
-   ![](/media/ex9-birthyear.png)
+   ![](../../media/ex9-birthyear.png)
 
    >**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
 
@@ -110,7 +110,7 @@ You will be able to complete the following tasks:
    # Show the new column
    ```
 
-   ![](/media/ex9-birthyear-output.png)
+   ![](../../media/ex9-birthyear-output.png)
 
 1. Type the below comments to convert the BMI column up to two decimal values, press "tab". Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
@@ -118,7 +118,7 @@ You will be able to complete the following tasks:
    # Convert the BMI column to two decimal values
    ```
 
-   ![](/media/ex9-bmi-decimal.png)
+   ![](../../media/ex9-bmi-decimal.png)
 
 1. In the same code cell, type the below comment. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
@@ -126,7 +126,7 @@ You will be able to complete the following tasks:
    # Show the new column only
    ```
 
-   ![](/media/ex9-bmi-decimal-output.png)
+   ![](../../media/ex9-bmi-decimal-output.png)
 
 
 ### Task 3.2: Machine Learning
@@ -137,11 +137,11 @@ You will be able to complete the following tasks:
    # Perform count, min, max, std, mean, 25%, 50%, and 75% on the dataset
    ```
 
-   ![](/media/ex8-machine-learning-dataset.png)
+   ![](../../media/ex8-machine-learning-dataset.png)
 
 1. Once the cell run is completed, you will get an output similar to the below image.
 
-   ![](/media/ex8-machine-learning-output.png)
+   ![](../../media/ex8-machine-learning-output.png)
 
 1. Before building the model, the main frame is to split the data into train tests and splits and this would be done by Copilot itself. Type the below comments. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
@@ -149,9 +149,9 @@ You will be able to complete the following tasks:
    # Split the data into training and testing data and the column name Diabetic is the target column
    ```
 
-   ![](/media/ex9-train-data.png)
+   ![](../../media/ex9-train-data.png)
 
-   ![](/media/ex9-train-data-1.png)
+   ![](../../media/ex9-train-data-1.png)
 
 
 ### Task 4: Data Visualization and Data Transformation
@@ -164,11 +164,11 @@ You will be able to complete the following tasks:
    # Perform univariate analysis on the dataset and plot the graphs
    ```
 
-   ![](/media/ex9-basic-operation.png)
+   ![](../../media/ex9-basic-operation.png)
 
 1. Once the cell run is completed, you will be getting a graphical representation output similar to the below image.
 
-   ![](/media/ex9-basic-opration-graph-output.png)
+   ![](../../media/ex9-basic-opration-graph-output.png)
 
 1. Now, type the below comments for specifying certain commonly used plots for visualization. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
 
@@ -176,7 +176,7 @@ You will be able to complete the following tasks:
    # Perform scatter plot on the dataset and plot the graphs
    ```
 
-   ![](/media/ex9-scatter-graph.png)
+   ![](../../media/ex9-scatter-graph.png)
 
 1. Type the below comments for performing Joint Plot or Grid (rarely used plots) for visualization. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
 
@@ -184,9 +184,9 @@ You will be able to complete the following tasks:
    # Perform Joint Grid plot on the dataset and plot the graphs
    ```
 
-   ![](/media/ex9-jointgrid-graph.png)
+   ![](../../media/ex9-jointgrid-graph.png)
 
-   ![](/media/ex9-jointgrid-graph-output.png)
+   ![](../../media/ex9-jointgrid-graph-output.png)
 
 1. Type the below comments for performing visualization on all features of the dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
 
@@ -194,9 +194,9 @@ You will be able to complete the following tasks:
    # Perform comparison on all features of the dataset and plot the graphs in a single plot using heatmap
    ```
 
-   ![](/media/ex9-heatmap.png)
+   ![](../../media/ex9-heatmap.png)
 
-   ![](/media/ex9-heatmap-output.png)
+   ![](../../media/ex9-heatmap-output.png)
 
 
 ### Task 4.2: Data Transformations
@@ -208,13 +208,13 @@ You will be able to complete the following tasks:
    # Perform standardization on the data
    ```
 
-   ![](/media/ex9-standardization.png)
+   ![](../../media/ex9-standardization.png)
 
-   ![](/media/ex9-standardization-new.png)
+   ![](../../media/ex9-standardization-new.png)
 
 1. You will get the output as shown in the below-given image once the code cell finishes running.
 
-   ![](/media/ex9-standardization-output.png)
+   ![](../../media/ex9-standardization-output.png)
 
 
 ### Task 5: Training the sample model
@@ -229,11 +229,11 @@ Training a sample model using Random Forest.
    # Create a random forest model with 100 trees, and the criterion is entropy
    ```
 
-   ![](/media/ex9-entropy.png)
+   ![](../../media/ex9-entropy.png)
 
-   ![](/media/ex9-entropy-1.png)
+   ![](../../media/ex9-entropy-1.png)
 
-   ![](/media/ex9-entropy-2.png)
+   ![](../../media/ex9-entropy-2.png)
 
 1. In a new cell type the below comments for calculating the accuracy of the model. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button
 
@@ -241,7 +241,7 @@ Training a sample model using Random Forest.
    # Calculate the accuracy of the model
    ```
 
-   ![](/media/ex9-accuracy.png)
+   ![](../../media/ex9-accuracy.png)
 
 
 ### Summary

@@ -25,69 +25,69 @@ You will be able to complete the following tasks:
 
 1. Navigate to the desktop and open the **IntelliJ IDEA Community** IDE.
 
-   ![](/media/E6-T1-S1.png)
+   ![](../../media/E6-T1-S1.png)
 
 1. In the IntelliJ IDEA Agreement, check **I confirm that I have read and accept the terms of this User Agreement (1)** and click on **Continue (2)**.
 
-   ![](/media/E6-T1-S2.png)
+   ![](../../media/E6-T1-S2.png)
 
    >**Note:** When the data sharing box appears, click on **Don't Send**.
 
-   ![](/media/E6-T1-S2.1.png)
+   ![](../../media/E6-T1-S2.1.png)
 
 1. From the left menu, click on **Plugins** **(1)** and select **Marketplace** **(2)**. Search **GitHub Copilot** **(3)**, and once you find **GitHub Copilot** plugin, click on **Install** **(4)**.
 
-   ![](/media/install-plugin.png)
+   ![](../../media/install-plugin.png)
 
    >**Note** : In the Third-Party Plugins notice, click **Accept**.
 
 1. Verify the GitHub Copilot plugin is installed. Next, you need to restart the IDE by clicking on **Restart IDE**. Click on **Restart** in the pop-up once again to restart the IDE.
 
-   ![](/media/restart-ide(1).png)
+   ![](../../media/restart-ide(1).png)
 
 1. Once the **IntelliJ Idea Community** IDE is restarted, select **Projects** **(1)** from the left menu and click on **New Project** **(2)**.
 
-   ![](/media/create-project.png)
+   ![](../../media/create-project.png)
 
 1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, select the default **Download Oracle OpenJDK 23** **(4)** and click on **Create** **(5)**.
 
-   ![](/media/Exercise-06-v2-02.png)
+   ![](../../media/Exercise-06-v2-02.png)
 
 1. Review the created **demo-copilot** project as shown below:
 
-   ![](/media/demo-copilot-project.png)
+   ![](../../media/demo-copilot-project.png)
 
 ## Task 2: Create a basic Java project
 
 1. Click the **icon** as shown in the below image. 
 
-   ![](/media/icon.png)
+   ![](../../media/icon.png)
 
 1. Click on **Tools (1)**. Click GitHub Copilot, then click **Login to GitHub (2)**.
 
-   ![](/media/login.png)
+   ![](../../media/login.png)
 
 1. In the "Sign in to GitHub" dialog box, to copy the device code and open the device activation window, click **Copy and Open**.
 
-   ![](/media/ex6-copy-code.png)
+   ![](../../media/ex6-copy-code.png)
 
 1. A device activation window will open in your browser. Paste the device **code (1)** which you have copied in the previous step, then click **Continue (2)**.
 
-   ![](/media/ex6-device-activation.png)
+   ![](../../media/ex6-device-activation.png)
 
 1. GitHub will request the necessary permissions for GitHub Copilot. To approve these permissions, click **Authorize GitHub Copilot Plugin**.
 
 1. After the permissions have been approved, your JetBrains IDE will show a confirmation.
 
-   ![](/media/Exercise-06-v2-04.png)
+   ![](../../media/Exercise-06-v2-04.png)
 
 1. In your JetBrains IDE, right-click on the **src (1)**, select **New (2)** and click on **File (3)** to create a new Java (*.java) file named **Test.java**.
 
-   ![](/media/ex6-test-java.png)
+   ![](../../media/ex6-test-java.png)
 
 1. Create a class by typing **class Test**. Copilot will suggest a class body, and you can press **tab** to accept the suggestion.
 
-   ![](/media/ex6-class-test.png)
+   ![](../../media/ex6-class-test.png)
 
 1. Below the bracket of the main function, type the following function header:
 
@@ -97,7 +97,7 @@ You will be able to complete the following tasks:
 
 1. GitHub Copilot will automatically suggest an entire function body in gray text, as shown below. The exact suggestion may vary.
 
-   ![](/media/ex6-days.png)
+   ![](../../media/ex6-days.png)
 
 1. Press **Tab** to accept the suggestion.
 
@@ -120,11 +120,11 @@ Sometimes, you may not want to use any of the initial suggestions. You can ask G
    
    >**Note**: If the 'Alt + Enter' isn't working, please select Github Co-pilot from the right pane as shown in the below image.
 
-   ![](/media/github.png)
+   ![](../../media/github.png)
    
 1. Select "Open Copilot". GitHub Copilot will open a new tab and suggest multiple options, as shown below.
 
-   ![](/media/ex6-copilot-suggestion.png)
+   ![](../../media/ex6-copilot-suggestion.png)
 
 1. Pick a suggestion that you want to use, then click "Accept solution".
 
@@ -146,7 +146,7 @@ GitHub Copilot can understand significantly more context than most code assistan
 
 2. GitHub Copilot will automatically suggest an implementation.
   
-   ![](/media/ex6-image-suggestion.png)
+   ![](../../media/ex6-image-suggestion.png)
 
 <validation step="364115e7-deff-4c32-96e9-fa5d2122a86f" />
 

@@ -17,7 +17,7 @@ In this lab, you will create a development container and define specific extensi
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
-   ![](/media/Edge.png)
+   ![](../../media/Edge.png)
 
 1. Navigate to GitHub login page using the provided URL below:
    ```
@@ -26,15 +26,15 @@ In this lab, you will create a development container and define specific extensi
    
 1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
-   ![](/media/github-login.png)
+   ![](../../media/github-login.png)
 
     >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
 
-      ![](/media/credsfile.png)
+      ![](../../media/credsfile.png)
 
    >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
 
-     ![](/media/envt12.png)
+     ![](../../media/envt12.png)
 
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
           
@@ -46,17 +46,17 @@ In this lab, you will create a development container and define specific extensi
    
    >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
 
-   ![](/media/authgit.png)
+   ![](../../media/authgit.png)
 
 1. Now, right-click on your profile icon in the top right and click on **Your Repositories**.
     
-   ![](/media/l2.2.png)
+   ![](../../media/l2.2.png)
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**
 
 1. In the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `Create new file` **(3)**.
 
-    ![](/media/dp1u.png)
+    ![](../../media/dp1u.png)
 
     >**Note**: If you're unable to see the **Add file** option, click the **+** symbol located next to the **Code** tab.
     
@@ -82,44 +82,44 @@ In this lab, you will create a development container and define specific extensi
    }
    ```
 
-   ![](/media/dp2.png)
+   ![](../../media/dp2.png)
    
 1. Select the option to **Commit directly to the `main` branch**, and then click the **Commit changes** button.
 
-    ![](/media/commit-file.png)
+    ![](../../media/commit-file.png)
 
 1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
-    ![](/media/dp3.png)
+    ![](../../media/dp3.png)
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
 
-    ![](/media/dp4.png)
+    ![](../../media/dp4.png)
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the 
     browser, refresh the page and launch the codespace that was previously created.
 
 1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install Extension and Open URI** to continue.
 
-   ![](/media/open.png)
+   ![](../../media/open.png)
 
-   ![](/media/l2.png)
+   ![](../../media/l2.png)
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
-   ![](/media/signingit.png)
+   ![](../../media/signingit.png)
 
    > **Note**: If you face an issue with **Sign in to GitHub**, copy the sigin URL from browser and login to the copied URL from InPrivate browser.
  
-      ![](/media/private.png)
+      ![](../../media/private.png)
 
    > **Note**: If you encounter with error **No access to GitHub Copilot found**, please reach out to `cloudlabs-support@spektrasystems.com` for further assistance.
  
-      ![](/media/3.png)
+      ![](../../media/3.png)
 
 1. Next, once you get the popup, click on **Allow**
 
-   ![](/media/allow.png)
+   ![](../../media/allow.png)
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
@@ -127,12 +127,12 @@ In this lab, you will create a development container and define specific extensi
 
 1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
-   ![](/media/loaded-repo.png)
+   ![](../../media/loaded-repo.png)
 
 1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify 
    its installation as shown below:
 
-   ![](/media/verify-copilot.png)
+   ![](../../media/verify-copilot.png)
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 

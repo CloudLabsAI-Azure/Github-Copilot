@@ -13,7 +13,7 @@ In this exercise, you will participate in a learning or practice activity where 
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
-   ![](/media/Edge.png)
+   ![](../../media/Edge.png)
 
 1. Navigate to GitHub login page using the provided URL below:
    ```
@@ -21,15 +21,15 @@ In this exercise, you will participate in a learning or practice activity where 
    ``` 
 1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
-   ![](/media/github-login.png)
+   ![](../../media/github-login.png)
 
     >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
 
-      ![](/media/credsfile.png)
+      ![](../../media/credsfile.png)
 
    >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
 
-     ![](/media/envt12.png)
+     ![](../../media/envt12.png)
 
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
           
@@ -41,59 +41,59 @@ In this exercise, you will participate in a learning or practice activity where 
 
    >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
 
-   ![](/media/authgit.png)
+   ![](../../media/authgit.png)
 
 1. Now, right-click on your profile icon in the top right and click on **Your Repositories**.
     
-   ![](/media/l2.2.png)
+   ![](../../media/l2.2.png)
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**.
 
 1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
-   ![](/media/code-code.png)
+   ![](../../media/code-code.png)
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
 
-   ![](/media/labgit.png)
+   ![](../../media/labgit.png)
 
    >**Note**: If case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
 1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install and Open** to continue.
 
-   ![](/media/open.png)
+   ![](../../media/open.png)
 
-   ![](/media/codespaces.png)
+   ![](../../media/codespaces.png)
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
-   ![](/media/signingit.png)
+   ![](../../media/signingit.png)
 
    >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
 
 1. Next, once you get the popup, click on **Allow**
 
-   ![](/media/allow.png)
+   ![](../../media/allow.png)
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
 1. If a page **Github for VS Code is requesting additional permissions** opens then click on **Authorize Visual-Studio-Code**.
 
-    ![](/media/1.png)
+    ![](../../media/1.png)
 
 1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
-   ![](/media/loaded-repo.png)
+   ![](../../media/loaded-repo.png)
 
 1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
-   ![](/media/verify-copilot.png)
+   ![](../../media/verify-copilot.png)
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
 1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
-   ![](/media/verify-copilot.png)
+   ![](../../media/verify-copilot.png)
 
 1.  In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat** extension.
 
@@ -101,11 +101,11 @@ In this exercise, you will participate in a learning or practice activity where 
    
 1.  If not, click on the **Install** button.
 
-    ![](/media/ghc-chat-extension.png)
+    ![](../../media/ghc-chat-extension.png)
 
 1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
 
-   ![](/media/git-chat-icon.png)
+   ![](../../media/git-chat-icon.png)
 
 1. To install the C Sharp (C#) extension, the following steps are to be performed within Visual Studio Code:
     - Click on the **Extensions** **(1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
@@ -113,13 +113,13 @@ In this exercise, you will participate in a learning or practice activity where 
     - Select **C#** **(3)** from the list of results that show up.
     - Click on the **Install** **(4)** button.
 
-   ![](/media/csharp-install.png)
+   ![](../../media/csharp-install.png)
 
    >**Note**: If you get a pop-up for Update Visual Studio, go to the **Settings (1)** icon from the left navigation pane and choose **Install update (2)** and wait until updates complete then when **Restart Visual Studio Code to apply the latest update** prompted select **Update Now (3)** and close and open Visual studio then proceed with above step.
 
-     ![Picture1](/media/image1.png)
+     ![Picture1](../../media/image1.png)
    
-     ![Picture1](/media/image2.png)
+     ![Picture1](../../media/image2.png)
 
 1. To demonstrate the GitHub code refactor, let us take an example of a poorly written code and analyze it. The below code is written using the C# programming language.
     
@@ -193,7 +193,7 @@ In this exercise, you will participate in a learning or practice activity where 
 
 1. The GitHub Copilot Chat will give the response as shown below.
 
-   ![](/media/refactored-code.png)
+   ![](../../media/refactored-code.png)
 
 ## Task 3: Review the refactored code and understand how it works.
 
@@ -268,11 +268,11 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. From the codespace in the VS Code Explorer window, create a new file.
 
-    ![](/media/chat-code-new.png)
+    ![](../../media/chat-code-new.png)
 
 1. Name the file `codechat.cs` and you will see a recommendation to install the `C#` extension. Click on Install.
 
-   ![](/media/chat-code-file.png)
+   ![](../../media/chat-code-file.png)
 
 1. Copy and paste the code given below in the newly created file, i.e., `codechat.cs`.
 
@@ -339,11 +339,11 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. Right-click on the code window and click on the **Copilot** **(1)** option. From the following list of options in Copilot, select **Start in Editor** **(2)**.
  
-   ![](/media/copililotinlineu.png)  
+   ![](../../media/copililotinlineu.png)  
 
 1. Now type the prompt "Use if-else statements instead of the switch statement" **(1)** to make the code more understandable and click `>` or press `Enter` **(2)**. Copilot will give a response, and you can review it and click **Accept** **(3)**. Also, you can **Discard** the suggestion as depicted in the image below.
 
-    ![](/media/chat-code-accept.png)
+    ![](../../media/chat-code-accept.png)
 
      >**Note:** It's essential to carefully review copilot suggestions before applying them.
 
@@ -351,17 +351,17 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. From the codespace in the VS Code Explorer window, create a new file.
 
-    ![](/media/chat-code-new.png)
+    ![](../../media/chat-code-new.png)
 
 1. Name the file `test.js` as shown below:  
 
-   ![](/media/create-test.png)
+   ![](../../media/create-test.png)
 
 1. Now, navigate to the GitHub Copilot Chat and give the prompt **Compose a full JavaScript program for constructing a calculator**.
 
 1. GitHub Copilot Chat will generate code based on the prompt you provide, as shown below.
 
-   ![](/media/calci.png)
+   ![](../../media/calci.png)
 
    >**Note**: The code shown in the screenshot may be different for you.
 
@@ -369,11 +369,11 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. Now, to generate test cases for each function, select the function for which the test case has to be generated, and back in the GitHub Copilot Chat window, type **/tests** and hit enter.
 
-   ![](/media/abctestsdemo.png)
+   ![](../../media/abctestsdemo.png)
 
 1. It will generate a test case for the add function.
 
-   ![](/media/addtestcase.png)
+   ![](../../media/addtestcase.png)
 
 ### Task 5: Push code to your repository from the codespace
 
@@ -397,7 +397,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
    git push
    ```
 
-   ![](/media/ex-4-push5.png)
+   ![](../../media/ex-4-push5.png)
 
    <validation step="d30ee72a-72c4-4c44-a120-080c4ef5b834" />
 
@@ -405,11 +405,11 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
     > - On GitHub, locate your profile photo at the top right corner of the screen.
     > - Copy your GitHub username.
 
-     ![Picture1](/media/gihubuser15.png)
+     ![Picture1](../../media/gihubuser15.png)
    
     > - Hit the Validate button for the corresponding task. Paste your GitHub username into the required field and click on submit.
 
-     ![Picture1](/media/gihubuser115.png)
+     ![Picture1](../../media/gihubuser115.png)
 
    > - If you receive a success message, you can proceed to the next task.
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 

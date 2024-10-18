@@ -12,7 +12,7 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
-   ![](/media/Edge.png)
+   ![](../../media/Edge.png)
 
 1. Navigate to GitHub login page using the provided URL below:
    ```
@@ -21,11 +21,11 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
    
 1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
-   ![](/media/github-login.png)
+   ![](../../media/github-login.png)
 
     >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
 
-      ![](/media/credsfile.png)
+      ![](../../media/credsfile.png)
 
    
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
@@ -38,39 +38,39 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
    >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
 
-   ![](/media/authgit.png)
+   ![](../../media/authgit.png)
 
 1. Now,right click on your profile icon in the top right and click on **Your Repositories**.
     
-   ![](/media/l2.2.png)
+   ![](../../media/l2.2.png)
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**.
 
 1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
-   ![](/media/dp3.png)
+   ![](../../media/dp3.png)
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
 
-   ![](/media/labgit.png)
+   ![](../../media/labgit.png)
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
 1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install Extension and Open URI** to continue.
 
-   ![](/media/open.png)
+   ![](../../media/open.png)
 
-   ![](/media/l2.png)
+   ![](../../media/l2.png)
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
-   ![](/media/signingit.png)
+   ![](../../media/signingit.png)
 
    >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
 
 1. Next, once you get the popup, click on **Allow**
 
-   ![](/media/allow.png)
+   ![](../../media/allow.png)
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
@@ -78,21 +78,21 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
 1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
-   ![](/media/loaded-repo.png)
+   ![](../../media/loaded-repo.png)
 
 1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
-   ![](/media/verify-copilot.png)
+   ![](../../media/verify-copilot.png)
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
 1. From the VS Code Explorer window, create a New File.
 
-   ![](/media/create-newfile.png)
+   ![](../../media/create-newfile.png)
 
 2. Name the file `skills.js` and verify your new file looks as shown below:
 
-   ![](/media/name-skills.png)
+   ![](../../media/name-skills.png)
 
 3. In the `skills.js` file, type the following function header:
 
@@ -102,11 +102,11 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
    
    > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code. 
 
-   ![](/media/skills-function.png)
+   ![](../../media/skills-function.png)
 
 4. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
 
-   ![](/media/save-skills.png)
+   ![](../../media/save-skills.png)
 
 ## Task 2: Push code to your repository from the codespace
 
@@ -114,7 +114,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 1. Open VS Code Terminal by clicking on **Ellipsis (...)** **(1)**, select **Terminal** **(2)** and click on **New Terminal** **(3)**.
 
-   ![](/media/open-terminal.png)
+   ![](../../media/open-terminal.png)
 
 2. Run the below command to add the `skills.js` file to the GitHub repository.
 
@@ -134,7 +134,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
    git push
    ```
 
-   ![](/media/skills-push.png)
+   ![](../../media/skills-push.png)
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
@@ -149,11 +149,11 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
     - Select **GitHub Copilot Chat (3)** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
     - If not, click on the **Install (4)** button.
 
-      ![](/media/ghc-chat-extension.png)
+      ![](../../media/ghc-chat-extension.png)
 
 1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
 
-   ![](/media/git-chat-icon.png)
+   ![](../../media/git-chat-icon.png)
 
 ## Task 3.1- Example: Set the stage with a high-level goal
 
@@ -163,11 +163,11 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
 1. From the VS Code Explorer window, create a New File.
 
-   ![](/media/E2-T3.1-S1.png)
+   ![](../../media/E2-T3.1-S1.png)
 
 2. Name the file `index.js` and verify your new file looks as shown below:
 
-   ![](/media/E2-T3.1-S2.png)
+   ![](../../media/E2-T3.1-S2.png)
 
 3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on **Make request (Enter) (2)** button.
 
@@ -184,11 +184,11 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
    */
    ```
 
-   ![](/media/ex2-markdown.png)
+   ![](../../media/ex2-markdown.png)
 
 4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor.
 
-   ![](/media/ex2-markdown-output.png)
+   ![](../../media/ex2-markdown-output.png)
 
 
 ## Task 3.2- Example: Aim to receive a short output from GitHub Copilot for a simple and specific ask
@@ -207,7 +207,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 
 2. The generated outcome would look similar to the below image.
 
-   ![](/media/ex2-reverse-sentence-output.png)
+   ![](../../media/ex2-reverse-sentence-output.png)
 
 
 ## Task 3.3- Example: Give GitHub Copilot an example or two
@@ -235,7 +235,7 @@ new array:
 
 2. It generated an incorrect usage of the map.
 
-   ![](/media/ex2-array-output.png)
+   ![](../../media/ex2-array-output.png)
 
 3. By contrast, type the below comments to provide an example of how to generate the desired output.
 
@@ -247,7 +247,7 @@ new array:
 
 4. Now, we have received our desired outcome.
 
-   ![](/media/ex2-array-output-1.png)
+   ![](../../media/ex2-array-output-1.png)
 
 5. Open the **New Terminal** **(3)** to push the code.
 
