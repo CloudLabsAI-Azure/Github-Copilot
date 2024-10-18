@@ -23,9 +23,9 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
    ![](/media/github-login.png)
 
-    >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
+     >**Note:** To view the GitHub credentials, Navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly.
 
-      ![](/media/credsfile.png)
+     ![](/media/envt12.png)
 
    
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
