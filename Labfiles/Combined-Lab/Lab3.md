@@ -23,12 +23,11 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
    ![](../../media/github-login.png)
 
-    >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
+     >**Note:** To view the GitHub credentials, Navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly.
 
       ![](../../media/credsfile.png)
-
    
-   >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
+      >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
           
 1. Navigate to Outlook login page using the provided URL below:
    ```
@@ -277,12 +276,12 @@ new array:
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
-<validation step="6a64656c-2ae5-406c-9cf3-9f0ff161aa46" />
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="8a55bd72-560d-4d18-ad97-4dfd336658db" />
  
 ### Summary
 

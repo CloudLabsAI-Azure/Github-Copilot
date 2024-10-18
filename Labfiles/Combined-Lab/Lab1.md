@@ -40,10 +40,10 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
    ![](../../media/github-login.png)
           
-   >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
+    >**Note:** To view the GitHub credentials, Navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly.
 
       ![](../../media/credsfile.png)
-   
+
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
    
 1. Navigate to Outlook login page using the provided URL below:
@@ -124,7 +124,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-      <validation step="74f9ec11-59d4-4a33-928f-4ab2220edbd9" />
+      <validation step="eb7ab249-5f46-4f30-88db-089314b39d0d" />
 
 ## Summary
 

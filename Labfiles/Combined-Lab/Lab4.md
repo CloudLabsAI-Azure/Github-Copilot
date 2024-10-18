@@ -32,7 +32,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
    ![](../../media/github-login.png)
 
-    >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
+     >**Note:** To view the GitHub credentials, Navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly.
 
       ![](../../media/credsfile.png) 
 
@@ -215,12 +215,14 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
    ![](../../media/ex-4-github5.png)
 
     
-<validation step="24e51569-e264-40ac-b8f3-a565cdd84341" />
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="f58c599c-cef0-44ef-858b-2b35ffd4cc6e" />
+
   
 ### Summary
 
