@@ -23,9 +23,9 @@ In this exercise, you will participate in a learning or practice activity where 
 
    ![](../../media/github-login.png)
 
-    >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
+    >**Note:** To view the GitHub credentials, Navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly.
 
-      ![](../../media/credsfile.png)
+      ![](../../media/envt12.png)
 
    >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
 
@@ -113,13 +113,13 @@ In this exercise, you will participate in a learning or practice activity where 
     - Select **C#** **(3)** from the list of results that show up.
     - Click on the **Install** **(4)** button.
 
-   ![](../../media/csharp-install.png)
+      ![](../../media/csharp-install.png)
 
-   >**Note**: If you get a pop-up for Update Visual Studio, go to the **Settings (1)** icon from the left navigation pane and choose **Install update (2)** and wait until updates complete then when **Restart Visual Studio Code to apply the latest update** prompted select **Update Now (3)** and close and open Visual studio then proceed with above step.
+      >**Note**: If you get a pop-up for Update Visual Studio, go to the **Settings (1)** icon from the left navigation pane and choose **Install update (2)** and wait until updates complete then when **Restart Visual Studio Code to apply the latest update** prompted select **Update Now (3)** and close and open Visual studio then proceed with above step.
 
-     ![Picture1](../../media/image1.png)
+      ![Picture1](../../media/image1.png)
    
-     ![Picture1](../../media/image2.png)
+      ![Picture1](../../media/image2.png)
 
 1. To demonstrate the GitHub code refactor, let us take an example of a poorly written code and analyze it. The below code is written using the C# programming language.
     

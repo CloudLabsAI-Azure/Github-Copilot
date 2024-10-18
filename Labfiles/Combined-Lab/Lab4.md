@@ -34,7 +34,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
      >**Note:** To view the GitHub credentials, Navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly.
 
-      ![](../../media/credsfile.png) 
+      ![](../../media/envt12.png)
 
     >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
      
