@@ -110,7 +110,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](../../media/ex2-markdown.png)
 
-4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor.
+4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor.You can either Accept or Discard the suggestion the GitHub Copilot suggests.
 
    ![](../../media/ex2-markdown-output.png)
 
