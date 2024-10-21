@@ -73,6 +73,8 @@ You will be able to complete the following tasks:
 
       ![](../../media/gc8.png)
 
+     ![](../../media/gc12.png)
+
 1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell.
 
    ![](../../media/gc10.png)
