@@ -124,13 +124,21 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 1. You can verify the `arm.json`, `powershell.ps1`, and `terraform.tf` files available in your GitHub repository.
 
    ![](../../media/ex-4-github5.png)
-
     
+1. On the GitHub page, locate your profile icon at the top right corner of the screen and click on **Your Profile** option.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - If you receive a success message, you can proceed to the next task.
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+1. Copy your GitHub username in order to validate your lab.
+
+   ![](../../media/gc2.png)
+  
+    > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
+    >  - Hit the Validate button for the corresponding task. Paste the GitHub username (1) you copied in the previous step and click on **Submit**(2).
+       
+      ![Picture1](../../media/github-copilot-new-2.png)
+    
+    > - If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 <validation step="f58c599c-cef0-44ef-858b-2b35ffd4cc6e" />
 
