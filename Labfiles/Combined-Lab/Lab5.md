@@ -245,7 +245,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
  
    ![](../../media/copililotinlineu.png)  
 
-1. Now type the prompt "Use if-else statements instead of the switch statement" **(1)** to make the code more understandable and click `>` or press `Enter` **(2)**. Copilot will give a response, and you can review it and click **Accept** **(3)**. Also, you can **Discard** the suggestion as depicted in the image below.
+1. Now type the prompt "Use if-else statements instead of the switch statement" **(1)** to make the code more understandable and click `>` or press `Enter` **(2)**. Copilot will give a response, and you can review it and click **Accept** **(3)**. Also, you can **Discard** the suggestion as depicted in the image below.Press 'Ctrl + S' to save the file.
 
     ![](../../media/chat-code-accept.png)
 
