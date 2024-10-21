@@ -85,7 +85,7 @@ You will be able to complete the following tasks:
    # Load the data from a csv file, and the name of the file is diabetes.csv
    ```
 
-    ![](../../media/ex8-load-data-1-2.png)
+    ![](../../media/gc11.png)
 
 1. Now click on **+Code** and move on to the next task.
 
