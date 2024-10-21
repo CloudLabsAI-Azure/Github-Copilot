@@ -1,4 +1,4 @@
-# Lab 6: Using IDEs such as JetBrains IntelliJ for Java
+# Lab 6: Using IDEs such as JetBrains IntelliJ for Java [Optional]
 
 ### Estimated Duration: 20 minutes
 
