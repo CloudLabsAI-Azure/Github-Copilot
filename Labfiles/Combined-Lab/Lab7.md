@@ -14,13 +14,13 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ## Important points to consider before starting the Lab
 
-#### Disclaimer: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
+1. GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
-#### Note: Before proceeding with the exercise, make sure you have installed Python, Jupyter and pip packages.
+2.  Before proceeding with the exercise, make sure you have installed Python, Jupyter and pip packages.
 
-#### Note: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again.
+3. If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again.
 
-#### Note: GitHub Copilot may occasionally provide incorrect answers, so if we encounter any errors while executing the cells, we might need to adjust the code until we achieve the desired output.
+4. GitHub Copilot may occasionally provide incorrect answers, so if we encounter any errors while executing the cells, we might need to adjust the code until we achieve the desired output.
 
 ## Lab objectives
 
