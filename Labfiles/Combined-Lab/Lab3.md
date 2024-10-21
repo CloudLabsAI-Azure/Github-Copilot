@@ -110,7 +110,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](../../media/ex2-markdown.png)
 
-4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor.You can either Accept or Discard the suggestion the GitHub Copilot suggests.
+4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor.You can either Accept or Discard the suggestion the GitHub Copilot suggests.Review the code and click on **Accept**
 
    ![](../../media/ex2-markdown-output.png)
 
@@ -129,7 +129,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
       // for javascript
     ```
 
-2. The generated outcome would look similar to the below image.
+2. The generated outcome would look similar to the below image.Review the code and we can click on **Accept** if the provided suggestion is correct.Else click on **Discard**
 
    ![](../../media/ex2-reverse-sentence-output.png)
 
