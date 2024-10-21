@@ -12,11 +12,13 @@ Machine Learning Frameworks: Copilot supports various Machine Learning libraries
 
 In this exercise, you will be cloning the Git repository with the required dataset into your environment. Here, you will be working with Copilot for Machine Learning, which involves leveraging GitHub Copilot.
 
->**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
+#### Disclaimer: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
->**Note**: Before proceeding with the exercise, make sure you have installed Python and pip packages.
+#### Note: Before proceeding with the exercise, make sure you have installed Python, Jupyter and pip packages.
 
->**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+#### Note: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again.
+
+#### Note: GitHub Copilot may occasionally provide incorrect answers, so if we encounter any errors, we might need to adjust the code until we achieve the desired output.
 
 ## Lab objectives
 
@@ -54,11 +56,13 @@ You will be able to complete the following tasks:
 
 ### Task 2: Auto_Completion of Code with Different Experiments
 
+### Note: After entering the prompt, press Enter and then Tab to see the suggestions. Once you view a suggestion, press Tab to accept it, and hit Enter to see more code suggestions.
+
 1. From the VS Code explorer window, right-click on the folder named **ml-copilot-workshop** **(1)** and click on **New File**. Name the file `Experiments.ipynb` **(2)** and verify that your new file looks as shown below:
 
    ![](../../media/ex-8-create-file.png)
 
-1. Click **+ Code** and paste the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press "enter" to get into the next line and review the suggestion, press "tab" and click on **Run** button to execute the cell.
+1. Click **+ Code** and paste the below comments to import all the libraries where the Copilot automatically prompts all the libraries; hit "**enter**" to get into the next line and view the suggestion, press "**tab** to accept the suggestion".
 
    ```
    # Import libraries with respect to loading data and creating a random forest model
@@ -66,7 +70,7 @@ You will be able to complete the following tasks:
    ```
 
    ![](../../media/gc9.png)
-
+  
    >**Note**: Ensure to select the Kernel and click on Python 3.12.
 
       ![](../../media/gc7.png)
@@ -80,6 +84,8 @@ You will be able to complete the following tasks:
    ![](../../media/gc10.png)
 
    >**Note**: While running the cell, you may need to install the required packages and select the kernel.
+   
+   >**Note** It is a good practice to review the code before accepting the suggestions.
 
 1. Type the below comments to load the data using the Copilot prompt. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
