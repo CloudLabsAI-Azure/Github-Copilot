@@ -65,13 +65,13 @@ You will be able to complete the following tasks:
    import pandas as pd
    ```
 
-   ![](../../media/ex-8-import-lib-1.png)
+   ![](../../media/gc6.png)
 
    >**Note**: Ensure to select the Kernel and click on Python 3.12.
 
-      ![](../../media/hub1.png)
+      ![](../../media/gc7.png)
 
-      ![](../../media/hub2.png)
+      ![](../../media/gc8.png)
 
 1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell.
 
