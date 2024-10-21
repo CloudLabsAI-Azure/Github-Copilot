@@ -11,7 +11,7 @@ In this exercise, you will participate in a learning or practice activity where 
 
 ### Installing C Sharp (C#) extension in VS Code
 
-1. To install the C Sharp (C#) extension, the following steps are to be performed within Visual Studio Code:
+1. Back in the Visual Studio Code window,to install the C Sharp (C#) extension, the following steps are to be performed:
     - Click on the **Extensions** **(1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
     - In the "Search Extensions in Marketplace" search box, type and search for the **C#** **(2)** extension.
     - Select **C#** **(3)** from the list of results that show up.
@@ -19,7 +19,7 @@ In this exercise, you will participate in a learning or practice activity where 
 
       ![](../../media/csharp-install.png)
 
-      >**Note**: If you get a pop-up for Update Visual Studio, go to the **Settings (1)** icon from the left navigation pane and choose **Install update (2)** and wait until updates complete then when **Restart Visual Studio Code to apply the latest update** prompted select **Update Now (3)** and close and open Visual studio then proceed with above step.
+      >**Note**: If you get a pop-up for Update Visual Studio Code, go to the **Settings (1)** icon from the left navigation pane and choose **Install update (2)** and wait until updates complete then when **Restart Visual Studio Code to apply the latest update** prompted select **Update Now (3)** and close and open Visual studio then proceed with above step.
 
       ![Picture1](../../media/image1.png)
    
