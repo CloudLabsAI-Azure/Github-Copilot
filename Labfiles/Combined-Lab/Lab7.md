@@ -12,7 +12,7 @@ Machine Learning Frameworks: Copilot supports various Machine Learning libraries
 
 In this exercise, you will be cloning the Git repository with the required dataset into your environment. Here, you will be working with Copilot for Machine Learning, which involves leveraging GitHub Copilot.
 
-## Important Points to Consider Before Starting the Lab
+## Important points to consider before starting the Lab
 
 #### Disclaimer: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
