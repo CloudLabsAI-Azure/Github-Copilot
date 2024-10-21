@@ -65,7 +65,7 @@ You will be able to complete the following tasks:
    import pandas as pd
    ```
 
-   ![](../../media/gc6.png)
+   ![](../../media/gc9.png)
 
    >**Note**: Ensure to select the Kernel and click on Python 3.12.
 
