@@ -16,7 +16,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 1. GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
-2.  Before proceeding with the exercise, make sure you have installed Python, Jupyter and pip packages.
+2.  Before proceeding with the exercise, make sure you have installed Python, Jupyter and pip packages in Visual Studio Code.
 
 3. If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again.
 
