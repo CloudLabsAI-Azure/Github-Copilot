@@ -16,7 +16,7 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** Details tab.
  
-   ![](../../media/enviornment.png)
+   ![](../../media/gc1.png)
  
 ## **Utilizing the Split Window Feature**
  
@@ -114,12 +114,15 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
    ![](../../media/vscode1.png)
 
+1. On the GitHub page, locate your profile icon at the top right corner of the screen and click on **Your Profile**.
+
+1. Copy your GitHub username in order to validate your lab.
+
+   ![](../../media/gc2.png)
+  
     > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
-    > - On GitHub, locate your profile photo at the top right corner of the screen
-    > - Hit the Validate button for the corresponding task. Paste your Organization name into the required field and click on submit.
-
-    ![Picture1](../../media/github-copilot-new-2.png)
-
+    >  - Hit the Validate button for the corresponding task. Paste the GitHub username you copied in the previous step and click on **Submit**.
+       ![Picture1](../../media/github-copilot-new-2.png)
     > - If you receive a success message, you can proceed to the next task. 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
@@ -128,7 +131,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
 ## Summary
 
-In this lab, you'll learn how to log into GitHub and create a new repository. By the end, you'll have a new repository ready for your projects.
+In conclusion, you have learned how to log into GitHub and create a new repository. By now, you should have a repository set up and ready for your projects.
 
-## You have successfully completed this lab.
+## You have successfully completed this lab. Click on  Next to proceed.
 
