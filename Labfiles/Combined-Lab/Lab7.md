@@ -12,6 +12,8 @@ Machine Learning Frameworks: Copilot supports various Machine Learning libraries
 
 In this exercise, you will be cloning the Git repository with the required dataset into your environment. Here, you will be working with Copilot for Machine Learning, which involves leveraging GitHub Copilot.
 
+## Important Points to Consider Before Starting the Lab
+
 #### Disclaimer: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
 #### Note: Before proceeding with the exercise, make sure you have installed Python, Jupyter and pip packages.
@@ -62,7 +64,7 @@ You will be able to complete the following tasks:
 
    ![](../../media/ex-8-create-file.png)
 
-1. Click **+ Code** and paste the below comments to import all the libraries where the Copilot automatically prompts all the libraries; hit "**enter**" to get into the next line and view the suggestion, press "**tab** to accept the suggestion".
+1. Click **+ Code** and paste the below comments to import all the libraries where the Copilot automatically prompts all the libraries; hit "**enter**" to get into the next line and press **tab** view the suggestion, press "**tab** to accept the suggestion".
 
    ```
    # Import libraries with respect to loading data and creating a random forest model
@@ -120,6 +122,8 @@ You will be able to complete the following tasks:
 
    ![](../../media/ex9-birthyear-output.png)
 
+   >**Note:** The table's representation may differ.
+
 1. Type the below comments to convert the BMI column up to two decimal values, press "tab". Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
@@ -166,7 +170,7 @@ You will be able to complete the following tasks:
 
 ### Task 4.1: Data Visualization
 
-1. Click on **+Code** to open the new cell and type the below comments to perform the basic operations on dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
+1. Click on **+ Code** to open the new cell and type the below comments to perform the basic operations on dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Perform univariate analysis on the dataset and plot the graphs
