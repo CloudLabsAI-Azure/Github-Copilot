@@ -114,3 +114,4 @@ In this lab, you will create a development container and define specific extensi
 
 In this lab, you have created a development container and added Copilot to the list of extensions.
 
+## You have successfully completed this lab. Click on  Next to proceed with the lab.
