@@ -245,7 +245,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
  
    ![](../../media/copililotinlineu.png)  
 
-1. Now type the prompt "Use if-else statements instead of the switch statement" **(1)** to make the code more understandable and click `>` or press `Enter` **(2)**. Copilot will give a response, and you can review it and click **Accept** **(3)**. Also, you can **Discard** the suggestion as depicted in the image below.Press 'Ctrl + S' to save the file.
+1. Now type the prompt "Use if-else statements instead of the switch statement" **(1)** to make the code more understandable and click `>` or press `Enter` **(2)**. Copilot will give a response, and you can review it and click **Accept** **(3)**. Also, you can **Discard** the suggestion as depicted in the image below.Press `Ctrl + S` to save the file.
 
     ![](../../media/chat-code-accept.png)
 
@@ -269,7 +269,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
    >**Note**: The code shown in the screenshot may be different for you.
 
-1. Copy and paste the code in the file named **test.js** that you just created.
+1. Copy and paste the code in the file named **test.js** that you just created and press `Ctrl + S` to save the file..
 
 1. Now, to generate test cases for each function, select the function for which the test case has to be generated, and back in the GitHub Copilot Chat window, type **/tests** and hit enter.
 
