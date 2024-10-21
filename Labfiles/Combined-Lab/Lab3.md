@@ -134,7 +134,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
    ![](../../media/ex2-reverse-sentence-output.png)
 
 
-3. Open the **New Terminal** **(3)** to push the code.
+3. Save the changes by pressing `Ctrl + S`. Open the **New Terminal** **(3)** to push the code.
 
 4. Run the below command to pull the latest changes.
 
