@@ -17,25 +17,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 > **Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
-### Task 1: Generate code by chat that uses ARM to deploy resources to Azure
-
-1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
-
-   ![](../../media/verify-copilot.png)
-
-1. In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat** extension.
-
-1. Select **GitHub Copilot Chat** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
-   
-1. If not, click on the **Install** button.
-
-    ![](../../media/ghc-chat-extension.png)
-
-1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
-
-   ![](../../media/git-chat-icon.png)
-
-## Task 3.1- Example: Set the stage with a high-level goal
+## Task 1- Example: Set the stage with a high-level goal
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
