@@ -58,7 +58,7 @@ You will be able to complete the following tasks:
 
    ![](../../media/ex-8-create-file.png)
 
-1. Type the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press "enter" to get into the next line and review the suggestion, press "tab" and click on **Run** button to execute the cell.
+1. Click **+ Code** and paste the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press "enter" to get into the next line and review the suggestion, press "tab" and click on **Run** button to execute the cell.
 
    ```
    # Import libraries with respect to loading data and creating a random forest model
@@ -75,7 +75,7 @@ You will be able to complete the following tasks:
 
 1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell.
 
-   ![](../../media/ex8-add-cell-new-1.png)
+   ![](../../media/gc10.png)
 
    >**Note**: While running the cell, you may need to install the required packages and select the kernel.
 
