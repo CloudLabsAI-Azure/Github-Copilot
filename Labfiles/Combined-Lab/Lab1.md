@@ -135,5 +135,5 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
 In conclusion, you have learned how to log into GitHub and create a new repository. By now, you should have a repository set up and ready for your projects.
 
-## You have successfully completed this lab. Click on  Next to proceed.
+## You have successfully completed this lab. Click on  Next to proceed with the lab.
 
