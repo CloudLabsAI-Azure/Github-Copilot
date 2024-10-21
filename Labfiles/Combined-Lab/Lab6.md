@@ -157,11 +157,10 @@ GitHub Copilot can understand significantly more context than most code assistan
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-3. Click on **Next** below to move on to the next page.
         
 ### Summary
 
 In this exercise, you have successfully configured the JetBrains IntelliJ Idea IDE for Java, installed the GitHub Copilot plugin, and explored the basic Java code that produced the suggestions using Copilot.
 
-### You have successfully completed the lab
+### You have successfully completed the lab. Click on  Next to proceed with the lab.
 
