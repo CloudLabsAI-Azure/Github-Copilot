@@ -39,7 +39,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
     > **Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
    
-1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
+1. You can review the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
 
    ![](../../media/arm-new-file.png)
 
@@ -49,9 +49,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 ### Task 2: Generate code by chat that uses Terraform to deploy resources to Azure
 
-1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
-
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For instance, type "Write a Terraform code for deploying a storage account to Azure with the code explanation".
+1. Back in the Chat window, let us try to generate a terraform code. Enter for instance, type "Write a Terraform code for deploying a storage account to Azure with the code explanation" and hit enter.
 
    ![](../../media/create-terraform.png)
 
@@ -65,7 +63,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
     > **Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
    
-1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
+1. You can review the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
 
    ![](../../media/terraform-new-file.png)
 
@@ -75,9 +73,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 ### Task 3: Generate code by chat that uses PowerShell to deploy resources to Azure
 
-1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
-
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write a PowerShell script for deploying a storage account to Azure."
+. Back in the Chat window, let us try to generate a powershell script.For example, type "Write a PowerShell script for deploying a storage account to Azure." and hit enter.
 
    ![](../../media/create-powershell.png)
 
