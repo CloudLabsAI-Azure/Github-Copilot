@@ -52,11 +52,11 @@ For convenience, you can open the lab guide in a separate window by selecting th
    ```
 1. Next, to get the authentication code, sign in to Outlook with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
 
-   >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
+   >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
 
    ![](../../media/authgit.png)
 
-1. Copy the below link and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
+1. In a new browser tab, copy the below link:
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -76,9 +76,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
    ![](../../media/skills-new-repo.png)
 
-1. After your new repository is created, wait about 20 seconds and then refresh the page.
-
-    >**Note**: If you get a note  prompting that a repository with the name **skills-copilot-codespaces-vscode** already exists, please delete the existing one by performing the below steps and perform the above step again.
+   >**Note**: If you get a note  prompting that a repository with the name **skills-copilot-codespaces-vscode** already exists, please delete the existing one by performing the below steps and perform the above step again.
     > - On GitHub.com, navigate to the main page of the repository.
     > - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
     
@@ -101,6 +99,8 @@ For convenience, you can open the lab guide in a separate window by selecting th
     >  - Click **Delete this repository**.
 
       ![](../../media/7.png)
+
+1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
 1. Once the repository is created, click on your profile picture and then select **Your organizations**.
 
