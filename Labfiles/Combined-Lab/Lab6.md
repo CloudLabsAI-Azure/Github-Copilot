@@ -1,4 +1,4 @@
-# Exercise 6: Using IDEs such as JetBrains IntelliJ for Java
+# Lab 6: Using IDEs such as JetBrains IntelliJ for Java
 
 ### Estimated Duration: 20 minutes
 
@@ -35,6 +35,8 @@ You will be able to complete the following tasks:
 
    ![](../../media/E6-T1-S2.1.png)
 
+1. If you get a prompt to import, click on **Skip import**
+
 1. From the left menu, click on **Plugins** **(1)** and select **Marketplace** **(2)**. Search **GitHub Copilot** **(3)**, and once you find **GitHub Copilot** plugin, click on **Install** **(4)**.
 
    ![](../../media/install-plugin.png)
@@ -51,7 +53,7 @@ You will be able to complete the following tasks:
 
 1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, select the default **Download Oracle OpenJDK 23** **(4)** and click on **Create** **(5)**.
 
-   ![](../../media/Exercise-06-v2-02.png)
+   ![](../../media/gc4.png)
 
 1. Review the created **demo-copilot** project as shown below:
 
@@ -79,7 +81,7 @@ You will be able to complete the following tasks:
 
 1. After the permissions have been approved, your JetBrains IDE will show a confirmation.
 
-   ![](../../media/Exercise-06-v2-04.png)
+   ![](../../media/gc5.png)
 
 1. In your JetBrains IDE, right-click on the **src (1)**, select **New (2)** and click on **File (3)** to create a new Java (*.java) file named **Test.java**.
 
