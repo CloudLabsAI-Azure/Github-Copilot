@@ -134,66 +134,27 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
    ![](../../media/ex2-reverse-sentence-output.png)
 
 
-## Task 3.3- Example: Give GitHub Copilot an example or two
+3. Open the **New Terminal** **(3)** to push the code.
 
-Not only can people benefit from learning from examples, but so can your AI pair programmer. For example, in order to take the names out of the data array below and put them in a
-new array:
-
-   ```
-          const data = [
-        [
-          { name: 'John', age: 25 },
-          { name: 'Jane', age: 30 }
-        ],
-        [
-          { name: 'Bob', age: 40 }
-        ]
-      ];    
-   ```
-
-1. Type the below comment in the chat to generate the output without showing an example to GitHub Copilot.
-
-   ```
-    // As an illustration, pull names out of the data array  
-   ```
-
-2. It generated an incorrect usage of the map.
-
-   ![](../../media/ex2-array-output.png)
-
-3. By contrast, type the below comments to provide an example of how to generate the desired output.
-
-    ```
-      // Map through an array of arrays of objects
-      // Example: Extract names from the data array
-      // Desired outcome: ['John', 'Jane', 'Bob']    
-    ```
-
-4. Now, we have received our desired outcome.
-
-   ![](../../media/ex2-array-output-1.png)
-
-5. Open the **New Terminal** **(3)** to push the code.
-
-6. Run the below command to pull the latest changes.
+4. Run the below command to pull the latest changes.
 
    ```
    git pull
    ```
 
-1. Run the below command to add the `index.js` file to the GitHub repository.
+5. Run the below command to add the `index.js` file to the GitHub repository.
    
    ```
    git add index.js
    ```
 
-8. Next from the VS Code terminal, commit the changes to the repository:
+6. Next from the VS Code terminal, commit the changes to the repository:
 
    ```
    git commit -m "Copilot commit"
    ```
 
-9. Finally, from the VS Code terminal, push the code to the repository:
+7. Finally, from the VS Code terminal, push the code to the repository:
 
    ```
    git push
