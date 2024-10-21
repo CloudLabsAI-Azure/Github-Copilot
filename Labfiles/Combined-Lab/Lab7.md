@@ -18,7 +18,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 #### Note: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again.
 
-#### Note: GitHub Copilot may occasionally provide incorrect answers, so if we encounter any errors, we might need to adjust the code until we achieve the desired output.
+#### Note: GitHub Copilot may occasionally provide incorrect answers, so if we encounter any errors while executing the cells, we might need to adjust the code until we achieve the desired output.
 
 ## Lab objectives
 
