@@ -48,19 +48,19 @@ O GitHub Copilot é uma ferramenta de conclusão de código com tecnologia de IA
 
 # Introdução ao laboratório
 
-1. Pode ver uma área de trabalho de máquina virtual 💻 (**LABVM**) carregada no lado esquerdo do seu browser. Utilize esta máquina virtual durante todo o workshop para realizar o laboratório. Também pode ligar-se à máquina virtual utilizando qualquer cliente RDP utilizando as credenciais **LABVM** fornecidas no separador **Environment**.
+1. Pode ver uma área de trabalho de máquina virtual 💻 (**LABVM**) carregada no lado esquerdo do seu browser. Utilize esta máquina virtual durante todo o workshop para realizar o laboratório. Também pode ligar-se à máquina virtual utilizando qualquer cliente RDP utilizando as credenciais **LABVM** fornecidas no separador **Ambiente**.
 
-   ![](../../media/gettingstarted-v2-first.png)
+   ![](../../media/30-10-24(1).png)
 
-1. Quando estiver no separador **Environment**, clique na opção **GitHub Credentials** para obter as credenciais de utilizador do GitHub. As credenciais também serão enviadas para o seu endereço de e-mail registado. Também pode abrir o Guia do laboratório numa janela completa e separada, selecionando **Split Window** no canto superior direito. Além disso, pode iniciar, parar e reiniciar máquinas virtuais no separador **Resources**.
+1. Quando estiver no separador **Ambiente**, clique na opção **GitHub Credentials** para obter as credenciais de utilizador do GitHub. As credenciais também serão enviadas para o seu endereço de e-mail registado. Também pode abrir o Guia do laboratório numa janela completa e separada, selecionando **Janela dividida** no canto superior direito. Além disso, pode iniciar, parar e reiniciar máquinas virtuais no separador **Recursos**.
 
-   ![](../../media/gettingstarted-v2-01.png)
+   ![](../../media/30-10-24(2).png)
 
 ## Iniciar sessão no GitHub
 
 1. Na área de trabalho do LABVM, procure por **Microsoft Edge** **(1)**, clique no browser **Microsoft Edge** **(2)**.
 
-   ![](../../media/Edge.png)
+   ![](../../media/30-10-24(3).png)
 
 1. Navegue até à página de login do GitHub utilizando o URL fornecido abaixo:
 
@@ -68,9 +68,9 @@ O GitHub Copilot é uma ferramenta de conclusão de código com tecnologia de IA
     https://github.com/login
     ```
 
-1. No separador **Sign in to GitHub**, verá o ecrã de login. Neste ecrã, insira o seguinte **e-mail** **(1)** e **password** **(2)**. De seguida, clique em **Sign in** **(3)**.
+1. No separador **Sign in to GitHub**, verá o ecrã de login. Neste ecrã, insira o seguinte **Username or email address** **(1)** e **Password** **(2)**. De seguida, clique em **Sign in** **(3)**.
 
-    >**Nota**: Para obter as credenciais do GitHub, navegue até ao separador **Environment** e clique na opção **GitHub Credentials** para visualizar os pares de valores-chave do **GitHub UserEmail** e **GitHub Password**. Pode utilizar os botões de cópia na coluna de ações para copiar os valores instantaneamente. Em alternativa, sugere-se que os valores sejam copiados para um bloco de notas para facilitar o acesso.
+    >**Nota**: Para obter as credenciais do GitHub, navegue até ao separador **Ambiente** e clique na opção **GitHub Credentials** para visualizar os pares de valores-chave do **GitHub UserEmail** e **GitHub Password**. Pode utilizar os botões de cópia na coluna de ações para copiar os valores instantaneamente. Em alternativa, sugere-se que os valores sejam copiados para um bloco de notas para facilitar o acesso.
 
    ![](../../media/github-login.png)
 
@@ -80,7 +80,7 @@ O GitHub Copilot é uma ferramenta de conclusão de código com tecnologia de IA
 
    ![](../../media/authgit.png)
 
-1. Clique com o botão direito do rato em **Start course** fornecido abaixo, clique em **Copy link** e navegue até ao link dentro do LabVM no navegador Edge onde fez login no GitHub nos passos anteriores.
+1. Clique com o botão direito do rato em **Start course** fornecido abaixo, clique em **Copiar link** e navegue até ao link dentro do LabVM no navegador Edge onde fez login no GitHub nos passos anteriores.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -138,7 +138,7 @@ siga do passo 08 ao passo 12. Na ausência de um repositório existente, passe p
 
    ![](../../media/vscode1.png)
 
-1. Agora, clique em **Next** no canto inferior direito para passar para a página seguinte.
+1. Agora, clique em **Próximo** no canto inferior direito para passar para a página seguinte.
 
 Este laboratório prático demonstra como o GitHub Copilot e o GitHub Codespaces melhoram o desenvolvimento através de sugestões de código em tempo real e ambientes de cloud consistentes.
 
