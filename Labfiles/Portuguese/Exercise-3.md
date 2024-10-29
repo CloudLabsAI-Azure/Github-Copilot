@@ -99,7 +99,7 @@ Nesta tarefa, continuará a utilizar o GitHub Copilot e poderá precisar de algu
 
  <validation step="95754ad8-7b5c-486d-8e7c-d034df03ff1b" />
 
-6. Clique em **Next** abaixo para passar para a página seguinte.
+6. Clique em **Próximo** abaixo para passar para a página seguinte.
 
 ### Resumo
 

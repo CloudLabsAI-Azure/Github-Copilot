@@ -148,7 +148,7 @@ O GitHub Copilot pode compreender significativamente mais contexto do que a maio
 
  <validation step="364115e7-deff-4c32-96e9-fa5d2122a86f" />
 
-3. Clique em **Next** abaixo para passar para a página seguinte.
+3. Clique em **Próximo** abaixo para passar para a página seguinte.
 
 ### Resumo
 

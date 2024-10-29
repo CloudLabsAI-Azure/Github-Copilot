@@ -106,7 +106,7 @@ Poderá completar as seguintes tarefas:
 
  <validation step="2f1521a8-516d-4357-b09c-941c5d7112ad" />
 
-14. Clique em **Next** abaixo para passar para a página seguinte.
+14. Clique em **Próximo** abaixo para passar para a página seguinte.
 
 ### Resumo
 

@@ -140,7 +140,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/ex-4-github5.png)
 
-1. Clique em **Next** abaixo para passar para a página seguinte.
+1. Clique em **Próximo** abaixo para passar para a página seguinte.
 
 ### Resumo
 
