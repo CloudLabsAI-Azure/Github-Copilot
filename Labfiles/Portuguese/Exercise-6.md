@@ -25,7 +25,7 @@ Poderá completar as seguintes tarefas:
 
 1. Navegue até ao ambiente de trabalho e abra o IDE **IntelliJ IDEA Community**.
 
-   ![](../../media/E6-T1-S1.png)
+   ![](../../media/30-10-24(4).png)
 
 1. No Contrato IntelliJ IDEA, assinale **I confirm that I have read and accept the terms of this User Agreement (1)** e clique em **Continue (2)**.
 

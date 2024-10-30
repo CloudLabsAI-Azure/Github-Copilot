@@ -39,21 +39,21 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/aut12.png)
 
-1. Selecione a opção **Get**.
+1. Selecione a opção **Obter**.
 
-   ![](../../media/aut13.png)
+   ![](../../media/30-10-24(5).png)
 
-1. Um pop-up é apresentado. Selecione a partir daí a opção **Add extension**. Começará a descarregar uma extensão no seu navegador.
+1. Um pop-up é apresentado. Selecione a partir daí a opção **Adicionar extensão**. Começará a descarregar uma extensão no seu navegador.
 
-   ![](../../media/aut14.png)
+   ![](../../media/30-10-24(6).png)
 
-1. Clique no ícone **Extensions** **(1)** na barra de ferramentas do browser. No Accessibility Insights for Web, selecione a opção **(...)** **(2)** e clique em **Manage extension** **(3)**.
+1. Clique no ícone **Extensões** **(1)** na barra de ferramentas do browser. No Accessibility Insights for Web, selecione a opção **(...)** **(2)** e clique em **Gerenciar extensão** **(3)**.
 
-   ![](../../media/aut15.png)
+   ![](../../media/30-10-24(7).png)
 
-1. Na página **Manage extension**, desça e clique na caixa de selecção **Allow access to file URLs**.
+1. Na página **Gerenciar extensão**, desça e clique na caixa de selecção **Permitir acesso a URLs de arquivos**.
 
-   ![](../../media/aut16.png)
+   ![](../../media/30-10-24(8).png)
 
 ## Tarefa 2: Verificar a extensão GitHub Copilot Chat e clonar o repositório GitHub da Universidade Acessível no VS Code
 
@@ -110,17 +110,17 @@ Poderá completar as seguintes tarefas:
 
 1. Assim que a pasta for aberta, seleccione o ficheiro `before.html`.
 
-1. Navegue até ao **File Explorer** e abra a pasta que clonou. A partir daí, clique duas vezes no ficheiro `before.html`. Será aberto no seu navegador Web, onde já adicionou a extensão **Accessibility Insights for Web**.
+1. Navegue até ao **Explorador de arquivos** e abra a pasta que clonou. A partir daí, clique duas vezes no ficheiro `before.html`. Será aberto no seu navegador Web, onde já adicionou a extensão **Accessibility Insights for Web**.
 
    ![](../../media/before.png)
 
    ![](../../media/before1.png)
 
-1. Clique agora no botão **Extensions** na barra de ferramentas do browser, selecione **Accessibility Insights for Web** e clique em **FastPass**. Será aberto em uma nova janela pop-up.
+1. Clique agora no botão **Extensões** na barra de ferramentas do browser, selecione **Accessibility Insights for Web** e clique em **FastPass**. Será aberto em uma nova janela pop-up.
 
     - **FastPass**: [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) é um processo leve de duas etapas que ajuda os programadores a identificar problemas de acessibilidade comuns e de alto impacto em menos de cinco minutos.
 
-      ![](../../media/fastpass1.png)
+      ![](../../media/30-10-24(9).png)
 
       ![](../../media/fastpass2.png)
 
