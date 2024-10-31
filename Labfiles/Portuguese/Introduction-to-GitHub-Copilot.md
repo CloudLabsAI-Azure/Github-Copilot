@@ -108,4 +108,4 @@ Quando o acesso ao Copilot estiver ativado, poderão ser configuradas funcionali
 - Os administradores da empresa podem definir as funcionalidades do Copilot para serem ativadas ou desativadas para todas as organizações da empresa que tenham acesso ao Copilot. Em alternativa, podem permitir que cada organização defina a sua própria política para cada recurso.
 - Se o proprietário da empresa o tiver permitido, os administradores da organização poderão ativar ou desativar as funcionalidades do Copilot para a sua organização.
 
-Clique em "Próximo" no canto inferior direito para iniciar o laboratório.
+Clique em **Próximo** no canto inferior direito para iniciar o laboratório.
