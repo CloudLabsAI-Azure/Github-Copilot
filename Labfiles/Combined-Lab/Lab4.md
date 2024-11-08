@@ -51,7 +51,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 1. Back in the Chat window, let us try to generate a terraform code. Enter for instance, type "Write a Terraform code for deploying a storage account to Azure with the code explanation" and hit enter.
 
-   ![](../../media/create-terraform.png)
+   ![](../../media/g2.png)
 
 1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window.
 
@@ -73,9 +73,9 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 ### Task 3: Generate code by chat that uses PowerShell to deploy resources to Azure
 
-. Back in the Chat window, let us try to generate a powershell script.For example, type "Write a PowerShell script for deploying a storage account to Azure." and hit enter.
+1. Back in the Chat window, let us try to generate a powershell script.For example, type "Write a PowerShell script for deploying a storage account to Azure." and hit enter.
 
-   ![](../../media/create-powershell.png)
+   ![](../../media/g3.png)
 
 1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
 
