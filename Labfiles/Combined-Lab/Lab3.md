@@ -175,6 +175,5 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 
 In this lab, you have successfully generated JavaScript code and other best practices using GitHub Copilot and GitHub Copilot Chat.
 
-## You have successfully completed this lab. Click on  Next to proceed with the lab.
-
+## You have successfully completed this lab. 
 
