@@ -25,7 +25,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write an ARM code for deploying a storage account to Azure with the code explanation."
 
-    ![](../../media/create-arm.png)
+    ![](../../media/g2.png)
 
 1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
 
@@ -50,8 +50,6 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 ### Task 2: Generate code by chat that uses Terraform to deploy resources to Azure
 
 1. Back in the Chat window, let us try to generate a terraform code. Enter for instance, type "Write a Terraform code for deploying a storage account to Azure with the code explanation" and hit enter.
-
-   ![](../../media/g2.png)
 
 1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window.
 
