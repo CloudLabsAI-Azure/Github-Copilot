@@ -147,4 +147,4 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 In this lab, you have employed Copilot to automatically generate code in both ARM, Terraform, and PowerShell programming languages.
 
-## You have successfully completed this lab. Click on  Next to proceed with the lab.
+## You have successfully completed this lab. 
