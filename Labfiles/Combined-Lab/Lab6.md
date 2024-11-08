@@ -162,5 +162,4 @@ GitHub Copilot can understand significantly more context than most code assistan
 
 In this exercise, you have successfully configured the JetBrains IntelliJ Idea IDE for Java, installed the GitHub Copilot plugin, and explored the basic Java code that produced the suggestions using Copilot.
 
-### You have successfully completed the lab. Click on  Next to proceed with the lab.
-
+### You have successfully completed the lab. 
