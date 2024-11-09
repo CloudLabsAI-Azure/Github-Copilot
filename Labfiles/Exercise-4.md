@@ -52,7 +52,7 @@ You will be able to complete the following tasks:
    
 1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
 
-   ![](../media/copilotnewfile.png)
+   ![](../media/copilotnewfile1.png)
 
 1. Press `CTRL + S` to save the file. Name the file `arm.json` and click on **OK**
 
@@ -78,7 +78,7 @@ You will be able to complete the following tasks:
    
 1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
 
-   ![](../media/copilotnewfile.png)
+   ![](../media/copilotnewfile1.png)
 
 1. Press `CTRL + S` to save the file. Name the file `terraform.tf` and click on **OK**
 
