@@ -36,13 +36,13 @@ Será capaz de completar las siguientes tareas:
 
 1. En la parte inferior de la ventana de GitHub Copilot Chat, en el cuadro de texto **Preguntar a Copilot o escribir / para los comandos**, escriba una pregunta relacionada con la codificación y, luego, presione Entrar. Por ejemplo, escriba "Write an ARM code for deploying a storage account to Azure with the code explanation".
 
-    ![](../media/create-arm.png)
+    ![](../media/copilotnew.png)
 
 1. GitHub Copilot Chat procesará su pregunta y proporcionará una respuesta, con sugerencias de código cuando corresponda, en la ventana de chat.
 
-    ![](../media/arm-output1.png)
+    ![](../media/copilotoutput1.png)
 
-    ![](../media/arm-output2.png)   
+    ![](../media/copilotoutput2.png)   
 
     > **Nota:** Este es un ejemplo de lo que probablemente verá; sin embargo, la recomendación precisa podría variar.
 
@@ -52,7 +52,7 @@ Será capaz de completar las siguientes tareas:
    
 1. Puede ver la respuesta de GitHub Copilot en el chat. Para insertar código en un archivo nuevo, haga clic en los **Puntos suspensivos (...)** **(1)** y seleccione **Insertar en Nuevo Archivo** **(2)**.
 
-   ![](../media/arm-new-file.png)
+   ![](../media/copilotnewfile.png)
 
 1. Presione `CTRL + S` para guardar el archivo. Asigne el nombre `arm.json` al archivo y haga clic en **Aceptar**
 
@@ -64,11 +64,11 @@ Será capaz de completar las siguientes tareas:
 
 1. En la parte inferior de la ventana de GitHub Copilot Chat, en el cuadro de texto **Preguntar a Copilot o escribir / para comandos**, escriba una pregunta relacionada con la codificación y, luego, presione Entrar. Por ejemplo, escriba "Write a Terraform code for deploying a storage account to Azure with the code explanation".
 
-   ![](../media/create-terraform.png)
+   ![](../media/createterraform.png)
 
 1. GitHub Copilot Chat procesará su pregunta y proporcionará una respuesta, con sugerencias de código cuando corresponda, en la ventana de chat.
 
-    ![](../media/terraform.png)
+    ![](../media/terraformupdate.png)
 
     > **Nota:** Este es un ejemplo de lo que probablemente verá; sin embargo, la recomendación precisa podría variar.
     
@@ -78,7 +78,7 @@ Será capaz de completar las siguientes tareas:
    
 1. Puede ver la respuesta de GitHub Copilot en el chat. Para insertar código en un archivo nuevo, haga clic en los **Puntos suspensivos (...)** **(1)** y seleccione **Insertar en Nuevo Archivo** **(2)**.
 
-   ![](../media/terraform-new-file.png)
+   ![](../media/terraformnewfile.png)
 
 1. Presione `CTRL + S` para guardar el archivo. Asigne el nombre `terraform.tf` al archivo y haga clic en **Aceptar**
 
@@ -90,11 +90,11 @@ Será capaz de completar las siguientes tareas:
 
 1. En la parte inferior de la ventana de GitHub Copilot Chat, en el cuadro de texto **Preguntar a Copilot o escribir / para comandos**, escriba una pregunta relacionada con la codificación y, luego, presione Entrar. Por ejemplo, escriba "Write a PowerShell script for deploying a storage account to Azure".
 
-   ![](../media/create-powershell.png)
+   ![](../media/createpowershell.png)
 
 1. GitHub Copilot Chat procesará su pregunta y proporcionará una respuesta, con sugerencias de código cuando corresponda, en la ventana de chat.
 
-    ![](../media/ps-output.png)
+    ![](../media/poweroutput.png)
 
     > **Nota:** Este es un ejemplo de lo que probablemente verá; sin embargo, la recomendación precisa podría variar.
 
@@ -104,7 +104,7 @@ Será capaz de completar las siguientes tareas:
    
 1. Puede ver la respuesta de GitHub Copilot en el chat. Para insertar código en un archivo nuevo, haga clic en los **Puntos suspensivos (...)** **(1)** y seleccione **Insertar en Nuevo Archivo** **(2)**.
 
-   ![](../media/ps-newfile.png)
+   ![](../media/powernewfile.png)
 
 1. Presione `CTRL + S` para guardar el archivo y verá una recomendación para instalar la extensión `PowerShell`. Haga clic en Instalar. Nombre el archivo `powershell.ps1` y haga clic en **Aceptar**.
 
