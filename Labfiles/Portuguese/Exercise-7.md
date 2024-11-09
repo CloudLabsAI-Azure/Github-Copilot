@@ -70,9 +70,9 @@ Poderá completar as seguintes tarefas:
 
       ![](../../media/ghc-chat-extension.png)
 
-1. Assim que a instalação estiver concluída, no painel de navegação esquerdo, poderá ver o ícone do GitHub Copilot Chat, como se mostra abaixo.
+1. Assim que a instalação for concluída, no canto superior direito ao lado da barra de pesquisa, você poderá ver o ícone do GitHub Copilot Chat, conforme mostrado abaixo.
 
-   ![](../../media/git-chat-icon.png)
+   ![](../../media/chaticon.png)
 
 1. Vá para o passo 8. Se já tiver iniciado sessão numa conta GitHub no VS Code. Caso contrário, siga os passos 5 a 7.
 
