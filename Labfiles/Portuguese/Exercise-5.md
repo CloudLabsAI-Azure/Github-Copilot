@@ -101,13 +101,13 @@ Poderá completar as seguintes tarefas:
 
 1. Agora, vamos utilizar a funcionalidade **GitHub Copilot Chat** para refatorar o código acima.
 
-1. Clique no ícone da extensão **Chat** na barra de atividades do painel de navegação esquerdo. Isto abre a janela GitHub Copilot Chat na qual o código acima deve ser **colado**.
+1. Clique no ícone **Bate-papo** no canto superior direito. Isso abre a janela GitHub Copilot Chat na qual o código acima deve ser **colado**.
 
 1. Introduza o prompt `Refactor the code` no final do código e prima **enter**.
 
 1. O GitHub Copilot Chat dará a resposta como se mostra abaixo.
 
-   ![](../../media/refactored-code.png)
+   ![](../../media/refactoredcode.png)
 
 ## Tarefa 3: Reveja o código refatorado e perceber como funciona
 
@@ -253,9 +253,9 @@ Nesta tarefa, demonstrará a funcionalidade de chat com código do GitHub Copilo
 
 1. Identifique a secção do código onde a instrução switch está presente e selecione-a.
 
-1. Clique com o botão direito do rato na janela de código e clique na opção **Copilot** **(1)**. Na lista de opções seguinte no Copilot, seleccione **Start in Editor** **(2)**.
+1. Clique com o botão direito do rato na janela de código e clique na opção **Copilot** **(1)**. Na lista de opções seguinte no Copilot, seleccione **Editor inline chat** **(2)**.
 
-   ![](../../media/5-2.png)
+   ![](../../media/inline.png)
 
 1. Agora digite o aviso "Use if-else statements instead of the switch statement" **(1)** para tornar o código mais compreensível e clique em `>` ou prima `Enter` **(2)**. O Copilot dará uma resposta e poderá revê-la e clicar em **Accept** **(3)**. Além disso, pode **Discard** a sugestão como mostra a imagem abaixo.
 
@@ -277,17 +277,17 @@ Nesta tarefa, demonstrará a funcionalidade de chat com código do GitHub Copilo
 
 1. O GitHub Copilot Chat irá gerar o código como se mostra abaixo.
 
-   ![](../../media/refactor-code.png)
+   ![](../../media/coderefactor.png)
 
 1. Copie e cole o código no ficheiro denominado **test.js** que acabou de criar.
 
 1. Agora, para gerar casos de teste para cada função, selecione a função para a qual o caso de teste deve ser gerado e, de volta à janela GitHub Copilot Chat, digite **/tests** e prima Enter.
 
-   ![](../../media/tests.png)
+   ![](../../media/test1.png)
 
 1. Irá gerar um caso de teste para a função add.
 
-   ![](../../media/addtested.png)
+   ![](../../media/addcode1.png)
 
 ### Tarefa 6: enviar código para o seu repositório a partir do codespace
 
