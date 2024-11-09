@@ -52,7 +52,7 @@ Poderá completar as seguintes tarefas:
 
 1. Pode visualizar a resposta do GitHub Copilot no chat. Para inserir código num novo ficheiro, clique em **Reticências (...)** **(1)** e seleccione **Insert Into New File** **(2)**.
 
-   ![](../../media/copilotnewfile.png)
+   ![](../../media/copilotnewfile1.png)
 
 1. Prima `CTRL + S` para guardar o ficheiro. Nomeie o ficheiro como `arm.json` e clique em **OK**
 
@@ -78,7 +78,7 @@ Poderá completar as seguintes tarefas:
 
 1. Pode visualizar a resposta do GitHub Copilot no chat. Para inserir código num novo ficheiro, clique em **Reticências (...)** **(1)** e seleccione **Insert Into New File** **(2)**.
 
-   ![](../../media/copilotnewfile.png)
+   ![](../../media/copilotnewfile1.png)
 
 1. Prima `CTRL + S` para guardar o ficheiro. Nomeie o ficheiro como `terraform.tf` e clique em **OK**
 
