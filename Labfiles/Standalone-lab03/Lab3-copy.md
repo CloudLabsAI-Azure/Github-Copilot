@@ -47,7 +47,7 @@ In this lab, you will complete the following tasks:
 
    ![](media/authgit.png)
 
-1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the Edge browser in a new tab where you have logged into GitHub in the previous steps.
+1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the same Edge browser in a new tab.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
