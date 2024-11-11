@@ -72,15 +72,15 @@ In this lab, you will complete the following tasks:
 
 1. Once the repository is created, click on your profile picture and then select **Your organizations**.
 
-   ![](../media/cs3.png)
+   ![](media/cs3.png)
 
 1. In "Your organization", from the left navigation pane, select **Codespaces**.
 
-   ![](../media/cs4.png)
+   ![](media/cs4.png)
 
 1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
 
-     ![](../media/cs5.png)
+     ![](media/cs5.png)
 
 1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page. 
 
