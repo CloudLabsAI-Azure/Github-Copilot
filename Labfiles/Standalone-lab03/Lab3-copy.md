@@ -285,15 +285,15 @@ const data = [
       // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
-4. Now, we have received our desired outcome. You can copy the desired outcome suggested by Copilot and then **Cntr + S** to save the file to **index.js** file.
+4. Now, we have received our desired outcome. You can copy the desired outcome suggested by Copilot paste it in **index.js** and then **Cntr + S** to save the file.
 
-   ![](media/cs8.png)
+   ![](media/cs9.png)
 
    >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
 
-5. Open the **New Terminal** to push the code.
+6. Open the **New Terminal** to push the code.
 
-6. Run the below command to pull the latest changes.
+7. Run the below command to pull the latest changes.
 
    ```
    git pull
