@@ -88,7 +88,7 @@ In this lab, you will complete the following tasks:
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
 
-   >**Note**: If in case you have any existing running codespaces, click on **... (1)** and then click on **Delete (2).**
+   >**Note**: If in case you have any existing running codespaces, right click on **...** existing Codespaces and then **Delete.**
    
    ![](media/labgit.png) 
 
