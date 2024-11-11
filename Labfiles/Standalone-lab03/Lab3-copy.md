@@ -276,7 +276,7 @@ const data = [
 
 2. It generated an incorrect usage of the map.
 
-   ![](media/cs9.png)
+   ![](media/cs9.1.png)
 
 3. By contrast, type the below comments to provide an example of how to generate the desired output.
 
