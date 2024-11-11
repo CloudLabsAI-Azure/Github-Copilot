@@ -224,7 +224,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](media/ex2-markdown.png)
 
-4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor. Now you can clear the contents in index.js file and proceed with the next tasks.
+4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor. Now you can clear the contents of index.js file by clicking on **Accept**, then **Cntrl + a** and delete. Now you can proceed with the next tasks.
 
    ![](media/skills(2).png)
 
