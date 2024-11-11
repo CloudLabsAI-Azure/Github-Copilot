@@ -20,7 +20,7 @@ In this lab, you will complete the following tasks:
 
 1. In the LABVM desktop double-click on **Microsoft Edge**.
 
-   ![](media/microsoftedge.png)
+   ![](media/Cs-1.png)
 
 1. Navigate to GitHub login page using the provided URL below:
    ```
@@ -47,19 +47,50 @@ In this lab, you will complete the following tasks:
 
    ![](media/authgit.png)
 
-1. Now,right click on your profile icon in the top right and click on **Your Repositories**.
-    
-   ![](media/l2.2.png)
+1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
 
-1. Click on the repository named **skills-copilot-codespaces-vscode**.
+   <!-- For start course, run in JavaScript:
+   'https://github.com/new?' + new URLSearchParams({
+     template_owner: 'skills',
+     template_name: 'copilot-codespaces-vscode',
+     owner: '@me',
+     name: 'skills-copilot-codespaces-vscode',
+     description: 'My clone repository',
+     visibility: 'public',
+   }).toString()
+   -->
 
-1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
+   [![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
+   
+1. In the new tab, most of the prompts will automatically fill in for you. Leave default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
 
-   ![](media/dp3.png)
+   ![](media/cs2.png)
+
+   >**Note**: If the repository is already exists, please delete the existing one and perform the above step again.
+
+1. After your new repository is created, wait about 20 seconds and then refresh the page.
+
+1. Once the repository is created, click on your profile picture and then select **Your organizations**.
+
+   ![](media/cs3.png)
+
+1. In "Your organization", from the left navigation pane, select **Codespaces**.
+
+   ![](media/cs4.png)
+
+1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
+
+     ![](media/cs5.png)
+
+1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page. 
+
+   ![](media/dp3.png)  
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
 
-   ![](media/labgit.png)
+   >**Note**: If in case you have any existing running codespaces, right click on **...** existing Codespaces and then **Delete.**
+   
+   ![](media/labgit.png) 
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
@@ -91,7 +122,7 @@ In this lab, you will complete the following tasks:
 
    ![](media/verify-copilot.png)
 
-   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
+   >**Note**: If the GitHub Copilot extension is not installed, click on Install. If prompted to **Sign In** click on **Sign In** to authorize with your github account.
 
 1. From the VS Code Explorer window, create a New File.
 
@@ -107,7 +138,7 @@ In this lab, you will complete the following tasks:
    function calculateNumbers(var1, var2)
    ```
    
-   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code. 
+   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code. If still the suggestions are not visible close the visual studio and then re-open it again. 
 
    ![](media/skills(1).png)
 
@@ -160,9 +191,9 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
    ![](media/ghc-chat-extension.png)
 
-1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
+1. Once the installation is complete, at the top beside the search bar you will able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also to open the chat click on **Open chat (2)**
 
-   ![](media/git-chat-icon.png)
+   ![](media/cs6.png)
 
 ## Task 3.1- Example: Set the stage with a high-level goal
 
@@ -193,7 +224,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](media/ex2-markdown.png)
 
-4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor.
+4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor. Now you can clear the contents of index.js file by clicking on **Accept**, then **Cntrl + a** and delete. Now you can proceed with the next tasks.
 
    ![](media/skills(2).png)
 
@@ -205,7 +236,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 After you've explained your primary objective to the AI pair programmer, explain the reasoning and procedures it must take to reach that objective. This will help GitHub Copilot gain a clearer understanding of your intended outcome when you break things down. For example, imagine you’re writing a recipe. Rather than writing a paragraph outlining the food you intend to make, you would break down the cooking procedure into distinct parts.
 So, instead of asking GitHub Copilot to generate a large amount of code at once, let it generate the code after each step.
 
-1. From the left menu, select **Chat** button, enter the below step-by-step instructions for reversing a sentence.
+1. At the top beside search bar click on **Github copilot icon** and then open a new chat , enter the below step-by-step instructions for reversing a sentence.
 
     ```
       // take a sentence as input
@@ -216,7 +247,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 
 2. The generated outcome would look similar to the below image.
 
-   ![](media/reversestring.png)
+   ![](media/cs7.png)
 
 
 ## Task 3.3- Example: Give GitHub Copilot an example or two
@@ -254,15 +285,15 @@ const data = [
       // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
-4. Now, we have received our desired outcome.
+4. Now, we have received our desired outcome. You can copy the desired outcome suggested by Copilot paste it in **index.js** and then **Cntr + S** to save the file.
 
-   ![](media/chat(1).png)
+   ![](media/cs9.png)
 
    >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
 
-5. Open the **New Terminal** to push the code.
+6. Open the **New Terminal** to push the code.
 
-6. Run the below command to pull the latest changes.
+7. Run the below command to pull the latest changes.
 
    ```
    git pull
