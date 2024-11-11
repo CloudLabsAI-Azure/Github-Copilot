@@ -99,13 +99,13 @@ Será capaz de completar las siguientes tareas:
 
 1. Ahora, usemos la función **GitHub Copilot Chat** para refactorizar el código anterior.
 
-1. Haga clic en el ícono de extensión **Chat** desde la barra de actividades en el panel de navegación izquierdo. Esto abre la ventana de GitHub Copilot Chat en la que se debe **pegar** el código anterior.
+1. Haga clic en el ícono **Chat** en la parte superior derecha. Esto abre la ventana de GitHub Copilot Chat en la que se **pegar** el código anterior.
 
 1. Escriba el prompt `Refactor the code` al final del código y luego presione **Enter**.
 
 1. GitHub Copilot Chat dará la respuesta que se muestra a continuación.
 
-   ![](../media/refactored-code.png)
+   ![](../media/refactoredcode.png)
 
 ## Tarea 3: Revisar el código refactorizado y entender cómo funciona
 
@@ -251,9 +251,9 @@ En esta tarea, demostrará la función de chat con código de GitHub Copilot. Co
 
 1. Identifique la sección de código donde está presente la sentencia switch y selecciónela.
 
-1. Haga clic derecho en la ventana de código y haga clic en la opción **Copilot** **(1)**. De la siguiente lista de opciones en Copilot, seleccione **Iniciar en el editor** **(2)**.
+1. Haga clic derecho en la ventana de código y haga clic en la opción **Copilot** **(1)**. De la siguiente lista de opciones en Copilot, seleccione **Editor de chat en línea** **(2)**.
  
-   ![](../media/5-2.png)  
+   ![](../media/inline.png)  
 
 1. Ahora, escriba el prompt "Use if-else statements instead of the switch statement" **(1)** para que el código sea más comprensible y haga clic en `>` o presione `Enter` **(2)**. Copilot le dará una respuesta, y puede revisarla y hacer clic en **Aceptar** **(3)**. También puede **Descartar** la sugerencia como se muestra en la imagen a continuación.
 
@@ -275,17 +275,17 @@ En esta tarea, demostrará la función de chat con código de GitHub Copilot. Co
 
 1. GitHub Copilot Chat generará el código como se muestra a continuación.
 
-   ![](../media/refactor-code.png)
+   ![](../media/coderefactor.png)
 
 1. Copie y pegue el código en el archivo llamado **test.js** que acaba de crear.
 
 1. Ahora, para generar casos de prueba para cada función, seleccione la función para la cual se debe generar el caso de prueba y, nuevamente en la ventana de GitHub Copilot Chat, escriba **/tests** y presione Enter.
 
-   ![](../media/tests.png)
+   ![](../media/test1.png)
 
 1. Generará un caso de prueba para la función add.
 
-   ![](../media/addtested.png)
+   ![](../media/addcode1.png)
 
 ### Tarea 6: Enviar código a su repositorio desde el codespace
 

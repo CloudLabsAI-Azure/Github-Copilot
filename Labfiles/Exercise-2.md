@@ -87,7 +87,7 @@ En esta tarea, usará la Terminal de VS Code para agregar el archivo `skills.js`
 
 1. Una vez que se complete la instalación, en el panel de navegación izquierdo podrá ver el ícono de GitHub Copilot Chat como se muestra a continuación.
 
-   ![](../media/git-chat-icon.png)
+   ![](../media/chaticon.png)
 
 ## Tarea 3.1: Ejemplo: Prepare el escenario con un objetivo de alto nivel
 
