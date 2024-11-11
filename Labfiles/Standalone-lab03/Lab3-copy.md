@@ -47,7 +47,7 @@ In this lab, you will complete the following tasks:
 
    ![](media/authgit.png)
 
-1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
+1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the Edge browser in a new tab where you have logged into GitHub in the previous steps.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -87,10 +87,10 @@ In this lab, you will complete the following tasks:
    ![](media/dp3.png)  
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
+   
+   ![](media/labgit.png)
 
    >**Note**: If in case you have any existing running codespaces, right click on **...** existing Codespaces and then **Delete.**
-   
-   ![](media/labgit.png) 
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
@@ -138,7 +138,8 @@ In this lab, you will complete the following tasks:
    function calculateNumbers(var1, var2)
    ```
    
-   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code. If still the suggestions are not visible close the visual studio and then re-open it again. 
+   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code. 
+   > **Note**: If still the suggestions are not visible close the visual studio code and then re-open it again. 
 
    ![](media/skills(1).png)
 
@@ -247,7 +248,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 
 2. The generated outcome would look similar to the below image.
 
-   ![](media/cs7.png)
+   ![](media/cs10.png)
 
 
 ## Task 3.3- Example: Give GitHub Copilot an example or two
@@ -275,7 +276,7 @@ const data = [
 
 2. It generated an incorrect usage of the map.
 
-   ![](media/index-js.png)
+   ![](media/cs9.png)
 
 3. By contrast, type the below comments to provide an example of how to generate the desired output.
 
