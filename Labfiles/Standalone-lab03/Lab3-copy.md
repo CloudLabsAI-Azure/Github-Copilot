@@ -20,7 +20,7 @@ In this lab, you will complete the following tasks:
 
 1. In the LABVM desktop double-click on **Microsoft Edge**.
 
-   ![](media/microsoftedge.png)
+   ![](media/Cs-1.png)
 
 1. Navigate to GitHub login page using the provided URL below:
    ```
@@ -47,11 +47,28 @@ In this lab, you will complete the following tasks:
 
    ![](media/authgit.png)
 
-1. Now,right click on your profile icon in the top right and click on **Your Repositories**.
-    
-   ![](media/l2.2.png)
+1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
 
-1. Click on the repository named **skills-copilot-codespaces-vscode**.
+   <!-- For start course, run in JavaScript:
+   'https://github.com/new?' + new URLSearchParams({
+     template_owner: 'skills',
+     template_name: 'copilot-codespaces-vscode',
+     owner: '@me',
+     name: 'skills-copilot-codespaces-vscode',
+     description: 'My clone repository',
+     visibility: 'public',
+   }).toString()
+   -->
+
+   [![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
+   
+1. In the new tab, most of the prompts will automatically fill in for you. Leave default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
+
+   ![](../media/skills-new-repo.png)
+
+   >**Note**: If the repository is already exists, please delete the existing one and perform the above step again.
+
+1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
 1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
