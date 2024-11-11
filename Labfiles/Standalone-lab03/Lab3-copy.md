@@ -224,7 +224,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](media/ex2-markdown.png)
 
-4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor.
+4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor. Now you can clear the contents in index.js file and proceed with the next tasks.
 
    ![](media/skills(2).png)
 
@@ -236,7 +236,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 After you've explained your primary objective to the AI pair programmer, explain the reasoning and procedures it must take to reach that objective. This will help GitHub Copilot gain a clearer understanding of your intended outcome when you break things down. For example, imagine you’re writing a recipe. Rather than writing a paragraph outlining the food you intend to make, you would break down the cooking procedure into distinct parts.
 So, instead of asking GitHub Copilot to generate a large amount of code at once, let it generate the code after each step.
 
-1. From the left menu, select **Chat** button, enter the below step-by-step instructions for reversing a sentence.
+1. At the top beside search bar click on **Github copilot icon** and then open a new chat , enter the below step-by-step instructions for reversing a sentence.
 
     ```
       // take a sentence as input
@@ -285,7 +285,7 @@ const data = [
       // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
-4. Now, we have received our desired outcome.
+4. Now, we have received our desired outcome. You can copy the desired outcome suggested by Copilot and then **Cntr + S** to save the file to **index.js** file.
 
    ![](media/cs8.png)
 
