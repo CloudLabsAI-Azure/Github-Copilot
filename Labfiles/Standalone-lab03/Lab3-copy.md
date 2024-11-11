@@ -64,19 +64,33 @@ In this lab, you will complete the following tasks:
    
 1. In the new tab, most of the prompts will automatically fill in for you. Leave default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
 
-   ![](../media/skills-new-repo.png)
+   ![](../media/cs2.png)
 
    >**Note**: If the repository is already exists, please delete the existing one and perform the above step again.
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
-1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
+1. Once the repository is created, click on your profile picture and then select **Your organizations**.
 
-   ![](media/dp3.png)
+   ![](../media/cs3.png)
+
+1. In "Your organization", from the left navigation pane, select **Codespaces**.
+
+   ![](../media/cs4.png)
+
+1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
+
+     ![](../media/cs5.png)
+
+1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page. 
+
+   ![](media/dp3.png)  
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
 
-   ![](media/labgit.png)
+   >**Note**: If in case you have any existing running codespaces, click on **... (1)** and then click on **Delete (2).**
+   
+   ![](media/labgit.png) 
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
@@ -108,7 +122,7 @@ In this lab, you will complete the following tasks:
 
    ![](media/verify-copilot.png)
 
-   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
+   >**Note**: If the GitHub Copilot extension is not installed, click on Install. If prompted to **Sign In** click on **Sign In** to authorize with your github account.
 
 1. From the VS Code Explorer window, create a New File.
 
@@ -124,7 +138,7 @@ In this lab, you will complete the following tasks:
    function calculateNumbers(var1, var2)
    ```
    
-   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code. 
+   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code. If still the suggestions are not visible close the visual studio and then re-open it again. 
 
    ![](media/skills(1).png)
 
@@ -177,9 +191,9 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
    ![](media/ghc-chat-extension.png)
 
-1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
+1. Once the installation is complete, at the top beside the search bar you will able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also to open the chat check on **Open chat (2)**
 
-   ![](media/git-chat-icon.png)
+   ![](media/cs6.png)
 
 ## Task 3.1- Example: Set the stage with a high-level goal
 
@@ -233,7 +247,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 
 2. The generated outcome would look similar to the below image.
 
-   ![](media/reversestring.png)
+   ![](media/cs7.png)
 
 
 ## Task 3.3- Example: Give GitHub Copilot an example or two
@@ -273,7 +287,7 @@ const data = [
 
 4. Now, we have received our desired outcome.
 
-   ![](media/chat(1).png)
+   ![](media/cs8.png)
 
    >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
 
