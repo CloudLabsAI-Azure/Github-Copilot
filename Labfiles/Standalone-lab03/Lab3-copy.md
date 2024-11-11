@@ -191,7 +191,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
    ![](media/ghc-chat-extension.png)
 
-1. Once the installation is complete, at the top beside the search bar you will able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also to open the chat check on **Open chat (2)**
+1. Once the installation is complete, at the top beside the search bar you will able to see the **icon (1)** for GitHub Copilot Chat as shown below. Also to open the chat chick on **Open chat (2)**
 
    ![](media/cs6.png)
 
