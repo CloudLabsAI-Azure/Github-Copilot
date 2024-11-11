@@ -139,6 +139,7 @@ In this lab, you will complete the following tasks:
    ```
    
    > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code. 
+   
    > **Note**: If still the suggestions are not visible close the visual studio code and then re-open it again. 
 
    ![](media/skills(1).png)
