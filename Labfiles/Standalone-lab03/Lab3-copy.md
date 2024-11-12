@@ -70,25 +70,25 @@ In this lab, you will complete the following tasks:
      > - On GitHub.com, navigate to the main page of the repository.
      > - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
     
-         ![](../../media/2.png)
+      ![](media/up1.png)
 
      > - On the **General** settings page (which is selected by default), scroll down to the "Danger Zone" section and click **Delete this repository**.
      
-         ![](../../media/4.png)
+      ![](media/up2.png)
 
      > - Click **I want to delete this repository**.
  
-         ![](../../media/5.png)
+      ![](media/up3.png)
 
      > - Read the warnings and click **I have read and understand these effects**.
 
-         ![](../../media/6.png)
+      ![](media/up4.png)
 
      >  - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want to delete.
 
      >  - Click **Delete this repository**.
 
-         ![](../../media/7.png)
+      ![](media/up5.png)
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
