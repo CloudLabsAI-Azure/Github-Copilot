@@ -146,8 +146,23 @@ In this lab, you will complete the following tasks:
 
    ![](media/verify-copilot.png)
 
-   >**Note**: If the GitHub Copilot extension is not installed, click on Install. If prompted to **Sign In** click on **Sign In** to authorize with your github account.
+   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
+    > - If prompted to **Sign In** click on **Sign In** to authorize with your github account.
+   
+    ![](media/img0.png)
 
+    > - Next, once you get the popup, click on **Allow.**
+    
+    ![](media/img1.png)
+
+    > - On the select user to authorize page in the edge browser, click on **Continue**
+
+    ![](media/img2.png)
+
+    > - You will encounter a pop-up prompt. Click **Open** to proceed.
+
+    ![](media/img3.png)   
+    
 1. From the VS Code Explorer window, create a New File.
 
    ![](media/savefile.png)
