@@ -99,13 +99,13 @@ You will be able to complete the following tasks:
 
 1. Now, let's use the **GitHub Copilot Chat** feature to refactor the above code.
 
-1. Click on the **Chat** extension icon from the activity bar in the left navigation pane. This opens the GitHub Copilot Chat window into which the above code is to be **pasted**.
+1. Click on the **Chat** icon on the top right. This opens the GitHub Copilot Chat window into which the above code is to be **pasted**.
 
 1. Type the prompt `Refactor the code` at the end of the code and then press **enter**.
 
 1. The GitHub Copilot Chat will give the response as shown below.
 
-   ![](../media/refactored-code.png)
+   ![](../media/refactoredcode.png)
 
 ## Task 3: Review the refactored code and understand how it works
 
@@ -251,9 +251,9 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. Identify the section of code where the switch statement is present and select it.
 
-1. Right-click on the code window and click on the **Copilot** **(1)** option. From the following list of options in Copilot, select **Start in Editor** **(2)**.
+1. Right-click on the code window and click on the **Copilot** **(1)** option. From the following list of options in Copilot, select **Editor inline chat** **(2)**.
  
-   ![](../media/5-2.png)  
+   ![](../media/inline.png)  
 
 1. Now type the prompt "Use if-else statements instead of the switch statement" **(1)** to make the code more understandable and click `>` or press `Enter` **(2)**. Copilot will give a response, and you can review it and click **Accept** **(3)**. Also, you can **Discard** the suggestion as depicted in the image below.
 
@@ -275,17 +275,17 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. The GitHub Copilot Chat will generate the code as shown below.
 
-   ![](../media/refactor-code.png)
+   ![](../media/coderefactor.png)
 
 1. Copy and paste the code in the file named **test.js** that you just created.
 
 1. Now, to generate test cases for each function, select the function for which the test case has to be generated, and back in the GitHub Copilot Chat window, type **/tests** and hit enter.
 
-   ![](../media/tests.png)
+   ![](../media/test1.png)
 
 1. It will generate a test case for the add function.
 
-   ![](../media/addtested.png)
+   ![](../media/addcode1.png)
 
 ### Task 6: Push code to your repository from the codespace
 
