@@ -169,7 +169,7 @@ So, instead of asking GitHub Copilot to generate a large amount of code at once,
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="8a55bd72-560d-4d18-ad97-4dfd336658db" />
+<validation step="6a64656c-2ae5-406c-9cf3-9f0ff161aa46" />
  
 ### Summary
 
