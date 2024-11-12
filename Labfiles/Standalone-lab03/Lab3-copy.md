@@ -66,7 +66,29 @@ In this lab, you will complete the following tasks:
 
    ![](media/cs2.png)
 
-   >**Note**: If the repository is already exists, please delete the existing one and perform the above step again.
+    >**Note**: If you get a note  prompting that a repository with the name **skills-copilot-codespaces-vscode** already exists, please delete the existing one by performing the below steps and perform the above step again.
+     > - On GitHub.com, navigate to the main page of the repository.
+     > - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
+    
+      ![](media/up1.png)
+
+     > - On the **General** settings page (which is selected by default), scroll down to the "Danger Zone" section and click **Delete this repository**.
+     
+      ![](media/up2.png)
+
+     > - Click **I want to delete this repository**.
+ 
+      ![](media/up3.png)
+
+     > - Read the warnings and click **I have read and understand these effects**.
+
+      ![](media/up4.png)
+
+     >  - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want to delete.
+
+     >  - Click **Delete this repository**.
+
+      ![](media/up5.png)
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
@@ -91,6 +113,8 @@ In this lab, you will complete the following tasks:
    ![](media/labgit.png)
 
    >**Note**: If in case you have any existing running codespaces, right click on **...** existing Codespaces and then **Delete.**
+
+    ![](media/up6.png)
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
