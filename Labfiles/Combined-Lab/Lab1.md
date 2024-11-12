@@ -129,7 +129,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-      <validation step="eb7ab249-5f46-4f30-88db-089314b39d0d" />
+      <validation step="74f9ec11-59d4-4a33-928f-4ab2220edbd9" />
 
 ## Summary
 
