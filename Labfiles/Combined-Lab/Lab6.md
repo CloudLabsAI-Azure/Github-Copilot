@@ -150,7 +150,7 @@ GitHub Copilot can understand significantly more context than most code assistan
   
    ![](../../media/ex6-image-suggestion.png)
 
-<validation step="3cf08965-0e43-4fba-80bc-35bdbf3904a3" />
+<validation step="8a3b56fe-e617-420d-99a2-0a23c257a791"/>
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
