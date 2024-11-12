@@ -138,7 +138,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-<validation step="f58c599c-cef0-44ef-858b-2b35ffd4cc6e" />
+<validation step="24e51569-e264-40ac-b8f3-a565cdd84341" />
 
   
 ### Summary
