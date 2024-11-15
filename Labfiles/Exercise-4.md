@@ -145,8 +145,6 @@ You will be able to complete the following tasks:
 
    ![](../media/ex-4-github5.png)
 
-1. Click on **Next** below to move on to the next page.
-
 ### Summary
 
 In this exercise, Copilot has been utilized to automatically generate code in ARM, Terraform, and PowerShell.
