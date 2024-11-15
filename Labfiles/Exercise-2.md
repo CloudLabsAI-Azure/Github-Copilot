@@ -65,26 +65,6 @@ In this lab, you will complete the following tasks:
 
    ![](../media/py26.png)
 
-## Task 2: Create a Pull Request
-
-In this task, you will use the VS Code terminal to add the `skills.js` file to the GitHub repository from `prod` to `main`.
-
-1. Click on the **Pull Request (1)** symbol as shown below and click on **Create New Pull Request (2)**.
-
-    ![](../media/py50.png)
-
-1. Click on New Pull Request.
-
-1. Click on **Create**.
-
-   ![](../media/py51.png)
-
-1. Click on **Merge Pull Request** and select **Create Merge Commit**.
-
-    ![](../media/py52.png)
-
-    ![](../media/py53.png)
-
 ## Review
 In this lab, you have effectively created JavaScript code and pushed it from the production branch to the main branch.
 
