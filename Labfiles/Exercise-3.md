@@ -10,8 +10,8 @@ GitHub Copilot accelerates the creation of programming language scripts through 
 
 In this lab, you will complete the following tasks:
 
-* [Task 1: Develop a Python Script for Implementing a Calculator](#Task-1-Develop-a-Python-Script-for-Implementing-a-Calculator)
-* [Task 2: Explore GitHub Copilot Tools](#Task-2-Explore-GitHub-Copilot-Tools)
+- Task 1:  Develop a Python Script for Implementing a Calculator
+- Task 2: Explore GitHub Copilot Tools
 
 ## Task 1:  Develop a Python Script for Implementing a Calculator
 
