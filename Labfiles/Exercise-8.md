@@ -32,56 +32,37 @@ You will be able to complete the following tasks:
 
 ### Task 2: Generate YAML with GitHub Copilot using comments
    
-1. From inside the codespace in the VS Code Explorer window, create a new file.
+1. From inside the codespace in the VS Code Explorer window, create a new file and name the file as `report.yml`
 
     ![](../media/chat-code-new.png)
 
-1. Name the file `deploy-app.yml` and type the below comment:
+1. Click on `Ctrl + I`, type the below comment and hit send:
 
    ```
    # Create a GitHub action to email a report from a file at 6 a.m. daily
    ```
+   ![](../media/hub9.png)
 
-1. To open a new tab with multiple synthesized solutions, press `Ctrl+Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept suggestion** below the solution and then save the file.
+1. Click on **Accept**.
 
-   ![](../media/ex7-t2-s3.png)
+   ![](../media/hub8.png)
 
-1. After accepting the suggestion, review it carefully before applying it.
+ >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
 
-   ![](../media/demo-yaml-1.png)
+1. Open GitHub Copilot Chat from the top and type `Explian the cron syntax in this code` and hit **send**.
 
-   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
-
-### Task 3: Push code to your repository from the codespace
-
-1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
-
-1. Run the below command to add all the files to the repository:
+      ![](../media/hub10.png)
    
-   ```
-   git add --all
-   ```
+1. Review the response and understand the uses of cron syntax.
 
-1. Next, from the VS Code terminal stage, commit the changes to the repository:
+      ![](../media/hub11.png)
 
-   ```
-   git commit -m "Copilot fourth commit"
-   ```
+1. Offer another query: `How should a GitHub Actions YAML file be structured?` and evaluate the provided response.
 
-1. Finally, from the VS Code terminal, push code to the repository:
-
-   ```
-   git push
-   ```
-
-   ![](../media/ex-6-push.png)
-
-   >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
-
-1. You can verify the newly added files available in your GitHub repository.
-
-   ![](../media/ex-6-github.png)
-
+   ![](../media/hub12.png)
+   
+1. Provide additional cues to analyze and better understand the code.
+   
 ### Summary
 
 In this exercise, you have successfully generated code for SQL and YAML using comments with the help of GitHub Copilot.
