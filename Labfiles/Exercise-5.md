@@ -106,11 +106,13 @@ You will be able to complete the following tasks:
 
 1. Click on the **Chat** icon on the top right. This opens the GitHub Copilot Chat window into which the above code is to be **pasted**.
 
-1. Type the prompt `#selection How can we refactor this code to adhere to coding best practices?` then press **Enter**.
+1. Type the prompt `#selection How can we refactor this code to adhere to coding best practices?` then press **Enter**. The GitHub Copilot Chat will give the response as shown below.
 
-1. The GitHub Copilot Chat will give the response as shown below.
+   ![](../media/hub1.png)
 
 1. Paste the refactored code in the file.
+
+   ![](../media/hub2.png)
 
 ## Task 3: Review the refactored code and understand how it works
 
@@ -253,7 +255,11 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
     In this scenario, is it more appropriate to use a switch statement or if-else statements?
     ```
 
+   ![](../media/hub3.png)
+
 1. As the switch statement is more readable and easier to maintain when dealing with multiple discrete choices, let's copy and paste the code in the file and click on `Ctrl+S`.
+
+   ![](../media/hub4.png)
 
 ## Task 5: Create unit test functions
 
