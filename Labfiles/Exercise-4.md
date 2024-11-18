@@ -29,65 +29,33 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Generate code by chat that uses ARM to deploy resources to Azure
 
-1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
+1. In the Visual Studio Code activity bar, click the **GitHub Copilot Chat icon** to open the GitHub Copilot Chat window.
 
-   ![](../media/Edge.png)
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write a PowerShell script for deploying a storage account to Azure."
 
-1. Navigate to GitHub login page using the provided URL below:
-   ```
-   https://github.com/login
-   ```
+      ![](../media/createpowershell.png)
+
+1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
+
+      ![](../media/poweroutput.png)
+
+      > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
+
+      > **Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot a question or type / for topics** text box, click the follow-up question to ask it.
+
+      > **Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
    
-1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
+1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
 
-   ![](../media/github-login.png)
+      ![](../media/powernewfile.png)
 
-    >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
+1. Press `CTRL + S` to save the file, and you will see a recommendation to install the `PowerShell` extension. Click on Install. Name the file `powershell.ps1` and click on **OK**.
 
-      ![](../media/credsfile.png)
-
-   >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
-
-     ![](../media/envt12.png)   
-
-    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
-     
-1. Navigate to Outlook login page using the provided URL below:
-   ```
-   https://outlook.office365.com/mail/
-   ```
-1. Next, to get the authentication code, sign in to Outlook with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
-
-   >**Note:** The email containing the verification code can somtimes creep into the archive/spam folders within your Outlook.
-
-   ![](../media/authgit.png)
-
-1. Now, right-click on your profile icon in the top right and click on **Your Repositories**.
-    
-   ![](../media/l2.2.png)
-
-1. Click on the repository named **skills-copilot-codespaces-vscode**.
-
-1. Copy the path of the repository and store it in a notepad.
-
-   ![](../media/clone4.png)
+   ![](../media/ps-save.png)
 
 1. Search for Windows Powershell ISE in the Windows Start button and run it as an Administrator.
 
      ![](../media/clone6.png)
-
-1. Run the following command to clone it to your local system and paste the path of the repository which we copied earlier in the notepad.
-
-    ```
-    git clone https://github.com/<your github user name>/skills-copilot-codespaces-vscode
-    ```   
-1. Open Visual Studio Code from the desktop.
-
-1. Click on File (1) and select Open Folder (2).
-
-   ![](../media/clone5.png)
-
-1. Navigate to `C:\Users\azureuser` and select skills-copilot-codespaces-vscode.
 
 ## Task 2: Example: Set the stage with a high-level goal
 
