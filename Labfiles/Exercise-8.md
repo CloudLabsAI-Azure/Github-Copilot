@@ -47,7 +47,7 @@ You will be able to complete the following tasks:
 
    ![](../media/hub8.png)
 
-     `    > **Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+      > **Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
 
 1. Open GitHub Copilot Chat from the top and type `Explian the cron syntax in this code` and hit **send**.
 
