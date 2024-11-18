@@ -16,7 +16,6 @@ You will be able to complete the following tasks:
 - Task 2: Generate YAML with GitHub Copilot using comments
 - Task 3: Push code to your repository from the codespace
 
-
 ### Task 1: Generate a SQL query with GitHub Copilot using comments
 
 1. Navigate back to Visual Studio Code, and from inside the codespace in the VS Code explorer window, create a new file.
@@ -26,18 +25,10 @@ You will be able to complete the following tasks:
 1. Name the file `demo.sql` and type the below comment:
 
    ```
-   -- Create a table for 5 products with product names and prices
+   -- create a table with 5 coloumns customer_id, customer_fname, customer_lname, customer_phone, customer_address
    ```
 
-1. To open a new tab with multiple synthesized solutions, press `Ctrl+Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept suggestion** below the solution and then save the file.
-
-   ![](../media/ex7-t1-s3.png)
-
-1. After accepting the suggestion, review it carefully before applying it.
-
-   ![](../media/demo-sql-1.png)
-
-   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+1. Click on Enter and click on Tab to select the suggestion.
 
 ### Task 2: Generate YAML with GitHub Copilot using comments
    
