@@ -250,7 +250,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 1. Let's ask Copilot the below question to understand which conditional statement is a better choice in this circumstance.
    
     ```
-    In this situation, is it considered better practice to use a switch statement or if-else statements?
+    In this scenario, is it more appropriate to use a switch statement or if-else statements?
     ```
 
 1. As the switch statement is more readable and easier to maintain when dealing with multiple discrete choices, let's copy and paste the code in the file and click on `Ctrl+S`.
