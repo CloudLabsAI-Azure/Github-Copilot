@@ -36,7 +36,7 @@ You will be able to complete the following tasks:
 
     ![](../media/chat-code-new.png)
 
-1. Click on `Ctrl + I`, type the below comment and hit send:
+1. Press `Ctrl + I` , type the below comment and hit send:
 
    ```
    # Create a GitHub action to email a report from a file at 6 a.m. daily
