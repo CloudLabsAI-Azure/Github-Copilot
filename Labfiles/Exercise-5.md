@@ -19,7 +19,6 @@ You will be able to complete the following tasks:
 - Task 3: Review the refactored code and understand how it works
 - Task 4: Use GitHub Copilot Chat with code to refactor the code
 - Task 5: Create unit test functions
-- Task 6: Push code to your repository from the codespace
 
 ## Task 1: Understand the code already available for you
 
@@ -99,13 +98,19 @@ You will be able to complete the following tasks:
 
 1. Now, let's use the **GitHub Copilot Chat** feature to refactor the above code.
 
+1. From the codespace in the VS Code Explorer window, create a new file and name it as **codechat.cs**.
+
+      ![](../media/chat-code-new.png)
+
+      > **Note**: If you notice any recommendation to install the C# extension. Click on Install.
+
 1. Click on the **Chat** icon on the top right. This opens the GitHub Copilot Chat window into which the above code is to be **pasted**.
 
-1. Type the prompt `Refactor the code` at the end of the code and then press **enter**.
+1. Type the prompt `#selection How can we refactor this code to adhere to coding best practices?` then press **Enter**.
 
 1. The GitHub Copilot Chat will give the response as shown below.
 
-   ![](../media/refactoredcode.png)
+1. Paste the refactored code in the file.
 
 ## Task 3: Review the refactored code and understand how it works
 
@@ -114,63 +119,64 @@ You will be able to complete the following tasks:
      ```
      using System;
 
-     class Program
-     {
-        const int MAX = 100;
+   class Program
+   {
+    const int MAX = 100;
 
-        static int Sum(int[] arr)
+    static int CalculateSum(int[] arr, int n)
+    {
+        int result = 0;
+        for (int i = 0; i < n; i++)
         {
-            int result = 0;
-            foreach (int num in arr)
-            {
-                result += num;
-            }
-            return result;
+            result += arr[i];
         }
-
-        static void Main()
-        {
-            int n;
-            Console.Write("Enter the number of elements (1-100): ");
-            if (!int.TryParse(Console.ReadLine(), out n) || n < 1 || n > MAX)
-            {
-                Console.WriteLine("Invalid input. Please enter a number between 1 and 100.");
-                Environment.Exit(1);
-            }
-
-            int[] arr = new int[n];
-
-            Console.WriteLine("Enter " + n + " integers:");
-            for (int i = 0; i < n; i++)
-            {
-                if (!int.TryParse(Console.ReadLine(), out arr[i]))
-                {
-                    Console.WriteLine("Invalid input. Please enter valid integers.");
-                    Environment.Exit(1);
-                }
-            }
-
-            int total = Sum(arr);
-
-            Console.WriteLine("Sum of the numbers: " + total);
-        }
+        return result;
     }
+
+    static int GetNumberOfElements()
+    {
+        int n;
+        Console.Write("Enter the number of elements (1-100): ");
+        while (!int.TryParse(Console.ReadLine(), out n) || n < 1 || n > MAX)
+        {
+            Console.WriteLine("Invalid input. Please provide a digit ranging from 1 to 100.");
+        }
+        return n;
+    }
+
+    static int[] ReadIntegers(int n)
+    {
+        int[] arr = new int[n];
+        Console.WriteLine("Enter " + n + " integers:");
+        for (int i = 0; i < n; i++)
+        {
+            while (!int.TryParse(Console.ReadLine(), out arr[i]))
+            {
+                Console.WriteLine("Invalid input. Please enter a valid integer.");
+            }
+        }
+        return arr;
+    }
+
+    static void Main()
+    {
+        int n = GetNumberOfElements();
+        int[] arr = ReadIntegers(n);
+        int sum = CalculateSum(arr, n);
+        Console.WriteLine("The sum of the entered integers is: " + sum);
+    }
+    }     
     ```
 
 1. Now, let's analyze the changes made to the code by GitHub Copilot Chat
-   - This includes the system namespace for input and output operations **(1)**.
-   - Defines a constant MAX with a value of 100 for the maximum number of elements allowed in an array **(2)**.
-   - Here, GitHub Copilot removed the `n` parameter from the Sum method since it's not needed. Instead, the Copilot used a for-each loop to iterate over the array. As a result, the code is easier to comprehend and more concise **(3)**.
-   - The Sum method calculates the sum of elements in an integer array using a for-each loop **(4)**.
-   - In the Main method:
-     - Creates an integer array to store user-entered values **(5)**.
-     - Asks the user to input the number of elements and validate it **(6)**.
-     - Prompts the user to enter integers, validates the input, and stores them in the array **(7)**.
-     - It reads a line of input, tries to convert it to an integer, and stores the result **(8)**. 
-     - Calculates the sum of the integers using the Sum method **(9)**.
-     - The code includes input validation and provides the sum of user-entered integers **(10)**.
 
-        ![](../media/refactor.png)
+    - Changed the method name Sum to CalculateSum to better describe its functionality.
+    - Created a new method GetNumberOfElements to handle the logic for getting the number of elements from the user. This method ensures that the input is within the valid range (1-100) and provides appropriate error messages.
+    - Created another method ReadIntegers to handle the logic for reading integers from the user. This method ensures that each input is a valid integer and provides error messages for invalid inputs.
+    - In GetNumberOfElements, used a while loop to repeatedly prompt the user until a valid number is entered.
+    - In ReadIntegers, used a while loop inside the for loop to repeatedly prompt the user until a valid integer is entered for each element.
+    - Moved the logic for calculating the sum of the array elements into the CalculateSum method.
+    - Moved the logic for getting the number of elements and reading the integers into their respective methods.
 
 1. Notice that now the code is more modular, readable, and easier to understand.
 
@@ -180,86 +186,74 @@ You will be able to complete the following tasks:
 
 In this task, you will demonstrate the chat with code feature of GitHub Copilot. With this feature, developers can engage in real-time conversations with Copilot directly through code comments, making it feel like they are collaborating with a coding partner.
 
-1. From the codespace in the VS Code Explorer window, create a new file.
-
-    ![](../media/chat-code-new.png)
-
-1. Name the file `codechat.cs` and if you see a recommendation to install the `C#` extension. Click on Install.
-
-   ![](../media/chat-code-file.png)
-
-1. Copy and paste the code given below in the newly created file, i.e., `codechat.cs`.
+1. Delete the existing code, copy and paste the code given below in the `codechat.cs` file.
 
     ```
     using System;
 
-    class Program
+   class Program
+   {
+    static void Main()
     {
-        static void Main()
+        int health = 100;
+        int score = 0;
+
+        Console.WriteLine("Welcome to the Adventure Game!");
+        Console.WriteLine("You are in a dark forest.");
+
+        while (health > 0)
         {
-            int health = 100;
-            int score = 0;
+            Console.WriteLine("\nOptions:");
+            Console.WriteLine("1. Go deeper into the forest.");
+            Console.WriteLine("2. Rest by the campfire.");
+            Console.WriteLine("3. Quit the game.");
 
-            Console.WriteLine("Welcome to the Adventure Game!");
-            Console.WriteLine("You are in a dark forest.");
-
-            while (health > 0)
+            int choice;
+            Console.Write("Enter your choice: ");
+            if (int.TryParse(Console.ReadLine(), out choice))
             {
-                Console.WriteLine("\nOptions:");
-                Console.WriteLine("1. Go deeper into the forest.");
-                Console.WriteLine("2. Rest by the campfire.");
-                Console.WriteLine("3. Quit the game.");
-
-                int choice;
-                Console.Write("Enter your choice: ");
-                if (int.TryParse(Console.ReadLine(), out choice))
+                if (choice == 1)
                 {
-                    switch (choice)
-                    {
-                        case 1:
-                            Console.WriteLine("You go farther into the forest and discover a treasure chest!");
-                            score += 10;
-                            break;
-                        case 2:
-                            Console.WriteLine("You rest by the campfire and regain 20 health.");
-                            health += 20;
-                            break;
-                        case 3:
-                            Console.WriteLine($"Thanks for playing! Your score: {score}");
-                            return;
-                        default:
-                            Console.WriteLine("Invalid choice. Try again.");
-                            break;
-                    }
-
-                    health -= 10;
-                    if (health <= 0)
-                    {
-                        Console.WriteLine($"Game over. Your score: {score}");
-                    }
+                    Console.WriteLine("You go farther into the forest and discover a treasure chest!");
+                    score += 10;
+                }
+                else if (choice == 2)
+                {
+                    Console.WriteLine("You rest by the campfire and regain 20 health.");
+                    health += 20;
+                }
+                else if (choice == 3)
+                {
+                    Console.WriteLine($"Thanks for playing! Your score: {score}");
+                    return;
                 }
                 else
                 {
-                    Console.WriteLine("Invalid input. Please enter a valid number.");
+                    Console.WriteLine("Invalid choice. Try again.");
                 }
+
+                health -= 10;
+                if (health <= 0)
+                {
+                    Console.WriteLine($"Game over. Your score: {score}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter a valid number.");
             }
         }
     }
+   }
     ```
 
-1. Let's ask Copilot to use if else statements instead of the switch statement.
+1. Let's ask Copilot the below question to understand which conditional statement is a better choice in this circumstance.
+   
+    ```
+    In this situation, is it considered better practice to use a switch statement or if-else statements?
+    ```
 
-1. Identify the section of code where the switch statement is present and select it.
-
-1. Right-click on the code window and click on the **Copilot** **(1)** option. From the following list of options in Copilot, select **Editor inline chat** **(2)**.
- 
-   ![](../media/inline.png)  
-
-1. Now type the prompt "Use if-else statements instead of the switch statement" **(1)** to make the code more understandable and click `>` or press `Enter` **(2)**. Copilot will give a response, and you can review it and click **Accept** **(3)**. Also, you can **Discard** the suggestion as depicted in the image below.
-
-    ![](../media/5--1.png)
-
-     >**Note:** It's essential to carefully review copilot suggestions before applying them.
+1. As the switch statement is more readable and easier to maintain when dealing with multiple discrete choices, let's copy and paste the code in the file and click on `Ctrl+S`.
 
 ## Task 5: Create unit test functions
 
@@ -286,41 +280,6 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 1. It will generate a test case for the add function.
 
    ![](../media/addcode1.png)
-
-### Task 6: Push code to your repository from the codespace
-
-1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
-
-1. Run the below command to add the `codechat.cs` and `test.js` files to the repository:
-
-   ```
-   git add codechat.cs test.js
-   ```
-
-1. Next, from the VS Code terminal stage, commit the changes to the repository:
-
-   ```
-   git commit -m "Copilot commit"
-   ```
-
-1. Finally, from the VS Code terminal, push to code to the repository:
-
-   ```
-   git push
-   ```
-
-   ![](../media/exercise5-1.png)
-
-   >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
-
-    >**Note**: If you are facing any error which says `Rejected`, then run the below given command and re-run `git push` command again. This will fetch changes in remote branch and merge them into current branch without rebasing.
-      ```
-      git pull --no-rebase
-      ``` 
-
-1. You can verify the `codechat.cs` and `test.js` files available in your GitHub repository.
-
-   ![](../media/exercise5-2.png)
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - If you receive a success message, you can proceed to the next task.
