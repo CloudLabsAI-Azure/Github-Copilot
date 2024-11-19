@@ -16,7 +16,7 @@ In this exercise, you will be generating documentation using GitHub Copilot.
 
 1. Press `CTRL + I` to provide statemets to Github Copilot.
 
-1. Provide the below statement for the GitHub Copilot to create a document that shows the creation of the sample Node.js application. Hit **Send**.
+1. Provide the below statement **(1)** for the GitHub Copilot to create a document that shows the creation of the sample Node.js application. Hit **Send (2)**.
 
     ```
     Create a markdown document for a sample Node.js application with mermaid diagrams and reference links
@@ -24,11 +24,11 @@ In this exercise, you will be generating documentation using GitHub Copilot.
 
       ![](../media/hub20.png)
 
-1.  Copilot will give a response, and you can review it **(1)**, click **Accept** **(2)**, and press `CTRL + S` to save the file.
+1.  Copilot will give a response, and you can review it , click **Accept**, and press `CTRL + S` to save the file.
 
        ![](../media/hub21.png)
 
-1.  You can observe how Copilot has provided the mermaid diagrams and the refernce links as per our ask
+1.  Observe how Copilot has generated the Mermaid diagrams and included the reference links as per our request.
 
        ![](../media/hub22.png)
     
