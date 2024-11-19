@@ -204,10 +204,6 @@ In this lab, you will complete the following tasks:
 
    ![](../media/ps-save.png)
 
-1. Search for Windows Powershell ISE in the Windows Start button and run it as an Administrator.
-
-     ![](../media/clone6.png)
-  
 ### Summary
 
 In this lab, you have employed Copilot to automatically generate code in both ARM, Terraform, and PowerShell programming languages.
