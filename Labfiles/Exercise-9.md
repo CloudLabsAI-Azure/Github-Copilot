@@ -10,22 +10,30 @@ In this exercise, you will be generating documentation using GitHub Copilot.
 
 >**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
 
-1. From inside the codespace in the VS Code Explorer window, create a new file.
+1. From inside the codespace in the VS Code Explorer window, create a new file and name the file as `Document.md`.
 
     ![](../media/chat-code-new.png)
 
-1. Name the file `Document.md` and press `CTRL + I` to ask GitHub Copilot to do something.
+1. Press `CTRL + I` to provide statemets to Github Copilot.
 
-   ![](../media/ex-7-docmd.png)
+1. Provide the below statement for the GitHub Copilot to create a document that shows the creation of the sample Node.js application. Hit **Send**.
 
-1. Type the statement `Create a markdown document to create a virtual network in Azure Portal` **(1)** and click on `>` or press `Enter` **(2)**.
+    ```
+    Create a markdown document for a sample Node.js application with mermaid diagrams and reference links
+    ```
 
-   ![](../media/ex-7-mdsearch.png)
+      ![](../media/hub20.png)
 
-1. Copilot will give a response, and you can review it **(1)**, click **Accept** **(2)**, and press `CTRL + S` to save the file. Also, you can discard the suggestion as depicted in the image below.
+1.  Copilot will give a response, and you can review it **(1)**, click **Accept** **(2)**, and press `CTRL + S` to save the file.
 
-   ![](../media/8thex.png)
+       ![](../media/hub21.png)
 
+1.  You can observe how Copilot has provided the mermaid diagrams and the refernce links as per our ask
+
+       ![](../media/hub22.png)
+    
+       ![](../media/hub23.png)
+    
 ## Summary
 
 In this exercise, you have successfully generated a document using GitHub Copilot Chat.
