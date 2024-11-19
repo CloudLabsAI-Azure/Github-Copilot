@@ -74,7 +74,7 @@ In this lab, you will complete the following tasks:
 1. In the project details section, add the following details:
 
    - Subscription - **Select the default subscription (1)**
-   - Resource Group - **Select JumpVM-RG-<inject key="Deployment ID" enableCopy="false"/> (2)**
+   - Resource Group - **Select JumpVM-RG-<inject key="Deployment-ID" enableCopy="false"/> (2)**
    - Region - **Select the default region. (3)**
    - Storage Account Name - **Select storage<inject key="Deployment ID" enableCopy="false"/> (4)**
    - Location - **Select the same as the region (5)**
