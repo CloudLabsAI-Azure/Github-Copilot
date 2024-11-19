@@ -107,6 +107,13 @@ By leveraging the previously generated code, you will explore specific tools pro
 
       ![](../media/py20.png)
 
+      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+      > - If you receive a success message, you can proceed to the next task.
+      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+      > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+      <validation step="95754ad8-7b5c-486d-8e7c-d034df03ff1b" />
+
 ## Review
 In this lab, you learned to create a Python script for a calculator and explored GitHub Copilot tools, which streamline tasks effectively.
   
