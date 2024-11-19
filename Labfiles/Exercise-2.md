@@ -65,6 +65,15 @@ In this lab, you will complete the following tasks:
 
    ![](../media/py26.png)
 
+   >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
+
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="73a63481-3140-4473-9b94-36d265cdc8cb" />
+
 ## Review
 In this lab, you have effectively created JavaScript code and pushed it from the production branch to the main branch.
 
