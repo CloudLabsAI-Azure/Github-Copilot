@@ -27,6 +27,22 @@ You will be able to complete the following tasks:
    ```
    -- create a table with 5 coloumns customer_id, customer_fname, customer_lname, customer_phone, customer_address
    ```
+1. Notice how the Copilot is able to generate the next lines of code.
+
+1. Click on `Tab` and press **Enter**.
+
+1. Follow up with the rows. Type the below comment:
+
+   ```
+   -- fill in 5 rows in customers table
+   ```
+1. Click on `Tab` and press **Enter**.
+
+1. Let's execute the query to show the table. Type the below comment:
+
+   ```
+   -- fill in 5 rows in customers table
+   ```
 
 1. Click on Enter and click on Tab to select the suggestion.
 
