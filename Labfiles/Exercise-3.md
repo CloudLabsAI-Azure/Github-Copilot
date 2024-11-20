@@ -19,9 +19,9 @@ In this lab, you will complete the following tasks:
 
    ![](../media/py10.png)
 
-1. Name the file `code.py` and verify your new file looks as shown below:
+1. Name the file `app.py` and verify your new file looks as shown below:
 
-   ![](../media/py1.png)
+   ![](../media/app1.png)
 
 1. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** and click > or press **Enter (2)**. Copilot will give a response, and you can review it and click **Accept (3)**. Also, you can **Discard** the suggestion as depicted in the image below.
    
@@ -37,9 +37,9 @@ In this lab, you will complete the following tasks:
 
    ![](../media/openterminal.png)
 
-1. Run the application with the **python code.py** command in the terminal and verify the output has been generated.
+1. Run the application with the **python app.py** command in the terminal and verify the output has been generated.
 
-   ![](../media/py3.png)   
+   ![](../media/image.png)   
 
 ## Task 2: Explore GitHub Copilot Tools
 
@@ -47,9 +47,9 @@ By leveraging the previously generated code, you will explore specific tools pro
 
 1. Press `CTRL + A` to select the entire code.
 
-1. Right click on the selected code, select **Copilot (1)** and select **Start in Editor (2)**.
+1. Right click on the selected code, select **Copilot (1)** and select **Editor Inline Chat (2)**.
 
-      ![](../media/py11.png)
+      ![](../media/app.py.png)
 
 1. The following window prompts you to suggest any improvements or enhancements you would like to make to the code. Paste the following **comments (1)** and click > or press **Enter (2)**. Copilot will give a response, and you can review it and click **Accept (3)**. Also, you can **Discard** the suggestion as depicted in the image below.
 
@@ -65,21 +65,21 @@ By leveraging the previously generated code, you will explore specific tools pro
 
       ![](../media/openterminal.png)
    
-1. Run the application with the **python code.py** command in the terminal and verify the output has been generated.
+1. Run the application with the **python app.py** command in the terminal and verify the output has been generated.
 
-      ![](../media/py5.png)
+      ![](../media/pythonapp.png)
 
-1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Explan This (2)**.
+1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Explan (2)**.
 
-   ![](../media/py12.png)
+   ![](../media/explain.png)
 
 1. It opens the GitHub Copilot Chat on the left, offering a comprehensive explanation of the code as show below.
 
       ![](../media/py6.png)
 
-1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Fix This (2)**.
+1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Fix (2)**.
 
-   ![](../media/py13.png)
+   ![](../media/fix.png)
 
 1. GitHub Copilot will automatically utilize the `/fix` comment to propose potential improvements to specific parts of code for enhancement. Click on **Accept** to utilize the fixes in your code.
 
@@ -87,7 +87,7 @@ By leveraging the previously generated code, you will explore specific tools pro
 
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Generate Docs (2)**.
 
-      ![](../media/py14.png)
+      ![](../media/docs.png)
 
 1. GitHub Copilot will automatically use the `/doc` comment to provide a breakdown of a specific line of code. Click on Accept to gain a deeper understanding while reviewing the code.
 
@@ -95,17 +95,17 @@ By leveraging the previously generated code, you will explore specific tools pro
 
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Generate Tests(2)**.
 
-      ![](../media/py15.png)
+      ![](../media/tests1.png)
 
 1. GitHub Copilot will automatically use the `/tests` comment and open a new tab named **REFACTOR REVIEW** and will suggest the tests that can be run to verify the output.
 
-      ![](../media/py9.png)
+      ![](../media/app3.png)
 
 1. Click on **Apply**.
 
-1. It will open a new file named **test_code.py**, displaying the test cases.
+1. It will open a new file named **test_app.py**, displaying the test cases.
 
-      ![](../media/py20.png)
+      ![](../media/testapp7.png)
 
       > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
       > - If you receive a success message, you can proceed to the next task.

@@ -182,13 +182,13 @@ In this lab, you will complete the following tasks:
 
 1. In the Visual Studio Code activity bar, click the **GitHub Copilot Chat icon** to open the GitHub Copilot Chat window.
 
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write a PowerShell script for deploying a storage account to Azure."
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write a PowerShell script for deploying a virtual machine to Azure."
 
-      ![](../media/createpowershell.png)
+      ![](../media/terraform56.png)
 
 1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
 
-      ![](../media/poweroutput.png)
+      ![](../media/output4.png)
 
       > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
@@ -198,7 +198,7 @@ In this lab, you will complete the following tasks:
    
 1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
 
-      ![](../media/powernewfile.png)
+      ![](../media/newfile.png)
 
 1. Press `CTRL + S` to save the file, and you will see a recommendation to install the `PowerShell` extension. Click on Install. Name the file `powershell.ps1` and click on **OK**.
 
