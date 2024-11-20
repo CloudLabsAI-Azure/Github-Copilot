@@ -102,7 +102,7 @@ GitHub Copilot is an AI-powered code completion tool that assists developers by 
 
       >**Note:** If you receive the pop-up **The Repository already exists**, please delete the existing one and perform the above step again. To delete the existing repository, navigate to the following link:
       
-      * [Delete the Repository](#DeletetheRepository)
+      - [Delete the Repository](#delete-the-repository)
       
       >**Note:**  In the absence of an existing repository, skip to the next step.
       
