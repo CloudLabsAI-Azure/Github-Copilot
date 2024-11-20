@@ -74,12 +74,13 @@ In this lab, you will complete the following tasks:
 1. In the project details section, add the following details:
 
    - Subscription - **Select the default subscription (1)**
-   - Resource Group - **Select JumpVM-RG-<inject key="Deployment-ID" enableCopy="false"/> (2)**
+   - Resource Group - **Select JumpVM-RG-<inject key="Deployment-id" enableCopy="false"/> (2)**
    - Region - **Select the default region. (3)**
-   - Storage Account Name - **Select storage<inject key="Deployment-ID" enableCopy="false"/> (4)**
+   - Storage Account Name - **storage<inject key="Deployment-id" enableCopy="false"/> (4)**
    - Location - **Select the same as the region (5)**
    - Sku - **Select the default sku (6)**
    - Click on **Review + Create (7)**
+   - Click on **Create**
 
      ![](../media/github6.png)
 
@@ -117,9 +118,9 @@ In this lab, you will complete the following tasks:
 
 1. Fill the below details for the appropriate field:
 
-   - Resource Group Name - **JumpVM-RG-<inject key="Deployment ID" enableCopy="false"/>** **(1)**
+   - Resource Group Name - **JumpVM-RG-<inject key="Deployment-id" enableCopy="false"/>** **(1)**
    - Region - **East US** **(2)**
-   - Storage Account Name - **storage<inject key="Deployment ID" enableCopy="false"/>** **(3)**
+   - Storage Account Name - **storage<inject key="Deployment-id" enableCopy="false"/>** **(3)**
 
        ![](../media/clone90.png)
      
@@ -153,12 +154,12 @@ In this lab, you will complete the following tasks:
 1. Run the below command to import the existing resource group
 
     ```
-    terraform import azurerm_resource_group.example /subscriptions/<subscription_id>/resourceGroups/JumpVM-RG-<Deployment ID">
+    terraform import azurerm_resource_group.example /subscriptions/<subscription_id>/resourceGroups/JumpVM-RG-<Deployment-id">
     ```   
 
      > **Note:** To fetch subscription id - Navigate to `portal.azure.com` , search for subscriptions and copy the id.
 
-     > **Note:** To fetch the deployment id, navigate to the **Environmental Details** tab in the vm and copy the DID.
+     > **Note:** To fetch the Deployment-id, navigate to the **Environmental Details** tab in the vm and copy the DID.
 
 1.  Run the below command to execute planned actions, creating ot updating infrastructure resources.
 
@@ -174,7 +175,7 @@ In this lab, you will complete the following tasks:
 
     ![](../media/clone3.png)
   
-1. Verify **storage<inject key="Deployment ID" enableCopy="false"/>** is created.
+1. Verify **storage<inject key="Deployment-id" enableCopy="false"/>** is created.
 
     ![](../media/sto1.png)
    
