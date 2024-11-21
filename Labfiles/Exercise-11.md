@@ -83,7 +83,7 @@ You will be able to complete the following tasks:
 
 1. Run the application with the **python app.py** command in the terminal.
 
-   ![](../media/vs17.png)
+   ![](../media/E11T3S3-2111.png)
 
 ### Summary
 

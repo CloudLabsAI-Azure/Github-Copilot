@@ -72,11 +72,11 @@ You will be able to complete the following tasks:
    
 1. Review the response and understand the uses of cron syntax.
 
-      ![](../media/hub11.png)
+      ![](../media/E8T2S5-2111.png)
 
 1. Offer another query: `How should a GitHub Actions YAML file be structured?` and evaluate the provided response.
 
-   ![](../media/hub12.png)
+   ![](../media/E8T2S6-2111.png)
    
 1. Provide additional cues to analyze and better understand the code.
    

@@ -108,7 +108,7 @@ You will be able to complete the following tasks:
 
 1. Type the prompt `#selection How can we refactor this code to adhere to coding best practices?` then press **Enter**. The GitHub Copilot Chat will give the response as shown below.
 
-   ![](../media/hub7.png)
+   ![](../media/E5T2S4-2111.png)
 
 1. Paste the refactored code in the file.
 
@@ -249,13 +249,13 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
    }
     ```
 
-1. Let's ask Copilot the below question to understand which conditional statement is a better choice in this circumstance.
+1. Let's ask Copilot the below question to understand which conditional statement is a better choice in this circumstance. 
    
     ```
     In this scenario, is it more appropriate to use a switch statement or if-else statements?
     ```
 
-   ![](../media/hub6.png)
+   ![](../media/E5T4S2.png)
 
 1. As the switch statement is more readable and easier to maintain when dealing with multiple discrete choices, let's copy and paste the code in the file and click on `Ctrl+S`.
 
@@ -275,17 +275,17 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. The GitHub Copilot Chat will generate the code as shown below.
 
-   ![](../media/coderefactor.png)
+   ![](../media/E5T5S4-2111.png)
 
 1. Copy and paste the code in the file named **test.js** that you just created.
 
-1. Now, to generate test cases for each function, select the function for which the test case has to be generated, and back in the GitHub Copilot Chat window, type **/tests** and hit enter.
+1. Now, to generate test cases for each function, select the function for which the test case has to be generated, and back in the GitHub Copilot Chat window, type **/tests** and hit enter 2 times..
 
-   ![](../media/test1.png)
+   ![](../media/E5T5S6-2111.png)
 
 1. It will generate a test case for the add function.
 
-   ![](../media/addcode1.png)
+   ![](../media/E5T5S7-2111.png)
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - If you receive a success message, you can proceed to the next task.
