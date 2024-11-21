@@ -25,27 +25,28 @@ In this exercise, you will be generating documentation using GitHub Copilot.
       ![](../media/hub20.png)
 
 1.  Copilot will give a response, and you can review it , click **Accept**, and press `CTRL + S` to save the file.
-
-       ![](../media/hub21.png)
+     
+      ![](../media/hub21.png)
 
 1.  Observe how Copilot has generated the Mermaid diagrams and included the reference links as per our request.
-
-       ![](../media/hub22.png)
+     
+      ![](../media/hub22.png)
     
-       ![](../media/hub23.png)
+      ![](../media/hub23.png)
 
 1. Right-click on the **Document.md** file, and select **open the integrated terminal**.
 
 1. Provide the below commands, to push the changes to GitHub.
 
     ```
-    Git add .
+    git add .
 
-    Git commit -m "files"
+    git commit -m "files"
 
-    Git Push
+    git push
     ```
-    
+ >**Note**: If you receive any error in git push command, please execute the  command _git pull origin main --no-rebase_ first and then perform the git push again.
+
 ## Summary
 
 In this exercise, you have successfully generated a document using GitHub Copilot Chat.
