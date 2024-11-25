@@ -71,11 +71,11 @@ By leveraging the previously generated code, you will explore specific tools pro
 
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Explain (2)**.
 
-   ![](../media/hub65.png)
+   ![](../media/explain.png)
 
 1. It opens the GitHub Copilot Chat on the left, offering a comprehensive explanation of the code as show below.
 
-      ![](../media/py6.png)
+      ![](../media/hub65.png)
 
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Fix (2)**.
 
