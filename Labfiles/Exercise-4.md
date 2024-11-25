@@ -57,7 +57,17 @@ In this lab, you will complete the following tasks:
 
    ![](../media/arm-save.png)
 
-1.  After saving the file, navigate to `portal.azure.com`.
+1.  After saving the file, open the azure portal icon from the desktop.
+
+1. On the **Sign in to Microsoft Azure tab**, you will see a login screen. Enter the following email/username and then click on **Next**.
+
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+1. Now enter the following password and click on **Sign in**.
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+1. If you see the pop-up **Stay Signed in?**, click No.
 
 1. Search for **deploy(1)** and select **Deploy a custom template(2)**.
 
@@ -120,7 +130,7 @@ In this lab, you will complete the following tasks:
 
    - Resource Group Name - **JumpVM-RG-<inject key="Deployment-id" enableCopy="false"/>** **(1)**
    - Region - **East US** **(2)**
-   - Storage Account Name - **storage<inject key="Deployment-id" enableCopy="false"/>** **(3)**
+   - Storage Account Name - **storagenew<inject key="Deployment-id" enableCopy="false"/>** **(3)**
 
        ![](../media/clone90.png)
      
