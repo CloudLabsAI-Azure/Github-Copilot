@@ -29,7 +29,7 @@ In this lab, you will complete the following tasks:
    Create a simple calculator that can add, subtract, multiply or divide depending upon the input from the user.
    ```
 
-   ![](../media/py2.png)
+   ![](../media/hub66.png)
 
 1. Press `CTRL + S` to save the file.
 
@@ -71,7 +71,7 @@ By leveraging the previously generated code, you will explore specific tools pro
 
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Explain (2)**.
 
-   ![](../media/explain.png)
+   ![](../media/hub65.png)
 
 1. It opens the GitHub Copilot Chat on the left, offering a comprehensive explanation of the code as show below.
 
