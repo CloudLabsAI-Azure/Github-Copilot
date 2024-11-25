@@ -209,7 +209,7 @@ In this lab, you will complete the following tasks:
    
 1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
 
-      ![](../media/newfile.png)
+      ![](../media/hub72.png)
 
 1. Press `CTRL + S` to save the file, and you will see a recommendation to install the `PowerShell` extension. Click on Install. Name the file `powershell.ps1` and click on **OK**.
 
