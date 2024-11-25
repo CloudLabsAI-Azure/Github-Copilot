@@ -49,15 +49,19 @@ In this lab, you will complete the following tasks:
 
     > **Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
    
-1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
+1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** and select **Insert Into New File**.
 
-   ![](../media/arm-new-file.png)
+   ![](../media/hub67.png)
 
+   ![](../media/hub62.png)
+   
 1. Press `CTRL + S` to save the file. Name the file `arm.json` and click on **OK**
 
    ![](../media/arm-save.png)
 
 1.  After saving the file, open the azure portal icon from the desktop.
+
+    ![](../media/hub60.png)   
 
 1. On the **Sign in to Microsoft Azure tab**, you will see a login screen. Enter the following email/username and then click on **Next**.
 
