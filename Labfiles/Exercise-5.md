@@ -32,7 +32,13 @@ You will be able to complete the following tasks:
 
    ![](../media/csharp-install.png)
 
-1. To demonstrate the GitHub code refactor, let us take an example of a poorly written code and analyze it. The below code is written using the C# programming language.
+1. From the codespace in the VS Code Explorer window, create a new file and name it as **codechat.cs**.
+
+      ![](../media/chat-code-new.png)
+
+      > **Note**: If you notice any recommendation to install the C# extension. Click on Install.
+
+1. To demonstrate the GitHub code refactor, let us take an example of a poorly written code and analyze it. The below code is written using the C# programming language. Paste the below code in the file.
     
    ```
    using System;
@@ -97,12 +103,6 @@ You will be able to complete the following tasks:
 ## Task 2: Use GitHub Copilot to refactor the code
 
 1. Now, let's use the **GitHub Copilot Chat** feature to refactor the above code.
-
-1. From the codespace in the VS Code Explorer window, create a new file and name it as **codechat.cs**.
-
-      ![](../media/chat-code-new.png)
-
-      > **Note**: If you notice any recommendation to install the C# extension. Click on Install.
 
 1. Click on the **Chat** icon on the top right. This opens the GitHub Copilot Chat window into which the above code is to be **pasted**.
 
