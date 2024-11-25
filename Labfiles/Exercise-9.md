@@ -10,6 +10,15 @@ In this exercise, you will be generating documentation using GitHub Copilot.
 
 >**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
 
+## Lab objectives
+
+You will be able to complete the following tasks:
+
+- Task 1: Generate a README file with GitHub Copilot using comments
+- Task 2: Push code to your repository from the codespace
+
+### Task 1: Generate a README file with GitHub Copilot using comments
+
 1. From inside the codespace in the VS Code Explorer window, create a new file and name the file as `Document.md`.
 
     ![](../media/chat-code-new.png)
@@ -34,7 +43,7 @@ In this exercise, you will be generating documentation using GitHub Copilot.
     
        ![](../media/hub23.png)
 
-1. Right-click on the **Document.md** file, and select **open the integrated terminal**.
+### Task 2: Push code to your repository from the codespace
 
 1. Run the below command to add the files :
 
@@ -55,6 +64,6 @@ In this exercise, you will be generating documentation using GitHub Copilot.
     
 ## Summary
 
-In this exercise, you have successfully generated a document using GitHub Copilot Chat.
+In this exercise, you have successfully generated a document using GitHub Copilot Chat and pushed the code to your repository.
 
 ### You have successfully completed the lab
