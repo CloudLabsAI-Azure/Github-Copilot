@@ -199,11 +199,9 @@ In this lab, you will complete the following tasks:
 
 1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write a PowerShell script for deploying a virtual machine to Azure."
 
-      ![](../media/terraform56.png)
-
 1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
 
-      ![](../media/output4.png)
+      ![](../media/hub71.png)
 
       > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
