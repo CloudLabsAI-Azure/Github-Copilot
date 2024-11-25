@@ -1,4 +1,4 @@
-# Exercise 10: Using GitHub Copilot Workspace and File Reference
+# Exercise 10: Using GitHub Copilot Workspace and File Reference [Optional]
 
 ### Estimated Duration: 30 minutes
 
