@@ -36,14 +36,21 @@ In this exercise, you will be generating documentation using GitHub Copilot.
 
 1. Right-click on the **Document.md** file, and select **open the integrated terminal**.
 
-1. Provide the below commands, to push the changes to GitHub.
+1. Run the below command to add the files :
 
     ```
-    Git add .
+    git add .
+    ```
+1. Run the below command to commit the files :
 
-    Git commit -m "files"
+    ```
+    git commit -m "files"
+    ```
 
-    Git Push
+1. Run the below command to push the files :
+
+    ```
+    git push
     ```
     
 ## Summary
