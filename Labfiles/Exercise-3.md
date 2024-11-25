@@ -69,7 +69,7 @@ By leveraging the previously generated code, you will explore specific tools pro
 
       ![](../media/pythonapp.png)
 
-1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Explan (2)**.
+1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Explain (2)**.
 
    ![](../media/explain.png)
 
