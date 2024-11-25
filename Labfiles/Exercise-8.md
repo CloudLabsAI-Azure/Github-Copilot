@@ -14,7 +14,6 @@ You will be able to complete the following tasks:
 
 - Task 1: Generate a SQL query with GitHub Copilot using comments
 - Task 2: Generate YAML with GitHub Copilot using comments
-- Task 3: Push code to your repository from the codespace
 
 ### Task 1: Generate a SQL query with GitHub Copilot using comments
 
@@ -49,8 +48,6 @@ You will be able to complete the following tasks:
 
 1. Press Ctrl+S to save the file.
 
-
-
 ### Task 2: Generate YAML with GitHub Copilot using comments
    
 1. From inside the codespace in the VS Code Explorer window, create a new file and name the file as `report.yml`
@@ -81,8 +78,6 @@ You will be able to complete the following tasks:
 1. Offer another query: `How should a GitHub Actions YAML file be structured?` and evaluate the provided response.
 
    ![](../media/hub12.png)
-   
-1. Provide additional cues to analyze and better understand the code.
    
 ### Summary
 
