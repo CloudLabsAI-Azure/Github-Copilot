@@ -31,17 +31,17 @@ You will be able to complete the following tasks:
     Create a markdown document for a sample Node.js application with mermaid diagrams and reference links
     ```
 
-      ![](../media/hub20.png)
+    ![](../media/hub20.png)
 
 1.  Copilot will give a response, and you can review it , click **Accept**, and press `CTRL + S` to save the file.
 
-       ![](../media/hub21.png)
+    ![](../media/hub21.png)
 
 1.  Observe how Copilot has generated the Mermaid diagrams and included the reference links as per our request.
 
-       ![](../media/hub22.png)
+    ![](../media/hub22.png)
     
-       ![](../media/hub23.png)
+    ![](../media/hub23.png)
 
 ### Task 2: Push code to your repository from the codespace
 
