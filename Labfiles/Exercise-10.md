@@ -31,23 +31,13 @@ In this lab, you will complete the following tasks:
 
 The Github Copilot Workspace can not only provide the instructions, answers, or detailed code snippets regarding the queries you submit to it, but it can also create the complete workspace of an application from scratch. Here, you will be creating a new simple React app named **Expense Tracker** to track the expenses of the users and also modify (edit) or delete them, all with the help of the **GitHub Copilot Workspace**. You will be debugging the app using this feature itself and verifying that the app runs successfully in your local environment. To create the `Expense Tracker` app using the **GitHub Copilot workspace**, follow the below steps:
 
-1. In the LABVM desktop, select Visual Studio Code.
+1. Click on **New Folder**.
    
-1. Navigate back to VS Code, click on **File (1)** and click on **Open Folder (2)**.
+1. Name the folder as **DemoApp**.
 
-   ![](../media/clone5.png)
-   
-1. Navigate to `C:\LabFiles` and select the **DemoApp** folder.
+1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon on the top right to open the GitHub Copilot Chat window.
 
-      ![](../media/clone80.png)
-
-1. Click on **Yes, i trust the authors** when the following pop-up comes.
-
-      ![](../media/clone100.png)
-   
-1. From the left pane, select the **Chat** icon. You will be provided with the **Github Copilot** welcome chat window.
-
-    ![](../media/file9.png)
+    ![](../media/hub64.png)
 
 1. Provide the prompt, `Create a workspace for the Expense Tracker application with all the necessary files and code.` and hit **Send**. 
 
@@ -55,7 +45,7 @@ The Github Copilot Workspace can not only provide the instructions, answers, or 
 
       ![](../media/clone101.png)
 
-1. Now, create the workspace for your **Expense Tracker** application by creating the required files and folders. To do so, select **Explorer** from the left pane, and choose the appropriate file or folder icons to create a new file or folder as per the workspace structure of your application.
+1. Now, create the workspace for your **Expense Tracker** application by creating the required files and folders. To do so, create the appropriate file or folder icons to create a new file or folder as per the workspace structure of your application.
 
     ![](../media/file12.png)
 
