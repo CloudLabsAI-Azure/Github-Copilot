@@ -114,8 +114,6 @@ In this lab, you will complete the following tasks:
 
 1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For instance, type "Write a Terraform code for deploying a storage account to Azure with the code explanation".
 
-   ![](../media/create-terraform.png)
-
 1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window.
 
     ![](../media/terraform.png)
