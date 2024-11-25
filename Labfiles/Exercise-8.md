@@ -45,7 +45,11 @@ You will be able to complete the following tasks:
    -- show the data in customers table
    ```
 
-1. Click on Enter and click on Tab to select the suggestion.
+1. Click on Enter and click on `Tab` to select the suggestion.
+
+1. Press Ctrl+S to save the file.
+
+
 
 ### Task 2: Generate YAML with GitHub Copilot using comments
    
