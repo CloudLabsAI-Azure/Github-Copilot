@@ -43,8 +43,6 @@ In this lab, you will complete the following tasks:
 
     ![](../media/hub62.png)
 
-    ![](../media/arm-output2.png)   
-
     > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
     > **Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot a question or type / for topics** text box, click the follow-up question to ask it.
