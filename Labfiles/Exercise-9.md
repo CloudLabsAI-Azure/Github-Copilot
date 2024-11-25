@@ -47,7 +47,7 @@ In this exercise, you will be generating documentation using GitHub Copilot.
     git commit -m "files"
     ```
 
-1. Run the below command to push the files :
+1. Run the below command to push all the files to the repository :
 
     ```
     git push
