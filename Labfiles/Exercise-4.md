@@ -63,6 +63,14 @@ In this lab, you will complete the following tasks:
 
     ![](../media/hub60.png)   
 
+1. If the window opens within the existing session, click the **Profile** icon in the top-right corner and select **Sign in with a different account**.
+
+    ![](../media/hub100.png)   
+
+1. Click on **Use Another Account**.
+
+    ![](../media/hub101.png)   
+
 1. On the **Sign in to Microsoft Azure tab**, you will see a login screen. Enter the following email/username and then click on **Next**.
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
@@ -71,7 +79,11 @@ In this lab, you will complete the following tasks:
 
    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-1. If you see the pop-up **Stay Signed in?**, click No.
+1. If you see the pop-up **Stay Signed in?**, click **No**.
+
+1. Select **Cancel** on the **Welcome to Azure** page.
+
+    ![](../media/hub102.png) 
 
 1. Search for **deploy(1)** and select **Deploy a custom template(2)**.
 
