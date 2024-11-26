@@ -1,130 +1,251 @@
-# Exercise 10: Using GitHub Copilot Workspace and File Reference [Optional]
+# Exercise 10: Working with the Copilot for Machine Learning [Optional]
 
 ### Estimated Duration: 30 minutes
 
-As a software developer at **Contoso Ltd.**, a leading software development company, you are always looking for ways to enhance your coding efficiency and the overall quality of your code. After successfully exploring the basic features of **GitHub Copilot** and using it to develop and deploy an application to Azure, you now turn your focus to some of the advanced features of this AI-powered coding assistant.
+Working with Copilot for machine learning involves leveraging GitHub Copilot, an AI-powered code completion tool developed by GitHub in collaboration with OpenAI. Here's a quick summary of the key steps and considerations:
 
-In this challenge, you are specifically tasked with exploring and utilizing the three key features of the **GitHub Copilot**: the **workspace** and the **file reference**. Understanding and utilizing these features can significantly boost your productivity and efficiency in coding by providing more accurate, context-aware code suggestions.
+Installation: Ensure you have GitHub Copilot installed as an extension in your integrated development environment (IDE), such as Visual Studio Code.
 
-- **GitHub Copilot Workspace:** **GitHub Copilot Workspace** is an advanced feature of **GitHub Copilot**, an AI-powered code completion tool. The workspace in GitHub Copilot refers to the current working directory where your code files reside.
+GitHub Integration: Link your IDE to your GitHub account to enable seamless integration. This allows Copilot to access your code repositories and provide context-aware suggestions.
 
-   When you're coding, **GitHub Copilot** utilizes the information in your workspace to generate contextually relevant code suggestions. This means that it takes into account the specifics of your current project, such as the code files, libraries, and dependencies that are present in your workspace, to provide you with the most suitable code completions. This feature makes **GitHub Copilot** an intelligent coding assistant that not only understands the syntax and language semantics but also the context of your project, which results in more accurate and helpful code suggestions.
-   By effectively using the **Workspace** feature, developers can improve their coding efficiency, reduce errors, and create higher-quality code.
+Machine Learning Frameworks: Copilot supports various Machine Learning libraries and frameworks like TensorFlow, PyTorch, scikit-learn, and more. It can assist with code generation for tasks like data preprocessing, model building, and evaluation.
 
-- **File referencing in GitHub Copilot:** **File referencing in GitHub Copilot** refers to the AI's ability to understand and interpret the context of your project by considering the information in other files within your workspace.
+In this exercise, you will be cloning the Git repository with the required dataset into your environment. Here, you will be working with Copilot for Machine Learning, which involves leveraging GitHub Copilot.
 
-   When you're working on a specific file in your codebase, **GitHub Copilot** can take into account the information, functions, classes, or variables defined in other files of your project. This means it doesn't just provide suggestions based on the current file you're working on; it can also reference other files to give you more accurate and relevant code completions. This feature is particularly useful when you're working on large projects where code is spread across multiple files. GitHub Copilot's ability to reference other files allows it to better understand the bigger picture of your project, resulting in more context-aware suggestions. This can significantly improve your coding efficiency and the overall quality of your code.
+>**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
-Whether you are a seasoned developer looking to enhance your coding efficiency or a beginner seeking to improve your coding skills, this lab will provide valuable insights into how **GitHub Copilot** can be a powerful tool in your coding journey. By the end of this challenge, you aim to demonstrate to **Contoso Ltd.** how these advanced features of **GitHub Copilot** can significantly enhance coding efficiency and the overall quality of code, further reinforcing the benefits of integrating AI into the development workflow. Let's get started!
+>**Note**: Before proceeding with the exercise, make sure you have installed Python and pip packages.
 
->**Note:** The results produced by **GitHub Copilot** for this particular task may not precisely align with your outcomes. This discrepancy occurs because **Github Copilot** is an AI-driven tool that can yield variable outputs from time to time.
-
+>**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+You will be able to complete the following tasks:
 
-* Task 1: Utilizing the GitHub Copilot Workspace to Create a New Application Workspace
-* Task 2: Utilize the Capabilities of File Referencing
-  
-## Task 1: Utilizing the GitHub Copilot Workspace to Create a New Application Workspace
+- Task 1: Prerequisites and Injecting the Required Dataset into Your Environment
+- Task 2: Auto_Completion of Code with Different Experiments
+- Task 3: Mathematical and Machine Learning with Different Examples
+- Task 4: Data Visualization and Data Transformation
+- Task 5: Training the sample model
 
-The Github Copilot Workspace can not only provide the instructions, answers, or detailed code snippets regarding the queries you submit to it, but it can also create the complete workspace of an application from scratch. Here, you will be creating a new simple React app named **Expense Tracker** to track the expenses of the users and also modify (edit) or delete them, all with the help of the **GitHub Copilot Workspace**. You will be debugging the app using this feature itself and verifying that the app runs successfully in your local environment. To create the `Expense Tracker` app using the **GitHub Copilot workspace**, follow the below steps:
+### Task 1: Prerequisites and Injecting the Required Dataset into Your Environment
 
-1. Click on **New Folder**.
+1. Open VS Code Terminal by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
+
+   ![](../media/ex-8-openterminal.png)
+
+1. Clone the below git repository in your environment.
+
+   ```
+   git clone https://github.com/CloudLabsAI-Azure/ml-copilot-workshop.git
+   ```
+
+1. Change the directory in the terminal by running the below command:
+
+   ```
+   cd ml-copilot-workshop
+   ```
+
+1. To install all the required Python dependencies in your environment before working with Copilot run the below command in your terminal:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+### Task 2: Auto_Completion of Code with Different Experiments
+
+1. From the VS Code explorer window, right-click on the folder named **ml-copilot-workshop** **(1)** and click on **New File**. Name the file `Experiments.ipynb` **(2)** and verify that your new file looks as shown below:
+
+   ![](../media/ex-8-create-file.png)
+
+1. Type the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press "enter" to get into the next line and review the suggestion, press "tab" and click on **Run** button to execute the cell.
+
+   ```
+   # Import libraries with respect to loading data and creating a random forest model
+   import pandas as pd
+   ```
+
+   ![](../media/ex-8-import-lib-1.png)
+
+   >**Note**: Ensure to select the Kernel and click on Python 3.12.
+
+      ![](../media/hub1.png)
+
+      ![](../media/hub2.png)
+
+1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell.
+
+   ![](../media/ex8-add-cell-new-1.png)
+
+   >**Note**: While running the cell, you may need to install the required packages and select the kernel.
+
+1. Type the below comments to load the data using the Copilot prompt. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
+
+   ```
+   # Load the data from a csv file, and the name of the file is diabetes.csv
+   ```
+
+    ![](../media/ex8-load-data-1-2.png)
+
+1. Now click on **+Code** and move on to the next task.
+
    
-1. Name the folder as **DemoApp**.
+### Task 3: Mathematical and Machine Learning with Different Examples
 
-1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon on the top right to open the GitHub Copilot Chat window.
+### Task 3.1: Mathematical Operations
 
-    ![](../media/hub64.png)
+1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
-1. Provide the prompt, `Create a workspace for the Expense Tracker application with all the necessary files and code.` and hit **Send**. 
+   ```
+   # Mathematical operations on the dataset, like generating the birth year from age
+   ```
 
-      ![](../media/ref10.png)
+   ![](../media/ex9-birthyear.png)
 
-      ![](../media/clone101.png)
+   >**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
 
-1. Now, create the workspace for your **Expense Tracker** application by creating the required files and folders. To do so, create the appropriate file or folder icons to create a new file or folder as per the workspace structure of your application.
+1. Type the below comment, Press "enter" to get into the next line and review the suggestion, and press "tab" to get the output similar to the below image and click on **Run** button to execute the cell. 
 
-    ![](../media/file12.png)
+   ```
+   # Show the new column
+   ```
 
-1. The workspace structure for your **Expense Tracker** application would look similar to this, as per the output generated by the **GitHub Copilot Workspace**:
+   ![](../media/ex9-birthyear-output.png)
 
-    ![](../media/file13.png)
+1. Type the below comments to convert the BMI column up to two decimal values, press "tab". Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
-1. Scroll down in the chat to find the content that has to be pasted for the respective files.
-   
-    ![](../media/ref12.png)
+   ```
+   # Convert the BMI column to two decimal values
+   ```
 
-    >**Note:** Read the output generated by the **Copilot** properly and make sure you install all the required packages if asked by the Copilot, before running your application.
+   ![](../media/ex9-bmi-decimal.png)
 
-1. Do the same for all the required components of your applications suggested by the **GitHub Copilot Workspace** in the **GitHub Copilot Chat**, and complete all the components.
+1. In the same code cell, type the below comment. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
-1. Make sure to utilize the **GitHub Copilot Workspace** in case of any errors in any of the components of your application. Let's say an issue appears in the **app.js** file of your application. Then you can provide a similar prompt as given to know the reason behind the error and use the advanced capabilities of the **GitHub Copilot Workspace** to rectify the error: `@workspace. Fix the issue in the app.js file.`
+   ```
+   # Show the new column only
+   ```
 
-    >**Note:** Make sure you use the **@workspace** command in the chatbox to utilize the workspace feature so that it can analyze the whole workspace files and directories of your application and provide you with the best resolution for the error that doesn't conflict with any other component.
+   ![](../media/ex9-bmi-decimal-output.png)
 
-1. You will get an output similar to this:
 
-    ![](../media/file16.png)
+### Task 3.2: Machine Learning
 
-    Go through the response and resolve the errors using the steps provided in it.
+1. Type the below comments to perform the data analysis and summary statistics on dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
-1. Now, when all the errors have been fixed, you can ask Copilot how to run your application by prompting `@workspace. How can I run this app?` and submitting it.
+   ```
+   # Perform count, min, max, std, mean, 25%, 50%, and 75% on the dataset
+   ```
 
-    Follow the steps provided by it and run your application.
+   ![](../media/ex8-machine-learning-dataset.png)
 
-    ![](../media/file17.png)
+1. Once the cell run is completed, you will get an output similar to the below image.
 
-1. You can also check if all the pre-requisites required to run your **Expense Tracker** app are already in place by providing the Copilot with the prompt `@workspace. What are the prerequisites I should install to run this app?`
+   ![](../media/ex8-machine-learning-output.png)
 
-    ![](../media/file18.png)
+1. Before building the model, the main frame is to split the data into train tests and splits and this would be done by Copilot itself. Type the below comments. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
-    Closely review the response generated by the **GitHub Copilot** using its workspace feature and make sure that all these prerequisites are installed. If not, install them using the steps mentioned in your answer.
+   ```
+   # Split the data into training and testing data and the column name Diabetic is the target column
+   ```
 
-1. Run the application, and it will open in your **Edge** browser as below:
+   ![](../media/ex9-train-data.png)
 
-    ![](../media/file19.png)
+   ![](../media/ex9-train-data-1.png)
 
-## Task 2: Utilize the Capabilities of File Referencing
 
-**File Referencing in GitHub Copilot** refers to the AI's ability to understand and interpret the context of your project by considering the information in other files within your workspace.
+### Task 4: Data Visualization and Data Transformation
 
-When you're working on a specific file in your codebase, **GitHub Copilot** can take into account the information, functions, classes, or variables defined in other files of your project. This means it doesn't just provide suggestions based on the current file you're working on; it can also reference other files to give you more accurate and relevant code completions. This feature is particularly useful when you're working on large projects where code is spread across multiple files. **GitHub Copilot's** ability to reference other files allows it to better understand the bigger picture of your project, resulting in more context-aware suggestions. This can significantly improve your coding efficiency and the overall quality of your code.
+### Task 4.1: Data Visualization
 
-In this task, you will be utilizing the **GitHub Copilot File Referencing** capability to enhance coding efficiency by providing contextually relevant code suggestions. To use the File Referencing feature, follow the below steps:
+1. Click on **+Code** to open the new cell and type the below comments to perform the basic operations on dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
-1. From the left pane, select the **Chat** icon. You will be provided with the **GitHub Copilot** welcome chat window.
+   ```
+   # Perform univariate analysis on the dataset and plot the graphs
+   ```
 
-    ![](../media/file20.png)
+   ![](../media/ex9-basic-operation.png)
 
-1. In the textbox, enter **@** **(1)** and select **Workspace** **(2)** to activate the **GitHub Copilot Workspace** agent. You need this agent to analyze your whole workspace so that it can provide accurate answers and the related code blocks by referencing the correct files.
+1. Once the cell run is completed, you will be getting a graphical representation output similar to the below image.
 
-    ![](../media/file21.png)
+   ![](../media/ex9-basic-opration-graph-output.png)
 
-1. Now, you can use the following prompt to understand how the file referencing feature works in **GitHub Copilot**. It can accurately provide the answer for the file to which you refer: `What is the purpose of the index.js file in my project?`
+1. Now, type the below comments for specifying certain commonly used plots for visualization. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
 
-    The **GitHub Copilot** will make reference to the information, functions, classes, or variables defined in the file you asked the question about and will provide you with a detailed explanation of what is in the **index.js**. Not just the explanation; it will also provide you with the related code accompanied by the answer, referenced in the provided file.
+   ```
+   # Perform scatter plot on the dataset and plot the graphs
+   ```
 
-    The **GitHub Copilot** also automatically references the additional files in your project that may be required to provide you with the best answer. To get information about those files, select **Used n references** (where **n** is the total number of files referenced from your current project) present at the start of the answer and see all the files that **GitHub Copilot** referenced to provide you with the answer.
+   ![](../media/ex9-scatter-graph.png)
 
-    ![](../media/file22.png)
+1. Type the below comments for performing Joint Plot or Grid (rarely used plots) for visualization. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
 
-    Some more prompts that you can provide to understand the feature of file referencing are:
+   ```
+   # Perform Joint Grid plot on the dataset and plot the graphs
+   ```
 
-    ```
-    @workspace What does the ExpenseList.js file do in my application?
-    ```
-    ```
-    @workspace What is the purpose of the app.js file in my project?
-    ```
-    ```
-    @workspace How can I change the CSS for my application?
-    ```
+   ![](../media/ex9-jointgrid-graph.png)
 
-## Review
+   ![](../media/ex9-jointgrid-graph-output.png)
 
-In this lab, you have used GitHub Copilot to create an application workspace with file referencing.
+1. Type the below comments for performing visualization on all features of the dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
 
-## You have successfully completed the lab
+   ```
+   # Perform comparison on all features of the dataset and plot the graphs in a single plot using heatmap
+   ```
+
+   ![](../media/ex9-heatmap.png)
+
+   ![](../media/ex9-heatmap-output.png)
+
+
+### Task 4.2: Data Transformations
+
+
+1. Click **+Code** to add a new cell and type the below comments for Standardization which is the process of scaling and centering numeric features to have a mean of 0 and a standard deviation of 1, making them comparable and suitable for certain algorithms. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button
+
+   ```
+   # Perform standardization on the data
+   ```
+
+   ![](../media/ex9-standardization.png)
+
+   ![](../media/ex9-standardization-new.png)
+
+1. You will get the output as shown in the below-given image once the code cell finishes running.
+
+   ![](../media/ex9-standardization-output.png)
+
+
+### Task 5: Training the sample model
+
+Training a sample model using Random Forest.
+
+>**Note**: The model training is a continuation of the train test split step to train the model; run the train test split step first and then continue with the model building.
+
+1. Click **+ Code** to add a new cell and type the below comments for creating the random forest model. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button
+
+   ```
+   # Create a random forest model with 100 trees, and the criterion is entropy
+   ```
+
+   ![](../media/ex9-entropy.png)
+
+   ![](../media/ex9-entropy-1.png)
+
+   ![](../media/ex9-entropy-2.png)
+
+1. In a new cell type the below comments for calculating the accuracy of the model. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button
+
+   ```
+   # Calculate the accuracy of the model
+   ```
+
+   ![](../media/ex9-accuracy.png)
+
+
+### Summary
+
+In this exercise, you have successfully leveraged the GitHub Copilot for Machine Learning.
+
+### You have successfully completed the lab
