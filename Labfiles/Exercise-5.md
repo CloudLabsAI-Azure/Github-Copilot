@@ -292,7 +292,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-    <validation step="8357b601-4d37-4a08-b8c5-c03df620fdc4" />
+    <validation step="63b58bcb-6618-4e56-96ac-9f5c75041295" />
 
 ## Summary
 
