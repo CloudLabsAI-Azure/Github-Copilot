@@ -153,7 +153,7 @@ GitHub Copilot can understand significantly more context than most code assistan
       > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
       > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-      <validation step="364115e7-deff-4c32-96e9-fa5d2122a86f" />
+      <validation step="5055e2d4-be60-47f4-acab-c0dde92b4baa" />
         
 ### Summary
 
