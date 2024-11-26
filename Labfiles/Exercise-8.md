@@ -59,7 +59,7 @@ You will be able to complete the following tasks:
    - Encryption: Check the box for **Trust server certificate (3)**
    - Click on **Connect (4)**
 
-       ![](../media/hub109.png)
+       ![](../media/hub115.png)
      
 1. Once you are connected to the server, click on **New Query** on the top.
 
@@ -69,7 +69,7 @@ You will be able to complete the following tasks:
 
 1. Paste it in the new query page.
 
-1. Select each **block of code (1)** and click on **Execute (2)**. Observe how each block of code provides an successful output in the terminal.
+1. Select each **block of code (1)** and click on **Execute (2)**. Notice how each block of code executes successfully, producing the expected output in the terminal.
 
    ![](../media/hub111.png)
 
