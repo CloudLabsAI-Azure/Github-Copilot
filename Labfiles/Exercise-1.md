@@ -74,7 +74,13 @@ You will be able to complete the following tasks:
 
    ![](../media/inn-2.png)
 
-8. At the bottom right corner, you will get a prompt to sign in to GitHub.
+8. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
+
+    ![](../media/verify-copilot.png)
+
+   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
+
+9. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
    ![](../media/signingit.png)
 
@@ -82,27 +88,21 @@ You will be able to complete the following tasks:
 
       ![](../media/3.png)
 
-9. Next, once you get the popup, click on **Allow**
+10. Next, once you get the popup, click on **Allow**
 
    ![](../media/allow.png)
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
-10. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
+11. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
 
     ![](../media/Exercise-01-v2-02.png)
 
-11. Next, once you get the popup, click on **Allow**
+12. Next, once you get the popup, click on **Allow**
 
-12. Verify your codespace is running. Make sure the VS code looks as shown below:
+13. Verify your codespace is running. Make sure the VS code looks as shown below:
 
     ![](../media/loaded-repo.png)
-
-13. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
-
-    ![](../media/verify-copilot.png)
-
-   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - If you receive a success message, you can proceed to the next task.
