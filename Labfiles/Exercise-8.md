@@ -46,8 +46,41 @@ You will be able to complete the following tasks:
 
 1. Click on Enter and click on `Tab` to select the suggestion.
 
-1. Press Ctrl+S to save the file.
+1. Press `Ctrl+S` to save the file.
 
+1. Click on the Windows Start icon and, expand **Microsoft SQL Server Tools 20 (1)** folder and select **SQL Server Management Studio 20 (2)** .
+
+   ![](../media/hub106.png)
+
+1. Ensure the following details are added:
+
+   - Server name: **labvm-<inject key="Deployment-id" enableCopy="false"/>\SQLEXPRESS (1)**
+   - Authetication: **Windows Authentication (2)**
+   - Encryption: Check the box for **Trust server certificate (3)**
+   - Click on **Connect (4)**
+
+       ![](../media/hub109.png)
+     
+1. Once you are connected to the server, click on **New Query** on the top.
+
+   ![](../media/hub110.png)
+
+1. Navigate to the **Visual Studio Code** and copy all the content we have feteched in `demo.sql`.
+
+1. Paste it in the new query page.
+
+1. Select each **block of code (1)** and click on **Execute (2)**. Observe how each block of code provides an successful output in the terminal.
+
+   ![](../media/hub111.png)
+
+   ![](../media/hub112.png)
+
+   ![](../media/hub113.png)
+   
+1. You can observe how it processes each block of code and displays the Customers table.
+
+   ![](../media/hub40.png)   
+   
 ### Task 2: Generate YAML with GitHub Copilot using comments
    
 1. From inside the codespace in the VS Code Explorer window, create a new file and name the file as `report.yml`
