@@ -187,7 +187,7 @@ In this exercise, you will participate in a learning or practice activity where 
 
 1. Now, let's use the **GitHub Copilot Chat** feature to refactor the above code.
 
-1. Click on the **Chat** extension icon from the activity bar in the left navigation pane. This opens the GitHub Copilot Chat window into which the above code is to be **pasted**.
+1. Click on the **Copilot** extension icon from the activity bar in the top navigation pane next to the search bar and Choose **Open Chat** option from the dropdown. This opens the GitHub Copilot Chat window into which the above code is to be **pasted**.
 
 1. Type the prompt `Refactor the code` at the end of the code and then press **enter**.
 
