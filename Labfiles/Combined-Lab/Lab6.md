@@ -149,13 +149,13 @@ GitHub Copilot can understand significantly more context than most code assistan
 2. GitHub Copilot will automatically suggest an implementation.
   
    ![](../../media/ex6-image-suggestion.png)
-
-<validation step="8a3b56fe-e617-420d-99a2-0a23c257a791" />
-
+ 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="8a3b56fe-e617-420d-99a2-0a23c257a791" />
 
         
 ### Summary
