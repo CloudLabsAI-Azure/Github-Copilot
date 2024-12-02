@@ -13,7 +13,6 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 In this lab, you will complete the following tasks:
 
 - Task 1: Add a JavaScript file and start writing code
-- Task 2: Create a Pull Request
 
 ## Task 1: Add a JavaScript file and start writing code
 
