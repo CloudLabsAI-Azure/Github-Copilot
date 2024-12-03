@@ -140,7 +140,7 @@ You will be able to complete the following tasks:
       ```
       git pull --no-rebase
       ```
-
+   >**Note**: A message appears in the terminal stating that you need to close the newly opened file, in addition to the two files that are already open. Please close the newly opened file.
 1. You can verify the `arm.json`, `powershell.ps1`, and `terraform.tf` files available in your GitHub repository.
 
    ![](../media/ex-4-github5.png)
