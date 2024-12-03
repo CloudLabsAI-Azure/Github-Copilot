@@ -101,7 +101,7 @@ You will be able to complete the following tasks:
 
     ![Picture1](../media/clone.png)
 
-1. Switch to the **Explorer** in the upper left corner, select **Open Folder**, and select the folder you have cloned.
+1. Switch to the **Explorer** in the upper left corner, select **Open Folder**, and select the folder you have cloned `C:\Users\azureuser\AU`.
    
    ![](../media/clonerepo1.png)
 
