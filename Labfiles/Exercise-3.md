@@ -96,7 +96,8 @@ In this task, you will continue to use Copilot and may need some of the suggesti
       ```
       git pull --no-rebase
       ```
-
+   >**Note**: A message appears in the terminal stating that you need to close the newly opened file, in addition to the two files that are already open. Please close the newly opened file.
+   
 5. You can verify the `app.py` and `prime.py` files available in your GitHub repository.
 
    ![](../media/ex-3-github3.png)
