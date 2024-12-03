@@ -100,8 +100,27 @@ GitHub Copilot is an AI-powered code completion tool that assists developers by 
 
    ![](../media/skills-new-repo.png)
 
-1. If the repository already exists, please delete the existing one and perform the above step again. To delete the repository, 
-follow from step 08 to step 12. In the absence of an existing repository, skip to step 13.
+      >**Note:** If you receive the pop-up **The Repository already exists**, please delete the existing one and perform the above step again. To delete the existing repository, navigate to the following link:
+      
+      - [Delete the Repository](#delete-the-repository)
+      
+      >**Note:**  In the absence of an existing repository, skip to the next step.
+      
+1. After your new repository is created, wait about 20 seconds and then refresh the page.
+
+1. Once the repository is created, click on your profile picture and then select **Your organizations**.
+
+   ![](../media/organization.png)
+
+1. In Your organization, select **Codespaces** from the left navigation pane.
+
+   ![](../media/codespace.png)
+
+1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
+
+     ![](../media/vscode1.png)
+
+## Delete the Repository
 
 1. Navigate to the existing repository that must be deleted
 
@@ -125,21 +144,7 @@ follow from step 08 to step 12. In the absence of an existing repository, skip t
 
      ![](../media/gs-4.png)
 
-1. After your new repository is created, wait about 20 seconds and then refresh the page.
-
-1. Once the repository is created, click on your profile picture and then select **Your organizations**.
-
-   ![](../media/organization.png)
-
-1. In Your organization, select **Codespaces** from the left navigation pane.
-
-   ![](../media/codespace.png)
-
-1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
-
-     ![](../media/vscode1.png)
-
-1. Now, click on **Next** from the lower right corner to move on to the next page.
+      >**Note:** Once the existing repository has been deleted, please perform step-06-10 in the previous task.
 
 This hands-on lab demonstrates how GitHub Copilot and GitHub Codespaces enhance development through real-time code suggestions and consistent cloud environments.
 
