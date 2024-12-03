@@ -35,6 +35,8 @@ You will be able to complete the following tasks:
 
    ![](../media/E6-T1-S2.1.png)
 
+1. Click On **skip import** .
+
 1. From the left menu, click on **Plugins** **(1)** and select **Marketplace** **(2)**. Search **GitHub Copilot** **(3)**, and once you find **GitHub Copilot** plugin, click on **Install** **(4)**.
 
    ![](../media/install-plugin.png)
