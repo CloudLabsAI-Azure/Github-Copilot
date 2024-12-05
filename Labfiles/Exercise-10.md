@@ -59,7 +59,7 @@ You will be able to complete the following tasks:
    ![](../media/ex-8-create-file.png)
 
 
->**Note**: Please ensure that the Jupyter extension is installed and re-verify it before proceeding with the update.
+>**Note**: Please make sure the Jupyter extension is installed and re-verify it before running the code.
 
 1. Type the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press "enter" to get into the next line and review the suggestion, press "tab" and click on **Run** button to execute the cell.
 
