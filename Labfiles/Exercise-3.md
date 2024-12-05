@@ -91,7 +91,13 @@ En esta tarea, continuará usando Copilot y es posible que necesite algunas de l
    ![](../media/ex-3-push2.png)
 
    >**Nota**: Espere unos 60 segundos y luego actualice la página de inicio de su repositorio para el siguiente paso.
+    
+    ```
+    git pull --no-rebase
+    ```
 
+   >**Nota**: Si se enfrenta a algún error que dice Rechazado, ejecute el siguiente comando y vuelva a ejecutar el comando git push. Esto recuperará los cambios en la rama remota y los fusionará en la rama actual sin cambiar la base.
+   
 5. Puede verificar los archivos `app.py` y `prime.py` disponibles en su repositorio de GitHub.
 
    ![](../media/ex-3-github3.png)
