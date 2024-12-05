@@ -33,6 +33,10 @@ You will be able to complete the following tasks:
 
    ![](../media/csharp-install.png)
 
+    >**Note**: If you're unable to see the install button, please click on **"Install in Codespaces: Laughing Space Basson**.
+
+     ![](../media/codespaces.png)
+
 1. To demonstrate the GitHub code refactor, let us take an example of a poorly written code and analyze it. The below code is written using the C# programming language.
     
    ```
@@ -279,6 +283,8 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. Copy and paste the code in the file named **test.js** that you just created.
 
+>**Note**: If you encounter any errors in the code, press Ctrl + I, paste the command there, and accept the provided code.
+
 1. Now, to generate test cases for each function, select the function for which the test case has to be generated, and back in the GitHub Copilot Chat window, type **/tests** and hit enter.
 
    ![](../media/test1.png)
@@ -317,6 +323,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
       ```
       git pull --no-rebase
       ``` 
+   >**Note**: A message appears in the terminal stating that you need to close the newly opened file, in addition to the two files that are already open. Please close the newly opened file.
 
 1. You can verify the `codechat.cs` and `test.js` files available in your GitHub repository.
 

@@ -58,6 +58,9 @@ You will be able to complete the following tasks:
 
    ![](../media/ex-8-create-file.png)
 
+
+>**Note**: Please make sure the Jupyter extension is installed and re-verify it before running the code.
+
 1. Type the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press "enter" to get into the next line and review the suggestion, press "tab" and click on **Run** button to execute the cell.
 
    ```
@@ -68,6 +71,7 @@ You will be able to complete the following tasks:
    ![](../media/ex-8-import-lib-1.png)
 
    >**Note**: Ensure to select the Kernel and click on Python 3.12.
+   
 
       ![](../media/hub1.png)
 
@@ -153,6 +157,7 @@ You will be able to complete the following tasks:
 
    ![](../media/ex9-train-data-1.png)
 
+>**Note**: If you encounter any errors in the code, delete the cell and try again.
 
 ### Task 4: Data Visualization and Data Transformation
 
@@ -216,6 +221,7 @@ You will be able to complete the following tasks:
 
    ![](../media/ex9-standardization-output.png)
 
+>**Note**: The output may vary and might not be the same as shown in the screenshot.
 
 ### Task 5: Training the sample model
 
