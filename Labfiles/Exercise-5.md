@@ -317,6 +317,15 @@ En esta tarea, demostrará la función de chat con código de GitHub Copilot. Co
 
    >**Nota**: Espere unos 60 segundos y luego actualice la página de inicio de su repositorio para el siguiente paso.
 
+   >**Nota**: Si se enfrenta a algún error que dice Rechazado, ejecute el siguiente comando y vuelva a ejecutar el comando git push. Esto recuperará los cambios en la rama remota y los fusionará en la rama actual sin cambiar la base.
+    
+    ```
+    git pull --no-rebase
+    ```   
+
+   >**Nota**: Aparece un mensaje en la terminal indicando que necesita cerrar el archivo recién abierto, además de los dos archivos que ya están abiertos. Cierre el archivo recién abierto.
+
+
 1. Puede verificar los archivos `codechat.cs` y `test.js` disponibles en su repositorio de GitHub.
 
    ![](../media/exercise5-2.png)
