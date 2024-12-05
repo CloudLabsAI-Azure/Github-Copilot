@@ -135,6 +135,12 @@ Será capaz de completar las siguientes tareas:
    ![](../media/ex-4-push5.png)
 
    >**Nota**: Espere unos 60 segundos y luego actualice la página de inicio de su repositorio para el siguiente paso.
+ 
+    ```
+    git pull --no-rebase
+    ```
+
+   >**Nota**: Si se enfrenta a algún error que dice Rechazado, ejecute el siguiente comando y vuelva a ejecutar el comando git push. Esto recuperará los cambios en la rama remota y los fusionará en la rama actual sin cambiar la base.
 
 1. Puede verificar los archivos `arm.json`, `powershell.ps1` y `terraform.tf` disponibles en su repositorio de GitHub.
 
