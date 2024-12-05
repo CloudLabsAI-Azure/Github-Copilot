@@ -329,8 +329,6 @@ En esta tarea, demostrará la función de chat con código de GitHub Copilot. Co
 1. Puede verificar los archivos `codechat.cs` y `test.js` disponibles en su repositorio de GitHub.
 
    ![](../media/exercise5-2.png)
-
-    <validation step="8357b601-4d37-4a08-b8c5-c03df620fdc4" />
     
 ## Resumen
 
