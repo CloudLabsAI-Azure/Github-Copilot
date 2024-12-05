@@ -323,6 +323,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
       ```
       git pull --no-rebase
       ``` 
+   >**Note**: A message appears in the terminal stating that you need to close the newly opened file, in addition to the two files that are already open. Please close the newly opened file.
 
 1. You can verify the `codechat.cs` and `test.js` files available in your GitHub repository.
 
