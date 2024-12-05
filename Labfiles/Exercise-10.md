@@ -157,6 +157,7 @@ You will be able to complete the following tasks:
 
    ![](../media/ex9-train-data-1.png)
 
+>**Note**: If you encounter any errors in the code, delete the cell and try again.
 
 ### Task 4: Data Visualization and Data Transformation
 
