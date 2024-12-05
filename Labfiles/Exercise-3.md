@@ -91,6 +91,7 @@ In this task, you will continue to use Copilot and may need some of the suggesti
    ![](../media/ex-3-push2.png)
 
    >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
+   >**Note**: A message appears in the terminal stating that you need to close the newly opened file, in addition to the two files that are already open. Please close the newly opened file.
 
 5. You can verify the `app.py` and `prime.py` files available in your GitHub repository.
 
