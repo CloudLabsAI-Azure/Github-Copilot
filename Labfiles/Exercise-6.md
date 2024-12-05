@@ -35,6 +35,8 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/E6-T1-S2.1.png)
 
+1. Haga clic en Omitir importación.
+
 1. En el menú de la izquierda, haga clic en **Plugins** **(1)** y seleccione **Marketplace** **(2)**. Busque **GitHub Copilot** **(3)** y, una vez que encuentre el complemento **GitHub Copilot**, haga clic en **Install** **(4)**.
 
    ![](../media/install-plugin.png)

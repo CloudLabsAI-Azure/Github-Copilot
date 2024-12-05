@@ -92,6 +92,14 @@ En esta tarea, continuará usando Copilot y es posible que necesite algunas de l
 
    >**Nota**: Espere unos 60 segundos y luego actualice la página de inicio de su repositorio para el siguiente paso.
 
+   >**Nota**: Si se enfrenta a algún error que dice Rechazado, ejecute el siguiente comando y vuelva a ejecutar el comando git push. Esto recuperará los cambios en la rama remota y los fusionará en la rama actual sin cambiar la base.
+    
+    ```
+    git pull --no-rebase
+    ```   
+
+   >**Nota**: Aparece un mensaje en la terminal indicando que necesita cerrar el archivo recién abierto, además de los dos archivos que ya están abiertos. Cierre el archivo recién abierto.
+   
 5. Puede verificar los archivos `app.py` y `prime.py` disponibles en su repositorio de GitHub.
 
    ![](../media/ex-3-github3.png)

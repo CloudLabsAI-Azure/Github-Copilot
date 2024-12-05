@@ -99,7 +99,7 @@ Será capaz de completar las siguientes tareas:
 
     ![Picture1](../media/clone.png)
 
-1. En la esquina superior izquierda, cambie al **Explorador**, seleccione **Abrir carpeta** y selecciona la carpeta que ha clonado.
+1. En la esquina superior izquierda, cambie al **Explorador**, seleccione **Abrir carpeta** y selecciona la carpeta que ha clonado ` C:\Users\azureuser\AU`.
    
    ![](../media/clonerepo1.png)
 
