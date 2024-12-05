@@ -208,7 +208,7 @@ Não só as pessoas podem beneficiar da aprendizagem com exemplos, mas também o
 
  <validation step="73a63481-3140-4473-9b94-36d265cdc8cb" />
 
-10. Clique em **Seguinte** abaixo para passar para a página seguinte.
+10. Clique em **Próximo** abaixo para passar para a página seguinte.
 
 ### Resumo
 
