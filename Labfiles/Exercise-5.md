@@ -33,6 +33,10 @@ Será capaz de completar las siguientes tareas:
 
       ![](../media/csharp-install.png)
 
+  >**Nota**: Si no puede realizar la instalación, haga clic en **"Instalar en Codespaces: Laughing Space Basson**.
+
+    
+
 1. Para demostrar la refactorización del código de GitHub, tomemos un ejemplo de un código mal escrito y analicémoslo. El código a continuación está escrito con el lenguaje de programación C#.
     
    ```
