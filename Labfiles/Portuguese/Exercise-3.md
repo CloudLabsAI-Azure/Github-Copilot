@@ -92,6 +92,7 @@ Nesta tarefa, continuará a utilizar o GitHub Copilot e poderá precisar de algu
    ![](../../media/ex-3-push2.png)
 
    >**Nota**: Aguarde cerca de 60 segundos e atualize a página inicial do repositório para o passo seguinte.
+   
    >**Note**: If you are facing any error which says `Rejected`, then run the below given command and re-run `git push` command again. This will fetch changes in remote branch and merge them into current branch without rebasing.
       ```
       git pull --no-rebase
