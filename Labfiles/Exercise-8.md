@@ -87,6 +87,15 @@ You will be able to complete the following tasks:
 
    >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
 
+   >**Note**: If you are facing any error which says `Rejected`, then run the below given command and re-run `git push` command again. This will fetch changes in remote branch and merge them into current branch without rebasing.
+
+      ```
+      git pull --no-rebase
+      ```
+  >**Note**: A message appears in the terminal stating that you need to close the newly opened file, in addition to the two files that are already open. Please close the newly opened file.
+
+  >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
+
 1. You can verify the newly added files available in your GitHub repository.
 
    ![](../media/ex-6-github.png)
