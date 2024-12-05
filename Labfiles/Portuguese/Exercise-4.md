@@ -136,6 +136,14 @@ Poderá completar as seguintes tarefas:
 
    >**Nota**: Aguarde cerca de 60 segundos e atualize a página inicial do repositório para o passo seguinte.
 
+    >**Note**: If you are facing any error which says `Rejected`, then run the below given command and re-run `git push` command again. This will fetch changes in remote branch and merge them into current branch without rebasing.
+      ```
+      git pull --no-rebase
+      ```
+
+   >**Nota**: Uma mensagem aparece no terminal informando que você precisa fechar o arquivo recém-aberto, além dos dois arquivos que já estão abertos. Por favor feche o arquivo recém-aberto.
+
+
 1. Pode verificar os ficheiros `arm.json`, `powershell.ps1` e `terraform.tf` disponíveis no seu repositório GitHub.
 
    ![](../../media/ex-4-github5.png)
