@@ -64,7 +64,7 @@ Poderá completar as seguintes tarefas:
 
    >**Nota**: Se o pedido de pop-up não aparecer no browser para abrir o código do Visual Studio, inicie manualmente o código do Visual Studio na área de trabalho e feche-o. De seguida, volte ao browser, atualize a página e inicie o codespace que foi criado anteriormente.
 
-7. Encontrará um prompt pop-up. Clique em **Open** para continuar. Posteriormente, surgirá outra janela pop-up dentro do Visual Studio Code (VS Code), onde deverá selecionar **Install Extension and Open URI** para continuar.
+7. Encontrará um prompt pop-up. Clique em **Abrir** para continuar. Posteriormente, surgirá outra janela pop-up dentro do Visual Studio Code (VS Code), onde deverá selecionar **Install Extension and Open URI** para continuar.
 
    ![](../../media/open.png)
 
@@ -88,11 +88,11 @@ Poderá completar as seguintes tarefas:
 
    >**Nota**: Aguarde cerca de 2 minutos para que o codespace comece a funcionar.
 
-10. Clique em **Authorize Visual-Studio-Code** quando o separador Autorizar GitHub para código VS aparecer no browser.
+10. Clique em **Continue** quando Selecionar usuário para autorizar o Visual Studio Code aparecer no navegador.
 
     ![](../../media/Exercise-01-v2-02.png)
 
-11. De seguida, assim que o pop-up aparecer, clique em **Allow**
+11. De seguida, assim que o pop-up aparecer, clique em **Abrir**
 
 12. Verifique se o seu codespace está em execução. Certifique-se de que o código VS está como mostrado abaixo:
 
