@@ -319,8 +319,6 @@ Nesta tarefa, demonstrará a funcionalidade de chat com código do GitHub Copilo
 
     ![](../../media/exercise5-2.png)
 
- <validation step="8357b601-4d37-4a08-b8c5-c03df620fdc4" />
-
 ## Resumo
 
 Neste exercício, empregou com sucesso o GitHub Copilot para realizar tarefas de refactoring de código e criar funções de teste unitário. A refatoração de código com a ajuda do Copilot tornará os seus projetos de codificação mais eficientes e colaborativos.
