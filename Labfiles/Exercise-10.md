@@ -221,6 +221,7 @@ You will be able to complete the following tasks:
 
    ![](../media/ex9-standardization-output.png)
 
+>**Note**: The output may vary and might not be the same as shown in the screenshot.
 
 ### Task 5: Training the sample model
 
