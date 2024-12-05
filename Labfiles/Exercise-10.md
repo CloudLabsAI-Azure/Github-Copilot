@@ -149,6 +149,7 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/ex9-train-data-1.png)
 
+>**Nota**: Si encuentra algún error en el código, elimine la celda y vuelva a intentarlo.
 
 ### Tarea 4: Visualización y Transformación de Datos
 
