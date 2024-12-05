@@ -45,15 +45,15 @@ Poderá completar as seguintes tarefas:
 
 1. Um pop-up é apresentado. Selecione a partir daí a opção **Adicionar extensão**. Começará a descarregar uma extensão no seu navegador.
 
-   ![](../../media/30-10-24(6).png)
+   ![](../../media/p10.png)
 
 1. Clique no ícone **Extensões** **(1)** na barra de ferramentas do browser. No Accessibility Insights for Web, selecione a opção **(...)** **(2)** e clique em **Gerenciar extensão** **(3)**.
 
-   ![](../../media/30-10-24(7).png)
+   ![](../../media/p11.png)
 
 1. Na página **Gerenciar extensão**, desça e clique na caixa de selecção **Permitir acesso a URLs de arquivos**.
 
-   ![](../../media/30-10-24(8).png)
+   ![](../../media/p12.png)
 
 ## Tarefa 2: Verificar a extensão GitHub Copilot Chat e clonar o repositório GitHub da Universidade Acessível no VS Code
 
@@ -84,9 +84,9 @@ Poderá completar as seguintes tarefas:
 
    ![Foto1](../../media/clonerepo4.png)
 
-1. Se receber o pop-up, o site está a tentar abrir o Visual Studio Code, por isso clique em **Open**. Regressará ao **Visual Studio Code**.
+1. Se receber o pop-up, o site está a tentar abrir o Visual Studio Code, por isso clique em **Abrir**. Regressará ao **Visual Studio Code**.
 
-   ![Foto1](../../media/clonerepo5.png)
+   ![Foto1](../../media/p4.png)
 
 1. No terminal **Visual Studio Code,** clique em **(...)** **(1)** para selecionar o menu **Terminal** **(2)**, seguido de seleção **New Terminal** **(3)**. A janela do terminal abre geralmente na metade inferior do ecrã.
 
@@ -100,7 +100,7 @@ Poderá completar as seguintes tarefas:
 
    ![Foto1](../../media/clone.png)
 
-1. Mude para o **Explorer** no canto superior esquerdo, selecione **Open Folder** e selecione a pasta que clonou.
+1. Mude para o **Explorer** no canto superior esquerdo, selecione **Open Folder** e selecione a pasta que clonou `C:\Users\azureuser\AU`.
 
    ![](../../media/clonerepo1.png)
 
@@ -116,7 +116,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/before1.png)
 
-1. Clique agora no botão **Extensões** na barra de ferramentas do browser, selecione **Accessibility Insights for Web** e clique em **FastPass**. Será aberto em uma nova janela pop-up.
+1. Clique agora no botão **Extensões (1)** na barra de ferramentas do browser, selecione **Accessibility Insights for Web (2)** e clique em **FastPass**. Será aberto em uma nova janela pop-up.
 
     - **FastPass**: [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) é um processo leve de duas etapas que ajuda os programadores a identificar problemas de acessibilidade comuns e de alto impacto em menos de cinco minutos.
 
@@ -160,7 +160,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/colourcontrast2.png)
 
-1. **Save** o ficheiro premindo **Ctrl + S**.
+1. **Salve** o ficheiro premindo **Ctrl + S**.
 
 1. Agora atualize a sua página **Accessible Universityl**. Clique no botão **Start over** na página **Accessibility Insights for Web**. Agora verá uma redução na mensagem de erro.
 
@@ -192,7 +192,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/langaccept1.png)
 
-1. **Save** o ficheiro premindo **Ctrl + S**.
+1. **Salve** o ficheiro premindo **Ctrl + S**.
 
 1. Agora atualize a sua página **Accessible University**. Clique no botão **Start over** na página **Accessibility Insights for Web**. Agora verá uma redução na mensagem de erro.
 
@@ -218,7 +218,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/accessibilityfinal.png)
 
-1. **Save** o ficheiro premindo **Ctrl + S**.
+1. **Salve** o ficheiro premindo **Ctrl + S**.
 
 1. Agora atualize a sua página **Accessible University**. Clique no botão **Start over** na página **Accessibility Insights for Web**. Agora verá uma redução na mensagem de erro.
 
@@ -272,7 +272,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/linkaccept2.png)
 
-1. **Save** o ficheiro premindo **Ctrl + S**.
+1. **Salve** o ficheiro premindo **Ctrl + S**.
 
 1. Atualize a sua página **Accessible University**. Clique no botão **Start over** na página **Accessibility Insights for Web**. Irá notar que não há mais nenhum problema.
 

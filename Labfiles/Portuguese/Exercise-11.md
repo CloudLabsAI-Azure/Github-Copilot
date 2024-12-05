@@ -26,9 +26,9 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/vs6.png)
 
-   >**Nota**: Caso encontre um prompt pop-up. Clique em **Open** para continuar.
+   >**Nota**: Caso encontre um prompt pop-up. Clique em **Abrir** para continuar.
 
-   ![](../../media/vs7.png)
+   ![](../../media/p1.png)
 
 1. Clique em **Open** quando lhe for pedido para permitir a extensão Github Codespaces.
 
@@ -52,7 +52,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/vs14.png)
 
-   >**Nota:** Nos casos em que o código não é gerado pelo **Github Copilot**, clique em **Extensions**, pesquise por Github Copilot, seleccione-o e clique em **Install in Codespaces: opulent space eureka**.
+   >**Nota:** Nos casos em que o código não é gerado pelo **Github Copilot**, clique em **Extensions**, pesquise por Github Copilot, seleccione-o e clique em **Install in Codespaces: zany train**.
 
    ![](../../media/vs13.png)
 
@@ -79,7 +79,7 @@ Poderá completar as seguintes tarefas:
 
    >**Nota:** No entanto, é de notar que as sugestões fornecidas pelo GitHub Copilot podem variar e, por vezes, podem ser irrelevantes e exigir uma compreensão clara do código python e da sua utilização.
 
-1. Clique em **Save**.
+1. **Salve** o arquivo pressionando **Ctrl + S**.
 
 1. Execute a aplicação com o comando **python app.py** no terminal.
 

@@ -52,9 +52,9 @@ O GitHub Copilot é uma ferramenta de conclusão de código com tecnologia de IA
 
    ![](../../media/30-10-24(1).png)
 
-1. Quando estiver no separador **Ambiente**, clique na opção **GitHub Credentials** para obter as credenciais de utilizador do GitHub. As credenciais também serão enviadas para o seu endereço de e-mail registado. Também pode abrir o Guia do laboratório numa janela completa e separada, selecionando **Janela dividida** no canto superior direito. Além disso, pode iniciar, parar e reiniciar máquinas virtuais no separador **Recursos**.
+1. Quando estiver no separador **Ambiente**, clique na opção **GitHub Licenses** para obter as credenciais de utilizador do GitHub. As credenciais também serão enviadas para o seu endereço de e-mail registado. Também pode abrir o Guia do laboratório numa janela completa e separada, selecionando **Janela dividida** no canto superior direito. Além disso, pode iniciar, parar e reiniciar máquinas virtuais no separador **Recursos**.
 
-   ![](../../media/30-10-24(2).png)
+   ![](../../media/p5.png)
 
 ## Iniciar sessão no GitHub
 

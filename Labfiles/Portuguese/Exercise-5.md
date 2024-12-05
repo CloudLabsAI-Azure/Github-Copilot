@@ -34,6 +34,10 @@ Poderá completar as seguintes tarefas:
 
       ![](../../media/csharp-install.png)
 
+       >**Note:** Se você não conseguir ver o botão de instalação, clique em **Install in Codespaces:crispy succotash**    
+
+        ![](../../media/p9.png)        
+
 1. Para demonstrar o refatorador de código do GitHub, vamos usar um exemplo de código mal escrito e analisá-lo. O código abaixo foi escrito utilizando a linguagem de programação C#.
 
    ```
@@ -101,7 +105,7 @@ Poderá completar as seguintes tarefas:
 
 1. Agora, vamos utilizar a funcionalidade **GitHub Copilot Chat** para refatorar o código acima.
 
-1. Clique no ícone **Bate-papo** no canto superior direito. Isso abre a janela GitHub Copilot Chat na qual o código acima deve ser **colado**.
+1. Clique no ícone **Chat** no canto superior direito. Isso abre a janela GitHub Copilot Chat na qual o código acima deve ser **colado**.
 
 1. Introduza o prompt `Refactor the code` no final do código e prima **enter**.
 

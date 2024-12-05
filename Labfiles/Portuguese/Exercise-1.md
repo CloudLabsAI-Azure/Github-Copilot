@@ -66,9 +66,9 @@ Poderá completar as seguintes tarefas:
 
 7. Encontrará um prompt pop-up. Clique em **Abrir** para continuar. Posteriormente, surgirá outra janela pop-up dentro do Visual Studio Code (VS Code), onde deverá selecionar **Install Extension and Open URI** para continuar.
 
-   ![](../../media/open.png)
+   ![](../../media/p1.png)
 
-   ![](../../media/innovation-1.png)
+   ![](../../media/p2.png)
 
    >**Nota**: Clique em **Allow** se a extensão **Github Codepsaces** pretender iniciar sessão utilizando o Github.
 
@@ -90,9 +90,11 @@ Poderá completar as seguintes tarefas:
 
 10. Clique em **Continue** quando Selecionar usuário para autorizar o Visual Studio Code aparecer no navegador.
 
-    ![](../../media/Exercise-01-v2-02.png)
+    ![](../../media/p3.png)
 
 11. De seguida, assim que o pop-up aparecer, clique em **Abrir**
+
+    ![](../../media/p4.png)
 
 12. Verifique se o seu codespace está em execução. Certifique-se de que o código VS está como mostrado abaixo:
 
