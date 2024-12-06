@@ -317,7 +317,6 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
    ![](../media/exercise5-2.png)
 
-    <validation step="8357b601-4d37-4a08-b8c5-c03df620fdc4" />
 
 ## Summary
 
