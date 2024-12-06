@@ -58,6 +58,8 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/ex-8-create-file.png)
 
+   >**Nota**: certifique-se de que a extensão Jupyter esteja instalada e verifique-a novamente antes de executar o código.
+
 1. Digite os comentários abaixo para importar todas as bibliotecas onde o Copilot solicita automaticamente todas as bibliotecas; prima “enter” para passar para a linha seguinte e rever a sugestão, prima “tab” e clique no botão **Run** para executar a célula.
 
    ```
