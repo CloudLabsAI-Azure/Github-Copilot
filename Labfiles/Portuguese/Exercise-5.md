@@ -313,7 +313,16 @@ Nesta tarefa, demonstrará a funcionalidade de chat com código do GitHub Copilo
 
     ![](../../media/exercise5-1.png)
 
-    >**Nota**: Aguarde cerca de 60 segundos e atualize a página inicial do repositório para o passo seguinte.
+    >**Nota**: Aguarde cerca de 60 segundos e atualize a página inicial do repositório para a próxima etapa.
+
+    >**Nota**: Se você estiver enfrentando algum erro que diz `Rejeitado`, execute o comando fornecido abaixo e execute novamente o comando `git push` novamente. Isso irá buscar as alterações na ramificação remota e mesclá-las na ramificação atual sem rebase.
+   
+      ```
+      git pull --no-rebase
+      ```
+
+   >**Nota**: Uma mensagem aparece no terminal informando que você precisa fechar o arquivo recém-aberto, além dos dois arquivos que já estão abertos. Feche o arquivo recém-aberto.
+
 
 1. Pode verificar os ficheiros `codechat.cs` e `test.js` disponíveis no seu repositório GitHub.
 
