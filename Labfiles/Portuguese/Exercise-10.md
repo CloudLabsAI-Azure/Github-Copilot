@@ -210,6 +210,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/ex9-standardization-output.png)
 
+ >**Nota**: A saída pode variar e pode não ser a mesma mostrada na captura de tela
 
 ### Tarefa 5: Treinar o modelo de amostra
 
