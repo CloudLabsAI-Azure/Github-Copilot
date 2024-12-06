@@ -100,7 +100,7 @@ Poderá completar as seguintes tarefas:
 
    ![Foto1](../../media/clone.png)
 
-1. Mude para o **Explorer** no canto superior esquerdo, selecione **Open Folder** e selecione a pasta que clonou.
+1. Mude para o **Explorer** no canto superior esquerdo, selecione **Open Folder** e selecione a pasta que clonou `C:\Users\azureuser\AU`.
 
    ![](../../media/clonerepo1.png)
 
