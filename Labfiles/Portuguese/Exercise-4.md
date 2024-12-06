@@ -134,14 +134,15 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/ex-4-push5.png)
 
-   >**Nota**: Aguarde cerca de 60 segundos e atualize a página inicial do repositório para o passo seguinte.
+   >**Nota**: Aguarde cerca de 60 segundos e atualize a página inicial do repositório para a próxima etapa.
 
-    >**Note**: If you are facing any error which says `Rejected`, then run the below given command and re-run `git push` command again. This will fetch changes in remote branch and merge them into current branch without rebasing.
+   >**Nota**: Se você estiver enfrentando algum erro que diz `Rejeitado`, execute o comando fornecido abaixo e execute novamente o comando `git push` novamente. Isso irá buscar as alterações na ramificação remota e mesclá-las na ramificação atual sem rebase.
+   
       ```
       git pull --no-rebase
       ```
 
-   >**Nota**: Uma mensagem aparece no terminal informando que você precisa fechar o arquivo recém-aberto, além dos dois arquivos que já estão abertos. Por favor feche o arquivo recém-aberto.
+   >**Nota**: Uma mensagem aparece no terminal informando que você precisa fechar o arquivo recém-aberto, além dos dois arquivos que já estão abertos. Feche o arquivo recém-aberto.
 
 
 1. Pode verificar os ficheiros `arm.json`, `powershell.ps1` e `terraform.tf` disponíveis no seu repositório GitHub.
