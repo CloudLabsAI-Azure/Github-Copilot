@@ -326,7 +326,7 @@ const data = [
       // Desired outcome: ['John', 'Jane', 'Bob']    
     ```
 
-4. Now, we have received our desired outcome. You can copy the desired outcome suggested by Copilot paste it in **index.js** and then **Cntr + S** to save the file.
+4. Now, we have received our desired outcome. You can copy the desired outcome suggested by Copilot paste it in **index.js** and then **Ctrl + S** to save the file.
 
    ![](media/cs9.png)
 
