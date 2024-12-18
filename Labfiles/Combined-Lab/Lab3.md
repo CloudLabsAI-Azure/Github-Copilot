@@ -101,9 +101,12 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
    function calculateNumbers(var1, var2)
    ```
    
-   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code. 
+   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code.
 
    ![](../../media/skills-function.png)
+
+   > If the code suggestion feature does not appear, sign in to GitHub from the bottom-right corner (second icon from the last), copy the URL from the pop-up web page, paste it into a private browser, log in with your GitHub credentials, close and reopen VS Code, and try again.
+
 
 4. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
 
