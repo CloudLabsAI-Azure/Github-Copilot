@@ -158,7 +158,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 1. Once the installation is complete, you will able to see the icon for GitHub Copilot chat as shown below. Click on the dropdown next to the icon to view the different options available.
 
-   ![](../../media/g1.png)
+   ![](../../media/githubicon.png)
 
 ## Task 3.1- Example: Set the stage with a high-level goal
 
