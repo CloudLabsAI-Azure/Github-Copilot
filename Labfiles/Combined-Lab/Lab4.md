@@ -103,11 +103,11 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 ## Task 2- Example: Set the stage with a high-level goal
 
-   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
-
 1. In the Visual Studio Code activity bar, click the **GitHub Copilot Chat icon (1)** and select **GitHub Copilot Chat (2)** option to open a chat window.
 
     ![](../../media/copilotchat.png)
+
+   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
 1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write an ARM code for deploying a storage account to Azure with the code explanation."
 
