@@ -45,7 +45,7 @@ In this exercise, you will participate in a learning or practice activity where 
 
 1. Now, right-click on your profile icon in the top right and click on **Your Repositories**.
     
-   ![](../../media/l2.2.png)
+   ![](../../media/Copilotrepo.png)
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**.
 
@@ -83,17 +83,13 @@ In this exercise, you will participate in a learning or practice activity where 
 
 1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
-   ![](../../media/loaded-repo.png)
+   ![](../../media/lab5files.png)
 
 1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
    ![](../../media/verify-copilot.png)
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
-
-1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
-
-   ![](../../media/verify-copilot.png)
 
 1.  In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat** extension.
 
