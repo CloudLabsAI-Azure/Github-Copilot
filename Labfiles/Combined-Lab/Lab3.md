@@ -105,7 +105,7 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
    ![](../../media/skills-function.png)
 
-   > If the code suggestion feature does not appear, sign in to GitHub from the bottom-right corner (second icon from the last), copy the URL from the pop-up web page, paste it into a private browser, log in with your GitHub credentials, close and reopen VS Code, and try again.
+   > **Note:** If the code suggestion feature does not appear, sign in to GitHub from the bottom-right corner (second icon from the last), copy the URL from the pop-up web page, paste it into a private browser, log in with your GitHub credentials, close and reopen VS Code, and try again.
 
 
 4. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
