@@ -98,7 +98,8 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
     ![](../../media/ghc-chat-extension.png)
 
-1. 1. Once the installation is complete, in the top navigation pane you will able to see the icon for GitHub Copilot next to the search bar in the visual studio code window.
+1. Once the installation is complete, in the top navigation pane you will able to see the icon for GitHub Copilot next to the search bar in the visual studio code window.
+
 
 ## Task 2- Example: Set the stage with a high-level goal
 
