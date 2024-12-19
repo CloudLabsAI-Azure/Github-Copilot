@@ -34,9 +34,13 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
     >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
 
-      ![](../../media/credsfile.png) 
+      ![](../../media/credsfile.png)
 
-    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
+   >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
+
+       ![](../../media/githubcreds.png)
+
+   >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
      
 1. Navigate to Outlook login page using the provided URL below:
    ```
