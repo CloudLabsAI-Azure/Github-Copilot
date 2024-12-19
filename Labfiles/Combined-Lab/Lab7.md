@@ -123,6 +123,10 @@ You will be able to complete the following tasks:
    
    > **Note:** The GitHub Copilot icon can also be found at the bottom right corner of the page or in the top navigation pane next to the search bar. You can access Copilot Chat from either of these icons.
 
+1. Make sure to sign in to your GitHub account by clicking on the GitHub Copilot icon located in the bottom right corner.
+
+    ![](../../media/githubsignin2.png)
+
 1. Open VS Code Terminal by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
 
    ![](../../media/ex-8-openterminal.png)
