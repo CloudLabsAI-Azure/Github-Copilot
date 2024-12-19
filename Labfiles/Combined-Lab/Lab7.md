@@ -87,7 +87,7 @@ You will be able to complete the following tasks:
 
    ![](../../media/open.png)
 
-   ![](../../media/codespaces.png)
+   ![](../../media/githubcodespace.png)
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
