@@ -69,7 +69,7 @@ You will be able to complete the following tasks:
 
 1. Now,right click on your profile icon in the top right and click on **Your Repositories**.
     
-   ![](../../media/l2.2.png)
+   ![](../../media/Copilotrepo.png)
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**.
 
