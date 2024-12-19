@@ -119,7 +119,9 @@ You will be able to complete the following tasks:
 
     ![](../../media/ghc-chat-extension.png)
 
-1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot icon in the top navigation pane next to the search bar.
+1. Once the installation is complete, you will see the icon for GitHub Copilot Chat in the left navigation pane.
+   
+   > **Note:** The GitHub Copilot icon can also be found at the bottom right corner of the page or in the top navigation pane next to the search bar. You can access Copilot Chat from either of these icons.
 
 1. Open VS Code Terminal by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
 
