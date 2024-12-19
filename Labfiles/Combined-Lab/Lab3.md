@@ -1,6 +1,6 @@
 # Lab 3: Code Suggestions with GitHub Copilot in Codespaces using VS Code
 
-Duration: 30 minutes
+### Duration: 30 minutes
 
 While GitHub Copilot offers recommendations for many languages and frameworks, it excels in particular when it comes to Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. The samples below are in JavaScript, but they should also work in other languages.
 
@@ -28,7 +28,10 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
       ![](../../media/credsfile.png)
 
-   
+   >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
+
+      ![](../../media/githubcreds.png)
+
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
           
 1. Navigate to Outlook login page using the provided URL below:
@@ -43,7 +46,7 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
 1. Now,right click on your profile icon in the top right and click on **Your Repositories**.
     
-   ![](../../media/l2.2.png)
+   ![](../../media/Copilotrepo.png)
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**.
 
@@ -87,6 +90,12 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
+1. Make sure to sign in to your GitHub account by clicking on the GitHub Copilot icon located in the bottom right corner.
+
+    ![](../../media/githubsignin2.png)
+
+    > **Note:** Click "**Allow**" for VS Code to sign in to your GitHub account. A new web page will open. Copy the URL of the page, paste it into a private browser, enter your GitHub credentials, and sign in.
+
 1. From the VS Code Explorer window, create a New File.
 
    ![](../../media/create-newfile.png)
@@ -101,11 +110,13 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
    function calculateNumbers(var1, var2)
    ```
    
-   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code. 
+   > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see code recommendation, try adding a space after the code.
 
    ![](../../media/skills-function.png)
 
-4. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
+   > **Note:** If the code suggestion feature does not appear, click the **bottom-right icon** to log in to your GitHub account. Accept the terms, **copy the URL** from the web page that opens, paste it into a private browser, log in with your GitHub credentials, close and reopen VS Code, and try again.
+
+5. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
 
    ![](../../media/save-skills.png)
 
@@ -154,7 +165,7 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 1. Once the installation is complete, you will able to see the icon for GitHub Copilot chat as shown below. Click on the dropdown next to the icon to view the different options available.
 
-   ![](../../media/g1.png)
+   ![](../../media/githubicon.png)
 
 ## Task 3.1- Example: Set the stage with a high-level goal
 

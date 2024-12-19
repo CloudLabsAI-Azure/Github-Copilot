@@ -1,5 +1,6 @@
 #  Lab 2: Using GitHub Codespaces
-Duration: 30 minutes
+
+### Duration: 30 minutes
 
 GitHub Copilot is an AI pair programmer designed to make writing code easier and faster. It draws context from comments and code to suggest individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a generative pre-trained language model created by OpenAI.
 
@@ -17,7 +18,7 @@ In this lab, you will create a development container and define specific extensi
 
 1. Now, right-click on your profile icon in the top right and click on **Your Repositories**.
     
-   ![](../../media/l2.2.png)
+   ![](../../media/Copilotrepo.png)
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**
 
@@ -76,6 +77,10 @@ In this lab, you will create a development container and define specific extensi
 
    ![](../../media/signingit.png)
 
+   > **Note**: If you do not get a prompt to sign in to your GitHub account, click on the GitHub Copilot icon located in the bottom right corner. Click "Allow" for VS Code to sign in to your GitHub account. A new web page will open. Copy the URL of the page, paste it into a private browser, enter your GitHub credentials, and sign in.
+
+      ![](../../media/githubsignin2.png)
+         
    > **Note**: If you face an issue with **Sign in to GitHub**, copy the sigin URL from browser and login to the copied URL from InPrivate browser.
  
       ![](../../media/private.png)

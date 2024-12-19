@@ -53,7 +53,7 @@ You will be able to complete the following tasks:
 
    >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
 
-     ![](../../media/envt12.png)
+      ![](../../media/githubcreds.png)
 
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
           
@@ -69,7 +69,7 @@ You will be able to complete the following tasks:
 
 1. Now,right click on your profile icon in the top right and click on **Your Repositories**.
     
-   ![](../../media/l2.2.png)
+   ![](../../media/Copilotrepo.png)
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**.
 
@@ -87,11 +87,11 @@ You will be able to complete the following tasks:
 
    ![](../../media/open.png)
 
-   ![](../../media/codespaces.png)
+   ![](../../media/githubcodespace.png)
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
-   ![](../media/signingit.png)
+   ![](../../media/signingit.png)
 
    >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
 
@@ -99,11 +99,11 @@ You will be able to complete the following tasks:
 
    ![](../../media/allow.png)
 
-   >**Note**: Wait about 2 minutes for the codespace to spin itself up.
+   >**Note**: Wait for about 2 minutes for the codespace to initialize. A new browser tab will open; **reload** the page and click "**Open**" in the pop-up that appears to access VS Code.
 
 1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
-   ![](../../media/loaded-repo.png)
+   ![](../../media/lab7files.png)
 
 1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
@@ -119,7 +119,15 @@ You will be able to complete the following tasks:
 
     ![](../../media/ghc-chat-extension.png)
 
-1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot icon in the top navigation pane next to the search bar.
+1. Once the installation is complete, you will see the icon for GitHub Copilot Chat in the left navigation pane.
+   
+   > **Note:** The GitHub Copilot icon can also be found at the bottom right corner of the page or in the top navigation pane next to the search bar. You can access Copilot Chat from either of these icons.
+
+1. Make sure to sign in to your GitHub account by clicking on the GitHub Copilot icon located in the bottom right corner.
+
+    ![](../../media/githubsignin2.png)
+
+    > **Note:** Click "**Allow**" for VS Code to sign in to your GitHub account. A new web page will open. Copy the URL of the page, paste it into a private browser, enter your GitHub credentials, and sign in.
 
 1. Open VS Code Terminal by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
 
@@ -147,6 +155,12 @@ You will be able to complete the following tasks:
 
 ### Note: After entering the prompt, press Enter and then Tab to see the suggestions. Once you view a suggestion, press Tab to accept it, and hit Enter to see more code suggestions.
 
+1. Click on **Extension** from the left panel, search for **Jupyter**, and install it. Then, search for **Python** and install the extension. If prompted, select **Reload Window** for both extensions. Close the VS code and restart it.
+
+   ![](../../media/jupyterinstall.png)
+   
+   ![](../../media/pythoninstall.png)
+
 1. From the VS Code explorer window, right-click on the folder named **ml-copilot-workshop** **(1)** and click on **New File**. Name the file `Experiments.ipynb` **(2)** and verify that your new file looks as shown below:
 
    ![](../../media/ex-8-create-file.png)
@@ -160,7 +174,7 @@ You will be able to complete the following tasks:
 
    ![](../../media/gc9.png)
   
-   >**Note**: Ensure to select the Kernel and click on Python 3.12.
+   >**Note**: Ensure to select the Kernel and click on Python 3.12. If the Python 3.12 kernel is not visible, go to Extensions, uninstall both the Python and Jupyter extensions, and then reinstall them as described in Step 1.
 
       ![](../../media/gc7.png)
 
@@ -168,9 +182,11 @@ You will be able to complete the following tasks:
 
      ![](../../media/gc12.png)
 
-1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell.
+1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell. 
 
    ![](../../media/gc10.png)
+
+   >**Note**: The code suggestion you receive may differ from the image shown above.
 
    >**Note**: While running the cell, you may need to install the required packages and select the kernel.
    
@@ -191,7 +207,7 @@ You will be able to complete the following tasks:
 
 ### Task 3.1: Mathematical Operations
 
-1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
+1. In a new code cell, type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Mathematical operations on the dataset, like generating the birth year from age
@@ -199,6 +215,8 @@ You will be able to complete the following tasks:
 
    ![](../../media/ex9-birthyear.png)
 
+   >**Note**: Incorporate only the first suggestion.
+   
    >**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
 
 1. Type the below comment, Press "enter" to get into the next line and review the suggestion, and press "tab" to get the output similar to the below image and click on **Run** button to execute the cell. 
@@ -341,6 +359,13 @@ Training a sample model using Random Forest.
    ```
 
    ![](../../media/ex9-accuracy.png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="a09b45c1-f43a-482f-810e-70c634f54db0" />
 
 
 ### Summary

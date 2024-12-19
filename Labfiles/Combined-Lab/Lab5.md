@@ -1,5 +1,6 @@
 # Lab 5: Code Refactoring
-Duration: 60 minutes
+
+### Duration: 60 minutes
 
 GitHub code refactoring refers to the process of restructuring and improving the quality of code in a GitHub repository without changing its external behaviour. Code refactoring aims to enhance readability, maintainability, and performance while reducing technical debt and potential bugs. 
 
@@ -29,7 +30,7 @@ In this exercise, you will participate in a learning or practice activity where 
 
    >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
 
-     ![](../../media/envt12.png)
+      ![](../../media/githubcreds.png)
 
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
           
@@ -45,7 +46,7 @@ In this exercise, you will participate in a learning or practice activity where 
 
 1. Now, right-click on your profile icon in the top right and click on **Your Repositories**.
     
-   ![](../../media/l2.2.png)
+   ![](../../media/Copilotrepo.png)
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**.
 
@@ -83,17 +84,13 @@ In this exercise, you will participate in a learning or practice activity where 
 
 1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
-   ![](../../media/loaded-repo.png)
+   ![](../../media/lab5files.png)
 
 1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
    ![](../../media/verify-copilot.png)
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
-
-1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
-
-   ![](../../media/verify-copilot.png)
 
 1.  In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat** extension.
 
@@ -107,7 +104,7 @@ In this exercise, you will participate in a learning or practice activity where 
 
    ![](../../media/git-chat-icon.png)
 
-1. In the Visual Studio Code window,to install the C Sharp (C#) extension, the following steps are to be performed:
+1. In the Visual Studio Code window,to install the **C Sharp (C#)** extension, the following steps are to be performed:
     - Click on the **Extensions** **(1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
     - In the "Search Extensions in Marketplace" search box, type and search for the **C#** **(2)** extension.
     - Select **C#** **(3)** from the list of results that show up.
@@ -120,6 +117,12 @@ In this exercise, you will participate in a learning or practice activity where 
       ![Picture1](../../media/image1.png)
    
       ![Picture1](../../media/image2.png)
+      
+1. Make sure to sign in to your GitHub account by clicking on the **GitHub Copilot icon** located in the bottom right corner.
+
+    ![](../../media/githubsignin2.png)
+
+    > **Note:** Click "**Allow**" for VS Code to sign in to your GitHub account. A new web page will open. Copy the URL of the page, paste it into a private browser, enter your GitHub credentials, and sign in.
 
 1. To demonstrate the GitHub code refactor, let us take an example of a poorly written code and analyze it. The below code is written using the C# programming language.
     

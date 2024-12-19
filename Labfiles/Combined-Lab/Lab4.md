@@ -34,9 +34,13 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
     >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
 
-      ![](../../media/credsfile.png) 
+      ![](../../media/credsfile.png)
 
-    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
+   >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
+
+     ![](../../media/githubcreds.png)
+
+   >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
      
 1. Navigate to Outlook login page using the provided URL below:
    ```
@@ -50,7 +54,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 1. Now, right-click on your profile icon in the top right and click on **Your Repositories**.
     
-   ![](../../media/l2.2.png)
+   ![](../../media/Copilotrepo.png)
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**.
 
@@ -98,13 +102,21 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
     ![](../../media/ghc-chat-extension.png)
 
-1. 1. Once the installation is complete, in the top navigation pane you will able to see the icon for GitHub Copilot next to the search bar in the visual studio code window.
+1. Once the installation is complete, in the top navigation pane you will able to see the icon for GitHub Copilot next to the search bar or it will be present in the bottom right corner in the visual studio code window.
+
+1. Make sure to sign in to your GitHub account by clicking on the GitHub Copilot icon located in the bottom right corner.
+
+    ![](../../media/githubsignin2.png)
+
+    > **Note:** Click "**Allow**" for VS Code to sign in to your GitHub account. A new web page will open. Copy the URL of the page, paste it into a private browser, enter your GitHub credentials, and sign in.
 
 ## Task 2- Example: Set the stage with a high-level goal
 
-   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
+1. In the Visual Studio Code activity bar, click the **GitHub Copilot Chat icon (1)** and select **GitHub Copilot Chat (2)** option to open a chat window.
 
-1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
+    ![](../../media/copilotchat.png)
+
+   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
 1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write an ARM code for deploying a storage account to Azure with the code explanation."
 
