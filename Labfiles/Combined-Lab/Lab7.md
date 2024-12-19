@@ -103,7 +103,7 @@ You will be able to complete the following tasks:
 
 1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
-   ![](../../media/loaded-repo.png)
+   ![](../../media/lab7files.png)
 
 1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
