@@ -76,6 +76,10 @@ In this lab, you will create a development container and define specific extensi
 
    ![](../../media/signingit.png)
 
+   > **Note**: If you do not get a prompt to sign in to your GitHub account, click on the GitHub Copilot icon located in the bottom right corner. Click "Allow" for VS Code to sign in to your GitHub account. A new web page will open. Copy the URL of the page, paste it into a private browser, enter your GitHub credentials, and sign in.
+
+      ![](../../media/githubsignin2.png)
+         
    > **Note**: If you face an issue with **Sign in to GitHub**, copy the sigin URL from browser and login to the copied URL from InPrivate browser.
  
       ![](../../media/private.png)
