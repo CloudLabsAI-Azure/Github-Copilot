@@ -155,15 +155,15 @@ You will be able to complete the following tasks:
 
 ### Note: After entering the prompt, press Enter and then Tab to see the suggestions. Once you view a suggestion, press Tab to accept it, and hit Enter to see more code suggestions.
 
-1. From the VS Code explorer window, right-click on the folder named **ml-copilot-workshop** **(1)** and click on **New File**. Name the file `Experiments.ipynb` **(2)** and verify that your new file looks as shown below:
-
-   ![](../../media/ex-8-create-file.png)
-
-1. Click on **Extension**s from the left panel, search for **Jupyter**, and install it. Then, search for **Python** and install the extension. If prompted, select **Reload Window** for both extensions.
+1. Click on **Extension** from the left panel, search for **Jupyter**, and install it. Then, search for **Python** and install the extension. If prompted, select **Reload Window** for both extensions.
 
    ![](../../media/jupyterinstall.png)
    
    ![](../../media/pythoninstall.png)
+
+1. From the VS Code explorer window, right-click on the folder named **ml-copilot-workshop** **(1)** and click on **New File**. Name the file `Experiments.ipynb` **(2)** and verify that your new file looks as shown below:
+
+   ![](../../media/ex-8-create-file.png)
 
 1. Click **+ Code** and paste the below comments to import all the libraries where the Copilot automatically prompts all the libraries; hit "**enter**" to get into the next line and press **tab** view the suggestion, press "**tab** to accept the suggestion".
 
