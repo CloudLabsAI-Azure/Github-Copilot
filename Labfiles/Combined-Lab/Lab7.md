@@ -91,7 +91,7 @@ You will be able to complete the following tasks:
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
-   ![](../media/signingit.png)
+   ![](../../media/signingit.png)
 
    >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
 
