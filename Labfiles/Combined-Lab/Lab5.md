@@ -103,7 +103,7 @@ In this exercise, you will participate in a learning or practice activity where 
 
    ![](../../media/git-chat-icon.png)
 
-1. In the Visual Studio Code window,to install the C Sharp (C#) extension, the following steps are to be performed:
+1. In the Visual Studio Code window,to install the **C Sharp (C#)** extension, the following steps are to be performed:
     - Click on the **Extensions** **(1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
     - In the "Search Extensions in Marketplace" search box, type and search for the **C#** **(2)** extension.
     - Select **C#** **(3)** from the list of results that show up.
@@ -116,6 +116,12 @@ In this exercise, you will participate in a learning or practice activity where 
       ![Picture1](../../media/image1.png)
    
       ![Picture1](../../media/image2.png)
+      
+1. Make sure to sign in to your GitHub account by clicking on the **GitHub Copilot icon** located in the bottom right corner.
+
+    ![](../../media/githubsignin2.png)
+
+    > **Note:** Click "**Allow**" for VS Code to sign in to your GitHub account. A new web page will open. Copy the URL of the page, paste it into a private browser, enter your GitHub credentials, and sign in.
 
 1. To demonstrate the GitHub code refactor, let us take an example of a poorly written code and analyze it. The below code is written using the C# programming language.
     
