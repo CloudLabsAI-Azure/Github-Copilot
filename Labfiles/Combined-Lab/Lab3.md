@@ -90,6 +90,12 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
+1. Make sure to sign in to your GitHub account by clicking on the GitHub Copilot icon located in the bottom right corner.
+
+    ![](../../media/githubsignin2.png)
+
+    > **Note:** Click "**Allow**" for VS Code to sign in to your GitHub account. A new web page will open. Copy the URL of the page, paste it into a private browser, enter your GitHub credentials, and sign in.
+
 1. From the VS Code Explorer window, create a New File.
 
    ![](../../media/create-newfile.png)
