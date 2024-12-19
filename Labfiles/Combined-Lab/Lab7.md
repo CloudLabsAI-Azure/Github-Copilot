@@ -99,7 +99,7 @@ You will be able to complete the following tasks:
 
    ![](../../media/allow.png)
 
-   >**Note**: Wait about 2 minutes for the codespace to spin itself up.
+   >**Note**: Wait for about 2 minutes for the codespace to initialize. A new browser tab will open; **reload** the page and click "**Open**" in the pop-up that appears to access VS Code.
 
 1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
