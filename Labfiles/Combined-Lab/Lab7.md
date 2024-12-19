@@ -127,6 +127,8 @@ You will be able to complete the following tasks:
 
     ![](../../media/githubsignin2.png)
 
+    > **Note:** Click "**Allow**" for VS Code to sign in to your GitHub account. A new web page will open. Copy the URL of the page, paste it into a private browser, enter your GitHub credentials, and sign in.
+
 1. Open VS Code Terminal by clicking on **Ellipsis (...)** **(1)**, selecting **Terminal** **(2)**, and clicking on **New Terminal** **(3)**.
 
    ![](../../media/ex-8-openterminal.png)
@@ -156,6 +158,12 @@ You will be able to complete the following tasks:
 1. From the VS Code explorer window, right-click on the folder named **ml-copilot-workshop** **(1)** and click on **New File**. Name the file `Experiments.ipynb` **(2)** and verify that your new file looks as shown below:
 
    ![](../../media/ex-8-create-file.png)
+
+1. Click on **Extension**s from the left panel, search for **Jupyter**, and install it. Then, search for **Python** and install the extension. If prompted, select **Reload Window** for both extensions.
+
+   ![](../../media/jupyterinstall.png)
+   
+   ![](../../media/pythoninstall.png)
 
 1. Click **+ Code** and paste the below comments to import all the libraries where the Copilot automatically prompts all the libraries; hit "**enter**" to get into the next line and press **tab** view the suggestion, press "**tab** to accept the suggestion".
 
