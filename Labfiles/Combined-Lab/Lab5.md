@@ -1,6 +1,6 @@
 # Lab 5: Code Refactoring
 
-## Duration: 60 minutes
+### Duration: 60 minutes
 
 GitHub code refactoring refers to the process of restructuring and improving the quality of code in a GitHub repository without changing its external behaviour. Code refactoring aims to enhance readability, maintainability, and performance while reducing technical debt and potential bugs. 
 
