@@ -155,7 +155,7 @@ You will be able to complete the following tasks:
 
 ### Note: After entering the prompt, press Enter and then Tab to see the suggestions. Once you view a suggestion, press Tab to accept it, and hit Enter to see more code suggestions.
 
-1. Click on **Extension** from the left panel, search for **Jupyter**, and install it. Then, search for **Python** and install the extension. If prompted, select **Reload Window** for both extensions.
+1. Click on **Extension** from the left panel, search for **Jupyter**, and install it. Then, search for **Python** and install the extension. If prompted, select **Reload Window** for both extensions. Close the VS code and restart it.
 
    ![](../../media/jupyterinstall.png)
    
@@ -174,7 +174,7 @@ You will be able to complete the following tasks:
 
    ![](../../media/gc9.png)
   
-   >**Note**: Ensure to select the Kernel and click on Python 3.12.
+   >**Note**: Ensure to select the Kernel and click on Python 3.12. If the Python 3.12 kernel is not visible, go to Extensions, uninstall both the Python and Jupyter extensions, and then reinstall them as described in Step 1.
 
       ![](../../media/gc7.png)
 
@@ -182,9 +182,11 @@ You will be able to complete the following tasks:
 
      ![](../../media/gc12.png)
 
-1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell.
+1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell. 
 
    ![](../../media/gc10.png)
+
+   >**Note**: The code suggestion you receive may differ from the image shown above.
 
    >**Note**: While running the cell, you may need to install the required packages and select the kernel.
    
@@ -205,7 +207,7 @@ You will be able to complete the following tasks:
 
 ### Task 3.1: Mathematical Operations
 
-1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
+1. In a new code cell, type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Mathematical operations on the dataset, like generating the birth year from age
@@ -213,6 +215,8 @@ You will be able to complete the following tasks:
 
    ![](../../media/ex9-birthyear.png)
 
+   >**Note**: Incorporate only the first suggestion.
+   
    >**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
 
 1. Type the below comment, Press "enter" to get into the next line and review the suggestion, and press "tab" to get the output similar to the below image and click on **Run** button to execute the cell. 
