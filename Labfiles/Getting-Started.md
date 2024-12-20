@@ -55,6 +55,12 @@ GitHub Copilot es una herramienta de completado de código impulsada por IA que 
 1. Una vez que esté en la pestaña **Ambiente**, haga clic en la opción **Credenciales de GitHub** para obtener las credenciales de usuario de GitHub. Las credenciales también se enviarán por correo electrónico a su dirección de correo electrónico registrada. También puede abrir la Guía de Laboratorio en una ventana separada y completa seleccionando **Ventana Dividida** en la esquina superior derecha. Además, puede iniciar, detener y reiniciar máquinas virtuales desde la pestaña **Recursos**.
  
    ![](../media/gettingstarted-v2-01.png)
+
+## Guía de laboratorio Acercar/alejar
+ 
+1. Para ajustar el nivel de zoom de la página del entorno, haga clic en el icono **A↕: 100%** ubicado junto al temporizador en el entorno del laboratorio.
+
+      ![](../media/image177.png)
  
 ## Iniciar Sesión en GitHub
 
