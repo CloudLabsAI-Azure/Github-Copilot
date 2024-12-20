@@ -56,6 +56,12 @@ O GitHub Copilot é uma ferramenta de conclusão de código com tecnologia de IA
 
    ![](../../media/p5.png)
 
+## Guia de laboratório Aumentar/diminuir zoom
+ 
+1. Para ajustar o nível de zoom da página do ambiente, clique no ícone **A↕ : 100%** localizado próximo ao cronômetro no ambiente do laboratório.
+
+      ![](../../media/image177.png)
+
 ## Iniciar sessão no GitHub
 
 1. Na área de trabalho do LABVM, procure por **Microsoft Edge** **(1)**, clique no browser **Microsoft Edge** **(2)**.
