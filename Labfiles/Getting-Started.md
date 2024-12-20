@@ -55,6 +55,12 @@ GitHub Copilot is an AI-powered code completion tool that assists developers by 
 1. Once you are in the **Environment** tab click on the **GitHub Credentials** option to get GitHub user credentials. The credentials will also be emailed to your registered email address. You can also open the Lab Guide in a separate, and full window by selecting **Split Window** from the upper right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
  
    ![](../media/gettingstarted-v2-01.png)
+
+## Lab Guide Zoom In/Zoom Out
+ 
+1. To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+   ![](../media/image177.png)
  
 ## Login to GitHub
 
