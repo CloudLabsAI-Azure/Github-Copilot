@@ -41,14 +41,19 @@ You will be able to complete the following tasks:
        "customizations": {
            "vscode": {
                "extensions": [
-                   "GitHub.copilot"
+                   "GitHub.copilot",
+                   "hashicorp.terraform"
                ]
            }
-       }
+       },
+      "features": {
+        "ghcr.io/devcontainers/features/terraform:1": {},
+        "ghcr.io/devcontainers/features/azure-cli:1": {}
+      }
    }
    ```
 
-   ![](../media/devcontainer-commit.png)
+   ![](../media/c14.png)
    
 1. Select the option to **Commit directly to the `main` branch**, and then click the **Commit changes** button.
 
