@@ -250,7 +250,7 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
    ![](media/E2-T3.1-S2.png)
 
-3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on **Make request (Enter) (2)** button.
+3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** to create a basic markdown editor and click on **Send and Dispatch (Enter) (2)** button.
 
    ```
    Create a basic markdown editor in Next.js with the following features:
