@@ -53,8 +53,12 @@ In this lab, you will complete the following tasks:
       ![](../media/py63.png)
 
      > **Note**: However, it should be noted that the suggestions from GitHub Copilot may vary, necessitating a clear understanding of the Javascript code and its usage.
+
+1. Click on the **ellipsis (1)** on the top, click on **Terminal (2)** and select **New Terminal (3)**.
+
+   ![](../media/openterminal.png)     
    
-1. Run the application with the **node skills.js** command in the terminal and verify the output has been generated.
+1. Run the application with the `node skills.js` command in the terminal and verify the output has been generated.
 
    ![](../media/py28.png)
 

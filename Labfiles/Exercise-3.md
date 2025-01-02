@@ -15,7 +15,7 @@ In this lab, you will complete the following tasks:
 
 ## Task 1:  Develop a Python Script for Implementing a Calculator
 
-1. From the VS Code Explorer window, create a New File.
+1. From the VS Code Explorer window, create a **New File**.
 
    ![](../media/py10.png)
 
@@ -104,11 +104,11 @@ By leveraging the previously generated code, you will explore specific tools pro
 
       ![](../media/tests1.png)
 
-1. GitHub Copilot will automatically use the `/tests` comment and open a new tab named **REFACTOR REVIEW** and will suggest the tests that can be run to verify the output.
+1. GitHub Copilot will automatically use the `/tests` comment. Click on **Accept**.
 
-      ![](../media/app3.png)
+      ![](../media/c9.png)
 
-1. Click on **Apply**.
+1. Press `CTRL + S` to save the file.       
 
 1. It will open a new file named **test_app.py**, displaying the test cases.
 

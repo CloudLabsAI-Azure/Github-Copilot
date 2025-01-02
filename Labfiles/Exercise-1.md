@@ -26,13 +26,13 @@ You will be able to complete the following tasks:
 
     ![](../media/Exercise-01-v2-01.png)
 
-2. Type or paste the following in the empty text field prompt to name your file **(1)**.
+1. Type or paste the following in the empty text field prompt to name your file **(1)**.
 
    ```
    .devcontainer/devcontainer.json
    ```
 
-3. In the body of the new **.devcontainer/devcontainer.json** file, add the following content **(2)** and click on **Commit changes** **(3)**:
+1. In the body of the new **.devcontainer/devcontainer.json** file, add the following content **(2)** and click on **Commit changes** **(3)**:
 
    ```
    {
@@ -50,21 +50,21 @@ You will be able to complete the following tasks:
 
    ![](../media/devcontainer-commit.png)
    
-4. Select the option to **Commit directly to the `main` branch**, and then click the **Commit changes** button.
+1. Select the option to **Commit directly to the `main` branch**, and then click the **Commit changes** button.
 
    ![](../media/commit-file.png)
 
-5. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
+1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
    ![](../media/code-code.png)
 
-6. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
+1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
 
    ![](../media/create-codespace.png)
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
-7. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should select **Install Extension and Open URI** to continue.
+1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should select **Install Extension and Open URI** to continue.
 
    ![](../media/open.png)
 
@@ -82,35 +82,38 @@ You will be able to complete the following tasks:
 
     ![](../media/c3.png)
 
-8. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
+1. Verify your codespace is running. Make sure the VS code looks as shown below:
+
+    ![](../media/loaded-repo.png)   
+
+1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
     ![](../media/verify-copilot.png)
 
-   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
+    >**Note**: If the GitHub Copilot extension is not installed, click on Install.     
 
-9. At the bottom right corner, you will get a prompt to sign in to GitHub.
+1. At the bottom right corner, click on the showed icon, to sign in to GitHub.
 
-   ![](../media/signingit.png)
+   ![](../media/c4.png)
 
    > **Note**: If you encounter with error **No access to GitHub Copilot found**, please reach out to `cloudlabs-support@spektrasystems.com` for further assistance.
 
       ![](../media/3.png)
 
-10. Next, once you get the popup, click on **Allow**
+1. Next, once you get the popup, click on **Allow**
 
-   ![](../media/allow.png)
+     ![](../media/allow.png)
 
-   >**Note**: Wait about 2 minutes for the codespace to spin itself up.
+     >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
-11. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
+1. Click **Continue**, once the  **Select user to authorize Visual Studio Code** tab appears in the browser.
 
-    ![](../media/Exercise-01-v2-02.png)
+    ![](../media/c5.png)
 
-12. Next, once you get the popup, click on **Allow**
+1. Next, once you get the popup, click on **Open**.
 
-13. Verify your codespace is running. Make sure the VS code looks as shown below:
+    ![](../media/c6.png)
 
-    ![](../media/loaded-repo.png)
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.

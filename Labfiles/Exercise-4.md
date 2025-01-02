@@ -31,11 +31,11 @@ In this lab, you will complete the following tasks:
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
-1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon on the top right to open the GitHub Copilot Chat window.
+1. In the Visual Studio Code activity bar, click the **GitHub Copilot Chat** icon **(1)** on the top right. Click on **Open Chat (2)** to open the GitHub Copilot Chat window.
 
-    ![](../media/hub64.png)
+    ![](../media/c10.png)
 
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write an ARM code for deploying a storage account to Azure with the code explanation."
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type `Write an ARM code for deploying a storage account to Azure with the code explanation.`
 
     ![](../media/hub63.png)
 
@@ -69,7 +69,7 @@ In this lab, you will complete the following tasks:
 
 1. Click on **Use Another Account**.
 
-    ![](../media/hub101.png)   
+    ![](../media/c11.png)   
 
 1. On the **Sign in to Microsoft Azure tab**, you will see a login screen. Enter the following email/username and then click on **Next**.
 
@@ -103,14 +103,13 @@ In this lab, you will complete the following tasks:
    - Resource Group - **Select JumpVM-RG-<inject key="Deployment-id" enableCopy="false"/> (2)**
    - Region - **Select the default region. (3)**
    - Storage Account Name - **storage<inject key="Deployment-id" enableCopy="false"/> (4)**
-   - Location - **Select the same as the region (5)**
-   - Sku - **Select the default sku (6)**
-   - Click on **Review + Create (7)**
-   - Click on **Create**
+   - Click on **Review + Create (5)**
 
-     ![](../media/github6.png)
+     ![](../media/c12.png)
 
         > **Note:** In case, the storage account name is already fetched, use the default.
+
+1. Click on **Create**        
       
 1. Click on **Go to Resource**.
 
