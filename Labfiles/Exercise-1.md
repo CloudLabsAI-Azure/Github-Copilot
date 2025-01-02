@@ -74,6 +74,14 @@ You will be able to complete the following tasks:
 
    ![](../media/inn-2.png)
 
+1. Click on **Continue** on **Select user to authorize Visual Studio Code**.
+
+    ![](../media/c2.png)
+
+1. Click on **Open** to open the Visual Studio Code.
+
+    ![](../media/c3.png)
+
 8. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
     ![](../media/verify-copilot.png)
