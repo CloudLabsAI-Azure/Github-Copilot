@@ -28,7 +28,7 @@ You will be able to complete the following tasks:
     - Click on the **Extensions** **(1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
     - In the "Search Extensions in Marketplace" search box, type and search for the **C#** **(2)** extension.
     - Select **C#** **(3)** from the list of results that show up.
-    - Click on the **Install** **(4)** button.
+    - Click on the **Install** **(4)** button, if it is available otherwise please ignore.
 
    ![](../media/csharp-install.png)
 

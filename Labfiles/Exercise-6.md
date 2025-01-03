@@ -135,6 +135,10 @@ You will be able to complete the following tasks:
 
    >**Note:** If you recieve any errors or if you need more suggestions, navigate to the **Github Co-pilot** from the right pane. Refresh if needed. Accept the most relevent solution.
 
+    ![](../media/c27.png) 
+
+    ![](../media/ex6-copilot-suggestion.png)      
+
 ## Task 3: Getting more suggestions
 
 Sometimes, you may not want to use any of the initial suggestions. You can ask GitHub Copilot to return more.
@@ -155,11 +159,11 @@ Sometimes, you may not want to use any of the initial suggestions. You can ask G
 
    ![](../media/github.png)
    
-1. Select "Open Copilot". GitHub Copilot will open a new tab and suggest multiple options, as shown below.
+1. Select **Open Copilot**. GitHub Copilot will open a new tab and suggest multiple options, as shown below.
 
    ![](../media/ex6-copilot-suggestion.png)
 
-1. Pick a suggestion that you want to use, then click "Accept solution".
+1. Pick a suggestion that you want to use, then click **Accept solution**.
 
 1. If you don't like any of the returned suggestions, just close the suggestions tab.
 
