@@ -109,17 +109,9 @@ You will be able to complete the following tasks:
 
       > **Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
 
-
 1. Open GitHub Copilot Chat from the top and type `Explian the cron syntax in this code` and hit **send**.
 
-   >**Note**: If you are facing any error which says `Rejected`, then run the below given command and re-run `git push` command again. This will fetch changes in remote branch and merge them into current branch without rebasing.
-
-      ```
-      git pull --no-rebase
-      ```
-  >**Note**: A message appears in the terminal stating that you need to close the newly opened file, in addition to the two files that are already open. Please close the newly opened file.
-
-
+      ![](../media/hub10.png)
    
 1. Review the response and understand the uses of cron syntax.
 
