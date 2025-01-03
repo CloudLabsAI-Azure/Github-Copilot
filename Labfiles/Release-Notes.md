@@ -4,7 +4,7 @@
 
 - Minor Updates
 
-  - Updated the location of the GitHub Copilot icon to enable Chat functionality in the lab guide.
+  - Updated the location of the GitHub Copilot icon to enable Chat functionality in the lab guide as per new UI changes.
 
 - Major Updates
 
