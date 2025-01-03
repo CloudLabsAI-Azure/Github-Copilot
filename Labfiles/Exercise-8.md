@@ -119,7 +119,7 @@ You will be able to complete the following tasks:
 
 1. Offer another query: `How should a GitHub Actions YAML file be structured?` and evaluate the provided response.
 
-   ![](../media/hub12.png)
+   ![](../media/c41.png)
    
 ### Summary
 

@@ -103,7 +103,7 @@ You will be able to complete the following tasks:
 
 ### Task 3.1: Mathematical Operations
 
-1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
+1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset. Press **enter** to get into the next line and review the suggestion, and press **tab** to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Mathematical operations on the dataset, like generating the birth year from age
@@ -121,7 +121,7 @@ You will be able to complete the following tasks:
 
    ![](../media/c40.png)
 
-1. Type the below comments to convert the BMI column up to two decimal values, press "tab". Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
+1. Type the below comments to convert the BMI column up to two decimal values, press "tab". Press **enter** to get into the next line and review the suggestion, and press **tab** to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Convert the BMI column to two decimal values
