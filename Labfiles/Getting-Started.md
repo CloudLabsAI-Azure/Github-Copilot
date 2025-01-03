@@ -55,12 +55,6 @@ GitHub Copilot is an AI-powered code completion tool that assists developers by 
 1. Once you are in the **Environment** tab click on the **GitHub Credentials** option to get GitHub user credentials. The credentials will also be emailed to your registered email address. You can also open the Lab Guide in a separate, and full window by selecting **Split Window** from the upper right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
  
    ![](../media/gettingstarted-v2-01.png)
-
-## Lab Guide Zoom In/Zoom Out
- 
-1. To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
-
-   ![](../media/image177.png)
  
 ## Login to GitHub
 
@@ -130,9 +124,9 @@ GitHub Copilot is an AI-powered code completion tool that assists developers by 
 
 1. Navigate to the existing repository that must be deleted
 
-      ![](../media/gs-6.png)
+   ![](../media/gs-6.png)
    
-      ![](../media/gs-5.png)
+   ![](../media/gs-5.png)
       
 1. Click on **Settings**.
 
@@ -150,7 +144,11 @@ GitHub Copilot is an AI-powered code completion tool that assists developers by 
 
      ![](../media/c1.png)
 
-   >**Note:** Once the existing repository has been deleted, please repeat the step-06 in the previous task.
+1. Give the name of the repository and click on **Delete this repository**.
+
+     ![](../media/gs-4.png)
+
+      >**Note:** Once the existing repository has been deleted, please repeat the step-06 in the previous task.
 
 This hands-on lab demonstrates how GitHub Copilot and GitHub Codespaces enhance development through real-time code suggestions and consistent cloud environments.
 
