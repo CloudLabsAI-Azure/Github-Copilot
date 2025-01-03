@@ -62,11 +62,11 @@ In this lab, you will complete the following tasks:
 
    ![](../media/py28.png)
 
-  > **Note**: You can also try the same commands to convert from Fahrenheit to Celsius as shown below:
+    >**Note**: You can also try the same commands to convert from Fahrenheit to Celsius as shown below:
 
-   ![](../media/py24.png)
+     ![](../media/py24.png)
 
-   ![](../media/py26.png)
+     ![](../media/py26.png)
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 

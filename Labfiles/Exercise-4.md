@@ -143,7 +143,7 @@ In this lab, you will complete the following tasks:
 
    ![](../media/c15.png)
 
-    >**Note:** Replace the <subscription_id> with the actual value. To fetch subscription id - Navigate to `portal.azure.com` , go to your resource group and copy the id.
+    >**Note:** Replace the `<subscription_id >` with the actual value. To fetch subscription id - Navigate to `portal.azure.com` , go to your resource group and copy the id.
 
      ![](../media/c16.png)
 
@@ -188,11 +188,11 @@ In this lab, you will complete the following tasks:
     terraform import azurerm_resource_group.example /subscriptions/<subscription_id>/resourceGroups/JumpVM-RG-<Deployment-id>">
     ```   
 
-     >**Note:** Replace the <subscription_id> with the actual value. To fetch subscription id - Navigate to `portal.azure.com` , go to your resource group and copy the id.
+     >**Note:** Replace the `<subscription_id >` with the actual value. To fetch subscription id - Navigate to `portal.azure.com` , go to your resource group and copy the id.
 
       ![](../media/c16.png)
 
-     > **Note:** Replace <Deployment-id> with the actual id. To fetch the Deployment-id, navigate to the **Environmental Details** tab in the vm and copy the DID.
+     > **Note:** Replace `<Deployment-id >` with the actual id. To fetch the Deployment-id, navigate to the **Environmental Details** tab in the vm and copy the DID.
 
 1.  Run the below command to execute planned actions, creating ot updating infrastructure resources.
 

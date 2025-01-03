@@ -47,8 +47,8 @@ You will be able to complete the following tasks:
            }
        },
       "features": {
-        "ghcr.io/devcontainers/features/terraform:1": {},
-        "ghcr.io/devcontainers/features/azure-cli:1": {}
+          "ghcr.io/devcontainers/features/terraform:1": {},
+          "ghcr.io/devcontainers/features/azure-cli:1": {}
       }
    }
    ```
