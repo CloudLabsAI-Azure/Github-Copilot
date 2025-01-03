@@ -104,9 +104,18 @@ By leveraging the previously generated code, you will explore specific tools pro
 
       ![](../media/tests1.png)
 
+   >**Note**: If you are facing any error which says `Rejected`, then run the below given command and re-run `git push` command again. This will fetch changes in remote branch and merge them into current branch without rebasing.
+      ```
+      git pull --no-rebase
+      ```
+   >**Note**: A message appears in the terminal stating that you need to close the newly opened file, in addition to the two files that are already open. Please close the newly opened file.
+   
+
 1. GitHub Copilot will automatically use the `/tests` comment. Click on **Accept**.
 
+
       ![](../media/c9.png)
+
 
 1. Press `CTRL + S` to save the file.       
 

@@ -32,6 +32,7 @@ You will be able to complete the following tasks:
 
    ![](../media/csharp-install.png)
 
+
 1. From the codespace in the VS Code Explorer window, create a new file and name it as **codechat.cs**.
 
       ![](../media/chat-code-new.png)
@@ -39,6 +40,12 @@ You will be able to complete the following tasks:
       > **Note**: If you notice any recommendation to install the C# extension. Click on Install.
 
 1. To demonstrate the GitHub code refactor, let us take an example of a poorly written code and analyze it. The below code is written using the C# programming language. Paste the below code in the file.
+
+    >**Note**: If you're unable to see the install button, please click on **"Install in Codespaces: Laughing Space Basson**.
+
+     ![](../media/codespaces.png)
+
+
     
    ```
    using System;
@@ -279,6 +286,8 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 1. Copy and paste the code in the file named **test.js** that you just created.
 
+>**Note**: If you encounter any errors in the code, press Ctrl + I, paste the command there, and accept the provided code.
+
 1. Now, to generate test cases for each function, select the function for which the test case has to be generated, and back in the GitHub Copilot Chat window, type **/tests** and hit enter.
 
    ![](../media/test1.png)
@@ -286,6 +295,44 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 1. It will generate a test case for the add function.
 
    ![](../media/addcode1.png)
+
+
+### Task 6: Push code to your repository from the codespace
+
+1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
+
+1. Run the below command to add the `codechat.cs` and `test.js` files to the repository:
+
+   ```
+   git add codechat.cs test.js
+   ```
+
+1. Next, from the VS Code terminal stage, commit the changes to the repository:
+
+   ```
+   git commit -m "Copilot commit"
+   ```
+
+1. Finally, from the VS Code terminal, push to code to the repository:
+
+   ```
+   git push
+   ```
+
+   ![](../media/exercise5-1.png)
+
+   >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
+
+    >**Note**: If you are facing any error which says `Rejected`, then run the below given command and re-run `git push` command again. This will fetch changes in remote branch and merge them into current branch without rebasing.
+      ```
+      git pull --no-rebase
+      ``` 
+   >**Note**: A message appears in the terminal stating that you need to close the newly opened file, in addition to the two files that are already open. Please close the newly opened file.
+
+1. You can verify the `codechat.cs` and `test.js` files available in your GitHub repository.
+
+   ![](../media/exercise5-2.png)
+
 
 ## Summary
 
