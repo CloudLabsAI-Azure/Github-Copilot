@@ -31,11 +31,11 @@ In this lab, you will complete the following tasks:
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
-1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon on the top right to open the GitHub Copilot Chat window.
+1. In the Visual Studio Code activity bar, click the **GitHub Copilot Chat** icon **(1)** on the top right. Click on **Open Chat (2)** to open the GitHub Copilot Chat window.
 
-    ![](../media/hub64.png)
+    ![](../media/c10.png)
 
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write an ARM code for deploying a storage account to Azure with the code explanation."
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type `Write an ARM code for deploying a storage account to Azure with the code explanation.`
 
     ![](../media/hub63.png)
 
@@ -69,7 +69,7 @@ In this lab, you will complete the following tasks:
 
 1. Click on **Use Another Account**.
 
-    ![](../media/hub101.png)   
+    ![](../media/c11.png)   
 
 1. On the **Sign in to Microsoft Azure tab**, you will see a login screen. Enter the following email/username and then click on **Next**.
 
@@ -83,7 +83,7 @@ In this lab, you will complete the following tasks:
 
 1. Select **Cancel** on the **Welcome to Azure** page.
 
-    ![](../media/hub102.png) 
+    ![](../media/c13.png) 
 
 1. Search for **deploy(1)** and select **Deploy a custom template(2)**.
 
@@ -103,14 +103,13 @@ In this lab, you will complete the following tasks:
    - Resource Group - **Select JumpVM-RG-<inject key="Deployment-id" enableCopy="false"/> (2)**
    - Region - **Select the default region. (3)**
    - Storage Account Name - **storage<inject key="Deployment-id" enableCopy="false"/> (4)**
-   - Location - **Select the same as the region (5)**
-   - Sku - **Select the default sku (6)**
-   - Click on **Review + Create (7)**
-   - Click on **Create**
+   - Click on **Review + Create (5)**
 
-     ![](../media/github6.png)
+     ![](../media/c12.png)
 
         > **Note:** In case, the storage account name is already fetched, use the default.
+
+1. Click on **Create**        
       
 1. Click on **Go to Resource**.
 
@@ -124,7 +123,7 @@ In this lab, you will complete the following tasks:
 
 1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
 
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For instance, type "Write a Terraform code for deploying a storage account to Azure with the code explanation".
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For instance, type `Write a Terraform code for deploying a storage account to Azure with the code explanation`.
 
 1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window.
 
@@ -139,6 +138,14 @@ In this lab, you will complete the following tasks:
 1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
 
    ![](../media/terraform-new-file.png)
+
+1. Copy and paste  `subscription_id = "<subscription_id>"` inside the **provider "azurerm"** as shown in the below screenshot.
+
+   ![](../media/c15.png)
+
+    >**Note:** Replace the <subscription_id> with the actual value. To fetch subscription id - Navigate to `portal.azure.com` , go to your resource group and copy the id.
+
+     ![](../media/c16.png)
 
 1. Fill the below details for the appropriate field:
 
@@ -178,12 +185,14 @@ In this lab, you will complete the following tasks:
 1. Run the below command to import the existing resource group
 
     ```
-    terraform import azurerm_resource_group.example /subscriptions/<subscription_id>/resourceGroups/JumpVM-RG-<Deployment-id">
+    terraform import azurerm_resource_group.example /subscriptions/<subscription_id>/resourceGroups/JumpVM-RG-<Deployment-id>">
     ```   
 
-     > **Note:** To fetch subscription id - Navigate to `portal.azure.com` , search for subscriptions and copy the id.
+     >**Note:** Replace the <subscription_id> with the actual value. To fetch subscription id - Navigate to `portal.azure.com` , go to your resource group and copy the id.
 
-     > **Note:** To fetch the Deployment-id, navigate to the **Environmental Details** tab in the vm and copy the DID.
+      ![](../media/c16.png)
+
+     > **Note:** Replace <Deployment-id> with the actual id. To fetch the Deployment-id, navigate to the **Environmental Details** tab in the vm and copy the DID.
 
 1.  Run the below command to execute planned actions, creating ot updating infrastructure resources.
 
@@ -207,7 +216,7 @@ In this lab, you will complete the following tasks:
 
 1. In the Visual Studio Code activity bar, click the **GitHub Copilot Chat icon** to open the GitHub Copilot Chat window.
 
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type "Write a PowerShell script for deploying a virtual machine to Azure."
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type `Write a PowerShell script for deploying a virtual machine to Azure.`
 
 1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
 

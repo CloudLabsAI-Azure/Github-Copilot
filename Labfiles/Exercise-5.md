@@ -28,7 +28,7 @@ You will be able to complete the following tasks:
     - Click on the **Extensions** **(1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
     - In the "Search Extensions in Marketplace" search box, type and search for the **C#** **(2)** extension.
     - Select **C#** **(3)** from the list of results that show up.
-    - Click on the **Install** **(4)** button.
+    - Click on the **Install** **(4)** button, if it is available otherwise please ignore.
 
    ![](../media/csharp-install.png)
 
@@ -106,7 +106,7 @@ You will be able to complete the following tasks:
 
 1. Click on the **Chat** icon on the top right. This opens the GitHub Copilot Chat window into which the above code is to be **pasted**.
 
-1. Type the prompt `#selection How can we refactor this code to adhere to coding best practices?` then press **Enter**. The GitHub Copilot Chat will give the response as shown below.
+1. Type the prompt below the pasted code, `#selection How can we refactor this code to adhere to coding best practices?` then press **Enter**. The GitHub Copilot Chat will give the response as shown below.
 
    ![](../media/hub7.png)
 
@@ -249,7 +249,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
    }
     ```
 
-1. Let's ask Copilot the below question to understand which conditional statement is a better choice in this circumstance.
+1. Let's ask Copilot the below question to understand which conditional statement is a better choice in this circumstance. *Paste the same code in Copilot chat and below the code, paste the below prompt.*
    
     ```
     In this scenario, is it more appropriate to use a switch statement or if-else statements?
@@ -271,7 +271,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
    ![](../media/create-test.png)
 
-1. Now, navigate to the GitHub Copilot Chat and give the prompt **Compose a full JavaScript program for constructing a calculator**.
+1. Now, navigate to the GitHub Copilot Chat and give the prompt `Compose a full JavaScript program for constructing a calculator`.
 
 1. The GitHub Copilot Chat will generate the code as shown below.
 
@@ -288,7 +288,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
    ![](../media/addcode1.png)
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - If you receive a success message, you can proceed to the next task.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
     > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 

@@ -53,8 +53,12 @@ In this lab, you will complete the following tasks:
       ![](../media/py63.png)
 
      > **Note**: However, it should be noted that the suggestions from GitHub Copilot may vary, necessitating a clear understanding of the Javascript code and its usage.
+
+1. Click on the **ellipsis (1)** on the top, click on **Terminal (2)** and select **New Terminal (3)**.
+
+   ![](../media/openterminal.png)     
    
-1. Run the application with the **node skills.js** command in the terminal and verify the output has been generated.
+1. Run the application with the `node skills.js` command in the terminal and verify the output has been generated.
 
    ![](../media/py28.png)
 
@@ -67,7 +71,7 @@ In this lab, you will complete the following tasks:
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - If you receive a success message, you can proceed to the next task.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 

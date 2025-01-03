@@ -17,32 +17,41 @@ You will be able to complete the following tasks:
 
 ### Task 1: Generate a SQL query with GitHub Copilot using comments
 
-1. Navigate back to Visual Studio Code, and from inside the codespace in the VS Code explorer window, create a new file.
+1. Navigate back to the **codespace window** in the Visual Studio Code and from inside the codespace in the VS Code explorer window, create a **new file**.
 
-    ![](../media/chat-code-new.png)
+    >**Note:** Previous exercise you have done in a new window, so switch back to the codespace window.
 
-1. Name the file `demo.sql` and type the below comment:
+     ![](../media/chat-code-new.png)
+
+1. Name the file `demo.sql` and type the below comment and press **Enter**.
 
    ```
    -- create a table with 5 coloumns customer_id, customer_fname, customer_lname, customer_phone, customer_address
    ```
+
+    ![](../media/c34.png)   
    
 1. Notice how the Copilot is able to generate the next lines of code.
 
 1. Click on `Tab` and press **Enter**.
 
-1. Follow up with the rows. Type the below comment:
+1. Follow up with the rows. Type the below comment and press **Enter**.
 
    ```
    -- fill in 5 rows in customers table
    ```
+
+    ![](../media/c35.png)   
+
 1. Click on `Tab` and press **Enter**.
 
-1. Let's execute the query to show the table. Type the below comment:
+1. Let's execute the query to show the table. Type the below comment and press **Enter**.
 
    ```
    -- show the data in customers table
    ```
+
+    ![](../media/c36.png)   
 
 1. Click on Enter and click on `Tab` to select the suggestion.
 
