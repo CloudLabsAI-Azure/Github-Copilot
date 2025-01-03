@@ -146,13 +146,9 @@ GitHub Copilot is an AI-powered code completion tool that assists developers by 
 
      ![](../media/gs-3.png)
 
-
 1. Cick on **I have read and understand these effects** to accept that you have read and understood the effects.  
 
      ![](../media/c1.png)
-
-
-
 
       >**Note:** Once the existing repository has been deleted, please repeat the step-06 in the previous task.
 
