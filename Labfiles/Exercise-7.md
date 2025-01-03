@@ -63,6 +63,10 @@ You will be able to complete the following tasks:
 
      >**Note**: Ensure you don't open an already running instance of Visual Studio Code; instead, launch a new one from the desktop.
 
+1. Click on the Three horizontal line in the top left corner **(1)**, click **File (2)** and then click on **New Window (3)**.
+
+   ![](../media/c31.png)
+
 1. To verify the **GitHub Copilot Chat extension**, the following steps are to be performed within Visual Studio Code:
     - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
     - In the **"Search Extensions in Marketplace"** search box, type and search for the **GitHub Copilot Chat (2)** extension.
@@ -101,9 +105,14 @@ You will be able to complete the following tasks:
 
     ![Picture1](../media/clone.png)
 
-1. Switch to the **Explorer** in the upper left corner, select **Open Folder**, and select the folder you have cloned `C:\Users\azureuser\AU`.
+1. Switch to the **Explorer** in the upper left corner, select **Open Folder**.
+
    
    ![](../media/clonerepo1.png)
+
+1. Select the folder you have cloned **(1)** and click **Select Folder (2)**.
+
+   ![](../media/c30.png)
 
 1. Select **Yes, I trust the authors**.
 
@@ -111,9 +120,15 @@ You will be able to complete the following tasks:
 
 1. Once the folder is opened, select the `before.html` file.
 
-1. Navigate to **File Explorer** and open the folder you have cloned. From there, double-click on the `before.html` file. It will open in your web browser, where you have already added **Accessibility Insights for Web** extension.
+   ![](../media/c29.png)
 
-   ![](../media/before.png)
+1. Navigate to **File Explorer** and navigate to `C:\Users\azureuser\AU` then press **Enter**.
+
+   ![](../media/c28.png)
+
+1. It will  open the folder you have cloned. From there, double-click on the `before` html file. It will open in your web browser, where you have already added **Accessibility Insights for Web** extension.
+
+   ![](../media/c32.png)
 
    ![](../media/before1.png)
 
@@ -133,7 +148,7 @@ You will be able to complete the following tasks:
 
    - **Needs review**: The tool provides instances that need to be reviewed by a human to determine whether they pass or fail.
 
-1. Expand the color contrast issue to check failure details.
+1. Expand the **color contrast** issue to check failure details.
 
    ![](../media/allissue.png)
 
@@ -163,7 +178,11 @@ You will be able to complete the following tasks:
 
 1. **Save** the file by pressing **Ctrl + S**.
 
-1. Now refresh your **Accessible University** page. Click on the **Start over** button from the **Accessibility Insights for Web** page. You will now see a reduction in the error message.
+1. Now refresh your **Accessible University** page. 
+
+   ![](../media/c33.png)
+
+1. Click on the **Start over** button from the **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
    ![](../media/startover.png)
 
@@ -195,7 +214,11 @@ You will be able to complete the following tasks:
 
 1. **Save** the file by pressing **Ctrl + S**.
 
-1. Now refresh your **Accessible University** page. Click on the **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
+1. Now refresh your **Accessible University** page. 
+
+   ![](../media/c33.png)
+
+1. Click on the **Start over** button from  **Accessibility Insights for Web** page. You will now see a reduction in the error message.
 
    ![](../media/imgaltcoursela.png)
 

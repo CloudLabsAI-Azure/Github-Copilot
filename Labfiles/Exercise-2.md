@@ -2,40 +2,41 @@
 
 ### Estimated Duration: 20 minutes
 
-While GitHub Copilot provides recommendations across various languages and frameworks, it particularly excels with Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. Although the following samples are in JavaScript, they should be compatible with other languages as well.
+While GitHub Copilot offers recommendations for many languages and frameworks, it excels in particular when it comes to Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. The samples below are in JavaScript, but they should also work in other languages.
 
-In this exercise, you will get the chance to explore and utilize JavaScript, guided by the support of GitHub Copilot and GitHub Copilot Chat.
+In this lab, you will have the opportunity to experiment with and apply JavaScript with the assistance of GitHub Copilot and GitHub Copilot Chat.
 
->**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. However, the precise recommendation could vary.
-
->**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again. 
+>**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
 ## Lab objectives
 
-You will be able to complete the following tasks:
+In this lab, you will complete the following tasks:
 
 - Task 1: Add a JavaScript file and start writing code
-- Task 2: Push code to your repository from the codespace
-- Task 3: Best practices to use GitHub Copilot
 
 ## Task 1: Add a JavaScript file and start writing code
 
+1. In the LABVM desktop, select Visual Studio Code.
+ 
 1. From the VS Code Explorer window, create a New File.
 
    ![](../media/create-newfile.png)
 
-2. Name the file `skills.js` and verify your new file looks as shown below:
+1. Name the file `skills.js` and verify your new file looks as shown below:
 
    ![](../media/name-skills.png)
 
-3. In the `skills.js` file, type the following function header and press enter:
+1. In the `skills.js` file, type the following function header:
 
    ```
-   function calculateNumbers(var1, var2)
+   // function to covert Celsius
+   // to Fahrenheit
    ```
    
    > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
+   ![](../media/py70.png)
+   
    ![](../media/skills(1).png)
 
 4. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
@@ -108,139 +109,49 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
 
 3. Now press Ctrl + I to open the GitHub Copilot Chat and paste the following **comment (1)** to fetch the code and click on Make request **(Enter) (2)** button and click on **Accept (3)** to use the code. 
 
+1. Press `Tab` to accept the suggestion.
+
+   ![](../media/py61.png)
+
+1. In the next line, type the following:
+
    ```
-   /*
-   Create a basic markdown editor in Next.js with the following features:
-   - Use react hooks
-   - Create a state for markdown with the default text "type markdown here"
-   - A text area where users can write markdown 
-   - Show a live preview of the markdown text as I type
-   - Support for basic markdown syntax like headers, bold, and italics 
-   - Use React markdown npm package 
-   - The markdown text and resulting HTML should be saved in the component's state and updated in real-time 
-   */
+   // Driver code
    ```
+   ![](../media/py62.png)
 
-   ![](../media/ex-2-1.png)
+1. Press `Tab` to accept the suggestion  and then press `Ctrl + S` to save the file.
 
-   >**Note:** If the code is throwing errors, try to run the below command:
+      ![](../media/py63.png)
 
-    ```
-   Create a basic markdown editor in Next.js with the following features:
-   - Use react hooks
-   - Create a state for markdown with the default text "type markdown here"
-   - A text area where users can write markdown 
-   - Show a live preview of the markdown text as I type
-   - Support for basic markdown syntax like headers, bold, and italics 
-   - Use React markdown npm package 
-   - The markdown text and resulting HTML should be saved in the component's state and updated in real-time 
+     > **Note**: However, it should be noted that the suggestions from GitHub Copilot may vary, necessitating a clear understanding of the Javascript code and its usage.
+
+1. Click on the **ellipsis (1)** on the top, click on **Terminal (2)** and select **New Terminal (3)**.
+
+   ![](../media/openterminal.png)     
    
-   ```
+1. Run the application with the `node skills.js` command in the terminal and verify the output has been generated.
 
-## Task 3.2- Example: Aim to receive a short output from GitHub Copilot for a simple and specific ask
+   ![](../media/py28.png)
 
-After you've explained your primary objective to the AI pair programmer, explain the reasoning and procedures it must take to reach that objective. This will help GitHub Copilot gain a clearer understanding of your intended outcome when you break things down. For example, imagine you’re writing a recipe. Rather than writing a paragraph outlining the food you intend to make, you would break down the cooking procedure into distinct parts.
-So, instead of asking GitHub Copilot to generate a large amount of code at once, let it generate the code after each step.
+    >**Note**: You can also try the same commands to convert from Fahrenheit to Celsius as shown below:
 
-1. In the same index.js file, enter the below step-by-step instructions for reversing a sentence.
+     ![](../media/py24.png)
 
-   ```
-   // take a sentence as input
-   // reverse the input sentence
-   // the start of the sentence must start with a capital
-   // for javascript
-   ```
-
-    >**Note:** If the code is throwing errors, try to run the below command:
-
-      ```
-      take a sentence as input
-      reverse the input sentence
-      the start of the sentence must start with a capital
-      for javascript
-      ```
-
-2. The generated outcome would look similar to the below image.
-
-   ![](../media/ex-2-2.png)
-
-
-## Task 3.3- Example: Give GitHub Copilot an example or two
-
-Not only can people benefit from learning from examples, but so can your AI pair programmer. For example, in order to take the names out of the data array below and put them in a
-new array:
-
-   ```
-          const data = [
-        [
-          { name: 'John', age: 25 },
-          { name: 'Jane', age: 30 }
-        ],
-        [
-          { name: 'Bob', age: 40 }
-        ]
-      ];    
-   ```
-
-1. Type the below comment in the chat to generate the output without showing an example to GitHub Copilot.
-
-   ```
-    // As an illustration, pull names out of the data array  
-   ```
-
-2. It generated an incorrect usage of the map.
-
-   ![](../media/ex-2-3.png)
-
-3. By contrast, type the below comments to provide an example of how to generate the desired output.
-
-    ```
-      // Map through an array of arrays of objects
-      // Example: Extract names from the data array
-      // Desired outcome: ['John', 'Jane', 'Bob']    
-    ```
-
-4. Now, we have received our desired outcome. Save the newly created `index.js` file by using the `CTRL + S` shortcut keys.
-
-   ![](../media/ex-2-4.png)
-
-5. Open the **New Terminal** to push the code.
-
-6. Run the below command to pull the latest changes.
-
-   ```
-   git pull
-   ```
-
-1. Run the below command to add the `index.js` file to the GitHub repository.
-   
-   ```
-   git add index.js
-   ```
-
-8. Next from the VS Code terminal, commit the changes to the repository:
-
-   ```
-   git commit -m "Copilot commit"
-   ```
-
-9. Finally, from the VS Code terminal, push the code to the repository:
-
-   ```
-   git push
-   ```
+     ![](../media/py26.png)
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
-      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-      > - If you receive a success message, you can proceed to the next task.
-      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-      > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-      <validation step="73a63481-3140-4473-9b94-36d265cdc8cb" />
-    
-### Summary
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+   > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-In this exercise, you have successfully generated JavaScript code and other best practices using GitHub Copilot and GitHub Copilot Chat.
 
-### You have successfully completed the lab
+   <validation step="6792c557-2d4b-43ce-a904-427d7a72f16d" />
+
+## Review
+In this lab, you have effectively created JavaScript code and pushed it from the production branch to the main branch.
+
+## You have successfully completed the lab

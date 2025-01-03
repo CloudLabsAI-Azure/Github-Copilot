@@ -110,4 +110,3 @@ When access to Copilot has been enabled, features such as the ability to use Cop
 - If the enterprise owner has permitted it, organization owners can enable or disable Copilot features for their organization.
 
 Click on "Next" from the bottom right to start with the lab.
-

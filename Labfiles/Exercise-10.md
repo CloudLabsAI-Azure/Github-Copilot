@@ -54,28 +54,25 @@ You will be able to complete the following tasks:
 
 ### Task 2: Auto_Completion of Code with Different Experiments
 
+1. To install the **Jupyter**, the following steps are to be performed within Visual Studio Code:
+    - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
+    - In the **"Search Extensions in Marketplace"** search box, type and search for the **Jupyter (2)** extension.
+    - Select **Jupyter (3)** from the list of results that show up, and verify that **Jupyter** has been installed.
+    - If not, click on the **Install in Codespaces: ubiquitous space doodle(4)** button.
+
+   ![](../media/c37.png)
+
 1. From the VS Code explorer window, right-click on the folder named **ml-copilot-workshop** **(1)** and click on **New File**. Name the file `Experiments.ipynb` **(2)** and verify that your new file looks as shown below:
 
    ![](../media/ex-8-create-file.png)
 
+1. Click on the file, select **+ Code**.
 
-   >**Note**: Please make sure the Jupyter extension is installed and re-verify it before running the code.
+   ![](../media/c38.png)
 
-1. Type the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press "enter" to get into the next line and review the suggestion, press "tab" and click on **Run** button to execute the cell.
+1. Click on **Select Kernel** from the top right, select the **Python Environment** and then choose Python **3.12**.   
 
-   ```
-   # Import libraries with respect to loading data and creating a random forest model
-   import pandas as pd
-   ```
-
-   ![](../media/ex-8-import-lib-1.png)
-
-   >**Note**: Ensure to select the Kernel and click on Python 3.12.
-   
-
-      ![](../media/hub1.png)
-
-      ![](../media/hub2.png)
+1. Type the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press **Enter** to get into the next line and review the suggestion, press **tab**. *Repeat this untill the Load data comment appears* and click on **Run** button to execute the cell.
 
 1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell.
 
@@ -83,13 +80,15 @@ You will be able to complete the following tasks:
 
    >**Note**: While running the cell, you may need to install the required packages and select the kernel.
 
-1. Type the below comments to load the data using the Copilot prompt. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
+1. Type the below comments to load the data using the Copilot prompt. Press **Enter** to get into the next line and review the suggestion, and press **tab** to accept the suggestion **(1)** and click on **Run (2)** button to execute the cell.
 
    ```
    # Load the data from a csv file, and the name of the file is diabetes.csv
    ```
 
     ![](../media/ex8-load-data-1-2.png)
+
+    ![](../media/c39.png)    
 
 1. Now click on **+Code** and move on to the next task.
 
@@ -98,7 +97,7 @@ You will be able to complete the following tasks:
 
 ### Task 3.1: Mathematical Operations
 
-1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
+1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset. Press **enter** to get into the next line and review the suggestion, and press **tab** to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Mathematical operations on the dataset, like generating the birth year from age
@@ -108,15 +107,15 @@ You will be able to complete the following tasks:
 
    >**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
 
-1. Type the below comment, Press "enter" to get into the next line and review the suggestion, and press "tab" to get the output similar to the below image and click on **Run** button to execute the cell. 
+1. Type the below comment, Press **Enter** to get into the next line and review the suggestion, and press **tab**  twice to get the output similar to the below image and click on **Run** button to execute the cell. 
 
    ```
    # Show the new column
    ```
 
-   ![](../media/ex9-birthyear-output.png)
+   ![](../media/c40.png)
 
-1. Type the below comments to convert the BMI column up to two decimal values, press "tab". Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
+1. Type the below comments to convert the BMI column up to two decimal values, press "tab". Press **enter** to get into the next line and review the suggestion, and press **tab** to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Convert the BMI column to two decimal values
@@ -124,7 +123,7 @@ You will be able to complete the following tasks:
 
    ![](../media/ex9-bmi-decimal.png)
 
-1. In the same code cell, type the below comment. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
+1. In the same code cell, type the below comment. Press **enter** to get into the next line and review the suggestion, and press **tab** twice to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Show the new column only
@@ -135,7 +134,7 @@ You will be able to complete the following tasks:
 
 ### Task 3.2: Machine Learning
 
-1. Type the below comments to perform the data analysis and summary statistics on dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
+1. Type the below comments to perform the data analysis and summary statistics on dataset. Press **enter** to get into the next line and review the suggestion, and press **tab** twice to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Perform count, min, max, std, mean, 25%, 50%, and 75% on the dataset
@@ -147,7 +146,7 @@ You will be able to complete the following tasks:
 
    ![](../media/ex8-machine-learning-output.png)
 
-1. Before building the model, the main frame is to split the data into train tests and splits and this would be done by Copilot itself. Type the below comments. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
+1. Before building the model, the main frame is to split the data into train tests and splits and this would be done by Copilot itself. Type the below comments. Press **enter** to get into the next line and review the suggestion, and press **tab** twice to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Split the data into training and testing data and the column name Diabetic is the target column
@@ -163,7 +162,7 @@ You will be able to complete the following tasks:
 
 ### Task 4.1: Data Visualization
 
-1. Click on **+Code** to open the new cell and type the below comments to perform the basic operations on dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
+1. Click on **+Code** to open the new cell and type the below comments to perform the basic operations on dataset. Press **enter** to get into the next line and review the suggestion, and press **tab** twice to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
    # Perform univariate analysis on the dataset and plot the graphs
@@ -175,7 +174,7 @@ You will be able to complete the following tasks:
 
    ![](../media/ex9-basic-opration-graph-output.png)
 
-1. Now, type the below comments for specifying certain commonly used plots for visualization. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
+1. Now, type the below comments for specifying certain commonly used plots for visualization. Press **enter** to get into the next line and review the suggestion, and press **tab** twice to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
 
    ```
    # Perform scatter plot on the dataset and plot the graphs
@@ -183,7 +182,7 @@ You will be able to complete the following tasks:
 
    ![](../media/ex9-scatter-graph.png)
 
-1. Type the below comments for performing Joint Plot or Grid (rarely used plots) for visualization. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
+1. Type the below comments for performing Joint Plot or Grid (rarely used plots) for visualization. Press **enter** to get into the next line and review the suggestion, and press **tab** twice to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
 
    ```
    # Perform Joint Grid plot on the dataset and plot the graphs
@@ -193,7 +192,7 @@ You will be able to complete the following tasks:
 
    ![](../media/ex9-jointgrid-graph-output.png)
 
-1. Type the below comments for performing visualization on all features of the dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
+1. Type the below comments for performing visualization on all features of the dataset. Press **enter** to get into the next line and review the suggestion, and press **tab** twice to accept the suggestion and click on **Run** button to get the output as shown in the below-given image.
 
    ```
    # Perform comparison on all features of the dataset and plot the graphs in a single plot using heatmap
@@ -207,7 +206,7 @@ You will be able to complete the following tasks:
 ### Task 4.2: Data Transformations
 
 
-1. Click **+Code** to add a new cell and type the below comments for Standardization which is the process of scaling and centering numeric features to have a mean of 0 and a standard deviation of 1, making them comparable and suitable for certain algorithms. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button
+1. Click **+Code** to add a new cell and type the below comments for Standardization which is the process of scaling and centering numeric features to have a mean of 0 and a standard deviation of 1, making them comparable and suitable for certain algorithms. Press **enter** to get into the next line and review the suggestion, and press **tab** twice to accept the suggestion and click on **Run** button
 
    ```
    # Perform standardization on the data
@@ -229,7 +228,7 @@ Training a sample model using Random Forest.
 
 >**Note**: The model training is a continuation of the train test split step to train the model; run the train test split step first and then continue with the model building.
 
-1. Click **+ Code** to add a new cell and type the below comments for creating the random forest model. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button
+1. Click **+ Code** to add a new cell and type the below comments for creating the random forest model. Press **enter** to get into the next line and review the suggestion, and press **tab** twice to accept the suggestion and click on **Run** button
 
    ```
    # Create a random forest model with 100 trees, and the criterion is entropy
@@ -241,7 +240,7 @@ Training a sample model using Random Forest.
 
    ![](../media/ex9-entropy-2.png)
 
-1. In a new cell type the below comments for calculating the accuracy of the model. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button
+1. In a new cell type the below comments for calculating the accuracy of the model. Press **enter** to get into the next line and review the suggestion, and press **tab** twice to accept the suggestion and click on **Run** button
 
    ```
    # Calculate the accuracy of the model

@@ -14,78 +14,103 @@ You will be able to complete the following tasks:
 
 - Task 1: Generate a SQL query with GitHub Copilot using comments
 - Task 2: Generate YAML with GitHub Copilot using comments
-- Task 3: Push code to your repository from the codespace
-
 
 ### Task 1: Generate a SQL query with GitHub Copilot using comments
 
-1. Navigate back to Visual Studio Code, and from inside the codespace in the VS Code explorer window, create a new file.
+1. Navigate back to the **codespace window** in the Visual Studio Code and from inside the codespace in the VS Code explorer window, create a **new file**.
 
-    ![](../media/chat-code-new.png)
+    >**Note:** Previous exercise you have done in a new window, so switch back to the codespace window.
 
-1. Name the file `demo.sql` and type the below comment:
+     ![](../media/chat-code-new.png)
+
+1. Name the file `demo.sql` and type the below comment and press **Enter**.
 
    ```
-   -- Create a table for 5 products with product names and prices
+   -- create a table with 5 coloumns customer_id, customer_fname, customer_lname, customer_phone, customer_address
    ```
 
-1. To open a new tab with multiple synthesized solutions, press `Ctrl+Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept suggestion** below the solution and then save the file.
+    ![](../media/c34.png)   
+   
+1. Notice how the Copilot is able to generate the next lines of code.
 
-   ![](../media/ex7-t1-s3.png)
+1. Click on `Tab` and press **Enter**.
 
-1. After accepting the suggestion, review it carefully before applying it.
+1. Follow up with the rows. Type the below comment and press **Enter**.
 
-   ![](../media/demo-sql-1.png)
+   ```
+   -- fill in 5 rows in customers table
+   ```
 
-   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
+    ![](../media/c35.png)   
 
+1. Click on `Tab` and press **Enter**.
+
+1. Let's execute the query to show the table. Type the below comment and press **Enter**.
+
+   ```
+   -- show the data in customers table
+   ```
+
+    ![](../media/c36.png)   
+
+1. Click on Enter and click on `Tab` to select the suggestion.
+
+1. Press `Ctrl+S` to save the file.
+
+1. Click on the Windows Start icon and, expand **Microsoft SQL Server Tools 20 (1)** folder and select **SQL Server Management Studio 20 (2)** .
+
+   ![](../media/hub106.png)
+
+1. Ensure the following details are added:
+
+   - Server name: **labvm-<inject key="Deployment-id" enableCopy="false"/>\SQLEXPRESS (1)**
+   - Authetication: **Windows Authentication (2)**
+   - Encryption: Check the box for **Trust server certificate (3)**
+   - Click on **Connect (4)**
+
+       ![](../media/hub115.png)
+     
+1. Once you are connected to the server, click on **New Query** on the top.
+
+   ![](../media/hub110.png)
+
+1. Navigate to the **Visual Studio Code** and copy all the content we have feteched in `demo.sql`.
+
+1. Paste it in the new query page.
+
+1. Select each **block of code (1)** and click on **Execute (2)**. Notice how each block of code executes successfully, producing the expected output in the terminal.
+
+   ![](../media/hub111.png)
+
+   ![](../media/hub112.png)
+
+   ![](../media/hub113.png)
+   
+1. You can observe how it processes each block of code and displays the Customers table.
+
+   ![](../media/hub40.png)   
+   
 ### Task 2: Generate YAML with GitHub Copilot using comments
    
-1. From inside the codespace in the VS Code Explorer window, create a new file.
+1. From inside the codespace in the VS Code Explorer window, create a new file and name the file as `report.yml`
 
     ![](../media/chat-code-new.png)
 
-1. Name the file `deploy-app.yml` and type the below comment:
+1. Press `Ctrl + I` , type the below comment and hit send:
 
    ```
    # Create a GitHub action to email a report from a file at 6 a.m. daily
    ```
+   ![](../media/hub9.png)
 
-1. To open a new tab with multiple synthesized solutions, press `Ctrl+Enter`. GitHub Copilot will synthesize around 10 different code suggestions in a new tab. You can view the solutions, and to accept a suggestion, you need to click on **Accept suggestion** below the solution and then save the file.
+1. Click on **Accept**.
 
-   ![](../media/ex7-t2-s3.png)
+   ![](../media/hub8.png)
 
-1. After accepting the suggestion, review it carefully before applying it.
+      > **Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
 
-   ![](../media/demo-yaml-1.png)
 
-   >**Note**: You may not see the same suggestions as shown in the screenshot; exact suggestions may vary.
-
-### Task 3: Push code to your repository from the codespace
-
-1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
-
-1. Run the below command to add all the files to the repository:
-   
-   ```
-   git add --all
-   ```
-
-1. Next, from the VS Code terminal stage, commit the changes to the repository:
-
-   ```
-   git commit -m "Copilot fourth commit"
-   ```
-
-1. Finally, from the VS Code terminal, push code to the repository:
-
-   ```
-   git push
-   ```
-
-   ![](../media/ex-6-push.png)
-
-   >**Note**: Wait about 60 seconds, then refresh your repository landing page for the next step.
+1. Open GitHub Copilot Chat from the top and type `Explian the cron syntax in this code` and hit **send**.
 
    >**Note**: If you are facing any error which says `Rejected`, then run the below given command and re-run `git push` command again. This will fetch changes in remote branch and merge them into current branch without rebasing.
 
@@ -95,10 +120,15 @@ You will be able to complete the following tasks:
   >**Note**: A message appears in the terminal stating that you need to close the newly opened file, in addition to the two files that are already open. Please close the newly opened file.
 
 
-1. You can verify the newly added files available in your GitHub repository.
+   
+1. Review the response and understand the uses of cron syntax.
 
-   ![](../media/ex-6-github.png)
+      ![](../media/hub11.png)
 
+1. Offer another query: `How should a GitHub Actions YAML file be structured?` and evaluate the provided response.
+
+   ![](../media/c41.png)
+   
 ### Summary
 
 In this exercise, you have successfully generated code for SQL and YAML using comments with the help of GitHub Copilot.

@@ -142,15 +142,20 @@ GitHub Copilot is an AI-powered code completion tool that assists developers by 
 
      ![](../media/gs-2.png)
 
-1. Click on **I want to delete this repository** and accept that you have read and understood the effects.
+1. Click on **I want to delete this repository**. 
 
      ![](../media/gs-3.png)
 
-1. Give the name of the repository and click on **Delete this repository**.
 
-     ![](../media/gs-4.png)
+1. Cick on **I have read and understand these effects** to accept that you have read and understood the effects.  
 
-      >**Note:** Once the existing repository has been deleted, please perform step-06-10 in the previous task.
+     ![](../media/c1.png)
+
+
+
+
+      >**Note:** Once the existing repository has been deleted, please repeat the step-06 in the previous task.
+
 
 This hands-on lab demonstrates how GitHub Copilot and GitHub Codespaces enhance development through real-time code suggestions and consistent cloud environments.
 
