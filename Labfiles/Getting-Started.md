@@ -148,7 +148,7 @@ GitHub Copilot is an AI-powered code completion tool that assists developers by 
 
      ![](../media/gs-4.png)
 
-      >**Note:** Once the existing repository has been deleted, please repeat the step-06 in the previous task.
+      > **Note:** Once the existing repository has been deleted, please repeat the step-06 in the previous task.
 
 This hands-on lab demonstrates how GitHub Copilot and GitHub Codespaces enhance development through real-time code suggestions and consistent cloud environments.
 
