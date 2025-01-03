@@ -29,5 +29,3 @@
     - **Exercise 9: Documentation Generation with GitHub Copilot [Optional]**:
       - Added queries to create a README file with mermaid diagrams and reference links.
           **Note**: Included commands to push all files to the repository within this exercise.
-
-- Monthly testing is done on time.
