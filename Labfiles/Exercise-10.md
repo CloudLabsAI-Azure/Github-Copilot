@@ -74,6 +74,12 @@ You will be able to complete the following tasks:
 
 1. Type the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press **Enter** to get into the next line and review the suggestion, press **tab**. *Repeat this untill the Load data comment appears* and click on **Run** button to execute the cell.
 
+   ```
+   # Import libraries with respect to loading data and creating a random forest model
+   ```
+
+   ![](../media/ex-8-import-lib-1.png)
+
 1. Accept all the suggestions for importing libraries as shown in the below screenshot **(1)** and click the **Run** **(2)** button to execute the cell. Click on `+Code` **(3)** to add the new cell.
 
    ![](../media/ex8-add-cell-new-1.png)
@@ -156,7 +162,6 @@ You will be able to complete the following tasks:
 
    ![](../media/ex9-train-data-1.png)
 
->**Note**: If you encounter any errors in the code, delete the cell and try again.
 
 ### Task 4: Data Visualization and Data Transformation
 
@@ -220,7 +225,6 @@ You will be able to complete the following tasks:
 
    ![](../media/ex9-standardization-output.png)
 
->**Note**: The output may vary and might not be the same as shown in the screenshot.
 
 ### Task 5: Training the sample model
 
