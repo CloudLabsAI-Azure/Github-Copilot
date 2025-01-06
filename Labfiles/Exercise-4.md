@@ -225,17 +225,9 @@ In this lab, you will complete the following tasks:
 
 1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type `Write a PowerShell script for deploying a virtual machine to Azure.`
 
-
 1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
 
       ![](../media/hub71.png)
-
-    >**Note**: If you are facing any error which says `Rejected`, then run the below given command and re-run `git push` command again. This will fetch changes in remote branch and merge them into current branch without rebasing.
-      ```
-      git pull --no-rebase
-      ```
-
-      >**Note**: A message appears in the terminal stating that you need to close the newly opened file, in addition to the two files that are already open. Please close the newly opened file.
 
       > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
