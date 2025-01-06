@@ -378,7 +378,7 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
    ![](../../media/addtestcase.png)
 
-### Task 5: Push code to your repository from the codespace
+### Task 6: Push code to your repository from the codespace
 
 1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
 
