@@ -30,8 +30,7 @@ You will be able to complete the following tasks:
     - Select **C#** **(3)** from the list of results that show up.
     - Click on the **Install** **(4)** button, if it is available otherwise please ignore.
 
-   ![](../media/csharp-install.png)
-
+       ![](../media/csharp-install.png)
 
 1. From the codespace in the VS Code Explorer window, create a new file and name it as **codechat.cs**.
 
@@ -45,8 +44,7 @@ You will be able to complete the following tasks:
 
      ![](../media/codespaces.png)
 
-
-    
+   
    ```
    using System;
 
