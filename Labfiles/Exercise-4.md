@@ -234,8 +234,8 @@ In this lab, you will complete the following tasks:
       ```
       git pull --no-rebase
       ```
-   >**Note**: A message appears in the terminal stating that you need to close the newly opened file, in addition to the two files that are already open. Please close the newly opened file.
 
+      >**Note**: A message appears in the terminal stating that you need to close the newly opened file, in addition to the two files that are already open. Please close the newly opened file.
 
       > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
