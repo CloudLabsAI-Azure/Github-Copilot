@@ -31,9 +31,9 @@ You will be able to complete the following tasks:
 
    ![](../media/c17.png)
 
-    >**Note:** When the data sharing box appears, click on **Don't Send**.
+   >**Note:** When the data sharing box appears, click on **Don't Send**.
 
-     ![](../media/E6-T1-S2.1.png)
+   ![](../media/E6-T1-S2.1.png)
 
 1. On the **Import Settings** page, click on **Skip Import**.
 
