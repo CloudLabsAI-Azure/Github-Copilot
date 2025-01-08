@@ -1,6 +1,6 @@
 # Lab 7: Working with the Copilot for Machine Learning [Optional]
 
-### Estimated Duration: 30 minutes
+## Lab Objective 
 
 Working with Copilot for machine learning involves leveraging GitHub Copilot, an AI-powered code completion tool developed by GitHub in collaboration with OpenAI. Here's a quick summary of the key steps and considerations:
 
