@@ -3,19 +3,11 @@
 
 ## Lab Objective 
 
-GitHub Copilot is an AI pair programmer designed to make writing code easier and faster. It draws context from comments and code to suggest individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a generative pre-trained language model created by OpenAI.
-
-**Copilot is compatible with a wide range of code editors, such as Neovim, JetBrains IDE, Visual Studio, and VS Code.**
-
-Additionally, GitHub Copilot is trained in every language that can be found in public repositories. The amount and variety of training data for each language may have an impact on the quality of recommendations you obtain.
-
-**GitHub Codespace** is a development environment that's hosted in the cloud. You can customize your project for GitHub Codespaces by committing configuration files to your repository (often known as Configuration-as-Code), which creates a repeatable codespace configuration for all users of your project.
-
-Using Copilot inside a Codespace shows just how easy it is to get up and running with GitHub's suite of [Collaborative Coding](https://github.com/features#features-collaboration) tools.
-
-In this lab, you will create a development container and define specific extensions or configurations that will be used or installed in your codespace. You will create this development container and add Copilot to the list of extensions.
+Set up GitHub Copilot as an AI-powered pair programmer to enhance the coding workflow. Explore GitHub Codespaces, a cloud-hosted development environment, and configure it using Configuration-as-Code. Create a development container, install essential extensions, and add GitHub Copilot to the project. This setup enables AI-driven code suggestions to improve development efficiency.
 
 ## Task 1: Enable Copilot inside a Codespace
+
+Enable GitHub Copilot within a Codespace to enhance coding efficiency with AI-powered suggestions. 
 
 1. Now, right-click on your profile icon in the top right and click on **Your Repositories**.
     
