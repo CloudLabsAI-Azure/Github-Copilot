@@ -1,6 +1,8 @@
 # Lab 1: Getting Started with the Lab
 
-## Lab Objective 
+## Lab Objective
+ 
+The objective of this lab is to log in to GitHub, create a repository, configure its initial settings, and explore the platform's interface for efficient management of code repositories.
 
 ## Github Copilot for Individuals
 
@@ -86,6 +88,8 @@ GitHub Copilot improves developer productivity and happiness, reduces disruption
 Using GitHub Copilot for Business in your enterprise: You must first establish a policy for using GitHub Copilot for Business in your enterprise. Once GitHub Copilot for Business is enabled at the enterprise level, you can configure GitHub Copilot settings for each organization in your enterprise.
  
 ## Task 1: Login to GitHub
+
+Sign in to GitHub and configure a GitHub repository and set Visual Studio Code as the editor preference for seamless code editing.
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
