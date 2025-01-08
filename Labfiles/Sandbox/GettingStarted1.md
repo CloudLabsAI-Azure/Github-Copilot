@@ -1,5 +1,5 @@
 
-# Getting Started with GitHub Copilot
+# Introduction to GitHub Copilot
 
 ### Overall Estimated Duration: 20 minutes
 
