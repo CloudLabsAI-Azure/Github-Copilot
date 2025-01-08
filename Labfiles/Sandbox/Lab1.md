@@ -1,7 +1,7 @@
-
 # Lab 1: Getting Started with the Lab
 
 ## Lab Objective 
+
  
 ## Task 1: Login to GitHub
 
