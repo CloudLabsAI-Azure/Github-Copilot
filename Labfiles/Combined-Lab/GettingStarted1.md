@@ -46,7 +46,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-![](../../media/zoom.png.png)  
+![](../../media/zoom.png)  
 
 ## Managing Your Virtual Machine
 
@@ -64,6 +64,6 @@ Learner Support Contacts:
 
 Now, click on **Next** from the lower right corner to move on to the next page.
 
-  ![](../../media/page.png.png)
+  ![](../../media/page.png)
 
 ### Happy Learning!!
