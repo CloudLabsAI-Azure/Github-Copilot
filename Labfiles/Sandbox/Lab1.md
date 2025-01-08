@@ -1,4 +1,4 @@
-# Lab 1: Getting Started with the Lab
+# Lab 1:  Getting Started with GitHub Copilot
 
 ## Lab Objective
  
