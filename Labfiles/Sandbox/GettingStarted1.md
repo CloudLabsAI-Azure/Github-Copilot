@@ -13,6 +13,8 @@ Powered by OpenAI Codex and GitHub Copilot's generative, pretrained language mod
 
 ## Objective 
 
+ - **Getting Started with Github** : Create and configure a GitHub repository, set Visual Studio Code as the preferred editor for seamless code editing and version control, and explore the advantages of using GitHub and GitHub Copilot for collaborative development and AI-driven code assistance.
+
 ## Prerequisites
 
  - Basic understanding of GitHub fundamentals
