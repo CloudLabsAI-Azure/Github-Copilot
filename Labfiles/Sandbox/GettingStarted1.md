@@ -22,6 +22,8 @@ Powered by OpenAI Codex and GitHub Copilot's generative, pretrained language mod
 
 ## Architecture
 
+The process involves logging into GitHub for authentication and creating a new repository to securely store and manage code. This setup allows users to efficiently store, manage, and version control their code on GitHub.
+
 ## Architecture Diagram
 
  ![](../../media/lab1.png)
@@ -29,6 +31,10 @@ Powered by OpenAI Codex and GitHub Copilot's generative, pretrained language mod
 ## Explanation of Components
 
 The architecture for this lab involves the following key components:
+
+- **Login into GitHub:** The authentication process where users securely access their GitHub account to manage repositories.
+
+- **Create a GitHub Repo:** The process of initializing a new repository on GitHub, providing a dedicated space for managing code.
 
 ## **Accessing Your Lab Environment**
  
