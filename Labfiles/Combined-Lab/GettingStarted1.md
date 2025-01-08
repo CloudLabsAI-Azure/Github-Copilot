@@ -1,15 +1,21 @@
-
 # Getting Started with GitHub Copilot
 
 ### Overall Estimated Duration: 20 minutes
 
 ## Overview
  
-Welcome to your Github-Copilot workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+GitHub Copilot is the world's first at-scale AI developer tool that can help you write code faster with less work. GitHub Copilot uses comments and code context to instantly suggest specific lines of code and the entire functions.
+
+Research has found GitHub Copilot helps developers code faster, focus on solving bigger problems, stay in the flow longer, and feel more fulfilled with their work.
+
+Powered by OpenAI Codex and GitHub Copilot's generative, pretrained language model was created by OpenAI. An extension is available for Visual Studio Code, Visual Studio, Neovim, and the JetBrains suite of integrated development environments (IDEs).
 
 ## Objective 
 
 ## Prerequisites
+
+ - Basic understanding of GitHub fundamentals
+ - A GitHub Enterprise Cloud administrator account
 
 ## Architecture
 
