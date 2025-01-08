@@ -1,17 +1,22 @@
 
-# Getting Started with GitHub Copilot
+# Using GitHub Codespaces
 
 ### Overall Estimated Duration: 30 minutes
 
 ## Overview
  
-Welcome to your Github-Copilot workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+Work with GitHub Copilot and GitHub Codespaces to create a customized development environment. Define a development container, configure necessary extensions, and integrate GitHub Copilot. Optimize the coding process with AI-powered code suggestions and ensure a repeatable setup using Configuration-as-Code in the repository.
 
 ## Objective 
 
+- **Using GitHub Codespaces** : Create and configure a development container in GitHub, integrating GitHub Copilot for enhanced code suggestions. Streamline development using cloud-hosted Codespaces and leverage Copilot’s AI-driven assistance for faster coding.
+
 ## Prerequisites
 
+- **GitHub:** Familiarity with GitHub and basic version control concepts is necessary to effectively set up a repository and utilize GitHub Codespaces and Copilot
+
 ## Architecture
+
 
 ## Architecture Diagram
 
