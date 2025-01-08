@@ -17,6 +17,7 @@ Work with GitHub Copilot and GitHub Codespaces to create a customized developmen
 
 ## Architecture
 
+The process involves configuring a development container to set up a consistent coding environment, running a GitHub Codespace for cloud-based development, and installing the GitHub Copilot extension to leverage AI-powered code suggestions. This ensures a streamlined, efficient development workflow with enhanced collaboration and faster coding.
 
 ## Architecture Diagram
 
@@ -25,6 +26,12 @@ Work with GitHub Copilot and GitHub Codespaces to create a customized developmen
 ## Explanation of Components
 
 The architecture for this lab involves the following key components:
+
+ - **Devcontainer file configuration:** Configuring a devcontainer sets up a consistent development environment.
+
+ - **Running Codespace:** Running a Codespace provides an accessible cloud-based development setup.
+
+ - **Installing GitHub Copilot extension:** Installing Copilot enhances coding with AI-powered suggestions.
 
 ## **Accessing Your Lab Environment**
  
