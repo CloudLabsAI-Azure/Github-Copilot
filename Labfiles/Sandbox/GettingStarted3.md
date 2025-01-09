@@ -13,7 +13,7 @@ In this lab, a JavaScript file is created, and code is written with the assistan
 
 ## Prerequisites
 
-1. **Basic Git and GitHub Knowledge** : Understanding Git operations (such as cloning, committing, and pushing code) along with familiarity with GitHub Codespaces is essential to effectively manage repositories and leverage AI-driven code suggestions.
+- **Basic Git and GitHub Knowledge** : Understanding Git operations (such as cloning, committing, and pushing code) along with familiarity with GitHub Codespaces is essential to effectively manage repositories and leverage AI-driven code suggestions.
 
 ## Architecture
 
@@ -27,9 +27,9 @@ This architecture streamlines coding by integrating repository management throug
 
 The architecture for this lab involves the following key components:
 
-1. **Repository Management:** Ensure the codespace is running and properly configured for repository operations.
-2. **VS Code for Git Operations:** Use VS Code to perform Git actions, such as pushing .js code to GitHub directly from the codespace.
-3. **AI Code Suggestions:** Leverage GitHub's AI-powered code suggestions to enhance coding efficiency.
+- **Repository Management:** Ensure the codespace is running and properly configured for repository operations.
+- **VS Code for Git Operations:** Use VS Code to perform Git actions, such as pushing .js code to GitHub directly from the codespace.
+- **AI Code Suggestions:** Leverage GitHub's AI-powered code suggestions to enhance coding efficiency.
 
 ## **Accessing Your Lab Environment**
  
