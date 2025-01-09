@@ -20,7 +20,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 > **Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
-### Task 1: Generate code by chat that uses ARM to deploy resources to Azure
+## Task 1: Generate code by chat that uses ARM to deploy resources to Azure
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
@@ -145,7 +145,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
    ![](../../media/arm-save.png)
 
-### Task 3: Generate code by chat that uses Terraform to deploy resources to Azure
+## Task 3: Generate code by chat that uses Terraform to deploy resources to Azure
 
 1. Back in the Chat window, let us try to generate a terraform code. Enter for instance, type "Write a Terraform code for deploying a storage account to Azure with the code explanation" and hit enter.
 
@@ -167,7 +167,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
    ![](../../media/terraform-save.png)
 
-### Task 4: Generate code by chat that uses PowerShell to deploy resources to Azure
+## Task 4: Generate code by chat that uses PowerShell to deploy resources to Azure
 
 1. Back in the Chat window, let us try to generate a powershell script.For example, type "Write a PowerShell script for deploying a storage account to Azure." and hit enter.
 
@@ -191,7 +191,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
    ![](../../media/ps-save.png)
 
-### Task 5: Push code to your repository from the codespace
+## Task 5: Push code to your repository from the codespace
 
 1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
 
@@ -239,7 +239,7 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 <validation step="24e51569-e264-40ac-b8f3-a565cdd84341" />
 
   
-### Summary
+## Summary
 
 In this lab, you have employed Copilot to automatically generate code in both ARM, Terraform, and PowerShell programming languages.
 
