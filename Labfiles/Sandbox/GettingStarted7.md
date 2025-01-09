@@ -15,7 +15,7 @@ Welcome to your Github-Copilot workshop! We've prepared a seamless environment f
 
 ## Architecture Diagram
 
- ![](../../media/lab7.png)
+ ![](../../media/Lab7dia.png)
 
 ## Explanation of Components
 
