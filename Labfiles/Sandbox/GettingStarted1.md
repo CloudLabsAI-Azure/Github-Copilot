@@ -26,7 +26,7 @@ The process involves logging into GitHub for authentication and creating a new r
 
 ## Architecture Diagram
 
- ![](../../media/lab1.png)
+ ![](../../media/Lab1dia.png)
 
 ## Explanation of Components
 
