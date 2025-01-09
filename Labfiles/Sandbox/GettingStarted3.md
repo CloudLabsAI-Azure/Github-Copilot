@@ -5,13 +5,19 @@
 
 ## Overview
  
-Welcome to your Github-Copilot workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+In this lab, a JavaScript file is created, and code is written with the assistance of GitHub Copilot's suggestions. The process includes pushing the code to a GitHub repository and following best practices for using Copilot. Additionally, GitHub Copilot Chat is explored to generate specific code snippets and refine prompts for more precise results.
 
 ## Objective 
 
+- **Code Suggestions with GitHub Copilot in Codespaces using VS Code** : Explore GitHub Copilot's code suggestions to enhance your JavaScript development in VS Code, leveraging its AI-powered assistance for writing and improving code efficiently.
+
 ## Prerequisites
 
+1. **Basic Git and GitHub Knowledge** : Understanding Git operations (such as cloning, committing, and pushing code) along with familiarity with GitHub Codespaces is essential to effectively manage repositories and leverage AI-driven code suggestions.
+
 ## Architecture
+
+This architecture streamlines coding by integrating repository management through a running codespace, enabling seamless Git operations via VS Code, and boosting productivity with AI-driven code suggestions from GitHub.
 
 ## Architecture Diagram
 
@@ -20,6 +26,10 @@ Welcome to your Github-Copilot workshop! We've prepared a seamless environment f
 ## Explanation of Components
 
 The architecture for this lab involves the following key components:
+
+1. **Repository Management:** Ensure the codespace is running and properly configured for repository operations.
+2. **VS Code for Git Operations:** Use VS Code to perform Git actions, such as pushing .js code to GitHub directly from the codespace.
+3. **AI Code Suggestions:** Leverage GitHub's AI-powered code suggestions to enhance coding efficiency.
 
 ## **Accessing Your Lab Environment**
  
