@@ -1,4 +1,4 @@
-
+ 
 # Lab 6: Using IDEs such as JetBrains IntelliJ for Java [Optional]
 
 ## Lab Objective 
