@@ -9,9 +9,17 @@ Welcome to your Github-Copilot workshop! We've prepared a seamless environment f
 
 ## Objective 
 
+
+
 ## Prerequisites
 
+- **Basic Knowledge of Version Control with Git and GitHub:** Understanding how to use Git for code versioning and how to push code to a GitHub repository is essential for the component that involves pushing code to a repo from the codespace.
+
+- **Familiarity with Terraform and PowerShell Scripting:** A foundational understanding of Terraform for infrastructure automation and PowerShell scripting for resource deployment is required, as the lab involves generating these scripts through GitHub Copilot to deploy resources to Azure.
+
 ## Architecture
+
+The architecture consists of components that leverage GitHub Copilot’s assistance in a seamless workflow. First, the GitHub Copilot extension is installed in Visual Studio Code, enabling enhanced code completion and generation. Users can then interact with GitHub Copilot Chat, posing coding-related queries, and receiving code suggestions or answers. Additionally, Terraform and PowerShell scripts can be generated using Copilot Chat to automate deployments to Azure. Lastly, the generated code is pushed to a GitHub repository from the codespace, facilitating version control and collaboration.
 
 ## Architecture Diagram
 
@@ -20,6 +28,12 @@ Welcome to your Github-Copilot workshop! We've prepared a seamless environment f
 ## Explanation of Components
 
 The architecture for this lab involves the following key components:
+
+1. **Install Github Copilot extension:** Install the GitHub Copilot extension in Visual Studio Code to enable AI-powered code suggestions and assistance.
+2. **Interactive Code Assistance:** Ask coding-related questions, and GitHub Copilot Chat processes the query to provide relevant answers or code snippets.
+3. **Terraform Code Generation:** Use GitHub Copilot Chat to generate Terraform code for automating the deployment of resources to Azure.
+4. **PS Script Creation:** Generate PowerShell scripts through GitHub Copilot Chat for deploying resources to Azure.
+5. **Code Push to Repo:** Push the generated code to a GitHub repository directly from the codespace.
 
 ## **Accessing Your Lab Environment**
  
