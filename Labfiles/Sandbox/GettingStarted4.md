@@ -29,11 +29,11 @@ The architecture consists of components that leverage GitHub Copilot’s assista
 
 The architecture for this lab involves the following key components:
 
-1. **Install Github Copilot extension:** Install the GitHub Copilot extension in Visual Studio Code to enable AI-powered code suggestions and assistance.
-2. **Interactive Code Assistance:** Ask coding-related questions, and GitHub Copilot Chat processes the query to provide relevant answers or code snippets.
-3. **Terraform Code Generation:** Use GitHub Copilot Chat to generate Terraform code for automating the deployment of resources to Azure.
-4. **PS Script Creation:** Generate PowerShell scripts through GitHub Copilot Chat for deploying resources to Azure.
-5. **Code Push to Repo:** Push the generated code to a GitHub repository directly from the codespace.
+- **Install Github Copilot extension:** Install the GitHub Copilot extension in Visual Studio Code to enable AI-powered code suggestions and assistance.
+- **Interactive Code Assistance:** Ask coding-related questions, and GitHub Copilot Chat processes the query to provide relevant answers or code snippets.
+- **Terraform Code Generation:** Use GitHub Copilot Chat to generate Terraform code for automating the deployment of resources to Azure.
+- **PS Script Creation:** Generate PowerShell scripts through GitHub Copilot Chat for deploying resources to Azure.
+- **Code Push to Repo:** Push the generated code to a GitHub repository directly from the codespace.
 
 ## **Accessing Your Lab Environment**
  
