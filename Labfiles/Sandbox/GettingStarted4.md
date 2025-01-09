@@ -1,15 +1,14 @@
-
-# Getting Started with GitHub Copilot
+#  Using GitHub Copilot to generate ARM & Terraform Templates
 
 ### Overall Estimated Duration: 30 minutes
 
 ## Overview
  
-Welcome to your Github-Copilot workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+In this lab, you will use GitHub Copilot to generate and deploy resources to Azure using ARM, Terraform, and PowerShell. You will interact with GitHub Copilot Chat within Visual Studio Code to generate code and push it to your GitHub repository. This lab will help you understand how to leverage AI-powered code suggestions for infrastructure automation.
 
 ## Objective 
 
-
+ - **Using GitHub Copilot to generate ARM & Terraform Templates** : The lab objective is to use GitHub Copilot Chat in Visual Studio Code to generate ARM, Terraform, and PowerShell scripts for deploying resources to Azure.
 
 ## Prerequisites
 
