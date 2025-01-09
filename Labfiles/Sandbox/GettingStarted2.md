@@ -21,7 +21,7 @@ The process involves configuring a development container to set up a consistent 
 
 ## Architecture Diagram
 
- ![](../../media/lab2.png)
+ ![](../../media/Lab2dia.png)
 
 ## Explanation of Components
 
