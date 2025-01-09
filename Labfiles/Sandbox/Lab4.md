@@ -3,6 +3,8 @@
 
 ## Lab Objective 
 
+In this lab, you will use GitHub Copilot to generate and deploy resources to Azure using ARM, Terraform, and PowerShell. You will interact with GitHub Copilot Chat within Visual Studio Code to generate code and push it to your GitHub repository. This lab will help you understand how to leverage AI-powered code suggestions for infrastructure automation.
+
 ### About GitHub Copilot Chat and Visual Studio Code
 
 GitHub Copilot Chat allows you to ask coding questions and receive answers directly within the supported IDE. Copilot Chat can help you with a variety of coding-related tasks, like offering you code suggestions, providing natural language descriptions of a piece of code's functionality and purpose, generating unit tests for your code, and proposing fixes for bugs in your code. For more information, see "[About GitHub Copilot Chat](https://docs.github.com/en/copilot/github-copilot-chat/about-github-copilot-chat)."
