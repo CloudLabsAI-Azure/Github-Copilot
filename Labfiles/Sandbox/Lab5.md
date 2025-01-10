@@ -11,7 +11,7 @@ In this exercise, you will participate in a learning or practice activity where 
 
 ## Task 1: Understand the code already available for you.
 
-Installing C Sharp (C#) extension in VS Code
+ Install the C# extension in VS Code for enhanced C# development features.
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
@@ -189,6 +189,8 @@ Installing C Sharp (C#) extension in VS Code
   
 ## Task 2: Use GitHub Copilot to refactor the code
 
+Use GitHub Copilot to improve and restructure code for better readability and efficiency.
+
 1. Now, let's use the **GitHub Copilot Chat** feature to refactor the above code.
 
 1. Click on the **Copilot** extension icon from the activity bar in the top navigation pane next to the search bar and Choose **Open Chat** option from the dropdown. This opens the GitHub Copilot Chat window into which the above code is to be **pasted**.
@@ -200,6 +202,8 @@ Installing C Sharp (C#) extension in VS Code
    ![](../../media/refactored-code.png)
 
 ## Task 3: Review the refactored code and understand how it works.
+
+Review the refactored code which more understandable and clean. 
 
 1. The newly generated code will look as shown below:
 
@@ -353,6 +357,8 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 ## Task 5: Create unit test functions
 
+Use GitHub Copilot Chat to generate a full JavaScript program based on a provided prompt.Write automated tests to verify code functionality and correctness.
+
 1. From the codespace in the VS Code Explorer window, create a new file.
 
     ![](../../media/chat-code-new.png)
@@ -380,6 +386,8 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
    ![](../../media/addtestcase.png)
 
 ### Task 6: Push code to your repository from the codespace
+
+Commit and push the updated code to a GitHub repository for version control.
 
 1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
 
