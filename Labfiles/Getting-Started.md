@@ -56,12 +56,6 @@ GitHub Copilot es una herramienta de completado de código impulsada por IA que 
  
    ![](../media/gettingstarted-v2-01.png)
 
-## Guía de laboratorio Acercar/alejar
- 
-1. Para ajustar el nivel de zoom de la página del entorno, haga clic en el icono **A↕: 100%** ubicado junto al temporizador en el entorno del laboratorio.
-
-      ![](../media/image177.png)
- 
 ## Iniciar Sesión en GitHub
 
 1. En el escritorio de LABVM, busque **Microsoft Edge** **(1)**, haga clic en el navegador **Microsoft Edge** **(2)**.
@@ -83,6 +77,8 @@ GitHub Copilot es una herramienta de completado de código impulsada por IA que 
 
    >**Nota:** El correo electrónico que contiene el código de verificación a veces puede colarse en las carpetas de archivo/spam dentro de Outlook.
 
+   >**Nota:** Inicie sesión a través de la **ventana InPrivate** para iniciar sesión si no puede acceder a Outlook a través de una ventana normal del navegador.
+
    ![](../media/authgit.png)
 
 1. Haga clic derecho en **Start course** que se muestra a continuación, haga clic en **Copiar enlace** y navegue hasta el enlace dentro de LabVM en el navegador Edge donde ha iniciado sesión en GitHub en los pasos anteriores.
@@ -100,33 +96,15 @@ GitHub Copilot es una herramienta de completado de código impulsada por IA que 
 
    [![Iniciar curso](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
    
-1. En la nueva pestaña, la mayoría de las indicaciones se completarán automáticamente. Deje la opción predeterminada para el propietario (Owner), ya que ya ha iniciado sesión en GitHub para alojar el repositorio **(1)**. Seleccione Repositorio **Public** **(2)** y haga clic en el botón **Create repository** **(3)** en la parte inferior del formulario.
+1. En la nueva pestaña, la mayoría de los campos se completarán automáticamente. Deje la opción predeterminada para el propietario (Owner), ya que ya ha iniciado sesión en GitHub para alojar el repositorio **(1)**. Seleccione Repositorio **Public** **(2)** y haga clic en el botón **Create repository** **(3)** en la parte inferior del formulario.
 
    ![](../media/skills-new-repo.png)
 
-1. Si el repositorio ya existe, elimine el existente y vuelva a realizar el paso anterior. Para eliminar el repositorio, siga desde el paso 08 al paso 12. Si no hay un repositorio existente, salte al paso 13.
+1. Si aparece la ventana emergente **El Repositorio ya existe**, por favor elimine el existente y realice el paso anterior nuevamente. Para borrar el repositorio, navegue al siguiente enlace:
 
-1. Navegue hasta el repositorio existente que debe ser eliminado.
-
-   ![](../media/gs-6.png)
-   
-   ![](../media/gs-5.png)
+      - [Eliminar el Repositorio](#eliminar-el-repositorio)
       
-1. Haga clic en **Settings**.
-
-     ![](../media/gs-1.png)
-
-1. Desplácese hacia abajo hasta el panel **Danger Zone** y haga clic en **Delete this repository**.
-
-     ![](../media/gs-2.png)
-
-1. Haga clic en **I want to delete this repository** y acepte que ha leído y comprendido los efectos.
-
-     ![](../media/gs-3.png)
-
-1. Indique el nombre del repositorio y haga clic en **Delete this repository**.
-
-     ![](../media/gs-4.png)
+      >**Nota:**  En ausencia de un repositorio existente, continúe con el siguiente paso.
 
 1. Una vez creado el nuevo repositorio, espere unos 20 segundos y luego actualice la página.
 
@@ -142,7 +120,35 @@ GitHub Copilot es una herramienta de completado de código impulsada por IA que 
 
      ![](../media/vscode1.png)
 
-1. Ahora, haga clic en **Next** en la esquina inferior derecha para pasar a la página siguiente.
+## Eliminar el Repositorio
+
+1. Navegue hasta el repositorio existente que debe ser eliminado.
+
+   ![](../media/gs-6.png)
+   
+   ![](../media/gs-5.png)
+      
+1. Haga clic en **Settings**.
+
+     ![](../media/gs-1.png)
+
+1. Desplácese hacia abajo hasta el panel **Danger Zone** y haga clic en **Delete this repository**.
+
+     ![](../media/gs-2.png)
+
+1. Haga clic en **I want to delete this repository**.
+
+     ![](../media/gs-3.png)
+
+1. Haga clic en **I have read and understand these effects** para aceptar que ha leído y comprendido los efectos.
+
+   ![](../media/c1.png)
+
+1. Indique el nombre del repositorio y haga clic en **Delete this repository**.
+
+     ![](../media/gs-4.png)
+
+      > **Nota:** Una vez eliminado el repositorio existente, repita el paso-06 de la tarea anterior.
 
 Este laboratorio práctico demuestra cómo GitHub Copilot y GitHub Codespaces mejoran el desarrollo a través de sugerencias de código en tiempo real y entornos de nube consistentes.
 

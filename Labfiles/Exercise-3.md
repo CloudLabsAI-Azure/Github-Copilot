@@ -1,115 +1,120 @@
 # Ejercicio 3: Explorar Python con GitHub Copilot: Sugerencias de Código Inteligentes
 
-### Duración Estimada: 10 minutos
+### Duración Estimada: 30 minutos
 
-GitHub Copilot ofrece sugerencias para una gran variedad de lenguajes y frameworks, y destaca particularmente con Python, JavaScript, TypeScript, Ruby, Go, C# y C++. Además, Copilot ofrece una valiosa asistencia para generar consultas para bases de datos.
-
-En este ejercicio, tendrá la oportunidad de profundizar en Python y aprovechar las capacidades de Copilot, beneficiándose de una variedad de sugerencias.
+GitHub Copilot acelera la creación de scripts de lenguaje de programación a través de la generación de código basada en IA y herramientas inteligentes. Al analizar el contexto y los comentarios, Copilot genera rápidamente código básico y ofrece sugerencias dinámicas para mejoras y optimizaciones. Además de la generación de código, Copilot ofrece funciones avanzadas como autocompletado, expansión de código y sugerencias para mejorar el código existente o introducir nuevas funcionalidades.
 
 >**Descargo de responsabilidad**: GitHub Copilot sugerirá automáticamente todo el cuerpo de una función o código en texto gris. A continuación, se muestran ejemplos de lo que probablemente verá en este ejercicio, pero la sugerencia exacta puede variar.
-
->**Nota**: Si no puede ver ninguna sugerencia de GitHub Copilot en VS Code, reinicie VS Code una vez e intente nuevamente.
 
 ## Objetivos del laboratorio
 
 Será capaz de completar las siguientes tareas:
 
-- Tarea 1: Agregar código de un método en Python
-- Tarea 2: Ver la pestaña GitHub Copilot con múltiples sugerencias
-- Tarea 3: Enviar código a su repositorio desde VS Code codespace
+- Tarea 1: Desarrollar un Script de Python para Implementar una Calculadora
+- Tarea 2: Explorar las Herramientas de GitHub Copilot
 
-## Tarea 1: Agregar código de un método en Python
+## Tarea 1: Desarrollar un Script de Python para Implementar una Calculadora
 
-### Instalando la extensión Python en VS Code
+1. Desde la ventana del Explorador de VS Code, cree un Nuevo Archivo.
 
-1. Para instalar la extensión Python, se deben realizar los siguientes pasos dentro de Visual Studio Code:
-    - Haga clic en el ícono **Extensiones** **(1)** en la barra de actividades presente en el lado izquierdo de la ventana de Visual Studio Code.
-    - En el cuadro de búsqueda "Buscar Extensiones en Marketplace", escriba y busque la extensión **Python** **(2)**.
-    - Seleccione **Python** **(3)** de la lista de resultados que aparecen.
-    - Haga clic en el botón **Instalar** **(4)**.
+   ![](../media/py10.png)
 
-      ![](../media/python-install.png)
+1. Nombre el archivo `app.py` y verifique que su nuevo archivo se vea como se muestra a continuación:
 
-1. Dentro del codespace en la ventana Explorador de VS Code, cree un Nuevo Archivo.
+   ![](../media/app1.png)
 
-   ![](../media/ex-3-create-py.png)
-
-1. Nombre el archivo `app.py`. Escriba el siguiente código dentro de este archivo recién creado y luego use la tecla Enter para ir a la siguiente línea.
-
-   ```
-   def hello():
-   ```
-
-1. GitHub Copilot sugerirá automáticamente un código completo en texto gris. Presione la tecla Tab para aceptar la sugerencia y luego guarde el archivo.
-
-   ![](../media/ex-3-apppy.png)
-
-   > **Nota**: Este es un ejemplo de lo que probablemente verá; sin embargo, la recomendación precisa podría variar.
-
-### Tarea 2: Ver la pestaña GitHub Copilot con múltiples sugerencias
-
-En esta tarea, continuará usando Copilot y es posible que necesite algunas de las sugerencias que ofrece GitHub Copilot. GitHub Copilot sintetizará alrededor de 10 sugerencias de código diferentes en una nueva pestaña.
-
-1. Dentro del codespace en la ventana Explorador de VS Code, cree un nuevo archivo llamado `prime.py` **(1)** y escriba el siguiente código **(2)**.
-
-   ```
-   def prime(n):
-   ```
-
-   ![](../media/co-suggestion1.png)
-
-   > **Nota**: Este es un ejemplo de lo que probablemente verá; sin embargo, la recomendación precisa podría variar.
-
-1. Para abrir una nueva pestaña con múltiples soluciones sintetizadas, presione `Ctrl + Enter`. GitHub Copilot sintetizará alrededor de 10 sugerencias de código diferentes en una nueva pestaña. Puede ver las soluciones y, para aceptar una sugerencia, debe hacer clic en **Accept suggestion** debajo de la sugerencia deseada y luego guardar el archivo.
-
-   ![](../media/accpet-suggestion.png)
-
-    > **Nota**: En caso de que no aparezcan las sugerencias de Github Copilot, cierre y vuelva a abrir Visual Studio Code.
-
-### Tarea 3: Enviar código a su repositorio desde VS Code codespace
-
-1. Vuelva a la Terminal de VS Code y agregue archivos al repositorio.
-
-2. Ejecute el siguiente comando para agregar los archivos `app.py` y `prime.py` al repositorio:
-
-   ```
-   git add app.py prime.py
-   ```
-
-3. A continuación, desde la Terminal de VS Code, envíe los cambios al repositorio:
-
-   ```
-   git commit -m "Copilot second commit"
-   ```
-
-4. Por último, desde la Terminal de VS Code, envíe el código al repositorio:
-
-   ```
-   git push
-   ```
-
-   ![](../media/ex-3-push2.png)
-
-   >**Nota**: Espere unos 60 segundos y luego actualice la página de inicio de su repositorio para el siguiente paso.
-
-   >**Nota**: Si se enfrenta a algún error que dice Rechazado, ejecute el siguiente comando y vuelva a ejecutar el comando git push. Esto recuperará los cambios en la rama remota y los fusionará en la rama actual sin cambiar la base.
-    
-    ```
-    git pull --no-rebase
-    ```   
-
-   >**Nota**: Aparece un mensaje en la terminal indicando que necesita cerrar el archivo recién abierto, además de los dos archivos que ya están abiertos. Cierre el archivo recién abierto.
+1. Ahora, presione `Ctrl + I` para abrir GitHub Copilot Chat y pegue los siguientes **comentarios (1)** y haga clic en > o presione **Enter (2)**. Copilot le dará una respuesta, y usted puede revisarla y hacer clic en **Aceptar (3)**. Además, usted puede **Descartar** la sugerencia como se muestra en la imagen a continuación.
    
-5. Puede verificar los archivos `app.py` y `prime.py` disponibles en su repositorio de GitHub.
+   ```
+   Create a simple calculator that can add, subtract, multiply or divide depending upon the input from the user.
+   ```
 
-   ![](../media/ex-3-github3.png)
+   ![](../media/hub66.png)
 
-   <validation step="95754ad8-7b5c-486d-8e7c-d034df03ff1b" />
+1. Presione `CTRL + S` para guardar el archivo.
+
+1. Haga clic en los **puntos suspensivos (1)** en la parte superior, haga clic en la **Terminal (2)** y seleccione **Nuevo Terminal (3)**.
+
+   ![](../media/openterminal.png)
+
+1. Ejecute la aplicación con el comando **python app.py** en la terminal y verifique que se haya generado la salida.
+
+   ![](../media/image.png)   
+
+      > **Felicitaciones** por completar la tarea. Ahora es momento de validarla. Estos son los pasos:
+      > - Presione el botón Validar para la tarea correspondiente. Si recibe un mensaje de éxito, puede continuar con la siguiente tarea.
+      > - De lo contrario, lea atentamente el mensaje de error y vuelva a intentar el paso, siguiendo las instrucciones de la guía de laboratorio.
+      > - Si necesita ayuda, comuníquese con nosotros a cloudlabs-support@spektrasystems.com. Estamos disponibles las 24 horas, los 7 días de la semana para ayudarlo.
+
+      <validation step="37a79ae8-73af-4ce6-a2f0-c3895b352cd3" />
+
+## Tarea 2: Explorar las Herramientas de GitHub Copilot
+
+Al aprovechar el código generado anteriormente, explorará herramientas específicas proporcionadas por Copilot que simplifican las tareas principales.
+
+1. Presione `CTRL + A` para seleccionar todo el código.
+
+1. Haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Editor Inline Chat (2)**.
+
+      ![](../media/app.py.png)
+
+1. La siguiente ventana le solicita que sugiera cualquier mejora o ampliación que desee realizar al código. Pegue los siguientes **comentarios (1)** y haga clic en > o presione **Enter (2)**. Copilot le dará una respuesta y podrá revisarla y hacer clic en **Aceptar (3)**. También puede **Descartar** la sugerencia como se muestra en la imagen a continuación.
+
+   ```
+   Include calculation of percentages
+   ```
    
-6. Haga clic en **Siguiente** a continuación para pasar a la página siguiente.
+   ![](../media/py4.png)
 
-### Resumen
+1. Presione `CTRL + S` para guardar el archivo.
 
-En este ejercicio, ha finalizado con éxito la tarea de usar Python en conjunto con Copilot y lo ha hecho con el beneficio de recibir múltiples sugerencias.
+1. Haga clic en los **puntos suspensivos (1)** en la parte superior, haga clic en la **Terminal (2)** y seleccione **Nuevo Terminal (3)**.
 
-### Ha completado el laboratorio con éxito
+      ![](../media/openterminal.png)
+   
+1. Ejecute la aplicación con el comando **python app.py** en la terminal y verifique que se haya generado la salida.
+
+      ![](../media/pythonapp.png)
+
+1. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Explain (2)**.
+
+   ![](../media/explain.png)
+
+1. Se abre GitHub Copilot Chat a la derecha, el cual ofrece una explicación completa del código como se muestra a continuación.
+
+      ![](../media/hub65.png)
+
+1. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Fix (2)**.
+
+   ![](../media/fix.png)
+
+1. GitHub Copilot utilizará automáticamente el comentario `/fix` para proponer posibles mejoras a partes específicas del código para su mejora. Haga clic en **Aceptar** para utilizar las correcciones en su código.
+
+      ![](../media/py7.png)
+
+1. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Generate Docs (2)**.
+
+      ![](../media/docs.png)
+
+1. GitHub Copilot usará automáticamente el comentario `/doc` para proporcionar un desglose de una línea de código específica. Haga clic en Aceptar para comprender mejor el código mientras lo revisa.
+
+      ![](../media/py8.png)
+
+1. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Generate Tests (2)**.
+
+      ![](../media/tests1.png)
+
+1. GitHub Copilot utilizará automáticamente el comentario `/tests `. Haga clic en **Aceptar**.
+
+      ![](../media/c9.png)
+
+1. Presione `CTRL + S` para guardar el archivo.      
+
+1. Se abrirá un nuevo archivo llamado **test_app.py**, que mostrará los casos de prueba.
+
+      ![](../media/testapp7.png)
+
+## Revisión
+En este laboratorio, aprendió a crear un script de Python para una calculadora y exploró las herramientas de GitHub Copilot, las cuales agilizan las tareas de manera efectiva.
+  
+## Ha completado el laboratorio con éxito

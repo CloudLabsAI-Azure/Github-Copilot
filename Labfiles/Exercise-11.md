@@ -52,7 +52,7 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/vs14.png)
    
-      >**Nota:** En los casos en que el código no sea generado por **GitHub Copilot**, haga clic en **Extensiones**, busque GitHub Copilot, selecciónelo y haga clic en **Instalar en Codespaces:**.
+      >**Nota:** En los casos en que el código no sea generado por **GitHub Copilot**, haga clic en **Extensiones**, busque GitHub Copilot, selecciónelo y haga clic en **Instalar en Codespaces: shiny acorn**.
 
       ![](../media/vs13.png)
 

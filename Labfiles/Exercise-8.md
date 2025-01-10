@@ -14,8 +14,6 @@ Será capaz de completar las siguientes tareas:
 
 - Tarea 1: Generar una consulta SQL con GitHub Copilot usando comentarios
 - Tarea 2: Generar YAML con GitHub Copilot usando comentarios
-- Tarea 3: Enviar código a tu repositorio desde el espacio de código
-
 
 ### Tarea 1: Generar una consulta SQL con GitHub Copilot usando comentarios
 
@@ -23,82 +21,104 @@ Será capaz de completar las siguientes tareas:
 
     ![](../media/chat-code-new.png)
 
-1. Nombre el archivo `demo.sql` y escriba el siguiente comentario:
+1. Nombre el archivo `demo.sql`, escriba el siguiente comentario y presione **Enter**:
 
    ```
-   -- Create a table for 5 products with product names and prices
+   -- create a table with 5 coloumns customer_id, customer_fname, customer_lname, customer_phone, customer_address
    ```
 
-1. Para abrir una nueva pestaña con múltiples soluciones sintetizadas, presione `Ctrl+Enter`. GitHub Copilot sintetizará alrededor de 10 sugerencias de código diferentes en una nueva pestaña. Puede ver las soluciones y, para aceptar una sugerencia, debe hacer clic en **Accept suggestion** debajo de la solución y luego guardar el archivo.
+   ![](../media/c34.png)
 
-   ![](../media/ex7-t1-s3.png)
+1. Observe cómo Copilot puede generar las siguientes líneas de código.
 
-1. Después de aceptar la sugerencia, revísela cuidadosamente antes de aplicarla.
+1. Haga clic en `Tab` y presione **Enter**.
 
-   ![](../media/demo-sql-1.png)
+1. Continúe con las filas. Escriba el siguiente comentario y presione **Enter**.
 
-   >**Nota**: Es posible que no vea las mismas sugerencias que se muestran en la captura de pantalla; las sugerencias exactas pueden variar.
+   ```
+   -- fill in 5 rows in customers table
+   ```
 
+    ![](../media/c35.png)   
+
+1. Haga clic en `Tab` y presione **Enter**.
+
+1. Ejecute la consulta para mostrar la tabla. Escriba el comentario a continuación y presione **Enter**.
+
+   ```
+   -- show the data in customers table
+   ```
+
+    ![](../media/c36.png)   
+
+1. Haga clic en Entrar y haga clic en `Tab` para seleccionar la sugerencia.
+
+1. Presione `Ctrl+S` para guardar el archivo.
+
+1. Haga clic en el icono de Inicio de Windows y expanda la carpeta **Microsoft SQL Server Tools 20 (1)** y seleccione **SQL Server Management Studio 20 (2)**.
+
+   ![](../media/hub106.png)
+
+1. Asegúrese de que se hayan agregado los siguientes detalles:
+
+   - Nombre del servidor: **labvm-<inject key="Deployment-id" enableCopy="false"/>\SQLEXPRESS (1)**
+   - Autenticación: **Autenticación de Windows (2)**
+   - Encriptación: Marque la casilla **Confiar en el certificado del servidor (3)**
+   - Haga clic en **Conectar (4)**
+
+       ![](../media/hub115.png)
+     
+1. Una vez que esté conectado al servidor, haga clic en **Nueva consulta** en la parte superior.
+
+   ![](../media/hub110.png)
+
+1. Navegue hasta **Visual Studio Code** y copie todo el contenido que hemos obtenido en `demo.sql`.
+
+1. Péguelo en la nueva página de consulta.
+
+1. Seleccione cada **bloque de código (1)** y haga clic en **Ejecutar (2)**. Observe cómo cada bloque de código se ejecuta correctamente y produce el resultado esperado en la terminal.
+
+   ![](../media/hub111.png)
+
+   ![](../media/hub112.png)
+
+   ![](../media/hub113.png)
+   
+1. Puede observar cómo procesa cada bloque de código y muestra la tabla Clientes.
+
+   ![](../media/hub40.png)   
+   
 ### Tarea 2: Generar YAML con GitHub Copilot usando comentarios
    
-1. Desde el codespace en la ventana Explorador de VS Code, cree un nuevo archivo.
+1. Desde el codespace en la ventana Explorador de VS Code, cree un nuevo archivo llamado `report.yml`.
 
     ![](../media/chat-code-new.png)
 
-1. Nombre el archivo `deploy-app.yml` y escriba el siguiente comentario:
+1. Presione `Ctrl + I`, escriba el comentario a continuación y presione enviar:
 
    ```
    # Create a GitHub action to email a report from a file at 6 a.m. daily
    ```
+   ![](../media/hub9.png)
 
-1. Para abrir una nueva pestaña con múltiples soluciones sintetizadas, presione `Ctrl+Enter`. GitHub Copilot sintetizará alrededor de 10 sugerencias de código diferentes en una nueva pestaña. Puede ver las soluciones y, para aceptar una sugerencia, debe hacer clic en **Accept suggestion** debajo de la solución y luego guardar el archivo.
+1. Haga clic en **Aceptar**.
 
-   ![](../media/ex7-t2-s3.png)
+   ![](../media/hub8.png)
 
-1. Después de aceptar la sugerencia, revísela cuidadosamente antes de aplicarla.
+      > **Nota**: Es posible que no vea las mismas sugerencias que se muestran en la captura de pantalla; Las sugerencias exactas pueden variar.
 
-   ![](../media/demo-yaml-1.png)
+1. Abra GitHub Copilot Chat desde la parte superior y escriba `Explian the cron syntax in this code` y presione **enviar**.
 
-   >**Nota**: Es posible que no vea las mismas sugerencias que se muestran en la captura de pantalla; las sugerencias exactas pueden variar.
-
-### Tarea 3: Enviar código a tu repositorio desde el espacio de código
-
-1. Use la terminal de VS Code para agregar archivos al repositorio. Abra la Terminal de VS Code si aún no está abierta.
-
-1. Ejecute el siguiente comando para agregar todos los archivos al repositorio:
+      ![](../media/hub10.png)
    
-   ```
-   git add --all
-   ```
+1. Revise la respuesta y comprenda los usos de la sintaxis de cron.
 
-1. A continuación, desde la terminal de VS Code, confirme los cambios en el repositorio:
+      ![](../media/hub11.png)
 
-   ```
-   git commit -m "Copilot fourth commit"
-   ```
+1. Intente otra consulta: `How should a GitHub Actions YAML file be structured?` y evalúe la respuesta proporcionada.
 
-1. Por último, desde la Terminal de VS Code, envíe el código al repositorio:
-
-   ```
-   git push
-   ```
-
-   ![](../media/ex-6-push.png)
-
-   >**Nota**: Espere unos 60 segundos y luego actualice la página de inicio de su repositorio para el siguiente paso.
-
-   >**Nota**: Si se enfrenta a algún error que dice Rechazado, ejecute el siguiente comando y vuelva a ejecutar el comando git push. Esto recuperará los cambios en la rama remota y los fusionará en la rama actual sin cambiar la base.
-    
-    ```
-    git pull --no-rebase
-    ```   
-
-   >**Nota**: Aparece un mensaje en la terminal indicando que necesita cerrar el archivo recién abierto, además de los dos archivos que ya están abiertos. Cierre el archivo recién abierto.
-
-1. Puede verificar los nuevos archivos disponibles en su repositorio de GitHub.
-
-   ![](../media/ex-6-github.png)
-
+   ![](../media/c41.png)
+   
 ### Resumen
 
 En este ejercicio, ha generado código para SQL y YAML con éxito usando comentarios con la ayuda de GitHub Copilot.

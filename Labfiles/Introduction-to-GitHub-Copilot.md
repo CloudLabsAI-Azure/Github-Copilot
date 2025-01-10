@@ -84,7 +84,7 @@ Los propietarios de empresas pueden permitir que algunas o todas las organizacio
 | Autenticación SAML SSO¹ |             ✕	             |  ✓                 |    ✓  |
 | Requiere GitHub Enterprise Cloud |             ✕	             |   ✕	 |    ✓  |
 
-### Casos de Uso de GitHub Copilot
+### Casos de Uso de GitHub Copilot for Business
 
 GitHub Copilot mejora la productividad y la felicidad de los desarrolladores, reduce las interrupciones, mejora el flujo y aumenta la cantidad de tiempo que un desarrollador dedica a realizar un trabajo satisfactorio.
 

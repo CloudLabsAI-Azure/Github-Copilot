@@ -41,14 +41,19 @@ Será capaz de completar las siguientes tareas:
        "customizations": {
            "vscode": {
                "extensions": [
-                   "GitHub.copilot"
+                   "GitHub.copilot",
+                   "hashicorp.terraform"
                ]
            }
-       }
+       },
+      "features": {
+          "ghcr.io/devcontainers/features/terraform:1": {},
+          "ghcr.io/devcontainers/features/azure-cli:1": {}
+      }
    }
    ```
 
-   ![](../media/devcontainer-commit.png)
+   ![](../media/c14.png)
    
 4. Seleccione la opción **Commit directly to the `main` branch** y luego haga clic en el botón **Commit changes**.
 
@@ -74,9 +79,27 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/inn-2.png)
 
-8. En la esquina inferior derecha, aparecerá un mensaje emergente para iniciar sesión en GitHub.
+1. Haga clic en **Continue** en **Select user to authorize Visual Studio Code**.
 
-   ![](../media/signingit.png)
+    ![](../media/c2.png)
+
+1. Haga clic en **Open** para abrir Visual Studio Code.
+
+    ![](../media/c3.png)
+
+1. Verifique que su codespace esté ejecutándose. Asegúrese de que VS Code se vea como se muestra a continuación:
+
+    ![](../media/loaded-repo.png)   
+
+1. Haga clic en **Extensiones** **(1)** en el menú de la izquierda y la extensión **GitHub Copilot** **(2)** debería aparecer en la lista de extensiones de VS Code. Haga clic en la extensión Copilot y verifique su instalación como se muestra a continuación:
+
+    ![](../media/verify-copilot.png)
+
+    >**Nota**: Si la extensión GitHub Copilot no está instalada, haga clic en Instalar. 
+
+1. En la esquina inferior derecha, haga clic en el ícono que se muestra, a fin de iniciar sesión en GitHub.
+
+   ![](../media/c4.png)
 
    > **Nota**: Si aparece el error **No access to GitHub Copilot found**, comuníquese con `cloudlabs-support@spektrasystems.com` para obtener más ayuda.
 
@@ -86,27 +109,22 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/allow.png)
 
-   >**Nota**: espere unos 2 minutos para que el codespace se active por sí solo.
+   >**Nota**: espere alrededor de 2 minutos para que el codespace se active por sí solo.
 
-10. Haga clic en **Authorize Visual-Studio-Code** una vez que aparezca la pestaña Authorize GitHub for VS code en el navegador.
+10. Haga clic en **Continue** una vez que aparezca la pestaña **Select user to authorize Visual Studio Code** en el navegador.
 
-    ![](../media/Exercise-01-v2-02.png)
+    ![](../media/c5.png)
 
-11. A continuación, cuando aparezca la ventana emergente, haga clic en **Permitir**
+11. A continuación, cuando aparezca la ventana emergente, haga clic en **Open**
 
-12. Verifique que su codespace se esté ejecutando. Asegúrese de que VS Code se vea como se muestra a continuación:
+    ![](../media/c6.png)
 
-    ![](../media/loaded-repo.png)
+   > **Felicitaciones** por completar la tarea. Ahora, es momento de validarla. Estos son los pasos:
+   > - Presione el botón Validar para la tarea correspondiente. Si recibe un mensaje de éxito, puede continuar con la siguiente tarea.
+   > - De lo contrario, lea atentamente el mensaje de error y vuelva a intentar el paso, siguiendo las instrucciones de la guía del laboratorio.
+   > - Si necesita ayuda, comuníquese con nosotros a cloudlabs-support@spektrasystems.com. Estamos disponibles las 24 horas, los 7 días de la semana para ayudarlo.
 
-13. Haga clic en **Extensiones** **(1)** en el menú de la izquierda y la extensión **GitHub Copilot** **(2)** debería aparecer en la lista de extensiones de VS Code. Haga clic en la extensión Copilot y verifique su instalación como se muestra a continuación:
-
-    ![](../media/verify-copilot.png)
-
-    >**Nota**: Si la extensión GitHub Copilot no está instalada, haga clic en Instalar.
-
- <validation step="2f1521a8-516d-4357-b09c-941c5d7112ad" />
- 
-14. Haga clic en **Siguiente** a continuación para pasar a la página siguiente.
+   <validation step="2c3e393f-eade-43e1-a96a-f8ea659b3047" />
 
 ### Resumen
 
