@@ -11,6 +11,7 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
 ## Task 1: Add a JavaScript file and start writing code.
 
+Create a JavaScript file (skills.js) and write the function header to trigger GitHub Copilot suggestions.
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
@@ -153,6 +154,8 @@ In this task, you will use the VS Code terminal to add the `skills.js` file to t
 
 
 ## Task 3: Best practices to use GitHub Copilot
+
+Install and verify the GitHub Copilot Chat extension, which helps improve your coding workflow by generating code suggestions.
 
 ### Verify GitHub Copilot Chat extension in VS Code
 
