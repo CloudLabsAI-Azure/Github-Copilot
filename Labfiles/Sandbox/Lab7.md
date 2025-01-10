@@ -1,13 +1,10 @@
 # Lab 7: Working with the Copilot for Machine Learning [Optional]
 
-## Lab Objective 
+## Lab Overview
 
 Working with Copilot for machine learning involves leveraging GitHub Copilot, an AI-powered code completion tool developed by GitHub in collaboration with OpenAI. Here's a quick summary of the key steps and considerations:
-
 Installation: Ensure you have GitHub Copilot installed as an extension in your integrated development environment (IDE), such as Visual Studio Code.
-
 GitHub Integration: Link your IDE to your GitHub account to enable seamless integration. This allows Copilot to access your code repositories and provide context-aware suggestions.
-
 Machine Learning Frameworks: Copilot supports various Machine Learning libraries and frameworks like TensorFlow, PyTorch, scikit-learn, and more. It can assist with code generation for tasks like data preprocessing, model building, and evaluation.
 
 In this exercise, you will be cloning the Git repository with the required dataset into your environment. Here, you will be working with Copilot for Machine Learning, which involves leveraging GitHub Copilot.
@@ -22,15 +19,6 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 4. GitHub Copilot may occasionally provide incorrect answers, so if we encounter any errors while executing the cells, we might need to adjust the code until we achieve the desired output.
 
-## Lab objectives
-
-You will be able to complete the following tasks:
-
-- Task 1: Prerequisites and Injecting the Required Dataset into Your Environment
-- Task 2: Auto_Completion of Code with Different Experiments
-- Task 3: Mathematical and Machine Learning with Different Examples
-- Task 4: Data Visualization and Data Transformation
-- Task 5: Training the sample model
 
 ### Task 1: Prerequisites and Injecting the Required Dataset into Your Environment
 
