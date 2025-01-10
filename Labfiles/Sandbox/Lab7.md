@@ -22,6 +22,8 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 1: Prerequisites and Injecting the Required Dataset into Your Environment
 
+Set up your environment, sign in to GitHub, and clone the repository containing the dataset.
+
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
    ![](../../media/Edge.png)
@@ -141,6 +143,8 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 2: Auto_Completion of Code with Different Experiments
 
+Use GitHub Copilot to auto-complete code for importing libraries and handling data using prompts in VS Code.
+
 ### Note: After entering the prompt, press Enter and then Tab to see the suggestions. Once you view a suggestion, press Tab to accept it, and hit Enter to see more code suggestions.
 
 1. Click on **Extension** from the left panel, search for **Jupyter**, and install it. Then, search for **Python** and install the extension. If prompted, select **Reload Window** for both extensions. Close the VS code and restart it.
@@ -193,7 +197,11 @@ In this exercise, you will be cloning the Git repository with the required datas
    
 ### Task 3: Mathematical and Machine Learning with Different Examples
 
+Perform data manipulations like generating birth year and BMI formatting, then proceed with data analysis and model training using Copilot.
+
 ### Task 3.1: Mathematical Operations
+
+Perform mathematical operations on the dataset, such as calculating birth year from age and formatting the BMI column.
 
 1. In a new code cell, type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
@@ -236,6 +244,8 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 3.2: Machine Learning
 
+Use GitHub Copilot to generate code for performing data analysis and training machine learning models.
+
 1. Type the below comments to perform the data analysis and summary statistics on dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
    ```
@@ -261,7 +271,11 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 4: Data Visualization and Data Transformation
 
+Visualize data with different plots and perform standardization to prepare the data for better analysis and model performance.
+
 ### Task 4.1: Data Visualization
+
+Generate visualizations of the dataset using scatter plots, joint grids, and heatmaps to explore data relationships.
 
 1. Click on **+ Code** to open the new cell and type the below comments to perform the basic operations on dataset. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button to execute the cell.
 
@@ -306,6 +320,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 4.2: Data Transformations
 
+Perform data standardization to scale and center the numeric features of the dataset for model compatibility.
 
 1. Click **+Code** to add a new cell and type the below comments for Standardization which is the process of scaling and centering numeric features to have a mean of 0 and a standard deviation of 1, making them comparable and suitable for certain algorithms. Press "enter" to get into the next line and review the suggestion, and press "tab" to accept the suggestion and click on **Run** button
 
@@ -324,7 +339,7 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 ### Task 5: Training the sample model
 
-Training a sample model using Random Forest.
+Use GitHub Copilot to train a Random Forest model, evaluate its performance, and calculate the model's accuracy.
 
 >**Note**: The model training is a continuation of the train test split step to train the model; run the train test split step first and then continue with the model building.
 
