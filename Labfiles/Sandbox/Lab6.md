@@ -1,26 +1,12 @@
- 
-# Lab 6: Using IDEs such as JetBrains IntelliJ for Java [Optional]
+ # Lab 6: Using IDEs such as JetBrains IntelliJ for Java [Optional]
 
-## Lab Objective 
+## Lab Overview
 
-IntelliJ IDEA is an Integrated Development Environment (IDE) for Java and Kotlin designed to maximize developer productivity. It does the routine and repetitive tasks for you by providing clever code completion, static code analysis, and refactorings, and lets you focus on the bright side of software development, making it not only productive but also an enjoyable experience.
-
-GitHub Copilot, an innovative code generation tool, can be integrated with JetBrains IntelliJ, a widely used IDE for Java development. This integration enhances the Java coding experience by providing intelligent code suggestions and auto-completion within IntelliJ, boosting productivity and code quality.
-
-In this exercise, you will use the JetBrains IntelliJ Idea IDE for Java. You will install the GitHub Copilot plugin and create a new project.
+IntelliJ IDEA is an Integrated Development Environment (IDE) for Java and Kotlin designed to maximize developer productivity. It does the routine and repetitive tasks for you by providing clever code completion, static code analysis, and refactorings, and lets you focus on the bright side of software development, making it not only productive but also an enjoyable experience. GitHub Copilot, an innovative code generation tool, can be integrated with JetBrains IntelliJ, a widely used IDE for Java development. This integration enhances the Java coding experience by providing intelligent code suggestions and auto-completion within IntelliJ, boosting productivity and code quality.
 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
 >**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again.
-
-## Lab objectives
-
-You will be able to complete the following tasks:
-
-- Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
-- Task 2: Create a basic Java project
-- Task 3: Getting more suggestions
-- Task 4: Getting code from a comment
 
 ## Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
 
