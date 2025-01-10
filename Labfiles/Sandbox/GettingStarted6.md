@@ -1,17 +1,23 @@
 
-# Getting Started with GitHub Copilot
+# Using IDEs such as JetBrains IntelliJ for Java
 
 ### Overall Estimated Duration: 20 minutes
 
 ## Overview
  
-Welcome to your Github-Copilot workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+In this lab, you will learn how to integrate GitHub Copilot with IntelliJ IDEA to improve your Java coding experience. You'll get hands-on with creating Java projects, using code suggestions, and generating functions from simple comments.
 
 ## Objective 
 
+- **Using IDEs such as JetBrains IntelliJ for Java**: This lab aims to set up and configure GitHub Copilot with IntelliJ IDEA for enhanced Java coding. The objective is to explore how GitHub Copilot can help you write Java code by providing suggestions and generating functions from comments.
+
 ## Prerequisites
 
+- **Java**: Basic knowledge of Java and experience using IntelliJ IDEA for creating and managing projects.
+
 ## Architecture
+
+This diagram outlines the process of setting up GitHub Copilot in IntelliJ IDEA to generate code suggestions. It demonstrates how GitHub Copilot can assist in coding by understanding comments and offering contextual suggestions.
 
 ## Architecture Diagram
 
@@ -20,6 +26,10 @@ Welcome to your Github-Copilot workshop! We've prepared a seamless environment f
 ## Explanation of Components
 
 The architecture for this lab involves the following key components:
+- **IntelliJ Idea IDE Setup:** Setting up a new Java project in the IntelliJ Idea IDE.
+- **Authorize Github Copilot Plugin:** Integrating the GitHub Copilot plugin into your IDE for code assistance.
+- **Get Suggestions:** Using GitHub Copilot to provide code suggestions based on context.
+- **Getting Code from a Comment:** Leveraging GitHub Copilot to generate code from descriptive comments.
 
 ## **Accessing Your Lab Environment**
  
