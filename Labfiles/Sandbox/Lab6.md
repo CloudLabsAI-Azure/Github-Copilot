@@ -10,6 +10,8 @@ IntelliJ IDEA is an Integrated Development Environment (IDE) for Java and Kotlin
 
 ## Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
 
+Set up the GitHub Copilot plugin in IntelliJ IDEA and create a new Java project for coding.
+
 1. Navigate to the desktop and open the **IntelliJ IDEA Community** IDE.
 
    ![](../../media/E6-T1-S1.png)
@@ -47,6 +49,8 @@ IntelliJ IDEA is an Integrated Development Environment (IDE) for Java and Kotlin
    ![](../../media/demo-copilot-project.png)
 
 ## Task 2: Create a basic Java project
+
+After setting up GitHub Copilot, log in, and create a simple Java class with GitHub Copilot suggestions for functions.
 
 1. Click the **icon** as shown in the below image. 
 
@@ -93,6 +97,8 @@ IntelliJ IDEA is an Integrated Development Environment (IDE) for Java and Kotlin
 
 ## Task 3: Getting more suggestions
 
+Learn how to get additional code suggestions from GitHub Copilot if the initial suggestions don't meet your needs.
+
 Sometimes, you may not want to use any of the initial suggestions. You can ask GitHub Copilot to return more.
 
 1. Remove the function you entered and type the following again:
@@ -121,6 +127,8 @@ Sometimes, you may not want to use any of the initial suggestions. You can ask G
 
 
 ## Task 4: Getting code from a comment
+
+Explore how GitHub Copilot can generate entire function implementations just from a comment describing the function's purpose.
 
 GitHub Copilot can understand significantly more context than most code assistants and can generate entire functions from something as simple as a comment.
 
