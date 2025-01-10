@@ -24,6 +24,8 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 ## Task 1: Generate code by chat that uses ARM to deploy resources to Azure
 
+Use GitHub Copilot Chat to generate ARM code that deploys resources to Azure and save it as arm.json.
+
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
    ![](../../media/Edge.png)
@@ -117,6 +119,8 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 ## Task 2- Example: Set the stage with a high-level goal
 
+Ask coding-related questions, and GitHub Copilot Chat processes the query to provide relevant answers or code snippets.
+
 1. In the Visual Studio Code activity bar, click the **GitHub Copilot Chat icon (1)** and select **GitHub Copilot Chat (2)** option to open a chat window.
 
     ![](../../media/copilotchat.png)
@@ -149,6 +153,8 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
 
 ## Task 3: Generate code by chat that uses Terraform to deploy resources to Azure
 
+Generate a Terraform script to deploy a storage account to Azure and save it as terraform.tf.
+
 1. Back in the Chat window, let us try to generate a terraform code. Enter for instance, type "Write a Terraform code for deploying a storage account to Azure with the code explanation" and hit enter.
 
 1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window.
@@ -170,6 +176,8 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
    ![](../../media/terraform-save.png)
 
 ## Task 4: Generate code by chat that uses PowerShell to deploy resources to Azure
+
+Use GitHub Copilot Chat to create a PowerShell script to deploy resources and save it as powershell.ps1.
 
 1. Back in the Chat window, let us try to generate a powershell script.For example, type "Write a PowerShell script for deploying a storage account to Azure." and hit enter.
 
@@ -194,6 +202,8 @@ In this lab, you will utilize Copilot to generate code in ARM, Terraform, and Po
    ![](../../media/ps-save.png)
 
 ## Task 5: Push code to your repository from the codespace
+
+Add the generated files (arm.json, terraform.tf, powershell.ps1) to your GitHub repository and push the changes.
 
 1. Use the VS Code terminal to add files to the repository. Open VS Code Terminal if it's not opened yet.
 
