@@ -1,16 +1,23 @@
- # Getting Started with GitHub Copilot
+# Code Refactoring
 
 ### Overall Estimated Duration: 60 minutes
 
 ## Overview
  
-Welcome to your Github-Copilot workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+This lab focuses on enhancing your skills with GitHub Copilot for C# and JavaScript development. You’ll gain experience with refactoring code, creating new programs, and utilizing GitHub for version control and collaboration.
 
 ## Objective 
 
+- **Code Refactoring** : The objective is to enhance C# and JavaScript development workflows by leveraging GitHub Copilot for refactoring code and generating new code. You'll also learn to create test cases and manage code versions through GitHub.
+
 ## Prerequisites
 
+- **Basic Knowledge of C# and JavaScript**: Familiarity with the syntax and structure of both C# and JavaScript will help in understanding the code modifications and new code generation.
+- **Git and GitHub Basics**: Understanding Git commands and GitHub workflows, like committing and pushing code to a repository, is essential for managing code versions and collaborating on the project.
+
 ## Architecture
+
+This architecture involves using GitHub Copilot and Visual Studio Code to improve the development workflow. The process starts with setting up a C# environment in VS Code, followed by using GitHub Copilot for code refactoring and generating new code. Additionally, it demonstrates how to generate test cases and push the final code changes to a GitHub repository for collaboration and version control.
 
 ## Architecture Diagram
 
@@ -19,6 +26,13 @@ Welcome to your Github-Copilot workshop! We've prepared a seamless environment f
 ## Explanation of Components
 
 The architecture for this lab involves the following key components:
+
+- **Install C# Extension**: Install the C# extension in VS Code to enable features like IntelliSense, debugging, and code navigation for C# development.
+- **Use GitHub Copilot to Refactor the Code**: Utilize GitHub Copilot to improve and restructure poorly written C# code into more efficient and readable code.
+- **Create a .cs File**: Use GitHub Copilot to rewrite a C# program, replacing a switch statement with if-else statements.
+- **Create a .js File**: Use GitHub Copilot Chat to generate a full JavaScript program, such as a calculator, based on a prompt.
+- **Generate Test Cases**: Write automated test cases for each function to ensure the code works correctly and meets the requirements.
+- **Code Push to Repo**: Commit and push the code changes to a remote GitHub repository to ensure version control and collaboration.
 
 ## **Accessing Your Lab Environment**
  
