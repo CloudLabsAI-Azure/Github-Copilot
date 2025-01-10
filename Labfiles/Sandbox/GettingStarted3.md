@@ -1,5 +1,5 @@
 
-# Getting Started with GitHub Copilot
+# Code Suggestions with GitHub Copilot in Codespaces using VS Code
 
 ### Overall Estimated Duration: 30 minutes
 
