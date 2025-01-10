@@ -11,7 +11,7 @@ In this exercise, you will participate in a learning or practice activity where 
 
 ## Task 1: Understand the code already available for you.
 
-### Installing C Sharp (C#) extension in VS Code
+Installing C Sharp (C#) extension in VS Code
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
