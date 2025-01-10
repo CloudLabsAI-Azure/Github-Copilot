@@ -61,6 +61,12 @@ Será capaz de completar las siguientes tareas:
 
     ![Picture1](../media/vscode1.jpg)
 
+     >**Nota**: Asegúrese de no abrir una instancia de Visual Studio Code que ya esté en ejecución; en su lugar, inicie una nueva desde el escritorio.
+
+1. Haga clic en las tres líneas horizontales en la esquina superior izquierda **(1)**, haga clic en **Archivo (2)** y luego haga clic en **Nueva ventana (3)**.
+
+   ![](../media/c31.png)
+
 1. Para verificar la extensión **GitHub Copilot Chat**, se deben realizar los siguientes pasos dentro de Visual Studio Code:
     - Haga clic en el ícono **Extensiones (1)** en la barra de actividades presente en el lado izquierdo de la ventana de Visual Studio Code.
     - En el cuadro de búsqueda **"Buscar extensiones en Marketplace"**, escriba y busque la extensión **GitHub Copilot Chat (2)**.
@@ -73,7 +79,7 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/chaticon.png)
 
-1. Vaya al paso 8. Si ya ha iniciado sesión en una cuenta de GitHub en VS Code, si no es así, siga los pasos 5 a 7.
+1. Vaya al paso 8 si ya ha iniciado sesión en una cuenta de GitHub en VS Code. Si no es así, siga los pasos 5 a 7.
 
 1. Seleccione el ícono **Cuenta** en la parte inferior y haga clic en **Iniciar sesión con GitHub**.
 
@@ -99,9 +105,13 @@ Será capaz de completar las siguientes tareas:
 
     ![Picture1](../media/clone.png)
 
-1. En la esquina superior izquierda, cambie al **Explorador**, seleccione **Abrir carpeta** y selecciona la carpeta que ha clonado ` C:\Users\azureuser\AU`.
+1. En la esquina superior izquierda, cambie al **Explorador**, seleccione **Abrir Carpeta**
    
    ![](../media/clonerepo1.png)
+
+1. Seleccione la carpeta que ha clonado **(1)** y haga clic en **Select Folder (2)**.
+
+   ![](../media/c30.png)
 
 1. Seleccione **Sí, confío en los autores**.
 
@@ -109,13 +119,19 @@ Será capaz de completar las siguientes tareas:
 
 1. Una vez que la carpeta esté abierta, seleccione el archivo `before.html`.
 
-1. Diríjase al **Explorador de Archivos** y abra la carpeta del repositorio que ha clonado. Desde allí, haga doble clic en el archivo `before.html`. Se abrirá en su navegador web, donde ya ha añadido la extensión **Accessibility Insights for Web**.
+   ![](../media/c29.png)
 
-   ![](../media/before.png)
+1. Diríjase al **Explorador de Archivos** y vaya a la ruta `C:\Users\azureuser\AU`, luego presione **Enter**.
+
+   ![](../media/c28.png)
+
+1. Se abrirá la carpeta que ha clonado. Desde allí, haga doble clic en el archivo html `before`. Se abrirá en su navegador web, donde ya ha agregado la extensión **Accessibility Insights for Web**.
+
+   ![](../media/c32.png)
 
    ![](../media/before1.png)
 
-1. Ahora haga clic en el botón **Extensiones** de la barra de herramientas del navegador, seleccione **Accessibility Insights for Web** y, a continuación, haga clic en **FastPass**. Se abrirá en una nueva ventana emergente.
+1. Ahora haga clic en el botón **Extensiones (1)** de la barra de herramientas del navegador, seleccione **Accessibility Insights for Web (2)** y, a continuación, haga clic en **FastPass (3)**. Se abrirá en una nueva ventana emergente.
 
    - **FastPass**: [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) es un proceso ligero de dos pasos que ayuda a los desarrolladores a identificar problemas de accesibilidad comunes y de alto impacto en menos de cinco minutos.
 
@@ -161,7 +177,11 @@ Será capaz de completar las siguientes tareas:
 
 1. **Guarde** el archivo presionando **Ctrl + S**.
 
-1. Ahora, actualice su página **Accessible University**. Haga clic en el botón **Start over** desde la página **Accessibility Insights for Web**. Ahora verá una reducción en el mensaje de error.
+1. Ahora, actualice su página **Accessible University**. 
+
+   ![](../media/c33.png)
+
+1. Haga clic en el botón **Start over** desde la página **Accessibility Insights for Web**. Ahora verá una reducción en el mensaje de error.
 
    ![](../media/startover.png)
 
@@ -193,7 +213,11 @@ Será capaz de completar las siguientes tareas:
 
 1. **Guarde** el archivo presionando **Ctrl + S**.
 
-1. Ahora, actualice su página **Accessible University**. Haga clic en el botón **Start over** desde la página **Accessibility Insights for Web**. Ahora verá una reducción en el mensaje de error.
+1. Ahora, actualice su página **Accessible University**. 
+
+   ![](../media/c33.png)
+
+1. Haga clic en el botón **Start over** desde la página **Accessibility Insights for Web**. Ahora verá una reducción en el mensaje de error.
 
    ![](../media/imgaltcoursela.png)
 

@@ -29,13 +29,13 @@ Será capaz de completar las siguientes tareas:
 
 1. En el Acuerdo de IntelliJ IDEA, marque **I confirm that I have read and accept the terms of this User Agreement (1)** y haga clic en **Continue (2)**.
 
-   ![](../media/E6-T1-S2.png)
+   ![](../media/c17.png)
 
    >**Nota:** Cuando aparezca el cuadro para compartir datos, haga clic en **Don't Send**.
 
    ![](../media/E6-T1-S2.1.png)
 
-1. Haga clic en Omitir importación.
+1. En la página **Import Settings**, haga clic en **Skip Import**.
 
 1. En el menú de la izquierda, haga clic en **Plugins** **(1)** y seleccione **Marketplace** **(2)**. Busque **GitHub Copilot** **(3)** y, una vez que encuentre el complemento **GitHub Copilot**, haga clic en **Install** **(4)**.
 
@@ -43,15 +43,17 @@ Será capaz de completar las siguientes tareas:
 
    >**Nota**: En el aviso de Plugins de Terceros, haga clic en **Aceptar**.
 
-1. Verifique que el complemento GitHub Copilot esté instalado. A continuación, debe reiniciar el IDE haciendo clic en **Restart IDE**. Haga clic en **Restart** en la ventana emergente una vez más para reiniciar el IDE.
+1. Verifique que el complemento GitHub Copilot esté instalado. A continuación, debe reiniciar el IDE haciendo clic en **Restart IDE**. 
 
    ![](../media/restart-ide(1).png)
+
+Haga clic en **Restart** en la ventana emergente una vez más para reiniciar el IDE.
 
 1. Una vez que se reinicie el IDE **IntelliJ Idea Community**, seleccione **Projects** **(1)** en el menú de la izquierda y haga clic en **New Project** **(2)**.
 
    ![](../media/create-project.png)
 
-1. En el panel de nuevo proyecto, ingrese el nombre del proyecto como **demo-copilot** **(1)**. Coloque el lenguaje como **Java** **(2)** y el sistema de compilación (Build system) como **IntelliJ** **(3)**. Para el JDK, seleccione el valor predeterminado **Download Oracle OpenJDK 22** **(4)** y haga clic en **Create** **(5)**.
+1. En el panel de nuevo proyecto, ingrese el nombre del proyecto como **demo-copilot** **(1)**. Coloque el lenguaje como **Java** **(2)** y el sistema de compilación (Build system) como **IntelliJ** **(3)**. Para el JDK, seleccione el valor predeterminado **Download Oracle OpenJDK 23e** **(4)** y haga clic en **Create** **(5)**.
 
    ![](../media/Exercise-06-v2-02.png)
 
@@ -65,23 +67,51 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/icon.png)
 
-1. Haga clic en **Tools (1)**. Haga clic en GitHub Copilot y, luego, en **Login to GitHub (2)**.
+1. Haga clic en **Tools (1)**. Haga clic en **GitHub Copilot (2)**, y luego en **Open GitHub Copilot Chat (3)**.
 
-   ![](../media/login.png)
+   ![](../media/c18.png)
 
-1. En el cuadro de diálogo "Sign in to GitHub", para copiar el código del dispositivo y abrir la ventana de activación del dispositivo, haga clic en **Copy and Open**.
+1. Haga clic en **Sign in to GitHub**.
+
+   ![](../media/c19.png)
+
+1. En el cuadro de diálogo **Sign in to GitHub**, para copiar el código del dispositivo y abrir la ventana de activación del dispositivo, haga clic en **Copy and Open**.
 
    ![](../media/ex6-copy-code.png)
 
+1. Haga clic en **Continue** en **Device Activation**.   
+
+   ![](../media/c20.png)
+
 1. Se abrirá una ventana de activación del dispositivo en su navegador. Pegue el **código (1)** del dispositivo que copió en el paso anterior y luego haga clic en **Continue (2)**.
 
-   ![](../media/ex6-device-activation.png)
+   ![](../media/c21.png)
 
 1. GitHub solicitará los permisos necesarios para GitHub Copilot. Para aprobar estos permisos, haga clic en **Authorize GitHub Copilot Plugin**.
 
 1. Una vez que se hayan aprobado los permisos, su IDE de JetBrains mostrará una confirmación.
 
    ![](../media/Exercise-06-v2-04.png)
+
+1. Haga clic en **Authorize** en Copilot Chat.
+
+   ![](../media/c22.png)
+
+1. En el cuadro de diálogo **Sign in to GitHub**, para copiar el código del dispositivo y abrir la ventana de activación del dispositivo, haga clic en **Copy and Open**.
+
+   ![](../media/c23.png)   
+
+1. Haga clic en **Continue** en **Device Activation**.   
+
+   ![](../media/c20.png)   
+
+1. Haga clic en **Authorize GitHub Copilot for JetBrains IDEs**.   
+
+   ![](../media/c25.png)    
+
+1. Una vez que se hayan aprobado los permisos, su IDE JetBrains mostrará una confirmación.
+
+   ![](../media/c26.png)   
 
 1. En su IDE de JetBrains, haga clic derecho en **src (1)**, seleccione **New (2)** y haga clic en **File (3)** para crear un nuevo archivo Java (*.java) denominado **Test.java**.
 
@@ -103,6 +133,12 @@ Será capaz de completar las siguientes tareas:
 
 1. Presione **Tab** para aceptar la sugerencia.
 
+   >**Nota:** Si recibe algún error o si necesita más sugerencias, navegue a **Github Co-pilot** desde el panel derecho. Actualícelo si es necesario. Acepte la solución más relevante.
+
+    ![](../media/c27.png) 
+
+    ![](../media/ex6-copilot-suggestion.png)   
+
 ## Tarea 3: Obtener más sugerencias
 
 En ocasiones, es posible que no quiera usar ninguna de las sugerencias iniciales. Puede solicitarle a GitHub Copilot que devuelva más.
@@ -123,11 +159,11 @@ En ocasiones, es posible que no quiera usar ninguna de las sugerencias iniciales
 
    ![](../media/github.png)
    
-1. Seleccione "GitHub Copilot". GitHub Copilot abrirá una nueva pestaña y sugerirá múltiples opciones, como se muestra a continuación.
+1. Seleccione **Open Copilot**. GitHub Copilot abrirá una nueva pestaña y sugerirá múltiples opciones, como se muestra a continuación.
 
    ![](../media/ex6-copilot-suggestion.png)
 
-1. Elija una sugerencia que desee utilizar y luego haga clic en "Accept solución".
+1. Elija una sugerencia que desee utilizar y luego haga clic en **Accept solución**.
 
 1. Si no le gusta ninguna de las sugerencias devueltas, simplemente cierre la pestaña de sugerencias.
 
@@ -147,10 +183,13 @@ GitHub Copilot puede entender mucho más contexto que la mayoría de los asisten
   
    ![](../media/ex6-image-suggestion.png)
 
-   <validation step="364115e7-deff-4c32-96e9-fa5d2122a86f" />
-   
-3. Haga clic en **Siguiente** a continuación para pasar a la página siguiente.
-        
+      > **Felicitaciones** por completar la tarea. Ahora, es momento de validarla. Estos son los pasos:
+      > - Presione el botón Validar para la tarea correspondiente. Si recibe un mensaje de éxito, puede continuar con la siguiente tarea.
+      > - Si no es así, lea atentamente el mensaje de error y vuelva a intentar el paso, siguiendo las instrucciones de la guía de laboratorio.
+      > - Si necesita ayuda, comuníquese con nosotros a cloudlabs-support@spektrasystems.com. Estamos disponibles las 24 horas, los 7 días de la semana para ayudarlo.
+
+      <validation step="5055e2d4-be60-47f4-acab-c0dde92b4baa" />   
+           
 ### Resumen
 
 En este ejercicio, ha configurado con éxito JetBrains IntelliJ Idea IDE para Java, ha instalado el complemento GitHub Copilot y ha explorado código básico de Java que generó las sugerencias usando Copilot.
