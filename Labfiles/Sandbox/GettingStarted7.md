@@ -1,17 +1,22 @@
-
-# Getting Started with GitHub Copilot
+# Working with the Copilot for Machine Learning
 
 ### Overall Estimated Duration: 30 minutes
 
 ## Overview
  
-Welcome to your Github-Copilot workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+This lab focuses on using GitHub Copilot to streamline machine learning workflows, including data preprocessing, mathematical operations, visualization, and model building. You'll learn how Copilot can assist with code generation, making the process faster and more efficient.
 
 ## Objective 
 
+- **Working with the Copilot for Machine Learning** : The objective of this lab is to work with GitHub Copilot to assist in machine learning tasks, from dataset preparation to model training. You’ll use Copilot’s suggestions to build and train machine learning models.
+
 ## Prerequisites
 
+- **Python**: Basic understanding of Python programming, machine learning concepts, and familiarity with libraries like pandas, scikit-learn, and Jupyter notebooks.
+
 ## Architecture
+
+This architecture diagram represents the flow of tasks involved in the lab. It begins with setting up the environment, followed by code completion assistance, mathematical processing, and data visualization. Finally, the model is trained to make predictions based on the prepared data.
 
 ## Architecture Diagram
 
@@ -20,6 +25,12 @@ Welcome to your Github-Copilot workshop! We've prepared a seamless environment f
 ## Explanation of Components
 
 The architecture for this lab involves the following key components:
+
+- **Run Terminal Commands**: Executes essential setup and installation commands to prepare the environment for the lab.
+- **AI-assisted Code Completion**: Utilizes GitHub Copilot to assist in auto-completing code for machine learning tasks and experiments.
+- **Math and Machine Learning**: Involves performing mathematical operations and applying machine learning techniques to process and analyze data.
+- **Data Processing and Visualization**: Transforms data and visualizes it through various charts and plots for better insights.
+- **Model Training**: Trains a machine learning model, such as a random forest, on the processed data to make predictions.
 
 ## **Accessing Your Lab Environment**
  
