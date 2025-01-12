@@ -56,5 +56,123 @@
         "Order": 13
       }
     ]
+  },
+  {
+    "Name": "Github Copilot Innovation Workshop",
+    "Language": "Spanish",
+    "BaseURL": "https://github.com/CloudLabsAI-Azure/Github-Copilot/tree/Spanish-Content",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Spanish-Content/Labfiles/Getting-Started.md",
+        "Order": 1
+      },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Spanish-Content/Labfiles/Introduction-to-GitHub-Copilot.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Spanish-Content/Labfiles/Exercise-1.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Spanish-Content/Labfiles/Exercise-2.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Spanish-Content/Labfiles/Exercise-3.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Spanish-Content/Labfiles/Exercise-4.md",
+        "Order": 6
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Spanish-Content/Labfiles/Exercise-5.md",
+        "Order": 7
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Spanish-Content/Labfiles/Exercise-6.md",
+        "Order": 8
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Spanish-Content/Labfiles/Exercise-7.md",
+        "Order": 9
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Spanish-Content/Labfiles/Exercise-8.md",
+        "Order": 10
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Spanish-Content/Labfiles/Exercise-9.md",
+        "Order": 11
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Spanish-Content/Labfiles/Exercise-10.md",
+        "Order": 12
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Spanish-Content/Labfiles/Exercise-11.md",
+        "Order": 13
+      }
+    ]
+  },
+  {
+    "Name": "Github Copilot Innovation Workshop",
+    "Language": "Portuguese",
+    "BaseURL": "https://github.com/CloudLabsAI-Azure/Github-Copilot/tree/Portuguese-Content",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Portuguese-Content/Labfiles/Getting-Started.md",
+        "Order": 1
+      },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Portuguese-Content/Labfiles/Introduction-to-GitHub-Copilot.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Portuguese-Content/Labfiles/Exercise-1.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Portuguese-Content/Labfiles/Exercise-2.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Portuguese-Content/Labfiles/Exercise-3.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Portuguese-Content/Labfiles/Exercise-4.md",
+        "Order": 6
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Portuguese-Content/Labfiles/Exercise-5.md",
+        "Order": 7
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Portuguese-Content/Labfiles/Exercise-6.md",
+        "Order": 8
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Portuguese-Content/Labfiles/Exercise-7.md",
+        "Order": 9
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Portuguese-Content/Labfiles/Exercise-8.md",
+        "Order": 10
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Portuguese-Content/Labfiles/Exercise-9.md",
+        "Order": 11
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Portuguese-Content/Labfiles/Exercise-10.md",
+        "Order": 12
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/Portuguese-Content/Labfiles/Exercise-11.md",
+        "Order": 13
+      }
+    ]
   }
 ]
