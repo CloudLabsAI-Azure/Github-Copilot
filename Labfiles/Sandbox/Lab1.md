@@ -169,7 +169,7 @@ Sign in to GitHub and configure a GitHub repository and set Visual Studio Code a
 
      - Click **Delete this repository**.
 
-        ![](../../media/7.png)
+      ![](../../media/7.png)
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
@@ -190,6 +190,7 @@ Sign in to GitHub and configure a GitHub repository and set Visual Studio Code a
 1. Copy your GitHub username in order to validate your lab.
 
    ![](../../media/gc2.png)
+
   
     > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
     >  - Hit the Validate button for the corresponding task. Paste the GitHub username (1) you copied in the previous step and click on **Submit**(2).
