@@ -24,25 +24,24 @@ Enable GitHub Copilot within a Codespace to enhance coding efficiency with AI-po
 1. Type or paste the following in the empty text field prompt to name your file **(1)**.
 
     ```
-    .devcontainer/devcontainer.json
+     .devcontainer/devcontainer.json
     ```
 
 1. In the body of the new **.devcontainer/devcontainer.json** file, add the following content **(2)** and click on **Commit changes** **(3)**:
 
     ```
-    {
-        // Name this configuration
-        "name": "Codespace for Skills!",
-        "customizations": {
-            "vscode": {
-                "extensions": [
-                    "GitHub.copilot"
-                ]
+        {
+            // Name this configuration
+            "name": "Codespace for Skills!",
+            "customizations": {
+                "vscode": {
+                    "extensions": [
+                        "GitHub.copilot"
+                    ]
+                }
             }
         }
-    }
-    ```
-
+     ```
 
     ![](../../media/dp2.png)
    
