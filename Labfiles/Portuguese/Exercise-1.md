@@ -1,8 +1,8 @@
-# Exercício 1: Desfrute de Codespaces com VS Code para Copilot
+# Exercício 1: Usando Codespaces com VS Code para Copilot
 
 ### Duração estimada: 15 minutos
 
-O GitHub Copilot é como um programador a pares de IA concebido para tornar a escrita de código mais fácil e rápida. Extrai contexto de comentários e código para sugerir linhas individuais e funções completas. O GitHub Copilot é baseado em Codex, um modelo de linguagem generativa pré-treinado criado pela OpenAI.
+O GitHub Copilot é como um programador a pares de IA concebido para tornar a escrita de código mais fácil e rápida. Extrai contexto de comentários e código para sugerir linhas individuais de código e funções completas. O GitHub Copilot é baseado em Codex, um modelo de linguagem generativa pré-treinado criado pela OpenAI.
 
 **O Copilot é compatível com uma grande variedade de editores de código, como o Neovim, JetBrains IDE, Visual Studio e VS Code.**
 
@@ -16,7 +16,7 @@ Neste exercício, terá a tarefa de criar um container. Especificará determinad
 
 ## Objetivos do laboratório
 
-Poderá completar as seguintes tarefas:
+Irá completar as seguintes tarefas:
 
 - Tarefa 1: Activar o Copilot dentro de um Codespace
 
@@ -79,25 +79,13 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/inn-2.png)
 
-1. No canto inferior direito, receberá um pedido para entrar no GitHub.
+1. Clique em **Continue** para autorizar o Visual Studio Code.
 
    ![](../../media/c2.png)
 
 1. Clique em **Open** para abrir o Visual Studio Code
 
    ![](../../media/c3.png)
-
-1. De seguida, assim que o pop-up aparecer, clique em **Allow**
-
-   ![](../../media/loaded-repo.png)
-
-1. Clique em **Continue** quando Selecionar usuário para autorizar o Visual Studio Code aparecer no navegador.
-
-    ![](../../media/p3.png)
-
-1. De seguida, assim que o pop-up aparecer, clique em **Abrir**
-
-    ![](../../media/p4.png)
 
 1. Verifique se o seu codespace está em execução. Certifique-se de que o código VS está como mostrado abaixo:
 
@@ -109,9 +97,33 @@ Poderá completar as seguintes tarefas:
 
     >**Nota**: Se a extensão GitHub Copilot não estiver instalada, clique em Instalar.
 
- <validation step="2c3e393f-eade-43e1-a96a-f8ea659b3047" />
+1. No canto inferior direito, clique no icon e faça sign in no GitHub.
 
-1. Clique em **Próximo** abaixo para passar para a página seguinte.
+   ![](../../media/c4.png)
+
+   > **Nota**: Se encontrar o erro: **No access to GitHub Copilot found**, entre em contato vir o email `cloudlabs-support@spektrasystems.com` para suporte.
+
+   ![](../../media/3.png)
+
+1. Em seguida, quando for mostrado o seguinte popup, clique em **Allow**.
+
+   ![](../../media/allow.png)
+
+1. Clique em **Continue** para autorizar o Visual Studio Code.
+
+   ![](../../media/c5.png)
+
+1. Em seguida, clique em **Open** para abrir o Visual Studio Code.
+
+   ![](../../media/c6.png)
+
+
+   > **Parabéns** por completar a tarefa! Agora, é hora de validar. Aqui estão os passos:
+   > - Clique no botão Validar. Se você receber uma mensagem de sucesso, poderá prosseguir para a próxima tarefa.
+   > - Caso contrário, leia atentamente a mensagem de erro e repita os passos, seguindo as instruções no guia do laboratório.
+   > - Se precisar de ajuda, entre em contato conosco pelo cloudlabs-support@spektrasystems.com. Estamos disponíveis 24 horas por dia, 7 dias por semana, para ajudá-lo.
+
+   <validation step="2c3e393f-eade-43e1-a96a-f8ea659b3047" />
 
 ### Resumo
 
