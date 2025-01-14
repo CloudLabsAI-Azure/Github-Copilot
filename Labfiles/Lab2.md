@@ -96,7 +96,7 @@ In this lab, you will create a development container and define specific extensi
 
     ![](../media/dp4.png)
 
-   >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the 
+     - **Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the 
     browser, refresh the page and launch the codespace that was previously created.
 
 1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install Extension and Open URI** to continue.
