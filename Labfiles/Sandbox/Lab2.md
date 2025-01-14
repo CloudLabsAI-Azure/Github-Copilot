@@ -66,6 +66,7 @@ Enable GitHub Copilot within a Codespace to enhance coding efficiency with AI-po
 
      ![](../../media/l2.png)
 
+
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
     ![](../../media/signingit.png)
@@ -88,6 +89,7 @@ Enable GitHub Copilot within a Codespace to enhance coding efficiency with AI-po
      ![](../../media/allow.png)
 
      - **Note**: Wait about 2 minutes for the codespace to spin itself up.
+
 
 1. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
 
