@@ -164,7 +164,8 @@ Sign in to GitHub and configure a GitHub repository and set Visual Studio Code a
 
         ![](../../media/6.png)
 
-      - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want to delete.
+      - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want 
+         to delete.
 
       - Click **Delete this repository**.
 
