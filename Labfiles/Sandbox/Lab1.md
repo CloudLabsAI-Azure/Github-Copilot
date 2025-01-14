@@ -168,7 +168,6 @@ Sign in to GitHub and configure a GitHub repository and set Visual Studio Code a
 
       - Click **Delete this repository**.
 
-
         ![](../../media/7.png)
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
