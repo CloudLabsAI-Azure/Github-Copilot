@@ -6,7 +6,7 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
 ## Lab Objectives
 
 - Task 1: Brainstorm and generate a plan using Copilot Workspace
-- Task 2:
+- Task 2: Run the Application
 
 
 
@@ -38,3 +38,10 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
 
 1. Click on Create repository.
 
+### Task 2:
+
+1. Click on the Weather App from the top left. It will load the repository and the files that was created.
+
+1. Click on Code and select + Codespace.
+
+1. 
