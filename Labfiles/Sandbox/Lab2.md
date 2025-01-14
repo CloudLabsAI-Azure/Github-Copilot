@@ -82,14 +82,12 @@ Enable GitHub Copilot within a Codespace to enhance coding efficiency with AI-po
     - **Note**: If you encounter the error **No access to GitHub Copilot found**, please reach out to `cloudlabs-support@spektrasystems.com` for further assistance.
 
         ![](../../media/3.png)
-
- 
+       
 1. Next, once you get the popup, click on **Allow**
 
      ![](../../media/allow.png)
 
      - **Note**: Wait about 2 minutes for the codespace to spin itself up.
-
 
 1. Click **Authorize Visual-Studio-Code** once the Authorize GitHub for VS code tab appears in the browser.
 
