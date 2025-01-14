@@ -1,0 +1,83 @@
+#  Using GitHub Copilot to generate ARM & Terraform Templates
+
+### Overall Estimated Duration: 30 minutes
+
+## Overview
+ 
+In this lab, you will use GitHub Copilot to generate and deploy resources to Azure using ARM, Terraform, and PowerShell. You will interact with GitHub Copilot Chat within Visual Studio Code to generate code and push it to your GitHub repository. This lab will help you understand how to leverage AI-powered code suggestions for infrastructure automation.
+
+## Objective 
+
+ - **Using GitHub Copilot to generate ARM & Terraform Templates** : The lab objective is to use GitHub Copilot Chat in Visual Studio Code to generate ARM, Terraform, and PowerShell scripts for deploying resources to Azure.
+
+## Prerequisites
+
+- **Basic Knowledge of Version Control with Git and GitHub:** Understanding how to use Git for code versioning and how to push code to a GitHub repository is essential for the component that involves pushing code to a repo from the codespace.
+
+- **Familiarity with Terraform and PowerShell Scripting:** A foundational understanding of Terraform for infrastructure automation and PowerShell scripting for resource deployment is required, as the lab involves generating these scripts through GitHub Copilot to deploy resources to Azure.
+
+## Architecture
+
+The architecture consists of components that leverage GitHub Copilot’s assistance in a seamless workflow. First, the GitHub Copilot extension is installed in Visual Studio Code, enabling enhanced code completion and generation. Users can then interact with GitHub Copilot Chat, posing coding-related queries, and receiving code suggestions or answers. Additionally, Terraform and PowerShell scripts can be generated using Copilot Chat to automate deployments to Azure. Lastly, the generated code is pushed to a GitHub repository from the codespace, facilitating version control and collaboration.
+
+## Architecture Diagram
+
+ ![](../../media/Lab4dia.png)
+
+## Explanation of Components
+
+The architecture for this lab involves the following key components:
+
+- **Install Github Copilot extension:** Install the GitHub Copilot extension in Visual Studio Code to enable AI-powered code suggestions and assistance.
+- **Interactive Code Assistance:** Ask coding-related questions, and GitHub Copilot Chat processes the query to provide relevant answers or code snippets.
+- **Terraform Code Generation:** Use GitHub Copilot Chat to generate Terraform code for automating the deployment of resources to Azure.
+- **PS Script Creation:** Generate PowerShell scripts through GitHub Copilot Chat for deploying resources to Azure.
+- **Code Push to Repo:** Push the generated code to a GitHub repository directly from the codespace.
+
+## **Accessing Your Lab Environment**
+ 
+Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+ 
+ ![](../../media/getstart324.png)
+
+## **Virtual Machine & Lab Guide**
+ 
+Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+ 
+## **Exploring Your Lab Resources**
+ 
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** Details tab.
+ 
+   ![](../../media/gc1.png)
+ 
+## **Utilizing the Split Window Feature**
+ 
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
+
+ ![](../../media/higher.png)
+
+## Lab Guide Zoom In/Zoom Out
+ 
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+![](../../media/zoom.png)  
+
+## Managing Your Virtual Machine
+
+Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+
+![](../../media/resourses.png)
+
+## Support Contact
+ 
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+- Email Support: cloudlabs-support@spektrasystems.com
+- Live Chat Support: https://cloudlabs.ai/labs-support
+
+Now, click on **Next** from the lower right corner to move on to the next page.
+
+  ![](../../media/page.png)
+
+### Happy Learning!!
