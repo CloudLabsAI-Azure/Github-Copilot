@@ -68,7 +68,8 @@ Enable GitHub Copilot within a Codespace to enhance coding efficiency with AI-po
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
-   ![](../../media/signingit.png)
+    ![](../../media/signingit.png)
+
 
    - **Note**: If you do not get a prompt to sign in to your GitHub account, click on the GitHub Copilot icon located in the bottom right corner. Click "Allow" for VS Code to sign in to your GitHub account. A new web page will open. Copy the URL of the page, paste it into a private browser, enter your GitHub credentials, and sign in.
 
