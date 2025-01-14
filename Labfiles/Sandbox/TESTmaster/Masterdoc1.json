@@ -1,1 +1,19 @@
 
+[
+    {
+      "Name": "Github Copilot Innovation Workshop",
+      "Language": "English",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/SandBox/Labfiles/Sandbox/GettingStarted1.md",
+          "Order": 1
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/refs/heads/SandBox/Labfiles/Sandbox/Lab1.md",
+          "Order": 2
+        }
+      ]
+    }
+  ]
+  
+  
