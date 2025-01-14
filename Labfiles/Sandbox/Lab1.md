@@ -147,18 +147,20 @@ Sign in to GitHub and configure a GitHub repository and set Visual Studio Code a
    ![](../../media/skills-new-repo.png)
 
     > **Note**: If you get a note  prompting that a repository with the name **skills-copilot-codespaces-vscode** already exists, please delete the existing one by performing the below steps and perform the above step again.
+
      - On GitHub.com, navigate to the main page of the repository.
+
      - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
     
        ![](../../media/2.png)
 
      - On the **General** settings page (which is selected by default), scroll down to the "Danger Zone" section and click **Delete this repository**.
      
-       ![](../../media/4.png)
+        ![](../../media/4.png)
 
      - Click **I want to delete this repository**.
  
-       ![](../../media/5.png)
+        ![](../../media/5.png)
 
      - Read the warnings and click **I have read and understand these effects**.
 
@@ -169,7 +171,7 @@ Sign in to GitHub and configure a GitHub repository and set Visual Studio Code a
 
      - Click **Delete this repository**.
 
-      ![](../../media/7.png)
+        ![](../../media/7.png)
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
