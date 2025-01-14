@@ -26,13 +26,13 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/Exercise-01-v2-01.png)
 
-2. Digite ou cole o seguinte no campo de texto vazio para nomear o seu ficheiro **(1)**.
+1. Digite ou cole o seguinte no campo de texto vazio para nomear o seu ficheiro **(1)**.
 
     ```
     .devcontainer/devcontainer.json
     ```
 
-3. No corpo do novo ficheiro **.devcontainer/devcontainer.json**, adicione o seguinte conteúdo **(2)** e clique em **Commit changes** **(3)**:
+1. No corpo do novo ficheiro **.devcontainer/devcontainer.json**, adicione o seguinte conteúdo **(2)** e clique em **Commit changes** **(3)**:
 
    ```
    {
@@ -41,30 +41,35 @@ Poderá completar as seguintes tarefas:
        "customizations": {
            "vscode": {
                "extensions": [
-                   "GitHub.copilot"
+                   "GitHub.copilot",
+                   "hashicorp.terraform"
                ]
            }
-       }
+       },
+       "features": {
+          "ghcr.io/devcontainers/features/terraform:1": {},
+          "ghcr.io/devcontainers/features/azure-cli:1": {}
+      }
    }
    ```
 
-   ![](../../media/devcontainer-commit.png)
+   ![](../../media/c14.png)
 
-4. Selecione a opção **Commit directly to the `main` branch** e clique no botão **Commit changes**.
+1. Selecione a opção **Commit directly to the `main` branch** e clique no botão **Commit changes**.
 
    ![](../../media/commit-file.png)
 
-5. Navegue de volta para a página inicial do seu repositório clicando no separador **Code** **(1)** localizado no canto superior esquerdo do ecrã. Clique no botão **Code** **(2)** localizado no meio da página.
+1. Navegue de volta para a página inicial do seu repositório clicando no separador **Code** **(1)** localizado no canto superior esquerdo do ecrã. Clique no botão **Code** **(2)** localizado no meio da página.
 
    ![](../../media/code-code.png)
 
-6. Clique no separador **Codespaces (1)** na caixa que aparece e, em seguida, clique no botão **Create codespace on main (2)**.
+1. Clique no separador **Codespaces (1)** na caixa que aparece e, em seguida, clique no botão **Create codespace on main (2)**.
 
    ![](../../media/create-codespace.png)
 
    >**Nota**: Se o pedido de pop-up não aparecer no browser para abrir o código do Visual Studio, inicie manualmente o código do Visual Studio na área de trabalho e feche-o. De seguida, volte ao browser, atualize a página e inicie o codespace que foi criado anteriormente.
 
-7. Encontrará um prompt pop-up. Clique em **Abrir** para continuar. Posteriormente, surgirá outra janela pop-up dentro do Visual Studio Code (VS Code), onde deverá selecionar **Install Extension and Open URI** para continuar.
+1. Encontrará um prompt pop-up. Clique em **Abrir** para continuar. Posteriormente, surgirá outra janela pop-up dentro do Visual Studio Code (VS Code), onde deverá selecionar **Install Extension and Open URI** para continuar.
 
    ![](../../media/p1.png)
 
@@ -74,41 +79,39 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/inn-2.png)
 
-8. No canto inferior direito, receberá um pedido para entrar no GitHub.
+1. No canto inferior direito, receberá um pedido para entrar no GitHub.
 
-   ![](../../media/signingit.png)
+   ![](../../media/c2.png)
 
-   > **Nota**: Se encontrar o erro **No access to GitHub Copilot found**, por favor contacte `cloudlabs-support@spektrasystems.com` para obter mais assistência.
+1. Clique em **Open** para abrir o Visual Studio Code
 
-   ![](../../media/3.png)
+   ![](../../media/c3.png)
 
-9. De seguida, assim que o pop-up aparecer, clique em **Allow**
+1. De seguida, assim que o pop-up aparecer, clique em **Allow**
 
-   ![](../../media/allow.png)
+   ![](../../media/loaded-repo.png)
 
-   >**Nota**: Aguarde cerca de 2 minutos para que o codespace comece a funcionar.
-
-10. Clique em **Continue** quando Selecionar usuário para autorizar o Visual Studio Code aparecer no navegador.
+1. Clique em **Continue** quando Selecionar usuário para autorizar o Visual Studio Code aparecer no navegador.
 
     ![](../../media/p3.png)
 
-11. De seguida, assim que o pop-up aparecer, clique em **Abrir**
+1. De seguida, assim que o pop-up aparecer, clique em **Abrir**
 
     ![](../../media/p4.png)
 
-12. Verifique se o seu codespace está em execução. Certifique-se de que o código VS está como mostrado abaixo:
+1. Verifique se o seu codespace está em execução. Certifique-se de que o código VS está como mostrado abaixo:
 
     ![](../../media/loaded-repo.png)
 
-13. Clique em **Extensions** **(1)** no menu esquerdo, e a extensão **GitHub Copilot** **(2)** deverá aparecer na lista de extensões do VS Code. Clique na extensão Copilot e verifique a sua instalação como se mostra abaixo:
+1. Clique em **Extensions** **(1)** no menu esquerdo, e a extensão **GitHub Copilot** **(2)** deverá aparecer na lista de extensões do VS Code. Clique na extensão Copilot e verifique a sua instalação como se mostra abaixo:
 
     ![](../../media/verify-copilot.png)
 
     >**Nota**: Se a extensão GitHub Copilot não estiver instalada, clique em Instalar.
 
- <validation step="2f1521a8-516d-4357-b09c-941c5d7112ad" />
+ <validation step="2c3e393f-eade-43e1-a96a-f8ea659b3047" />
 
-14. Clique em **Próximo** abaixo para passar para a página seguinte.
+1. Clique em **Próximo** abaixo para passar para a página seguinte.
 
 ### Resumo
 
