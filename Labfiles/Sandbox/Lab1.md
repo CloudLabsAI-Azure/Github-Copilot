@@ -160,16 +160,16 @@ Sign in to GitHub and configure a GitHub repository and set Visual Studio Code a
  
        ![](../../media/5.png)
 
-      - Read the warnings and click **I have read and understand these effects**.
+     - Read the warnings and click **I have read and understand these effects**.
 
-        ![](../../media/6.png)
+       ![](../../media/6.png)
 
-      - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want 
+     - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want 
          to delete.
 
-      - Click **Delete this repository**.
+     - Click **Delete this repository**.
 
-        ![](../../media/7.png)
+       ![](../../media/7.png)
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
