@@ -99,7 +99,7 @@ Enable GitHub Copilot within a Codespace to enhance coding efficiency with AI-po
 
     - **Note**: If the GitHub Copilot extension is not installed, click on **Install**.
 
----
+
 
 ### Validation and Support
 
@@ -111,7 +111,7 @@ Enable GitHub Copilot within a Codespace to enhance coding efficiency with AI-po
 
 <validation step="f627a3c6-3d8f-48d4-ae32-306c3ff40e00" />
 
----
+
 
 ### Summary
 
