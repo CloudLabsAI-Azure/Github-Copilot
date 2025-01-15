@@ -8,8 +8,6 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
 - Task 1: Brainstorm and generate a plan using Copilot Workspace
 - Task 2: Run the Application
 
-
-
 ### Task 1: Brainstorm and generate a plan using Copilot Workspace
 
 1. Navigate to [Copilot Workspace](https://copilot-workspace.githubnext.com/).
@@ -22,26 +20,38 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
 
 1. Click on **Create new repository** under **New Session**.
 
-1. Provide the below prompt in the Write section and click on **Brainstorm**
+1. Provide the below **prompt (1)** in the Write section and click on **Brainstorm (2)**
 
    ```
    Create a file that represents Weather App displaying current weather conditions, forecasts and alerts for a specified location using a weather API
    ```
 
-1. Review the content that is brainstormed for you.
+1. Review the ideas that is brainstormed. 
 
-1. Click on **Generate plan** for a detailed steps on what is to be done sequentially.
+      > **Note**: You can click on **Regenerate** to modify the response.
 
-1. Review the plan.
+1. Click on **Add task** which you feel is the most suitable for you. You can observe how the task is added.
 
-1. You'll observe the files that can be created to implement the process. Scroll down and click on **Implement selected files**.
+1. Scroll below to find more suggested questions to improve your understanding of the solution.
 
-1. Click on Create repository.
+1. Click on the dropdown for **Generate plan (1)** and click on **Generate code (2)** for a detailed plan and the associated commands to be used will be generated.
 
-### Task 2:
+      > **Note**: Alternatively, you can click on Generate plan and click on **Implement selected files (1)** to generate the code based on the plan. **View (2)** the files.
 
-1. Click on the Weather App from the top left. It will load the repository and the files that was created.
+1. Review the code.
 
-1. Click on Code and select + Codespace.
+1. Click on **Create repository** from the top right.
+
+1. Provide the name of the repository as **weather-app (1)** and click on **Create repository (2)**.
+
+### Task 2: Run the Application
+
+1. Click on the **Weather App** from the top left. It will load the repository and the files that was created.
+
+1. Click on **Code (1)** and select **+ Codespace (2)**.
+
+1. Click on Open when prompted.
+
+1. Click on **Install Extension and Open URI** to install GitHub Codespaces extension.
 
 1. 
