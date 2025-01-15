@@ -20,7 +20,7 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
 
 1. Click on **Authorize**.
 
-1. Click on **Create new repository** under **New Session**.
+1. Click on **Create new repository** under **Start New Session**.
 
       ![](../media/ex-12-2.1.png)
 
