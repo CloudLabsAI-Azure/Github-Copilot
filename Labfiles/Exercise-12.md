@@ -24,7 +24,7 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
 
       ![](../media/ex-12-2.1.png)
 
-1. Provide the below **prompt (1)** in the Write section and click on **Brainstorm (2)**
+1. Provide the below **prompt (1)** in the Write section and click on **Brainstorm (2)**.
 
    ```
    Create a file that represents Weather App displaying current weather conditions, forecasts and alerts for a specified location using a weather API
@@ -91,3 +91,18 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
      ![](../media/inn-2.png)
 
 1. 
+
+1. Navigate to [OpenWeather](https://home.openweathermap.org/).
+
+1. Click on **Sign in**.
+
+     ![](../media/ex-12-16.png)
+
+1. Click on **Create An Account**. Provide the details as asked.
+
+     ![](../media/ex-12-17.png)
+
+1. Once th a/c is created, click on your profile and select **My API keys (1)** and copy the **key (2)** generated in a notepad.
+
+     ![](../media/ex-12-18.png)
+
