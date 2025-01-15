@@ -32,7 +32,7 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
 
       ![](../media/ex-12-3.png)
 
-1. Review the ideas that is brainstormed.
+1. Review the brainstormed ideas.
 
       ![](../media/ex-12-4.png)
 
@@ -46,11 +46,11 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
 
       ![](../media/ex-12-5.png)
 
-1. Scroll below to find more suggested questions to improve your understanding of the solution.
+1. Scroll down to discover additional suggested questions to enhance your understanding of the solution.
 
       ![](../media/ex-12-6.png)
 
-1. Click on the dropdown for **Generate plan (1)** and click on **Generate code (2)** for a detailed plan and the associated commands to be used will be generated.
+1. Click on the **Generate plan (1)** dropdown and select **Generate code (2)** to generate a detailed plan along with the associated commands to be used.
 
       ![](../media/ex-12-7.png)
 
@@ -64,16 +64,30 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
 
 1. Click on **Create repository** from the top right.
 
+      ![](../media/ex-12-10.png)
+
 1. Provide the name of the repository as **weather-app (1)** and click on **Create repository (2)**.
+
+      ![](../media/ex-12-11.png)
 
 ### Task 2: Run the Application
 
-1. Click on the **Weather App** from the top left. It will load the repository and the files that was created.
+1. Click on the **Weather App** from the top left. It will load the repository and the files that were created.
+
+      ![](../media/ex-12-12.png)
 
 1. Click on **Code (1)** and select **+ Codespace (2)**.
 
-1. Click on Open when prompted.
+      ![](../media/ex-12-13.png)
 
-1. Click on **Install Extension and Open URI** to install GitHub Codespaces extension.
+1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should select **Install Extension and Open URI** to continue.
+
+   ![](../media/open.png)
+
+   ![](../media/innovation-1.png)
+
+    >**Note**: Click on **Allow** if the extension **Github Codepsaces** wants to sign in using Github.
+
+     ![](../media/inn-2.png)
 
 1. 
