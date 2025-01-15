@@ -42,7 +42,7 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
 
 1. Click on **Add task** which you feel is the most suitable for you. You can observe how the task is added.
 
-      ![](../media/ex-12-4.3.png)
+      ![](../media/ex-12-4.2.png)
 
       ![](../media/ex-12-5.png)
 
