@@ -4,7 +4,7 @@
 
 Set up GitHub Copilot as an AI-powered pair programmer to enhance the coding workflow. Explore GitHub Codespaces, a cloud-hosted development environment, and configure it using Configuration-as-Code. Create a development container, install essential extensions, and add GitHub Copilot to the project. This setup enables AI-driven code suggestions to improve development efficiency.
 
----
+
 
 ## Task 1: Enable Copilot inside a Codespace
 
