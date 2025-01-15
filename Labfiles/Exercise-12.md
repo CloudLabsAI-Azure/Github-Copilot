@@ -14,11 +14,15 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
 
 1. Click on **Sign in with GitHub**.
 
+      ![](../media/ex-12-1.png)
+
 1. Provide the GitHub credentials from the **Licenses** tab under the **Environment** pane.
 
 1. Click on **Authorize**.
 
 1. Click on **Create new repository** under **New Session**.
+
+      ![](../media/ex-12-2.1.png)
 
 1. Provide the below **prompt (1)** in the Write section and click on **Brainstorm (2)**
 
@@ -26,19 +30,37 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
    Create a file that represents Weather App displaying current weather conditions, forecasts and alerts for a specified location using a weather API
    ```
 
-1. Review the ideas that is brainstormed. 
+      ![](../media/ex-12-3.png)
+
+1. Review the ideas that is brainstormed.
+
+      ![](../media/ex-12-4.png)
 
       > **Note**: You can click on **Regenerate** to modify the response.
 
+      ![](../media/ex-12-4.1.png)
+
 1. Click on **Add task** which you feel is the most suitable for you. You can observe how the task is added.
+
+      ![](../media/ex-12-4.3.png)
+
+      ![](../media/ex-12-5.png)
 
 1. Scroll below to find more suggested questions to improve your understanding of the solution.
 
+      ![](../media/ex-12-6.png)
+
 1. Click on the dropdown for **Generate plan (1)** and click on **Generate code (2)** for a detailed plan and the associated commands to be used will be generated.
+
+      ![](../media/ex-12-7.png)
 
       > **Note**: Alternatively, you can click on Generate plan and click on **Implement selected files (1)** to generate the code based on the plan. **View (2)** the files.
 
+      ![](../media/ex-12-8.png)
+
 1. Review the code.
+
+      ![](../media/ex-12-9.png)
 
 1. Click on **Create repository** from the top right.
 
