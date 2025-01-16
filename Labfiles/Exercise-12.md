@@ -90,7 +90,6 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
 
      ![](../media/inn-2.png)
 
-1. 
 
 1. Navigate to [OpenWeather](https://home.openweathermap.org/).
 
@@ -106,3 +105,4 @@ This lab explores GitHub Copilot Workspace, a cutting-edge, AI-enhanced developm
 
      ![](../media/ex-12-18.png)
 
+1. 
