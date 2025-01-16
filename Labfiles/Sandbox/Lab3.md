@@ -17,10 +17,10 @@ Create a JavaScript file (`skills.js`) and write the function header to trigger 
 
    ![](../../media/Edge.png)
 
-1. Navigate to the GitHub login page using the provided URL below:  
+2. Navigate to the GitHub login page using the provided URL below:  
    [https://github.com/login](https://github.com/login)
 
-1. On the **Sign in to GitHub** tab, you will see the login screen. Enter the **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**.
+3. On the **Sign in to GitHub** tab, you will see the login screen. Enter the **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**.
 
    ![](../../media/github-login.png)
 
@@ -34,26 +34,26 @@ Create a JavaScript file (`skills.js`) and write the function header to trigger 
 
    > **Note:** If you're unable to copy the username and password, please type them manually to proceed further.
 
-1. Navigate to the Outlook login page using the provided URL below:  
+4. Navigate to the Outlook login page using the provided URL below:  
    [https://outlook.office365.com/mail/](https://outlook.office365.com/mail/)
 
-1. To get the authentication code, sign in to Outlook with the Git credentials from the **Environment** tab. Once logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+5. To get the authentication code, sign in to Outlook with the Git credentials from the **Environment** tab. Once logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
 
    > **Note:** The email containing the verification code can sometimes be in the archive/spam folders within your Outlook.
 
    ![](../../media/authgit.png)
 
-1. Right-click on your profile icon in the top-right corner and click on **Your Repositories**.
+6. Right-click on your profile icon in the top-right corner and click on **Your Repositories**.
 
    ![](../../media/Copilotrepo.png)
 
-1. Click on the repository named **skills-copilot-codespaces-vscode**.
+7. Click on the repository named **skills-copilot-codespaces-vscode**.
 
-1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top-left of the screen. Click the **Code** **(2)** button located in the middle of the page.
+8. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top-left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
    ![](../../media/dp3.png)
 
-1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
+9. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
 
    ![](../../media/labgit.png)
 
