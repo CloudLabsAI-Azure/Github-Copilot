@@ -65,7 +65,7 @@ You will be able to complete the following tasks:
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
 
-   ![](../media/create-codespace.png)
+   ![](../media/ghh0.png)
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
