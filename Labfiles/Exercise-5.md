@@ -32,6 +32,8 @@ You will be able to complete the following tasks:
 
    ![](../media/csharp-install.png)
 
+    >**Note:** Ensure we install it in Codespace too.
+
 1. From the codespace in the VS Code Explorer window, create a new file and name it as **codechat.cs**.
 
       ![](../media/chat-code-new.png)
