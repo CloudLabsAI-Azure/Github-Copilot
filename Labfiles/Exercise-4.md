@@ -93,7 +93,7 @@ In this lab, you will complete the following tasks:
 
       ![](../media/github3.png)
 
-1. **Paste(1)** the code you had earlier saved in VS code in the **Edit template** section and click on **Save(2)**.
+1. Copy and **paste(1)** the code you had earlier saved in VS code in the **Edit template** section and click on **Save(2)**.
 
       ![](../media/github5.png)
 
@@ -182,10 +182,14 @@ In this lab, you will complete the following tasks:
     terraform plan
     ```   
 
+     >**Note:** Provide the name of the storage account name when prompted.
+
+     >**Note:** In the event of an SKU error, ensure that the SKU is specified as LRS, GRS, or ZRS, without including the "Standard" prefix.
+
 1. Run the below command to import the existing resource group
 
     ```
-    terraform import azurerm_resource_group.example /subscriptions/<subscription_id>/resourceGroups/JumpVM-RG-<Deployment-id>
+    terraform import azurerm_resource_group.rg /subscriptions/<subscription_id>/resourceGroups/JumpVM-RG-<Deployment-id>
     ```   
 
      >**Note:** Replace the `<subscription_id >` with the actual value. To fetch subscription id - Navigate to `portal.azure.com` , go to your resource group and copy the id.
