@@ -140,23 +140,6 @@ You will be able to complete the following tasks:
     ![](../media/ex6-copilot-suggestion.png)      
 
 
-## Task 3: Getting code from a comment
-
-GitHub Copilot can understand significantly more context than most code assistants and can generate entire functions from something as simple as a comment.
-
-1. Remove the function you entered and type the following comment:
-   
-   ```
-   // Identify all the images without alternate text
-   // and add a red border to them
-   void process(java.util.List<Image> images) {  
-
-   ```
-
-2. GitHub Copilot will automatically suggest an implementation.
-  
-   ![](../media/ex6-image-suggestion.png)
-
       > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
       > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
       > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
