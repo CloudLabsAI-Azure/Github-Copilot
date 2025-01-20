@@ -105,7 +105,7 @@ In this lab, you will complete the following tasks:
    - Storage Account Name - **storage<inject key="Deployment-id" enableCopy="false"/> (4)**
    - Click on **Review + Create (5)**
 
-     ![](../media/c12.png)
+     ![](../media/ghh1.png)
 
         > **Note:** In case, the storage account name is already fetched, use the default.
 
