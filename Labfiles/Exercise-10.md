@@ -70,7 +70,7 @@ You will be able to complete the following tasks:
 
    ![](../media/c38.png)
 
-1. Click on **Select Kernel** from the top right, select the **Python Environment** and then choose Python **3.12**.   
+1. Click on **Select Kernel** from the top right, select the **Python Environment** and then choose Python **3.10**.   
 
 1. Type the below comments to import all the libraries where the Copilot automatically prompts all the libraries; press **Enter** to get into the next line and review the suggestion, press **tab**. *Repeat this untill the Load data comment appears* and click on **Run** button to execute the cell.
 
