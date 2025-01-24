@@ -139,89 +139,9 @@ In this lab, you will complete the following tasks:
 
    ![](../media/terraform-new-file.png)
 
-1. Copy and paste  `subscription_id = "<subscription_id>"` inside the **provider "azurerm"** as shown in the below screenshot.
-
-   ![](../media/c15.png)
-
-    >**Note:** Replace the `<subscription_id >` with the actual value. To fetch subscription id - Navigate to `portal.azure.com` , go to your resource group and copy the id.
-
-     ![](../media/c16.png)
-
-1. Fill the below details for the appropriate field:
-
-   - Resource Group Name - **JumpVM-RG-<inject key="Deployment-id" enableCopy="false"/>** **(1)**
-   - Region - **East US** **(2)**
-   - Storage Account Name - **storagenew<inject key="Deployment-id" enableCopy="false"/>** **(3)**
-
-       ![](../media/clone90.png)
-     
 1. Press `CTRL + S` to save the file. Name the file `terraform.tf` and click on **OK**
    
       ![](../media/terraform-save.png)
-
-1. Click on the **Ellipsis (...) (1)** on the top , select **Terminal (2)** and click on **New Terminal (3).**
-
-1. Run the below command to initialize a working directory and download the necessary provider plugins and modules.
-
-    ```
-    terraform init
-    ```   
-
-1. Run the below command to login to Azure
-
-    ```
-    az login
-    ```
-   * Username: <inject key="AzureAdUserEmail"></inject>
-
-   * Password: <inject key="AzureAdUserPassword"></inject>
-       
-1. Run the below command to create an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.
-
-    ```
-    terraform plan
-    ```   
-
-     >**Note:** Provide the name of the storage account name when prompted.
-
-     >**Note:** In the event of an SKU error, ensure that the SKU is specified as LRS, GRS, or ZRS, without including the "Standard" prefix.
-
-1. Run the below command to import the existing resource group
-
-    ```
-    terraform import azurerm_resource_group.rg /subscriptions/<subscription_id>/resourceGroups/JumpVM-RG-<Deployment-id>
-    ```   
-
-     >**Note:** Replace the `<subscription_id >` with the actual value. To fetch subscription id - Navigate to `portal.azure.com` , go to your resource group and copy the id.
-
-      ![](../media/c16.png)
-
-     > **Note:** Replace `<Deployment-id >` with the actual id. To fetch the Deployment-id, navigate to the **Environmental Details** tab in the vm and copy the DID.
-
-     > **Note:** If you recieve any error like this, 
-      **Prepared azurerm_resource_group for import
-      Error: Resource already managed by Terraform. Terraform is already managing a remote object for azurerm_resource_group.example. To import to this address you must first remove the existing object from the state.**
-
-      - Run this command `terraform state rm azurerm_resource_group.example`
-      - Again run the  import command `terraform import azurerm_resource_group.example /subscriptions/<subscription_id>/resourceGroups/JumpVM-RG-<Deployment-id >`
-
-1.  Run the below command to execute planned actions, creating ot updating infrastructure resources.
-
-    ```
-    terraform apply
-    ```   
-
-     > **Note:** Provide **yes** when prompted.
-
-1. Once the **terraform apply** command has run successfully, navigate to `portal.azure.com`.
-
-1. Search for **storage (1)** and select **Storage Accounts (2)**.
-
-    ![](../media/clone3.png)
-  
-1. Verify **storage<inject key="Deployment-id" enableCopy="false"/>** and **storagenew<inject key="Deployment-id" enableCopy="false"/>** is created.
-
-    ![](../media/c42.png)
    
 ### Task 3: Generate code by chat that uses PowerShell to deploy resources to Azure
 
