@@ -9,15 +9,13 @@ In this exercise, you will participate in a learning or practice activity where 
 >**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this lab, but the exact suggestion may vary.
 
 
----
-
 ## Task 1: Understand the code already available for you.
 
 Install the C# extension in VS Code for enhanced C# development features.
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
-    ![Edge](../../media/Edge.png)
+    ![](../../media/Edge.png)
 
 1. Navigate to GitHub login page using the provided URL below:
    [https://github.com/login](https://github.com/login)
