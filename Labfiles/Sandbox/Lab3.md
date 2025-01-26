@@ -8,7 +8,6 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
 > **Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see a code recommendation, try adding a space after the code.
 
----
 
 ## Task 1: Add a JavaScript file and start writing code
 
