@@ -9,7 +9,7 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
 > **Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see a code recommendation, try adding a space after the code.
 
----
+
 
 ## Task 1: Add a JavaScript file and start writing code
 
@@ -17,22 +17,22 @@ Create a JavaScript file (`skills.js`) and write the function header to trigger 
 
 1. In the LABVM desktop, search for **Microsoft Edge** **(1)**, and click on **Microsoft Edge** **(2)** browser.
 
-   ![](../../media/Edge.png)
+    ![](../../media/Edge.png)
 
 2. Navigate to the GitHub login page using the provided URL below:  
    [https://github.com/login](https://github.com/login)
 
 3. On the **Sign in to GitHub** tab, you will see the login screen. Enter the **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**.
 
-   ![](../../media/github-login.png)
+    ![](../../media/github-login.png)
 
    > **Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
 
-   ![](../../media/credsfile.png)
+     ![](../../media/credsfile.png)
 
    > **Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail** and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to copy the values to a notepad for easy accessibility.
 
-   ![](../../media/githubcreds.png)
+     ![](../../media/githubcreds.png)
 
    > **Note:** If you're unable to copy the username and password, please type them manually to proceed further.
 
@@ -43,21 +43,21 @@ Create a JavaScript file (`skills.js`) and write the function header to trigger 
 
    > **Note:** The email containing the verification code can sometimes be in the archive/spam folders within your Outlook.
 
-   ![](../../media/authgit.png)
+     ![](../../media/authgit.png)
 
 6. Right-click on your profile icon in the top-right corner and click on **Your Repositories**.
 
-   ![](../../media/Copilotrepo.png)
+    ![](../../media/Copilotrepo.png)
 
 7. Click on the repository named **skills-copilot-codespaces-vscode**.
 
 8. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top-left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
-   ![](../../media/dp3.png)
+    ![](../../media/dp3.png)
 
 9. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
 
-   ![](../../media/labgit.png)
+    ![](../../media/labgit.png)
 
    > **Note:** If the pop-up prompt doesn't appear in the browser to open Visual Studio Code, manually launch Visual Studio Code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
