@@ -19,6 +19,7 @@ Install the C# extension in VS Code for enhanced C# development features.
 
 1. Navigate to GitHub login page using the provided URL below:
    [https://github.com/login](https://github.com/login)
+
 1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
    ![GitHub Login](../../media/github-login.png)
