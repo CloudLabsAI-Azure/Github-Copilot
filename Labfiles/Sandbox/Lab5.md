@@ -17,14 +17,14 @@ Install the C# extension in VS Code for enhanced C# development features.
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
-   ![Edge](../../media/Edge.png)
+    ![Edge](../../media/Edge.png)
 
 1. Navigate to GitHub login page using the provided URL below:
    [https://github.com/login](https://github.com/login)
 
 1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
-   ![GitHub Login](../../media/github-login.png)
+    ![GitHub Login](../../media/github-login.png)
 
    >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
 
