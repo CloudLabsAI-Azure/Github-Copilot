@@ -1,7 +1,7 @@
 
 # Lab 3: Code Suggestions with GitHub Copilot in Codespaces using VS Code
 
-## Lab Objective 
+## Lab Objective
 
 While GitHub Copilot offers recommendations for many languages and frameworks, it excels in particular when it comes to Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. The samples below are in JavaScript, but they should also work in other languages.
 
@@ -9,7 +9,9 @@ In this lab, you will have the opportunity to experiment with and apply JavaScri
 
 > **Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary. If you do not see a code recommendation, try adding a space after the code.
 
-## Task 1: Add a JavaScript file and start writing code.
+---
+
+## Task 1: Add a JavaScript file and start writing code
 
 Create a JavaScript file (`skills.js`) and write the function header to trigger GitHub Copilot suggestions.
 
@@ -59,51 +61,51 @@ Create a JavaScript file (`skills.js`) and write the function header to trigger 
 
    > **Note:** If the pop-up prompt doesn't appear in the browser to open Visual Studio Code, manually launch Visual Studio Code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
-1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install Extension and Open URI** to continue.
+10. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install Extension and Open URI** to continue.
 
     ![](../../media/open.png)
 
     ![](../../media/l2.png)
 
-1. At the bottom-right corner, you will get a prompt to sign in to GitHub.
+11. At the bottom-right corner, you will get a prompt to sign in to GitHub.
 
     ![](../../media/signingit.png)
 
     > **Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears. This will open a window in the browser. Refresh the screen and click on **Open** in the pop-up that appears.
 
-1. Once you get the popup, click on **Allow**.
+12. Once you get the popup, click on **Allow**.
 
     ![](../../media/allow.png)
 
     > **Note:** Wait about 2 minutes for the codespace to spin itself up.
 
-1. Click **Authorize Visual-Studio-Code** once the **Authorize GitHub for VS Code** tab appears in the browser.
+13. Click **Authorize Visual-Studio-Code** once the **Authorize GitHub for VS Code** tab appears in the browser.
 
-1. Verify your codespace is running. Ensure the VS Code interface looks as shown below:
+14. Verify your codespace is running. Ensure the VS Code interface looks as shown below:
 
     ![](../../media/loaded-repo.png)
 
-1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
+15. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
     ![](../../media/verify-copilot.png)
 
     > **Note:** If the GitHub Copilot extension is not installed, click on **Install**.
 
-1. Make sure to sign in to your GitHub account by clicking on the **GitHub Copilot** icon located in the bottom-right corner.
+16. Make sure to sign in to your GitHub account by clicking on the **GitHub Copilot** icon located in the bottom-right corner.
 
     ![](../../media/githubsignin2.png)
 
     > **Note:** Click "**Allow**" for VS Code to sign in to your GitHub account. A new web page will open. Copy the URL of the page, paste it into a private browser, enter your GitHub credentials, and sign in.
 
-1. From the VS Code Explorer window, create a **New File**.
+17. From the VS Code Explorer window, create a **New File**.
 
     ![](../../media/create-newfile.png)
 
-1. Name the file `skills.js` and verify your new file looks as shown below:
+18. Name the file `skills.js` and verify your new file looks as shown below:
 
     ![](../../media/name-skills.png)
 
-1. In the `skills.js` file, type the following function header:
+19. In the `skills.js` file, type the following function header:
 
     ```javascript
     function calculateNumbers(var1, var2)
@@ -115,9 +117,10 @@ Create a JavaScript file (`skills.js`) and write the function header to trigger 
 
     > **Note:** If the code suggestion feature does not appear, click the **bottom-right icon** to log in to your GitHub account. Accept the terms, **copy the URL** from the web page that opens, paste it into a private browser, log in with your GitHub credentials, close and reopen VS Code, and try again.
 
-1. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
+20. Press `Tab` to accept the suggestion and then press `Ctrl + S` to save the file.
 
     ![](../../media/save-skills.png)
+
 
 
 ## Task 2: Push code to your repository from the codespace
