@@ -11,113 +11,110 @@ In this exercise, you will participate in a learning or practice activity where 
 
 ## Task 1: Understand the code already available for you.
 
- Install the C# extension in VS Code for enhanced C# development features.
+Install the C# extension in VS Code for enhanced C# development features.
 
 1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
-   ![](../../media/Edge.png)
+   ![Edge](../../media/Edge.png)
 
 1. Navigate to GitHub login page using the provided URL below:
-   ```
-   https://github.com/login
-   ``` 
-1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
+   [https://github.com/login](https://github.com/login)
+1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
-   ![](../../media/github-login.png)
+   ![GitHub Login](../../media/github-login.png)
 
-    >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
+   >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
 
-      ![](../../media/credsfile.png)
+      ![GitHub Credentials](../../media/credsfile.png)
 
    >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
 
-      ![](../../media/githubcreds.png)
+      ![GitHub Credentials in Environment](../../media/githubcreds.png)
 
    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
           
 1. Navigate to Outlook login page using the provided URL below:
-   ```
-   https://outlook.office365.com/mail/
-   ```
+   [https://outlook.office365.com/mail/](https://outlook.office365.com/mail/)
 1. Next, to get the authentication code, sign in to Outlook with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
 
    >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
 
-   ![](../../media/authgit.png)
+   ![Outlook Authentication](../../media/authgit.png)
 
 1. Now, right-click on your profile icon in the top right and click on **Your Repositories**.
-    
-   ![](../../media/Copilotrepo.png)
+
+   ![GitHub Repositories](../../media/Copilotrepo.png)
 
 1. Click on the repository named **skills-copilot-codespaces-vscode**.
 
 1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
-   ![](../../media/code-code.png)
+   ![Code Tab](../../media/code-code.png)
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
 
-   ![](../../media/labgit.png)
+   ![Codespaces Tab](../../media/labgit.png)
 
-   >**Note**: If case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
+   >**Note**: If the pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page, and launch the codespace that was previously created.
 
 1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install and Open** to continue.
 
-   ![](../../media/open.png)
+   ![Open VS Code](../../media/open.png)
 
-   ![](../../media/codespaces.png)
+   ![VS Code Codespaces](../../media/codespaces.png)
 
 1. At the bottom right corner, you will get a prompt to sign in to GitHub.
 
-   ![](../../media/signingit.png)
+   ![Sign in to GitHub](../../media/signingit.png)
 
    >**Note:** If you do not get the sign-in prompt within Visual Studio Code, click on **Allow** in the pop-up that appears which will open a window in the browser, refresh the screen and click on **Open** in the pop-up that appears.
 
-1. Next, once you get the popup, click on **Allow**
+1. Next, once you get the popup, click on **Allow**.
 
-   ![](../../media/allow.png)
+   ![Allow GitHub Access](../../media/allow.png)
 
    >**Note**: Wait about 2 minutes for the codespace to spin itself up.
 
-1. If a page **Github for VS Code is requesting additional permissions** opens then click on **Authorize Visual-Studio-Code**.
+1. If a page **GitHub for VS Code is requesting additional permissions** opens then click on **Authorize Visual-Studio-Code**.
 
-    ![](../../media/1.png)
+    ![Authorize Visual Studio Code](../../media/1.png)
 
 1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
-   ![](../../media/lab5files.png)
+   ![VS Code Running](../../media/lab5files.png)
 
 1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
 
-   ![](../../media/verify-copilot.png)
+   ![Verify Copilot Installation](../../media/verify-copilot.png)
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
-1.  In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat** extension.
+1. In the "Search Extensions in Marketplace" search box, type and search for the **GitHub Copilot Chat** extension.
 
 1. Select **GitHub Copilot Chat** from the list of results that show up, and verify that **GitHub Copilot Chat** has been installed.
-   
-1.  If not, click on the **Install** button.
 
-    ![](../../media/ghc-chat-extension.png)
+1. If not, click on the **Install** button.
 
-1. Once the installation is complete, in the left navigation pane you will able to see the icon for GitHub Copilot Chat as shown below.
+    ![GitHub Copilot Chat Extension](../../media/ghc-chat-extension.png)
 
-   ![](../../media/git-chat-icon.png)
+1. Once the installation is complete, in the left navigation pane you will be able to see the icon for GitHub Copilot Chat as shown below.
 
-1. In the Visual Studio Code window,to install the **C Sharp (C#)** extension, the following steps are to be performed:
+   ![GitHub Copilot Chat Icon](../../media/git-chat-icon.png)
+
+1. In the Visual Studio Code window, to install the **C Sharp (C#)** extension, the following steps are to be performed:
     - Click on the **Extensions** **(1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
     - In the "Search Extensions in Marketplace" search box, type and search for the **C#** **(2)** extension.
     - Select **C#** **(3)** from the list of results that show up.
     - Click on the **Install** **(4)** button.
 
-      ![](../../media/csharp-install.png)
+      ![C# Installation](../../media/csharp-install.png)
 
-      >**Note**: If you get a pop-up for Update Visual Studio Code, go to the **Settings (1)** icon from the left navigation pane and choose **Install update (2)** and wait until updates complete then when **Restart Visual Studio Code to apply the latest update** prompted select **Update Now (3)** and close and open Visual studio then proceed with above step.
+      >**Note**: If you get a pop-up for Update Visual Studio Code, go to the **Settings (1)** icon from the left navigation pane and choose **Install update (2)** and wait until updates complete then when **Restart Visual Studio Code to apply the latest update** prompted select **Update Now (3)** and close and open Visual Studio then proceed with the above step.
 
-      ![Picture1](../../media/image1.png)
+      ![Update VS Code](../../media/image1.png)
    
-      ![Picture1](../../media/image2.png)
+      ![Update Visual Studio](../../media/image2.png)
+
       
 1. Make sure to sign in to your GitHub account by clicking on the **GitHub Copilot icon** located in the bottom right corner.
 
