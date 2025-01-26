@@ -14,7 +14,7 @@ Set up the GitHub Copilot plugin in IntelliJ IDEA and create a new Java project 
 
 1. Navigate to the desktop and open the **IntelliJ IDEA Community** IDE.
 
-    ![Step 1](../../media/E6-T1-S1.png)
+     ![Step 1](../../media/E6-T1-S1.png)
 
 2. In the IntelliJ IDEA Agreement, check **I confirm that I have read and accept the terms of this User Agreement (1)** and click on **Continue (2)**.
 
