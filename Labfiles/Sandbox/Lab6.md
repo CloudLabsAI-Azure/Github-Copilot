@@ -14,11 +14,11 @@ Set up the GitHub Copilot plugin in IntelliJ IDEA and create a new Java project 
 
 1. Navigate to the desktop and open the **IntelliJ IDEA Community** IDE.
 
-   ![Step 1](../../media/E6-T1-S1.png)
+    ![Step 1](../../media/E6-T1-S1.png)
 
 2. In the IntelliJ IDEA Agreement, check **I confirm that I have read and accept the terms of this User Agreement (1)** and click on **Continue (2)**.
 
-   ![Step 2](../../media/E6-T1-S2.png)
+    ![Step 2](../../media/E6-T1-S2.png)
 
    >**Note:** When the data sharing box appears, click on **Don't Send**.
 
@@ -28,13 +28,13 @@ Set up the GitHub Copilot plugin in IntelliJ IDEA and create a new Java project 
 
 4. From the left menu, click on **Plugins** **(1)** and select **Marketplace** **(2)**. Search **GitHub Copilot** **(3)**, and once you find the **GitHub Copilot** plugin, click on **Install** **(4)**.
 
-   ![Step 4](../../media/install-plugin.png)
+    ![Step 4](../../media/install-plugin.png)
 
    >**Note**: In the Third-Party Plugins notice, click **Accept**.
 
 5. Verify the GitHub Copilot plugin is installed. Next, you need to restart the IDE by clicking on **Restart IDE**. Click on **Restart** in the pop-up once again to restart the IDE.
 
-   ![Step 5](../../media/restart-ide(1).png)
+    ![Step 5](../../media/restart-ide(1).png)
 
 6. Once the **IntelliJ IDEA Community** IDE is restarted, select **Projects** **(1)** from the left menu and click on **New Project** **(2)**.
 
