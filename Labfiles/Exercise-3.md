@@ -46,7 +46,7 @@ In this lab, you will complete the following tasks:
       > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
       > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-      <validation step="37a79ae8-73af-4ce6-a2f0-c3895b352cd3" />
+      <validation step="526fab64-f1d3-4396-b0ea-e78e5b3d2d10" />
 
 ## Task 2: Explore GitHub Copilot Tools
 
