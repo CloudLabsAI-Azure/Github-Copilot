@@ -1,14 +1,14 @@
- # Lab 6: Using IDEs such as JetBrains IntelliJ for Java [Optional]
+# Lab 6: Using IDEs such as JetBrains IntelliJ for Java [Optional]
 
 ## Lab Overview
 
 IntelliJ IDEA is an Integrated Development Environment (IDE) for Java and Kotlin designed to maximize developer productivity. It does the routine and repetitive tasks for you by providing clever code completion, static code analysis, and refactorings, and lets you focus on the bright side of software development, making it not only productive but also an enjoyable experience. GitHub Copilot, an innovative code generation tool, can be integrated with JetBrains IntelliJ, a widely used IDE for Java development. This integration enhances the Java coding experience by providing intelligent code suggestions and auto-completion within IntelliJ, boosting productivity and code quality.
 
->**Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
+> **Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
->**Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again.
+> **Note**: If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart VS Code once and try again.
 
-## Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ Idea IDE
+## Task 1: Install the GitHub Copilot plugin and create a new project in the IntelliJ IDEA IDE
 
 Set up the GitHub Copilot plugin in IntelliJ IDEA and create a new Java project for coding.
 
@@ -16,37 +16,39 @@ Set up the GitHub Copilot plugin in IntelliJ IDEA and create a new Java project 
 
    ![](../../media/E6-T1-S1.png)
 
-1. In the IntelliJ IDEA Agreement, check **I confirm that I have read and accept the terms of this User Agreement (1)** and click on **Continue (2)**.
+2. In the IntelliJ IDEA Agreement, check **I confirm that I have read and accept the terms of this User Agreement (1)** and click on **Continue (2)**.
 
-   ![](../../media/E6-T1-S2.png)
+   ![Step 2](../../media/E6-T1-S2.png)
 
-   >**Note:** When the data sharing box appears, click on **Don't Send**.
+   > **Note**: When the data sharing box appears, click on **Don't Send**.
 
-   ![](../../media/E6-T1-S2.1.png)
+   ![Step 2.1](../../media/E6-T1-S2.1.png)
 
-1. If you get a prompt to import, click on **Skip import**
+3. If you get a prompt to import, click on **Skip import**.
 
-1. From the left menu, click on **Plugins** **(1)** and select **Marketplace** **(2)**. Search **GitHub Copilot** **(3)**, and once you find **GitHub Copilot** plugin, click on **Install** **(4)**.
+4. From the left menu, click on **Plugins** **(1)** and select **Marketplace** **(2)**. Search **GitHub Copilot** **(3)**, and once you find the **GitHub Copilot** plugin, click on **Install** **(4)**.
 
-   ![](../../media/install-plugin.png)
+   ![Step 4](../../media/install-plugin.png)
 
-   >**Note** : In the Third-Party Plugins notice, click **Accept**.
+   > **Note**: In the Third-Party Plugins notice, click **Accept**.
 
-1. Verify the GitHub Copilot plugin is installed. Next, you need to restart the IDE by clicking on **Restart IDE**. Click on **Restart** in the pop-up once again to restart the IDE.
+5. Verify the GitHub Copilot plugin is installed. Next, you need to restart the IDE by clicking on **Restart IDE**. Click on **Restart** in the pop-up once again to restart the IDE.
 
-   ![](../../media/restart-ide(1).png)
+   ![Step 5](../../media/restart-ide(1).png)
 
-1. Once the **IntelliJ Idea Community** IDE is restarted, select **Projects** **(1)** from the left menu and click on **New Project** **(2)**.
+6. Once the **IntelliJ IDEA Community** IDE is restarted, select **Projects** **(1)** from the left menu and click on **New Project** **(2)**.
 
-   ![](../../media/create-project.png)
+   ![Step 6](../../media/create-project.png)
 
-1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, select the default **Download Oracle OpenJDK 23** **(4)** and click on **Create** **(5)**.
+7. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, select the default **Download Oracle OpenJDK 23** **(4)** and click on **Create** **(5)**.
 
-   ![](../../media/gc4.png)
+   ![Step 7](../../media/gc4.png)
 
-1. Review the created **demo-copilot** project as shown below:
+8. Review the created **demo-copilot** project as shown below:
 
-   ![](../../media/demo-copilot-project.png)
+   ![Step 8](../../media/demo-copilot-project.png)
+
+
 
 ## Task 2: Create a basic Java project
 

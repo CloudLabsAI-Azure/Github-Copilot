@@ -3,9 +3,10 @@
 ## Lab Overview
 
 Working with Copilot for machine learning involves leveraging GitHub Copilot, an AI-powered code completion tool developed by GitHub in collaboration with OpenAI. Here's a quick summary of the key steps and considerations:
-Installation: Ensure you have GitHub Copilot installed as an extension in your integrated development environment (IDE), such as Visual Studio Code.
-GitHub Integration: Link your IDE to your GitHub account to enable seamless integration. This allows Copilot to access your code repositories and provide context-aware suggestions.
-Machine Learning Frameworks: Copilot supports various Machine Learning libraries and frameworks like TensorFlow, PyTorch, scikit-learn, and more. It can assist with code generation for tasks like data preprocessing, model building, and evaluation.
+
+- **Installation**: Ensure you have GitHub Copilot installed as an extension in your integrated development environment (IDE), such as Visual Studio Code.
+- **GitHub Integration**: Link your IDE to your GitHub account to enable seamless integration. This allows Copilot to access your code repositories and provide context-aware suggestions.
+- **Machine Learning Frameworks**: Copilot supports various Machine Learning libraries and frameworks like TensorFlow, PyTorch, scikit-learn, and more. It can assist with code generation for tasks like data preprocessing, model building, and evaluation.
 
 In this exercise, you will be cloning the Git repository with the required dataset into your environment. Here, you will be working with Copilot for Machine Learning, which involves leveraging GitHub Copilot.
 
@@ -13,9 +14,9 @@ In this exercise, you will be cloning the Git repository with the required datas
 
 1. GitHub Copilot will automatically suggest an entire function body or code in grayed text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
-2.  Before proceeding with the exercise, make sure you have installed Python, Jupyter and pip packages in Visual Studio Code.
+2. Before proceeding with the exercise, make sure you have installed Python, Jupyter, and pip packages in Visual Studio Code.
 
-3. If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart the VS Code once and try again.
+3. If you are unable to see any suggestions by GitHub Copilot in VS Code, please restart VS Code once and try again.
 
 4. GitHub Copilot may occasionally provide incorrect answers, so if we encounter any errors while executing the cells, we might need to adjust the code until we achieve the desired output.
 

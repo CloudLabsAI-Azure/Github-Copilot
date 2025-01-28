@@ -103,19 +103,20 @@ Sign in to GitHub and configure a GitHub repository and set Visual Studio Code a
    
 1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
-   ![](../../media/github-login.png)
+    ![](../../media/github-login.png)
           
     >**Note:** To view the GitHub credentials, access the lab named **GitHub Copilot Lab: GitHub Credentials**, which is present within the First learning path of this course.
 
       ![](../../media/credsfile.png)
 
-   >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
+    >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
 
-      ![](../../media/githubcreds.png)
+    ![](../../media/githubcreds.png)
 
-   >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
+    >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
    
 1. Navigate to Outlook login page using the provided URL below:
+
    ```
    https://outlook.office365.com/mail/
    ```
@@ -145,49 +146,53 @@ Sign in to GitHub and configure a GitHub repository and set Visual Studio Code a
 
    ![](../../media/skills-new-repo.png)
 
-   >**Note**: If you get a note  prompting that a repository with the name **skills-copilot-codespaces-vscode** already exists, please delete the existing one by performing the below steps and perform the above step again.
-    > - On GitHub.com, navigate to the main page of the repository.
-    > - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
+    > **Note**: If you get a note  prompting that a repository with the name **skills-copilot-codespaces-vscode** already exists, please delete the existing one by performing the below steps and perform the above step again.
+
+     - On GitHub.com, navigate to the main page of the repository.
+
+     - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
     
-      ![](../../media/2.png)
+       ![](../../media/2.png)
 
-    > - On the **General** settings page (which is selected by default), scroll down to the "Danger Zone" section and click **Delete this repository**.
+     - On the **General** settings page (which is selected by default), scroll down to the "Danger Zone" section and click **Delete this repository**.
      
-      ![](../../media/4.png)
+        ![](../../media/4.png)
 
-    > - Click **I want to delete this repository**.
+     - Click **I want to delete this repository**.
  
-      ![](../../media/5.png)
+        ![](../../media/5.png)
 
-    > - Read the warnings and click **I have read and understand these effects**.
+     - Read the warnings and click **I have read and understand these effects**.
 
-      ![](../../media/6.png)
+        ![](../../media/6.png)
 
-    >  - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want to delete.
+     - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want 
+         to delete.
 
-    >  - Click **Delete this repository**.
+     - Click **Delete this repository**.
 
-      ![](../../media/7.png)
+        ![](../../media/7.png)
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
 1. Once the repository is created, click on your profile picture and then select **Your organizations**.
 
-   ![](../../media/organization.png)
+    ![](../../media/organization.png)
 
 1. In "Your organization", from the left navigation pane, select **Codespaces**.
 
-   ![](../../media/codespace.png)
+    ![](../../media/codespace.png)
 
 1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
 
-   ![](../../media/vscode1.png)
+    ![](../../media/vscode1.png)
 
 1. On the GitHub page, locate your profile icon at the top right corner of the screen and click on **Your Profile** option.
 
 1. Copy your GitHub username in order to validate your lab.
 
    ![](../../media/gc2.png)
+
   
     > **Congratulations** on completing the lab! Now, it's time to validate it. Here are the steps:
     >  - Hit the Validate button for the corresponding task. Paste the GitHub username (1) you copied in the previous step and click on **Submit**(2).
