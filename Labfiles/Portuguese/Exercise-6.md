@@ -29,13 +29,13 @@ Poderá completar as seguintes tarefas:
 
 1. No Contrato IntelliJ IDEA, assinale **I confirm that I have read and accept the terms of this User Agreement (1)** e clique em **Continue (2)**.
 
-   ![](../../media/E6-T1-S2.png)
+   ![](../media/c17.png)
 
     >**Nota:** Quando a caixa de partilha de dados for apresentada, clique em **Don't Send**.
 
     ![](../../media/E6-T1-S2.1.png)
 
-1. Clique em **Skip import**.    
+1. Na página **Import Settings**, clique em **Skip Import**.   
 
 1. No menu esquerdo, clique em **Plugins** **(1)** e selecione **Marketplace** **(2)**. Pesquise **GitHub Copilot** **(3)** e, quando encontrar o plugin **GitHub Copilot**, clique em **Install** **(4)**.
 
@@ -43,7 +43,7 @@ Poderá completar as seguintes tarefas:
 
    >**Nota** : No aviso de plug-ins de terceiros, clique em **Accept**.
 
-1. Verifique se o plugin GitHub Copilot está instalado. De seguida, precisa de reiniciar o IDE clicando em **Restart IDE**. Clique em **Restart** no pop-up mais uma vez para reiniciar o IDE.
+1. Verifique se o plugin GitHub Copilot está instalado. De seguida, precisa de reiniciar o IDE clicando em **Restart IDE**. Clique em **Restart** no pop-up mais uma vez para reiniciar o IDE. Na janela de pop-up clique em **Restart** para reiniciar o IDE.
 
    ![](../../media/restart-ide(1).png)
 
@@ -65,17 +65,22 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/icon.png)
 
-1. Clique em **Tools (1)**. Clique em GitHub Copilot e em **Login to GitHub (2)**.
+1. Clique em **Tools (1)**. Clique em **GitHub Copilot (2)** e em **Open GitHub Copilot Chat (3)**.
 
-   ![](../../media/login.png)
+   ![](../../media/c19.png)
 
-1. Na caixa de diálogo "Sign in to GitHub", para copiar o código do dispositivo e abrir a janela de ativação do dispositivo, clique em **Copy and Open**.
+1. Na caixa de diálogo **Sign in to GitHub**, para copiar o código do dispositivo e abrir a janela de ativação do dispositivo, clique em **Copy and Open**.
 
    ![](../../media/ex6-copy-code.png)
 
+1. Clique em **Continue** na janela **Device Activation**.   
+
+   ![](../../media/c20.png)
+
+
 1. Uma janela de ativação do dispositivo será aberta no seu browser. Cole o **code (1)** do dispositivo que copiou no passo anterior e clique em **Continue (2)**.
 
-   ![](../../media/ex6-device-activation.png)
+   ![](../../media/c21.png)
 
 1. O GitHub irá solicitar as permissões necessárias para o GitHub Copilot. Para aprovar estas permissões, clique em **Authorize GitHub Copilot Plugin**.
 
@@ -83,7 +88,27 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/Exercise-06-v2-04.png)
 
-1. No seu IDE JetBrains, clique com o botão direito do rato em **src (1)**, seleccione **New (2)** e clique em **File (3)** para criar um novo ficheiro Java (*.java) denominado **Test.java**.
+1. Clique **Authorize** no Copilot Chat.
+
+   ![](../media/c22.png)
+
+1. Na caixa de diálogo **Sign in to GitHub** para copiar o código do dispositivo e abrir a janela de ativação do dispositivo, clique em **Copy and Open**.
+
+   ![](../media/c23.png)   
+
+1. Clique em **Continue** na janela **Device Activation**.   
+
+   ![](../media/c20.png)   
+
+1. Clique em **Authorize GitHub Copilot for JetBrains IDEs**.   
+
+   ![](../media/c25.png)    
+
+1. Após a aprovação das permissões, o IDE JetBrains exibirá uma confirmação. 
+
+   ![](../media/c26.png)     
+
+1. No IDE JetBrains, clique com o botão direito do rato em **src (1)**, seleccione **New (2)** e clique em **File (3)** para criar um novo ficheiro Java (*.java) denominado **Test.java**.
 
    ![](../../media/ex6-test-java.png)
 
@@ -102,6 +127,21 @@ Poderá completar as seguintes tarefas:
    ![](../../media/ex6-days.png)
 
 1. Prima **Tab** para aceitar a sugestão.
+
+   >**Nota:** Se você receber algum erro ou se precisar de mais sugestões, navegue até o **Github Copilot** no painel direito. Atualize se necessário. Aceite a solução mais relevante.
+
+   ![](../media/c27.png) 
+
+   ![](../media/ex6-copilot-suggestion.png)      
+
+
+      > **Parabéns** por concluir a tarefa! Agora, é hora de validá-la. Aqui estão os passos:
+      > - Clique no botão Validar para a tarefa correspondente. Se você receber uma mensagem de sucesso, pode prosseguir para a próxima tarefa.
+      > - Se não, leia atentamente a mensagem de erro e repita o passo, seguindo as instruções no guia do laboratório.
+      > - Se precisar de assistência, entre em contato conosco pelo e-mail cloudlabs-support@spektrasystems.com. Estamos disponíveis 24/7 para ajudar você.
+
+      <validation step="5055e2d4-be60-47f4-acab-c0dde92b4baa" />
+
 
 ## Tarefa 3: Obter mais sugestões
 
