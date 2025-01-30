@@ -6,28 +6,66 @@ O GitHub Copilot pode ajudar a agilizar o processo de geração de documentaçã
 
 Neste exercício, irá gerar documentação utilizando o GitHub Copilot.
 
->**Nota**: O GitHub Copilot irá sugerir automaticamente um corpo de função completa ou código em texto cinzento. Exemplos do que provavelmente verá neste exercício, mas a sugestão exata pode variar.
+>**Aviso**: O GitHub Copilot irá sugerir automaticamente um corpo de função completa ou código em texto cinzento. Exemplos do que provavelmente verá neste exercício, mas a sugestão exata pode variar.
 
 >**Nota**: Se não conseguir ver nenhuma sugestão do GitHub Copilot no VS Code, reinicie o VS Code uma vez e tente novamente.
 
-1. A partir do codespace na janela do VS Code Explorer, crie um novo ficheiro.
 
-   ![](../../media/chat-code-new.png)
+## Objetivos do laboratório
 
-1. Nomeie o ficheiro como `Document.md` e prima `CTRL + I` para pedir ao GitHub Copilot para fazer algo.
+Poderá completar as seguintes tarefas:
 
-   ![](../../media/ex-7-docmd.png)
+- Tarefa 1: Gerar um arquivo README com o GitHub Copilot usando comentários
+- Tarefa 2: Enviar código para seu repositório a partir do Codespace
 
-1. Digite a instrução `Create a markdown document to create a virtual network in Azure Portal` **(1)** e clique em `>` ou prima `Enter` **(2)**.
+## Tarefa 1: Gerar um arquivo README com o GitHub Copilot usando comentários
 
-   ![](../../media/ex-7-mdsearch.png)
+1. No Codespace, na janela do VS Code Explorer, crie um novo arquivo e nomeie-o como `Document.md`.
 
-1. O Copilot dará uma resposta e poderá revê-la **(1)**, clicar em **Accept** **(2)** e premir `CTRL + S` para guardar o ficheiro. Além disso, pode descartar a sugestão como mostra a imagem abaixo.
+    ![](../media/chat-code-new.png)
 
-   ![](../../media/8thex.png)
+1. Pressione `CTRL + I` para fornecer instruções ao GitHub Copilot.
+
+1. Forneça a seguinte instrução (1) para que o GitHub Copilot crie um documento demonstrando a criação de um aplicativo Node.js de exemplo. Pressione **Send (2)**.
+
+    ```
+    Create a markdown document for a sample Node.js application with mermaid diagrams and reference links
+    ```
+
+    ![](../media/hub20.png)
+
+1.  O Copilot fornecerá uma resposta, e você poderá reve-la. Clique em **Accept**, e pressione `CTRL + S` para salvar o arquivo.
+
+    ![](../media/hub21.png)
+
+1.  Observe como o Copilot gerou os diagramas Mermaid e incluiu os links de referência conforme nossa solicitação.
+
+    ![](../media/hub22.png)
+    
+    ![](../media/hub23.png)
+
+
+## Tarefa 2: Enviar código para seu repositório a partir do Codespace
+
+1. Execute o seguinte comando para adicionar os arquivos:
+
+    ```
+    git add .
+    ```
+1. Execute o seguinte comando para confirmar (commit) os arquivos:
+
+    ```
+    git commit -m "files"
+    ```
+
+1. Execute o seguinte comando para enviar (push) todos os arquivos para o repositório:
+
+    ```
+    git push
+    ```
 
 ## Resumo
 
-Neste exercício, gerou com sucesso um documento utilizando o GitHub Copilot Chat.
+Neste exercício, gerou com sucesso um documento utilizando o GitHub Copilot Chat e enviou os arquivos para o seu repositório.
 
 ### Concluiu o laboratório com sucesso
