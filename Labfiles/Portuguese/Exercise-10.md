@@ -54,43 +54,57 @@ Poderá completar as seguintes tarefas:
 
 ### Tarefa 2: Auto_Completion de código com diferentes experiências
 
+1. Para instalar o **Jupyter** no Visual Studio Code, siga os passos abaixo: 
+   - Clique no ícone **Extensions (1)** na barra de atividades localizada no lado esquerdo da janela do Visual Studio Code.
+   - No campo **"Search Extensions in Marketplace"**, digite e pesquise pela extensão **Jupyter (2)**.
+   - Selecione **Jupyter (3)** na lista de resultados e verifique se a extensão está instalada.
+   - Caso não esteja instalada, clique no botão **Install in Codespaces: ubiquitous space doodle (4)**.
+
+   ![](../media/c37.png)
+
 1. Na janela Explorer do Visual Studio Code, clique com o botão direito do rato na pasta denominada **ml-copilot-workshop** **(1)** e clique em **New File**. Nomeie o ficheiro `Experiments.ipynb` **(2)** e verifique se o seu novo ficheiro se parece com o que se mostra abaixo:
 
    ![](../../media/ex-8-create-file.png)
 
-    >**Note:** Certifique-se de que a extensão Jupyter esteja instalada e verifique-a novamente antes de executar o código.   
 
-1. Digite os comentários abaixo para importar todas as bibliotecas onde o Copilot solicita automaticamente todas as bibliotecas; prima “enter” para passar para a linha seguinte e rever a sugestão, prima “tab” e clique no botão **Executar** para executar a célula.
+1. Clique no arquivo e depois em **+ Code**
+
+   ![](../media/c38.png)
+
+1.  N o canto superior direito clique em **Select Kernel**, selecione o **Python Environment** e escolha **3.12**.   
+
+1. Digite os seguintes comentários para importar todas as bibliotecas, onde o Copilot irá automaticamente sugerir as bibliotecas; Pressione Enter para ir para a próxima linha e reveja a sugestão pressionando **tab**. *Repita isso até que o comentário Load data apareça*. Clique no botão **Run** para executar a célula.
 
    ```
    # Import libraries with respect to loading data and creating a random forest model
-   import pandas as pd
    ```
 
-   ![](../../media/ex-8-import-lib.png)
+   ![](../media/ex-8-import-lib-1.png)
 
-1. Aceite todas as sugestões para a importação de bibliotecas conforme imagem abaixo **(1)** e clique no botão **Executar** **(2)** para executar a célula. Clique em `+Códe` **(3)** para adicionar a nova célula.
+1. Aceite todas as sugestões para importar as bibliotecas, conforme mostrado na captura de tela abaixo **(1)**, e clique no botão **Run (2)** para executar a célula. Clique em `+Code` **(3)** para adicionar a nova célula.
 
-   ![](../../media/ex8-add-cell-new.png)
+   ![](../media/ex8-add-cell-new-1.png)
 
    >**Nota**: Ao executar a célula, pode ser necessário instalar os pacotes necessários e selecionar o kernel.
 
-1. Introduza os comentários abaixo para carregar os dados utilizando o prompt do Copilot. Prima “enter” para ir para a linha seguinte e rever a sugestão, e prima “tab” para aceitar a sugestão e clique no botão **Executar** para executar a célula.
+1. Aceite todas as sugestões para importar as bibliotecas, conforme mostrado na captura de tela abaixo **(1)**, e clique no botão **Run (2)** para executar a célula. Clique em `+Code` **(3)** para adicionar a nova célula.
 
-    ```
-    # Load the data from a csv file, and the name of the file is diabetes.csv
-    ```
+   ```
+   # Load the data from a csv file, and the name of the file is diabetes.csv
+   ```
 
-   ![](../../media/ex8-load-data-1.png)
+    ![](../media/ex8-load-data-1-2.png)
 
-1. Clique agora em **+Code** e passe para a tarefa seguinte.
+    ![](../media/c39.png) 
+
+1. Clique agora em **+ Code** e passe para a tarefa seguinte.
 
 
 ### Tarefa 3: Aprendizagem matemática e de máquina usando diferentes exemplos
 
 ### Tarefa 3.1: Operações Matemáticas
 
-1. Introduza os comentários abaixo para realizar a primeira experiência matemática que será gerar o ano de nascimento a partir da coluna da idade presente no conjunto de dados. Prima “enter” para ir para a linha seguinte e rever a sugestão, e prima “tab” para aceitar a sugestão e clique no botão **Executar** para executar a célula.
+1. Introduza os comentários abaixo para realizar a primeira experiência matemática que será gerar o ano de nascimento a partir da coluna da idade presente no conjunto de dados. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima “tab” para aceitar a sugestão e clique no botão **Run** para executar a célula.
 
     ```
     # Mathematical operations on the dataset, like generating the birth year from age
@@ -100,7 +114,7 @@ Poderá completar as seguintes tarefas:
 
    >**Nota**: Continue a clicar em **+Code** após cada comentário até à última tarefa deste exercício.
 
-1. Digite o comentário abaixo, prima "enter" para ir para a linha seguinte e rever a sugestão, e prima "tab" para obter uma saída semelhante à imagem abaixo e clique no botão **Executar** para executar o celeu.
+1. Digite o comentário abaixo, prima **enter** para ir para a linha seguinte e rever a sugestão, e prima **tab** para obter uma saída semelhante à imagem abaixo e clique no botão **Run** para executar o celeu.
 
     ```
     # Show the new column
@@ -108,7 +122,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/ex9-birthyear-output.png)
 
-1. Introduza os comentários abaixo para converter a coluna do IMC até dois valores decimais, prima “tab”. Prima “enter” para ir para a linha seguinte e rever a sugestão, e prima “tab” para aceitar a sugestão e clique no botão **Executar** para executar a célula.
+1. Introduza os comentários abaixo para converter a coluna do IMC até dois valores decimais, prima **tab**. Prima “enter” para ir para a linha seguinte e rever a sugestão, e prima **tab** para aceitar a sugestão e clique no botão **Run** para executar a célula.
 
     ```
     # Convert the BMI column to two decimal values
@@ -116,7 +130,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/ex9-bmi-decimal.png)
 
-1. Na mesma célula de código, introduza o comentário abaixo. Prima “enter” para ir para a linha seguinte e rever a sugestão, e prima “tab” para aceitar a sugestão e clique no botão **Executar** para executar a célula.
+1. Na mesma célula de código, introduza o comentário abaixo. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima **tab** para aceitar a sugestão e clique no botão **Run** para executar a célula.
 
     ```
     # Show the new column only
@@ -127,7 +141,7 @@ Poderá completar as seguintes tarefas:
 
 ### Tarefa 3.2: Aprendizagem Automática
 
-1. Introduza os comentários abaixo para realizar a análise de dados e estatísticas resumidas no conjunto de dados. Prima “enter” para ir para a linha seguinte e rever a sugestão, e prima “tab” para aceitar a sugestão e clique no botão **Executar** para executar a célula.
+1. Introduza os comentários abaixo para realizar a análise de dados e estatísticas resumidas no conjunto de dados. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima **tab** para aceitar a sugestão e clique no botão **Run** para executar a célula.
 
     ```
     # Perform count, min, max, std, mean, 25%, 50%, and 75% on the dataset
@@ -139,7 +153,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/ex8-machine-learning-output.png)
 
-1. Antes de construir o modelo, o quadro principal é dividir os dados em testes e divisões de comboios e isso seria feito pelo próprio Copilot. Introduza os comentários abaixo. Prima “enter” para ir para a linha seguinte e rever a sugestão, e prima “tab” para aceitar a sugestão e clique no botão **Executar** para executar a célula.
+1. Antes de construir o modelo, o quadro principal é dividir os dados em testes e divisões de comboios e isso seria feito pelo próprio Copilot. Introduza os comentários abaixo. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima **tab** para aceitar a sugestão e clique no botão **Executar** para executar a célula.
 
     ```
     # Split the data into training and testing data and the column name Diabetic is the target column
@@ -154,7 +168,7 @@ Poderá completar as seguintes tarefas:
 
 ### Tarefa 4.1: Visualização de dados
 
-1. Clique em **+Code** para abrir a nova célula e introduza os comentários abaixo para realizar as operações básicas no conjunto de dados. Prima “enter” para ir para a linha seguinte e rever a sugestão, e prima “tab” para aceitar a sugestão e clique no botão **Executar** para executar a célula.
+1. Clique em **+Code** para abrir a nova célula e introduza os comentários abaixo para realizar as operações básicas no conjunto de dados. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima **tab** para aceitar a sugestão e clique no botão **Executar** para executar a célula.
 
     ```
     # Perform univariate analysis on the dataset and plot the graphs
@@ -166,7 +180,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/ex9-basic-opration-graph-output.png)
 
-1. Agora, digite os comentários abaixo para especificar determinados gráficos normalmente utilizados para visualização. Prima "enter" para ir para a linha seguinte e rever a sugestão, e prima "tab" para aceitar a sugestão e clique no botão **Executar** para obter o resultado como mostra a imagem abaixo.
+1. Agora, digite os comentários abaixo para especificar determinados gráficos normalmente utilizados para visualização. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima **tab** para aceitar a sugestão e clique no botão **Executar** para obter o resultado como mostra a imagem abaixo.
 
     ```
     # Perform scatter plot on the dataset and plot the graphs
@@ -174,7 +188,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/ex9-scatter-graph.png)
 
-1. Introduza os comentários abaixo para realizar Gráfico Conjunto ou Grelha (gráficos raramente utilizados) para visualização. Prima "enter" para ir para a linha seguinte e rever a sugestão, e prima "tab" para aceitar a sugestão e clique no botão **Executar** para obter o resultado como mostra a imagem abaixo.
+1. Introduza os comentários abaixo para realizar Gráfico Conjunto ou Grelha (gráficos raramente utilizados) para visualização. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima **tab** para aceitar a sugestão e clique no botão **Executar** para obter o resultado como mostra a imagem abaixo.
 
     ```
     # Perform Joint Grid plot on the dataset and plot the graphs
@@ -184,7 +198,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/ex9-jointgrid-graph-output.png)
 
-1. Introduza os comentários abaixo para realizar a visualização de todas as funcionalidades do conjunto de dados. Prima "enter" para ir para a linha seguinte e rever a sugestão, e prima "tab" para aceitar a sugestão e clique no botão **Executar** para obter o resultado como mostra a imagem abaixo.
+1. Introduza os comentários abaixo para realizar a visualização de todas as funcionalidades do conjunto de dados. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima **tab** para aceitar a sugestão e clique no botão **Executar** para obter o resultado como mostra a imagem abaixo.
 
     ```
     # Perform comparison on all features of the dataset and plot the graphs in a single plot using heatmap
@@ -198,7 +212,7 @@ Poderá completar as seguintes tarefas:
 ### Tarefa 4.2: Transformações de dados
 
 
-1. Clique em **+Code** para adicionar uma nova célula e introduza os comentários abaixo para Normalização, que é o processo de escalar e centrar os recursos numéricos para terem uma média de 0 e um desvio padrão de 1, tornando-os comparáveis. ​​​​e adequados para determinados algoritmos. Prima "enter" para ir para a linha seguinte e rever a sugestão, e prima "tab" para aceitar a sugestão e clique no botão **Executar**
+1. Clique em **+Code** para adicionar uma nova célula e introduza os comentários abaixo para Normalização, que é o processo de escalar e centrar os recursos numéricos para terem uma média de 0 e um desvio padrão de 1, tornando-os comparáveis. ​​​​e adequados para determinados algoritmos. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima **tab** para aceitar a sugestão e clique no botão **Executar**
 
     ```
     # Perform standardization on the data
@@ -231,7 +245,7 @@ Treino de um modelo de amostra usando Random Forest.
 
    ![](../../media/ex9-entropy-2.png)
 
-1. Numa nova célula digite os comentários abaixo para calcular a precisão do modelo. Prima "enter" para ir para a linha seguinte e rever a sugestão, e prima "tab" para aceitar a sugestão e clique no botão **Executar**
+1. Numa nova célula digite os comentários abaixo para calcular a precisão do modelo. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima **tab** para aceitar a sugestão e clique no botão **Executar**
 
     ```
     # Calculate the accuracy of the model
