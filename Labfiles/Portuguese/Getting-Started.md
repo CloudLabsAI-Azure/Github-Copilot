@@ -122,13 +122,13 @@ siga do passo 08 ao passo 12. Na ausência de um repositório existente, passe p
 
    ![](../../media/gs-2.png)
 
-1. Clique em **I want to delete this repository** e aceite que leu e compreendeu os efeitos.
+1. Clique em **I want to delete this repository**.
 
    ![](../../media/gs-3.png)
 
-1. Dê o nome do repositório e clique em **Delete this repository**.
+1. Clique em **I have read and understand these effects**, para aceitar que leu e aceitou os efeitos.
 
-   ![](../../media/gs-4.png)
+   ![](../../media/c1.png)
 
 1. Após a criação do seu novo repositório, aguarde cerca de 20 segundos e atualize a página.
 

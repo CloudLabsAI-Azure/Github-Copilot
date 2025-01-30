@@ -1,6 +1,6 @@
 # Exercício 5: Utilização do GitHub Copilot para refatoração de código
 
-### Duração estimada: 20 minutos
+### Duração estimada: 30 minutos
 
 A refatoração de código refere-se ao processo de reestruturação e melhoria da qualidade do código sem alterar o seu comportamento externo. A refatoração de código visa melhorar a legibilidade, a capacidade de manutenção e o desempenho, ao mesmo tempo que reduz o dívida técnica e possíveis bugs.
 
@@ -19,7 +19,6 @@ Poderá completar as seguintes tarefas:
 - Tarefa 3: Rever o código refatorado e Compreender como funciona
 - Tarefa 4: Utilizar o GitHub Copilot Chat com código para refatorar o código
 - Tarefa 5: Criar funções de teste unitário
-- Tarefa 6: Enviar código para o seu repositório a partir do codespace
 
 ## Tarefa 1: Compreender o código já disponível para si
 
@@ -30,15 +29,21 @@ Poderá completar as seguintes tarefas:
     - Clique no ícone **Extensions** **(1)** na barra de atividades presente no lado esquerdo da janela de código do Visual Studio.
     - Na caixa de pesquisa "Search Extensions in Marketplace", digite e pesquise a extensão **C#** **(2)**.
     - Selecione **C#** **(3)** na lista de resultados que aparecem.
-    - Clique no botão **Install** **(4)**.
+    - Clique no botão **Install** **(4)**, se estiver disponível, caso contrário, por favor, ignore.
 
       ![](../../media/csharp-install.png)
 
-       >**Note:** Se você não conseguir ver o botão de instalação, clique em **Install in Codespaces:crispy succotash**    
+       >**Nota:** Garanta que instala a extensão também no Codespace.   
 
         ![](../../media/p9.png)        
 
-1. Para demonstrar o refatorador de código do GitHub, vamos usar um exemplo de código mal escrito e analisá-lo. O código abaixo foi escrito utilizando a linguagem de programação C#.
+1. No Codespace, na janela do Explorer do VS Code, crie um novo arquivo e nomeie-o como **codechat.cs**.
+
+    ![](../media/chat-code-new.png)
+
+     > **Nota**: Se você perceber alguma recomendação para instalar a extensão C#, clique em Instalar.
+
+1. Para demonstrar o refatorador de código do GitHub, vamos usar um exemplo de código mal escrito e analisá-lo. O código abaixo foi escrito utilizando a linguagem de programação C#. Cole o código abaixo no arquivo.
 
    ```
    using System;
@@ -107,11 +112,13 @@ Poderá completar as seguintes tarefas:
 
 1. Clique no ícone **Chat** no canto superior direito. Isso abre a janela GitHub Copilot Chat na qual o código acima deve ser **colado**.
 
-1. Introduza o prompt `Refactor the code` no final do código e prima **enter**.
+1. Introduza o prompt após o código colado `#selection How can we refactor this code to adhere to coding best practices?` e prima **enter**. O GitHub Copilot Chat fornecerá a resposta conforme mostrado abaixo.
 
-1. O GitHub Copilot Chat dará a resposta como se mostra abaixo.
+   ![](../media/hub7.png)
 
-   ![](../../media/refactoredcode.png)
+1. Cole o código refatorado no arquivo.
+
+   ![](../media/hub2.png)
 
 ## Tarefa 3: Reveja o código refatorado e perceber como funciona
 
@@ -164,19 +171,13 @@ Poderá completar as seguintes tarefas:
     ```
 
 1. Vamos agora analisar as alterações feitas ao código pelo GitHub Copilot Chat
-    - Isto inclui o namespace do sistema para as operações de entrada e saída **(1)**.
-    - Define uma constante MAX com valor 100 para o número máximo de elementos permitidos num array **(2)**.
-    - Aqui, o GitHub Copilot removeu o parâmetro `n` do método Sum, uma vez que não é necessário. Em vez disso, o Copilot utilizou um ciclo for-each para iterar no array. Como resultado, o código é mais fácil de compreender e mais conciso **(3)**.
-    - O método Sum calcula a soma dos elementos de uma matriz de inteiros utilizando um ciclo for-each **(4)**.
-    - No método Principal:
-        - Cria uma matriz inteira para armazenar valores introduzidos pelo utilizador **(5)**.
-        - Solicita ao utilizador que introduza o número de elementos e valide **(6)**.
-        - Solicita ao utilizador que introduza números inteiros, valida a entrada e armazena-os no array **(7)**.
-        - Lê uma linha de entrada, tenta convertê-la num número inteiro e armazena o resultado **(8)**.
-        - Calcula a soma dos números inteiros através do método Sum **(9)**.
-        - O código inclui a validação de entrada e fornece a soma dos números inteiros introduzidos pelo utilizador **(10)**.
-
-      ![](../../media/refactor.png)
+    - Alterado o nome do método Sum para CalculateSum para descrever melhor sua funcionalidade.
+    - Criado um novo método GetNumberOfElements para lidar com a lógica de obter o número de elementos do usuário. Este método garante que a entrada esteja dentro da faixa válida (1-100) e fornece mensagens de erro apropriadas.
+    - Criado outro método ReadIntegers para lidar com a lógica de leitura de inteiros do usuário. Este método garante que cada entrada seja um número inteiro válido e fornece mensagens de erro para entradas inválidas.
+    - Em GetNumberOfElements, foi utilizado um loop while para solicitar repetidamente ao usuário até que um número válido seja inserido.
+    - Em ReadIntegers, foi utilizado um loop while dentro do loop for para solicitar repetidamente ao usuário até que um número inteiro válido fosse inserido para cada elemento.
+    - A lógica para calcular a soma dos elementos do array foi movida para o método CalculateSum.
+    - A lógica para obter o número de elementos e ler os inteiros foi movida para seus respectivos métodos.
 
 1. Note que agora o código é mais modular, legível e mais fácil de compreender.
 
@@ -186,15 +187,7 @@ Poderá completar as seguintes tarefas:
 
 Nesta tarefa, demonstrará a funcionalidade de chat com código do GitHub Copilot. Com esta funcionalidade, os programadores podem participar em conversas em tempo real com o Copilot diretamente através de comentários de código, fazendo com que pareça que estão a colaborar com outro programador.
 
-1. No codespace, na janela do VS Code Explorer, crie um novo ficheiro.
-
-   ![](../../media/chat-code-new.png)
-
-1. Nomeie o ficheiro `codechat.cs` e se vir uma recomendação para instalar a extensão `C#`. Clique em Instalar.
-
-   ![](../../media/chat-code-file.png)
-
-1. Copie e cole o código abaixo no ficheiro recém-criado, ou seja, `codechat.cs`.
+1. Copie e cole o código abaixo no ficheiro `codechat.cs`.
 
     ```
     using System;
@@ -220,22 +213,24 @@ Nesta tarefa, demonstrará a funcionalidade de chat com código do GitHub Copilo
                 Console.Write("Enter your choice: ");
                 if (int.TryParse(Console.ReadLine(), out choice))
                 {
-                    switch (choice)
+                    if (choice == 1)
                     {
-                        case 1:
-                            Console.WriteLine("You go farther into the forest and discover a treasure chest!");
-                            score += 10;
-                            break;
-                        case 2:
-                            Console.WriteLine("You rest by the campfire and regain 20 health.");
-                            health += 20;
-                            break;
-                        case 3:
-                            Console.WriteLine($"Thanks for playing! Your score: {score}");
-                            return;
-                        default:
-                            Console.WriteLine("Invalid choice. Try again.");
-                            break;
+                        Console.WriteLine("You go farther into the forest and discover a treasure chest!");
+                        score += 10;
+                    }
+                    else if (choice == 2)
+                    {
+                        Console.WriteLine("You rest by the campfire and regain 20 health.");
+                        health += 20;
+                    }
+                    else if (choice == 3)
+                    {
+                        Console.WriteLine($"Thanks for playing! Your score: {score}");
+                        return;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid choice. Try again.");
                     }
 
                     health -= 10;
@@ -253,19 +248,17 @@ Nesta tarefa, demonstrará a funcionalidade de chat com código do GitHub Copilo
     }
     ```
 
-1. Vamos pedir ao Copilot para utilizar instruções if else em vez da instrução switch.
+1. Vamos perguntar ao Copilot a seguinte questão para entender qual declaração condicional é a melhor escolha neste caso. *Cole o mesmo código no chat do Copilot e, abaixo do código, cole o seguinte prompt.*
+   
+    ```
+    In this scenario, is it more appropriate to use a switch statement or if-else statements?
+    ```
 
-1. Identifique a secção do código onde a instrução switch está presente e selecione-a.
+   ![](../media/hub6.png)
 
-1. Clique com o botão direito do rato na janela de código e clique na opção **Copilot** **(1)**. Na lista de opções seguinte no Copilot, seleccione **Editor inline chat** **(2)**.
+1. Como a declaração switch é mais legível e fácil de manter ao lidar com várias opções discretas, vamos copiar e colar o código no arquivo e clicar em `Ctrl+S`.
 
-   ![](../../media/inline.png)
-
-1. Agora digite o aviso "Use if-else statements instead of the switch statement" **(1)** para tornar o código mais compreensível e clique em `>` ou prima `Enter` **(2)**. O Copilot dará uma resposta e poderá revê-la e clicar em **Accept** **(3)**. Além disso, pode **Discard** a sugestão como mostra a imagem abaixo.
-
-   ![](../../media/5--1.png)
-
- >**Nota:** É essencial rever cuidadosamente as sugestões do copiloto antes de as aplicar.
+   ![](../media/hub4.png)
 
 ## Tarefa 5: Criar funções de teste unitário
 
@@ -293,35 +286,7 @@ Nesta tarefa, demonstrará a funcionalidade de chat com código do GitHub Copilo
 
    ![](../../media/addcode1.png)
 
-### Tarefa 6: enviar código para o seu repositório a partir do codespace
 
-1. Utilize o terminal VS Code para adicionar ficheiros ao repositório. Abra o VS Code Terminal se ainda não estiver aberto.
-
-1. Execute o comando abaixo para adicionar os ficheiros `codechat.cs` e `test.js` ao repositório:
-
-    ```
-    git add codechat.cs test.js
-    ```
-
-1. De seguida, na fase terminal do VS Code, envie as alterações para o repositório:
-
-    ```
-    git commit -m "Copilot commit"
-    ```
-
-1. Por fim, a partir do terminal VS Code, envie o código para o repositório:
-
-    ```
-    git push
-    ```
-
-    ![](../../media/exercise5-1.png)
-
-    >**Nota**: Aguarde cerca de 60 segundos e atualize a página inicial do repositório para o passo seguinte.
-
-1. Pode verificar os ficheiros `codechat.cs` e `test.js` disponíveis no seu repositório GitHub.
-
-    ![](../../media/exercise5-2.png)
 
 ## Resumo
 
