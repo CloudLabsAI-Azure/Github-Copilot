@@ -55,11 +55,19 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/p12.png)
 
+
+
 ## Tarefa 2: Verificar a extensão GitHub Copilot Chat e clonar o repositório GitHub da Universidade Acessível no VS Code
 
 1. Inicie o **Visual Studio Code** no ambiente de trabalho.
 
    ![Imagem1](../../media/vscode1.jpg)
+
+   >**Nota**: Certifique-se de não abrir uma instância em execução do Visual Studio Code. Inicie uma nova a partir da área de trabalho.
+
+1. Clique nas três linhas horizontais no canto superior esquerdo **(1)**, clique em Arquivo **File (2)** e, em seguida, clique em **New Window (3)**.
+   
+   ![](../../media/c31.png)
 
 1. Para verificar a **GitHub Copilot Chat extension**, devem ser executados os seguintes passos no Visual Studio Code:
 
@@ -100,9 +108,13 @@ Poderá completar as seguintes tarefas:
 
    ![Foto1](../../media/clone.png)
 
-1. Mude para o **Explorer** no canto superior esquerdo, selecione **Open Folder** e selecione a pasta que clonou `C:\Users\azureuser\AU`.
+1. Mude para o **Explorer** no canto superior esquerdo, selecione **Open Folder**.
 
    ![](../../media/clonerepo1.png)
+
+1. Selecione a pasta que clonou **(1)** e clique em **Select Folder (2)**.
+
+   ![](../../media/c30.png)
 
 1. Selecione **Yes, I trust the authors**.
 
@@ -110,17 +122,23 @@ Poderá completar as seguintes tarefas:
 
 1. Assim que a pasta for aberta, seleccione o ficheiro `before.html`.
 
-1. Navegue até ao **Explorador de arquivos** e abra a pasta que clonou. A partir daí, clique duas vezes no ficheiro `before.html`. Será aberto no seu navegador Web, onde já adicionou a extensão **Accessibility Insights for Web**.
+    ![](../../media/c29.png)
+
+1. Usando o **Explorador de arquivos** navegue até `C:\Users\azureuser\AU` e pressione **Enter**.
+
+   ![](../../media/c28.png)
+
+1. Irá abrir a pasta que clounou, efetue duple clique no ficheiro `before.html`. Será aberto no seu navegador Web, onde já adicionou a extensão **Accessibility Insights for Web**.
+
+   ![](../../media/c32.png)
 
    ![](../../media/before.png)
 
-   ![](../../media/before1.png)
+1. Clique agora no botão **Extensões (1)** na barra de ferramentas do browser, selecione **Accessibility Insights for Web (2)** e clique em **FastPass (3)**. Será aberto em uma nova janela pop-up.
 
-1. Clique agora no botão **Extensões (1)** na barra de ferramentas do browser, selecione **Accessibility Insights for Web (2)** e clique em **FastPass**. Será aberto em uma nova janela pop-up.
+    - **FastPass**: [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) é um processo de duas etapas que ajuda os programadores a identificar problemas de acessibilidade comuns e de alto impacto em menos de cinco minutos.
 
-    - **FastPass**: [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) é um processo leve de duas etapas que ajuda os programadores a identificar problemas de acessibilidade comuns e de alto impacto em menos de cinco minutos.
-
-      ![](../../media/30-10-24(9).png)
+      ![](../../media/fastpass1.png)
 
       ![](../../media/fastpass2.png)
 
@@ -132,7 +150,7 @@ Poderá completar as seguintes tarefas:
 
     - **Needs review**: Ferramenta fornece instâncias que precisam de ser revistas por um ser humano para determinar se foram aprovadas ou reprovadas.
 
-1. Expanda o problema de contraste de cor para verificar os detalhes da avaria.
+1. Expanda o problema de contraste de cor **(color contrast)** para verificar os detalhes da falha.
 
    ![](../../media/allissue.png)
 
@@ -194,9 +212,13 @@ Poderá completar as seguintes tarefas:
 
 1. **Salve** o ficheiro premindo **Ctrl + S**.
 
-1. Agora atualize a sua página **Accessible University**. Clique no botão **Start over** na página **Accessibility Insights for Web**. Agora verá uma redução na mensagem de erro.
+1. Agora atualize a sua página **Accessible University**. 
 
-   ![](../../media/imgaltcoursela.png)
+   ![](../../media/c33.png)
+
+1. Clique no botão **Start over** na página **Accessibility Insights for Web**. Agora verá uma redução na mensagem de erro.
+
+   ![](../../media/startover.png)
 
 1. Agora, expanda **image-alt** para visualizar a mensagem de erro.
 
@@ -220,11 +242,13 @@ Poderá completar as seguintes tarefas:
 
 1. **Salve** o ficheiro premindo **Ctrl + S**.
 
-1. Agora atualize a sua página **Accessible University**. Clique no botão **Start over** na página **Accessibility Insights for Web**. Agora verá uma redução na mensagem de erro.
+1. Agora atualize a sua página **Accessible University**. 
 
-   ![](../../media/startover.png)
+   ![](../../media/c33.png)
 
-   ![](../../media/reduction1.png)
+1. Clique no botão **Start over** na página **Accessibility Insights for Web**. Agora verá uma redução na mensagem de erro.
+
+   ![](../../media/imgaltcoursela.png)
 
 1. Agora, expanda o **label** para verificar detalhadamente a mensagem de erro.
 
