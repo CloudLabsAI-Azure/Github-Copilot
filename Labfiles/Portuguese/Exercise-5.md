@@ -39,7 +39,7 @@ Poderá completar as seguintes tarefas:
 
 1. No Codespace, na janela do Explorer do VS Code, crie um novo arquivo e nomeie-o como **codechat.cs**.
 
-    ![](../media/chat-code-new.png)
+    ![](../../media/chat-code-new.png)
 
      > **Nota**: Se você perceber alguma recomendação para instalar a extensão C#, clique em Instalar.
 
@@ -114,11 +114,11 @@ Poderá completar as seguintes tarefas:
 
 1. Introduza o prompt após o código colado `#selection How can we refactor this code to adhere to coding best practices?` e prima **enter**. O GitHub Copilot Chat fornecerá a resposta conforme mostrado abaixo.
 
-   ![](../media/hub7.png)
+   ![](../../media/hub7.png)
 
 1. Cole o código refatorado no arquivo.
 
-   ![](../media/hub2.png)
+   ![](../../media/hub2.png)
 
 ## Tarefa 3: Reveja o código refatorado e perceber como funciona
 
@@ -254,11 +254,11 @@ Nesta tarefa, demonstrará a funcionalidade de chat com código do GitHub Copilo
     In this scenario, is it more appropriate to use a switch statement or if-else statements?
     ```
 
-   ![](../media/hub6.png)
+   ![](../../media/hub6.png)
 
 1. Como a declaração switch é mais legível e fácil de manter ao lidar com várias opções discretas, vamos copiar e colar o código no arquivo e clicar em `Ctrl+S`.
 
-   ![](../media/hub4.png)
+   ![](../../media/hub4.png)
 
 ## Tarefa 5: Criar funções de teste unitário
 
