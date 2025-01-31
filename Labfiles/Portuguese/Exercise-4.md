@@ -57,12 +57,11 @@ Poderá completar as seguintes tarefas:
 
 1. Prima `CTRL + S` para guardar o ficheiro. Nomeie o ficheiro como `arm.json` e clique em **OK**
 
-   ![](../../media/arm-save.png)
-
+    ![](../../media/arm-save.png)
 
 1.  Após salvar o arquivo, abra o ícone do Azure Portal na área de trabalho.
 
-    ![](../../media/hub60.png)   
+     ![](../../media/hub60.png)   
 
 1. Se a janela abrir dentro da sessão existente, clique no ícone de **Profile** no canto superior direito e selecione **Sign in with a different account**.
 
