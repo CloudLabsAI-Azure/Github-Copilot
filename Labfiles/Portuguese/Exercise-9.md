@@ -22,7 +22,7 @@ Poderá completar as seguintes tarefas:
 
 1. No Codespace, na janela do VS Code Explorer, crie um novo arquivo e nomeie-o como `Document.md`.
 
-    ![](../media/chat-code-new.png)
+    ![](../../media/chat-code-new.png)
 
 1. Pressione `CTRL + I` para fornecer instruções ao GitHub Copilot.
 
@@ -32,17 +32,17 @@ Poderá completar as seguintes tarefas:
     Create a markdown document for a sample Node.js application with mermaid diagrams and reference links
     ```
 
-    ![](../media/hub20.png)
+    ![](../../media/hub20.png)
 
 1.  O Copilot fornecerá uma resposta, e você poderá reve-la. Clique em **Accept**, e pressione `CTRL + S` para salvar o arquivo.
 
-    ![](../media/hub21.png)
+    ![](../../media/hub21.png)
 
 1.  Observe como o Copilot gerou os diagramas Mermaid e incluiu os links de referência conforme nossa solicitação.
 
-    ![](../media/hub22.png)
+    ![](../../media/hub22.png)
     
-    ![](../media/hub23.png)
+    ![](../../media/hub23.png)
 
 
 ## Tarefa 2: Enviar código para seu repositório a partir do Codespace
