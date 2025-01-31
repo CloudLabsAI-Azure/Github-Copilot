@@ -33,15 +33,15 @@ Poderá completar as seguintes tarefas:
 
 1. Na barra de atividades do Visual Studio Code, clique no ícone **GitHub Copilot Chat (1)**. Clique em **Open Chat (2)** para abrir a janela GitHub Copilot Chat.
 
-    ![](../media/c10.png)
+    ![](../../media/c10.png)
 
 1. Na parte inferior da janela GitHub Copilot Chat, na caixa de texto **Ask Copilot or type / for commands**, digite uma pergunta relacionada com programação e prima Enter. Por exemplo, digite `Write ARM code to deploy a storage account in Azure with code explanation"`.
 
-   ![](../media/hub63.png)
+   ![](../../media/hub63.png)
 
 1. O GitHub Copilot Chat processará a sua pergunta e fornecerá uma resposta, com sugestões de código quando apropriado, na janela de chat.
 
-   ![](../media/hub62.png)
+   ![](../../media/hub62.png)
 
     > **Nota:** Eis um exemplo do que provavelmente verá; no entanto, a recomendação precisa pode variar.
 
@@ -51,9 +51,9 @@ Poderá completar as seguintes tarefas:
 
 1. Pode visualizar a resposta do GitHub Copilot no chat. Para inserir código num novo ficheiro, clique em **Reticências (...)** **(1)** e seleccione **Insert Into New File** **(2)**.
 
-   ![](../media/hub67.png)
+   ![](../../media/hub67.png)
 
-   ![](../media/hub61.png)
+   ![](../../media/hub61.png)
 
 1. Prima `CTRL + S` para guardar o ficheiro. Nomeie o ficheiro como `arm.json` e clique em **OK**
 
@@ -62,15 +62,15 @@ Poderá completar as seguintes tarefas:
 
 1.  Após salvar o arquivo, abra o ícone do Azure Portal na área de trabalho.
 
-    ![](../media/hub60.png)   
+    ![](../../media/hub60.png)   
 
 1. Se a janela abrir dentro da sessão existente, clique no ícone de **Profile** no canto superior direito e selecione **Sign in with a different account**.
 
-    ![](../media/hub100.png)   
+    ![](../../media/hub100.png)   
 
 1. Clique em **Use Another Account**.
 
-    ![](../media/c11.png)   
+    ![](../../media/c11.png)   
 
 1. Na guia **Sign in to Microsoft Azure tab**, você verá uma tela de login. Insira o seguinte e-mail/nome de usuário e clique em **Next**.
 
@@ -84,19 +84,19 @@ Poderá completar as seguintes tarefas:
 
 1. Selecione **Cancel** na página **Welcome to Azure**.
 
-    ![](../media/c13.png) 
+    ![](../../media/c13.png) 
 
 1. Pesquise por **deploy(1)** e selecione **Deploy a custom template(2)**.
 
-     ![](../media/github2.png)
+     ![](../../media/github2.png)
 
 1. Clique em **Select a template(1)** e clique em **Build your own template in the editor(2)**.
 
-      ![](../media/github3.png)
+      ![](../../media/github3.png)
 
 1. Copie e **cole(1)** o código que você salvou anteriormente no VS Code na seção **Edit template** e clique em **Save(2)**.
 
-      ![](../media/github5.png)
+      ![](../../media/github5.png)
 
 1. Na seção de detalhes do projeto, adicione as seguintes informações:
 
@@ -106,7 +106,7 @@ Poderá completar as seguintes tarefas:
    - Storage Account Name - **storage<inject key="Deployment-id" enableCopy="false"/> (4)**
    - Clique em **Review + Create (5)**
 
-     ![](../media/ghh1.png)
+     ![](../../media/ghh1.png)
 
         > **Note:** In case, the storage account name is already fetched, use the default.
 
@@ -114,11 +114,11 @@ Poderá completar as seguintes tarefas:
       
 1. Clique em **Go to Resource**.
 
-     ![](../media/github7.png)
+     ![](../../media/github7.png)
 
 1. Verifique que a **storage account** foi criada.
 
-     ![](../media/github8.png)
+     ![](../../media/github8.png)
 
 
 ### Tarefa 2: Gerar código por chat que utiliza o Terraform para implementar recursos no Azure
@@ -129,7 +129,7 @@ Poderá completar as seguintes tarefas:
 
 1. O GitHub Copilot Chat processará a sua pergunta e fornecerá uma resposta, com sugestões de código quando apropriado, na janela de chat.
 
-    ![](../media/terraform.png)
+    ![](../../media/terraform.png)
 
     > **Nota:** Eis um exemplo do que provavelmente verá; no entanto, a recomendação precisa pode variar.
 
@@ -139,7 +139,7 @@ Poderá completar as seguintes tarefas:
 
 1. Pode visualizar a resposta do GitHub Copilot no chat. Para inserir código num novo ficheiro, clique em **Reticências (...)** **(1)** e seleccione **Insert Into New File** **(2)**.
 
-   ![](../media/terraform-new-file.png)
+   ![](../../media/terraform-new-file.png)
 
 1. Prima `CTRL + S` para guardar o ficheiro. Nomeie o ficheiro como `terraform.tf` e clique em **OK**
 
@@ -153,7 +153,7 @@ Poderá completar as seguintes tarefas:
 
 1. O GitHub Copilot Chat processará a sua pergunta e fornecerá uma resposta, com sugestões de código quando apropriado, na janela de chat.
 
-      ![](../media/hub71.png)
+      ![](../../media/hub71.png)
 
     > **Nota:** Eis um exemplo do que provavelmente verá; no entanto, a recomendação precisa pode variar.
 
@@ -163,7 +163,7 @@ Poderá completar as seguintes tarefas:
 
 1. Pode visualizar a resposta do GitHub Copilot no chat. Para inserir código num novo ficheiro, clique em **Reticências (...)** **(1)** e seleccione **Insert Into New File** **(2)**.
 
-      ![](../media/hub72.png)
+      ![](../../media/hub72.png)
 
 1. Pressione `CTRL + S` para guardar o ficheiro e verá uma recomendação para instalar a extensão `PowerShell`. Clique em Instalar. Nomeie o ficheiro como `powershell.ps1` e clique em **OK**.
 
