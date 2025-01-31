@@ -30,7 +30,7 @@ Poderá completar as seguintes tarefas:
     -- create a table with 5 columns customer_id, customer_fname, customer_lname, customer_phone, customer_address
     ```
 
-    ![](../media/c34.png)   
+    ![](../../media/c34.png)   
 
 1. Observe como o Copilot consegue gerar as próximas linhas de código.
 
@@ -42,7 +42,7 @@ Poderá completar as seguintes tarefas:
    -- fill in 5 rows in customers table
    ```
 
-    ![](../media/c35.png)   
+    ![](../../media/c35.png)   
 
 1. Clique em `Tab` e pressione **Enter**.
 
@@ -52,7 +52,7 @@ Poderá completar as seguintes tarefas:
    -- show the data in customers table
    ```
 
-    ![](../media/c36.png)   
+    ![](../../media/c36.png)   
 
 1. Clique em Enter e depois clique em `Tab` para selecionar a sugestão.
 
@@ -60,7 +60,7 @@ Poderá completar as seguintes tarefas:
 
 1. Clique no ícone Iniciar do Windows, expanda a pasta **Microsoft SQL Server Tools 20 (1)** e selecione **SQL Server Management Studio 20 (2)**.
 
-   ![](../media/hub106.png)
+   ![](../../media/hub106.png)
 
 1. Certifique-se de que os seguintes detalhes sejam adicionados:
 
@@ -69,11 +69,11 @@ Poderá completar as seguintes tarefas:
    - Encryption: Check the box for **Trust server certificate (3)**
    - Clique em **Connect (4)**
 
-       ![](../media/hub115.png)
+       ![](../../media/hub115.png)
      
 1. Uma vez conectado ao servidor, clique em **New Query** na parte superior.
 
-   ![](../media/hub110.png)
+   ![](../../media/hub110.png)
 
 1. Navegue até ao **Visual Studio Code** e copie todo o conteúdo que buscamos no arquivo `demo.sql`.
 
@@ -81,47 +81,47 @@ Poderá completar as seguintes tarefas:
 
 1. Selecione cada **bloco de código (1)** e clique em **Execute (2)**. Observe como cada bloco de código é executado com sucesso, gerando a saída esperada no terminal.
 
-   ![](../media/hub111.png)
+   ![](../../media/hub111.png)
 
-   ![](../media/hub112.png)
+   ![](../../media/hub112.png)
 
-   ![](../media/hub113.png)
+   ![](../../media/hub113.png)
    
 1. Você pode observar como ele processa cada bloco de código e exibe a tabela de Customers..
 
-   ![](../media/hub40.png)   
+   ![](../../media/hub40.png)   
 
 
 ### Tarefa 2: Gerar YAML com o GitHub Copilot utilizando comentários
 
 1. Dentro do codespace, na janela do VS Code Explorer, crie um novo arquivo e nomeie-o como `report.yml`
 
-    ![](../media/chat-code-new.png)
+    ![](../../media/chat-code-new.png)
 
 1. Pressione `Ctrl + I` , digite o comentário abaixo e clique em Enviar:
 
    ```
    # Create a GitHub action to email a report from a file at 6 a.m. daily
    ```
-   ![](../media/hub9.png)
+   ![](../../media/hub9.png)
 
 1. Clique em **Accept**.
 
-   ![](../media/hub8.png)
+   ![](../../media/hub8.png)
 
       > **Nota**: Pode ser que você não veja as mesmas sugestões mostradas na captura de tela; as sugestões exatas podem variar.
 
 1. Abra o GitHub Copilot Chat na parte superior, digite `Explian the cron syntax in this code` e clique em **send**.
 
-      ![](../media/hub10.png)
+      ![](../../media/hub10.png)
    
 1. Verifique a resposta e entenda como utilizar e criar expressões Cron.
 
-      ![](../media/hub11.png)
+      ![](../../media/hub11.png)
 
 1. Ofereça outra consulta: `How should a GitHub Actions YAML file be structured?` e avalie a resposta fornecida.
 
-   ![](../media/c41.png)
+   ![](../../media/c41.png)
 
 
 
