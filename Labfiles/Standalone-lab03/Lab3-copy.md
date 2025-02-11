@@ -104,7 +104,7 @@ In this lab, you will complete the following tasks:
 
      ![](media/cs5.png)
 
-1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page. 
+1. Navigate back to your repository, click on the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page. 
 
    ![](media/dp3.png)  
 
@@ -121,6 +121,8 @@ In this lab, you will complete the following tasks:
 1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should once again select **Install Extension and Open URI** to continue.
 
    ![](media/open.png)
+
+   >**Note:** If you did not receive a pop-up prompt to open Visual Studio Code, **manually launch Visual Studio Code** from your VM and **refresh** the page. This should trigger the pop-up.
 
    ![](media/installectension.png)
 
@@ -147,9 +149,10 @@ In this lab, you will complete the following tasks:
    ![](media/verify-copilot.png)
 
    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
-    > - If prompted to **Sign In** click on **Sign In** to authorize with your github account.
+    > - If prompted to **Sign In** click on **Sign In** to authorize with your github account. You will see one of the available options as shown in the screenshot below.
    
     ![](media/img0.png)
+    ![](media/copilotlogin.png)
 
     > - Next, once you get the popup, click on **Allow.**
     
@@ -363,7 +366,7 @@ const data = [
 <validation step="4beb3a8b-c0f8-4ba4-8115-89d05107f2e5" />
    
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - If you receive a success message, you can proceed to the next task.
+> - If you receive a success message.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
