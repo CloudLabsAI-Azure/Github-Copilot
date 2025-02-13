@@ -30,6 +30,7 @@ Poderá completar as seguintes tarefas:
     - Na caixa de pesquisa "Search Extensions in Marketplace", digite e pesquise a extensão **C#** **(2)**.
     - Selecione **C#** **(3)** na lista de resultados que aparecem.
     - Clique no botão **Install** **(4)**, se estiver disponível, caso contrário, por favor, ignore.
+    - Clique no botão **Atualizar** se já estiver instalado e não atualizado.
 
       ![](../../media/csharp-install.png)
 
@@ -292,4 +293,4 @@ Nesta tarefa, demonstrará a funcionalidade de chat com código do GitHub Copilo
 
 Neste exercício, empregou com sucesso o GitHub Copilot para realizar tarefas de refactoring de código e criar funções de teste unitário. A refatoração de código com a ajuda do Copilot tornará os seus projetos de codificação mais eficientes e colaborativos.
 
-### Concluiu o laboratório com sucesso
+### Concluiu o laboratório com sucesso. Clique em **Próximo >>** para prosseguir com o próximo exercício.

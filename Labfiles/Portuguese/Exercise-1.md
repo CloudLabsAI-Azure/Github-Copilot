@@ -129,4 +129,4 @@ Irá completar as seguintes tarefas:
 
 Neste exercício, criou um desenvolvimento container e adicionou o Copilot à lista de extensões.
 
-### Concluiu o laboratório com sucesso
+### Concluiu o laboratório com sucesso. Clique em **Próximo >>** para prosseguir com o próximo exercício.

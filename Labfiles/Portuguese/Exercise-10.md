@@ -258,4 +258,4 @@ Treino de um modelo de amostra usando Random Forest.
 
 Neste exercício, aproveitou com sucesso o GitHub Copilot for Machine Learning.
 
-### Concluiu o laboratório com sucesso
+### Concluiu o laboratório com sucesso. Clique em **Próximo >>** para prosseguir com o próximo exercício.

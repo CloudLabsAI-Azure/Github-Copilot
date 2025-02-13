@@ -98,7 +98,7 @@ Poderá completar as seguintes tarefas:
 
 1. No terminal **Visual Studio Code,** clique em **(...)** **(1)** para selecionar o menu **Terminal** **(2)**, seguido de seleção **New Terminal** **(3)**. A janela do terminal abre geralmente na metade inferior do ecrã.
 
-   ![Imagem1](../../media/terminal.png)
+   ![Imagem1](../../media/new-githubcopilot-feb-24.png)
 
 1. Execute o seguinte comando fornecido abaixo para clonar o repositório GitHub da Accessible University.
 
@@ -306,4 +306,4 @@ Poderá completar as seguintes tarefas:
 
 Neste exercício, integrou com êxito o Accessibility Insights for Web no Microsoft Edge e utilizou-o para identificar problemas de acessibilidade na página inicial da AU. Ao tirar partido do GitHub Copilot Chat no Visual Studio Code, gerou e implementou soluções de código para corrigir estes problemas. Este processo garantiu que o website cumprisse os padrões de acessibilidade, melhorando a usabilidade e a inclusão para todos os utilizadores, incluindo aqueles com deficiência. Consulte o link para mais informações sobre [Universidade Acessível](https://www.washington.edu/accesscomputing/AU/).
 
-### Concluiu o laboratório com sucesso
+### Concluiu o laboratório com sucesso. Clique em **Próximo >>** para prosseguir com o próximo exercício.

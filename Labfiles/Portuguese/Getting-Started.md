@@ -48,19 +48,42 @@ O GitHub Copilot é uma ferramenta de conclusão de código com tecnologia de IA
 
 # Introdução ao laboratório
 
-1. Pode ver uma área de trabalho de máquina virtual 💻 (**LABVM**) carregada no lado esquerdo do seu browser. Utilize esta máquina virtual durante todo o workshop para realizar o laboratório. Também pode ligar-se à máquina virtual utilizando qualquer cliente RDP utilizando as credenciais **LABVM** fornecidas no separador **Ambiente**.
+Bem-vindo ao workshop de inovação do GitHub Copilot! Preparamos um ambiente perfeito para você explorar e aprender GitHub Copilot Services. Vamos começar aproveitando ao máximo esta experiência:
 
+## Acessando seu ambiente de laboratório
+ 
+Quando você estiver pronto para começar, sua máquina virtual e o guia de laboratório estarão ao seu alcance no navegador da web.
+   
    ![](../../media/30-10-24(1).png)
 
-1. Quando estiver no separador **Ambiente**, clique na opção **GitHub Licenses** para obter as credenciais de utilizador do GitHub. As credenciais também serão enviadas para o seu endereço de e-mail registado. Também pode abrir o Guia do laboratório numa janela completa e separada, selecionando **Janela dividida** no canto superior direito. Além disso, pode iniciar, parar e reiniciar máquinas virtuais no separador **Recursos**.
+### Máquina Virtual e Guia de Laboratório
+ 
+Sua máquina virtual é seu carro-chefe durante todo o workshop. O guia de laboratório é o seu roteiro para o sucesso.
 
-   ![](../../media/p5.png)
+## Explorando os recursos do seu laboratório
+ 
+Para entender melhor os recursos e credenciais do seu laboratório, navegue até a guia **Ambiente**. Quando estiver na guia **Ambiente (1)**, clique na opção **Licenses (2)** para obter credenciais de usuário do GitHub. As credenciais também serão enviadas para o seu endereço de e-mail registrado.
+ 
+   ![](../../media/new-githubcopilot-feb-30.png)
 
+## Utilizando o recurso de janela dividida
+ 
+Por conveniência, você pode abrir o guia de laboratório em uma janela separada selecionando o botão **Dividir janela** no canto superior direito.
+ 
+![Use o recurso de janela dividida](../../media/new-githubcopilot-feb-32.png)
+ 
 ## Guia de laboratório Aumentar/diminuir zoom
  
-1. Para ajustar o nível de zoom da página do ambiente, clique no ícone **A↕ : 100%** localizado próximo ao cronômetro no ambiente do laboratório.
+Para ajustar o nível de zoom da página do ambiente, clique no ícone **A↕ : 100%** localizado próximo ao cronômetro no ambiente do laboratório.
 
-      ![](../../media/image177.png)
+   ![](../../media/image177.png)
+
+## Gerenciando sua máquina virtual
+ 
+Sinta-se à vontade para **iniciar**, **parar** ou **reiniciar** sua máquina virtual conforme necessário na guia **Recursos**. Sua experiência está em suas mãos!
+ 
+![Gerencie sua máquina virtual](../../media/new-githubcopilot-feb-31.png)
+
 
 ## Iniciar sessão no GitHub
 

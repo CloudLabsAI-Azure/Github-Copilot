@@ -25,15 +25,15 @@ Poderá completar as seguintes tarefas:
 
 1. Navegue até ao ambiente de trabalho e abra o IDE **IntelliJ IDEA Community**.
 
-   ![](../../media/30-10-24(4).png)
+   ![](../../media/new-githubcopilot-feb-14.png)
 
 1. No Contrato IntelliJ IDEA, assinale **I confirm that I have read and accept the terms of this User Agreement (1)** e clique em **Continue (2)**.
 
-   ![](../media/c17.png)
+   ![](../../media/new-githubcopilot-feb-15.png)
 
     >**Nota:** Quando a caixa de partilha de dados for apresentada, clique em **Don't Send**.
 
-    ![](../../media/E6-T1-S2.1.png)
+    ![](../../media/new-githubcopilot-feb-15.png)
 
 1. Na página **Import Settings**, clique em **Skip Import**.   
 
@@ -67,7 +67,7 @@ Poderá completar as seguintes tarefas:
 
 1. Clique em **Tools (1)**. Clique em **GitHub Copilot (2)** e em **Open GitHub Copilot Chat (3)**.
 
-   ![](../../media/c19.png)
+   ![](../../media/new-githubcopilot-feb-19.png)
 
 1. Na caixa de diálogo **Sign in to GitHub**, para copiar o código do dispositivo e abrir a janela de ativação do dispositivo, clique em **Copy and Open**.
 
@@ -90,27 +90,27 @@ Poderá completar as seguintes tarefas:
 
 1. Clique **Authorize** no Copilot Chat.
 
-   ![](../media/c22.png)
+   ![](../../media/c22.png)
 
 1. Na caixa de diálogo **Sign in to GitHub** para copiar o código do dispositivo e abrir a janela de ativação do dispositivo, clique em **Copy and Open**.
 
-   ![](../media/c23.png)   
+   ![](../../media/c23.png)   
 
 1. Clique em **Continue** na janela **Device Activation**.   
 
-   ![](../media/c20.png)   
+   ![](../../media/c20.png)   
 
 1. Clique em **Authorize GitHub Copilot for JetBrains IDEs**.   
 
-   ![](../media/c25.png)    
+   ![](../../media/c25.png)    
 
 1. Após a aprovação das permissões, o IDE JetBrains exibirá uma confirmação. 
 
-   ![](../media/c26.png)     
+   ![](../../media/c26.png)     
 
 1. No IDE JetBrains, clique com o botão direito do rato em **src (1)**, seleccione **New (2)** e clique em **File (3)** para criar um novo ficheiro Java (*.java) denominado **Test.java**.
 
-   ![](../../media/ex6-test-java.png)
+   ![](../../media/new-githubcopilot-feb-20.png)
 
 1. Crie uma classe digitando **class Test**. O Copilot irá sugerir um corpo de classe, e poderás premir **tab** para aceitar a sugestão.
 
@@ -130,9 +130,9 @@ Poderá completar as seguintes tarefas:
 
    >**Nota:** Se você receber algum erro ou se precisar de mais sugestões, navegue até o **Github Copilot** no painel direito. Atualize se necessário. Aceite a solução mais relevante.
 
-   ![](../media/c27.png) 
+   ![](../../media/new-githubcopilot-feb-22.png) 
 
-   ![](../media/ex6-copilot-suggestion.png)      
+   ![](../../media/ex6-copilot-suggestion.png)      
 
 
       > **Parabéns** por concluir a tarefa! Agora, é hora de validá-la. Aqui estão os passos:
@@ -196,4 +196,4 @@ O GitHub Copilot pode compreender significativamente mais contexto do que a maio
 
 Neste exercício, configurou com sucesso o IDE JetBrains IntelliJ Idea para Java, instalou o plugin GitHub Copilot e explorou o código Java básico que produziu as sugestões utilizando o Copilot.
 
-### Concluiu o laboratório com sucesso
+### Concluiu o laboratório com sucesso. Clique em **Próximo >>** para prosseguir com o próximo exercício.
