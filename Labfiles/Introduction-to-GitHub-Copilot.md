@@ -109,4 +109,4 @@ When access to Copilot has been enabled, features such as the ability to use Cop
 - Enterprise owners can set Copilot features to be enabled or disabled for all organizations in the enterprise that have access to Copilot. Alternatively, they can allow each organization to set its own policy for each feature.
 - If the enterprise owner has permitted it, organization owners can enable or disable Copilot features for their organization.
 
-Click on "Next" from the bottom right to start with the lab.
+Click on **Next** from the bottom right to start with the lab.

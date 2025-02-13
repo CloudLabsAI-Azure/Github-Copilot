@@ -66,4 +66,4 @@ You will be able to complete the following tasks:
 
 In this exercise, you have successfully generated a document using GitHub Copilot Chat and pushed the code to your repository.
 
-### You have successfully completed the lab
+## You have successfully completed the lab. Click on **Next >>** to procced with next exercise.

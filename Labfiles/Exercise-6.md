@@ -25,7 +25,7 @@ You will be able to complete the following tasks:
 
 1. Navigate to the desktop and open the **IntelliJ IDEA Community** IDE.
 
-   ![](../media/E6-T1-S1.png)
+   ![](../media/new-githubcopilot-feb-14.png)
 
 1. In the IntelliJ IDEA Agreement, check **I confirm that I have read and accept the terms of this User Agreement (1)** and click on **Continue (2)**.
 
@@ -33,7 +33,7 @@ You will be able to complete the following tasks:
 
    >**Note:** When the data sharing box appears, click on **Don't Send**.
 
-   ![](../media/E6-T1-S2.1.png)
+   ![](../media/new-githubcopilot-feb-15.png)
 
 1. On the **Import Settings** page, click on **Skip Import**.
 
@@ -69,7 +69,7 @@ You will be able to complete the following tasks:
 
 1. Click on **Tools (1)**. Click **GitHub Copilot (2)**, then click **Open GitHub Copilot Chat (3)**.
 
-   ![](../media/c18.png)
+   ![](../media/new-githubcopilot-feb-19.png)
 
 1. Click on **Sign in to GitHub**.
 
@@ -119,7 +119,7 @@ You will be able to complete the following tasks:
 
 1. In your JetBrains IDE, right-click on the **src (1)**, select **New (2)** and click on **File (3)** and type **Test.java** in the window **New File** and press **Enter** to create a new Java (*.java) file named.
 
-   ![](../media/ex6-test-java.png)
+   ![](../media/new-githubcopilot-feb-20.png)
 
 1. Create a class by typing **class Test**. Copilot will suggest a class body, and you can press **tab** to accept the suggestion.
 
@@ -139,7 +139,7 @@ You will be able to complete the following tasks:
 
    >**Note:** If you recieve any errors or if you need more suggestions, navigate to the **Github Co-pilot** from the right pane. Refresh if needed. Accept the most relevent solution.
 
-    ![](../media/c27.png) 
+    ![](../media/new-githubcopilot-feb-22.png) 
 
     ![](../media/ex6-copilot-suggestion.png)      
 
@@ -155,4 +155,4 @@ You will be able to complete the following tasks:
 
 In this exercise, you have successfully configured the JetBrains IntelliJ Idea IDE for Java, installed the GitHub Copilot plugin, and explored the basic Java code that produced the suggestions using Copilot.
 
-### You have successfully completed the lab
+## You have successfully completed the lab. Click on **Next >>** to procced with next exercise.

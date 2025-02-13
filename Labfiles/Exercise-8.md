@@ -57,7 +57,9 @@ You will be able to complete the following tasks:
 
 1. Press `Ctrl+S` to save the file.
 
-1. Click on the Windows Start icon and, search **SSMS (1)** **SQL Server Management Studio 20 (2)** .
+1. Click on the Windows Start icon and, search **SSMS (1)** and then select **SQL Server Management Studio 20 (2)**.
+
+   ![](../media/new-githubcopilot-feb-26.png)
 
 1. Ensure the following details are added:
 
@@ -123,4 +125,4 @@ You will be able to complete the following tasks:
 
 In this exercise, you have successfully generated code for SQL and YAML using comments with the help of GitHub Copilot.
 
-### You have successfully completed the lab
+## You have successfully completed the lab. Click on **Next >>** to procced with next exercise.

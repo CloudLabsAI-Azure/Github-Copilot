@@ -29,6 +29,7 @@ You will be able to complete the following tasks:
     - In the "Search Extensions in Marketplace" search box, type and search for the **C#** **(2)** extension.
     - Select **C#** **(3)** from the list of results that show up.
     - Click on the **Install** **(4)** button, if it is available otherwise please ignore.
+    - Click on the **Update** button if it is already installed and not updated.
 
    ![](../media/csharp-install.png)
 
@@ -293,4 +294,4 @@ In this task, you will demonstrate the chat with code feature of GitHub Copilot.
 
 In this exercise, you have successfully employed GitHub Copilot to carry out code refactoring tasks and created unit test functions. Code refactoring with Copilot's assistance will make your coding projects more efficient and collaborative.
 
-### You have successfully completed the lab
+## You have successfully completed the lab. Click on **Next >>** to procced with next exercise.

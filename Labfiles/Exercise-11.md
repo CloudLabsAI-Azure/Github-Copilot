@@ -89,4 +89,4 @@ You will be able to complete the following tasks:
 
 In this exercise, you have successfully created a minigame using Python and Github Copilot.
 
-### You have successfully completed the lab
+### You have successfully completed the lab.
