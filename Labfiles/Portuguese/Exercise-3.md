@@ -56,7 +56,7 @@ Ao aproveitar o código gerado anteriormente, você explorará ferramentas espec
 
 1. Clique com o botão direito no código selecionado, selecione **Copilot (1)** e escolha **Editor Inline Chat (2)**.
 
-      ![](../../media/app.py.png)
+      ![](../../media/new-githubcopilot-feb-5.png)
 
 1. A janela seguinte solicita que você sugira melhorias que gostaria de fazer no código. Cole os seguintes **comentários (1)** e clique em > ou pressione **Enter (2)**. O Copilot fornecerá uma resposta, e você pode revisá-la e clicar em **Aceitar (3)**. Também pode ignorar **Discard** a sugestão conforme mostrado na imagem abaixo.
 
@@ -78,7 +78,7 @@ Ao aproveitar o código gerado anteriormente, você explorará ferramentas espec
 
 1. Selecione o código novamente e clique com o botão direito sobre o código selecionado, selecione **Copilot (1)** e escolha **Explain (2)**.
 
-   ![](../../media/explain.png)
+   ![](../../media/new-githubcopilot-feb-6.png)
 
 1. Isso abrirá o GitHub Copilot Chat à direita, oferecendo uma explicação detalhada do código, conforme mostrado abaixo.
 
@@ -86,7 +86,7 @@ Ao aproveitar o código gerado anteriormente, você explorará ferramentas espec
 
 1. Selecione o código novamente e clique com o botão direito sobre o código selecionado, selecione **Copilot (1)** e escolha **Fix (2)**.
 
-   ![](../../media/fix.png)
+   ![](../../media/new-githubcopilot-feb-7.png)
 
 1. O GitHub Copilot usará automaticamente o comentário `/fix` para propor melhorias potenciais em partes específicas do código para aprimoramento. Clique em **Accept** para aplicar as correções no seu código.
 
@@ -94,7 +94,7 @@ Ao aproveitar o código gerado anteriormente, você explorará ferramentas espec
 
 1. Selecione o código novamente e clique com o botão direito sobre o código selecionado, selecione **Copilot (1)** e escolha **Generate Docs (2)**.
 
-      ![](../../media/docs.png)
+      ![](../../media/new-githubcopilot-feb-8.png)
 
 1. O GitHub Copilot usará automaticamente o comentário `/doc` para fornecer uma explicação detalhada de uma linha específica de código. Clique em **Accept** para obter uma compreensão mais profunda enquanto reve o código.
 
@@ -102,7 +102,7 @@ Ao aproveitar o código gerado anteriormente, você explorará ferramentas espec
 
 1. Selecione o código novamente e clique com o botão direito sobre o código selecionado, selecione **Copilot (1)** e escolha **Generate Tests(2)**.
 
-      ![](../../media/tests1.png)
+      ![](../../media/new-githubcopilot-feb-9.png)
 
 1. O GitHub Copilot usará automaticamente o comentário `/tests`. Clique em **Accept**.
 
@@ -118,4 +118,4 @@ Ao aproveitar o código gerado anteriormente, você explorará ferramentas espec
 
 Neste exercício, concluiu com sucesso a tarefa de utilizar Python em conjunto com o GitHub Copilot e fê-lo com o benefício de receber várias sugestões.
 
-### Concluiu o laboratório com sucesso
+### Concluiu o laboratório com sucesso. Clique em **Próximo >>** para prosseguir com o próximo exercício.

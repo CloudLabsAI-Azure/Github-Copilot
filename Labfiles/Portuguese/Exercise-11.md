@@ -89,4 +89,4 @@ Poderá completar as seguintes tarefas:
 
 Neste exercício, criou com sucesso um minijogo utilizando o Python e o Github Copilot.
 
-### Concluiu o laboratório com sucesso
+### Concluiu o laboratório com sucesso.

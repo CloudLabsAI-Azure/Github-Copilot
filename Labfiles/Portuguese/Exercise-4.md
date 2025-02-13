@@ -33,7 +33,7 @@ Poderá completar as seguintes tarefas:
 
 1. Na barra de atividades do Visual Studio Code, clique no ícone **GitHub Copilot Chat (1)**. Clique em **Open Chat (2)** para abrir a janela GitHub Copilot Chat.
 
-    ![](../../media/c10.png)
+    ![](../../media/new-githubcopilot-feb-10.png)
 
 1. Na parte inferior da janela GitHub Copilot Chat, na caixa de texto **Ask Copilot or type / for commands**, digite uma pergunta relacionada com programação e prima Enter. Por exemplo, digite `Write ARM code to deploy a storage account in Azure with code explanation"`.
 
@@ -173,4 +173,4 @@ Poderá completar as seguintes tarefas:
 
 Neste exercício, foi utilizado o Copilot para gerar código automaticamente em ARM, Terraform e PowerShell.
 
-### Concluiu o laboratório com sucesso
+### Concluiu o laboratório com sucesso. Clique em **Próximo >>** para prosseguir com o próximo exercício.

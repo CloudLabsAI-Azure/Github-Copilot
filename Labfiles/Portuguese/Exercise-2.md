@@ -214,4 +214,4 @@ Não só as pessoas podem beneficiar da aprendizagem com exemplos, mas também o
 
 Neste exercício, gerou com sucesso código JavaScript e outras práticas recomendadas utilizando o GitHub Copilot e o GitHub Copilot Chat.
 
-### Concluiu o laboratório com sucesso
+### Concluiu o laboratório com sucesso. Clique em **Próximo >>** para prosseguir com o próximo exercício.
