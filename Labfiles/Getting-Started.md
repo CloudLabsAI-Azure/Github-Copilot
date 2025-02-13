@@ -50,17 +50,17 @@ GitHub Copilot is an AI-powered code completion tool that assists developers by 
 
 1. You can see a virtual machine desktop 💻 (**LABVM**) loaded on the left side of your browser. Use this virtual machine throughout the workshop to perform the lab. You can also connect to the virtual machine using any RDP client using the **LABVM** credentials provided in the **Environment** tab.
    
-   ![](../media/gettingstarted-v2-first.png)
+   ![](../media/new-githubcopilot-feb-1.png)
 
-1. Once you are in the **Environment** tab click on the **GitHub Credentials** option to get GitHub user credentials. The credentials will also be emailed to your registered email address. You can also open the Lab Guide in a separate, and full window by selecting **Split Window** from the upper right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
+1. Once you are in the **Environment (1)** tab click on the **Licenses (2)** option to get GitHub user credentials. The credentials will also be emailed to your registered email address. You can also open the Lab Guide in a separate, and full window by selecting **Split Window** from the upper right corner. Also, you can start, stop, and restart virtual machines from the **Resources** tab.
  
-   ![](../media/gettingstarted-v2-01.png)
+   ![](../media/new-githubcopilot-feb-2.png)
  
 ## Login to GitHub
 
-1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
+1. In the LABVM desktop, double click **Microsoft Edge** browser to open it.
 
-   ![](../media/Edge.png)
+   ![](../media/new-githubcopilot-feb-3.png)
 
 1. Navigate to GitHub login page using the provided URL below:
    ```

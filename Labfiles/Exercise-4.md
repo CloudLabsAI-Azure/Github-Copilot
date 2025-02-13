@@ -103,19 +103,19 @@ In this lab, you will complete the following tasks:
    - Resource Group - **Select JumpVM-RG-<inject key="Deployment-id" enableCopy="false"/> (2)**
    - Region - **Select the default region. (3)**
    - Storage Account Name - **storage<inject key="Deployment-id" enableCopy="false"/> (4)**
-   - Click on **Review + Create (5)**
+   - Click on **Review + create (5)**
 
      ![](../media/ghh1.png)
 
         > **Note:** In case, the storage account name is already fetched, use the default.
 
-1. Click on **Create**        
+1. Click on **Create**.      
       
 1. Click on **Go to Resource**.
 
      ![](../media/github7.png)
 
-1. Verify the **storage account** is created.
+1. Verify the **Storage account** is created.
 
      ![](../media/github8.png)
 

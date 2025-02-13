@@ -53,7 +53,7 @@ You will be able to complete the following tasks:
 
    ![](../media/create-project.png)
 
-1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, select the default **Download Oracle OpenJDK 23** **(4)** and click on **Create** **(5)**.
+1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, select the default **Download Oracle OpenJDK 23.0.2** **(4)** and click on **Create** **(5)**.
 
    ![](../media/Exercise-06-v2-02.png)
 
@@ -99,7 +99,11 @@ You will be able to complete the following tasks:
 
 1. In the **Sign in to GitHub** dialog box, to copy the device code and open the device activation window, click **Copy and Open**.
 
-   ![](../media/c23.png)   
+   ![](../media/c23.png) 
+
+1. A device activation window will open in your browser. Paste the device **code (1)** which you have copied in the previous step, then click **Continue (2)**.
+
+   ![](../media/c21.png)  
 
 1. Click on **Continue** on **Device Activation**.   
 
@@ -113,7 +117,7 @@ You will be able to complete the following tasks:
 
    ![](../media/c26.png)     
 
-1. In your JetBrains IDE, right-click on the **src (1)**, select **New (2)** and click on **File (3)** to create a new Java (*.java) file named **Test.java**.
+1. In your JetBrains IDE, right-click on the **src (1)**, select **New (2)** and click on **File (3)** and type **Test.java** in the window **New File** and press **Enter** to create a new Java (*.java) file named.
 
    ![](../media/ex6-test-java.png)
 
@@ -140,10 +144,10 @@ You will be able to complete the following tasks:
     ![](../media/ex6-copilot-suggestion.png)      
 
 
-      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-      > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+   > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
       <validation step="5055e2d4-be60-47f4-acab-c0dde92b4baa" />
         

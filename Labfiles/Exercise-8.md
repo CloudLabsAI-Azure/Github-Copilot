@@ -57,9 +57,7 @@ You will be able to complete the following tasks:
 
 1. Press `Ctrl+S` to save the file.
 
-1. Click on the Windows Start icon and, expand **Microsoft SQL Server Tools 20 (1)** folder and select **SQL Server Management Studio 20 (2)** .
-
-   ![](../media/hub106.png)
+1. Click on the Windows Start icon and, search **SSMS (1)** **SQL Server Management Studio 20 (2)** .
 
 1. Ensure the following details are added:
 
