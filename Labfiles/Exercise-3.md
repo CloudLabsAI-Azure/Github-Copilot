@@ -56,7 +56,7 @@ By leveraging the previously generated code, you will explore specific tools pro
 
 1. Right click on the selected code, select **Copilot (1)** and select **Editor Inline Chat (2)**.
 
-      ![](../media/app.py.png)
+      ![](../media/new-githubcopilot-feb-5.png)
 
 1. The following window prompts you to suggest any improvements or enhancements you would like to make to the code. Paste the following **comments (1)** and click > or press **Enter (2)**. Copilot will give a response, and you can review it and click **Accept (3)**. Also, you can **Discard** the suggestion as depicted in the image below.
 
@@ -78,7 +78,7 @@ By leveraging the previously generated code, you will explore specific tools pro
 
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Explain (2)**.
 
-   ![](../media/explain.png)
+   ![](../media/new-githubcopilot-feb-6.png)
 
 1. It opens the GitHub Copilot Chat on the right, offering a comprehensive explanation of the code as show below.
 
@@ -86,7 +86,7 @@ By leveraging the previously generated code, you will explore specific tools pro
 
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Fix (2)**.
 
-   ![](../media/fix.png)
+   ![](../media/new-githubcopilot-feb-7.png)
 
 1. GitHub Copilot will automatically utilize the `/fix` comment to propose potential improvements to specific parts of code for enhancement. Click on **Accept** to utilize the fixes in your code.
 
@@ -94,7 +94,7 @@ By leveraging the previously generated code, you will explore specific tools pro
 
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Generate Docs (2)**.
 
-      ![](../media/docs.png)
+      ![](../media/new-githubcopilot-feb-8.png)
 
 1. GitHub Copilot will automatically use the `/doc` comment to provide a breakdown of a specific line of code. Click on Accept to gain a deeper understanding while reviewing the code.
 
@@ -102,7 +102,7 @@ By leveraging the previously generated code, you will explore specific tools pro
 
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Generate Tests(2)**.
 
-      ![](../media/tests1.png)
+      ![](../media/new-githubcopilot-feb-9.png)
 
 1. GitHub Copilot will automatically use the `/tests` comment. Click on **Accept**.
 
@@ -117,4 +117,4 @@ By leveraging the previously generated code, you will explore specific tools pro
 ## Review
 In this lab, you learned to create a Python script for a calculator and explored GitHub Copilot tools, which streamline tasks effectively.
   
-## You have successfully completed the lab
+## You have successfully completed the lab. Click on **Next >>** to procced with next exercise.

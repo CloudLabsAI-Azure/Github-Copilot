@@ -33,7 +33,7 @@ In this lab, you will complete the following tasks:
 
 1. In the Visual Studio Code activity bar, click the **GitHub Copilot Chat** icon **(1)** on the top right. Click on **Open Chat (2)** to open the GitHub Copilot Chat window.
 
-    ![](../media/c10.png)
+    ![](../media/new-githubcopilot-feb-10.png)
 
 1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type `Write an ARM code for deploying a storage account to Azure with the code explanation.`
 
@@ -103,19 +103,19 @@ In this lab, you will complete the following tasks:
    - Resource Group - **Select JumpVM-RG-<inject key="Deployment-id" enableCopy="false"/> (2)**
    - Region - **Select the default region. (3)**
    - Storage Account Name - **storage<inject key="Deployment-id" enableCopy="false"/> (4)**
-   - Click on **Review + Create (5)**
+   - Click on **Review + create (5)**
 
      ![](../media/ghh1.png)
 
         > **Note:** In case, the storage account name is already fetched, use the default.
 
-1. Click on **Create**        
+1. Click on **Create**.      
       
 1. Click on **Go to Resource**.
 
      ![](../media/github7.png)
 
-1. Verify the **storage account** is created.
+1. Verify the **Storage account** is created.
 
      ![](../media/github8.png)
 
@@ -170,3 +170,5 @@ In this lab, you will complete the following tasks:
 ### Summary
 
 In this lab, you have employed Copilot to automatically generate code in both ARM, Terraform, and PowerShell programming languages.
+
+## You have successfully completed the lab. Click on **Next >>** to procced with next exercise.

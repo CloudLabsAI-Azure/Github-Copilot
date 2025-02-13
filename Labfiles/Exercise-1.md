@@ -131,4 +131,4 @@ You will be able to complete the following tasks:
 
 In this exercise, you have created a development container and added Copilot to the list of extensions.
 
-### You have successfully completed the lab
+### You have successfully completed the lab. Click on **Next >>** to procced with next exercise.
