@@ -35,7 +35,7 @@ In this lab, you will complete the following tasks:
 
     ![](../media/new-githubcopilot-feb-10.png)
 
-1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type `Write an ARM code for deploying a storage account to Azure with the code explanation.`
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type `Write an ARM code for deploying a storage account with Standard_LRS SKU to Azure with the code explanation.`
 
     ![](../media/hub63.png)
 
