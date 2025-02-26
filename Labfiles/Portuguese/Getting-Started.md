@@ -128,8 +128,27 @@ Sinta-se à vontade para **iniciar**, **parar** ou **reiniciar** sua máquina vi
 
    ![](../../media/skills-new-repo.png)
 
-1. Se o repositório já existir, apague o existente e execute novamente o passo acima. Para eliminar o repositório,
-siga do passo 08 ao passo 12. Na ausência de um repositório existente, passe para o passo 13.
+    > **Nota:** Se você receber o pop-up O Repositório já existe, exclua o existente e execute a etapa acima novamente. Para excluir o repositório existente, navegue até o seguinte link:
+    
+   - [Excluir o repositório](#Exclua-o-repositório)
+      
+      >**Nota:** Na ausência de um repositório existente, pule para a próxima etapa.
+
+1. Na Sua organização, selecione **Codespaces** no painel de navegação esquerdo.
+
+   ![](../../media/codespace.png)
+
+1. Desça e certifique-se de que está selecionado **Visual Studio Code**, em **Editor preference** .
+
+   ![](../../media/vscode1.png)
+
+1. Agora, clique em **Próximo** no canto inferior direito para passar para a página seguinte.
+
+Este laboratório prático demonstra como o GitHub Copilot e o GitHub Codespaces melhoram o desenvolvimento através de sugestões de código em tempo real e ambientes de cloud consistentes.
+
+## Exclua o repositório
+
+   > **Nota**: Se o repositório já estiver bifurcado, pule as etapas abaixo e prossiga com o próximo exercício.
 
 1. Navegue até ao repositório existente que deve ser eliminado
 
@@ -158,18 +177,6 @@ siga do passo 08 ao passo 12. Na ausência de um repositório existente, passe p
 1. Depois de o repositório estar criado, clique na fotografia do seu perfil e selecione **Your organizations**.
 
    ![](../../media/organization.png)
-
-1. Na Sua organização, selecione **Codespaces** no painel de navegação esquerdo.
-
-   ![](../../media/codespace.png)
-
-1. Desça e certifique-se de que está selecionado **Visual Studio Code**, em **Editor preference** .
-
-   ![](../../media/vscode1.png)
-
-1. Agora, clique em **Próximo** no canto inferior direito para passar para a página seguinte.
-
-Este laboratório prático demonstra como o GitHub Copilot e o GitHub Codespaces melhoram o desenvolvimento através de sugestões de código em tempo real e ambientes de cloud consistentes.
 
 ## Contacto de suporte
 
