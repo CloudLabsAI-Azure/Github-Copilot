@@ -150,6 +150,8 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
 ## Delete the Repository
 
+   > **Note**: If the repository is already forked, please skip the steps below and proceed with the next exercise.
+
 1. Navigate to the existing repository that must be deleted
 
    ![](../media/gs-6.png)
