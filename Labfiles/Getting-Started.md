@@ -122,6 +122,8 @@ GitHub Copilot es una herramienta de completado de código impulsada por IA que 
 
 ## Eliminar el Repositorio
 
+   > **Nota**: Si el repositorio ya está bifurcado, omita los siguientes pasos y continúe con el siguiente ejercicio.
+
 1. Navegue hasta el repositorio existente que debe ser eliminado.
 
    ![](../media/gs-6.png)
