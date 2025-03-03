@@ -4,7 +4,9 @@
 
 GitHub Copilot acelera la creación de scripts de lenguaje de programación a través de la generación de código basada en IA y herramientas inteligentes. Al analizar el contexto y los comentarios, Copilot genera rápidamente código básico y ofrece sugerencias dinámicas para mejoras y optimizaciones. Además de la generación de código, Copilot ofrece funciones avanzadas como autocompletado, expansión de código y sugerencias para mejorar el código existente o introducir nuevas funcionalidades.
 
->**Descargo de responsabilidad**: Ten en cuenta que las sugerencias proporcionadas por GitHub Copilot pueden variar para ti en comparación con las que se muestran en las instrucciones
+> **Descargo de responsabilidad:** GitHub Copilot sugerirá automáticamente todo el cuerpo de una función en texto gris. Sin embargo, la recomendación precisa podría variar.
+
+> **Nota:** Si no puede ver ninguna sugerencia de GitHub Copilot en VS Code, reinicie VS Code una vez e intente nuevamente.
 
 ## Objetivos del laboratorio
 
@@ -92,7 +94,7 @@ Al aprovechar el código generado anteriormente, explorará herramientas especí
 
       ![](../media/py7.png)
 
-1. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Generate Docs (2)**.
+1. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Generate documentacion (2)**.
 
       ![](../media/docs.png)
 
@@ -100,19 +102,23 @@ Al aprovechar el código generado anteriormente, explorará herramientas especí
 
       ![](../media/py8.png)
 
-1. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Generate Tests (2)**.
+1. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Generate pruebas (2)**.
 
       ![](../media/tests1.png)
 
 1. GitHub Copilot utilizará automáticamente el comentario `/tests `. Haga clic en **Aceptar**.
 
-      ![](../media/c9.png)
+      ![](../media/E3T2S14-0303.png)
+
+1. Haga clic en **Aceptar** de nuevo para aceptar la sugerencia. 
+
+      ![](../media/E3T2S14.1-0303.png)
 
 1. Presione `CTRL + S` para guardar el archivo.      
 
 1. Se abrirá un nuevo archivo llamado **test_app.py**, que mostrará los casos de prueba.
 
-      ![](../media/testapp7.png)
+      ![](../media/E3T2S16-0303.png)
 
 ## Revisión
 En este laboratorio, aprendió a crear un script de Python para una calculadora y exploró las herramientas de GitHub Copilot, las cuales agilizan las tareas de manera efectiva.
