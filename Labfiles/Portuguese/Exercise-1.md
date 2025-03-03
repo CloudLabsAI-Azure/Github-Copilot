@@ -97,9 +97,13 @@ Irá completar as seguintes tarefas:
 
     >**Nota**: Se a extensão GitHub Copilot não estiver instalada, clique em Instalar.
 
-1. No canto inferior direito, clique no icon e faça sign in no GitHub.
+1. Na parte superior ao lado da barra de pesquisa, clique no ícone mostrado para entrar no GitHub.
 
-   ![](../../media/c4.png)
+   ![](../../media/signin-to-githubcopilot-0303.png)
+
+1. Na janela pop-up exibida, clique em **Entrar para usar o Copilot gratuitamente**.
+
+   ![](../../media/signin-to-githubcopilot2-0303.png)
 
    > **Nota**: Se encontrar o erro: **No access to GitHub Copilot found**, entre em contato vir o email `cloudlabs-support@spektrasystems.com` para suporte.
 
