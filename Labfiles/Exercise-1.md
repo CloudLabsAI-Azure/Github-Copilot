@@ -97,9 +97,13 @@ You will be able to complete the following tasks:
 
     >**Note**: If the GitHub Copilot extension is not installed, click on Install.     
 
-1. At the bottom right corner, click on the showed icon, to sign in to GitHub.
+1. At the top next to the search bar, click on the showed icon, to sign in to GitHub.
 
-   ![](../media/c4.png)
+   ![](../media/signin-to-githubcopilot-0303.png)
+
+1. On the pop-up window that appears, click on **Sign in to Use Copilot for Free**.
+
+   ![](../media/signin-to-githubcopilot2-0303.png)
 
    > **Note**: If you encounter with error **No access to GitHub Copilot found**, please reach out to `cloudlabs-support@spektrasystems.com` for further assistance.
 
