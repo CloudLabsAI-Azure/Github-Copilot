@@ -105,7 +105,7 @@ Poderá completar as seguintes tarefas:
    - Storage Account Name - **storage<inject key="Deployment-id" enableCopy="false"/> (4)**
    - Clique em **Review + Create (5)**
 
-     ![](../../media/ghh1.png)
+     ![](../../media/custom-template-0303.png)
 
         > **Note:** In case, the storage account name is already fetched, use the default.
 
@@ -128,7 +128,7 @@ Poderá completar as seguintes tarefas:
 
 1. O GitHub Copilot Chat processará a sua pergunta e fornecerá uma resposta, com sugestões de código quando apropriado, na janela de chat.
 
-    ![](../../media/terraform.png)
+    ![](../../media/terraform-code-0303.png)
 
     > **Nota:** Eis um exemplo do que provavelmente verá; no entanto, a recomendação precisa pode variar.
 
@@ -138,7 +138,7 @@ Poderá completar as seguintes tarefas:
 
 1. Pode visualizar a resposta do GitHub Copilot no chat. Para inserir código num novo ficheiro, clique em **Reticências (...)** **(1)** e seleccione **Insert Into New File** **(2)**.
 
-   ![](../../media/terraform-new-file.png)
+   ![](../../media/terraform-code2-0303.png)
 
 1. Prima `CTRL + S` para guardar o ficheiro. Nomeie o ficheiro como `terraform.tf` e clique em **OK**
 
@@ -152,7 +152,7 @@ Poderá completar as seguintes tarefas:
 
 1. O GitHub Copilot Chat processará a sua pergunta e fornecerá uma resposta, com sugestões de código quando apropriado, na janela de chat.
 
-      ![](../../media/hub71.png)
+      ![](../../media/psscript1-0303.png)
 
     > **Nota:** Eis um exemplo do que provavelmente verá; no entanto, a recomendação precisa pode variar.
 
@@ -162,7 +162,7 @@ Poderá completar as seguintes tarefas:
 
 1. Pode visualizar a resposta do GitHub Copilot no chat. Para inserir código num novo ficheiro, clique em **Reticências (...)** **(1)** e seleccione **Insert Into New File** **(2)**.
 
-      ![](../../media/hub72.png)
+      ![](../../media/psscript2-0303.png)
 
 1. Pressione `CTRL + S` para guardar o ficheiro e verá uma recomendação para instalar a extensão `PowerShell`. Clique em Instalar. Nomeie o ficheiro como `powershell.ps1` e clique em **OK**.
 
