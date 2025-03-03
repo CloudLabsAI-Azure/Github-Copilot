@@ -4,7 +4,7 @@
 
 O GitHub Copilot acelera a criação de scripts usando linguagens de programação gerando código baseado em IA e ferramentas inteligentes. Ao analisar o contexto e os comentários, o Copilot gera código e oferece sugestões dinâmicas para melhorias e otimizações. Além da geração de código, o Copilot disponibiliza recursos avançados, como autocompletação, expansão de código e sugestões para aprimorar o código existente ou introduzir novas funcionalidades.
 
->**Aviso**: Um corpo de função inteiro será sugerido automaticamente pelo GitHub Copilot em texto cinza. Aqui está um exemplo do que você provavelmente verá; no entanto, a recomendação exata pode variar.
+>**Aviso**: Observe que as sugestões fornecidas pelo GitHub Copilot podem variar para você em comparação com as mostradas nas instruções
 
 ## Objetivos do laboratório
 
