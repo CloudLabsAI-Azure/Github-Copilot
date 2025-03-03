@@ -26,7 +26,7 @@ In this lab, you will complete the following tasks:
 
    ![](../media/name-skills.png)
 
-1. In the `skills.js` file, type the following function header:
+1. In the `skills.js` file, type the below function header and press `Enter` to see the code suggestions.
 
    ```
    // function to covert Celsius
@@ -35,12 +35,14 @@ In this lab, you will complete the following tasks:
    
    > **Note**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
-   ![](../media/py70.png)
+   ![](../media/skillsjs1-0303.png)
 
 1. Press `Tab` to accept the suggestion.
 
    ![](../media/py61.png)
 
+   > **Note**: You might need to press tab again to see the suggestions and accept it.
+  
 1. In the next line, type the following:
 
    ```
@@ -48,7 +50,7 @@ In this lab, you will complete the following tasks:
    ```
    ![](../media/py62.png)
 
-1. Press `Tab` to accept the suggestion  and then press `Ctrl + S` to save the file.
+1. Press  `Enter` and `Tab` to accept the suggestion  and then press `Ctrl + S` to save the file.
 
       ![](../media/py63.png)
 
