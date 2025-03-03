@@ -28,7 +28,7 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/name-skills.png)
 
-3. En el archivo `skills.js`, escriba el siguiente encabezado de función:
+3. En el archivo skills.js, escriba el siguiente encabezado de función y pulse `Enter` para ver las sugerencias de código.
 
    ```
    // function to covert Celsius
@@ -37,11 +37,13 @@ Será capaz de completar las siguientes tareas:
    
    > **Nota**: GitHub Copilot sugerirá automáticamente un cuerpo de función completo en texto gris. Este es un ejemplo de lo que probablemente verá; sin embargo, la recomendación precisa podría variar.
 
-   ![](../media/py70.png)
+   ![](../media/skillsjs1-0303.png)
 
 4. Presione `Tab` para aceptar la sugerencia.
 
    ![](../media/py61.png)
+
+     > **Nota**: Es posible que tenga que volver a pulsar la tecla Tab para ver las sugerencias y aceptarlas.
 
 1. En la siguiente línea, escriba lo siguiente:
 
@@ -50,7 +52,7 @@ Será capaz de completar las siguientes tareas:
    ```
    ![](../media/py62.png)
 
-1. Presione `Tab` para aceptar la sugerencia y luego presione `Ctrl + S` para guardar el archivo.
+1. Presione `Enter` y `Tab` para aceptar la sugerencia y luego presione `Ctrl + S` para guardar el archivo.
 
       ![](../media/py63.png)
 
