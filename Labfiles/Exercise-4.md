@@ -107,7 +107,7 @@ Será capaz de completar las siguientes tareas:
    - Nombre de la Cuenta de Almacenamiento - **storage<inject key="Deployment-id" enableCopy="false"/> (4)**
    - Haga clic en **Review + Create (5)**
 
-     ![](../media/c12.png)
+     ![](../media/custom-template-0303.png)
 
         > **Nota:** En caso de que se muestre un nombre de la cuenta de almacenamiento, utilice el valor predeterminado.
 
@@ -129,7 +129,7 @@ Será capaz de completar las siguientes tareas:
 
 1. GitHub Copilot Chat procesará su pregunta y proporcionará una respuesta, con sugerencias de código cuando corresponda, en la ventana de chat.
 
-    ![](../media/terraform.png)
+    ![](../media/terraform-code-0303.png)
 
     > **Nota:** Este es un ejemplo de lo que es probable que vea; sin embargo, la recomendación precisa podría variar.
     
@@ -139,7 +139,7 @@ Será capaz de completar las siguientes tareas:
    
 1. Puede ver la respuesta de GitHub Copilot en el chat. Para insertar código en un nuevo archivo, haga clic en los **puntos suspensivos (...)** **1** y seleccione **Insertar en nuevo archivo** **2**.
    
-   ![](../media/terraform-new-file.png)
+   ![](../media/terraform-code2-0303.png)
 
 1. Copie y pegue `subscription_id = "<subscription_id>"` dentro de **provider "azurerm"** como se muestra en la siguiente captura de pantalla.
 
@@ -229,7 +229,7 @@ Será capaz de completar las siguientes tareas:
 
 1. GitHub Copilot Chat procesará su pregunta y proporcionará una respuesta, con sugerencias de código cuando corresponda, en la ventana de chat.
 
-    ![](../media/hub71.png)
+    ![](../media/psscript1-0303.png)
 
     > **Nota:** Este es un ejemplo de lo que es probable que vea; sin embargo, la recomendación precisa podría variar.
     
@@ -239,7 +239,7 @@ Será capaz de completar las siguientes tareas:
 
 1. Puede ver la respuesta de GitHub Copilot en el chat. Para insertar código en un nuevo archivo, haga clic en los **puntos suspensivos (...)** y seleccione **Insert Into New File**.
 
-      ![](../media/hub72.png)
+      ![](../media/psscript2-0303.png)
 
 1. Presione `CTRL + S` para guardar el archivo y verá una recomendación para instalar la extensión `PowerShell`. Haga clic en Instalar. Nombre el archivo `powershell.ps1` y haga clic en **Aceptar**.
 
