@@ -105,7 +105,7 @@ In this lab, you will complete the following tasks:
    - Storage Account Name - **storage<inject key="Deployment-id" enableCopy="false"/> (4)**
    - Click on **Review + create (5)**
 
-     ![](../media/ghh1.png)
+     ![](../media/custom-template-0303.png)
 
         > **Note:** In case, the storage account name is already fetched, use the default.
 
@@ -127,7 +127,7 @@ In this lab, you will complete the following tasks:
 
 1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window.
 
-    ![](../media/terraform.png)
+    ![](../media/terraform-code-0303.png)
 
     > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
     
@@ -137,7 +137,7 @@ In this lab, you will complete the following tasks:
    
 1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
 
-   ![](../media/terraform-new-file.png)
+   ![](../media/terraform-code2-0303.png)
 
 1. Press `CTRL + S` to save the file. Name the file `terraform.tf` and click on **OK**
    
@@ -151,7 +151,7 @@ In this lab, you will complete the following tasks:
 
 1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
 
-      ![](../media/hub71.png)
+      ![](../media/psscript1-0303.png)
 
       > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
 
@@ -161,7 +161,7 @@ In this lab, you will complete the following tasks:
    
 1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** and select **Insert Into New File**.
 
-      ![](../media/hub72.png)
+      ![](../media/psscript2-0303.png)
 
 1. Press `CTRL + S` to save the file, and you will see a recommendation to install the `PowerShell` extension. Click on Install. Name the file `powershell.ps1` and click on **OK**.
 
