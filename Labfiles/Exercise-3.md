@@ -4,7 +4,9 @@
 
 GitHub Copilot accelerates the creation of programming language scripts through AI-driven code generation and intelligent tools. By analyzing context and comments, Copilot swiftly generates foundational code and offers dynamic suggestions for enhancements and optimizations.Beyond code generation, Copilot offers advanced features like autocompletion, code expansion, and suggestions for enhancing existing code or introducing new functionalities. 
 
->**Disclaimer**: A whole function body will be automatically suggested by GitHub Copilot in gray text. Here's an example of what you are likely to see; however, the precise recommendation could vary.
+> **Disclaimer**: GitHub Copilot will automatically suggest the entire body of a function in gray text. However, the precise recommendation may vary.
+
+> **Note**: If you can't see any GitHub Copilot hints in VS Code, restart VS Code once and try again.
 
 ## Lab objectives
 
@@ -106,13 +108,17 @@ By leveraging the previously generated code, you will explore specific tools pro
 
 1. GitHub Copilot will automatically use the `/tests` comment. Click on **Accept**.
 
-      ![](../media/c9.png)
+      ![](../media/E3T2S14-0303.png)
+
+1. Click on **Accept** again to accept the suggestion.
+
+      ![](../media/E3T2S14.1-0303.png)
 
 1. Press `CTRL + S` to save the file.       
 
 1. It will open a new file named **test_app.py**, displaying the test cases.
 
-      ![](../media/testapp7.png)
+      ![](../media/E3T2S16-0303.png)
 
 ## Review
 In this lab, you learned to create a Python script for a calculator and explored GitHub Copilot tools, which streamline tasks effectively.
