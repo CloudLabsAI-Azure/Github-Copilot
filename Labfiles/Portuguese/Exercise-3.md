@@ -4,7 +4,9 @@
 
 O GitHub Copilot acelera a criação de scripts usando linguagens de programação gerando código baseado em IA e ferramentas inteligentes. Ao analisar o contexto e os comentários, o Copilot gera código e oferece sugestões dinâmicas para melhorias e otimizações. Além da geração de código, o Copilot disponibiliza recursos avançados, como autocompletação, expansão de código e sugestões para aprimorar o código existente ou introduzir novas funcionalidades.
 
->**Aviso**: Observe que as sugestões fornecidas pelo GitHub Copilot podem variar para você em comparação com as mostradas nas instruções
+>**Isenção de responsabilidade**: todo o corpo da função será sugerido automaticamente pelo GitHub Copilot em texto cinzento. No entanto, a recomendação precisa pode variar.
+
+>**Nota**: Se não conseguir ver nenhuma sugestão do GitHub Copilot no VS Code, reinicie o VS Code uma vez e tente novamente.ções
 
 ## Objetivos do laboratório
 
@@ -106,13 +108,17 @@ Ao aproveitar o código gerado anteriormente, você explorará ferramentas espec
 
 1. O GitHub Copilot usará automaticamente o comentário `/tests`. Clique em **Accept**.
 
-      ![](../../media/c9.png)
+      ![](../../media/E3T2S14-0303.png)
+
+1. Clique em **Aceitar** novamente para aceitar a sugestão.
+
+      ![](../../media/E3T2S14.1-0303.png)
 
 1. Pressione `CTRL + S` para salvar o arquivo.       
 
 1. Isso abrirá um novo arquivo chamado **test_app.py**, exibindo os casos de teste.
 
-      ![](../../media/testapp7.png)
+      ![](../../media/E3T2S16-0303.png)
 
 ### Resumo
 
