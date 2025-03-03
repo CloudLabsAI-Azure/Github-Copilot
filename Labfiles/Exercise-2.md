@@ -6,7 +6,9 @@ While GitHub Copilot offers recommendations for many languages and frameworks, i
 
 In this lab, you will have the opportunity to experiment with and apply JavaScript with the assistance of GitHub Copilot and GitHub Copilot Chat.
 
->**Disclaimer**: Please note that the suggestions provided by GitHub Copilot may vary for you compared to those shown in the instructions.
+> **Disclaimer**: GitHub Copilot will automatically suggest the entire body of a function in gray text. However, the precise recommendation may vary.
+
+> **Note**: If you can't see any GitHub Copilot hints in VS Code, restart VS Code once and try again.
 
 ## Lab objectives
 
