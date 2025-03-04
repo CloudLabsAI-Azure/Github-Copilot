@@ -98,6 +98,8 @@ You will be able to complete the following tasks:
    ![Picture1](../media/close-editor.png)
 
 1. Open Command Prompt from the Windows search bar and navigate to the path `C:\Users\Azureuser`
+
+    ![](../media/cmd-1.png)
     
 1. Run the following command given below to clone the Accessible University GitHub repo.
 
