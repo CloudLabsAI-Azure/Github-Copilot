@@ -56,6 +56,18 @@ You will be able to complete the following tasks:
     git commit -m "files"
     ```
 
+1. Execute the command below to commit the files. Copy your GitHub user email and paste it inside the quotes.
+
+   ```
+   git config --global user.email "github_cloudlabsuser_xxxx@cloudlabsaiuser.com"
+   ```
+
+1. Run the command below to commit the files, replacing "xxxx" with the number in the email.
+
+  ```
+  git config --global user.name "github-cloudlabsuser-xxx"
+  ```
+
 1. Run the below command to push all the files to the repository :
 
     ```
