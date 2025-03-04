@@ -64,9 +64,9 @@ Podrá completar las siguientes tareas:
 
 1. Ejecute el siguiente comando para confirmar los archivos, reemplazando "xxxx" con el número del correo electrónico.
 
-  ```
-  git config --global usuario.nombre "github-cloudlabsuser-xxx"
-  ```
+   ```
+   git config --global usuario.nombre "github-cloudlabsuser-xxx"
+   ```
 
 1. Ejecute el siguiente comando para enviar todos los archivos al repositorio:
 
