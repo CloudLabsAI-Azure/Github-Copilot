@@ -64,9 +64,9 @@ You will be able to complete the following tasks:
 
 1. Run the command below to commit the files, replacing "xxxx" with the number in the email.
 
-  ```
-  git config --global user.name "github-cloudlabsuser-xxx"
-  ```
+   ```
+   git config --global user.name "github-cloudlabsuser-xxx"
+   ```
 
 1. Run the below command to push all the files to the repository :
 
