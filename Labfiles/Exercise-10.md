@@ -80,6 +80,8 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/ex-8-import-lib-1.png)
 
+  >**Nota**: Si la sugerencia no aparece, presione **Ctrl+I**, pegue los comentarios, revise las sugerencias y luego acéptelas.
+
 1. Acepte todas las sugerencias para importar las bibliotecas como se muestra en la siguiente captura de pantalla **(1)** y haga clic en el botón **Ejecutar** **(2)** para ejecutar la celda. Haga clic en `+ Código` **(3)** para agregar la nueva celda.
 
    ![](../media/ex8-add-cell-new-1.png)

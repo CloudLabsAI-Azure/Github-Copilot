@@ -56,6 +56,17 @@ Podrá completar las siguientes tareas:
     ```
     git commit -m "files"
     ```
+1. Ejecute el siguiente comando para confirmar los archivos. Copie su correo electrónico de usuario de GitHub y péguelo entre comillas.
+
+   ```
+   git config --global usuario.email "github_cloudlabsuser_xxxx@cloudlabsaiuser.com"
+   ```
+
+1. Ejecute el siguiente comando para confirmar los archivos, reemplazando "xxxx" con el número del correo electrónico.
+
+   ```
+   git config --global usuario.nombre "github-cloudlabsuser-xxx"
+   ```
 
 1. Ejecute el siguiente comando para enviar todos los archivos al repositorio:
 
