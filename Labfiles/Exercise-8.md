@@ -23,7 +23,7 @@ You will be able to complete the following tasks:
 
     ![](../media/chat-code-new.png)
 
-1. Name the file `demo.sql` and type the below comment:
+1. Name the file `demo.sql` and click **Ctrl + I** type the below comment and Click  **Accept**.
 
    ```
    -- Create a table for 5 products with product names and prices
