@@ -85,13 +85,15 @@ You will be able to complete the following tasks:
 
 1. If you get the pop-up, the site is trying to open the Visual Studio Code, then click on **Open**. It will navigate back to the **Visual Studio**.
 
-    ![Picture1](../media/clonerepo5.png)
+   ![Picture1](../media/clonerepo5.png)
 
 1. If the files are already open, go to the toolbar, click on **Files**, and then select **Close Folder**.
 
    ![Picture1](../media/close-editor.png)
 
 1. Open Command Prompt from the Windows search bar and navigate to the path `C:\Users\Azureuser`
+
+   ![Picture1](../media/cmd-1.png)
     
 1. Run the following command given below to clone the Accessible University GitHub repo.
 
