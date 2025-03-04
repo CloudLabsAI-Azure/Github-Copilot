@@ -79,7 +79,7 @@ You will be able to complete the following tasks:
 
    ![](../media/chaticon.png)
 
-1. Skip to step 9. If you have already signed in to a GitHub Account in VS Code. If not, then follow steps 5 to 7.
+1. Skip to step 8. If you have already signed in to a GitHub Account in VS Code. If not, then follow steps 5 to 7.
 
 1. Select the **Account** icon from bottom and click on **Sign in with GitHub**.
 
