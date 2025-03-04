@@ -111,6 +111,7 @@ You will be able to complete the following tasks:
 
    ![](../media/ex9-birthyear.png)
 
+   >**Note**: If the suggestion doesn't appear, press **Ctrl+I**, paste the comments, review the suggestions, and then accept them.  
    >**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
 
 1. Type the below comment, Press **Enter** to get into the next line and review the suggestion, and press **tab**  twice to get the output similar to the below image and click on **Run** button to execute the cell. 

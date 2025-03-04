@@ -23,7 +23,7 @@ You will be able to complete the following tasks:
 
      ![](../media/chat-code-new.png)
 
-1. Name the file `demo.sql` and type the below comment and press **Enter**.
+1. Name the file `demo.sql` and click **Ctrl + I** type the below comment and Click  **Accept**.
 
    ```
    -- create a table with 5 coloumns customer_id, customer_fname, customer_lname, customer_phone, customer_address
@@ -35,7 +35,7 @@ You will be able to complete the following tasks:
 
 1. Click on `Tab` and press **Enter**.
 
-1. Follow up with the rows. Type the below comment and press **Enter**.
+1. Follow up with the rows. click **Ctrl + I** type the below comment and Click  **Accept**.
 
    ```
    -- fill in 5 rows in customers table
@@ -45,7 +45,7 @@ You will be able to complete the following tasks:
 
 1. Click on `Tab` and press **Enter**.
 
-1. Let's execute the query to show the table. Type the below comment and press **Enter**.
+1. Let's execute the query to show the table. click **Ctrl + I** type the below comment and Click  **Accept**.
 
    ```
    -- show the data in customers table
