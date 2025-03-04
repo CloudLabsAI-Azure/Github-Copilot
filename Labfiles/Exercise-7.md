@@ -93,9 +93,11 @@ You will be able to complete the following tasks:
 
     ![Picture1](../media/clonerepo5.png)
 
-1. In the **Visual Studio Code terminal,** click on **(...)** **(1)** to select the **Terminal** **(2)** menu, followed by selecting **New Terminal** **(3)**. The terminal window usually opens in the lower half of your screen.
+1. If the files are already open, go to the toolbar, click on **Files**, and then select **Close Folder**.
 
-    ![Picture1](../media/new-githubcopilot-feb-24.png)
+   ![Picture1](../media/close-editor.png)
+
+1. Open Command Prompt from the Windows search bar and navigate to the path `C:\Users\Azureuser`
     
 1. Run the following command given below to clone the Accessible University GitHub repo.
 
@@ -103,9 +105,9 @@ You will be able to complete the following tasks:
    git clone https://github.com/CloudLabsAI-Azure/AU.git
     ```
 
-    ![Picture1](../media/clone.png)
+    ![Picture1](../media/github-00.png)
 
-1. Switch to the **Explorer** in the upper left corner, select **Open Folder**.
+1. Back on visual studio code switch to the **Explorer** in the upper left corner, select **Open Folder**.
    
    ![](../media/clonerepo1.png)
 
