@@ -98,6 +98,8 @@ You will be able to complete the following tasks:
 
    >**Note**: Continue clicking on **+Code** after each comment till the last task of this exercise.
 
+   >**Note**: If the suggestion doesn't appear, press **Ctrl+I**, paste the comments, review the suggestions, and then accept them. 
+
 1. Type the below comment, Press "enter" to get into the next line and review the suggestion, and press "tab" to get the output similar to the below image and click on **Run** button to execute the cell. 
 
    ```
