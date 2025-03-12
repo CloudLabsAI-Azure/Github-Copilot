@@ -47,7 +47,7 @@ In this lab, you will complete the following tasks:
 
    ![](media/authgit.png)
 
-1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the same Edge browser in a new tab.
+1. Right-click on the **Start course** given below, click on the **Copy link** (Copy link address), and navigate to the link inside LabVM in the same Edge browser in a new tab.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -110,7 +110,7 @@ In this lab, you will complete the following tasks:
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **+ (2)** button.
    
-   ![](media/labgit.png)
+   ![](media/labgitupd.png)
 
    >**Note**: If in case you have any existing running codespaces, right click on **...** existing Codespaces and then **Delete.**
 
@@ -266,11 +266,11 @@ When prompting GitHub Copilot, think of the process as having a conversation wit
    - The markdown text and resulting HTML should be saved in the component's state and updated in real-time 
    ```
 
-   ![](media/ex2-markdown.png)
+   ![](media/ex2-markdownupd.png)
 
 4. This will prompt GitHub Copilot to generate the following code in the image and produce a very simple, unstyled, but functional markdown editor. Now you can clear the contents of index.js file by clicking on **Accept**, then **Ctrl + A** and delete. Now you can proceed with the next tasks.
 
-   ![](media/skills(2).png)
+   ![](media/skillsupd.png)
 
    >**Note:** Suggestions may not be exactly as shown in the picture, but they could be similar.
 
@@ -370,6 +370,10 @@ const data = [
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-### Summary
+### Review
 
-In this lab, you have successfully generated JavaScript code and other best practices using GitHub Copilot and GitHub Copilot Chat.
+In this lab, you have completed the following:
+- Added a JavaScript file and wrote the code.
+- Pushed the code to your repository from the codespace.
+- Learnt the best practices to use GitHub Copilot.
+
