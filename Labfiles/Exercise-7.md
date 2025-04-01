@@ -125,7 +125,7 @@ You will be able to complete the following tasks:
 
    ![](../media/c29.png)
 
-1. Navigate to **File Explorer** and navigate to `C:\Users\azureuser\AU` then press **Enter**.
+1. Navigate to **File Explorer** and in search bar, type `C:\Users\azureuser\AU` then press **Enter**.
 
    ![](../media/c28.png)
 
