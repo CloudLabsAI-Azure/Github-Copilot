@@ -51,7 +51,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/create-project.png)
 
-1. No painel do novo projeto, introduza o nome do projeto como **demo-copilot** **(1)**. Selecione o idioma como **Java** **(2)** e compile o sistema como **IntelliJ** **(3)**. Para JDK, seleccione o padrão **Download Oracle OpenJDK 22** **(4)** e clique em **Create** **(5)**.
+1. No painel do novo projeto, introduza o nome do projeto como **demo-copilot** **(1)**. Selecione o idioma como **Java** **(2)** e compile o sistema como **IntelliJ** **(3)**. Para JDK, seleccione o padrão **Download Oracle OpenJDK 24** **(4)** e clique em **Create** **(5)**.
 
    ![](../../media/Exercise-06-v2-02.png)
 
