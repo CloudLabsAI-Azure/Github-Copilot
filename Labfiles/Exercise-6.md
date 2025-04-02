@@ -53,7 +53,7 @@ Haga clic en **Restart** en la ventana emergente una vez más para reiniciar el 
 
    ![](../media/create-project.png)
 
-1. En el panel de nuevo proyecto, ingrese el nombre del proyecto como **demo-copilot** **(1)**. Coloque el lenguaje como **Java** **(2)** y el sistema de compilación (Build system) como **IntelliJ** **(3)**. Para el JDK, seleccione el valor predeterminado **Download Oracle OpenJDK 23e** **(4)** y haga clic en **Create** **(5)**.
+1. En el panel de nuevo proyecto, ingrese el nombre del proyecto como **demo-copilot** **(1)**. Coloque el lenguaje como **Java** **(2)** y el sistema de compilación (Build system) como **IntelliJ** **(3)**. Para el JDK, seleccione el valor predeterminado **Download Oracle OpenJDK 24** **(4)** y haga clic en **Create** **(5)**.
 
    ![](../media/Exercise-06-v2-02.png)
 
@@ -71,9 +71,9 @@ Haga clic en **Restart** en la ventana emergente una vez más para reiniciar el 
 
    ![](../media/c18.png)
 
-1. Haga clic en **Sign in to GitHub**.
+1. Haga clic en **Sign in to GitHub Copilot**.
 
-   ![](../media/c19.png)
+   ![](../media/signin-github-copilot.png)
 
 1. En el cuadro de diálogo **Sign in to GitHub**, para copiar el código del dispositivo y abrir la ventana de activación del dispositivo, haga clic en **Copy and Open**.
 
@@ -87,7 +87,9 @@ Haga clic en **Restart** en la ventana emergente una vez más para reiniciar el 
 
    ![](../media/c21.png)
 
-1. GitHub solicitará los permisos necesarios para GitHub Copilot. Para aprobar estos permisos, haga clic en **Authorize GitHub Copilot Plugin**.
+1. GitHub solicitará los permisos necesarios para GitHub Copilot. Para aprobar estos permisos, haga clic en **Authorize GitHub Copilot for JetBrains IDEs**.
+
+   ![](../media/auth-jetbrains.png)
 
 1. Una vez que se hayan aprobado los permisos, su IDE de JetBrains mostrará una confirmación.
 
