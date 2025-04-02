@@ -51,7 +51,7 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/create-project.png)
 
-1. No painel do novo projeto, introduza o nome do projeto como **demo-copilot** **(1)**. Selecione o idioma como **Java** **(2)** e compile o sistema como **IntelliJ** **(3)**. Para JDK, seleccione o padrão **Download Oracle OpenJDK 22** **(4)** e clique em **Create** **(5)**.
+1. No painel do novo projeto, introduza o nome do projeto como **demo-copilot** **(1)**. Selecione o idioma como **Java** **(2)** e compile o sistema como **IntelliJ** **(3)**. Para JDK, seleccione o padrão **Download Oracle OpenJDK 24** **(4)** e clique em **Create** **(5)**.
 
    ![](../../media/Exercise-06-v2-02.png)
 
@@ -69,6 +69,10 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/new-githubcopilot-feb-19.png)
 
+1. Clique em **Sign in to GitHub Copilot**.
+
+   ![](../../media/signin-github-copilot.png)
+
 1. Na caixa de diálogo **Sign in to GitHub**, para copiar o código do dispositivo e abrir a janela de ativação do dispositivo, clique em **Copy and Open**.
 
    ![](../../media/ex6-copy-code.png)
@@ -82,7 +86,9 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/c21.png)
 
-1. O GitHub irá solicitar as permissões necessárias para o GitHub Copilot. Para aprovar estas permissões, clique em **Authorize GitHub Copilot Plugin**.
+1. O GitHub irá solicitar as permissões necessárias para o GitHub Copilot. Para aprovar estas permissões, clique em **Authorize GitHub Copilot for JetBrains IDEs**.
+
+   ![](../../media/auth-jetbrains.png)
 
 1. Após a aprovação das permissões, o seu IDE JetBrains irá mostrar uma confirmação.
 
