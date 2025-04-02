@@ -124,7 +124,7 @@ Poderá completar as seguintes tarefas:
 
     ![](../../media/c29.png)
 
-1. Usando o **Explorador de arquivos** navegue até `C:\Users\azureuser\AU` e pressione **Enter**.
+1. Navegue até ao **Explorador de Ficheiros** e na barra de pesquisa, escreva  `C:\Users\azureuser\AU` e prima **Enter**.
 
    ![](../../media/c28.png)
 
