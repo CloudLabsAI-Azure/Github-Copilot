@@ -22,6 +22,38 @@ You will be able to complete the following tasks:
 
    ![](../media/vs20.png)
 
+      >**Note:**  In the absence of an existing repository, skip to the next step.
+
+      >**Note:** If you receive the pop-up **The Repository already exists**, please delete the existing one and perform the above step again. To delete the existing repository, follow the below steps:
+
+      >- 1. Navigate to the existing repository that must be deleted:
+
+      ![](../media/gs-6.png)
+   
+      ![](../media/hubg1.png)
+      
+      >- Click on **Settings**.
+
+     ![](../media/hubg2.png)
+
+      >- Scroll down to the **Danger Zone** pane and click on **Delete this repository**.
+
+      ![](../media/gs-2.png)
+
+      >- Click on **I want to delete this repository**. 
+
+      ![](../media/hubg3.png)
+
+      >- Cick on **I have read and understand these effects** to accept that you have read and understood the effects.  
+
+      ![](../media/hubg4.png)
+
+      >- Give the name of the repository and click on **Delete this repository**.
+
+     ![](../media/hubg5.png)
+
+      > **Note:** Once the existing repository has been deleted, please repeat the step-02.
+      
 1. Once the repository is forked, select the **Code (1)** button and, in the **Codespaces** tab, select **Create codespace on main (2)**.
 
    ![](../media/vs6.png)
