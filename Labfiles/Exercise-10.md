@@ -1,4 +1,4 @@
-# Exercise 10: Creating a Mini Game with GitHub Copilot [Optional]
+# Exercise 10: Creating a Mini Game with GitHub Copilot
 
 ### Estimated Duration : 20 minutes
 
