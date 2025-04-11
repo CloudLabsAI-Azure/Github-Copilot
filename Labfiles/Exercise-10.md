@@ -1,4 +1,4 @@
-# Exercise 10: Working with the Copilot for Machine Learning [Optional]
+# Exercise 9: Working with the Copilot for Machine Learning [Optional]
 
 ### Estimated Duration: 30 minutes
 
