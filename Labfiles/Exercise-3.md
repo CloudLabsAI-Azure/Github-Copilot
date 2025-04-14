@@ -43,13 +43,6 @@ In this lab, you will complete the following tasks:
 
    ![](../media/image.png)   
 
-      > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-      > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-      > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-      > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-      <validation step="daa3c6b0-88cf-4049-bbff-09f42f60ec6b" />
-
 ## Task 2: Explore GitHub Copilot Tools
 
 By leveraging the previously generated code, you will explore specific tools provided by Copilot that simplifies major tasks.
