@@ -54,6 +54,8 @@ Poderá completar as seguintes tarefas:
 
 ### Tarefa 2: Auto_Completion de código com diferentes experiências
 
+   >**Nota**: Se a sugestão não aparecer ou a saída não for gerada conforme o esperado, pressione Ctrl+I. Cole os comentários, revise as sugestões e aceite-as.
+
 1. Para instalar o **Jupyter** no Visual Studio Code, siga os passos abaixo: 
    - Clique no ícone **Extensions (1)** na barra de atividades localizada no lado esquerdo da janela do Visual Studio Code.
    - No campo **"Search Extensions in Marketplace"**, digite e pesquise pela extensão **Jupyter (2)**.
@@ -104,6 +106,8 @@ Poderá completar as seguintes tarefas:
 
 ### Tarefa 3.1: Operações Matemáticas
 
+   >**Nota**: Se a sugestão não aparecer ou a saída não for gerada conforme o esperado, pressione Ctrl+I. Cole os comentários, revise as sugestões e aceite-as.
+
 1. Introduza os comentários abaixo para realizar a primeira experiência matemática que será gerar o ano de nascimento a partir da coluna da idade presente no conjunto de dados. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima “tab” para aceitar a sugestão e clique no botão **Run** para executar a célula.
 
     ```
@@ -141,6 +145,8 @@ Poderá completar as seguintes tarefas:
 
 ### Tarefa 3.2: Aprendizagem Automática
 
+   >**Nota**: Se a sugestão não aparecer ou a saída não for gerada conforme o esperado, pressione Ctrl+I. Cole os comentários, revise as sugestões e aceite-as.
+
 1. Introduza os comentários abaixo para realizar a análise de dados e estatísticas resumidas no conjunto de dados. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima **tab** para aceitar a sugestão e clique no botão **Run** para executar a célula.
 
     ```
@@ -168,17 +174,19 @@ Poderá completar as seguintes tarefas:
 
 ### Tarefa 4.1: Visualização de dados
 
+   >**Nota**: Se a sugestão não aparecer ou a saída não for gerada conforme o esperado, pressione Ctrl+I. Cole os comentários, revise as sugestões e aceite-as.
+
 1. Clique em **+Code** para abrir a nova célula e introduza os comentários abaixo para realizar as operações básicas no conjunto de dados. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima **tab** para aceitar a sugestão e clique no botão **Executar** para executar a célula.
 
     ```
-    # Perform univariate analysis on the dataset and plot the graphs
+    # Perform univariate analysis on the dataset and plot the graphs.hist
     ```
 
-   ![](../../media/ex9-basic-operation.png)
+   ![](../../media/ghvi.png)
 
 1. Assim que a execução da célula estiver concluída, obterá uma saída de representação gráfica semelhante à imagem abaixo.
 
-   ![](../../media/ex9-basic-opration-graph-output.png)
+   ![](../../media/ghvi2.png)
 
 1. Agora, digite os comentários abaixo para especificar determinados gráficos normalmente utilizados para visualização. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima **tab** para aceitar a sugestão e clique no botão **Executar** para obter o resultado como mostra a imagem abaixo.
 
@@ -211,6 +219,7 @@ Poderá completar as seguintes tarefas:
 
 ### Tarefa 4.2: Transformações de dados
 
+   >**Nota**: Se a sugestão não aparecer ou a saída não for gerada conforme o esperado, pressione Ctrl+I. Cole os comentários, revise as sugestões e aceite-as.
 
 1. Clique em **+Code** para adicionar uma nova célula e introduza os comentários abaixo para Normalização, que é o processo de escalar e centrar os recursos numéricos para terem uma média de 0 e um desvio padrão de 1, tornando-os comparáveis. ​​​​e adequados para determinados algoritmos. Prima **enter** para ir para a linha seguinte e rever a sugestão, e prima **tab** para aceitar a sugestão e clique no botão **Executar**
 
@@ -230,6 +239,8 @@ Poderá completar as seguintes tarefas:
 ### Tarefa 5: Treinar o modelo de amostra
 
 Treino de um modelo de amostra usando Random Forest.
+
+   >**Nota**: Se a sugestão não aparecer ou a saída não for gerada conforme o esperado, pressione Ctrl+I. Cole os comentários, revise as sugestões e aceite-as.
 
 >**Nota**: O treino do modelo é uma continuação da etapa dividida do teste de treino para treinar o modelo; execute primeiro a etapa de divisão do teste do comboio e depois continue com a construção do modelo.
 
