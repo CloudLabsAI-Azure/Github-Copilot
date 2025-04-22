@@ -54,6 +54,8 @@ Será capaz de completar las siguientes tareas:
 
 ### Tarea 2: Autocompletado de Código con Diferentes Experimentos
 
+   >**Nota**: Si la sugerencia no aparece o el resultado no se genera como se esperaba, presione Ctrl+I. Pegue los comentarios, revise las sugerencias y acéptelas.
+
 1. Para instalar **Jupyter**, se deben realizar los siguientes pasos dentro de Visual Studio Code:
     - Haga clic en el ícono **Extensiones (1)** en la barra de actividades presente en el lado izquierdo de la ventana de Visual Studio Code.
     - En el cuadro de búsqueda **"Buscar extensiones en Marketplace"**, escriba y busque la extensión **Jupyter (2)**.
@@ -103,6 +105,8 @@ Será capaz de completar las siguientes tareas:
 
 ### Tarea 3.1: Operaciones matemáticas
 
+   >**Nota**: Si la sugerencia no aparece o el resultado no se genera como se esperaba, presione Ctrl+I. Pegue los comentarios, revise las sugerencias y acéptelas.
+
 1. Escriba los comentarios mostrados a continuación para realizar el primer experimento matemático que sería generar el año de nacimiento a partir de la columna de edad presente en el conjunto de datos. Presione **Enter** para pasar a la siguiente línea y revisar la sugerencia, y presione **Tab** dos veces para aceptar la sugerencia y haga clic en el botón **Ejecutar** para ejecutar la celda.
 
    ```
@@ -140,6 +144,8 @@ Será capaz de completar las siguientes tareas:
 
 ### Tarea 3.2: Machine Learning
 
+   >**Nota**: Si la sugerencia no aparece o el resultado no se genera como se esperaba, presione Ctrl+I. Pegue los comentarios, revise las sugerencias y acéptelas.
+
 1. Escriba los siguientes comentarios para realizar el análisis de datos y el resumen estadístico del conjunto de datos. Presione **Enter** para pasar a la siguiente línea y revisar la sugerencia, y presione **Tab** dos veces para aceptar la sugerencia y haga clic en el botón **Ejecutar** para ejecutar la celda.
 
    ```
@@ -166,17 +172,19 @@ Será capaz de completar las siguientes tareas:
 
 ### Tarea 4.1: Visualización de Datos
 
+   >**Nota**: Si la sugerencia no aparece o el resultado no se genera como se esperaba, presione Ctrl+I. Pegue los comentarios, revise las sugerencias y acéptelas.
+
 1. Haga clic en **+ Código** para abrir la nueva celda y escriba los siguientes comentarios para realizar las operaciones básicas en el conjunto de datos. Presione **Enter** para pasar a la siguiente línea y revisar la sugerencia, y presione **Tab** dos veces para aceptar la sugerencia y haga clic en el botón **Ejecutar** para ejecutar la celda.
 
    ```
-   # Perform univariate analysis on the dataset and plot the graphs
+   # Perform univariate analysis on the dataset and plot the graphs.hist
    ```
 
-   ![](../media/ex9-basic-operation.png)
+      ![](../media/ghvi.png)
 
 1. Una vez finalizada la ejecución de la celda, obtendrá una representación gráfica de salida similar a la siguiente imagen.
 
-   ![](../media/ex9-basic-opration-graph-output.png)
+   ![](../media/ghvi2.png)
 
 1. Ahora, escriba los siguientes comentarios para especificar ciertos gráficos de uso común para la visualización. Presione **Enter** para ir a la siguiente línea y revise la sugerencia, y presione **Tab** dos veces para aceptar la sugerencia y haga click en el botón **Ejecutar** para obtener la salida como se muestra en la siguiente imagen.
 
@@ -209,6 +217,7 @@ Será capaz de completar las siguientes tareas:
 
 ### Tarea 4.2: Transformaciones de Datos
 
+   >**Nota**: Si la sugerencia no aparece o el resultado no se genera como se esperaba, presione Ctrl+I. Pegue los comentarios, revise las sugerencias y acéptelas.
 
 1. Haga clic en **+ Código** para agregar una nueva celda y escriba los comentarios siguientes para la Estandarización, que es el proceso de escalar y centrar las características numéricas para que tengan una media de 0 y una desviación estándar de 1, haciéndolas comparables y adecuadas para ciertos algoritmos. Presione **Enter** para pasar a la siguiente línea y revisar la sugerencia, y presione **Tab** dos veces para aceptar la sugerencia y haga clic en el botón **Ejecutar**
 
@@ -228,6 +237,8 @@ Será capaz de completar las siguientes tareas:
 ### Tarea 5: Entrenamiento del modelo de ejemplo
 
 Entrenamiento de un modelo de ejemplo utilizando Random Forest.
+
+   >**Nota**: Si la sugerencia no aparece o el resultado no se genera como se esperaba, presione Ctrl+I. Pegue los comentarios, revise las sugerencias y acéptelas.
 
 >**Nota**: El entrenamiento del modelo es una continuación del paso de división en entrenamiento y validación para entrenar el modelo; ejecute primero el paso de división en entrenamiento y validación y luego continúe con la construcción del modelo.
 
