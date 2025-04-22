@@ -54,7 +54,7 @@ You will be able to complete the following tasks:
 
 ### Task 2: Auto_Completion of Code with Different Experiments
 
-   >**Note**: If the suggestion doesn't appear or if the output isn't generated as expected, press **Ctrl+I**, paste the comments, review the suggestions, and then accept them. 
+   >**Note**: If the suggestion doesn't appear or if the output isn't generated as expected, press **Ctrl+I**. Paste the comments, review the suggestions, and then accept them. 
 
 1. To install the **Jupyter**, the following steps are to be performed within Visual Studio Code:
     - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
@@ -105,7 +105,7 @@ You will be able to complete the following tasks:
 
 ### Task 3.1: Mathematical Operations
 
-   >**Note**: If the suggestion doesn't appear or if the output isn't generated as expected, press **Ctrl+I**, paste the comments, review the suggestions, and then accept them. 
+   >**Note**: If the suggestion doesn't appear or if the output isn't generated as expected, press **Ctrl+I**. Paste the comments, review the suggestions, and then accept them. 
 
 1. Type the below comments to perform the first mathematical experiment would be to generate the birth year from the age column present in the dataset. Press **enter** to get into the next line and review the suggestion, and press **tab** to accept the suggestion and click on **Run** button to execute the cell.
 
@@ -145,7 +145,7 @@ You will be able to complete the following tasks:
 
 ### Task 3.2: Machine Learning
 
-   >**Note**: If the suggestion doesn't appear or if the output isn't generated as expected, press **Ctrl+I**, paste the comments, review the suggestions, and then accept them. 
+   >**Note**: If the suggestion doesn't appear or if the output isn't generated as expected, press **Ctrl+I**. Paste the comments, review the suggestions, and then accept them. 
 
 1. Type the below comments to perform the data analysis and summary statistics on dataset. Press **enter** to get into the next line and review the suggestion, and press **tab** twice to accept the suggestion and click on **Run** button to execute the cell.
 
@@ -174,7 +174,7 @@ You will be able to complete the following tasks:
 
 ### Task 4.1: Data Visualization
 
-   >**Note**: If the suggestion doesn't appear or if the output isn't generated as expected, press **Ctrl+I**, paste the comments, review the suggestions, and then accept them. 
+   >**Note**: If the suggestion doesn't appear or if the output isn't generated as expected, press **Ctrl+I**. Paste the comments, review the suggestions, and then accept them. 
 
 1. Click on **+Code** to open the new cell and type the below comments to perform the basic operations on dataset. Press **enter** to get into the next line and review the suggestion, and press **tab** twice to accept the suggestion and click on **Run** button to execute the cell.
 
