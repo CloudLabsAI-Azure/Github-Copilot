@@ -96,6 +96,8 @@ You will be able to complete the following tasks:
 
     ![](../media/c39.png)    
 
+   >**Note**: If the suggestion doesn't appear, press **Ctrl+I**, paste the comments, review the suggestions, and then accept them. 
+
 1. Now click on **+Code** and move on to the next task.
 
    
