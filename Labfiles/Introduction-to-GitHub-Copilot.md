@@ -59,30 +59,18 @@ Enterprise owners can allow some or all organizations in the enterprise to acces
 
 |                                                            | GitHub Copilot for Individuals |GitHub Copilot for Business | GitHub Copilot Enterprise |
 | ---------------------------------------------------------- | --------------------------- | ------------------------------- | ------------- |
-| Unlimited messages and interactions            |             ✓	             |      ✓                 |    ✓  |
-| Context-aware coding support and explanations   |             ✓	             |      ✓                 |    ✓  |
-| Debugging and security remediation assistance |             ✓	             |         ✓                 |    ✓  |
-| Conversations tailored to your organization’s repositories  |     ✕	             |   ✕	 |    ✓  |
-| Answers based on your organization’s knowledge base |             ✕	             |   ✕	 |    ✓  |
-| Access to knowledge from top open source repositories |             ✕	             |    ✕	 |    ✓  |
-| Pull request diff analysis         |             ✕	             |   ✕	 |    ✓  |
-| Web search powered by Bing (beta)  |             ✕	             |   ✕	 |    ✓  |
-| Real time code suggestions |             ✓	             |               ✓                 |    ✓  |
-| Comments to code |             ✓	             |               ✓                 |    ✓  |
-| Fine-tuned models (coming soon as add-on) |             ✕	             |   ✕	 |    ✓  |
-| Inline chat and prompt suggestions |             ✓	             |               ✓                 |    ✓  |
-| Slash commands and context variables |             ✓	             |               ✓                 |    ✓  |
-| Commit message generation |             ✓	             |               ✓                 |    ✓  |
-| Pull request description and summarization |             ✕	             |   ✕	 |    ✓  |
-| IDE, CLI and GitHub Mobile |             ✓	             |               ✓                 |    ✓  |
-| GitHub.com |             ✕	             |   ✕	 |    ✓  |
-| Public code filter |             ✓	             |               ✓                 |    ✓  |
-| User management |             ✕	             |  ✓                 |    ✓  |
-| Data excluded from training by default |             ✕	             |  ✓                 |    ✓  |
-| IP indemnity |             ✕	             |  ✓                 |    ✓  |
-| Content exclusions |             ✕	             |  ✓                 |    ✓  |
-| SAML SSO authentication¹ |             ✕	             |  ✓                 |    ✓  |
-| Requires GitHub Enterprise Cloud |             ✕	             |   ✕	 |    ✓  |
+| Agent Mode                         | Up to 50 per month	   |    Unlimited with GPT-4o                   |    Unlimited with GPT-4o |
+| Code review                          |✕	   |      ✓                 |    ✓  |
+| Copilot Extensions                   |      ✓                 |       ✓                 |    ✓  |
+| Inline chat                  |      ✓                 |       ✓                 |    ✓  |
+| Generate tests, docs, and more with slash commands                  |      ✓                 |       ✓                 |    ✓  |
+| Summaries for pull requests, issues, and discussions                        |✕	   |      ✓                 |    ✓  |
+| Attach knowledge bases to chat for organizational context  |             ✕	             |   ✕	 | ✕	   |
+| Slash commands and context variables                  |      ✓                 |       ✓                 |    ✓  |
+| Context-aware coding support and explanations                  |      ✓                 |       ✓                 |    ✓  |
+| Debugging and security remediation assistance                  |      ✓                 |       ✓                 |    ✓  |
+| Copilot Chat, agent mode, code review, and Copilot Extensions use premium requests, with usage varying by model                         | Up to 50 per month	   |   Up to 300 per month                  |    Up to 300 per month  |
+
 
 ### GitHub Copilot for Business Use Cases
 
