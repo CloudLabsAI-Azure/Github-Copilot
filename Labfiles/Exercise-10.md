@@ -182,7 +182,7 @@ You will be able to complete the following tasks:
    # Perform univariate analysis on the dataset and plot the graphs.hist
    ```
 
-      ![](../media/ghvi1.png)
+      ![](../media/ghvi.png)
 
 1. Once the cell run is completed, you will be getting a graphical representation output similar to the below image.
 
