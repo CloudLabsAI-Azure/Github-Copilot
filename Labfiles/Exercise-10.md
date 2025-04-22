@@ -219,6 +219,7 @@ You will be able to complete the following tasks:
 
 ### Task 4.2: Data Transformations
 
+   >**Note**: If the suggestion doesn't appear or if the output isn't generated as expected, press **Ctrl+I**. Paste the comments, review the suggestions, and then accept them. 
 
 1. Click **+Code** to add a new cell and type the below comments for Standardization which is the process of scaling and centering numeric features to have a mean of 0 and a standard deviation of 1, making them comparable and suitable for certain algorithms. Press **enter** to get into the next line and review the suggestion, and press **tab** twice to accept the suggestion and click on **Run** button
 
@@ -238,6 +239,8 @@ You will be able to complete the following tasks:
 ### Task 5: Training the sample model
 
 Training a sample model using Random Forest.
+
+   >**Note**: If the suggestion doesn't appear or if the output isn't generated as expected, press **Ctrl+I**. Paste the comments, review the suggestions, and then accept them. 
 
 >**Note**: The model training is a continuation of the train test split step to train the model; run the train test split step first and then continue with the model building.
 
