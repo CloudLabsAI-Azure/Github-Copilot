@@ -65,8 +65,10 @@ You will be able to complete the following tasks:
 1. Run the command below to commit the files, replacing "xxxx" with the number in the email.
 
    ```
-   git config --global user.name "github-cloudlabsuser-xxx"
+   git config --global user.name "odl-user-<inject key="Deployment ID" enableCopy="false"/>_clabs"
    ```
+
+   >**Note:** Ensure that your GitHub username is entered correctly.
 
 1. Run the below command to push all the files to the repository :
 

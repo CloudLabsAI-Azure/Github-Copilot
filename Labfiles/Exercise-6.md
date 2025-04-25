@@ -95,30 +95,6 @@ You will be able to complete the following tasks:
 
    ![](../media/Exercise-06-v2-04.png)
 
-1. Click **Authorize** on Copilot Chat.
-
-   ![](../media/c22.png)
-
-1. In the **Sign in to GitHub** dialog box, to copy the device code and open the device activation window, click **Copy and Open**.
-
-   ![](../media/c23.png) 
-
-1. A device activation window will open in your browser. Paste the device **code (1)** which you have copied in the previous step, then click **Continue (2)**.
-
-   ![](../media/c21.png)  
-
-1. Click on **Continue** on **Device Activation**.   
-
-   ![](../media/c20.png)   
-
-1. Click on **Authorize GitHub Copilot for JetBrains IDEs**.   
-
-   ![](../media/c25.png)    
-
-1. After the permissions have been approved, your JetBrains IDE will show a confirmation.
-
-   ![](../media/c26.png)     
-
 1. In your JetBrains IDE, right-click on the **src (1)**, select **New (2)** and click on **File (3)** and type **Test.java** in the window **New File** and press **Enter** to create a new Java (*.java) file named.
 
    ![](../media/new-githubcopilot-feb-20.png)

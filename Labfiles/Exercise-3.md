@@ -110,6 +110,8 @@ By leveraging the previously generated code, you will explore specific tools pro
 
       ![](../media/E3T2S14-0303.png)
 
+    >**Note:** If you encounter any issues, simply reselect the code and click on **Generate tests** again to retry the process.
+
 1. Click on **Accept** again to accept the suggestion.
 
       ![](../media/E3T2S14.1-0303.png)
