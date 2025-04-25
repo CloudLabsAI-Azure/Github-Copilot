@@ -95,9 +95,9 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    https://github.com/login
    ```
    
-1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
+1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
-   >**Note**: To get GitHub credentials navigate to the **Environment** tab and click on the **GitHub Credentials** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
+   >**Note**: To get GitHub credentials navigate to the **Environment** tab and click on the **GitHub Licenses** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
    
    ![](../media/github-login.png)
           
