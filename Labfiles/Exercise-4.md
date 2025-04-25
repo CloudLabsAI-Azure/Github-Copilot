@@ -61,15 +61,9 @@ In this lab, you will complete the following tasks:
 
 1.  After saving the file, open the azure portal icon from the desktop.
 
-    ![](../media/hub60.png)   
+    ![](../media/hub60.png)
 
-1. If the window opens within the existing session, click the **Profile** icon in the top-right corner and select **Sign in with a different account**.
-
-    ![](../media/hub100.png)   
-
-1. Click on **Use Another Account**.
-
-    ![](../media/c11.png)   
+1. Open a new tab in your browser and navigate to the Azure Portal at `https://portal.azure.com`.
 
 1. On the **Sign in to Microsoft Azure tab**, you will see a login screen. Enter the following email/username and then click on **Next**.
 

@@ -83,6 +83,10 @@ You will be able to complete the following tasks:
 
     ![](../media/c2.png)
 
+1. Click on **Authorize Visual-Studio-Code**.
+
+    ![](../media/loaded-repoa.png)
+
 1. Click on **Open** to open the Visual Studio Code.
 
     ![](../media/c3.png)
@@ -118,6 +122,10 @@ You will be able to complete the following tasks:
 1. Click **Continue**, once the  **Select user to authorize Visual Studio Code** tab appears in the browser.
 
     ![](../media/c5.png)
+
+1. Click on **Authorize Visual-Studio-Code**.
+
+    ![](../media/loaded-repoa.png)
 
 1. Next, once you get the popup, click on **Open**.
 
