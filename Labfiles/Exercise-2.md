@@ -79,7 +79,7 @@ In this lab, you will complete the following tasks:
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-   <validation step="6792c557-2d4b-43ce-a904-427d7a72f16d" />
+   <validation step="f970c975-7f1a-44b3-910d-b9133a65e262" />
 
 ## Review
 In this lab, you have effectively created JavaScript code and pushed it from the production branch to the main branch.
