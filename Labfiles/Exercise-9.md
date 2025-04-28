@@ -56,16 +56,10 @@ You will be able to complete the following tasks:
     git commit -m "files"
     ```
 
-1. Execute the command below to commit the files. Copy your GitHub user email and paste it inside the quotes.
+1. Execute the command below to commit the files.
 
    ```
-   git config --global user.email "github_cloudlabsuser_xxxx@cloudlabsaiuser.com"
-   ```
-
-1. Run the command below to commit the files, replacing "xxxx" with the number in the email.
-
-   ```
-   git config --global user.name "odl-user-<inject key="Deployment ID" enableCopy="false"/>_clabs"
+   git config --global user.name "odl-user-<inject key="DeploymentID" enableCopy="false"/>_clabs"
    ```
 
    >**Note:** Ensure that your GitHub username is entered correctly.
