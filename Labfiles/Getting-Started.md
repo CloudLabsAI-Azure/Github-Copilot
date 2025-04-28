@@ -62,9 +62,9 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
 
 ## Exploring Your Lab Resources
  
-To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab. Once you are in the **Environment (1)** tab click on the **Licenses (2)** option to get GitHub user credentials. The credentials will also be emailed to your registered email address.
+1. To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-   ![](../media/new-githubcopilot-feb-2.png)
+   ![](../media/Edgea.png)
 
 ## Utilizing the Split Window Feature
  
