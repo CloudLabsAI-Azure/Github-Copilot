@@ -95,7 +95,7 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    https://github.com/login
    ```
 
-1. On the **Sign in to GitHub** tab, you will see the login screen. enter your GitHub username as **odl-user-<inject key="Deployment ID" enableCopy="false"/>_clabs** **(1)**, then click on **Sign in with your identity provider** to continue **(2)**.
+1. On the **Sign in to GitHub** tab, you will see the login screen. enter your GitHub username as **odl-user-<inject key="DeploymentID" enableCopy="false"/>_clabs** **(1)**, then click on **Sign in with your identity provider** to continue **(2)**.
 
    ![](../media/github-logina.png)
 
@@ -131,10 +131,10 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    -->
 
    [![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
-   
-1. In the new tab, most of the fields will be pre-filled for you. Just make sure to change the **Owner** to **Cloudlabs-Enterprises** **(1)**, then scroll down and click on the **Create repository** **(2)** button to proceed.
 
-   ![](../media/fork.png)
+1. In the new tab, most fields will be pre-filled; just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the Repository name to **skills-copilot-codespaces-vscode-<inject key="DeploymentID" enableCopy="false"/>** **(2)** to make it unique, and then click **Create repository** **(3)** to proceed.
+
+   ![](../media/forka.png)
 
    >**Note:** If you receive the pop-up **The Repository already exists**, please delete the existing one and perform the above step again. To delete the existing repository, navigate to the following link:
       
