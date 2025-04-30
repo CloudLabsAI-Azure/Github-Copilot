@@ -101,9 +101,9 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/signin-to-githubcopilot-0303.png)
 
-1. En la ventana emergente que aparece, haga clic en **Iniciar sesión para usar Copilot gratis**.
+1. En la ventana emergente que aparece, en la página **Iniciar sesión para usar Copilot gratis**, haga clic en **Iniciar sesión**
 
-   ![](../media/signin-to-githubcopilot2-0303.png)
+   ![](../media/signin-to-githubcopilotupd1.png)
 
    > **Nota**: Si aparece el error **No access to GitHub Copilot found**, comuníquese con `cloudlabs-support@spektrasystems.com` para obtener más ayuda.
 

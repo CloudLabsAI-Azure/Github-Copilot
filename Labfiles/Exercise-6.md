@@ -67,13 +67,10 @@ Haga clic en **Restart** en la ventana emergente una vez más para reiniciar el 
 
    ![](../media/icon.png)
 
-1. Haga clic en **Tools (1)**. Haga clic en **GitHub Copilot (2)**, y luego en **Open GitHub Copilot Chat (3)**.
+1. Haga clic en **Tools (1)**. Haga clic en **GitHub Copilot (2)**, y luego en **Open GitHub Copilot Chat (3)** y haga clic en **Login to GitHub**.
 
    ![](../media/c18.png)
 
-1. Haga clic en **Sign in to GitHub Copilot**.
-
-   ![](../media/signin-github-copilot.png)
 
 1. En el cuadro de diálogo **Sign in to GitHub**, para copiar el código del dispositivo y abrir la ventana de activación del dispositivo, haga clic en **Copy and Open**.
 
