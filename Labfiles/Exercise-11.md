@@ -26,7 +26,7 @@ You will be able to complete the following tasks:
 
       >**Note:** If you receive the pop-up **The Repository already exists**, please delete the existing one and perform the above step again. To delete the existing repository, follow the below steps:
 
-      >- 1. Navigate to the existing repository that must be deleted:
+      >- Navigate to the existing repository that must be deleted:
 
       ![](../media/gs-6.png)
    
