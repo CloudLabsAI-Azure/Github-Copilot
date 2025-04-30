@@ -81,7 +81,7 @@ You will be able to complete the following tasks:
 
 1. Click on **Continue** on **Select user to authorize Visual Studio Code**.
 
-    ![](../media/c2.png)
+    ![](../media/ghssologing.png)
 
 1. Click on **Authorize Visual-Studio-Code**.
 
@@ -105,9 +105,9 @@ You will be able to complete the following tasks:
 
    ![](../media/signin-to-githubcopilot-0303.png)
 
-1. On the pop-up window that appears, click on **Sign in to Use Copilot for Free**.
+1. On the pop-up window that appears, click on **Sign in**.
 
-   ![](../media/signin-to-githubcopilot2-0303.png)
+   ![](../media/signincop.png)
 
    > **Note**: If you encounter with error **No access to GitHub Copilot found**, please reach out to `cloudlabs-support@spektrasystems.com` for further assistance.
 
