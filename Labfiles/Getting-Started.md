@@ -95,7 +95,7 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    https://github.com/login
    ```
 
-1. On the **Sign in to GitHub** tab, you will see the login screen. enter your GitHub username as **odl-user-<inject key="DeploymentID" enableCopy="false"/>_clabs** **(1)**, then click on **Sign in with your identity provider** to continue **(2)**.
+1. On the **Sign in to GitHub** tab, you will see the login screen. enter your GitHub username as **<inject key="GitHub User Name" enableCopy="true"/>_clabs** **(1)**, then click on **Sign in with your identity provider** to continue **(2)**.
 
    ![](../media/github-logina.png)
 
@@ -103,7 +103,7 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
    ![](../media/github-loginb.png)
 
-2. You'll see the **Sign in** tab. Here, enter your credentials:
+2. You'll see the **Sign in** tab. Here, enter your Azure Entra credentials:
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
@@ -117,7 +117,7 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
 1. If prompted to stay signed in, you can click **No**.
 
-1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
+1. Right-click on the **Start course** button below, select **Copy link**, and open the copied link in the Edge browser on the LabVM where you previously signed in to GitHub.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -132,7 +132,8 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
    [![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
 
-1. In the new tab, most fields will be pre-filled; just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the Repository name to **skills-copilot-codespaces-vscode-<inject key="DeploymentID" enableCopy="false"/>** **(2)** to make it unique, and then click **Create repository** **(3)** to proceed.
+1. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the Repository name to **skills-copilot-codespaces-vscode-<inject key="DeploymentID" enableCopy="false"/>** **(2)** to make it unique, and then click **Create repository** **(3)** to continue.
+
 
    ![](../media/forka.png)
 
