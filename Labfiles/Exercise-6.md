@@ -67,13 +67,9 @@ You will be able to complete the following tasks:
 
    ![](../media/icon.png)
 
-1. Click on **Tools (1)**. Click **GitHub Copilot (2)**, then click **Open GitHub Copilot Chat (3)**.
+1. Click on **Tools (1)**. Click **GitHub Copilot (2)**, then click **Open GitHub Copilot Chat (3)** and click on **Login to GitHub**
 
    ![](../media/new-githubcopilot-feb-19.png)
-
-1. Click on **Sign in to GitHub Copilot**.
-
-   ![](../media/signin-github-copilot.png)
 
 1. In the **Sign in to GitHub** dialog box, to copy the device code and open the device activation window, click **Copy and Open**.
 
