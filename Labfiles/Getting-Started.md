@@ -137,12 +137,6 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
    ![](../media/forka.png)
 
-   >**Note:** If you receive the pop-up **The Repository already exists**, please delete the existing one and perform the above step again. To delete the existing repository, navigate to the following link:
-      
-   - [Delete the Repository](#delete-the-repository)
-      
-   >**Note:**  In the absence of an existing repository, skip to the next step.
-
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
 1. Once the repository is created, click on your profile picture and then select **Your organizations**.
@@ -159,37 +153,6 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
 1. Now, click on **Next** from the lower right corner to move on to the next page.
 
-## Delete the Repository
-
-   > **Note**: If the repository is already forked, please skip the steps below and proceed with the next exercise.
-
-1. Select **Your organizations**.
-
-   ![](../media/organization.png)
-
-1. Select **Cloudlabs-Enterprise** from organizations.
-
-   ![](../media/cloudlabentr.png)
-
-1. From the **Repositories** section, navigate to the **skills-copilot-codespaces-vscode** repository.
-      
-1. Click on **Settings**.
-
-   ![](../media/ghasr1.png)
-
-1. Scroll down to the **Danger Zone** pane and click on **Delete this repository**.
-
-     ![](../media/gs-2.png)
-
-1. Click on **I want to delete this repository** and accept that you have read and understood the effects.
-
-    ![](../media/gs-3a.png)
-
-1. Give the name of the repository and click on **Delete this repository**.
-
-   ![](../media/gs-4a.png)
-
-   > **Note:** Once the existing repository has been deleted, please repeat the step-09 in the previous task.
 
 This hands-on lab demonstrates how GitHub Copilot and GitHub Codespaces enhance development through real-time code suggestions and consistent cloud environments.
 
