@@ -363,12 +363,12 @@ const data = [
 
    >**Note**: Wait about 60 seconds, then refresh your GitHub repository landing page for the next step.
 
-<validation step="4beb3a8b-c0f8-4ba4-8115-89d05107f2e5" />
-   
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="4beb3a8b-c0f8-4ba4-8115-89d05107f2e5" />
  
 ### Review
 
@@ -376,4 +376,3 @@ In this lab, you have completed the following:
 - Added a JavaScript file and wrote the code.
 - Pushed the code to your repository from the codespace.
 - Learnt the best practices to use GitHub Copilot.
-
