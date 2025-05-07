@@ -109,7 +109,7 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
    ![](../media/authgit.png)
 
-1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
+1. Click on the **Copy link** and paste it in inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -122,10 +122,9 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    }).toString()
    -->
 
-
-      ```
-      https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
-      ```
+   ```
+   https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
+   ```
 
 1. In the new tab, most of the prompts will automatically fill in for you. Leave default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
 
