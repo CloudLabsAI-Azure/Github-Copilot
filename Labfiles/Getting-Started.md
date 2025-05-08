@@ -134,8 +134,7 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
 1. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the Repository name to **skills-copilot-codespaces-vscode-<inject key="DeploymentID" enableCopy="false"/>** **(2)** to make it unique, and then click **Create repository** **(3)** to continue.
 
-
-    ![](../media/forka.png)
+   ![](../media/forka.png)
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
