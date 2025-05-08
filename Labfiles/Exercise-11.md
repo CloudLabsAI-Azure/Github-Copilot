@@ -8,69 +8,25 @@ In this exercise, you will utilize the capabilities of GitHub Copilot to constru
 
 You will be able to complete the following tasks:
 
-- Task 1: Setting up your environment
-- Task 2: Testing your GitHub Codespace
-- Task 3: Creating the game logic
+- Task 1: Testing your GitHub Codespace
+- Task 2: Creating the game logic
 
-### Task 1: Setting up your environment
+### Task 1: Testing your GitHub Codespace
 
-1. Navigate to [Mini-game-with-copilot](https://github.com/MicrosoftDocs/mslearn-challenge-project-create-mini-game-with-copilot) and click on **Fork**.
+1. Click on the Three horizontal line in the top left corner **(1)**, click **File (2)** and then click on **New Window (3)**.
 
-   ![](../media/vs2.png)
+   ![](../media/c31.png)
 
-1. Click on **Create Fork**.
+1. Click on the **ellipsis (1)** on the top, click on **Terminal (2)** and select **New Terminal (3)**.
 
-   ![](../media/vs20.png)
+   ![](../media/openterminal.png)  
 
-      >**Note:**  In the absence of an existing repository, skip to the next step.
+1. Run the following command to clone the **Mii-game-with-copilot** repository.
 
-      >**Note:** If you receive the pop-up **The Repository already exists**, please delete the existing one and perform the above step again. To delete the existing repository, follow the below steps:
+   ```
+   git clone https://github.com/MicrosoftDocs/mslearn-challenge-project-create-mini-game-with-copilot.git
+   ```
 
-      >- Navigate to the existing repository that must be deleted:
-
-      ![](../media/gs-6.png)
-   
-      ![](../media/hubg1.png)
-      
-      >- Click on **Settings**.
-
-     ![](../media/hubg2.png)
-
-      >- Scroll down to the **Danger Zone** pane and click on **Delete this repository**.
-
-      ![](../media/gs-2.png)
-
-      >- Click on **I want to delete this repository**. 
-
-      ![](../media/hubg3.png)
-
-      >- Cick on **I have read and understand these effects** to accept that you have read and understood the effects.  
-
-      ![](../media/hubg4.png)
-
-      >- Give the name of the repository and click on **Delete this repository**.
-
-     ![](../media/hubg5.png)
-
-      > **Note:** Once the existing repository has been deleted, please repeat the step-02.
-      
-1. Once the repository is forked, select the **Code (1)** button and, in the **Codespaces** tab, select **Create codespace on main (2)**.
-
-   ![](../media/vs6.png)
-
-      >**Note**: In case you encounter a pop-up prompt. Click **Open** to proceed.
-
-      ![](../media/vs7.png)
-
-1. Click on **Open** when prompted to allow Github Codespaces Extension.
-
-   ![](../media/vs25.png)
-   
-1. View the repository.
-
-   ![](../media/vs11.png)
-
-### Task 2: Testing your GitHub Codespace
 
 1. Open the **app.py** file.
 

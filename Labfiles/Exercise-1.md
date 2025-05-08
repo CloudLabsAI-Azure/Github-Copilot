@@ -81,8 +81,7 @@ You will be able to complete the following tasks:
 
 1. Click on **Continue** on **Select user to authorize Visual Studio Code**.
 
-    ![](../media/c2.png)
-
+    ![](../media/ghssologing.png)
 1. Click on **Open** to open the Visual Studio Code.
 
     ![](../media/c3.png)
