@@ -6,7 +6,7 @@ GitHub Copilot is an AI pair programmer designed to make writing code easier and
 
 **Copilot is compatible with a wide range of code editors, such as Neovim, JetBrains IDE, Visual Studio, and VS Code.**
 
-Additionally, GitHub Copilot is trained in every language that can be found in public repositories. The amount and variety of training data for each language may have an impact on the quality of recommendations you obtain.
+Additionally, GitHub Copilot is trained in every language that can be found in public repositories. The amount and variety of training data for each language may have an impact on the quality of recommendations you obtain.
 
 **GitHub Codespace** is a development environment that's hosted in the cloud. You can customize your project for GitHub Codespaces by committing configuration files to your repository (often known as Configuration-as-Code), which creates a repeatable codespace configuration for all users of your project.
 
@@ -82,6 +82,11 @@ You will be able to complete the following tasks:
 1. Click on **Continue** on **Select user to authorize Visual Studio Code**.
 
     ![](../media/ghssologing.png)
+
+1. Click on **Authorize Visual-Studio-Code**.
+
+    ![](../media/loaded-repoa.png)
+
 1. Click on **Open** to open the Visual Studio Code.
 
     ![](../media/c3.png)
@@ -100,9 +105,9 @@ You will be able to complete the following tasks:
 
    ![](../media/signin-to-githubcopilot-0303.png)
 
-1. On the pop-up window that appears, on the **Sign in to Use Copilot for Free** page, click on **Sign in**
+1. On the pop-up window that appears, click on **Sign in**.
 
-   ![](../media/signin-to-githubcopilotupd1.png)
+   ![](../media/signincop.png)
 
    > **Note**: If you encounter with error **No access to GitHub Copilot found**, please reach out to `cloudlabs-support@spektrasystems.com` for further assistance.
 
@@ -118,6 +123,10 @@ You will be able to complete the following tasks:
 
     ![](../media/c5.png)
 
+1. Click on **Authorize Visual-Studio-Code**.
+
+    ![](../media/loaded-repoa.png)
+
 1. Next, once you get the popup, click on **Open**.
 
     ![](../media/c6.png)
@@ -128,7 +137,7 @@ You will be able to complete the following tasks:
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
    > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-   <validation step="2c3e393f-eade-43e1-a96a-f8ea659b3047" />
+<validation step="2c3e393f-eade-43e1-a96a-f8ea659b3047" />
 
 ### Summary
 
