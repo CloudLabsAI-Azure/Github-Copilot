@@ -126,15 +126,14 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
    ```
 
-1. In the new tab, most of the prompts will automatically fill in for you. Leave default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
+1. In the new tab, most of the prompts will automatically fill in for you. Select **Cloudlabs-Enterprises** for the owner and enter the following as repository name:-
+```
+skills-copilot-codespaces-vscode-<inject key="Deployment-id"></inject>
+```
+
+1. Select **Private** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
 
    ![](../media/skills-new-repo.png)
-
-      >**Note:** If you receive the pop-up **The Repository already exists**, please delete the existing one and perform the above step again. To delete the existing repository, navigate to the following link:
-      
-      - [Delete the Repository](#delete-the-repository)
-      
-      >**Note:**  In the absence of an existing repository, skip to the next step.
       
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
@@ -149,38 +148,6 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
 
      ![](../media/vscode1.png)
-
-## Delete the Repository
-
-   > **Note**: If the repository is already forked, please skip the steps below and proceed with the next exercise.
-
-1. Navigate to the existing repository that must be deleted
-
-   ![](../media/gs-6.png)
-   
-   ![](../media/gs-5.png)
-      
-1. Click on **Settings**.
-
-   ![](../media/gs-1.png)
-
-1. Scroll down to the **Danger Zone** pane and click on **Delete this repository**.
-
-   ![](../media/gs-2.png)
-
-1. Click on **I want to delete this repository**. 
-
-   ![](../media/gs-3.png)
-
-1. Cick on **I have read and understand these effects** to accept that you have read and understood the effects.  
-
-   ![](../media/c1.png)
-
-1. Give the name of the repository and click on **Delete this repository**.
-
-   ![](../media/gs-4.png)
-
-      > **Note:** Once the existing repository has been deleted, please repeat the step-06 in the previous task.
 
 This hands-on lab demonstrates how GitHub Copilot and GitHub Codespaces enhance development through real-time code suggestions and consistent cloud environments.
 
