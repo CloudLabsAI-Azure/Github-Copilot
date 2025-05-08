@@ -117,7 +117,7 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
 1. If prompted to stay signed in, you can click **No**.
 
-1. Right-click on the **Start course** button below, select **Copy link**, and open the copied link in the Edge browser on the LabVM where you previously signed in to GitHub.
+1. Click on the **Copy link** and paste it in inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -130,7 +130,9 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    }).toString()
    -->
 
-   [![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
+   ```
+   https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
+   ```
 
 1. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the Repository name to **skills-copilot-codespaces-vscode-<inject key="DeploymentID" enableCopy="false"/>** **(2)** to make it unique, and then click **Create repository** **(3)** to continue.
 
