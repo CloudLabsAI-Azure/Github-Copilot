@@ -23,7 +23,7 @@ You will be able to complete the following tasks:
 
      ![](../media/chat-code-new.png)
 
-1. 1. Name the file `demo.sql` and type the below comment and press **Enter**.
+1. Name the file `demo.sql` and type the below comment and press **Enter**.
 
    ```
    -- create a table with 5 coloumns customer_id, customer_fname, customer_lname, customer_phone, customer_address
