@@ -95,7 +95,7 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    https://github.com/login
    ```
 
-1. On the **Sign in to GitHub** tab, you will see the login screen. enter your GitHub username as **<inject key="GitHub User Name" enableCopy="true"/>_clabs** **(1)**, then click on **Sign in with your identity provider** to continue **(2)**.
+1. On the **Sign in to GitHub** tab, you will see the login screen. enter your GitHub username as **<inject key="GitHub User Name" enableCopy="true"/>** **(1)**, then click on **Sign in with your identity provider** to continue **(2)**.
 
    ![](../media/github-logina.png)
 
