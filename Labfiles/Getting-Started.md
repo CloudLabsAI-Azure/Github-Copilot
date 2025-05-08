@@ -54,7 +54,7 @@ Welcome to your GitHub Copilot Innovation workshop! We've prepared a seamless en
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
    
-   ![](../media/new-githubcopilot-apr-1.png)
+   ![](../media/new-githubcopilot-feb-1.png)
 
 ### Virtual Machine & Lab Guide
  
@@ -62,15 +62,15 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
 
 ## Exploring Your Lab Resources
  
-To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab. Once you are in the **Environment (1)** tab click on the **Licenses (2)** option to get GitHub user credentials. The credentials will also be emailed to your registered email address.
+1. To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-   ![](../media/new-githubcopilot-apr-27.png)
+   ![](../media/Edgea.png)
 
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
  
-![Use the Split Window Feature](../media/new-githubcopilot-apr-2.png)
+![Use the Split Window Feature](../media/new-githubcopilot-feb-27.png)
  
 ## Utilizing the Zoom In/Out Feature
 
@@ -82,34 +82,42 @@ To adjust the zoom level for the environment page, click the A↕ : 100% icon lo
  
 Feel free to **start**, **stop**, or **restart** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-![Manage Your Virtual Machine](../media/resoursesupd.png)
+![Manage Your Virtual Machine](../media/resourses.png)
 
 ## Login to GitHub
 
-1. In the LABVM desktop, double click **Microsoft Edge** browser to open it.
+1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
 
-   ![](../media/new-githubcopilot-feb-3.png)
+   ![](../media/Edge.png)
 
 1. Navigate to GitHub login page using the provided URL below:
    ```
    https://github.com/login
    ```
-   
-1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
 
-   >**Note**: To get GitHub credentials navigate to the **Environment** tab and click on the **GitHub Licenses** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
-   
-   ![](../media/github-login.png)
-          
-1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code and click on **Verify**.
+1. On the **Sign in to GitHub** tab, you will see the login screen. enter your GitHub username as **<inject key="GitHub User Name" enableCopy="true"/>_clabs** **(1)**, then click on **Sign in with your identity provider** to continue **(2)**.
 
-   >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
+   ![](../media/github-logina.png)
 
-   >**Note:** Login through **InPrivate window** to log in if you're unable to access Outlook through a regular browser window.
+1. Click on **Continue** on the **Single sign-on to CloudLabs Organizations** page to proceed.
 
-   ![](../media/authgit.png)
+   ![](../media/github-loginb.png)
 
-1. Click on the **Copy link** and paste it in inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
+2. You'll see the **Sign in** tab. Here, enter your Azure Entra credentials:
+ 
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+ 
+       ![Enter Your Username](../media/login1.png)
+ 
+3. Next, provide your password to login:
+ 
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+ 
+      ![Enter Your Password](../media/login2.png)
+
+1. If prompted to stay signed in, you can click **No**.
+
+1. Right-click on the **Start course** button below, select **Copy link**, and open the copied link in the Edge browser on the LabVM where you previously signed in to GitHub.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -122,19 +130,13 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    }).toString()
    -->
 
-   ```
-   https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
-   ```
+   [![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
 
-1. In the new tab, most of the prompts will automatically fill in for you. Select **Cloudlabs-Enterprises** for the owner and enter the following as repository name:-
-```
-skills-copilot-codespaces-vscode-<inject key="Deployment-id"></inject>
-```
+1. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the Repository name to **skills-copilot-codespaces-vscode-<inject key="DeploymentID" enableCopy="false"/>** **(2)** to make it unique, and then click **Create repository** **(3)** to continue.
 
-1. Select **Private** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
 
-   ![](../media/skills-new-repo.png)
-      
+    ![](../media/forka.png)
+
 1. After your new repository is created, wait about 20 seconds and then refresh the page.
 
 1. Once the repository is created, click on your profile picture and then select **Your organizations**.
@@ -148,6 +150,9 @@ skills-copilot-codespaces-vscode-<inject key="Deployment-id"></inject>
 1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
 
      ![](../media/vscode1.png)
+
+1. Now, click on **Next** from the lower right corner to move on to the next page.
+
 
 This hands-on lab demonstrates how GitHub Copilot and GitHub Codespaces enhance development through real-time code suggestions and consistent cloud environments.
 

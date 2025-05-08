@@ -1,170 +1,166 @@
-# GitHub Copilot Innovation Workshop
+# Exercise 4: Using GitHub Copilot Chat to generate ARM and Terraform code with Copilot
 
-### Overall Estimated Duration: 4 Hours
+### Estimated Duration: 60 minutes
 
-## Overview
+### About GitHub Copilot Chat and Visual Studio Code
 
-The purpose of this lab is to explore how AI tools like GitHub Copilot and GitHub Codespaces enhance the development process. By providing contextual suggestions and creating consistent, cloud-hosted development environments, these tools streamline coding and improve efficiency. The lab focuses on various features and applications of GitHub Copilot, demonstrating how it can assist with real-time code completions, bug detection, and optimizations across different programming languages and development tasks.
+GitHub Copilot Chat allows you to ask coding questions and receive answers directly within the supported IDE. Copilot Chat can help you with a variety of coding-related tasks, like offering you code suggestions, providing natural language descriptions of a piece of code's functionality and purpose, generating unit tests for your code, and proposing fixes for bugs in your code. For more information, see "[About GitHub Copilot Chat](https://docs.github.com/en/copilot/github-copilot-chat/about-github-copilot-chat)."
 
-## Objective
+### Use cases for GitHub Copilot Chat
 
-By the end of this lab, you will improve your coding workflow by leveraging AI-powered tools. You will:
+There are several situations in which GitHub Copilot Chat can help with coding.
 
-- **Leverage Codespaces with VS Code for Copilot**: This hands-on exercise suggests code from comments and context, supports multiple editors and languages, and integrates with GitHub Codespaces for collaborative coding. As a result of enabling Copilot in Codespaces, you will experience increased productivity with real-time code suggestions, improved code quality, and accelerated learning and onboarding.
-- **Exploring AI-Driven Code Suggestions in JavaScript** : This hands-on exercise aims to examine how AI enhances JavaScript coding with real-time completions, bug detection, optimizations, and efficiency improvements. By enabling Copilot in a Codespace, you will experience increased productivity with real-time code suggestions while adding and writing a JavaScript file, streamlining the process of pushing code to their repository, and adhering to best practices, enhancing overall code quality and reducing errors.
-- **Exploring Python with GitHub Copilot** : This hands-on exercise aims to offer excellent suggestions for languages like Python, JavaScript, Ruby, and more, and assists with database queries. As a result of this exercise, you would have successfully added Python method code with real-time suggestions from GitHub Copilot, viewed multiple code suggestions in the Copilot tab, and pushed the refined code to their repository from the VS Code Codespace.
-- **Using GitHub Copilot Chat to generate ARM and Terraform code with Copilot** : This hands-on exercise aims to provide coding assistance directly within supported IDEs, offering code suggestions, explanations, unit tests, and bug fixes. Enabling Copilot in Codespaces will result in increased productivity with real-time code suggestions and enhanced code quality while generating ARM, Terraform and PowerShell scripts to deploy resources to Azure.
-- **Using GitHub Copilot for Code Refactoring** : This hands-on exercise aims to enhance code quality by restructuring for readability, maintainability, and performance without altering external behavior, reducing technical debt and bugs. By using GitHub Copilot to refactor the code and employing Copilot Chat with code, you enhanced the code’s quality and productivity. This exercise also facilitates better understanding of the refactored code, sped up unit test creation, and streamlined pushing code to your repository.
-- **Using IDEs such as JetBrains IntelliJ for Java** : This hands-on exercise aims to enhance Java coding in IntelliJ by offering intelligent suggestions and auto-completion, elevating productivity and code quality. Installed the GitHub Copilot plugin and created a basic Java project in IntelliJ IDEA. Utilized Copilot to get enhanced code suggestions and generate code from comments.
-- **Enhancing Web Accessibility with GitHub Copilot Chat and Accessibility Insights** : This hands-on exercise aims to accelerate coding with AI-powered suggestions, while Accessibility Insights for Web ensures inclusive, accessible web content. By completing the exercise, you have successfully set up the Accessibility Insights for Web extension in Microsoft Edge, which now allows you to effectively evaluate and address accessibility issues in web projects.
-- **Using GitHub Copilot for T-SQL and YAML Code [Optional]** : This hands-on exercise aims to leverage GitHub Copilot to generate code in T-SQL and YAML, using comments to guide its suggestions. As a result of completing the exercise, the user successfully generated a SQL query and YAML configuration using GitHub Copilot, leveraging comments to guide the AI’s assistance.
-- **Generating Documentation Using GitHub Copilot [Optional]** : This hands-on exercise aims to streamline documentation by auto-generating comments, Markdown, and ensuring consistency, enhancing project accessibility. As an outcome of this exercise, you will effectively generate documentation using GitHub Copilot
-- **Working with the Copilot for Machine Learning [Optional]** : This hands-on exercise aims to use GitHub Copilot with ML frameworks for tasks such as data preprocessing, model building, and evaluation. By the end of this exercise, you have set up a environment, experimented with code auto-completion, applied mathematical and machine learning techniques, performed data visualization and transformation, and trained a sample model.
-- **Creating a Mini Game with GitHub Copilot [Optional]** : This hands-on exercise aims to build a mini game, refining Python skills in console app development. After completing the exercise, you will have successfully set up your environment, tested your GitHub Codespace to ensure it's functioning correctly, and created the game logic, providing a fully operational setup for your project.
+ - Generating unit test cases
+ - Explaining code
+ - Proposing code fixes
+ - Answering coding questions
 
-## Pre-requisites
+In this lab, you will utilize Copilot to generate code in ARM, Terraform, and PowerShell.
 
-Fundamental knowledge of **Visual Studio Code** and popular **programming languages** such as Python, Javascript, C# etc.
+> **Disclaimer**: GitHub Copilot will automatically suggest an entire function body or code in gray text. Examples of what you'll most likely see in this exercise, but the exact suggestion may vary.
 
-## Architecture
+## Lab objectives
 
-GitHub Copilot is an AI-powered code completion tool that assists developers by suggesting code snippets and completing code based on the context provided. GitHub Copilot Chat complements this by offering an interactive chat interface where developers can ask questions and receive code suggestions and debugging assistance. Integrated with Visual Studio Code Codespaces, GitHub Copilot benefits from cloud-hosted development environments, ensuring consistency and reliability from anywhere. To enhance web development, Accessibility Insights for Web helps identify and resolve accessibility issues, ensuring inclusive web applications. GitHub Copilot supports various programming languages like Python, JavaScript, and C#, making it a versatile tool for a wide range of coding tasks.
-
-## Architecture Diagram
-
-   ![](../media/arch02.PNG)
-
-## Explanation of Components
-
-1. **GitHub Copilot**: An AI-powered code completion tool that helps developers by suggesting code snippets and completing code based on the context provided. 
-
-1. **GitHub Copilot Chat**: An interactive chat interface that allows developers to ask questions and receive code suggestions and debugging assistance from GitHub Copilot. 
-
-1. **Codespaces**: Visual Studio Code Codespaces provides cloud-hosted development environments that are accessible from anywhere, ensuring consistency and reliability.
-
-1. **Accessibility Insights for Web**: A browser extension that helps developers find and fix accessibility issues in web applications. 
-
-1. **Programming languages**: They are tools used to write instructions for computers to execute such as Python, Javascript, C# etc.
-
-# Getting Started with the Lab
-
-Welcome to your GitHub Copilot Innovation workshop! We've prepared a seamless environment for you to explore and learn GitHub Copilot Services. Let's begin by making the most of this experience:
-
-## Accessing Your Lab Environment
+In this lab, you will complete the following tasks:
  
-Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+* Task 1: Generate code by chat that uses ARM to deploy resources to Azure
+* Task 2: Generate code by chat that uses Terraform to deploy resources to Azure
+* Task 3: Generate code by chat that uses PowerShell to deploy resources to Azure
+
+### Task 1: Generate code by chat that uses ARM to deploy resources to Azure
+
+   >**Note**: If the GitHub Copilot extension is not installed, click on Install.
+
+1. In the Visual Studio Code activity bar, click the **GitHub Copilot Chat** icon **(1)** on the top right. Click on **Open Chat (2)** to open the GitHub Copilot Chat window.
+
+    ![](../media/new-githubcopilot-feb-10.png)
+
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type `Write an ARM code for deploying a storage account with Standard_LRS SKU to Azure with the code explanation.`
+
+    ![](../media/hub63.png)
+
+1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
+
+    ![](../media/hub62.png)
+
+    > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
+
+    > **Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot a question or type / for topics** text box, click the follow-up question to ask it.
+
+    > **Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
    
-   ![](../media/new-githubcopilot-feb-1.png)
+1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** and select **Insert Into New File**.
 
-### Virtual Machine & Lab Guide
- 
-Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+   ![](../media/hub67.png)
 
-## Exploring Your Lab Resources
- 
-1. To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
- 
-   ![](../media/Edgea.png)
+   ![](../media/hub61.png)
+   
+1. Press `CTRL + S` to save the file. Name the file `arm.json` and click on **OK**
 
-## Utilizing the Split Window Feature
- 
-For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
- 
-![Use the Split Window Feature](../media/new-githubcopilot-feb-27.png)
- 
-## Utilizing the Zoom In/Out Feature
+   ![](../media/arm-save.png)
 
-To adjust the zoom level for the environment page, click the A↕ : 100% icon located next to the timer in the lab environment.
+1.  After saving the file, open the azure portal icon from the desktop.
 
-![Use the Split Window Feature](../media/zoomin-out.png)
+    ![](../media/hub60.png)   
 
-## Managing Your Virtual Machine
- 
-Feel free to **start**, **stop**, or **restart** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
- 
-![Manage Your Virtual Machine](../media/resourses.png)
+1. On the **Sign in to Microsoft Azure tab**, you will see a login screen. Enter the following email/username and then click on **Next**.
 
-## Login to GitHub
-
-1. In the LABVM desktop search for **Microsoft Edge** **(1)**, click on **Microsoft Edge** **(2)** browser.
-
-   ![](../media/Edge.png)
-
-1. Navigate to GitHub login page using the provided URL below:
-   ```
-   https://github.com/login
-   ```
-
-1. On the **Sign in to GitHub** tab, you will see the login screen. enter your GitHub username as **<inject key="GitHub User Name" enableCopy="true"/>_clabs** **(1)**, then click on **Sign in with your identity provider** to continue **(2)**.
-
-   ![](../media/github-logina.png)
-
-1. Click on **Continue** on the **Single sign-on to CloudLabs Organizations** page to proceed.
-
-   ![](../media/github-loginb.png)
-
-2. You'll see the **Sign in** tab. Here, enter your Azure Entra credentials:
- 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
- 
-       ![Enter Your Username](../media/login1.png)
- 
-3. Next, provide your password to login:
- 
+
+1. Now enter the following password and click on **Sign in**.
+
    - **Password:** <inject key="AzureAdUserPassword"></inject>
- 
-      ![Enter Your Password](../media/login2.png)
 
-1. If prompted to stay signed in, you can click **No**.
+1. If you see the pop-up **Stay Signed in?**, click **No**.
 
-1. Right-click on the **Start course** button below, select **Copy link**, and open the copied link in the Edge browser on the LabVM where you previously signed in to GitHub.
+1. Select **Cancel** on the **Welcome to Azure** page.
 
-   <!-- For start course, run in JavaScript:
-   'https://github.com/new?' + new URLSearchParams({
-     template_owner: 'skills',
-     template_name: 'copilot-codespaces-vscode',
-     owner: '@me',
-     name: 'skills-copilot-codespaces-vscode',
-     description: 'My clone repository',
-     visibility: 'public',
-   }).toString()
-   -->
+    ![](../media/c13.png) 
 
-   [![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
+1. Search for **deploy(1)** and select **Deploy a custom template(2)**.
 
-1. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the Repository name to **skills-copilot-codespaces-vscode-<inject key="DeploymentID" enableCopy="false"/>** **(2)** to make it unique, and then click **Create repository** **(3)** to continue.
+     ![](../media/github2.png)
 
+1. Click on **Select a template(1)** and click on **Build your own template in the editor(2)**.
 
-    ![](../media/forka.png)
+      ![](../media/github3.png)
 
-1. After your new repository is created, wait about 20 seconds and then refresh the page.
+1. Copy and **paste(1)** the code you had earlier saved in VS code in the **Edit template** section and click on **Save(2)**.
 
-1. Once the repository is created, click on your profile picture and then select **Your organizations**.
+      ![](../media/github5.png)
 
-   ![](../media/organization.png)
+1. In the project details section, add the following details:
 
-1. In Your organization, select **Codespaces** from the left navigation pane.
+   - Subscription - **Select the default subscription (1)**
+   - Resource Group - **Select JumpVM-RG-<inject key="Deployment-id" enableCopy="false"/> (2)**
+   - Region - **Select the default region. (3)**
+   - Storage Account Name - **storage<inject key="Deployment-id" enableCopy="false"/> (4)**
+   - Click on **Review + create (5)**
 
-   ![](../media/codespace.png)
+     ![](../media/custom-template-0303.png)
 
-1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
+        > **Note:** In case, the storage account name is already fetched, use the default.
 
-     ![](../media/vscode1.png)
+1. Click on **Create**.      
+      
+1. Click on **Go to Resource**.
 
-1. Now, click on **Next** from the lower right corner to move on to the next page.
+     ![](../media/github7.png)
 
+1. Verify the **Storage account** is created.
 
-This hands-on lab demonstrates how GitHub Copilot and GitHub Codespaces enhance development through real-time code suggestions and consistent cloud environments.
+     ![](../media/github8.png)
 
-## Support Contact
+### Task 2: Generate code by chat that uses Terraform to deploy resources to Azure
 
-1. The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+1. In the Visual Studio Code activity bar, click the GitHub Copilot Chat icon to open the GitHub Copilot Chat window.
 
-   Learner Support Contacts:
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For instance, type `Write a Terraform code for deploying a storage account to Azure with the code explanation`.
 
-   - Email Support: cloudlabs-support@spektrasystems.com
-   - Live Chat Support: https://cloudlabs.ai/labs-support
+1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window.
 
-1. Now, click on Next from the lower right corner to move on to the next page.
+    ![](../media/terraform-code-0303.png)
+
+    > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
+    
+    > **Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot a question or type / for topics** text box, click the follow-up question to ask it.
+
+    > **Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
    
-## Happy Learning!!
+1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** **(1)** and select **Insert Into New File** **(2)**.
+
+   ![](../media/terraform-code2-0303.png)
+
+1. Press `CTRL + S` to save the file. Name the file `terraform.tf` and click on **OK**
+   
+      ![](../media/terraform-save.png)
+   
+### Task 3: Generate code by chat that uses PowerShell to deploy resources to Azure
+
+1. In the Visual Studio Code activity bar, click the **GitHub Copilot Chat icon** to open the GitHub Copilot Chat window.
+
+1. At the bottom of the GitHub Copilot Chat window, in the **Ask Copilot a question or type / for topics** text box, type a coding-related question, then press Enter. For example, type `Write a PowerShell script for deploying a virtual machine to Azure.`
+
+1. GitHub Copilot Chat will process your question and provide an answer, with code suggestions when appropriate, in the chat window. 
+
+      ![](../media/psscript1-0303.png)
+
+      > **Note:** Here's an example of what you are likely to see; however, the precise recommendation could vary.
+
+      > **Note**: Optionally, if GitHub Copilot Chat suggests a follow-up question above the **Ask Copilot a question or type / for topics** text box, click the follow-up question to ask it.
+
+      > **Note**:  If your question is outside the scope of GitHub Copilot Chat, it will tell you and may suggest an alternative question to ask.
+   
+1. You can view the response from GitHub Copilot in the chat. To insert code into a new file, click on **Ellipsis (...)** and select **Insert Into New File**.
+
+      ![](../media/psscript2-0303.png)
+
+1. Press `CTRL + S` to save the file, and you will see a recommendation to install the `PowerShell` extension. Click on Install. Name the file `powershell.ps1` and click on **OK**.
+
+   ![](../media/ps-save.png)
+
+### Summary
+
+In this lab, you have employed Copilot to automatically generate code in both ARM, Terraform, and PowerShell programming languages.
+
+## You have successfully completed the lab. Click on **Next >>** to procced with next exercise.
