@@ -59,7 +59,7 @@ You will be able to complete the following tasks:
 1. Execute the command below to commit the files. Copy your GitHub user email and paste it inside the quotes.
 
    ```
-   git config --global user.email "<inject key="AzureAdUserEmail" enableCopy="true"/>_clabs"
+   git config --global user.email "<inject key="AzureAdUserEmail" enableCopy="true"/>"
    ```
 
 1. Run the command below to commit the files, replacing "xxxx" with the number in the email.
