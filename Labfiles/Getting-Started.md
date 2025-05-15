@@ -54,7 +54,7 @@ Welcome to your GitHub Copilot Innovation workshop! We've prepared a seamless en
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
    
-   ![](../media/new-githubcopilot-feb-1.png)
+   ![](../media/new-githubcopilot-apr-1.png)
 
 ### Virtual Machine & Lab Guide
  
