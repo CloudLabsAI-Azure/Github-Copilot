@@ -8,37 +8,24 @@ En este ejercicio, utilizará las capacidades de GitHub Copilot para construir u
 
 Será capaz de completar las siguientes tareas:
 
-- Tarea 1: Configurar su entorno
-- Tarea 2: Probar su GitHub Codespace
-- Tarea 3: Crear la lógica del juego
+- Tarea 1: Probar su GitHub Codespace
+- Tarea 2: Crear la lógica del juego
 
-### Tarea 1: Configurar su entorno
+### Tarea 1: Probar su GitHub Codespace
 
-1. Navegue hasta [Mini-game-with-copilot](https://github.com/MicrosoftDocs/mslearn-challenge-project-create-mini-game-with-copilot) y haga clic en **Fork**.
+1. Haga clic en las tres líneas horizontales en la esquina superior izquierda **(1)**, haga clic en **File (2)** y luego haga clic en **New Window (3)**.
 
-   ![](../media/vs2.png)
+   ![](../media/c31.png)
 
-1. Haga clic en **Create fork**.
+1. Haga clic en los **puntos suspensivos (1)** en la parte superior, haga clic en **Terminal (2)** y seleccione **New terminal (3)**.
 
-   ![](../media/vs20.png)
+   ![](../media/openterminal.png)  
 
-1. Una vez bifurcado el repositorio, seleccione el botón **Code (1)** y, en la pestaña **Codespaces**, seleccione **Create codespace on main (2)**.
+1. Ejecute el siguiente comando para clonar el repositorio **Mini-game-with-copilot**.
 
-   ![](../media/vs6.png)
-
-      >**Nota**: En caso de que aparezca un mensaje emergente. Haga clic en **Abrir** para continuar.
-
-      ![](../media/vs7.png)
-
-1. Haga clic en **Abrir** cuando se le solicite que permita la extensión Github Codespaces.
-
-   ![](../media/vs25.png)
-   
-1. Observe el repositorio.
-
-   ![](../media/vs11.png)
-
-### Tarea 2: Probar su GitHub Codespace
+   ```
+   git clone https://github.com/MicrosoftDocs/mslearn-challenge-project-create-mini-game-with-copilot.git
+   ```
 
 1. Abra el archivo **app.py**.
 

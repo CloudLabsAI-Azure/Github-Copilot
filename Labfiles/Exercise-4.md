@@ -65,14 +65,6 @@ Será capaz de completar las siguientes tareas:
 
     ![](../media/hub60.png)   
 
-1. Si la ventana se abre dentro de la sesión existente, haga clic en el ícono **Perfil** en la esquina superior derecha y seleccione **Sign in with a different account**.
-
-    ![](../media/hub100.png)   
-
-1. Haga clic en **Use Another Account**.
-
-    ![](../media/c11.png)   
-
 1. En la pestaña **Sign in to Microsoft Azure**, verá una pantalla de inicio de sesión. Ingrese el siguiente correo electrónico/nombre de usuario y luego haga clic en **Next**.
 
    - **Correo electrónico/Nombre de usuario:** <inject key="AzureAdUserEmail"></inject>
@@ -141,85 +133,10 @@ Será capaz de completar las siguientes tareas:
    
    ![](../media/terraform-code2-0303.png)
 
-1. Copie y pegue `subscription_id = "<subscription_id>"` dentro de **provider "azurerm"** como se muestra en la siguiente captura de pantalla.
 
-   ![](../media/c15.png)
-
-    >**Nota:** Reemplace `<subscription_id >` con el valor real. Para obtener el ID de suscripción, navegue a `portal.azure.com`, vaya a su grupo de recursos y copie el ID.
-
-     ![](../media/c16.png)
-
-1. Complete los detalles a continuación para el campo correspondiente:
-
-   - Nombre del Grupo de Recursos - **JumpVM-RG-<inject key="Deployment-id" enableCopy="false"/>** **(1)**
-   - Región - **East US** **(2)**
-   - Nombre de la Cuenta de Almacenamiento - **storagenew<inject key="Deployment-id" enableCopy="false"/>** **(3)**
-
-       ![](../media/clone90.png)
-     
 1. Presione `CTRL + S` para guardar el archivo. Asigne un nombre al archivo `terraform.tf` y haga clic en **OK**
    
       ![](../media/terraform-save.png)
-
-1. Haga clic en los **puntos suspensivos (...) (1)** en la parte superior, seleccione **Terminal (2)** y haga clic en **Nuevo terminal (3).**
-
-1. Ejecute el siguiente comando para inicializar un directorio de trabajo y descargar los complementos y módulos del proveedor necesarios.
-
-    ```
-    terraform init
-    ```   
-
-1. Ejecute el siguiente comando para iniciar sesión en Azure
-
-    ```
-    az login
-    ```
-   * Nombre de usuario: <inject key="AzureAdUserEmail"></inject>
-
-   * Contraseña: <inject key="AzureAdUserPassword"></inject>
-       
-1. Ejecute el siguiente comando para crear un plan de ejecución, el cual le permite obtener una vista previa de los cambios que Terraform planea realizar en su infraestructura.
-
-    ```
-    terraform plan
-    ```   
-
-1. Ejecute el siguiente comando para importar el grupo de recursos existente
-
-    ```
-    terraform import azurerm_resource_group.example /subscriptions/<subscription_id>/resourceGroups/JumpVM-RG-<Deployment-id>
-    ```   
-
-     >**Nota:** Reemplace `<subscription_id >` con el valor real. Para obtener el ID de suscripción, navegue a `portal.azure.com`, vaya a su grupo de recursos y copie el ID.
-
-      ![](../media/c16.png)
-
-     > **Nota:** Reemplace `<Deployment-id >` con el ID real. Para obtener el Deployment-id, navegue a la pestaña **Detalles del entorno** en la máquina virtual y copie el DID.
-
-     > **Nota:** Si recibe un error como éste: 
-      **Prepared azurerm_resource_group for import
-      Error: Resource already managed by Terraform. Terraform is already managing a remote object for azurerm_resource_group.example. To import to this address you must first remove the existing object from the state.**
-
-      - Ejecute este comando `terraform state rm azurerm_resource_group.example`
-      - Vuelva a ejecutar el comando de importación `terraform import azurerm_resource_group.example /subscriptions/<subscription_id>/resourceGroups/JumpVM-RG-<Deployment-id >`
-
-1. Ejecute el siguiente comando para ejecutar acciones planificadas, creando o actualizando recursos de infraestructura.
-
-    ```
-    terraform apply
-    ```   
-
-     > **Nota:** Escriba **yes** cuando se le solicite.
-
-1. Una vez que el comando **terraform apply** se haya ejecutado correctamente, navegue a `portal.azure.com`.
-
-1. Busque **storage (1)** y seleccione **Storage Accounts (2)**.
-
-    ![](../media/clone3.png)
-  
-1. Verifique que **storage<inject key="Deployment-id" enableCopy="false"/>** y **storagenew<inject key="Deployment-id" enableCopy="false"/>** se hayan creado.
-
-    ![](../media/c42.png)
    
 ### Tarea 3: Generar código mediante chat que use PowerShell para implementar recursos en Azure
 
