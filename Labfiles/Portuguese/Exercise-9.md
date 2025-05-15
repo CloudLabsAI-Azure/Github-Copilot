@@ -57,6 +57,18 @@ Poderá completar as seguintes tarefas:
     ```
     git commit -m "files"
     ```
+    
+1. Execute o comando abaixo para enviar os arquivos. Copie seu e-mail de usuário do GitHub e cole-o entre aspas.
+
+   ```
+   git config --global user.email "<inject key="AzureAdUserEmail" enableCopy="true"/>"
+   ```
+
+1. Execute o comando abaixo para confirmar os arquivos, substituindo "xxxx" pelo número no e-mail.
+
+   ```
+   git config --global user.name "<inject key="GitHub User Name" enableCopy="true"/>_clabs"
+   ```
 
 1. Execute o seguinte comando para enviar (push) todos os arquivos para o repositório:
 

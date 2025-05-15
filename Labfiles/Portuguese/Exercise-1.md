@@ -83,6 +83,10 @@ Irá completar as seguintes tarefas:
 
    ![](../../media/c2.png)
 
+1. Clique em **Authorize Visual-Studio-Code**
+
+   ![](../../media/loaded-repoa.png)
+
 1. Clique em **Open** para abrir o Visual Studio Code
 
    ![](../../media/c3.png)
@@ -101,9 +105,9 @@ Irá completar as seguintes tarefas:
 
    ![](../../media/signin-to-githubcopilot-0303.png)
 
-1. Na janela pop-up exibida, clique em **Entrar para usar o Copilot gratuitamente**.
+8. Na janela pop-up que aparece, na página **Sign in to Use Copilot for Free**, clique em **Sign in**
 
-   ![](../../media/signin-to-githubcopilot2-0303.png)
+   ![](../../signincop.png)
 
    > **Nota**: Se encontrar o erro: **No access to GitHub Copilot found**, entre em contato vir o email `cloudlabs-support@spektrasystems.com` para suporte.
 
@@ -116,6 +120,10 @@ Irá completar as seguintes tarefas:
 1. Clique em **Continue** para autorizar o Visual Studio Code.
 
    ![](../../media/c5.png)
+
+1. Clique em **Authorize Visual-Studio-Code**
+
+
 
 1. Em seguida, clique em **Open** para abrir o Visual Studio Code.
 

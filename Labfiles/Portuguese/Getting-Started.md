@@ -48,42 +48,41 @@ O GitHub Copilot é uma ferramenta de conclusão de código com tecnologia de IA
 
 # Introdução ao laboratório
 
-Bem-vindo ao workshop de inovação do GitHub Copilot! Preparamos um ambiente perfeito para você explorar e aprender GitHub Copilot Services. Vamos começar aproveitando ao máximo esta experiência:
+Bem-vindo ao workshop de inovação do GitHub Copilot! Preparamos um ambiente integrado para você explorar e aprender sobre os Serviços do GitHub Copilot. Vamos começar aproveitando ao máximo esta experiência:
 
 ## Acessando seu ambiente de laboratório
- 
-Quando você estiver pronto para começar, sua máquina virtual e o guia de laboratório estarão ao seu alcance no navegador da web.
-   
-   ![](../../media/30-10-24(1).png)
 
-### Máquina Virtual e Guia de Laboratório
- 
-Sua máquina virtual é seu carro-chefe durante todo o workshop. O guia de laboratório é o seu roteiro para o sucesso.
+Quando estiver pronto para começar, sua máquina virtual e o guia de laboratório estarão ao seu alcance no seu navegador da web.
+
+   ![](../../media/ghport.png)
+
+### Guia de Máquina Virtual e Laboratório
+
+Sua máquina virtual é sua força motriz durante todo o workshop. O guia do laboratório é o seu roteiro para o sucesso.
 
 ## Explorando os recursos do seu laboratório
- 
-Para entender melhor os recursos e credenciais do seu laboratório, navegue até a guia **Ambiente**. Quando estiver na guia **Ambiente (1)**, clique na opção **Licenses (2)** para obter credenciais de usuário do GitHub. As credenciais também serão enviadas para o seu endereço de e-mail registrado.
- 
-   ![](../../media/new-githubcopilot-feb-30.png)
 
-## Utilizando o recurso de janela dividida
- 
-Por conveniência, você pode abrir o guia de laboratório em uma janela separada selecionando o botão **Dividir janela** no canto superior direito.
- 
-![Use o recurso de janela dividida](../../media/new-githubcopilot-feb-32.png)
- 
-## Guia de laboratório Aumentar/diminuir zoom
- 
-Para ajustar o nível de zoom da página do ambiente, clique no ícone **A↕ : 100%** localizado próximo ao cronômetro no ambiente do laboratório.
+1. Para entender melhor os recursos e credenciais do seu laboratório, navegue até a aba **Ambiente**.
 
-   ![](../../media/image177.png)
+   ![](../../media/ghport3.png)
 
-## Gerenciando sua máquina virtual
- 
-Sinta-se à vontade para **iniciar**, **parar** ou **reiniciar** sua máquina virtual conforme necessário na guia **Recursos**. Sua experiência está em suas mãos!
- 
-![Gerencie sua máquina virtual](../../media/new-githubcopilot-feb-31.png)
+## Utilizando o recurso de janela dividida...
 
+1. Para sua conveniência, você pode abrir o guia do laboratório em uma janela separada selecionando o botão **Dividir janela** no canto superior direito.
+
+   ![](../../media/ghport2.png)
+
+## Usando a função Zoom In/Out
+
+Para ajustar o nível de zoom da página do ambiente, clique no ícone A↕: 100%, localizado ao lado do cronômetro no ambiente de laboratório.
+
+   ![](../../media/ghport5.png)
+
+## Gerencie sua máquina virtual
+
+Sinta-se à vontade para **iniciar**, **parar** ou **reiniciar** sua máquina virtual conforme necessário na aba **Recursos**. Sua experiência está em suas mãos!
+
+   ![](../../media/ghport4.png)
 
 ## Iniciar sessão no GitHub
 
@@ -97,19 +96,30 @@ Sinta-se à vontade para **iniciar**, **parar** ou **reiniciar** sua máquina vi
     https://github.com/login
     ```
 
-1. No separador **Sign in to GitHub**, verá o ecrã de login. Neste ecrã, insira o seguinte **Username or email address** **(1)** e **Password** **(2)**. De seguida, clique em **Sign in** **(3)**.
+1. Na aba **Fazer login no GitHub**, você verá a tela de login. Insira seu nome de usuário do GitHub como **<inject key="GitHub User Name" enableCopy="true"/>** **(1)** e clique em **Sign in with your identity provider** para continuar **(2)**.
 
-    >**Nota**: Para obter as credenciais do GitHub, navegue até ao separador **Ambiente** e clique na opção **GitHub Credentials** para visualizar os pares de valores-chave do **GitHub UserEmail** e **GitHub Password**. Pode utilizar os botões de cópia na coluna de ações para copiar os valores instantaneamente. Em alternativa, sugere-se que os valores sejam copiados para um bloco de notas para facilitar o acesso.
+   ![](../../media/github-logina.png)
 
-   ![](../../media/github-login.png)
+1. Clique em **Continue** na página **Single sign-on to CloudLabs Organizations** para prosseguir.
 
-1. De seguida, para obter o código de autenticação, inicie sessão no Outlook (https://outlook.office365.com/mail/) com as credenciais git no separador Ambiente do passo anterior. Depois de iniciar sessão no Outlook, encontre o e-mail recente que contém o código de verificação. Introduza o código de verificação e clique em **Verify**.
+   ![](../../media/github-loginb.png)
 
-    >**Nota:** O e-mail que contém o código de verificação pode, por vezes, infiltrar-se nas pastas de ficheiros/spam do seu Outlook.
+1. Você verá a aba **Sign in**. Insira suas credenciais do Azure Enterprise:
 
-   ![](../../media/authgit.png)
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
-1. Clique com o botão direito do rato em **Start course** fornecido abaixo, clique em **Copiar link** e navegue até ao link dentro do LabVM no navegador Edge onde fez login no GitHub nos passos anteriores.
+       ![Enter Your Username](../../media/login1.png)
+
+1. Em seguida, forneça sua senha para fazer login:
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+      ![Enter Your Password](../../media/login2.png)
+
+1. Se solicitado a permanecer conectado, você pode clicar em **No**
+
+
+1. Clique em **Copiar link** e cole-o dentro do LabVM no navegador Edge onde você fez login no GitHub nas etapas anteriores.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -122,17 +132,19 @@ Sinta-se à vontade para **iniciar**, **parar** ou **reiniciar** sua máquina vi
    }).toString()
    -->
 
-   [![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
+   ```
+   https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
+   ```
 
-1. Na nova guia, a maioria dos avisos serão preenchidos automaticamente para si. Deixe o padrão para o proprietário, pois já fez login no GitHub para alojar o repositório **(1)**. Selecione **Public** **(2)** e clique no botão **Create repository** **(3)** na parte inferior do formulário.
+1. Na nova aba, a maioria dos campos estará pré-preenchida. Basta atualizar o **Owner** para **Cloudlabs-Enterprises** **(1)**, alterar o nome do Repositório para **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>** **(2)** para torná-lo exclusivo e clicar em **Create repository** **(3)** para continuar.
 
-   ![](../../media/skills-new-repo.png)
+   ![](../../media/forka.png)
 
-    > **Nota:** Se você receber o pop-up O Repositório já existe, exclua o existente e execute a etapa acima novamente. Para excluir o repositório existente, navegue até o seguinte link:
-    
-   - [Excluir o repositório](#Exclua-o-repositório)
-      
-      >**Nota:** Na ausência de um repositório existente, pule para a próxima etapa.
+1. Depois que seu novo repositório for criado, aguarde cerca de 20 segundos e atualize a página.
+
+1. Depois de o repositório estar criado, clique na fotografia do seu perfil e selecione **Your organizations**.
+
+   ![](../../media/organization.png)
 
 1. Na Sua organização, selecione **Codespaces** no painel de navegação esquerdo.
 
@@ -145,38 +157,6 @@ Sinta-se à vontade para **iniciar**, **parar** ou **reiniciar** sua máquina vi
 1. Agora, clique em **Próximo** no canto inferior direito para passar para a página seguinte.
 
 Este laboratório prático demonstra como o GitHub Copilot e o GitHub Codespaces melhoram o desenvolvimento através de sugestões de código em tempo real e ambientes de cloud consistentes.
-
-## Exclua o repositório
-
-   > **Nota**: Se o repositório já estiver bifurcado, pule as etapas abaixo e prossiga com o próximo exercício.
-
-1. Navegue até ao repositório existente que deve ser eliminado
-
-   ![](../../media/gs-6.png)
-
-   ![](../../media/gs-5.png)
-
-1. Clique em **Settings**.
-
-   ![](../../media/gs-1.png)
-
-1. Desça até ao painel **Danger Zone** e clique em **Delete this repository**.
-
-   ![](../../media/gs-2.png)
-
-1. Clique em **I want to delete this repository**.
-
-   ![](../../media/gs-3.png)
-
-1. Clique em **I have read and understand these effects**, para aceitar que leu e aceitou os efeitos.
-
-   ![](../../media/c1.png)
-
-1. Após a criação do seu novo repositório, aguarde cerca de 20 segundos e atualize a página.
-
-1. Depois de o repositório estar criado, clique na fotografia do seu perfil e selecione **Your organizations**.
-
-   ![](../../media/organization.png)
 
 ## Contacto de suporte
 

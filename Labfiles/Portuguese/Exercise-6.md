@@ -69,10 +69,6 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/new-githubcopilot-feb-19.png)
 
-1. Clique em **Sign in to GitHub Copilot**.
-
-   ![](../../media/signin-github-copilot.png)
-
 1. Na caixa de diálogo **Sign in to GitHub**, para copiar o código do dispositivo e abrir a janela de ativação do dispositivo, clique em **Copy and Open**.
 
    ![](../../media/ex6-copy-code.png)

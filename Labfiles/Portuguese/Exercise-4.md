@@ -63,14 +63,6 @@ Poderá completar as seguintes tarefas:
 
       ![](../../media/hub60.png)   
 
-1. Se a janela abrir dentro da sessão existente, clique no ícone de **Profile** no canto superior direito e selecione **Sign in with a different account**.
-
-    ![](../../media/hub100.png)   
-
-1. Clique em **Use Another Account**.
-
-    ![](../../media/c11.png)   
-
 1. Na guia **Sign in to Microsoft Azure tab**, você verá uma tela de login. Insira o seguinte e-mail/nome de usuário e clique em **Next**.
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
