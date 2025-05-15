@@ -83,6 +83,10 @@ Será capaz de completar las siguientes tareas:
 
     ![](../media/c2.png)
 
+1. Haga clic en **Authorize Visual-Studio-Code**
+
+    ![](../media/loaded-repoa.png)  
+
 1. Haga clic en **Open** para abrir Visual Studio Code.
 
     ![](../media/c3.png)
@@ -118,6 +122,10 @@ Será capaz de completar las siguientes tareas:
 10. Haga clic en **Continue** una vez que aparezca la pestaña **Select user to authorize Visual Studio Code** en el navegador.
 
     ![](../media/c5.png)
+
+1. Haga clic en **Authorize Visual-Studio-Code**
+
+    ![](../media/loaded-repoa.png)  
 
 11. A continuación, cuando aparezca la ventana emergente, haga clic en **Open**
 

@@ -58,15 +58,15 @@ Podrá completar las siguientes tareas:
     ```
 1. Ejecute el siguiente comando para confirmar los archivos. Copie su correo electrónico de usuario de GitHub y péguelo entre comillas.
 
-   ```
-   git config --global usuario.email "github_cloudlabsuser_xxxx@cloudlabsaiuser.com"
-   ```
+    ```
+    git config --global user.email "<inject key="AzureAdUserEmail" enableCopy="true"/>""
+    ```
 
-1. Ejecute el siguiente comando para confirmar los archivos, reemplazando "xxxx" con el número del correo electrónico.
+1. Ejecute el siguiente comando para confirmar los archivos.
 
-   ```
-   git config --global usuario.nombre "github-cloudlabsuser-xxx"
-   ```
+    ```
+    git config --global user.name "<inject key="GitHub User Name" enableCopy="true"/>_clabs"
+    ```
 
 1. Ejecute el siguiente comando para enviar todos los archivos al repositorio:
 
