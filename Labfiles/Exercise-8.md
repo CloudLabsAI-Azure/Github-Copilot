@@ -125,4 +125,3 @@ You will be able to complete the following tasks:
 
 In this exercise, you have successfully generated code for SQL and YAML using comments with the help of GitHub Copilot.
 
-## You have successfully completed the lab. Click on **Next >>** to procced with next exercise.

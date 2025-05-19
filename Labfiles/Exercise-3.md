@@ -116,4 +116,3 @@ By leveraging the previously generated code, you will explore specific tools pro
 ## Review
 In this lab, you learned to create a Python script for a calculator and explored GitHub Copilot tools, which streamline tasks effectively.
   
-## You have successfully completed the lab. Click on **Next >>** to procced with next exercise.

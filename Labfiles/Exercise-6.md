@@ -156,5 +156,3 @@ You will be able to complete the following tasks:
 ### Summary
 
 In this exercise, you have successfully configured the JetBrains IntelliJ Idea IDE for Java, installed the GitHub Copilot plugin, and explored the basic Java code that produced the suggestions using Copilot.
-
-## You have successfully completed the lab. Click on **Next >>** to procced with next exercise.

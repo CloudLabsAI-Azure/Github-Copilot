@@ -84,4 +84,3 @@ In this lab, you will complete the following tasks:
 ## Review
 In this lab, you have effectively created JavaScript code and pushed it from the production branch to the main branch.
 
-## You have successfully completed the lab. Click on **Next >>** to procced with next exercise.

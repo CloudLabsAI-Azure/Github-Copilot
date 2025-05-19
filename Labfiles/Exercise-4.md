@@ -171,4 +171,3 @@ In this lab, you will complete the following tasks:
 
 In this lab, you have employed Copilot to automatically generate code in both ARM, Terraform, and PowerShell programming languages.
 
-## You have successfully completed the lab. Click on **Next >>** to procced with next exercise.
