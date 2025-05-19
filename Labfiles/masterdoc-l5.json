@@ -4,11 +4,11 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/guided-labs-latest/Labfiles/Getting-Started.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/guided-labs-latest/Labfiles/getting-started-l5.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/guided-labs-latest/Labfiles/Exercise-4.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/guided-labs-latest/Labfiles/Exercise-5.md",
         "Order": 2
       }
     ]
