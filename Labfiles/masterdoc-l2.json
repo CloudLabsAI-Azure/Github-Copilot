@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "Github Copilot Innovation Workshop",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/guided-labs-latest/Labfiles/Getting-Started.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/guided-labs-latest/Labfiles/Exercise-1.md",
+        "Order": 2
+      }
+    ]
+  }
+]
