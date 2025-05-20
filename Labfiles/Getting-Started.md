@@ -95,9 +95,17 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    https://github.com/login
    ```
 
-1. On the **Sign in to GitHub** tab, you will see the login screen. enter your GitHub username as **<inject key="GitHub User Name" enableCopy="true"/>** **(1)**, then click on **Sign in with your identity provider** to continue **(2)**.
+1. On the **Sign in to GitHub** tab, you will see the login screen.
 
-   ![](../media/github-logina.png)
+    - Enter your GitHub username as:
+    
+      ```
+      <inject key="GitHub User Name" enableCopy="true"/>
+      ```
+    
+    - Click on **Sign in with your identity provider** to continue **(2)**.
+
+     ![](../media/github-logina.png)
 
 1. Click on **Continue** on the **Single sign-on to CloudLabs Organizations** page to proceed.
 
@@ -117,7 +125,13 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
 1. If prompted to stay signed in, you can click **No**.
 
-1. Click on the **Copy link** and paste it in inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
+   ![](../media/stay-signed-in.png)
+
+1. You are now successfully logged in to GitHub and have been redirected to the GitHub homepage.
+
+   ![](../media/github-homepage01.png)
+
+1. Click on the **Copy link** button, then open a new tab in the Edge browser inside the LabVM. Paste the link into the address bar and press Enter. Make sure you're logged into GitHub, as done in the previous steps.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -134,23 +148,35 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
    ```
 
-1. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the Repository name to **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>** **(2)** to make it unique, and then click **Create repository** **(3)** to continue.
+1. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the **Repository name** **(2)** as provided below to make it unique.
 
-   ![](../media/forka.png)
+    - Enter your Repository name as:
+    
+      ```
+      skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>
+      ```
+      
+      ![](../media/forkrepo-01.png)
 
-1. After your new repository is created, wait about 20 seconds and then refresh the page.
+    - Then click **Create repository** **(3)** to continue
+
+      ![](../media/forkrepo-02.png)
+
+1. After your new repository is created, wait about 20 seconds and then refresh the page, you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
+
+   ![](../media/skills-copilot-codespace-repo.png)
 
 1. Once the repository is created, click on your profile picture and then select **Your organizations**.
 
-   ![](../media/organization.png)
+   ![](../media/organization-01.png)
 
 1. In Your organization, select **Codespaces** from the left navigation pane.
 
-   ![](../media/codespace.png)
+   ![](../media/codespace-01.png)
 
 1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
 
-     ![](../media/vscode1.png)
+     ![](../media/vscode02.png)
 
 1. Now, click on **Next** from the lower right corner to move on to the next page.
 
@@ -168,4 +194,6 @@ This hands-on lab demonstrates how GitHub Copilot and GitHub Codespaces enhance 
 
 1. Now, click on Next from the lower right corner to move on to the next page.
    
+   ![](../media/next-page.png)
+
 ## Happy Learning!!
