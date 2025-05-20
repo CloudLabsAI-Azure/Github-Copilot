@@ -19,11 +19,11 @@ In this lab, you will complete the following tasks:
 
 1. From the VS Code Explorer window, create a **New File**.
 
-   ![](../media/py10.png)
+   ![](../media/py10-1.png)
 
 1. Name the file `app.py` and verify your new file looks as shown below:
 
-   ![](../media/app1.png)
+   ![](../media/app1-1.png)
 
 1. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** and click > or press **Enter (2)**. Copilot will give a response, and you can review it and click **Accept (3)**. Also, you can **Discard** the suggestion as depicted in the image below.
    
@@ -31,7 +31,7 @@ In this lab, you will complete the following tasks:
    Create a simple calculator that can add, subtract, multiply or divide depending upon the input from the user.
    ```
 
-   ![](../media/hub66.png)
+   ![](../media/hub66-1.png)
 
 1. Press `CTRL + S` to save the file.
 
