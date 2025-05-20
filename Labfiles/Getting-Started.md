@@ -97,7 +97,7 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
 1. On the **Sign in to GitHub** tab, you will see the login screen.
 
-    - Enter your GitHub username as:
+    - Enter your **GitHub username** **(1)** as:
     
       ```
       <inject key="GitHub User Name" enableCopy="true"/>
@@ -105,7 +105,7 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
     
     - Click on **Sign in with your identity provider** to continue **(2)**.
 
-     ![](../media/github-logina.png)
+      ![](../media/github-logina.png)
 
 1. Click on **Continue** on the **Single sign-on to CloudLabs Organizations** page to proceed.
 
