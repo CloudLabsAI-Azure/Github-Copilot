@@ -22,9 +22,9 @@ You will be able to complete the following tasks:
 
 ## Task 1: Enable Copilot inside a Codespace
 
-1. Navigate back to the home page of your repository, click on **Code** **(1)** tab of your repository, click the **Add file** **(2)** drop-down button, and then select `+ Create new file` **(3)**.
+1. Navigate back to the home page of your repository, click on **creating a new file** under Quick setup.
 
-    ![](../media/Exercise-01-v2-01.png)
+    ![](../media/Exercise1-task1-1.png)
 
 1. Type or paste the following in the empty text field prompt to name your file **(1)**.
 
@@ -53,15 +53,15 @@ You will be able to complete the following tasks:
    }
    ```
 
-   ![](../media/c14.png)
+   ![](../media/Exercise1-task1-2.png)
    
-1. Select the option to **Commit directly to the `main` branch**, and then click the **Commit changes** button.
+1. Click the **Commit changes** button.
 
-   ![](../media/commit-file.png)
+   ![](../media/Exercise1-task1-3.png)
 
 1. Navigate back to the home page of your repository by clicking the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page.
 
-   ![](../media/code-code.png)
+   ![](../media/Exercise1-task1-4.png)
 
 1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
 
@@ -69,7 +69,7 @@ You will be able to complete the following tasks:
 
    >**Note**: If in case pop-up prompt doesn't appear in the browser to open Visual Studio code, manually launch Visual Studio code from the desktop and close it. Next, return to the browser, refresh the page and launch the codespace that was previously created.
 
-1. You will encounter a pop-up prompt. Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should select **Install Extension and Open URI** to continue.
+1. You will encounter a pop-up prompt, Click **Open** to proceed. Subsequently, another pop-up window will appear within Visual Studio Code (VS Code), where you should select **Install Extension and Open URI** to continue.
 
    ![](../media/open.png)
 
@@ -93,13 +93,13 @@ You will be able to complete the following tasks:
 
 1. Verify your codespace is running. Make sure the VS code looks as shown below:
 
-    ![](../media/loaded-repo.png)   
+    ![](../media/loaded-repo-01.png)   
 
-1. Click on **Extensions** **(1)** from the left menu, and the **GitHub Copilot** **(2)** extension should show up in the VS Code extension list. Click the Copilot extension and verify its installation as shown below:
+1. Click on **Extensions** **(1)** from the left menu, search for **GitHub Copilot** **(2)** extension and select in the VS Code extension list. Check the **Github Copilot** **(3)** extension and verify its installation as shown below:
 
-    ![](../media/verify-copilot.png)
+    ![](../media/verify-copilot-01.png)
 
-    >**Note**: If the GitHub Copilot extension is not installed, click on Install.     
+    >**Note**: If the GitHub Copilot extension is not installed, click on Install.
 
 1. At the top next to the search bar, click on the showed icon, to sign in to GitHub.
 
@@ -107,7 +107,7 @@ You will be able to complete the following tasks:
 
 1. On the pop-up window that appears, click on **Sign in**.
 
-   ![](../media/signincop.png)
+   ![](../media/sign-in-copilot-01.png)
 
    > **Note**: If you encounter with error **No access to GitHub Copilot found**, please reach out to `cloudlabs-support@spektrasystems.com` for further assistance.
 
@@ -130,6 +130,10 @@ You will be able to complete the following tasks:
 1. Next, once you get the popup, click on **Open**.
 
     ![](../media/c6.png)
+
+    >**Note**: Click on **Allow** if the extension **Github Copilot Chat** wants to sign in using Github.
+
+    ![](../media/allow-github-chat.png)
 
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:

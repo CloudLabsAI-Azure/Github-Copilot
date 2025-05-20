@@ -29,29 +29,35 @@ You will be able to complete the following tasks:
 
 1. In the IntelliJ IDEA Agreement, check **I confirm that I have read and accept the terms of this User Agreement (1)** and click on **Continue (2)**.
 
-   ![](../media/c17.png)
+   ![](../media/c17-1.png)
 
    >**Note:** When the data sharing box appears, click on **Don't Send**.
 
-   ![](../media/new-githubcopilot-feb-15.png)
+   ![](../media/datasharing-dontsend.png)
 
 1. On the **Import Settings** page, click on **Skip Import**.
 
+   ![](../media/skip-import-01.png)
+
 1. From the left menu, click on **Plugins** **(1)** and select **Marketplace** **(2)**. Search **GitHub Copilot** **(3)**, and once you find **GitHub Copilot** plugin, click on **Install** **(4)**.
 
-   ![](../media/install-plugin.png)
+   ![](../media/install-plugin-01.png)
 
    >**Note** : In the Third-Party Plugins notice, click **Accept**.
 
+    ![](../media/thirdparty-accept.png)
+
 1. Verify the GitHub Copilot plugin is installed. Next, you need to restart the IDE by clicking on **Restart IDE**.
 
-   ![](../media/restart-ide(1).png)
+   ![](../media/restart-ide-01.png)
 
 1. Click on **Restart** in the pop-up once again to restart the IDE.   
 
+   ![](../media/restart-ide-02.png)
+
 1. Once the **IntelliJ Idea Community** IDE is restarted, select **Projects** **(1)** from the left menu and click on **New Project** **(2)**.
 
-   ![](../media/create-project.png)
+   ![](../media/create-project-01.png)
 
 1. In the new project pane, enter the project name as **demo-copilot** **(1)**. Select language as **Java** **(2)** and build system as **IntelliJ** **(3)**. For JDK, select the default **Download Oracle OpenJDK 24** **(4)** and click on **Create** **(5)**.
 
@@ -67,31 +73,35 @@ You will be able to complete the following tasks:
 
    ![](../media/icon.png)
 
-1. Click on **Tools (1)**. Click **GitHub Copilot (2)**, then click **Open GitHub Copilot Chat (3)** and click on **Login to GitHub**
+1. Click on **Tools (1)**. Select **GitHub Copilot (2)** from dropdown, then click **Login to GitHub (3)**
 
-   ![](../media/new-githubcopilot-feb-19.png)
+   ![](../media/githubcopilot-may-20.png)
 
 1. In the **Sign in to GitHub** dialog box, to copy the device code and open the device activation window, click **Copy and Open**.
 
-   ![](../media/ex6-copy-code.png)
+   ![](../media/ex6-copy-code-01.png)
 
 1. Click on **Continue** on **Device Activation**.   
 
-   ![](../media/c20.png)
+   ![](../media/c20-01.png)
 
 1. A device activation window will open in your browser. Paste the device **code (1)** which you have copied in the previous step, then click **Continue (2)**.
 
-   ![](../media/c21.png)
+   ![](../media/c21-01.png)
+
+   >**Note:** If you missed to copy the device code, go back to JetBrains IDE and copy the code as shown below:
+
+    ![](../media/c21-02.png) 
 
 1. GitHub will request the necessary permissions for GitHub Copilot. To approve these permissions, click **Authorize GitHub Copilot for JetBrains IDEs**.
 
-   ![](../media/auth-jetbrains.png)
+   ![](../media/auth-jetbrains-01.png)
 
 1. After the permissions have been approved, your JetBrains IDE will show a confirmation.
 
-   ![](../media/Exercise-06-v2-04.png)
+   ![](../media/Exercise-06-ide-allset.png)
 
-1. Click **Authorize** on Copilot Chat.
+1. Click **Authorize** on Copilot Chat in JetBrains IDE.
 
    ![](../media/c22.png)
 

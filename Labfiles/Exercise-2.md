@@ -22,11 +22,11 @@ In this lab, you will complete the following tasks:
  
 1. From the VS Code Explorer window, create a New File.
 
-   ![](../media/create-newfile.png)
+   ![](../media/create-newfile-01.png)
 
 1. Name the file `skills.js` and verify your new file looks as shown below:
 
-   ![](../media/name-skills.png)
+   ![](../media/name-skills-01.png)
 
 1. In the `skills.js` file, type the below function header and press `Enter` to see the code suggestions.
 
