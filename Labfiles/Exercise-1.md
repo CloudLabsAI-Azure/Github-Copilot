@@ -63,7 +63,7 @@ You will be able to complete the following tasks:
 
    ![](../media/Exercise1-task1-4.png)
 
-1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.
+1. Click the **Codespaces (1)** tab on the box that pops up and then click the **Create codespace on main (2)** button.  If you don't see the "Create Codespace" button, it likely means your repository wasn't created under the **Cloudlabs-enterprises** organization. To fix this, either delete your current repository and recreate it under the specified organization, or fork the existing repository into **Cloudlabs-enterprises** Org.
 
    ![](../media/ghh0.png)
 
