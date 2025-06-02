@@ -45,7 +45,7 @@ In this lab, you will complete the following tasks:
         ![](../media/githubpage.png)
 
 
-1. Right-click on the **Start course** given below, click on the **Copy link** (Copy link address), and navigate to the link inside LabVM in the same Edge browser in a new tab.
+1. Click on the Copy link button, then open a new tab in the Edge browser inside the LabVM. Paste the link into the address bar and press Enter. Make sure you're logged into GitHub, as done in the previous steps.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -62,35 +62,23 @@ In this lab, you will complete the following tasks:
    https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
    ```
   
-1. In the new tab, most of the prompts will automatically fill in for you. Leave default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
+1. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the **Repository name** **(2)** as provided below to make it unique.
 
-   ![](media/cs2.png)
-
-    >**Note**: If you get a note  prompting that a repository with the name **skills-copilot-codespaces-vscode** already exists, please delete the existing one by performing the below steps and perform the above step again.
-     > - On GitHub.com, navigate to the main page of the repository.
-     > - Under your repository name, click  Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
+    - Enter your Repository name as:
     
-      ![](media/up1.png)
+      ```
+      skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>
+      ```
+      
+      ![](../media/forkrepo-01.png)
 
-     > - On the **General** settings page (which is selected by default), scroll down to the "Danger Zone" section and click **Delete this repository**.
-     
-      ![](media/up2.png)
+    - Then click **Create repository** **(3)** to continue
 
-     > - Click **I want to delete this repository**.
- 
-      ![](media/up3.png)
+      ![](../media/forkrepo-02.png)
 
-     > - Read the warnings and click **I have read and understand these effects**.
+1. After your new repository is created, wait about 20 seconds and then refresh the page, you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
 
-      ![](media/up4.png)
-
-     >  - To verify that you're deleting the correct repository, in the text box, type the name of the repository you want to delete.
-
-     >  - Click **Delete this repository**.
-
-      ![](media/up5.png)
-
-1. After your new repository is created, wait about 20 seconds and then refresh the page.
+   ![](../media/skills-copilot-codespace-repo.png)
 
 1. Once the repository is created, click on your profile picture and then select **Your organizations**.
 
