@@ -27,25 +27,23 @@ In this lab, you will complete the following tasks:
    https://github.com/login
    ```
    
-1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the  **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
-
-   ![](media/github-login.png)
-
-   >**Note:** Once the lab has been deployed successfully, navigate to the **Environment** tab to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
-
-     ![](media/envt12.png)
+1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **email: odl-user-<inject key="DeploymentID" enableCopy="false"/>_clabs**. Then click on **Sign in with your identity provider** **(2)**. 
    
-   >**Note:** If you're unable to copy the username and password, please type them manually to proceed further.
+   ![](../media/githublogin.png)
           
-1. Navigate to Outlook login page using the provided URL below:
-   ```
-   https://outlook.office365.com/mail/
-   ```
-1. Next, to get the authentication code, sign in to Outlook with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code, and click on **Verify**.
+1. Next, On the **Single sign-on to CLoudLabs Organizations** select **Continue**.
 
-   >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
+   ![](../media/continue.png)
 
-   ![](media/authgit.png)
+1. On the **Sign in** page, enter the following and select **Sign in**. You will be logged into the GitHub Admin page.
+
+    - **Email**: <inject key="AzureAdUserEmail"></inject>
+    - **Password**: <inject key="AzureAdUserPassword"></inject>
+
+        >**Note:** If the **Stay signed in?** pop-ups, select **No**.
+   
+        ![](../media/githubpage.png)
+
 
 1. Right-click on the **Start course** given below, click on the **Copy link** (Copy link address), and navigate to the link inside LabVM in the same Edge browser in a new tab.
 
