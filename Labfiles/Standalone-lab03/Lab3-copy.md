@@ -92,6 +92,44 @@ In this lab, you will complete the following tasks:
 
      ![](media/cs5.png)
 
+1. Navigate back to the home page of your repository, click on **creating a new file** under Quick setup.
+
+    ![](media/Exercise1-task1-1.png)
+
+1. Type or paste the following in the empty text field prompt to name your file **(1)**.
+
+   ```
+   .devcontainer/devcontainer.json
+   ```
+
+1. In the body of the new **.devcontainer/devcontainer.json** file, add the following content **(2)** and click on **Commit changes** **(3)**:
+
+   ```
+   {
+       // Name this configuration
+       "name": "Codespace for Skills!",
+       "customizations": {
+           "vscode": {
+               "extensions": [
+                   "GitHub.copilot",
+                   "hashicorp.terraform"
+               ]
+           }
+       },
+      "features": {
+          "ghcr.io/devcontainers/features/terraform:1": {},
+          "ghcr.io/devcontainers/features/azure-cli:1": {}
+      }
+   }
+   ```
+
+   ![](media/Exercise1-task1-2.png)
+   
+1. Click the **Commit changes** button.
+
+   ![](media/Exercise1-task1-3.png)
+
+
 1. Navigate back to your repository, click on the **Code** **(1)** tab located at the top left of the screen. Click the **Code** **(2)** button located in the middle of the page. If you don't see the "Create Codespace" button, it likely means your repository wasn't created under the **Cloudlabs-enterprises** organization. To fix this, either delete your current repository and recreate it under the specified organization, or fork the existing repository into **Cloudlabs-enterprises** Org.
 
    ![](media/dp3.png)  
