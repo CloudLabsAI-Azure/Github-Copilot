@@ -29,11 +29,11 @@ In this lab, you will complete the following tasks:
    
 1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **Username: <inject key="GitHub User Name" enableCopy="true"/>** Then click on **Sign in with your identity provider** **(2)**. 
    
-   ![](../media/githublogin.png)
+   ![](media/githublogin.png)
           
 1. Next, On the **Single sign-on to CLoudLabs Organizations** select **Continue**.
 
-   ![](../media/continue.png)
+   ![](media/continue.png)
 
 1. On the **Sign in** page, enter the following and select **Sign in**. You will be logged into the GitHub Admin page.
 
@@ -42,7 +42,7 @@ In this lab, you will complete the following tasks:
 
         >**Note:** If the **Stay signed in?** pop-ups, select **No**.
    
-        ![](../media/githubpage.png)
+        ![](media/githubpage.png)
 
 
 1. Click on the Copy link button, then open a new tab in the Edge browser inside the LabVM. Paste the link into the address bar and press Enter. Make sure you're logged into GitHub, as done in the previous steps.
@@ -70,15 +70,15 @@ In this lab, you will complete the following tasks:
       skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>
       ```
       
-      ![](../media/forkrepo-01.png)
+      ![](media/forkrepo-01.png)
 
     - Then click **Create repository** **(3)** to continue
 
-      ![](../media/forkrepo-02.png)
+      ![](media/forkrepo-02.png)
 
 1. After your new repository is created, wait about 20 seconds and then refresh the page, you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
 
-   ![](../media/skills-copilot-codespace-repo.png)
+   ![](media/skills-copilot-codespace-repo.png)
 
 1. Once the repository is created, click on your profile picture and then select **Your organizations**.
 
