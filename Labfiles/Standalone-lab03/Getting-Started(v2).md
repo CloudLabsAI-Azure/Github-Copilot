@@ -55,7 +55,6 @@ To get a better understanding of your lab resources and credentials, navigate to
  
 ![Explore Lab Resources](media/env-details(1)a.png)
 
-![Explore Lab Resources](media/env-details(1)b.png)
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
