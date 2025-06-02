@@ -27,7 +27,7 @@ In this lab, you will complete the following tasks:
    https://github.com/login
    ```
    
-1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **email: odl-user-<inject key="DeploymentID" enableCopy="false"/>_clabs**. Then click on **Sign in with your identity provider** **(2)**. 
+1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **email: odl-user-<inject key="Deployment-id" enableCopy="false"/>_clabs**. Then click on **Sign in with your identity provider** **(2)**. 
    
    ![](../media/githublogin.png)
           
