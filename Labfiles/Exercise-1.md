@@ -22,7 +22,11 @@ You will be able to complete the following tasks:
 
 ## Task 1: Enable Copilot inside a Codespace
 
-1. Navigate back to the home page of your repository, click on **creating a new file** under Quick setup.
+1. To navigate back to the home page of your repository from the Organization settings, click **Repositories** from the left panel and select the private repository `skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>`.
+
+   ![](../media/GithubRepo.png)
+
+1. On the home page of your repository, click **creating a new file** under **Quick setup**.
 
     ![](../media/Exercise1-task1-1.png)
 
