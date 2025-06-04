@@ -73,7 +73,7 @@ You will be able to complete the following tasks:
 
 3. Ensure the following details are added:
 
-   - **Server name:** `labvm-<inject key="Deployment-id" enableCopy="false"/>\\SQLEXPRESS (1)`
+   - **Server name:** **labvm-<inject key="Deployment-id" enableCopy="false"/>\\SQLEXPRESS (1)**
    - **Authentication:** **Windows Authentication (2)**
    - **Encryption:** Check the box for **Trust server certificate (3)**
    - Click **Connect (4)**
