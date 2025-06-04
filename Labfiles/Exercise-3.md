@@ -22,6 +22,7 @@ In this lab, you will complete the following tasks:
    ![](../media/py10-1.png)
 
 1. Name the file `app.py` and verify your new file looks as shown below:
+   > **Note:** Create the `app.py` file outside the `.devcontainer` folder.
 
    ![](../media/app1-1.png)
 
@@ -54,7 +55,7 @@ In this lab, you will complete the following tasks:
 
 By leveraging the previously generated code, you will explore specific tools provided by Copilot that simplifies major tasks.
 
-1. Press `CTRL + A` to select the entire code.
+1. Press `Ctrl + A` to select the entire code from the `app.py` file.
 
 1. Right click on the selected code, select **Copilot (1)** and select **Editor Inline Chat (2)**.
 
