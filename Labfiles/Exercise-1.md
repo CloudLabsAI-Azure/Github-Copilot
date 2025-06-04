@@ -22,9 +22,13 @@ Será capaz de completar las siguientes tareas:
 
 ## Tarea 1: Habilitar Copilot dentro de un Codespace
 
-1. Navegue de regreso a la página de inicio de su repositorio, haga clic en la pestaña **Code** **(1)** de su repositorio, haga clic en el botón desplegable **Add file** **(2)** y luego seleccione `+ Create new file` **(3)**.
+1. Para navegar de regreso a la página de inicio de tu repositorio desde la configuración de la organización, haz clic en **Repositories** en el panel izquierdo y selecciona el repositorio privado **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**.
 
-    ![](../media/Exercise-01-v2-01.png)
+   ![](../media/GithubRepo.png)
+
+2. En la página de inicio de tu repositorio, haz clic en **creating a new file** en la sección **Quick setup**.
+
+   ![](../media/Exercise1-task1-1.png)
 
 2. Escriba o pegue lo siguiente en el campo de texto vacío para nombrar su archivo **(1)**.
 
