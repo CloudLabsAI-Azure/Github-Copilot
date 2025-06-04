@@ -22,6 +22,7 @@ Será capaz de completar las siguientes tareas:
    ![](../media/py10.png)
 
 1. Nombre el archivo `app.py` y verifique que su nuevo archivo se vea como se muestra a continuación:
+   > **Nota:** Crea el archivo `app.py` fuera de la carpeta `.devcontainer`.
 
    ![](../media/app1.png)
 

@@ -55,18 +55,28 @@ Será capaz de completar las siguientes tareas:
 
 1. Presione `Ctrl+S` para guardar el archivo.
 
-1. Haga clic en el icono de Inicio de Windows y expanda la carpeta **Microsoft SQL Server Tools 20 (1)** y seleccione **SQL Server Management Studio 20 (2)**.
+1. Haz clic en el icono de inicio de Windows, busca **SSMS (1)** y luego selecciona **SQL Server Management Studio 21 (2)**.
 
-   ![](../media/hub106.png)
+   ![](../media/SSMS.png)
 
-1. Asegúrese de que se hayan agregado los siguientes detalles:
+2. En la página de inicio de sesión, selecciona **Skip and add accounts later**.
 
-   - Nombre del servidor: **labvm-<inject key="Deployment-id" enableCopy="false"/>\SQLEXPRESS (1)**
-   - Autenticación: **Autenticación de Windows (2)**
-   - Encriptación: Marque la casilla **Confiar en el certificado del servidor (3)**
-   - Haga clic en **Conectar (4)**
+   ![](../media/SkipSignIn.png)
 
-       ![](../media/hub115.png)
+3. En la ventana emergente **New connection dialog experience**, haz clic en **Yes**.
+
+   ![](../media/PopUp.png)
+
+   - Espera un momento hasta que la página se cargue.
+
+4. Asegúrate de que se agreguen los siguientes detalles:
+
+   - **Server name:** **labvm-<inject key="Deployment-id" enableCopy="false"/>\\SQLEXPRESS (1)**
+   - **Authentication:** **Windows Authentication (2)**
+   - **Encryption:** Marca la casilla **Trust server certificate (3)**
+   - Haz clic en **Connect (4)**
+
+   ![](../media/Connect.png)
      
 1. Una vez que esté conectado al servidor, haga clic en **Nueva consulta** en la parte superior.
 
