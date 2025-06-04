@@ -22,7 +22,7 @@ You will be able to complete the following tasks:
 
 ## Task 1: Enable Copilot inside a Codespace
 
-1. To navigate back to the home page of your repository from the Organization settings, click **Repositories** from the left panel and select the private repository `skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>`.
+1. To navigate back to the home page of your repository from the Organization settings, click **Repositories** from the left panel and select the private repository **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**.
 
    ![](../media/GithubRepo.png)
 
