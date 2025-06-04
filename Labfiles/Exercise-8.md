@@ -57,18 +57,28 @@ You will be able to complete the following tasks:
 
 1. Press `Ctrl+S` to save the file.
 
-1. Click on the Windows Start icon and, search **SSMS (1)** and then select **SQL Server Management Studio 20 (2)**.
+1. Click on the Windows Start icon and, search **SSMS (1)** and then select **SQL Server Management Studio 21 (2)**.
 
-   ![](../media/new-githubcopilot-feb-26.png)
+   ![](../media/SSMS.png)
 
-1. Ensure the following details are added:
+1. On the sign-in page, select **Skip and add accounts later**.
 
-   - Server name: **labvm-<inject key="Deployment-id" enableCopy="false"/>\SQLEXPRESS (1)**
-   - Authetication: **Windows Authentication (2)**
-   - Encryption: Check the box for **Trust server certificate (3)**
-   - Click on **Connect (4)**
+   ![](../media/SkipSignIn.png)
 
-       ![](../media/hub115.png)
+2. In the **New connection dialog experience** popup, click **Yes**.
+
+    ![](../media/PopUp.png)
+
+    - Wait for a moment until the page loads.
+
+3. Ensure the following details are added:
+
+   - **Server name:** `labvm-<inject key="Deployment-id" enableCopy="false"/>\\SQLEXPRESS (1)`
+   - **Authentication:** **Windows Authentication (2)**
+   - **Encryption:** Check the box for **Trust server certificate (3)**
+   - Click **Connect (4)**
+
+   ![](../media/Connect.png)
      
 1. Once you are connected to the server, click on **New Query** on the top.
 
