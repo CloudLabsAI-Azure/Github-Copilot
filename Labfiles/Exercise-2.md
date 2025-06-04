@@ -25,6 +25,8 @@ Será capaz de completar las siguientes tareas:
    ![](../media/create-newfile.png)
 
 2. Nombre el archivo como `skills.js` y compruebe que su nuevo archivo se vea como se muestra a continuación:
+    > **Nota:** Crea el archivo `skill.js` fuera de la carpeta `.devcontainer`.
+
 
    ![](../media/name-skills.png)
 
