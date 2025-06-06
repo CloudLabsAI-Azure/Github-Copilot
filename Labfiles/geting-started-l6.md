@@ -44,7 +44,7 @@ Welcome to your GitHub Copilot Innovation workshop! We've prepared a seamless en
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
    
-   ![](../media/new-githubcopilot-feb-1.png)
+   ![](../media/lab6-home.png)
 
 ### Virtual Machine & Lab Guide
  
@@ -60,7 +60,7 @@ To get a better understanding of your lab resources and credentials, navigate to
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
  
-![Use the Split Window Feature](../media/new-githubcopilot-feb-27.png)
+![Use the Split Window Feature](../media/Split.png)
  
 ## Utilizing the Zoom In/Out Feature
 
