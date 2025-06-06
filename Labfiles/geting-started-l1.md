@@ -80,8 +80,8 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    ```
    
 1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
-
-   >**Note**: To get GitHub credentials navigate to the **Environment** tab and click on the **GitHub Credentials** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
+   
+   >**Note :** To sign in with GitHub, use the credentials provided in the **Grab Your Credentials** lab. Within that lab, navigate to the **Environment** tab to find the key-value pairs for **GitHub UserEmail** and **GitHub Password**. Use the copy buttons under the *Actions* column to copy them instantly. If you’ve already copied them into Notepad during the earlier step, you can simply use those for easy access during this and future labs. 
    
    ![](../media/githubsigin.png)
           
