@@ -44,23 +44,17 @@ Welcome to your GitHub Copilot Innovation workshop! We've prepared a seamless en
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
    
-   ![](../media/new-githubcopilot-feb-1.png)
+   ![](../media/lab4-home.png)
 
 ### Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
 
-## Exploring Your Lab Resources
- 
-To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab. Once you are in the **Environment (1)** tab click on the **Licenses (2)** option to get GitHub user credentials. The credentials will also be emailed to your registered email address.
- 
-   ![](../media/new-githubcopilot-feb-2.png)
-
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
  
-![Use the Split Window Feature](../media/new-githubcopilot-feb-27.png)
+![](../media/Split.png)
  
 ## Utilizing the Zoom In/Out Feature
 
@@ -86,16 +80,16 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    ```
    
 1. On the **Sign in to GitHub** tab, you will see the login screen. In that screen, enter the following **email** **(1)** and **password** **(2)**. Then click on **Sign in** **(3)**. 
-
-   >**Note**: To get GitHub credentials navigate to the **Environment** tab and click on the **GitHub Credentials** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
    
-   ![](../media/github-login.png)
+   >**Note :** To sign in with GitHub, use the credentials provided in the **Grab Your Credentials** lab. Within that lab, navigate to the **Environment** tab to find the key-value pairs for **GitHub UserEmail** and **GitHub Password**. Use the copy buttons under the *Actions* column to copy them instantly. If you’ve already copied them into Notepad during the earlier step, you can simply use those for easy access during this and future labs. 
+   
+   ![](../media/githubsigin.png)
           
 1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code and click on **Verify**.
 
    >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
 
-   ![](../media/authgit.png)
+   ![](../media/githubcode.png)
 
 1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
 
@@ -112,7 +106,7 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
    [![Start course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public)
    
-1. In the new tab, most of the prompts will automatically fill in for you. Leave default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** and click the **Create repository** **(3)** button at the bottom of the form.
+1. In the new tab, most of the prompts will automatically fill in for you. Leave default for the owner, as you have already logged into GitHub to host the repository **(1)**. Select **Public** repository **(2)** , Add a README file and click the **Create repository** **(3)** button at the bottom of the form.
 
    ![](../media/skills-new-repo.png)
 
