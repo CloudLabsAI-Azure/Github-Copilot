@@ -61,17 +61,17 @@ Once you're ready to dive in, your virtual machine and lab guide will be right a
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
 
 ## Exploring Your Lab Resources
- 
-1. To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
- 
+
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
+
    ![](../media/Edgea.png)
 
 ## Utilizing the Split Window Feature
- 
+
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
- 
+
 ![Use the Split Window Feature](../media/new-githubcopilot-feb-27.png)
- 
+
 ## Utilizing the Zoom In/Out Feature
 
 To adjust the zoom level for the environment page, click the A↕ : 100% icon located next to the timer in the lab environment.
@@ -79,9 +79,9 @@ To adjust the zoom level for the environment page, click the A↕ : 100% icon lo
 ![Use the Split Window Feature](../media/zoomin-out.png)
 
 ## Managing Your Virtual Machine
- 
+
 Feel free to **start**, **stop**, or **restart** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
- 
+
 ![Manage Your Virtual Machine](../media/resourses.png)
 
 ## Login to GitHub
@@ -91,6 +91,7 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    ![](../media/Edge.png)
 
 1. Navigate to GitHub login page using the provided URL below:
+
    ```
    https://github.com/login
    ```
@@ -98,11 +99,11 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 1. On the **Sign in to GitHub** tab, you will see the login screen.
 
     - Enter your **GitHub username** **(1)** as:
-    
+
       ```
       <inject key="GitHub User Name" enableCopy="true"/>
       ```
-    
+
     - Click on **Sign in with your identity provider** to continue **(2)**.
 
       ![](../media/github-logina.png)
@@ -112,15 +113,15 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    ![](../media/github-loginb.png)
 
 2. You'll see the **Sign in** tab. Here, enter your Azure Entra credentials:
- 
+
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
- 
+
        ![Enter Your Username](../media/login1.png)
- 
+
 3. Next, provide your password to login:
- 
+
    - **Password:** <inject key="AzureAdUserPassword"></inject>
- 
+
       ![Enter Your Password](../media/login2.png)
 
 1. If prompted to stay signed in, you can click **No**.
@@ -151,11 +152,11 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 1. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the **Repository name** **(2)** as provided below to make it unique.
 
     - Enter your Repository name as:
-    
+
       ```
       skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>
       ```
-      
+
       ![](../media/forkrepo-01.png)
 
     - Then click **Create repository** **(3)** to continue
@@ -180,7 +181,6 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
 1. Now, click on **Next** from the lower right corner to move on to the next page.
 
-
 This hands-on lab demonstrates how GitHub Copilot and GitHub Codespaces enhance development through real-time code suggestions and consistent cloud environments.
 
 ## Support Contact
@@ -193,7 +193,7 @@ This hands-on lab demonstrates how GitHub Copilot and GitHub Codespaces enhance 
    - Live Chat Support: https://cloudlabs.ai/labs-support
 
 1. Now, click on Next from the lower right corner to move on to the next page.
-   
+
    ![](../media/next-page.png)
 
 ## Happy Learning!!
