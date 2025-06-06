@@ -8,8 +8,12 @@
         "Order": 1
       },
       {
-        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/guided-labs-latest/Labfiles/Exercise-4.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/refs/heads/guided-labs-latest/Labfiles/getting-started2-7.md",
         "Order": 2
+      },
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Github-Copilot/guided-labs-latest/Labfiles/Exercise-4.md",
+        "Order": 3
       }
     ]
   }
