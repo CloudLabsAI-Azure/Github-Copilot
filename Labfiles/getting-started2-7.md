@@ -12,13 +12,13 @@
 
    >**Note :** To sign in with GitHub, use the credentials provided in the **Grab Your Credentials** lab. Within that lab, navigate to the **Environment** tab to find the key-value pairs for **GitHub UserEmail** and **GitHub Password**. Use the copy buttons under the *Actions* column to copy them instantly. If you’ve already copied them into Notepad during the earlier step, you can simply use those for easy access during this and future labs.
    
-   ![](../media/github-login.png)
+   ![](../media/githubsigin.png)
           
 1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code and click on **Verify**.
 
    >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
    
-   ![](../media/authgit.png)
+   ![](../media/githubcode.png)
    
 1. Go to your **Dashboard**. On the left-hand panel under **Top repositories**, find and click on **skills-copilot-codespaces-vscode**.
 
