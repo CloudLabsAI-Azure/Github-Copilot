@@ -44,17 +44,11 @@ Welcome to your GitHub Copilot Innovation workshop! We've prepared a seamless en
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
    
-   ![](../media/lab2-home.png)
+   ![](../media/lab4-home.png)
 
 ### Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
-
-## Exploring Your Lab Resources
- 
-To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab. Once you are in the **Environment (1)** tab click on the **Licenses (2)** option to get GitHub user credentials. The credentials will also be emailed to your registered email address.
- 
-   ![](../media/new-githubcopilot-feb-2.png)
 
 ## Utilizing the Split Window Feature
  
