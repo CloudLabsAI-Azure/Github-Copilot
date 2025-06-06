@@ -103,7 +103,7 @@ You will be able to complete the following tasks:
 
 1. On the pop-up window that appears, click on **Sign in to Use Copilot for Free**.
 
-   ![](../media/signin-to-githubcopilot2-0303.png)
+   ![](../media/git-cop-sig.png)
 
    > **Note**: If you encounter with error **No access to GitHub Copilot found**, please reach out to `cloudlabs-support@spektrasystems.com` for further assistance.
 
