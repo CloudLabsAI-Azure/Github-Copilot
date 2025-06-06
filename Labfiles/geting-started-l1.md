@@ -44,23 +44,17 @@ Welcome to your GitHub Copilot Innovation workshop! We've prepared a seamless en
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
    
-   ![](../media/new-githubcopilot-feb-1.png)
+   ![](../media/lab4-home.png)
 
 ### Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
 
-## Exploring Your Lab Resources
- 
-To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab. Once you are in the **Environment (1)** tab click on the **Licenses (2)** option to get GitHub user credentials. The credentials will also be emailed to your registered email address.
- 
-   ![](../media/new-githubcopilot-feb-2.png)
-
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
  
-![Use the Split Window Feature](../media/new-githubcopilot-feb-27.png)
+![](../media/Split.png)
  
 ## Utilizing the Zoom In/Out Feature
 
@@ -89,13 +83,13 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
    >**Note**: To get GitHub credentials navigate to the **Environment** tab and click on the **GitHub Credentials** option to view the key-value pairs of the **GitHub UserEmail**, and **GitHub Password**. You can use the copy buttons under the actions column to have the values copied instantly. Alternatively, it is suggested to have the values copied over onto a notepad for easy accessibility. 
    
-   ![](../media/github-login.png)
+   ![](../media/githubsigin.png)
           
 1. Next, to get the authentication code, sign in to Outlook (https://outlook.office365.com/mail/) with the git credentials within the Environment tab from the previous step. Once you have logged into Outlook, find the recent email containing the verification code. Enter the verification code and click on **Verify**.
 
    >**Note:** The email containing the verification code can sometimes creep into the archive/spam folders within your Outlook.
 
-   ![](../media/authgit.png)
+   ![](../media/githubcode.png)
 
 1. Right-click on the **Start course** given below, click on the **Copy link**, and navigate to the link inside LabVM in the Edge browser where you have logged into GitHub in the previous steps.
 
