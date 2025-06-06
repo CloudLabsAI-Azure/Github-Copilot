@@ -57,9 +57,23 @@ You will be able to complete the following tasks:
 
 1. Press `Ctrl+S` to save the file.
 
-1. Click on the Windows Start icon and, search **SSMS (1)** and then select **SQL Server Management Studio 20 (2)**.
+1. Click on the Windows Start icon and, search **SSMS (1)** and then select **SQL Server Management Studio 21 (2)**.
 
-   ![](../media/new-githubcopilot-feb-26.png)
+   ![](../media/p3-st10.png)
+
+1. On the Sign in to SQL Server Management Studio window. Click Sign in with GitHub
+
+   ![](../media/p3-st11.png)
+
+1. You will be redirected to GitHub authorization. Click on Continue on Select user to authorize Visual Studio Code.
+
+   ![](../media/p3-st12.png)
+
+1. Review the permissions Visual Studio is requesting. Click Authorize github to allow access.
+
+   ![](../media/p3-st13.png)
+
+    > **Note:** you may encounter a prompt offering a new connection dialog experience. For now, click No.
 
 1. Ensure the following details are added:
 
