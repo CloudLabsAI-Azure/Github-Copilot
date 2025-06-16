@@ -77,7 +77,7 @@ By leveraging the previously generated code, you will explore specific tools pro
    
 1. Run the application with the **python app.py** command in the terminal and verify the output has been generated.
 
-      ![](../media/pythonapp.png)
+      ![](../media/percentage-01.png)
 
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Explain (2)**.
 
