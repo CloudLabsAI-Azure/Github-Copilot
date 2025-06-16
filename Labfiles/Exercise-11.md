@@ -13,9 +13,9 @@ You will be able to complete the following tasks:
 
 ### Task 1: Testing your GitHub Codespace
 
-1. Click on the Three horizontal line in the top left corner **(1)**, click **File (2)** and then click on **New Window (3)**.
+1. Click **File (1)** and then click on **New Window (2)**.
 
-   ![](../media/c31.png)
+   ![](../media/new-window.png)
 
 2. Click on the **ellipsis (1)** on the top, click on **Terminal (2)** and select **New Terminal (3)**.
 
@@ -26,7 +26,9 @@ You will be able to complete the following tasks:
    ```
    git clone https://github.com/MicrosoftDocs/mslearn-challenge-project-create-mini-game-with-copilot.git
    ```
+4. Click on **Explorer** and select **Open Folder** from the options.
 
+5. In File Explorer, go to the **Quick Access section** and select the **Mii-game-with-copilot** folder.
 
 4. Open the **app.py** file.
 
