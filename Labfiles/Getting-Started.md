@@ -90,7 +90,7 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
    ![](../media/Edge.png)
 
-   >**Note**: If you see any open PowerShell prompts, please minimize them and proceed with the next steps.
+   >**Note**: If you see any open PowerShell prompts running, please minimize them and proceed with the next steps.
 
    ![](../media/minimise-screen.png)
 
