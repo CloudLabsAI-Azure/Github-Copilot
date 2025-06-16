@@ -109,7 +109,7 @@ By leveraging the previously generated code, you will explore specific tools pro
 
    >**Note: Incase if you do not see the option to Accept , Click on edit code as shown below in the screenshot.**
 
-     ![](../media/doc-01.png)
+      ![](../media/doc-01.png)
 
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Generate Tests(2)**.
 
