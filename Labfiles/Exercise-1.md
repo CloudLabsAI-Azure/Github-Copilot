@@ -113,6 +113,10 @@ You will be able to complete the following tasks:
 
    ![](../media/sign-in-copilot-01.png)
 
+   >**Note**: If you see the **Sign in to use Copilot** prompt, click on **Continue with github**
+
+      ![](../media/continue-github.png)
+
    > **Note**: If you encounter with error **No access to GitHub Copilot found**, please reach out to `cloudlabs-support@spektrasystems.com` for further assistance.
 
       ![](../media/3.png)
