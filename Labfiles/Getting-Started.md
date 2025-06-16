@@ -94,13 +94,13 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
    ![](../media/minimise-screen.png)
 
-1. Navigate to GitHub login page using the provided URL below:
+2. Navigate to GitHub login page using the provided URL below:
 
    ```
    https://github.com/login
    ```
 
-1. On the **Sign in to GitHub** tab, you will see the login screen.
+3. On the **Sign in to GitHub** tab, you will see the login screen.
 
     - Enter your **GitHub username** **(1)** as:
 
@@ -112,36 +112,36 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
       ![](../media/github-logina.png)
 
-1. Click on **Continue** on the **Single sign-on to CloudLabs Organizations** page to proceed.
+4. Click on **Continue** on the **Single sign-on to CloudLabs Organizations** page to proceed.
 
    ![](../media/github-loginb.png)
 
-2. You'll see the **Sign in** tab. Here, enter your Azure Entra credentials:
+5. You'll see the **Sign in** tab. Here, enter your Azure Entra credentials:
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
        ![Enter Your Username](../media/login1.png)
 
-3. Next, provide your password to login:
+6. Next, provide your password to login:
 
    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
       ![Enter Your Password](../media/login2.png)
 
-1. Click on **Accept** when prompted.
+7. Click on **Accept** when prompted.
 
       ![Enter Your Password](../media/accept-01.png)
 
 
-1. If prompted to stay signed in, you can click **No**.
+8. If prompted to stay signed in, you can click **No**.
 
    ![](../media/stay-signed-in.png)
 
-1. You are now successfully logged in to GitHub and have been redirected to the GitHub homepage.
+9. You are now successfully logged in to GitHub and have been redirected to the GitHub homepage.
 
    ![](../media/github-homepage01.png)
 
-1. Click on the **Copy link** button, then open a new tab in the Edge browser inside the LabVM. Paste the link into the address bar and press Enter. Make sure you're logged into GitHub, as done in the previous steps.
+10. Click on the **Copy link** button, then open a new tab in the Edge browser inside the LabVM. Paste the link into the address bar and press Enter. Make sure you're logged into GitHub, as done in the previous steps.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -158,7 +158,7 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
    https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
    ```
 
-1. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the **Repository name** **(2)** as provided below to make it unique.
+11. In the new tab, most fields will be pre-filled. Just update the **Owner** to **Cloudlabs-Enterprises** **(1)**, change the **Repository name** **(2)** as provided below to make it unique.
 
     - Enter your Repository name as:
 
@@ -172,23 +172,23 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
       ![](../media/forkrepo-02.png)
 
-1. After your new repository is created, wait about 20 seconds and then refresh the page, you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
+12. After your new repository is created, wait about 20 seconds and then refresh the page, you will be redirected to the main page of the **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**  repository.
 
-   ![](../media/skills-copilot-codespace-repo.png)
+      ![](../media/skills-copilot-codespace-repo.png)
 
-1. Once the repository is created, click on your profile picture and then select **Your organizations**.
+13. Once the repository is created, click on your profile picture and then select **Your organizations**.
 
-   ![](../media/organization-01.png)
+      ![](../media/organization-01.png)
 
-1. In Your organization, select **Codespaces** from the left navigation pane.
+14. In Your organization, select **Codespaces** from the left navigation pane.
 
-   ![](../media/codespace-01.png)
+      ![](../media/codespace-01.png)
 
-1. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
+15. Scroll down and make sure, **Visual Studio Code** is selected, under the **Editor preference** .
 
      ![](../media/vscode02.png)
 
-1. Now, click on **Next** from the lower right corner to move on to the next page.
+16. Now, click on **Next** from the lower right corner to move on to the next page.
 
 This hands-on lab demonstrates how GitHub Copilot and GitHub Codespaces enhance development through real-time code suggestions and consistent cloud environments.
 
