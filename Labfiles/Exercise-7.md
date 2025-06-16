@@ -63,9 +63,9 @@ You will be able to complete the following tasks:
 
      >**Note**: Ensure you don't open an already running instance of Visual Studio Code; instead, launch a new one from the desktop.
 
-1. Click on the Three horizontal line in the top left corner **(1)**, click **File (2)** and then click on **New Window (3)**.
+1. Click **File (1)** and then click on **New Window (2)**.
 
-   ![](../media/c31.png)
+      ![](../media/new-window.png)
 
 1. To verify the **GitHub Copilot Chat extension**, the following steps are to be performed within Visual Studio Code:
     - Click on the **Extensions (1)** icon in the activity bar present on the left side of the Visual Studio Code Window.
