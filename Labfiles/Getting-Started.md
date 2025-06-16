@@ -128,6 +128,11 @@ Feel free to **start**, **stop**, or **restart** your virtual machine as needed 
 
       ![Enter Your Password](../media/login2.png)
 
+1. Click on **Accept** when prompted.
+
+      ![Enter Your Password](../media/accept-01.png)
+
+
 1. If prompted to stay signed in, you can click **No**.
 
    ![](../media/stay-signed-in.png)
