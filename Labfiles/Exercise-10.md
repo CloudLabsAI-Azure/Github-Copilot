@@ -62,11 +62,19 @@ You will be able to complete the following tasks:
     - Select **Jupyter (3)** from the list of results that show up, and verify that **Jupyter** has been installed.
     - If not, click on the **Install in Codespaces: ubiquitous space doodle(4)** button.
 
-   ![](../media/c37.png)
+      ![](../media/c37.png)
 
-1. From the VS Code explorer window, right-click on the folder named **ml-copilot-workshop** **(1)** and click on **New File**. Name the file `Experiments.ipynb` **(2)** and verify that your new file looks as shown below:
+1. Click on **Explorer (1)** and select **Open Folder (2)** from the options.
 
-   ![](../media/ex-8-create-file.png)
+      ![](../media/open-folder.png)
+
+1. From File Explorer, select the **ml-copilot-workshop** folder from the Quick Access section.
+
+     ![](../media/select-folder.png)
+
+1. From the VS Code explorer window, right-click on the folder named **ml-copilot-workshop** and click on **New File**. Name the file `Experiments.ipynb` and verify that your new file looks as shown below:
+
+   ![](../media/new-file.png)
 
 1. Click on the file, select **+ Code**.
 
