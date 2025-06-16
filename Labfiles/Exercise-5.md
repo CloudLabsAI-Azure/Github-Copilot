@@ -35,6 +35,8 @@ You will be able to complete the following tasks:
 
     >**Note:** Ensure we install it in Codespace too.
 
+    ![](../media/install-in-codespace.png)
+
 1. From the codespace in the VS Code Explorer window, create a new file and name it as **codechat.cs**.
 
       ![](../media/chat-code-new.png)
