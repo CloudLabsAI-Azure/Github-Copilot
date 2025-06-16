@@ -64,13 +64,13 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
 
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-   ![](../media/Edgea.png)
+   ![Manage Your Virtual Machine](../media/resources-01.png)
 
 ## Utilizing the Split Window Feature
 
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
 
-![Use the Split Window Feature](../media/new-githubcopilot-feb-27.png)
+![Use the Split Window Feature](../media/split-01.png)
 
 ## Utilizing the Zoom In/Out Feature
 
