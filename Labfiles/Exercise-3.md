@@ -94,6 +94,10 @@ By leveraging the previously generated code, you will explore specific tools pro
 1. GitHub Copilot will automatically utilize the `/fix` comment to propose potential improvements to specific parts of code for enhancement. Click on **Accept** to utilize the fixes in your code.
 
       ![](../media/py7.png)
+   
+   >**Note: Incase if you do not see the option to Accept , Click on edit code as shown below in the screenshot.**
+
+     ![](../media/fix-code.png)
 
 1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Generate Docs (2)**.
 
@@ -110,6 +114,10 @@ By leveraging the previously generated code, you will explore specific tools pro
 1. GitHub Copilot will automatically use the `/tests` comment. Click on **Accept**.
 
       ![](../media/E3T2S14-0303.png)
+
+   >**Note: Incase if you do not see the option to Accept , Click on edit code as shown below in the screenshot.**
+
+     ![](../media/doc-01.png)
 
 1. Click on **Accept** again to accept the suggestion.
 
