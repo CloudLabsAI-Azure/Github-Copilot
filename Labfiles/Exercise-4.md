@@ -95,9 +95,10 @@ In this lab, you will complete the following tasks:
    - Resource Group - **Select JumpVM-RG-<inject key="Deployment-id" enableCopy="false"/> (2)**
    - Region - **Select the default region. (3)**
    - Storage Account Name - **storage<inject key="Deployment-id" enableCopy="false"/> (4)**
-   - Click on **Review + create (5)**
+   - Location - **keep it Same as region (5)**
+   - Click on **Review + create (6)**
 
-     ![](../media/custom-template-0303.png)
+     ![](../media/custom-template-0303-1.png)
 
         > **Note:** In case, the storage account name is already fetched, use the default.
 
