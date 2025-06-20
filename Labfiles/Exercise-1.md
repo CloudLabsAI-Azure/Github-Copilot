@@ -24,7 +24,7 @@ Será capaz de completar las siguientes tareas:
 
 1. Para navegar de regreso a la página de inicio de tu repositorio desde la configuración de la organización, haz clic en **Repositories** en el panel izquierdo y selecciona el repositorio privado **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**.
 
-   ![](../media/190625(11).png)
+   ![](../media/190625(27).png)
 
 
 2. En la página de inicio de tu repositorio, haz clic en **creating a new file** en la sección **Quick setup**.
