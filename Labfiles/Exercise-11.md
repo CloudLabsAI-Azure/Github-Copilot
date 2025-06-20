@@ -13,13 +13,13 @@ Será capaz de completar las siguientes tareas:
 
 ### Tarea 1: Probar su GitHub Codespace
 
-1. Haga clic en las tres líneas horizontales en la esquina superior izquierda **(1)**, haga clic en **File (2)** y luego haga clic en **New Window (3)**.
+1. Haz clic en **Archivo (1)** y luego haz clic en **Nueva Ventana (2)**.
 
-   ![](../media/c31.png)
+   ![](../media/190625(17).png)
 
 1. Haga clic en los **puntos suspensivos (1)** en la parte superior, haga clic en **Terminal (2)** y seleccione **New terminal (3)**.
 
-   ![](../media/openterminal.png)  
+   ![](../media/190625(15).png)  
 
 1. Ejecute el siguiente comando para clonar el repositorio **Mini-game-with-copilot**.
 

@@ -60,9 +60,9 @@ Será capaz de completar las siguientes tareas:
 
      > **Nota**: Sin embargo, debe tenerse en cuenta que las sugerencias de GitHub Copilot pueden variar, por lo que es necesario comprender claramente el código de Javascript y su uso.
 
-1. Haga clic en los **puntos suspensivos (1)** en la parte superior, haga clic en **Terminal (2)** y seleccione **Nuevo Terminal (3)**.
+1. Haga clic en los **puntos suspensivos ** en la parte superior, haga clic en **Terminal (1)** y seleccione **Nuevo Terminal (2)**.
 
-   ![](../media/openterminal.png)     
+   ![](../media/190625(14).png)  
    
 1. Ejecute la aplicación con el comando `node skills.js` en la terminal y verifique que se haya generado la salida.
 

@@ -38,7 +38,7 @@ Será capaz de completar las siguientes tareas:
 
 1. Haga clic en los **puntos suspensivos (1)** en la parte superior, haga clic en la **Terminal (2)** y seleccione **Nuevo Terminal (3)**.
 
-   ![](../media/openterminal.png)
+   ![](../media/190625(14).png)
 
 1. Ejecute la aplicación con el comando **python app.py** en la terminal y verifique que se haya generado la salida.
 
@@ -73,7 +73,7 @@ Al aprovechar el código generado anteriormente, explorará herramientas especí
 
 1. Haga clic en los **puntos suspensivos (1)** en la parte superior, haga clic en la **Terminal (2)** y seleccione **Nuevo Terminal (3)**.
 
-      ![](../media/openterminal.png)
+      ![](../media/190625(21).png)
    
 1. Ejecute la aplicación con el comando **python app.py** en la terminal y verifique que se haya generado la salida.
 
@@ -109,17 +109,15 @@ Al aprovechar el código generado anteriormente, explorará herramientas especí
 
 1. GitHub Copilot utilizará automáticamente el comentario `/tests `. Haga clic en **Aceptar**.
 
-      ![](../media/E3T2S14-0303.png)
 
 1. Haga clic en **Aceptar** de nuevo para aceptar la sugerencia. 
 
-      ![](../media/E3T2S14.1-0303.png)
-
+      
 1. Presione `CTRL + S` para guardar el archivo.      
 
 1. Se abrirá un nuevo archivo llamado **test_app.py**, que mostrará los casos de prueba.
 
-      ![](../media/E3T2S16-0303.png)
+      ![](../media/190625(22).png)
 
 ## Revisión
 En este laboratorio, aprendió a crear un script de Python para una calculadora y exploró las herramientas de GitHub Copilot, las cuales agilizan las tareas de manera efectiva.
