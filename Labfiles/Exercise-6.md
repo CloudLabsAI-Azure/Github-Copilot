@@ -47,7 +47,7 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/restart-ide(1).png)
 
-Haga clic en **Restart** en la ventana emergente una vez más para reiniciar el IDE.
+   Haga clic en **Restart** en la ventana emergente una vez más para reiniciar el IDE.
 
 1. Una vez que se reinicie el IDE **IntelliJ Idea Community**, seleccione **Projects** **(1)** en el menú de la izquierda y haga clic en **New Project** **(2)**.
 
@@ -67,76 +67,76 @@ Haga clic en **Restart** en la ventana emergente una vez más para reiniciar el 
 
    ![](../media/icon.png)
 
-1. Haga clic en **Tools (1)**. Haga clic en **GitHub Copilot (2)**, y luego en **Open GitHub Copilot Chat (3)** y haga clic en **Login to GitHub**.
+2. Haga clic en **Tools (1)**. Haga clic en **GitHub Copilot (2)**, y luego en **Open GitHub Copilot Chat (3)** y haga clic en **Login to GitHub**.
 
    ![](../media/c18.png)
 
 
-1. En el cuadro de diálogo **Sign in to GitHub**, para copiar el código del dispositivo y abrir la ventana de activación del dispositivo, haga clic en **Copy and Open**.
+3. En el cuadro de diálogo **Sign in to GitHub**, para copiar el código del dispositivo y abrir la ventana de activación del dispositivo, haga clic en **Copy and Open**.
 
    ![](../media/ex6-copy-code.png)
 
-1. Haga clic en **Continue** en **Device Activation**.   
+4. Haga clic en **Continue** en **Device Activation**.   
 
    ![](../media/c20.png)
 
-1. Se abrirá una ventana de activación del dispositivo en su navegador. Pegue el **código (1)** del dispositivo que copió en el paso anterior y luego haga clic en **Continue (2)**.
+5. Se abrirá una ventana de activación del dispositivo en su navegador. Pegue el **código (1)** del dispositivo que copió en el paso anterior y luego haga clic en **Continue (2)**.
 
    ![](../media/c21.png)
 
-1. GitHub solicitará los permisos necesarios para GitHub Copilot. Para aprobar estos permisos, haga clic en **Authorize GitHub Copilot for JetBrains IDEs**.
+6. GitHub solicitará los permisos necesarios para GitHub Copilot. Para aprobar estos permisos, haga clic en **Authorize GitHub Copilot for JetBrains IDEs**.
 
    ![](../media/auth-jetbrains.png)
 
-1. Una vez que se hayan aprobado los permisos, su IDE de JetBrains mostrará una confirmación.
+7. Una vez que se hayan aprobado los permisos, su IDE de JetBrains mostrará una confirmación.
 
    ![](../media/Exercise-06-v2-04.png)
 
-1. Haga clic en **Authorize** en Copilot Chat.
+8. Haga clic en **Authorize** en Copilot Chat.
 
    ![](../media/c22.png)
 
-1. En el cuadro de diálogo **Sign in to GitHub**, para copiar el código del dispositivo y abrir la ventana de activación del dispositivo, haga clic en **Copy and Open**.
+9. En el cuadro de diálogo **Sign in to GitHub**, para copiar el código del dispositivo y abrir la ventana de activación del dispositivo, haga clic en **Copy and Open**.
 
    ![](../media/c23.png)   
 
-1. Haga clic en **Continue** en **Device Activation**.   
+10. Haga clic en **Continue** en **Device Activation**.   
 
    ![](../media/c20.png)   
 
-1. Haga clic en **Authorize GitHub Copilot for JetBrains IDEs**.   
+11. Haga clic en **Authorize GitHub Copilot for JetBrains IDEs**.   
 
    ![](../media/c25.png)    
 
-1. Una vez que se hayan aprobado los permisos, su IDE JetBrains mostrará una confirmación.
+12. Una vez que se hayan aprobado los permisos, su IDE JetBrains mostrará una confirmación.
 
    ![](../media/c26.png)   
 
-1. En su IDE de JetBrains, haga clic derecho en **src (1)**, seleccione **New (2)** y haga clic en **File (3)** para crear un nuevo archivo Java (*.java) denominado **Test.java**.
+13. En su IDE de JetBrains, haga clic derecho en **src (1)**, seleccione **New (2)** y haga clic en **File (3)** para crear un nuevo archivo Java (*.java) denominado **Test.java**.
 
    ![](../media/ex6-test-java.png)
 
-1. Cree una clase escribiendo **class Test**. Copilot sugerirá un cuerpo de clase y puede presionar la tecla **Tab** para aceptar la sugerencia.
+14. Cree una clase escribiendo **class Test**. Copilot sugerirá un cuerpo de clase y puede presionar la tecla **Tab** para aceptar la sugerencia.
 
    ![](../media/ex6-class-test.png)
 
-1. Debajo de la llave de la función main, escriba el siguiente encabezado de función:
+15. Debajo de la llave de la función main, escriba el siguiente encabezado de función:
 
    ```
    int calculateDaysBetweenDates(
    ```
 
-1. GitHub Copilot sugerirá automáticamente todo el cuerpo de la función en texto gris, como se muestra a continuación. La sugerencia exacta puede variar.
+16. GitHub Copilot sugerirá automáticamente todo el cuerpo de la función en texto gris, como se muestra a continuación. La sugerencia exacta puede variar.
 
    ![](../media/ex6-days.png)
 
-1. Presione **Tab** para aceptar la sugerencia.
+17.   Presione **Tab** para aceptar la sugerencia.
 
-   >**Nota:** Si recibe algún error o si necesita más sugerencias, navegue a **Github Co-pilot** desde el panel derecho. Actualícelo si es necesario. Acepte la solución más relevante.
+      >**Nota:** Si recibe algún error o si necesita más sugerencias, navegue a **Github Co-pilot** desde el panel derecho. Actualícelo si es necesario. Acepte la solución más relevante.
 
-    ![](../media/c27.png) 
-
-    ![](../media/ex6-copilot-suggestion.png)   
+      ![](../media/c27.png) 
+      
+      ![](../media/ex6-copilot-suggestion.png)   
 
 ## Tarea 3: Obtener más sugerencias
 

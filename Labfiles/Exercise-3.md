@@ -21,12 +21,12 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/py10.png)
 
-1. Nombre el archivo `app.py` y verifique que su nuevo archivo se vea como se muestra a continuación:
+2. Nombre el archivo `app.py` y verifique que su nuevo archivo se vea como se muestra a continuación:
    > **Nota:** Crea el archivo `app.py` fuera de la carpeta `.devcontainer`.
 
    ![](../media/app1.png)
 
-1. Ahora, presione `Ctrl + I` para abrir GitHub Copilot Chat y pegue los siguientes **comentarios (1)** y haga clic en > o presione **Enter (2)**. Copilot le dará una respuesta, y usted puede revisarla y hacer clic en **Aceptar (3)**. Además, usted puede **Descartar** la sugerencia como se muestra en la imagen a continuación.
+3. Ahora, presione `Ctrl + I` para abrir GitHub Copilot Chat y pegue los siguientes **comentarios (1)** y haga clic en > o presione **Enter (2)**. Copilot le dará una respuesta, y usted puede revisarla y hacer clic en **Aceptar (3)**. Además, usted puede **Descartar** la sugerencia como se muestra en la imagen a continuación.
    
    ```
    Create a simple calculator that can add, subtract, multiply or divide depending upon the input from the user.
@@ -34,13 +34,13 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/hub66.png)
 
-1. Presione `CTRL + S` para guardar el archivo.
+4. Presione `CTRL + S` para guardar el archivo.
 
-1. Haga clic en los **puntos suspensivos (1)** en la parte superior, haga clic en la **Terminal (2)** y seleccione **Nuevo Terminal (3)**.
+5. Haga clic en los **puntos suspensivos (1)** en la parte superior, haga clic en la **Terminal (2)** y seleccione **Nuevo Terminal (3)**.
 
    ![](../media/190625(14).png)
 
-1. Ejecute la aplicación con el comando **python app.py** en la terminal y verifique que se haya generado la salida.
+6. Ejecute la aplicación con el comando **python app.py** en la terminal y verifique que se haya generado la salida.
 
    ![](../media/image.png)   
 
@@ -57,11 +57,11 @@ Al aprovechar el código generado anteriormente, explorará herramientas especí
 
 1. Presione `CTRL + A` para seleccionar todo el código.
 
-1. Haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Editor Inline Chat (2)**.
+2. Haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Editor Inline Chat (2)**.
 
       ![](../media/app.py.png)
 
-1. La siguiente ventana le solicita que sugiera cualquier mejora o ampliación que desee realizar al código. Pegue los siguientes **comentarios (1)** y haga clic en > o presione **Enter (2)**. Copilot le dará una respuesta y podrá revisarla y hacer clic en **Aceptar (3)**. También puede **Descartar** la sugerencia como se muestra en la imagen a continuación.
+3. La siguiente ventana le solicita que sugiera cualquier mejora o ampliación que desee realizar al código. Pegue los siguientes **comentarios (1)** y haga clic en > o presione **Enter (2)**. Copilot le dará una respuesta y podrá revisarla y hacer clic en **Aceptar (3)**. También puede **Descartar** la sugerencia como se muestra en la imagen a continuación.
 
    ```
    Include calculation of percentages
@@ -69,53 +69,53 @@ Al aprovechar el código generado anteriormente, explorará herramientas especí
    
    ![](../media/py4.png)
 
-1. Presione `CTRL + S` para guardar el archivo.
+4. Presione `CTRL + S` para guardar el archivo.
 
-1. Haga clic en los **puntos suspensivos (1)** en la parte superior, haga clic en la **Terminal (2)** y seleccione **Nuevo Terminal (3)**.
+5. Haga clic en los **puntos suspensivos (1)** en la parte superior, haga clic en la **Terminal (2)** y seleccione **Nuevo Terminal (3)**.
 
       ![](../media/190625(21).png)
    
-1. Ejecute la aplicación con el comando **python app.py** en la terminal y verifique que se haya generado la salida.
+6. Ejecute la aplicación con el comando **python app.py** en la terminal y verifique que se haya generado la salida.
 
       ![](../media/pythonapp.png)
 
-1. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Explain (2)**.
+7. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Explain (2)**.
 
    ![](../media/explain.png)
 
-1. Se abre GitHub Copilot Chat a la derecha, el cual ofrece una explicación completa del código como se muestra a continuación.
+8. Se abre GitHub Copilot Chat a la derecha, el cual ofrece una explicación completa del código como se muestra a continuación.
 
       ![](../media/hub65.png)
 
-1. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Fix (2)**.
+9. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Fix (2)**.
 
    ![](../media/fix.png)
 
-1. GitHub Copilot utilizará automáticamente el comentario `/fix` para proponer posibles mejoras a partes específicas del código para su mejora. Haga clic en **Aceptar** para utilizar las correcciones en su código.
+10. GitHub Copilot utilizará automáticamente el comentario `/fix` para proponer posibles mejoras a partes específicas del código para su mejora. Haga clic en **Aceptar** para utilizar las correcciones en su código.
 
       ![](../media/py7.png)
 
-1. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Generate documentacion (2)**.
+11. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Generate documentacion (2)**.
 
       ![](../media/docs.png)
 
-1. GitHub Copilot usará automáticamente el comentario `/doc` para proporcionar un desglose de una línea de código específica. Haga clic en Aceptar para comprender mejor el código mientras lo revisa.
+12. GitHub Copilot usará automáticamente el comentario `/doc` para proporcionar un desglose de una línea de código específica. Haga clic en Aceptar para comprender mejor el código mientras lo revisa.
 
       ![](../media/py8.png)
 
-1. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Generate pruebas (2)**.
+13. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Generate pruebas (2)**.
 
       ![](../media/tests1.png)
 
-1. GitHub Copilot utilizará automáticamente el comentario `/tests `. Haga clic en **Aceptar**.
+14. GitHub Copilot utilizará automáticamente el comentario `/tests `. Haga clic en **Aceptar**.
 
 
-1. Haga clic en **Aceptar** de nuevo para aceptar la sugerencia. 
+15. Haga clic en **Aceptar** de nuevo para aceptar la sugerencia. 
 
       
-1. Presione `CTRL + S` para guardar el archivo.      
+16. Presione `CTRL + S` para guardar el archivo.      
 
-1. Se abrirá un nuevo archivo llamado **test_app.py**, que mostrará los casos de prueba.
+17. Se abrirá un nuevo archivo llamado **test_app.py**, que mostrará los casos de prueba.
 
       ![](../media/190625(22).png)
 
