@@ -177,7 +177,8 @@ You will be able to complete the following tasks:
 
    ![](../media/ex9-train-data-1.png)
 
-
+    >**Note**: If the suggestion doesn't appear or if the output isn't generated as expected, press **Ctrl+I**. Paste the comments, review the suggestions, and then accept them.
+    
 ### Task 4: Data Visualization and Data Transformation
 
 ### Task 4.1: Data Visualization
