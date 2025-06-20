@@ -63,9 +63,9 @@ Será capaz de completar las siguientes tareas:
 
      >**Nota**: Asegúrese de no abrir una instancia de Visual Studio Code que ya esté en ejecución; en su lugar, inicie una nueva desde el escritorio.
 
-1. Haga clic en las tres líneas horizontales en la esquina superior izquierda **(1)**, haga clic en **Archivo (2)** y luego haga clic en **Nueva ventana (3)**.
+1. Haz clic en **Archivo (1)** y luego haz clic en **Nueva ventana (2)**.
 
-   ![](../media/c31.png)
+   ![](../media/190625(17).png)
 
 1. Para verificar la extensión **GitHub Copilot Chat**, se deben realizar los siguientes pasos dentro de Visual Studio Code:
     - Haga clic en el ícono **Extensiones (1)** en la barra de actividades presente en el lado izquierdo de la ventana de Visual Studio Code.
@@ -133,13 +133,15 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/before1.png)
 
-1. Ahora haga clic en el botón **Extensiones (1)** de la barra de herramientas del navegador, seleccione **Accessibility Insights for Web (2)** y, a continuación, haga clic en **FastPass (3)**. Se abrirá en una nueva ventana emergente.
+1. Ahora haz clic en el botón de Extensiones (1) en la barra de herramientas del navegador, selecciona Accessibility Insights for Web (2), haz clic en **Aceptar (3)** y luego haz clic en **FastPass (4)**. Se abrirá en una nueva ventana emergente.
 
    - **FastPass**: [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) es un proceso ligero de dos pasos que ayuda a los desarrolladores a identificar problemas de accesibilidad comunes y de alto impacto en menos de cinco minutos.
 
      ![](../media/fastpass1.png)
 
-     ![](../media/fastpass2.png)
+     ![](../media/190625(18).png)
+
+     ![](../media/190625(19).png)
 
 1. En la nueva ventana de **Accessibility Insights for Web**, verá la siguiente lista de verificación de tres pasos para FastPass.
 

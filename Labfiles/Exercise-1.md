@@ -24,11 +24,12 @@ Será capaz de completar las siguientes tareas:
 
 1. Para navegar de regreso a la página de inicio de tu repositorio desde la configuración de la organización, haz clic en **Repositories** en el panel izquierdo y selecciona el repositorio privado **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**.
 
-   ![](../media/GithubRepo.png)
+   ![](../media/190625(11).png)
+
 
 2. En la página de inicio de tu repositorio, haz clic en **creating a new file** en la sección **Quick setup**.
 
-   ![](../media/Exercise1-task1-1.png)
+   ![](../media/190625(09).png)
 
 2. Escriba o pegue lo siguiente en el campo de texto vacío para nombrar su archivo **(1)**.
 
@@ -57,7 +58,7 @@ Será capaz de completar las siguientes tareas:
    }
    ```
 
-   ![](../media/c14.png)
+   ![](../media/190625(10).png)
    
 4. Seleccione la opción **Commit directly to the `main` branch** y luego haga clic en el botón **Commit changes**.
 
@@ -97,7 +98,7 @@ Será capaz de completar las siguientes tareas:
 
 1. Verifique que su codespace esté ejecutándose. Asegúrese de que VS Code se vea como se muestra a continuación:
 
-    ![](../media/loaded-repo.png)   
+    ![](../media/190625(12).png)   
 
 1. Haga clic en **Extensiones** **(1)** en el menú de la izquierda y la extensión **GitHub Copilot** **(2)** debería aparecer en la lista de extensiones de VS Code. Haga clic en la extensión Copilot y verifique su instalación como se muestra a continuación:
 
@@ -111,15 +112,13 @@ Será capaz de completar las siguientes tareas:
 
 1. En la ventana emergente que aparece, en la página **Iniciar sesión para usar Copilot gratis**, haga clic en **Iniciar sesión**
 
-   ![](../media/signin-to-githubcopilotupd1.png)
+   ![](../media/190625(24).png)
 
    > **Nota**: Si aparece el error **No access to GitHub Copilot found**, comuníquese con `cloudlabs-support@spektrasystems.com` para obtener más ayuda.
 
-      ![](../media/3.png)
-
 9. A continuación, cuando aparezca la ventana emergente, haga clic en **Permitir**
 
-   ![](../media/allow.png)
+   ![](../media/190625(23).png)
 
    >**Nota**: espere alrededor de 2 minutos para que el codespace se active por sí solo.
 

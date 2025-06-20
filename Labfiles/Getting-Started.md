@@ -50,14 +50,27 @@ GitHub Copilot es una herramienta de completado de código impulsada por IA que 
 
 1. Puede ver un escritorio de máquina virtual 💻 (**LABVM**) cargado en la parte izquierda de su navegador. Use esta máquina virtual durante todo el taller para realizar el laboratorio. También puede conectarte a la máquina virtual mediante cualquier cliente RDP utilizando las credenciales de **LABVM** proporcionadas en la pestaña **Ambiente**.
    
-   ![](../media/gettingstarted-v2-firstupd.png)
+   ![](../media/190625(01).png)
 
-1. Una vez que esté en la pestaña **Ambiente**, haga clic en la opción **Credenciales de GitHub** para obtener las credenciales de usuario de GitHub. Las credenciales también se enviarán por correo electrónico a su dirección de correo electrónico registrada. También puede abrir la Guía de Laboratorio en una ventana separada y completa seleccionando **Ventana Dividida** en la esquina superior derecha. Además, puede iniciar, detener y reiniciar máquinas virtuales desde la pestaña **Recursos**.
+1. Una vez que estés en la pestaña **Entorno (1)**, desplázate hacia abajo y encontrarás **nombre de usuario de github y contraseña de github (2)**
  
-   ![](../media/gettingstarted-v2-01upd.png)
+   ![](../media/190625(02).png)
+
+
+## Utilizando la función de ventana dividida
+
+1. Para su conveniencia, puede abrir la guía del laboratorio en una ventana separada seleccionando el botón de ventana dividida en la esquina superior derecha.
+
+   ![](../media/190625(03).png)
+
+## Utilizando la función de acercar/alejar
+
+1. Para ajustar el nivel de zoom en la página del entorno, haz clic en el ícono A↕ : 100% ubicado junto al temporizador en el entorno del laboratorio.
+
+   ![](../media/190625(04).png)
+
 
 ## Iniciar Sesión en GitHub
-
 1. En el escritorio de LABVM, busque **Microsoft Edge** **(1)**, haga clic en el navegador **Microsoft Edge** **(2)**.
 
    ![](../media/Edge.png)
@@ -90,6 +103,10 @@ GitHub Copilot es una herramienta de completado de código impulsada por IA que 
 
 1. Si se le solicita que permanezca conectado, puede hacer clic en **No**.
 
+1. Ahora has iniciado sesión en GitHub con éxito y has sido redirigido a la página de inicio de GitHub.
+
+      ![](../media/190625(05).png)
+
 1. Haga clic en **Copiar enlace** y péguelo dentro de LabVM en el navegador Edge donde haya iniciado sesión en GitHub en los pasos anteriores.
 
    <!-- For start course, run in JavaScript:
@@ -112,6 +129,8 @@ GitHub Copilot es una herramienta de completado de código impulsada por IA que 
    ![](../media/forka.png)
 
 1. Después de crear su nuevo repositorio, espere unos 20 segundos y luego actualice la página.
+
+   ![](../media/190625(06).png)
 
 1. Una vez que se haya creado el repositorio, haz clic en tu foto de perfil y luego selecciona **Your organizations**.
 

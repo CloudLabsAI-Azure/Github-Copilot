@@ -35,7 +35,7 @@ Será capaz de completar las siguientes tareas:
 
 1. En la barra de actividades de Visual Studio Code, haga clic en el ícono **GitHub Copilot Chat** **(1)** en la parte superior derecha. Haga clic en **Abrir Chat (2)** para abrir la ventana de GitHub Copilot Chat.
 
-    ![](../media/c10.png)
+    ![](../media/190625(16).png)
 
 1. En la parte inferior de la ventana de GitHub Copilot Chat, en el cuadro de texto **Ask Copilot a question or type / for topics**, escriba una pregunta relacionada con la codificación y luego presione Enter. Por ejemplo, escriba `Write an ARM code for deploying a storage account to Azure with the code explanation.`.
 
