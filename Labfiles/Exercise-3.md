@@ -21,12 +21,12 @@ In this lab, you will complete the following tasks:
 
    ![](../media/py10-1.png)
 
-1. Name the file `app.py` and verify your new file looks as shown below:
+2. Name the file `app.py` and verify your new file looks as shown below:
    > **Note:** Create the `app.py` file outside the `.devcontainer` folder.
 
    ![](../media/app1-1.png)
 
-1. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** and click > or press **Enter (2)**. Copilot will give a response, and you can review it and click **Accept (3)**. Also, you can **Discard** the suggestion as depicted in the image below.
+3. Now press `Ctrl + I` to open the GitHub Copilot Chat and paste the following **comments (1)** and click > or press **Enter (2)**. Copilot will give a response, and you can review it and click **Accept (3)**. Also, you can **Discard** the suggestion as depicted in the image below.
    
    ```
    Create a simple calculator that can add, subtract, multiply or divide depending upon the input from the user.
@@ -34,13 +34,13 @@ In this lab, you will complete the following tasks:
 
    ![](../media/hub66-1.png)
 
-1. Press `CTRL + S` to save the file.
+4. Press `CTRL + S` to save the file.
 
-1. Click on the **ellipsis (1)** on the top, click on **Terminal (2)** and select **New Terminal (3)**.
+5. Click on the **ellipsis (1)** on the top, click on **Terminal (2)** and select **New Terminal (3)**.
 
    ![](../media/openterminal.png)
 
-1. Run the application with the **python app.py** command in the terminal and verify the output has been generated.
+6. Run the application with the **python app.py** command in the terminal and verify the output has been generated.
 
    ![](../media/image.png)   
 
@@ -57,11 +57,11 @@ By leveraging the previously generated code, you will explore specific tools pro
 
 1. Press `Ctrl + A` to select the entire code from the `app.py` file.
 
-1. Right click on the selected code, select **Copilot (1)** and select **Editor Inline Chat (2)**.
+2. Right click on the selected code, select **Copilot (1)** and select **Editor Inline Chat (2)**.
 
       ![](../media/new-githubcopilot-feb-5.png)
 
-1. The following window prompts you to suggest any improvements or enhancements you would like to make to the code. Paste the following **comments (1)** and click > or press **Enter (2)**. Copilot will give a response, and you can review it and click **Accept (3)**. Also, you can **Discard** the suggestion as depicted in the image below.
+3. The following window prompts you to suggest any improvements or enhancements you would like to make to the code. Paste the following **comments (1)** and click > or press **Enter (2)**. Copilot will give a response, and you can review it and click **Accept (3)**. Also, you can **Discard** the suggestion as depicted in the image below.
 
    ```
    Include calculation of percentages
@@ -69,64 +69,64 @@ By leveraging the previously generated code, you will explore specific tools pro
    
    ![](../media/py4.png)
 
-1. Press `CTRL + S` to save the file.
+4. Press `CTRL + S` to save the file.
 
-1. Click on the **ellipsis (1)** on the top, click on **Terminal (2)** and select **New Terminal (3)**.
+5. Click on the **ellipsis (1)** on the top, click on **Terminal (2)** and select **New Terminal (3)**.
 
       ![](../media/openterminal.png)
    
-1. Run the application with the **python app.py** command in the terminal and verify the output has been generated.
+6. Run the application with the **python app.py** command in the terminal and verify the output has been generated.
 
       ![](../media/percentage-01.png)
 
-1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Explain (2)**.
+7. Select the code again and right click on the selected code, select **Copilot (1)** and select **Explain (2)**.
 
    ![](../media/new-githubcopilot-feb-6.png)
 
-1. It opens the GitHub Copilot Chat on the right, offering a comprehensive explanation of the code as show below.
+8. It opens the GitHub Copilot Chat on the right, offering a comprehensive explanation of the code as show below.
 
       ![](../media/hub65.png)
 
-1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Fix (2)**.
+9. Select the code again and right click on the selected code, select **Copilot (1)** and select **Fix (2)**.
 
    ![](../media/new-githubcopilot-feb-7.png)
 
-1. GitHub Copilot will automatically utilize the `/fix` comment to propose potential improvements to specific parts of code for enhancement. Click on **Accept** to utilize the fixes in your code.
+10. GitHub Copilot will automatically utilize the `/fix` comment to propose potential improvements to specific parts of code for enhancement. Click on **Accept** to utilize the fixes in your code.
 
       ![](../media/py7.png)
    
-   >**Note: Incase if you do not see the option to Accept , Click on edit code as shown below in the screenshot.**
+      >**Note: Incase if you do not see the option to Accept , Click on edit code as shown below in the screenshot.**
 
      ![](../media/fix-code.png)
 
-1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Generate Docs (2)**.
+11. Select the code again and right click on the selected code, select **Copilot (1)** and select **Generate Docs (2)**.
 
       ![](../media/new-githubcopilot-feb-8.png)
 
-1. GitHub Copilot will automatically use the `/doc` comment to provide a breakdown of a specific line of code. Click on Accept to gain a deeper understanding while reviewing the code.
+12. GitHub Copilot will automatically use the `/doc` comment to provide a breakdown of a specific line of code. Click on Accept to gain a deeper understanding while reviewing the code.
 
       ![](../media/py8.png)
 
-   >**Note: Incase if you do not see the option to Accept , Click on edit code as shown below in the screenshot.**
+      >**Note: Incase if you do not see the option to Accept , Click on edit code as shown below in the screenshot.**
 
-    ![](../media/doc-01.png)
+      ![](../media/doc-01.png)
 
-1. Select the code again and right click on the selected code, select **Copilot (1)** and select **Generate Tests(2)**.
+13. Select the code again and right click on the selected code, select **Copilot (1)** and select **Generate Tests(2)**.
 
       ![](../media/new-githubcopilot-feb-9.png)
 
-1. GitHub Copilot will automatically use the `/tests` comment. Click on **Accept**.
+14. GitHub Copilot will automatically use the `/tests` comment. Click on **Accept**.
 
       ![](../media/E3T2S14-0303.png)
 
 
-1. Click on **Accept** again to accept the suggestion.
+15. Click on **Accept** again to accept the suggestion.
 
       ![](../media/E3T2S14.1-0303.png)
 
-1. Press `CTRL + S` to save the file.       
+16. Press `CTRL + S` to save the file.       
 
-1. It will open a new file named **test_app.py**, displaying the test cases.
+17. It will open a new file named **test_app.py**, displaying the test cases.
 
       ![](../media/E3T2S16-0303.png)
 

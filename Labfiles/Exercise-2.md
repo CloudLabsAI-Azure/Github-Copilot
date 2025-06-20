@@ -25,9 +25,10 @@ In this lab, you will complete the following tasks:
    ![](../media/create-newfile-01.png)
 
 1. Name the file `skills.js` and verify your new file looks as shown below:
+   
    > **Note:** Create the `skill.js` file outside the `.devcontainer` folder.
 
-   ![](../media/name-skills-01.png)
+      ![](../media/name-skills-01.png)
 
 1. In the `skills.js` file, type the below function header and press `Enter` to see the code suggestions.
 
