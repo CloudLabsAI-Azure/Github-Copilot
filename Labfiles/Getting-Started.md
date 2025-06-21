@@ -12,7 +12,7 @@ Al finalizar este laboratorio, mejorará su flujo de trabajo de codificación ap
 
 - **Aprovechar Codespaces con VS Code para Copilot**: Este ejercicio práctico sugiere código a partir de comentarios y contexto, admite varios editores y lenguajes y se integra con GitHub Codespaces para la programación colaborativa. Como resultado de habilitar Copilot en Codespaces, experimentará una mayor productividad con sugerencias de código en tiempo real, una mejor calidad del código y una aceleración del aprendizaje y la incorporación.
 - **Explorar Sugerencias de Código Impulsadas por IA en JavaScript**: Este ejercicio práctico tiene como objetivo examinar cómo la IA mejora la codificación en JavaScript con complementos en tiempo real, la detección de errores, las optimizaciones y las mejoras de eficiencia. Al habilitar Copilot en un Codespace, experimentará una mayor productividad con sugerencias de código en tiempo real mientras añade y escribe un archivo JavaScript, agilizando el proceso de enviar código a su repositorio y adhiriéndose a las mejores prácticas, mejorando la calidad general del código y reduciendo los errores.
-- **Explorar Python con GitHub Copilot**: Este ejercicio práctico tiene como objetivo ofrecer excelentes sugerencias para lenguajes como Python, JavaScript, Ruby y más, y ayuda con las consultas a bases de datos. Como resultado de este ejercicio, habrá agregado con éxito el código del método Python con sugerencias en tiempo real de GitHub Copilot, habrá visto varias sugerencias de código en la pestaña Copilot y habrá enviado el código refinado a su repositorio desde VS Code Codespace.
+- **Explorar Python con GitHub Copilot**: Este ejercicio práctico tiene como objetivo ofrecer excelentes sugerencias para lenguajes como Python, JavaScript, Ruby y más, y ayuda con las consultas a bases de datos. Como resultado de este ejercicio, habrá agregado con éxito el código de métodos de Python con sugerencias en tiempo real de GitHub Copilot, habrá visto varias sugerencias de código en la pestaña Copilot y habrá enviado el código refinado a su repositorio desde VS Code Codespace.
 - **Usar GitHub Copilot Chat para generar código ARM y Terraform con Copilot**: Este ejercicio práctico tiene como objetivo proporcionar asistencia de programación directamente dentro de los IDE compatibles, ofreciendo sugerencias de código, explicaciones, pruebas unitarias y correcciones de errores. Habilitar Copilot en Codespaces dará como resultado una mayor productividad con sugerencias de código en tiempo real y una mejor calidad del código mientras se generan scripts ARM, Terraform y PowerShell para implementar recursos en Azure.
 - **Usar GitHub Copilot para Refactorizar Código**: Este ejercicio práctico tiene como objetivo mejorar la calidad del código mediante la reestructuración para mejorar la legibilidad, el mantenimiento y el rendimiento sin alterar el comportamiento externo, reduciendo la deuda técnica y los errores. Al utilizar GitHub Copilot para refactorizar el código y emplear Copilot Chat con el código, se mejora la calidad y la productividad del código. Este ejercicio también facilita una mejor comprensión del código refactorizado, acelera la creación de pruebas unitarias y agiliza el envío de código a su repositorio.
 - **Usar IDEs como JetBrains IntelliJ para Java**: Este ejercicio práctico tiene como objetivo mejorar la codificación en Java en IntelliJ ofreciendo sugerencias inteligentes y autocompletado, elevando la productividad y la calidad del código. Instale el complemento GitHub Copilot y cree un proyecto Java básico en IntelliJ IDEA. Utilice Copilot para obtener sugerencias de código mejoradas y generar código a partir de comentarios.
@@ -46,26 +46,32 @@ GitHub Copilot es una herramienta de completado de código impulsada por IA que 
 
 1. **Lenguajes de programación**: Son herramientas que se utilizan para escribir instrucciones que las computadoras deben ejecutar, como Python, Javascript, C#, etc.
 
-# Primeros Pasos con el Laboratorio
+# Comenzando con el Laboratorio
 
-1. Puede ver un escritorio de máquina virtual 💻 (**LABVM**) cargado en la parte izquierda de su navegador. Use esta máquina virtual durante todo el taller para realizar el laboratorio. También puede conectarte a la máquina virtual mediante cualquier cliente RDP utilizando las credenciales de **LABVM** proporcionadas en la pestaña **Ambiente**.
+¡Bienvenido a su Taller de Innovación de GitHub Copilot! Hemos preparado un entorno perfecto para que explore y aprenda sobre los Servicios de GitHub Copilot. Empecemos por aprovechar al máximo esta experiencia:
+
+## Accediendo a Su Entorno de Laboratorio
+
+Una vez que esté listo para comenzar, su máquina virtual y la guía de laboratorio estarán a su alcance dentro de su navegador web.
+
+1. Puede ver un escritorio de máquina virtual 💻 (**LABVM**) cargado en la parte izquierda de su navegador. Use esta máquina virtual durante todo el taller para realizar el laboratorio. También puede conectarse a la máquina virtual mediante cualquier cliente RDP utilizando las credenciales de **LABVM** proporcionadas en la pestaña **Ambiente**.
    
    ![](../media/190625(01).png)
 
-1. Una vez que estés en la pestaña **Entorno (1)**, desplázate hacia abajo y encontrarás **nombre de usuario de github y contraseña de github (2)**
+1. Una vez que esté en la pestaña **Ambiente (1)**, desplácese hacia abajo y encontrará el **Nombre de usuario de Github y la Contraseña de Github (2)**
  
    ![](../media/190625(02).png)
 
 
 ## Utilizando la función de ventana dividida
 
-1. Para su conveniencia, puede abrir la guía del laboratorio en una ventana separada seleccionando el botón de ventana dividida en la esquina superior derecha.
+Para su conveniencia, puede abrir la guía del laboratorio en una ventana separada seleccionando el botón de ventana dividida en la esquina superior derecha.
 
    ![](../media/190625(03).png)
 
 ## Utilizando la función de acercar/alejar
 
-1. Para ajustar el nivel de zoom en la página del entorno, haz clic en el ícono A↕ : 100% ubicado junto al temporizador en el entorno del laboratorio.
+Para ajustar el nivel de zoom en la página del entorno, haga clic en el ícono A↕ : 100% ubicado junto al temporizador en el entorno del laboratorio.
 
    ![](../media/190625(04).png)
 
@@ -75,21 +81,30 @@ GitHub Copilot es una herramienta de completado de código impulsada por IA que 
 
    ![](../media/Edge.png)
 
+>**Nota**: Si ve algún mensaje abierto de PowerShell ejecutándose, minimícelo y continúe con los siguientes pasos.
+
+   ![](../media/minimise-screen.png)
+
 1. Navegue a la página de inicio de sesión de GitHub utilizando la URL proporcionada a continuación:
    ```
    https://github.com/login
    ```
    
-1. En la pestaña **Iniciar sesión en GitHub**, verá la pantalla de inicio de sesión. Ingrese su nombre de usuario de GitHub como **<inject key="GitHub User Name" enableCopy="true"/>** **(1)**, luego haga clic en
-**Sign in with your identity provider** **(2)**.
+1. En la pestaña **Iniciar sesión en GitHub**, verá la pantalla de inicio de sesión.
+
+- Ingrese su **nombre de usuario de GitHub (1)** como
+
+   <inject key="GitHub User Name" enableCopy="true"/>
+
+- Haga clic en **Sign in with your identity provider** **(2)** para continuar.
 
    ![](../media/github-logina.png)
           
-1. Haz clic en Continue en la página **Single sign-on to CloudLabs Organizations** para continuar.
+1. Haga clic en **Continue** en la página **Single sign-on to CloudLabs Organizations** para continuar.
 
    ![](../media/github-loginb.png)
 
-1. Verás la pestaña** **Sign in** Aquí, ingresa tus credenciales de Azure Entra:
+1. Verá la pestaña **Sign in** Aquí, ingrese sus credenciales de Azure Entra:
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
@@ -101,13 +116,20 @@ GitHub Copilot es una herramienta de completado de código impulsada por IA que 
 
       ![Enter Your Password](../media/login2.png)
 
+1. Haga clic on **Accept** cuando se le solicite.
+
+      ![Enter Your Password](../media/accept-01.png)
+
+
 1. Si se le solicita que permanezca conectado, puede hacer clic en **No**.
 
-1. Ahora has iniciado sesión en GitHub con éxito y has sido redirigido a la página de inicio de GitHub.
+   ![](../media/stay-signed-in.png)
+
+1. Ahora ha iniciado sesión en GitHub con éxito y has sido redirigido a la página de inicio de GitHub.
 
       ![](../media/190625(05).png)
 
-1. Haga clic en **Copiar enlace** y péguelo dentro de LabVM en el navegador Edge donde haya iniciado sesión en GitHub en los pasos anteriores.
+1. Haga clic en el botón **Copiar enlace** y abra una nueva pestaña en el navegador Edge dentro de LabVM. Pegue el enlace en la barra de direcciones y pulse Enter. Asegúrese de haber iniciado sesión en GitHub, como se hizo en los pasos anteriores.
 
    <!-- For start course, run in JavaScript:
    'https://github.com/new?' + new URLSearchParams({
@@ -124,19 +146,25 @@ GitHub Copilot es una herramienta de completado de código impulsada por IA que 
    https://github.com/new?template_owner=skills&template_name=copilot-codespaces-vscode&owner=%40me&name=skills-copilot-codespaces-vscode&description=My+clone+repository&visibility=public
    ```
 
-1. En la nueva pestaña, la mayoría de los campos estarán rellenados automáticamente. Solo actualiza el** **Owner** **a** **Cloudlabs-Enterprises** **(1)**, cambia el nombre del repositorio a **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>** **(2)** para que sea único, y luego haz clic en **Create repository** **(3)** **para continuar.
+1. En la nueva pestaña, la mayoría de los campos estarán precargados automáticamente. Solo actualice el **Owner** a **Cloudlabs-Enterprises** **(1)**, cambie el nombre del repositorio (**Repository name** **(2)**) tal como se indica a continuación para que sea único.
+  
+    - Establezca el Repository name como **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**. 
 
-   ![](../media/forka.png)
+      ![](../media/forkrepo-01.png)
 
-1. Después de crear su nuevo repositorio, espere unos 20 segundos y luego actualice la página.
+    - Luego haga clic en **Create repository** **(3)** **para continuar.
+
+      ![](../media/forkrepo-02.png)
+
+1. Una vez creado el nuevo repositorio, espere unos 20 segundos y luego actualice la página; será redirigido a la página principal del repositorio **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**.
 
    ![](../media/190625(06).png)
 
-1. Una vez que se haya creado el repositorio, haz clic en tu foto de perfil y luego selecciona **Your organizations**.
+1. Una vez que se haya creado el repositorio, haga clic en su foto de perfil y luego seleccione **Your organizations**.
 
    ![](../media/organization.png)
 
-1. En Your organization, selecciona **Codespaces** desde el panel de navegación izquierdo.
+1. En Your organization, seleccione **Codespaces** desde el panel de navegación izquierdo.
 
    ![](../media/codespace.png)
 
