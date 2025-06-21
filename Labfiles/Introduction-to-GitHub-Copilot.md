@@ -59,30 +59,17 @@ Los propietarios de empresas pueden permitir que algunas o todas las organizacio
 
 |                                                            | GitHub Copilot for Individuals |GitHub Copilot for Business | GitHub Copilot Enterprise |
 | ---------------------------------------------------------- | --------------------------- | ------------------------------- | ------------- |
-| Mensajes e interacciones ilimitados            |             ✓	             |      ✓                 |    ✓  |
-| Soporte y explicaciones de codificación en función del contexto   |             ✓	             |      ✓                 |    ✓  |
-| Asistencia en depuración y corrección de seguridad |             ✓	             |         ✓                 |    ✓  |
-| Conversaciones adaptadas a los repositorios de su organización  |     ✕	             |   ✕	 |    ✓  |
-| Respuestas basadas en la base de conocimientos de su organización |             ✕	             |   ✕	 |    ✓  |
-| Acceso al conocimiento de los principales repositorios de código abierto |             ✕	             |    ✕	 |    ✓  |
-| Análisis de diferencias en las solicitudes de incorporación de cambios         |             ✕	             |   ✕	 |    ✓  |
-| Búsqueda web con tecnología de Bing (beta)  |             ✕	             |   ✕	 |    ✓  |
-| Sugerencias de código en tiempo real |             ✓	             |               ✓                 |    ✓  |
-| Comentarios a código |             ✓	             |               ✓                 |    ✓  |
-| Modelos ajustados (próximamente como complemento) |             ✕	             |   ✕	 |    ✓  |
-| Chat en línea y sugerencias de prompt |             ✓	             |               ✓                 |    ✓  |
-| Comandos de barra y variables contextuales |             ✓	             |               ✓                 |    ✓  |
-| Generación de mensajes de confirmación |             ✓	             |               ✓                 |    ✓  |
-| Descripción y resumen de la solicitud de incorporación de cambios |             ✕	             |   ✕	 |    ✓  |
-| IDE, CLI y GitHub Mobile |             ✓	             |               ✓                 |    ✓  |
-| GitHub.com |             ✕	             |   ✕	 |    ✓  |
-| Filtro de código público |             ✓	             |               ✓                 |    ✓  |
-| Administración de usuarios |             ✕	             |  ✓                 |    ✓  |
-| Datos excluidos del entrenamiento de forma predeterminada |             ✕	             |  ✓                 |    ✓  |
-| Indemnización de IP |             ✕	             |  ✓                 |    ✓  |
-| Exclusiones de contenido |             ✕	             |  ✓                 |    ✓  |
-| Autenticación SAML SSO¹ |             ✕	             |  ✓                 |    ✓  |
-| Requiere GitHub Enterprise Cloud |             ✕	             |   ✕	 |    ✓  |
+| Modo Agente            |  Hasta 50 al mes	             |      Ilimitado con GPT-4o    |   Ilimitado con GPT-4o  |
+| Revisión de código            |             ✕	             |      ✓                 |    ✓  |
+| Extensiones de Copilot            |             ✓	             |      ✓                 |    ✓  |
+| Chat en Línea            |             ✓	             |      ✓                 |    ✓  |
+| Generar pruebas, documentación y más con comandos de barra (slash)            |             ✓	             |      ✓                 |    ✓  |
+| Resúmenes de solicitudes de incorporación de cambios (pull request), incidencias (issues) y debates (discussions)            |             ✕	             |      ✓                 |    ✓  |
+| Adjuntar bases de conocimiento al chat para contexto organizacional            |             ✕	             |      ✕                 |    ✕  |
+| Comandos de barra y variables de contexto |             ✓	             |               ✓                 |    ✓  |
+| Soporte y explicaciones de codificación en función del contexto |             ✓	             |               ✓                 |    ✓  |
+| Asistencia en depuración y remediación de seguridad |             ✓	             |         ✓                 |    ✓  |
+| Copilot Chat, modo agente, revisión de código y extensiones de Copilot utilizan solicitudes premium, y el uso varía según el modelo            |  Hasta 50 por mes	             |      Hasta 300 por mes    |   Hasta 300 por mes  |
 
 ### Casos de Uso de GitHub Copilot for Business
 
@@ -109,5 +96,5 @@ Cuando se ha habilitado el acceso a Copilot, se pueden configurar funciones como
 - Los propietarios de la empresa pueden establecer que las funciones de Copilot estén activadas o desactivadas para todas las organizaciones de la empresa que tengan acceso a Copilot. Alternativamente, pueden permitir que cada organización establezca su propia política para cada función.
 - Si el propietario de la empresa lo ha permitido, los propietarios de la organización pueden habilitar o deshabilitar las funciones de Copilot para su organización.
 
-Haga clic en “Siguiente” en la parte inferior derecha para comenzar con el laboratorio.
+Haga clic en **Siguiente** en la parte inferior derecha para comenzar con el laboratorio.
 
