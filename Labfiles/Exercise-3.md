@@ -17,12 +17,12 @@ Será capaz de completar las siguientes tareas:
 
 ## Tarea 1: Desarrollar un Script de Python para Implementar una Calculadora
 
-1. Desde la ventana del Explorador de VS Code, cree un Nuevo Archivo.
+1. Desde la ventana del Explorador de VS Code, cree un **Nuevo Archivo**.
 
    ![](../media/py10.png)
 
 2. Nombre el archivo `app.py` y verifique que su nuevo archivo se vea como se muestra a continuación:
-   > **Nota:** Crea el archivo `app.py` fuera de la carpeta `.devcontainer`.
+   > **Nota:** Cree el archivo `app.py` fuera de la carpeta `.devcontainer`.
 
    ![](../media/app1.png)
 
@@ -32,7 +32,7 @@ Será capaz de completar las siguientes tareas:
    Create a simple calculator that can add, subtract, multiply or divide depending upon the input from the user.
    ```
 
-   ![](../media/hub66.png)
+   ![](../media/hub66-1.png)
 
 4. Presione `CTRL + S` para guardar el archivo.
 
@@ -55,7 +55,7 @@ Será capaz de completar las siguientes tareas:
 
 Al aprovechar el código generado anteriormente, explorará herramientas específicas proporcionadas por Copilot que simplifican las tareas principales.
 
-1. Presione `CTRL + A` para seleccionar todo el código.
+1. Presione `CTRL + A` para seleccionar todo el código del archivo `app.py`.
 
 2. Haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Editor Inline Chat (2)**.
 
@@ -95,7 +95,11 @@ Al aprovechar el código generado anteriormente, explorará herramientas especí
 
       ![](../media/py7.png)
 
-11. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Generate documentacion (2)**.
+   >**Nota: En caso de que no vea la opción Aceptar, haga clic en editar código como se muestra a continuación en la captura de pantalla.**
+
+     ![](../media/fix-code.png)
+
+11. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Generate documentation (2)**.
 
       ![](../media/docs.png)
 
@@ -103,23 +107,30 @@ Al aprovechar el código generado anteriormente, explorará herramientas especí
 
       ![](../media/py8.png)
 
-13. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Generate pruebas (2)**.
+      >**Nota: En caso de que no vea la opción Aceptar, haga clic en editar código como se muestra a continuación en la captura de pantalla.**
+
+      ![](../media/doc-01.png)
+
+
+13. Seleccione el código nuevamente y haga clic derecho en el código seleccionado, elija **Copilot (1)** y seleccione **Generate tests (2)**.
 
       ![](../media/tests1.png)
 
 14. GitHub Copilot utilizará automáticamente el comentario `/tests `. Haga clic en **Aceptar**.
 
+      ![](../media/E3T2S14-0303.png)
+    
+16. Haga clic en **Aceptar** de nuevo para aceptar la sugerencia. 
 
-15. Haga clic en **Aceptar** de nuevo para aceptar la sugerencia. 
+      ![](../media/E3T2S14.1-0303.png)
+          
+17. Presione `CTRL + S` para guardar el archivo.      
 
-      
-16. Presione `CTRL + S` para guardar el archivo.      
-
-17. Se abrirá un nuevo archivo llamado **test_app.py**, que mostrará los casos de prueba.
+18. Se abrirá un nuevo archivo llamado **test_app.py**, que mostrará los casos de prueba.
 
       ![](../media/190625(22).png)
 
 ## Revisión
 En este laboratorio, aprendió a crear un script de Python para una calculadora y exploró las herramientas de GitHub Copilot, las cuales agilizan las tareas de manera efectiva.
   
-## Ha completado el laboratorio con éxito
+## Ha completado el laboratorio con éxito. Haga clic en **Siguiente >>** para continuar con el siguiente ejercicio.
