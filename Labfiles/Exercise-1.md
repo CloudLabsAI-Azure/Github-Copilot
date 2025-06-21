@@ -22,12 +22,12 @@ Será capaz de completar las siguientes tareas:
 
 ## Tarea 1: Habilitar Copilot dentro de un Codespace
 
-1. Para navegar de regreso a la página de inicio de tu repositorio desde la configuración de la organización, haz clic en **Repositories** en el panel izquierdo y selecciona el repositorio privado **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**.
+1. Para navegar de regreso a la página de inicio de tu repositorio desde la configuración de la organización, haga clic en **Repositories** en el panel izquierdo y seleccione el repositorio privado **skills-copilot-codespaces-vscode-<inject key="Deployment-id" enableCopy="false"/>**.
 
    ![](../media/190625(27).png)
 
 
-2. En la página de inicio de tu repositorio, haz clic en **creating a new file** en la sección **Quick setup**.
+2. En la página de inicio de su repositorio, haga clic en **creating a new file** en la sección **Quick setup**.
 
    ![](../media/190625(09).png)
 
@@ -68,7 +68,7 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/code-code.png)
 
-6. Haga clic en la pestaña **Codespaces (1)** en el cuadro emergente y luego haga clic en el botón **Create codespace on main (2)**.
+6. Haga clic en la pestaña **Codespaces (1)** en el cuadro emergente y luego haga clic en el botón **Create codespace on main (2)**. Si no ve el botón "Crear Codespace", probablemente significa que su repositorio **no** se creó bajo la organización **Cloudlabs-enterprises**. Para solucionarlo, elimine su repositorio actual y vuelva a crearlo bajo la organización especificada, o haga un fork del repositorio existente en la organización **Cloudlabs-enterprises**.
 
    ![](../media/create-codespace.png)
 
@@ -100,7 +100,7 @@ Será capaz de completar las siguientes tareas:
 
     ![](../media/190625(12).png)   
 
-1. Haga clic en **Extensiones** **(1)** en el menú de la izquierda y la extensión **GitHub Copilot** **(2)** debería aparecer en la lista de extensiones de VS Code. Haga clic en la extensión Copilot y verifique su instalación como se muestra a continuación:
+1. Haga clic en **Extensiones** **(1)** en el menú de la izquierda, busque la extensión **GitHub Copilot** **(2)** y selecciónela en la lista de extensiones de VS Code. Compruebe la extensión GitHub Copilot y verifique su instalación como se muestra a continuación:
 
     ![](../media/verify-copilot.png)
 
@@ -114,7 +114,13 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/190625(24).png)
 
+   >**Nota**: Si aparece la ventana emergente **Sign in to use Copilot**, haga clic en **Continue with github**
+
+      ![](../media/continue-github.png)
+
    > **Nota**: Si aparece el error **No access to GitHub Copilot found**, comuníquese con `cloudlabs-support@spektrasystems.com` para obtener más ayuda.
+
+      ![](../media/3.png)
 
 9. A continuación, cuando aparezca la ventana emergente, haga clic en **Permitir**
 
@@ -134,6 +140,11 @@ Será capaz de completar las siguientes tareas:
 
     ![](../media/c6.png)
 
+    >**Nota**: Haga clic en **Allow** si la extensión **Github Copilot Chat** quiere iniciar sesión usando GitHub.
+
+    ![](../media/allow-github-chat.png)
+
+
    > **Felicitaciones** por completar la tarea. Ahora, es momento de validarla. Estos son los pasos:
    > - Presione el botón Validar para la tarea correspondiente. Si recibe un mensaje de éxito, puede continuar con la siguiente tarea.
    > - De lo contrario, lea atentamente el mensaje de error y vuelva a intentar el paso, siguiendo las instrucciones de la guía del laboratorio.
@@ -145,4 +156,4 @@ Será capaz de completar las siguientes tareas:
 
 En este ejercicio, ha creado un contenedor de desarrollo y ha agregado Copilot a la lista de extensiones.
 
-### Ha completado el laboratorio con éxito
+### Ha completado el laboratorio con éxito. Haga clic en **Siguiente >>** para continuar con el siguiente ejercicio.
