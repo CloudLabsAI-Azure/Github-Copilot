@@ -61,7 +61,7 @@ Será capaz de completar las siguientes tareas:
 
      > **Nota**: Sin embargo, debe tenerse en cuenta que las sugerencias de GitHub Copilot pueden variar, por lo que es necesario comprender claramente el código de Javascript y su uso.
 
-1. Haga clic en los **puntos suspensivos ** en la parte superior, haga clic en **Terminal (1)** y seleccione **Nuevo Terminal (2)**.
+1. Haga clic en los **puntos suspensivos (1)** en la parte superior, haga clic en **Terminal (2)** y seleccione **Nuevo Terminal (3)**.
 
    ![](../media/190625(14).png)  
    
@@ -88,4 +88,4 @@ Será capaz de completar las siguientes tareas:
 
 En este laboratorio, ha creado código JavaScript de manera eficaz y lo ha enviado desde la rama de producción a la rama principal.
 
-## Ha completado el laboratorio con éxito
+## Ha completado el laboratorio con éxito. Haga clic en **Siguiente >>** para continuar con el siguiente ejercicio.
