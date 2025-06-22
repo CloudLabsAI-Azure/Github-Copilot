@@ -29,8 +29,14 @@ Será capaz de completar las siguientes tareas:
     - En el cuadro de búsqueda "Buscar extensiones en Marketplace", escriba y busque la extensión **C#** **(2)**.
     - Seleccione **C#** **(3)** de la lista de resultados que aparecen.
     - Haga clic en el botón **Instalar** **(4)** si está disponible, de otro modo, ignórelo.
+    - Haga clic en el botón **Actualizar** si ya está instalado y no está actualizado.
 
       ![](../media/csharp-install.png)
+
+   >**Nota**: Asegúrese de que lo instalemos también en Codespace.
+
+    ![](../media/install-in-codespace.png)
+
 
 1. Desde el codespace en la ventana de Explorador de VS Code, cree un nuevo archivo y nómbrelo **codechat.cs**.
 
@@ -269,7 +275,7 @@ En esta tarea, demostrará la función de chat con código de GitHub Copilot. Co
 
    ![](../media/create-test.png)
 
-1. Ahora, diríjase a GitHub Copilot Chat y proporcione el prompt **Compose a full JavaScript program for constructing a calculator**.
+1. Ahora, diríjase a GitHub Copilot Chat y proporcione el prompt `Compose a full JavaScript program for constructing a calculator`.
 
 1. GitHub Copilot Chat generará el código como se muestra a continuación.
 
@@ -277,16 +283,16 @@ En esta tarea, demostrará la función de chat con código de GitHub Copilot. Co
 
 1. Copie y pegue el código en el archivo llamado **test.js** que acaba de crear.
 
-1. Ahora, para generar casos de prueba para cada función, seleccione la función para la cual se debe generar el caso de prueba y, nuevamente en la ventana de GitHub Copilot Chat, escriba **/tests** y presione Enter.
+1. Ahora, para generar casos de prueba para todas las funciones en el archivo, navegue a la ventana de GitHub Copilot Chat asegurándose de que el archivo `test.js` esté seleccionado, escriba **/tests** y presione Enter dos veces.
 
    ![](../media/test1.png)
 
-1. Generará un caso de prueba para la función add.
+1. Se generarán los casos de prueba para todas las funciones en un **nuevo archivo (1)**. Proceda a **conservar (2)** los casos de prueba generados.
 
-   ![](../media/addcode1.png)
+   ![](../media/ghc2.png)
 
 ## Resumen
 
 En este ejercicio, ha utilizado GitHub Copilot con éxito para llevar a cabo tareas de refactorización de código y ha creado funciones de pruebas unitarias. La refactorización de código con la ayuda de Copilot hará que sus proyectos de codificación sean más eficientes y colaborativos.
 
-### Ha completado el laboratorio con éxito
+### Ha completado el laboratorio con éxito. Haga clic en **Siguiente >>** para continuar con el siguiente ejercicio.
