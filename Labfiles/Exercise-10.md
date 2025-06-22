@@ -64,9 +64,17 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/c37.png)
 
-1. Desde la ventana Explorador de VS Code, haga clic derecho en la carpeta llamada **ml-copilot-workshop** **(1)** y haga clic en **Nuevo archivo**. Nombre el archivo `Experiments.ipynb` **(2)** y verifique que su nuevo archivo se vea como se muestra a continuación:
+1. Haga clic en **Explorador (1)** y seleccione **Abrir Carpeta (2)** de la lista de opciones.
 
-   ![](../media/ex-8-create-file.png)
+      ![](../media/open-folder.png)
+
+1. En el Explorador de archivos, seleccione la carpeta **ml-copilot-workshop** en la sección Quick Access.
+
+     ![](../media/select-folder.png)
+
+1. En la ventana del explorador de VS Code, haga clic derecho en la carpeta **ml-copilot-workshop** y haga clic en **Nuevo archivo**. Asigne al archivo el nombre `Experiments.ipynb` y verifique que el nuevo archivo tenga el aspecto que se muestra a continuación:
+
+   ![](../media/new-file.png)
 
 1. Haga clic en el archivo, seleccione **+ Code**.
 
@@ -115,6 +123,8 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/ex9-birthyear.png)
 
+   >**Nota**: Si la sugerencia no aparece o el resultado no se genera como se esperaba, presione Ctrl+I. Pegue los comentarios, revise las sugerencias y acéptelas.
+   
    >**Nota**: Continúe haciendo clic en **+Código** después de cada comentario hasta la última tarea de este ejercicio.
 
 1. Escriba el siguiente comentario. Presione **Enter** para pasar a la siguiente línea y revisar la sugerencia, y presione **Tab** dos veces para aceptar la sugerencia y haga clic en el botón **Ejecutar** para ejecutar la celda.
@@ -167,6 +177,8 @@ Será capaz de completar las siguientes tareas:
    ![](../media/ex9-train-data.png)
 
    ![](../media/ex9-train-data-1.png)
+
+   >**Nota**: Si la sugerencia no aparece o el resultado no se genera como se esperaba, presione Ctrl+I. Pegue los comentarios, revise las sugerencias y acéptelas.
 
 ### Tarea 4: Visualización y Transformación de Datos
 
@@ -266,4 +278,4 @@ Entrenamiento de un modelo de ejemplo utilizando Random Forest.
 
 En este ejercicio, ha aprovechado con éxito GitHub Copilot para Machine Learning.
 
-### Ha completado el laboratorio con éxito
+### Ha completado el laboratorio con éxito. Haga clic en **Siguiente >>** para continuar con el siguiente ejercicio.
