@@ -37,17 +37,23 @@ Será capaz de completar las siguientes tareas:
 
 1. En la página **Import Settings**, haga clic en **Skip Import**.
 
+   ![](../media/skip-import-01.png)
+
 1. En el menú de la izquierda, haga clic en **Plugins** **(1)** y seleccione **Marketplace** **(2)**. Busque **GitHub Copilot** **(3)** y, una vez que encuentre el complemento **GitHub Copilot**, haga clic en **Install** **(4)**.
 
    ![](../media/install-plugin.png)
 
    >**Nota**: En el aviso de Plugins de Terceros, haga clic en **Aceptar**.
 
+   ![](../media/thirdparty-accept.png)
+
 1. Verifique que el complemento GitHub Copilot esté instalado. A continuación, debe reiniciar el IDE haciendo clic en **Restart IDE**. 
 
    ![](../media/restart-ide(1).png)
 
    Haga clic en **Restart** en la ventana emergente una vez más para reiniciar el IDE.
+
+   ![](../media/restart-ide-02.png)
 
 1. Una vez que se reinicie el IDE **IntelliJ Idea Community**, seleccione **Projects** **(1)** en el menú de la izquierda y haga clic en **New Project** **(2)**.
 
@@ -67,9 +73,9 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/icon.png)
 
-2. Haga clic en **Tools (1)**. Haga clic en **GitHub Copilot (2)**, y luego en **Open GitHub Copilot Chat (3)** y haga clic en **Login to GitHub**.
+2. Haga clic en **Tools (1)**. Haga clic en **GitHub Copilot (2)**, y luego en **Login to GitHub**.
 
-   ![](../media/c18.png)
+   ![](../media/githubcopilot-may-20.png)
 
 
 3. En el cuadro de diálogo **Sign in to GitHub**, para copiar el código del dispositivo y abrir la ventana de activación del dispositivo, haga clic en **Copy and Open**.
@@ -84,6 +90,11 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/c21.png)
 
+   >**Nota:** Si olvidó copiar el código del dispositivo, regrese a JetBrains IDE y copie el código como se muestra a continuación:
+
+    ![](../media/c21-02.png) 
+
+
 6. GitHub solicitará los permisos necesarios para GitHub Copilot. Para aprobar estos permisos, haga clic en **Authorize GitHub Copilot for JetBrains IDEs**.
 
    ![](../media/auth-jetbrains.png)
@@ -92,95 +103,31 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/Exercise-06-v2-04.png)
 
-8. Haga clic en **Authorize** en Copilot Chat.
-
-   ![](../media/c22.png)
-
-9. En el cuadro de diálogo **Sign in to GitHub**, para copiar el código del dispositivo y abrir la ventana de activación del dispositivo, haga clic en **Copy and Open**.
-
-   ![](../media/c23.png)   
-
-10. Haga clic en **Continue** en **Device Activation**.   
-
-   ![](../media/c20.png)   
-
-11. Haga clic en **Authorize GitHub Copilot for JetBrains IDEs**.   
-
-   ![](../media/c25.png)    
-
-12. Una vez que se hayan aprobado los permisos, su IDE JetBrains mostrará una confirmación.
-
-   ![](../media/c26.png)   
-
-13. En su IDE de JetBrains, haga clic derecho en **src (1)**, seleccione **New (2)** y haga clic en **File (3)** para crear un nuevo archivo Java (*.java) denominado **Test.java**.
+8. En su IDE de JetBrains, haga clic derecho en **src (1)**, seleccione **New (2)** y haga clic en **File (3)** para crear un nuevo archivo Java (*.java) denominado **Test.java**.
 
    ![](../media/ex6-test-java.png)
 
-14. Cree una clase escribiendo **class Test**. Copilot sugerirá un cuerpo de clase y puede presionar la tecla **Tab** para aceptar la sugerencia.
+9. Cree una clase escribiendo **class Test**. Copilot sugerirá un cuerpo de clase y puede presionar la tecla **Tab** para aceptar la sugerencia.
 
    ![](../media/ex6-class-test.png)
 
-15. Debajo de la llave de la función main, escriba el siguiente encabezado de función:
+10. Debajo de la llave de la función main, escriba el siguiente encabezado de función:
 
    ```
    int calculateDaysBetweenDates(
    ```
 
-16. GitHub Copilot sugerirá automáticamente todo el cuerpo de la función en texto gris, como se muestra a continuación. La sugerencia exacta puede variar.
+11. GitHub Copilot sugerirá automáticamente todo el cuerpo de la función en texto gris, como se muestra a continuación. La sugerencia exacta puede variar.
 
    ![](../media/ex6-days.png)
 
-17.   Presione **Tab** para aceptar la sugerencia.
+12.   Presione **Tab** para aceptar la sugerencia.
 
       >**Nota:** Si recibe algún error o si necesita más sugerencias, navegue a **Github Co-pilot** desde el panel derecho. Actualícelo si es necesario. Acepte la solución más relevante.
 
-      ![](../media/c27.png) 
+      ![](../media/new-githubcopilot-feb-22.png) 
       
       ![](../media/ex6-copilot-suggestion.png)   
-
-## Tarea 3: Obtener más sugerencias
-
-En ocasiones, es posible que no quiera usar ninguna de las sugerencias iniciales. Puede solicitarle a GitHub Copilot que devuelva más.
-
-1. Elimine la función que ingresó y escriba lo siguiente nuevamente:
-
-   ```
-   int calculateDaysBetweenDates(
-   ```
-
-1. Abra GitHub Copilot.
-
-   - En macOS, presione `Option + Enter`.
-
-   - En Windows o Linux, presione `Alt + Enter`.
-   
-   >**Nota**: Si `Alt + Enter` no funciona, seleccione Github Copilot en el panel derecho como se muestra en la siguiente imagen.
-
-   ![](../media/github.png)
-   
-1. Seleccione **Open Copilot**. GitHub Copilot abrirá una nueva pestaña y sugerirá múltiples opciones, como se muestra a continuación.
-
-   ![](../media/ex6-copilot-suggestion.png)
-
-1. Elija una sugerencia que desee utilizar y luego haga clic en **Accept solución**.
-
-1. Si no le gusta ninguna de las sugerencias devueltas, simplemente cierre la pestaña de sugerencias.
-
-## Tarea 4: Obtener código a partir de un comentario
-
-GitHub Copilot puede entender mucho más contexto que la mayoría de los asistentes de código y puede generar funciones completas a partir de algo tan simple como un comentario.
-
-1. Elimine la función que ingresó y escriba el siguiente comentario:
-   
-   ```
-   // Identify all the images without alternate text
-   // and add a red border to them
-   void process(java.util.List<Image> images) {
-   ```
-
-2. GitHub Copilot sugerirá automáticamente una implementación.
-  
-   ![](../media/ex6-image-suggestion.png)
 
       > **Felicitaciones** por completar la tarea. Ahora, es momento de validarla. Estos son los pasos:
       > - Presione el botón Validar para la tarea correspondiente. Si recibe un mensaje de éxito, puede continuar con la siguiente tarea.
@@ -193,4 +140,4 @@ GitHub Copilot puede entender mucho más contexto que la mayoría de los asisten
 
 En este ejercicio, ha configurado con éxito JetBrains IntelliJ Idea IDE para Java, ha instalado el complemento GitHub Copilot y ha explorado código básico de Java que generó las sugerencias usando Copilot.
 
-### Ha completado el laboratorio con éxito
+### Ha completado el laboratorio con éxito. Haga clic en **Siguiente >>** para continuar con el siguiente ejercicio.
