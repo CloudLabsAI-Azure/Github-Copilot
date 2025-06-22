@@ -27,6 +27,10 @@ Será capaz de completar las siguientes tareas:
    git clone https://github.com/MicrosoftDocs/mslearn-challenge-project-create-mini-game-with-copilot.git
    ```
 
+1. Haga clic en **Explorador** y seleccione **Abrir carpeta** en las opciones.
+
+1. En el Explorador de archivos, vaya a la sección **Quick access** y seleccione la carpeta **mini-game-with-copilot**.
+
 1. Abra el archivo **app.py**.
 
    ![](../media/vs19.png)
@@ -54,7 +58,7 @@ Será capaz de completar las siguientes tareas:
    ![](../media/vs16.png)
 
 
-### Tarea 3: Crear la lógica del juego
+### Tarea 2: Crear la lógica del juego
 
 1. Elimine el código generado en el paso anterior y luego use el atajo CTRL + I para solicitar a GitHub Copilot que realice una acción. Pegue el siguiente **comentario (1)** para obtener el código y haga clic en el botón Realizar solicitud **(Enter) (2)** y haga clic en **Aceptar (3)** para utilizar el código.
    
