@@ -37,7 +37,7 @@ Será capaz de completar las siguientes tareas:
 
     ![](../media/190625(16).png)
 
-1. En la parte inferior de la ventana de GitHub Copilot Chat, en el cuadro de texto **Ask Copilot a question or type / for topics**, escriba una pregunta relacionada con la codificación y luego presione Enter. Por ejemplo, escriba `Write an ARM code for deploying a storage account to Azure with the code explanation.`.
+1. En la parte inferior de la ventana de GitHub Copilot Chat, en el cuadro de texto **Ask Copilot a question or type / for topics**, escriba una pregunta relacionada con la codificación y luego presione Enter. Por ejemplo, escriba `Write an ARM code for deploying a storage account with Standard_LRS SKU to Azure with the code explanation`.
 
     ![](../media/hub63.png)
 
@@ -57,7 +57,7 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/hub61.png)
    
-1. Presiona `CTRL + S` para guardar el archivo. Asigne un nombre al archivo `arm.json` y haga clic en **Aceptar**
+1. Presione `CTRL + S` para guardar el archivo. Asigne al archivo el nombre `arm.json` y haga clic en **Aceptar**
 
    ![](../media/arm-save.png)
 
@@ -97,9 +97,10 @@ Será capaz de completar las siguientes tareas:
    - Grupo de Recursos - **Seleccione JumpVM-RG-<inject key="Deployment-id" enableCopy="false"/> (2)**
    - Región - **Seleccione la región predeterminada. (3)**
    - Nombre de la Cuenta de Almacenamiento - **storage<inject key="Deployment-id" enableCopy="false"/> (4)**
-   - Haga clic en **Review + Create (5)**
+   - Ubicación - Manténgala **igual que la región** (5)
+   - Haga clic en **Review + Create (6)**
 
-     ![](../media/custom-template-0303.png)
+     ![](../media/custom-template-0303-1.png)
 
         > **Nota:** En caso de que se muestre un nombre de la cuenta de almacenamiento, utilice el valor predeterminado.
 
@@ -129,12 +130,12 @@ Será capaz de completar las siguientes tareas:
 
     > **Nota**: Si su pregunta está fuera del alcance de GitHub Copilot Chat, se le indicará y es posible que le sugiera una pregunta alternativa para hacer.
    
-4. Puede ver la respuesta de GitHub Copilot en el chat. Para insertar código en un nuevo archivo, haga clic en los **puntos suspensivos (...)** **1** y seleccione **Insertar en nuevo archivo** **2**.
+4. Puede ver la respuesta de GitHub Copilot en el chat. Para insertar código en un nuevo archivo, haga clic en los **puntos suspensivos (...)** **1** y seleccione **Insertar en nuevo archivo** **(2)**.
    
    ![](../media/terraform-code2-0303.png)
 
 
-1. Presione `CTRL + S` para guardar el archivo. Asigne un nombre al archivo `terraform.tf` y haga clic en **OK**
+1. Presione `CTRL + S` para guardar el archivo. Asigne al archivo el nombre `terraform.tf` y haga clic en **OK**
    
       ![](../media/terraform-save.png)
    
@@ -158,10 +159,12 @@ Será capaz de completar las siguientes tareas:
 
       ![](../media/psscript2-0303.png)
 
-1. Presione `CTRL + S` para guardar el archivo y verá una recomendación para instalar la extensión `PowerShell`. Haga clic en Instalar. Nombre el archivo `powershell.ps1` y haga clic en **Aceptar**.
+1. Presione `CTRL + S` para guardar el archivo y verá una recomendación para instalar la extensión `PowerShell`. Haga clic en Instalar. Nombre el archivo como `powershell.ps1` y haga clic en **Aceptar**.
 
    ![](../media/ps-save.png)
 
 ### Resumen
 
 En este ejercicio, ha utilizado Copilot para automáticamente generar código en los lenguajes de programación ARM, Terraform y PowerShell.
+
+### Ha completado el laboratorio con éxito. Haga clic en **Siguiente >>** para continuar con el siguiente ejercicio.
