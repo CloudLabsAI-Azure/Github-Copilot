@@ -78,4 +78,4 @@ Podrá completar las siguientes tareas:
 
 En este ejercicio, ha generado con éxito un documento mediante GitHub Copilot Chat y ha enviado el código a su repositorio.
 
-### Ha completado el laboratorio con éxito
+### Ha completado el laboratorio con éxito. Haga clic en **Siguiente >>** para continuar con el siguiente ejercicio.
