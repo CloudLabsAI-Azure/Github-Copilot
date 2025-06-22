@@ -19,7 +19,9 @@ Será capaz de completar las siguientes tareas:
 
 1. Vuelva a Visual Studio Code y, desde el codespace en la ventana Explorador de VS Code, cree un nuevo archivo.
 
-    ![](../media/chat-code-new.png)
+>**Nota:** El ejercicio anterior lo realizó en una nueva ventana, así que vuelva a la ventana del codespace.
+
+![](../media/chat-code-new.png)
 
 1. Nombre el archivo `demo.sql`, escriba el siguiente comentario y presione **Enter**:
 
@@ -31,7 +33,7 @@ Será capaz de completar las siguientes tareas:
 
 1. Observe cómo Copilot puede generar las siguientes líneas de código.
 
-1. Haga clic en `Tab` y presione **Enter**.
+1. Presione `Tab` y presione **Enter**.
 
 1. Continúe con las filas. Escriba el siguiente comentario y presione **Enter**.
 
@@ -41,7 +43,7 @@ Será capaz de completar las siguientes tareas:
 
     ![](../media/c35.png)   
 
-1. Haga clic en `Tab` y presione **Enter**.
+1. Presione `Tab` y presione **Enter**.
 
 1. Ejecute la consulta para mostrar la tabla. Escriba el comentario a continuación y presione **Enter**.
 
@@ -51,30 +53,30 @@ Será capaz de completar las siguientes tareas:
 
     ![](../media/c36.png)   
 
-1. Haga clic en Entrar y haga clic en `Tab` para seleccionar la sugerencia.
+1. Presione Enter y luego `Tab` para seleccionar la sugerencia.
 
 1. Presione `Ctrl+S` para guardar el archivo.
 
-1. Haz clic en el icono de inicio de Windows, busca **SSMS (1)** y luego selecciona **SQL Server Management Studio 21 (2)**.
+1. Haga clic en el icono de inicio de Windows, busque **SSMS (1)** y luego seleccione **SQL Server Management Studio 21 (2)**.
 
    ![](../media/SSMS.png)
 
-2. En la página de inicio de sesión, selecciona **Skip and add accounts later**.
+2. En la página de inicio de sesión, seleccione **Skip and add accounts later**.
 
    ![](../media/SkipSignIn.png)
 
-3. En la ventana emergente **New connection dialog experience**, haz clic en **Yes**.
+3. En la ventana emergente **New connection dialog experience**, haga clic en **Yes**.
 
    ![](../media/PopUp.png)
 
-   - Espera un momento hasta que la página se cargue.
+   - Espere un momento hasta que la página se cargue.
 
-4. Asegúrate de que se agreguen los siguientes detalles:
+4. Asegúrese de que se agreguen los siguientes detalles:
 
    - **Server name:** **labvm-<inject key="Deployment-id" enableCopy="false"/>\\SQLEXPRESS (1)**
    - **Authentication:** **Windows Authentication (2)**
    - **Encryption:** Marca la casilla **Trust server certificate (3)**
-   - Haz clic en **Connect (4)**
+   - Haga clic en **Connect (4)**
 
    ![](../media/Connect.png)
      
@@ -94,7 +96,7 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/hub113.png)
    
-1. Puede observar cómo procesa cada bloque de código y muestra la tabla Clientes.
+1. Puede observar cómo procesa cada bloque de código y muestra la tabla Customers.
 
    ![](../media/hub40.png)   
    
@@ -133,4 +135,4 @@ Será capaz de completar las siguientes tareas:
 
 En este ejercicio, ha generado código para SQL y YAML con éxito usando comentarios con la ayuda de GitHub Copilot.
 
-### Ha completado el laboratorio con éxito
+### Ha completado el laboratorio con éxito. Haga clic en **Siguiente >>** para continuar con el siguiente ejercicio.
