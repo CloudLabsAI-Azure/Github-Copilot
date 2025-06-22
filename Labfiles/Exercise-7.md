@@ -97,7 +97,7 @@ Será capaz de completar las siguientes tareas:
 
    ![Imagen1](../media/close-editor.png)
 
-1. Abra el símbolo del sistema desde la barra de búsqueda de Windows y navegue hasta la ruta `C:\Users\Azureuser
+1. Abra el símbolo del sistema desde la barra de búsqueda de Windows y navegue hasta la ruta `C:\Users\Azureuser`
     
 1. Ejecute el siguiente comando que se indica a continuación para clonar el repositorio de GitHub de Accessible University.
 
@@ -133,7 +133,7 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/before1.png)
 
-1. Ahora haz clic en el botón de Extensiones (1) en la barra de herramientas del navegador, selecciona Accessibility Insights for Web (2), haz clic en **Aceptar (3)** y luego haz clic en **FastPass (4)**. Se abrirá en una nueva ventana emergente.
+1. Ahora haz clic en el botón de **Extensiones (1)** en la barra de herramientas del navegador, selecciona **Accessibility Insights for Web (2)**, haz clic en **Aceptar (3)** y luego haz clic en **FastPass (4)**. Se abrirá en una nueva ventana emergente.
 
    - **FastPass**: [FastPass](https://accessibilityinsights.io/docs/web/getstarted/fastpass/) es un proceso ligero de dos pasos que ayuda a los desarrolladores a identificar problemas de accesibilidad comunes y de alto impacto en menos de cinco minutos.
 
@@ -309,4 +309,4 @@ Será capaz de completar las siguientes tareas:
 
 En este ejercicio, ha integrado con éxito Accessibility Insights for Web en Microsoft Edge y lo ha utilizado para identificar problemas de accesibilidad en la página de inicio de AU. Aprovechando GitHub Copilot Chat en Visual Studio Code, ha generado e implementado soluciones de código para corregir estos problemas. Este proceso garantizó que el sitio web cumpliera con los estándares de accesibilidad, mejorando la usabilidad y la inclusión de todos los usuarios, incluidos aquellos con discapacidades. Consulte el enlace para obtener más información sobre [Accessible University](https://www.washington.edu/accesscomputing/AU/).
 
-### Ha completado el laboratorio con éxito
+### Ha completado el laboratorio con éxito. Haga clic en **Siguiente >>** para continuar con el siguiente ejercicio.
