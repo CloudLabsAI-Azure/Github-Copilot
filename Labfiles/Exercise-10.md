@@ -90,7 +90,29 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/ex-8-import-lib-1.png)
 
-  >**Nota**: Si la sugerencia no aparece, presione **Ctrl+I**, pegue los comentarios, revise las sugerencias y luego acéptelas.
+     >**Nota**: Si la sugerencia no aparece, presione **Ctrl+I**, pegue los comentarios, revise las sugerencias y luego acéptelas.
+
+     >**Nota**: Asegúrese de que todas las bibliotecas sugeridas por Copilot se hayan importado correctamente antes de continuar.
+   
+      ```
+      # Import libraries with respect to loading data and creating a random forest model
+      import pandas as pd
+      import numpy as np
+      from sklearn.ensemble import RandomForestClassifier
+      from sklearn.model_selection import train_test_split
+      from sklearn import metrics
+      import matplotlib.pyplot as plt
+      import seaborn as sns
+      from sklearn.metrics import confusion_matrix
+      from sklearn.metrics import classification_report
+      from sklearn.metrics import roc_curve, auc
+      from sklearn.metrics import roc_auc_score
+      from sklearn.metrics import accuracy_score
+      from sklearn.metrics import precision_recall_curve
+      from sklearn.metrics import auc
+      from sklearn.metrics import average_precision_score
+      from sklearn.metrics import f1_score
+      ```
 
 1. Acepte todas las sugerencias para importar las bibliotecas como se muestra en la siguiente captura de pantalla **(1)** y haga clic en el botón **Ejecutar** **(2)** para ejecutar la celda. Haga clic en `+ Código` **(3)** para agregar la nueva celda.
 
