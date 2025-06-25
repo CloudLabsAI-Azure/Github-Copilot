@@ -26,12 +26,11 @@ Será capaz de completar las siguientes tareas:
 
 2. Nombre el archivo como `skills.js` y compruebe que su nuevo archivo se vea como se muestra a continuación:
     
-    > **Nota:** Crea el archivo `skill.js` fuera de la carpeta `.devcontainer`.
+   ![](../media/name-skills.png)
 
+    >**Nota:** Crea el archivo `skill.js` fuera de la carpeta `.devcontainer`.
 
-      ![](../media/name-skills.png)
-
-3. En el archivo skills.js, escriba el siguiente encabezado de función y pulse `Enter` para ver las sugerencias de código.
+4. En el archivo skills.js, escriba el siguiente encabezado de función y pulse `Enter` para ver las sugerencias de código.
 
    ```
    // function to covert Celsius
@@ -42,7 +41,7 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/skillsjs1-0303.png)
 
-4. Presione `Tab` para aceptar la sugerencia.
+5. Presione `Tab` para aceptar la sugerencia.
 
    ![](../media/py61.png)
 

@@ -107,7 +107,7 @@ Será capaz de completar las siguientes tareas:
 
    ![](../media/ex6-test-java.png)
 
-9. Cree una clase escribiendo **class Test**. Copilot sugerirá un cuerpo de clase y puede presionar la tecla **Tab** para aceptar la sugerencia.
+9. Cree una clase escribiendo class **class Test**. Copilot sugerirá un cuerpo de clase y puede presionar la tecla **Tab** para aceptar la sugerencia.
 
    ![](../media/ex6-class-test.png)
 
